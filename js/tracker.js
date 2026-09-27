@@ -5,6 +5,51 @@ const MEDIAPIPE_URL = `https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@${ME
 const HAND_MODEL_URL =
   'https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task';
 
+let visionPromise = null;
+
+function loadVision() {
+  visionPromise ??= (async () => {
+    const { FilesetResolver, HandLandmarker } = await import(`${MEDIAPIPE_URL}/vision_bundle.mjs`);
+    const fileset = await FilesetResolver.forVisionTasks(`${MEDIAPIPE_URL}/wasm`);
+    return { fileset, HandLandmarker };
+  })();
+  visionPromise.catch(() => (visionPromise = null)); // allow retry after a network failure
+  return visionPromise;
+}
+
+// On machines without graphics acceleration the browser emulates the GPU in
+// software, which makes MediaPipe's GPU mode about 10x slower than its CPU mode.
+function hasHardwareGpu() {
+  try {
+    const gl = document.createElement('canvas').getContext('webgl2');
+    if (!gl) return false;
+    const info = gl.getExtension('WEBGL_debug_renderer_info');
+    const renderer = info ? gl.getParameter(info.UNMASKED_RENDERER_WEBGL) : '';
+    return !/swiftshader|llvmpipe|software|basic render/i.test(renderer);
+  } catch {
+    return false;
+  }
+}
+
+// runningMode is 'VIDEO' for the live camera, 'IMAGE' for stepping through video files.
+export async function createHandLandmarker(runningMode) {
+  const { fileset, HandLandmarker } = await loadVision();
+  const options = (delegate) => ({
+    baseOptions: { modelAssetPath: HAND_MODEL_URL, delegate },
+    runningMode,
+    numHands: 2,
+    minHandDetectionConfidence: 0.5,
+    minHandPresenceConfidence: 0.5,
+    minTrackingConfidence: 0.5,
+  });
+  if (!hasHardwareGpu()) return HandLandmarker.createFromOptions(fileset, options('CPU'));
+  try {
+    return await HandLandmarker.createFromOptions(fileset, options('GPU'));
+  } catch {
+    return await HandLandmarker.createFromOptions(fileset, options('CPU'));
+  }
+}
+
 export class HandTracker {
   constructor(video, canvas) {
     this.video = video;
@@ -20,21 +65,8 @@ export class HandTracker {
   }
 
   async load() {
-    const { FilesetResolver, HandLandmarker } = await import(`${MEDIAPIPE_URL}/vision_bundle.mjs`);
-    const fileset = await FilesetResolver.forVisionTasks(`${MEDIAPIPE_URL}/wasm`);
-    const options = (delegate) => ({
-      baseOptions: { modelAssetPath: HAND_MODEL_URL, delegate },
-      runningMode: 'VIDEO',
-      numHands: 2,
-      minHandDetectionConfidence: 0.5,
-      minHandPresenceConfidence: 0.5,
-      minTrackingConfidence: 0.5,
-    });
-    try {
-      this.landmarker = await HandLandmarker.createFromOptions(fileset, options('GPU'));
-    } catch {
-      this.landmarker = await HandLandmarker.createFromOptions(fileset, options('CPU'));
-    }
+    const { HandLandmarker } = await loadVision();
+    this.landmarker = await createHandLandmarker('VIDEO');
     this.connections = HandLandmarker.HAND_CONNECTIONS;
   }
 

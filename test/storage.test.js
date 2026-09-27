@@ -26,3 +26,15 @@ test('import rejects unrelated files and drops malformed samples', () => {
   );
   assert.deepEqual(parsed.map((s) => s.label), ['ok']);
 });
+
+test('packed storage format round-trips', async () => {
+  const { packSamples, unpackSamples } = await import('../js/storage.js');
+  const samples = [
+    { label: 'a', features: Float32Array.from([1, 2, 3]) },
+    { label: 'b', features: Float32Array.from([4, 5, 6]) },
+  ];
+  const back = unpackSamples(packSamples(samples), 3);
+  assert.deepEqual(back.map((s) => s.label), ['a', 'b']);
+  assert.deepEqual(Array.from(back[1].features), [4, 5, 6]);
+  assert.deepEqual(unpackSamples(packSamples(samples), 4), []);
+});

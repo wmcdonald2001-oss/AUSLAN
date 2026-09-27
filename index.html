@@ -82,16 +82,63 @@
     <!-- Teaching the app signs -->
     <section class="card train-card" aria-labelledby="train-heading">
       <h2 id="train-heading">Teach signs</h2>
-      <p class="fine">
-        Each person signs a little differently, so the app learns from you. Type the English word or letter,
-        press <strong>Record</strong>, then hold the sign for about two seconds. Record each sign 2–3 times,
-        from slightly different angles. Single letters (A–Z) are treated as fingerspelling and join into words.
-      </p>
-      <form class="train-form" id="train-form">
-        <input id="label-input" type="text" autocomplete="off" placeholder="Word or letter, e.g. hello or A" aria-label="Sign meaning" required maxlength="40">
-        <button id="record-btn" class="btn primary" type="submit" disabled>Record</button>
-      </form>
-      <div class="quick-add" id="quick-add" aria-label="Suggestions"></div>
+
+      <div class="tabs" role="tablist" aria-label="How to teach signs">
+        <button type="button" role="tab" id="tab-video" aria-controls="panel-video" aria-selected="true">From videos</button>
+        <button type="button" role="tab" id="tab-live" aria-controls="panel-live" aria-selected="false" tabindex="-1">Sign it myself</button>
+      </div>
+
+      <div class="tab-panel" id="panel-video" role="tabpanel" aria-labelledby="tab-video">
+        <p class="fine">
+          Give the app short videos of someone signing, one sign per video. It watches each one and learns the sign.
+          The file name is used as the meaning, so name files like <code>hello.mp4</code>, <code>thank-you.mp4</code>
+          or <code>A.mp4</code> for a fingerspelled letter. Several videos of the same sign (<code>hello-1.mp4</code>,
+          <code>hello-2.mp4</code>) make it more reliable. You don't need to open the camera for this step.
+        </p>
+        <div class="video-pickers">
+          <label class="btn primary file-btn">Choose videos<input id="video-files" type="file" accept="video/*" multiple hidden></label>
+          <label class="btn file-btn">Choose a folder<input id="video-folder" type="file" webkitdirectory multiple hidden></label>
+        </div>
+        <ul class="video-queue" id="video-queue" aria-label="Videos to learn"></ul>
+        <div class="video-actions" id="video-actions" hidden>
+          <label class="toggle"><input type="checkbox" id="mirror-toggle" checked> Also learn the left-handed version</label>
+          <div class="video-buttons">
+            <button id="video-clear-btn" class="btn" type="button">Remove all</button>
+            <button id="video-learn-btn" class="btn primary" type="button">Learn these signs</button>
+          </div>
+        </div>
+        <div class="progress" id="video-progress" hidden>
+          <div class="progress-text" id="video-progress-text"></div>
+          <progress id="video-progress-bar" max="1" value="0"></progress>
+          <button id="video-cancel-btn" class="btn small" type="button">Cancel</button>
+        </div>
+        <details class="sources">
+          <summary>Where can I get sign videos?</summary>
+          <ul>
+            <li><a href="https://auslan.org.au" target="_blank" rel="noopener">Auslan Signbank</a> has a video for most signs.
+              Its content is licensed <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a>
+              (non-commercial, no derivatives). Personal use should be fine, but ask Signbank before sharing sign sets you make from their videos.</li>
+            <li>Research video collections such as <a href="https://uq-cvlab.github.io/MM-WLAuslan-Dataset/" target="_blank" rel="noopener">MM-WLAuslan</a>
+              (3,215 signs by 73 signers) can be requested for research use. Check their terms before using them.</li>
+            <li>A Deaf friend, teacher or community group could record a few clips on a phone. Clips from real people
+              you'll talk with work best, and a few seconds each is plenty.</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="tab-panel" id="panel-live" role="tabpanel" aria-labelledby="tab-live" hidden>
+        <p class="fine">
+          Start the interpreter, type the English word or letter, press <strong>Record</strong>, then hold the sign
+          for about two seconds. Record each sign 2–3 times, from slightly different angles.
+        </p>
+        <form class="train-form" id="train-form">
+          <input id="label-input" type="text" autocomplete="off" placeholder="Word or letter, e.g. hello or A" aria-label="Sign meaning" required maxlength="40">
+          <button id="record-btn" class="btn primary" type="submit" disabled>Record</button>
+        </form>
+        <div class="quick-add" id="quick-add" aria-label="Suggestions"></div>
+      </div>
+
+      <h3 class="known-heading">Signs the app knows <span id="sign-total" class="muted"></span></h3>
       <ul class="sign-list" id="sign-list"></ul>
       <div class="train-actions">
         <button id="export-btn" class="btn" type="button">Export signs</button>

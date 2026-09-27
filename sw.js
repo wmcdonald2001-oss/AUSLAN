@@ -1,7 +1,7 @@
 // Caches the app and the hand-tracking model so the interpreter keeps working
 // with a poor or missing internet connection after the first visit.
 
-const CACHE = 'auslan-interpreter-v1';
+const CACHE = 'auslan-interpreter-v2';
 const APP_SHELL = [
   './',
   'index.html',
@@ -12,6 +12,7 @@ const APP_SHELL = [
   'js/speech.js',
   'js/storage.js',
   'js/tracker.js',
+  'js/videoLearning.js',
   'manifest.webmanifest',
   'icons/icon.svg',
 ];

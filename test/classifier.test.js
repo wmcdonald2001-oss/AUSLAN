@@ -77,3 +77,13 @@ test('phrase joins fingerspelled letters into words', () => {
   p.clear();
   assert.ok(p.isEmpty);
 });
+
+test('still accepts a sign when all examples were near-identical', () => {
+  const c = new SignClassifier();
+  const still = extractFeatures([makeHand(0.5, 0.5, 0.1, 0)], right);
+  c.addSamples('victory', [still, still, still]);
+  c.addSamples('fist', frames(1));
+  // Someone else's version of the same hand shape: slightly different curl.
+  const other = extractFeatures([makeHand(0.5, 0.5, 0.1, 0.08)], right);
+  assert.equal(c.predict(other)?.label, 'victory');
+});

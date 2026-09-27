@@ -17,6 +17,8 @@ function median(values) {
   return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
 }
 
+const MIN_TYPICAL_DISTANCE = 0.25;
+
 export class SignClassifier {
   constructor({ k = 5, strictness = 2.5 } = {}) {
     this.k = k;
@@ -38,9 +40,10 @@ export class SignClassifier {
     this.calibrate();
   }
 
-  addSamples(label, featureList) {
+  // Pass { calibrate: false } when adding many signs in a row, then call calibrate() once.
+  addSamples(label, featureList, { calibrate = true } = {}) {
     for (const f of featureList) this.samples.push({ label, features: Float32Array.from(f) });
-    this.calibrate();
+    if (calibrate) this.calibrate();
   }
 
   removeLabel(label) {
@@ -73,8 +76,12 @@ export class SignClassifier {
     this.typicalDistance = median(nearest);
   }
 
+  // When examples barely vary (e.g. one steady video per sign) the typical
+  // distance is tiny, which would reject the same sign made by anyone else.
+  // The floor keeps a sensible minimum tolerance; different hand shapes are
+  // usually 1.5+ apart in feature space.
   get threshold() {
-    return (this.typicalDistance ?? 1) * this.strictness;
+    return Math.max(this.typicalDistance ?? 1, MIN_TYPICAL_DISTANCE) * this.strictness;
   }
 
   // Returns { label, confidence, distance } or null when nothing is close enough.
