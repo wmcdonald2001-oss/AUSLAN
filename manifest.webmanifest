@@ -1,0 +1,13 @@
+{
+  "name": "AUSLAN Interpreter",
+  "short_name": "AUSLAN",
+  "description": "Two-way AUSLAN conversation helper: signs to speech, and speech or text to captions.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e1413",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

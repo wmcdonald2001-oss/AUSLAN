@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AUSLAN Interpreter</title>
+  <meta name="description" content="Two-way AUSLAN conversation helper: signs to speech, and speech or text to captions.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="icons/icon.svg" alt="" width="32" height="32">
+      <h1>AUSLAN Interpreter</h1>
+    </div>
+    <div class="topbar-actions">
+      <span id="status" class="status" role="status">Not started</span>
+      <button id="settings-btn" class="icon-btn" type="button" aria-label="Settings" title="Settings">⚙︎</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Signer side: camera and live recognition -->
+    <section class="card camera-card" aria-labelledby="camera-heading">
+      <h2 id="camera-heading" class="visually-hidden">Camera</h2>
+      <div class="stage mirrored" id="stage">
+        <video id="video" playsinline muted></video>
+        <canvas id="overlay"></canvas>
+        <div class="stage-placeholder" id="placeholder">
+          <p>Point the camera at the person signing. Keep both hands and upper body in view.</p>
+          <button id="start-btn" class="btn primary large" type="button">Start interpreter</button>
+          <p class="fine">The camera and microphone stay on this device. Nothing is uploaded.</p>
+        </div>
+        <div class="live-sign" id="live-sign" hidden></div>
+        <div class="countdown" id="countdown" hidden></div>
+      </div>
+
+      <div class="camera-controls">
+        <button id="switch-camera-btn" class="btn" type="button" disabled>Switch camera</button>
+        <label class="toggle"><input type="checkbox" id="recognise-toggle" checked> Recognise signs</label>
+      </div>
+
+      <div class="phrase">
+        <div class="phrase-label">Signed so far</div>
+        <div class="phrase-text" id="phrase-text" aria-live="polite"><span class="muted">Signs will appear here…</span></div>
+        <div class="phrase-actions">
+          <button id="undo-btn" class="btn" type="button">Undo</button>
+          <button id="clear-btn" class="btn" type="button">Clear</button>
+          <button id="speak-phrase-btn" class="btn primary" type="button">Say it</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conversation: captions, transcript and text input -->
+    <section class="card convo-card" aria-labelledby="convo-heading">
+      <div class="convo-header">
+        <h2 id="convo-heading">Conversation</h2>
+        <button id="mic-btn" class="btn mic" type="button" aria-pressed="false">🎤 Listen</button>
+      </div>
+
+      <div class="caption" id="caption" aria-live="polite">
+        <span class="muted">When the hearing person speaks, their words appear here in large text.</span>
+      </div>
+      <div class="interim" id="interim"></div>
+
+      <ol class="transcript" id="transcript" aria-label="Transcript"></ol>
+
+      <form class="composer" id="composer">
+        <div class="segmented" role="radiogroup" aria-label="Who is typing">
+          <label><input type="radio" name="who" value="signer" checked><span>Signer</span></label>
+          <label><input type="radio" name="who" value="hearing"><span>Hearing</span></label>
+        </div>
+        <input id="text-input" type="text" autocomplete="off" placeholder="Type a message…" aria-label="Message">
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+      <label class="toggle"><input type="checkbox" id="speak-toggle" checked> Speak signer's messages aloud</label>
+    </section>
+
+    <!-- Teaching the app signs -->
+    <section class="card train-card" aria-labelledby="train-heading">
+      <h2 id="train-heading">Teach signs</h2>
+      <p class="fine">
+        Each person signs a little differently, so the app learns from you. Type the English word or letter,
+        press <strong>Record</strong>, then hold the sign for about two seconds. Record each sign 2–3 times,
+        from slightly different angles. Single letters (A–Z) are treated as fingerspelling and join into words.
+      </p>
+      <form class="train-form" id="train-form">
+        <input id="label-input" type="text" autocomplete="off" placeholder="Word or letter, e.g. hello or A" aria-label="Sign meaning" required maxlength="40">
+        <button id="record-btn" class="btn primary" type="submit" disabled>Record</button>
+      </form>
+      <div class="quick-add" id="quick-add" aria-label="Suggestions"></div>
+      <ul class="sign-list" id="sign-list"></ul>
+      <div class="train-actions">
+        <button id="export-btn" class="btn" type="button">Export signs</button>
+        <label class="btn file-btn">Import signs<input id="import-input" type="file" accept="application/json,.json" hidden></label>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="settings-dialog">
+    <form method="dialog" class="settings">
+      <h2>Settings</h2>
+      <label>Voice
+        <select id="voice-select"></select>
+      </label>
+      <label>Speaking speed <output id="rate-out"></output>
+        <input id="rate-input" type="range" min="0.6" max="1.6" step="0.1">
+      </label>
+      <label>Say the phrase automatically after hands are lowered for <output id="pause-out"></output>
+        <input id="pause-input" type="range" min="0" max="6" step="0.5">
+      </label>
+      <label>Recognition strictness <output id="strict-out"></output>
+        <input id="strict-input" type="range" min="1.5" max="5" step="0.25">
+        <span class="fine">Lower = only very close matches. Higher = more forgiving, but more mistakes.</span>
+      </label>
+      <label>Caption size <output id="caption-out"></output>
+        <input id="caption-input" type="range" min="1.5" max="4" step="0.25">
+      </label>
+      <div class="settings-actions">
+        <button id="delete-all-btn" class="btn danger" type="button">Delete all signs</button>
+        <button class="btn primary" value="close">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="alert" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

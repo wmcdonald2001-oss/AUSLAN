@@ -1,0 +1,14 @@
+{
+  "name": "auslan-interpreter",
+  "version": "0.1.0",
+  "description": "Two-way AUSLAN conversation helper: signs to speech, and speech or text to captions.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
