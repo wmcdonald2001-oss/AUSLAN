@@ -3,6 +3,62 @@
  "region": "Skull & cranial cavity",
  "questions": [
   {
+   "t": "NSA sample question",
+   "y": 1,
+   "src": "NSA sample",
+   "s": "The foramen rotundum",
+   "o": [
+    [
+     "opens into the pterygopalatine fossa",
+     1,
+     "The maxillary nerve passes forward through it into the upper part of the pterygopalatine fossa."
+    ],
+    [
+     "transmits the accessory meningeal artery",
+     0,
+     "The accessory meningeal artery enters through foramen ovale (Last's: its chief supply goes to the trigeminal ganglion)."
+    ],
+    [
+     "transmits the maxillary division of the trigeminal nerve",
+     1,
+     "Its only significant content."
+    ],
+    [
+     "lies medial to the anterior clinoid process",
+     0,
+     "It lies in the root of the greater wing below the medial end of the superior orbital fissure, inferolateral to the anterior clinoid process. Last's: the lateral wall of the cavernous sinus attaches at its lateral margin, so it lies outside the line of the sinus and clinoid. The optic canal is the opening medial to the clinoid."
+    ]
+   ]
+  },
+  {
+   "t": "NSA sample question",
+   "y": 1,
+   "src": "NSA sample",
+   "s": "The zygomatic bone articulates with the",
+   "o": [
+    [
+     "frontal bone",
+     1,
+     "At the frontozygomatic suture, a palpable landmark."
+    ],
+    [
+     "temporal bone",
+     1,
+     "Its temporal process meets the zygomatic process of the temporal bone in the arch."
+    ],
+    [
+     "maxilla",
+     1,
+     "Via the zygomatic process of the maxilla, the anterior pillar of the arch."
+    ],
+    [
+     "greater wing of the sphenoid",
+     1,
+     "In the lateral wall of the orbit. The zygomatic bone articulates with these four bones only."
+    ]
+   ]
+  },
+  {
    "t": "Foramina of the middle cranial fossa",
    "y": 1,
    "s": "Concerning the foramen rotundum:",
@@ -436,7 +492,7 @@
   },
   {
    "t": "Neonatal skull",
-   "y": 2,
+   "y": 1,
    "s": "Concerning the skull at birth:",
    "o": [
     [

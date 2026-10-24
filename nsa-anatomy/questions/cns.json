@@ -45,9 +45,9 @@
      "AICA supplies the lower pons, the inferolateral cerebellum and usually gives the labyrinthine artery. It does not reach the capsule."
     ],
     [
-     "Anterior choroidal artery",
-     1,
-     "The anterior choroidal artery supplies the lower part of the posterior limb and the retrolentiform part."
+     "Superior cerebellar artery",
+     0,
+     "It supplies the upper surface of the cerebellum and parts of the midbrain, not the internal capsule."
     ],
     [
      "Posterior inferior cerebellar artery",
@@ -85,7 +85,7 @@
   },
   {
    "t": "Thalamus",
-   "y": 2,
+   "y": 1,
    "s": "The lateral geniculate body:",
    "o": [
     [
@@ -355,7 +355,7 @@
   },
   {
    "t": "Commissures",
-   "y": 2,
+   "y": 1,
    "s": "Regarding the commissural fibres:",
    "o": [
     [
@@ -558,9 +558,9 @@
      "The dorsal columns are uncrossed in the cord, so proprioception and vibration loss are ipsilateral."
     ],
     [
-     "Contralateral loss of pain and temperature beginning one or two segments below the lesion",
-     1,
-     "The anterolateral tract has crossed, so the loss is contralateral and begins a few segments below, because crossing is oblique."
+     "Ipsilateral loss of pain and temperature below the lesion",
+     0,
+     "Pain and temperature loss is contralateral, because the anterolateral tract has already crossed."
     ],
     [
      "Bilateral complete loss of light touch",

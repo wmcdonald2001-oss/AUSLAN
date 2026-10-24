@@ -1,0 +1,331 @@
+{
+ "code": "cn",
+ "region": "Cranial nerves",
+ "difficulty": 2,
+ "questions": [
+  {
+   "t": "Facial nerve and colliculus",
+   "y": 2,
+   "s": "Intrinsic fibres arising from the facial motor nucleus:",
+   "o": [
+    [
+     "Loop around the abducent nucleus forming the internal genu",
+     1,
+     "The genu and abducent nucleus together raise the facial colliculus."
+    ],
+    [
+     "Pass through the red nucleus",
+     0,
+     "That is the oculomotor nerve."
+    ],
+    [
+     "Leave the brainstem through the inferior cerebellar peduncle",
+     0,
+     "They emerge at the lower border of the pons, above the olive."
+    ],
+    [
+     "Arise from a nucleus lying in the floor of the fourth ventricle directly beneath the colliculus",
+     0,
+     "Last's: the facial nucleus lies deep in the reticular formation of the lower pons. The abducent nucleus, not the facial nucleus, lies beneath the colliculus."
+    ]
+   ]
+  },
+  {
+   "t": "Oculomotor nucleus",
+   "y": 2,
+   "s": "Regarding the oculomotor nuclear complex:",
+   "o": [
+    [
+     "The superior rectus subnucleus supplies the contralateral superior rectus",
+     1,
+     "Its fibres cross, so a nuclear lesion causes bilateral superior rectus weakness."
+    ],
+    [
+     "Each levator palpebrae is supplied from its own side only",
+     0,
+     "Levator is supplied from a single midline central caudal subnucleus to both sides, so nuclear lesions give bilateral ptosis."
+    ],
+    [
+     "The Edinger-Westphal nucleus lies caudal to the somatic nucleus",
+     0,
+     "Last's: it lies cranial (rostral) to the somatic part."
+    ],
+    [
+     "A unilateral nuclear lesion can produce isolated unilateral ptosis",
+     0,
+     "Because levator is supplied from a single midline subnucleus, ptosis from a nuclear lesion is bilateral."
+    ]
+   ]
+  },
+  {
+   "t": "Trochlear nerve",
+   "y": 2,
+   "s": "A right trochlear nucleus lesion produces:",
+   "o": [
+    [
+     "Weakness of the right superior oblique",
+     0,
+     "Trochlear fibres decussate, so the right nucleus supplies the left superior oblique."
+    ],
+    [
+     "Weakness of the left superior oblique",
+     1,
+     "Last's: each trochlear nerve supplies the superior oblique of the opposite side."
+    ],
+    [
+     "Head tilt towards the left",
+     0,
+     "Patients tilt the head away from the side of the weak superior oblique, i.e. towards the right here."
+    ],
+    [
+     "Vertical diplopia worse on looking down and to the right",
+     1,
+     "The left superior oblique depresses the adducted left eye, which occurs on looking down and right."
+    ]
+   ]
+  },
+  {
+   "t": "Abducent nerve",
+   "y": 1,
+   "s": "Regarding the abducent nerve in the posterior fossa and petrous apex:",
+   "o": [
+    [
+     "It runs upward between the anterior inferior cerebellar artery and the pons",
+     1,
+     "Last's: in the pontine cistern."
+    ],
+    [
+     "It pierces the dura on the clivus above the level of the jugular tubercle",
+     1,
+     "Last's."
+    ],
+    [
+     "It enters the cavernous sinus through the inferior petrosal sinus beneath the petroclinoid ligament",
+     1,
+     "Dorello's canal."
+    ],
+    [
+     "It enters the tendinous ring above the superior division of the oculomotor nerve",
+     0,
+     "Last's: it enters below the inferior division of III."
+    ]
+   ]
+  },
+  {
+   "t": "Trigeminal root",
+   "y": 2,
+   "s": "Concerning the trigeminal nerve root and Meckel's cave:",
+   "o": [
+    [
+     "In Meckel's cave the mandibular fibres lie most laterally and the ophthalmic most medially",
+     1,
+     "Last's: at the pons the mandibular fibres are superior and ophthalmic inferior; the root then rotates."
+    ],
+    [
+     "The motor root emerges above and medial to the sensory root",
+     1,
+     "Last's. It spirals to enter the cave below the sensory root."
+    ],
+    [
+     "The cave contains CSF around the posterior half of the ganglion",
+     1,
+     "Last's: the dura fuses with the pia halfway along the ganglion."
+    ],
+    [
+     "The ganglion's chief blood supply is the posterior communicating artery",
+     0,
+     "Last's: ganglionic branches of the ICA and, appreciably, the accessory meningeal artery."
+    ]
+   ]
+  },
+  {
+   "t": "Trigeminal root",
+   "y": 1,
+   "s": "An extradural middle fossa approach to the trigeminal ganglion:",
+   "o": [
+    [
+     "Is possible because the anterior ganglion and mandibular division lie between two layers of dura",
+     1,
+     "Last's."
+    ],
+    [
+     "May cause transient facial palsy from traction on the greater petrosal nerve",
+     1,
+     "Last's: oedema at the geniculate ganglion compresses facial motor fibres."
+    ],
+    [
+     "Necessarily enters the subarachnoid space to reach the sensory root",
+     0,
+     "The sensory root and posterior half of the ganglion are bathed in CSF, but the extradural approach to the anterior ganglion avoids the subarachnoid space."
+    ],
+    [
+     "Risks the abducent nerve less than the trochlear nerve because the abducent lies in the lateral sinus wall",
+     0,
+     "VI lies within the sinus, not in its lateral wall."
+    ]
+   ]
+  },
+  {
+   "t": "Jugular foramen",
+   "y": 1,
+   "s": "At the jugular foramen:",
+   "o": [
+    [
+     "The glossopharyngeal nerve lies lateral to the inferior petrosal sinus in the anterior compartment",
+     1,
+     "Last's."
+    ],
+    [
+     "The vagus lies lateral to the accessory nerve",
+     0,
+     "Last's: the accessory lies lateral to the vagus in the middle compartment."
+    ],
+    [
+     "The cochlear canaliculus opens into the glossopharyngeal notch",
+     1,
+     "Last's: perilymph drains to the subarachnoid space here."
+    ],
+    [
+     "The jugular bulb occupies the posterior and largest compartment",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Vagus and accessory",
+   "y": 1,
+   "s": "Concerning the vagus and cranial accessory nerve:",
+   "o": [
+    [
+     "The superior vagal ganglion contains cell bodies for the meningeal and auricular branches",
+     1,
+     "Last's."
+    ],
+    [
+     "The inferior vagal ganglion contains cell bodies of the other vagal sensory fibres",
+     1,
+     "Including laryngeal, cardiac and visceral afferents."
+    ],
+    [
+     "The cranial accessory fibres join the vagus at the inferior vagal ganglion",
+     1,
+     "Last's: they are effectively the vagal motor root from the nucleus ambiguus."
+    ],
+    [
+     "The spinal accessory rootlets emerge anterior to the denticulate ligament",
+     0,
+     "Last's: they emerge from the lateral cord behind the denticulate ligament."
+    ]
+   ]
+  },
+  {
+   "t": "Hypoglossal nerve",
+   "y": 2,
+   "s": "Regarding the hypoglossal nerve:",
+   "o": [
+    [
+     "Its rootlets pass through the inferior olivary nucleus before emerging",
+     1,
+     "Last's."
+    ],
+    [
+     "All its non-lingual branches carry C1 fibres",
+     1,
+     "Meningeal, superior root of ansa, thyrohyoid and geniohyoid."
+    ],
+    [
+     "It exits the skull medial and posterior to the jugular foramen",
+     1,
+     "Last's: the hypoglossal canal lies deep to the jugular foramen."
+    ],
+    [
+     "It supplies all the intrinsic and extrinsic muscles of the tongue",
+     0,
+     "Palatoglossus is supplied by the pharyngeal plexus."
+    ]
+   ]
+  },
+  {
+   "t": "Optic pathway",
+   "y": 1,
+   "s": "Concerning the arterial supply and relations of the optic pathway (Last's):",
+   "o": [
+    [
+     "The optic tract is supplied chiefly by the anterior choroidal and posterior communicating arteries",
+     1,
+     "Last's."
+    ],
+    [
+     "The chiasma and intracranial optic nerve are supplied by the anterior cerebral artery",
+     1,
+     "Last's."
+    ],
+    [
+     "A pituitary tumour first compresses the upper posterior part of the chiasma",
+     0,
+     "Last's: it presses on the lower anterior part of the chiasma and the medial sides of the optic nerves."
+    ],
+    [
+     "The central retinal artery supplies about the anterior 1 cm of the intraorbital nerve",
+     1,
+     "Last's: the posterior 2 cm by the ophthalmic artery."
+    ]
+   ]
+  },
+  {
+   "t": "Cranial nerve fibre counts",
+   "y": 1,
+   "s": "According to Last's, the approximate numbers of fibres in cranial nerves are:",
+   "o": [
+    [
+     "Oculomotor about 24 000",
+     1,
+     "Last's."
+    ],
+    [
+     "Trochlear about 34 000",
+     0,
+     "About 3400; it is the smallest cranial nerve."
+    ],
+    [
+     "Abducent about 6600",
+     1,
+     "Last's."
+    ],
+    [
+     "Cochlear about 3000",
+     0,
+     "About 30 000. The vestibular nerve has about 18 000."
+    ]
+   ]
+  },
+  {
+   "t": "Skull base relations",
+   "y": 1,
+   "s": "On the base of the skull:",
+   "o": [
+    [
+     "Foramen rotundum lies anteromedial to foramen ovale",
+     1,
+     "Foramen rotundum lies in front of and slightly medial to foramen ovale, opening into the pterygopalatine fossa."
+    ],
+    [
+     "The carotid canal opens posterior to foramen ovale",
+     1,
+     "The carotid canal lies posteromedial to foramen ovale and spinosum, in the petrous bone."
+    ],
+    [
+     "Foramen spinosum lies anteromedial to foramen ovale",
+     0,
+     "Foramen spinosum lies posterolateral to foramen ovale."
+    ],
+    [
+     "The petrosal foramen, when present, lies behind foramen ovale and transmits the lesser petrosal nerve",
+     1,
+     "Last's. The venous foramen of Vesalius lies medial to it."
+    ]
+   ]
+  }
+ ]
+}

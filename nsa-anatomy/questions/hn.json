@@ -490,7 +490,7 @@
   },
   {
    "t": "Temporomandibular joint",
-   "y": 2,
+   "y": 1,
    "s": "Regarding the temporomandibular joint:",
    "o": [
     [
@@ -693,9 +693,9 @@
      "The lingual artery lies deep to hyoglossus, with IX and the stylohyoid ligament."
     ],
     [
-     "Submandibular ganglion",
-     1,
-     "It hangs from the lingual nerve on hyoglossus."
+     "Stylohyoid ligament",
+     0,
+     "Last's: the stylohyoid ligament lies deep to hyoglossus, with IX and the lingual artery."
     ],
     [
      "Glossopharyngeal nerve",
@@ -976,7 +976,7 @@
   },
   {
    "t": "Scalp and face",
-   "y": 2,
+   "y": 1,
    "s": "Regarding the sensory supply of the face:",
    "o": [
     [

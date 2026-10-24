@@ -3,6 +3,34 @@
  "region": "Upper limb",
  "questions": [
   {
+   "t": "NSA sample question",
+   "y": 2,
+   "src": "NSA sample",
+   "s": "The median nerve",
+   "o": [
+    [
+     "is found immediately lateral to the biceps tendon in the cubital fossa",
+     0,
+     "From medial to lateral the fossa contains median nerve, brachial artery, biceps tendon. The nerve is medial to the artery, two structures medial to the tendon."
+    ],
+    [
+     "contains fibres from cervical roots 5, 6, 7 and 8 and thoracic 1",
+     1,
+     "Last's: C5 to T1, from lateral (C5–7) and medial (C8, T1) roots."
+    ],
+    [
+     "is responsible for flexion of the distal interphalangeal joint of the little finger",
+     0,
+     "The medial half of FDP (ring and little fingers) is supplied by the ulnar nerve."
+    ],
+    [
+     "is easily exposed in the arm where it is adjacent to the brachial artery by an incision along the medial border of biceps",
+     1,
+     "It runs with the brachial artery along the medial bicipital groove, crossing from lateral to medial of it."
+    ]
+   ]
+  },
+  {
    "t": "Brachial plexus",
    "y": 1,
    "s": "Concerning the brachial plexus:",
@@ -153,9 +181,9 @@
      "The medial pectoral nerve pierces pectoralis minor."
     ],
     [
-     "Thoracoacromial artery",
-     1,
-     "It skirts the upper border of pectoralis minor and pierces the fascia."
+     "Lateral thoracic artery",
+     0,
+     "It follows the lower border of pectoralis minor and does not pierce the clavipectoral fascia."
     ],
     [
      "Long thoracic nerve",
@@ -247,7 +275,7 @@
   },
   {
    "t": "Cubital fossa",
-   "y": 2,
+   "y": 1,
    "s": "Within the cubital fossa:",
    "o": [
     [

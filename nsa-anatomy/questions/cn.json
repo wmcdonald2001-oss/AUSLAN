@@ -261,9 +261,9 @@
      "The greater petrosal nerve arises at the geniculate ganglion, proximal to the lesion, so lacrimation is preserved."
     ],
     [
-     "Hyperacusis",
-     1,
-     "Loss of stapedius."
+     "Normal hearing with no hyperacusis",
+     0,
+     "The lesion is proximal to the nerve to stapedius, so stapedius is paralysed and hyperacusis results."
     ],
     [
      "Normal taste over the anterior two-thirds of the tongue",
@@ -396,9 +396,9 @@
      "Tensor veli palatini is supplied by the mandibular nerve (nerve to medial pterygoid)."
     ],
     [
-     "Levator veli palatini",
-     1,
-     "All palatal muscles except tensor veli palatini are supplied via the pharyngeal plexus."
+     "Styloglossus",
+     0,
+     "Styloglossus is supplied by the hypoglossal nerve."
     ],
     [
      "Stylopharyngeus",
@@ -625,7 +625,7 @@
   },
   {
    "t": "Olfactory and optic nerves",
-   "y": 2,
+   "y": 1,
    "s": "Regarding the olfactory pathway:",
    "o": [
     [
@@ -693,8 +693,8 @@
      "Both limbs of the jaw jerk are in the trigeminal nerve: afferent via the mesencephalic nucleus, efferent via the motor nucleus to masseter."
     ],
     [
-     "The afferent limb of the gag reflex is the glossopharyngeal nerve",
-     1,
+     "The efferent limb of the gag reflex is the hypoglossal nerve",
+     0,
      "The efferent limb is the vagus via the nucleus ambiguus."
     ],
     [

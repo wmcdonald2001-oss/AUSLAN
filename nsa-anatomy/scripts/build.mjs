@@ -16,13 +16,13 @@ const argValue = (name) => {
   return i === -1 ? null : args[i + 1];
 };
 
-// Type 2 key: which statement-truth patterns map to which letter.
+// Official NSA Type 2 key: which statement-truth patterns map to which letter.
 export const TYPE2_KEY = {
-  TTTF: 'A', // 1, 2 and 3 correct
-  TFTF: 'B', // 1 and 3 correct
-  FTFT: 'C', // 2 and 4 correct
-  FFFT: 'D', // only 4 correct
-  TTTT: 'E', // all correct
+  TFFF: 'A', // 1 is the only correct response
+  FTFT: 'B', // 2 and 4 are the only correct responses
+  TTTF: 'C', // 1, 2 and 3 are the only correct responses
+  FFFT: 'D', // 4 is the only correct response
+  TTTT: 'E', // all responses are correct
 };
 
 const REGION_ORDER = ['sk', 'cns', 'cn', 'sp', 'hn', 'ul', 'll', 'th', 'ab', 'au', 'gp'];
@@ -37,7 +37,7 @@ export function loadQuestions(dir = join(root, 'questions')) {
   const errors = [];
   for (const file of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
     const data = JSON.parse(readFileSync(join(dir, file), 'utf8'));
-    regions.push({ code: data.code, name: data.region });
+    if (!regions.some((r) => r.code === data.code)) regions.push({ code: data.code, name: data.region });
     data.questions.forEach((q, n) => {
       const where = `${file} #${n + 1}`;
       if (q.y !== 1 && q.y !== 2) errors.push(`${where}: type must be 1 or 2`);
@@ -53,6 +53,8 @@ export function loadQuestions(dir = join(root, 'questions')) {
         r: data.code,
         t: q.t,
         y: q.y,
+        d: q.d || data.difficulty || 1,
+        ...(q.src ? { src: q.src } : {}),
         s: q.s,
         o: q.o.map((o) => [o[0], o[1], o[2]]),
       };

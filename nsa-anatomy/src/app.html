@@ -50,6 +50,7 @@ nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; bac
 nav.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 nav.tabs button { flex: 1 0 auto; background: none; border: 0; border-bottom: 3px solid transparent; padding: 10px 8px 9px; font: inherit; font-size: 0.95rem; color: var(--muted); cursor: pointer; }
 nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 700; }
+@media (max-width: 420px) { nav.tabs button { padding-inline: 5px; font-size: 0.88rem; } }
 main .wrap { padding-block: 16px 64px; display: flex; flex-direction: column; gap: 14px; }
 section[hidden] { display: none !important; }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
@@ -79,6 +80,13 @@ details.filters[open] summary::after { content: "Hide ▴"; }
 .q-head { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); font-size: 0.82rem; color: var(--muted); }
 .tag { border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; font-weight: 700; color: var(--ink); background: var(--sunk); }
 .q-head .flagged { color: var(--flag); font-weight: 700; }
+.tag.hard { color: var(--false); border-color: currentColor; background: transparent; }
+.tag.sample { color: var(--true); border-color: currentColor; background: transparent; }
+.report-q { padding: 10px 0; border-top: 1px solid var(--line); }
+.report-q:first-of-type { border-top: 0; }
+.report-q ul { margin: 6px 0 0; padding-left: 1.1rem; }
+.report-q li { margin: 4px 0; }
+textarea.copy { width: 100%; min-height: 8rem; font: inherit; font-size: 0.85rem; border: 1px solid var(--line); border-radius: 8px; background: var(--sunk); color: var(--ink); padding: 8px; }
 .stem { padding: 14px 16px 4px; font-size: 1.08rem; font-weight: 700; text-wrap: pretty; }
 ol.opts { list-style: none; margin: 0; padding: 6px 0 4px; }
 ol.opts li { padding: 10px 16px; border-top: 1px solid transparent; }
@@ -169,8 +177,9 @@ table.stats td.meter { width: 32%; }
     <button role="tab" id="tab-practice" aria-selected="true" data-view="practice">Practice</button>
     <button role="tab" id="tab-exam" aria-selected="false" data-view="exam">Exam</button>
     <button role="tab" id="tab-cards" aria-selected="false" data-view="cards">Cards</button>
+    <button role="tab" id="tab-today" aria-selected="false" data-view="today">Today</button>
     <button role="tab" id="tab-progress" aria-selected="false" data-view="progress">Progress</button>
-    <button role="tab" id="tab-format" aria-selected="false" data-view="format">Format</button>
+    <button role="tab" id="tab-format" aria-selected="false" data-view="format">Help</button>
   </div>
 </nav>
 
@@ -182,6 +191,7 @@ table.stats td.meter { width: 32%; }
         <div class="filter-body">
           <div><p class="label">Region</p><div class="chips" id="practice-regions"></div></div>
           <div><p class="label">Question type</p><div class="chips" id="practice-types"></div></div>
+          <div><p class="label">Difficulty</p><div class="chips" id="practice-diff"></div></div>
           <div><p class="label">Show</p><div class="chips" id="practice-status"></div></div>
           <div class="row"><button class="btn primary" id="practice-start">Start practice</button><span class="count" id="practice-hint"></span></div>
         </div>
@@ -202,6 +212,10 @@ table.stats td.meter { width: 32%; }
       <div id="card-area"></div>
     </section>
 
+    <section id="view-today" hidden>
+      <div id="today-area"></div>
+    </section>
+
     <section id="view-progress" hidden>
       <div id="progress-area"></div>
     </section>
@@ -216,7 +230,8 @@ table.stats td.meter { width: 32%; }
 const DATA = /*__DATA__*/null;
 const EXAM_DATE = new Date('2027-02-19T09:00:00+11:00');
 const STORE_KEY = 'nsa-anatomy-bank-v1';
-const KEY_TEXT = { A: '1, 2 and 3 are correct', B: '1 and 3 are correct', C: '2 and 4 are correct', D: 'Only 4 is correct', E: 'All are correct' };
+const KEY_TEXT = { A: '1 is the only correct response', B: '2 and 4 are the only correct responses', C: '1, 2 and 3 are the only correct responses', D: '4 is the only correct response', E: 'All responses are correct' };
+const T1_LABELS = ['A', 'B', 'C', 'D'];
 const REGION = Object.fromEntries(DATA.regions.map((r) => [r.code, r.name]));
 const QBYID = Object.fromEntries(DATA.questions.map((q) => [q.id, q]));
 const CBYID = Object.fromEntries(DATA.cards.map((c) => [c.id, c]));
@@ -239,7 +254,7 @@ const shuffle = (arr) => { const a = arr.slice(); for (let i = a.length - 1; i >
 const pct = (x) => `${Math.round(x * 100)}%`;
 
 /* ---------- progress store (this device + optional sync) ---------- */
-let state = { v: 1, q: {}, c: {} };
+let state = { v: 1, q: {}, c: {}, h: {} };
 const listeners = new Set();
 function loadLocal() {
   try { const raw = localStorage.getItem(STORE_KEY); if (raw) state = mergeStates(state, JSON.parse(raw)); } catch (e) { /* storage unavailable */ }
@@ -257,6 +272,16 @@ function mergeStates(a, b) {
         if ((rec.t || 0) <= reset) continue;
         const mine = out[kind][id];
         if (!mine || (rec.t || 0) > (mine.t || 0)) out[kind][id] = rec;
+      }
+    }
+  }
+  out.h = {};
+  for (const src of [a, b]) {
+    for (const [day, entries] of Object.entries((src && src.h) || {})) {
+      for (const [id, rec] of Object.entries(entries)) {
+        if ((rec.t || 0) <= reset) continue;
+        const mine = out.h[day] && out.h[day][id];
+        if (!mine || rec.t > mine.t) out.h[day] = { ...(out.h[day] || {}), [id]: rec };
       }
     }
   }
@@ -280,6 +305,12 @@ async function flushRemote() {
   try {
     const body = JSON.stringify(state);
     if (body !== sync.lastRemote) { await sync.ref.set(JSON.parse(body)); sync.lastRemote = body; }
+    const day = dayKey();
+    const report = dayReport(day);
+    if (report.answered && report.text !== sync.lastReport) {
+      await sync.reports.doc(`report-${day}`).set({ date: day, answered: report.answered, wrong: report.wrong.length, text: report.text, t: Date.now() });
+      sync.lastReport = report.text;
+    }
   } catch (e) {
     if (e && (e.code === 'invalid_argument' || e.code === 'revoked' || e.code === 'not_granted')) { sync.ref = null; setSync(false); }
     else sync.pending = true;
@@ -302,6 +333,7 @@ async function startSync() {
     if (!uid) return;
     sync.db = db;
     sync.ref = db.doc(`data/users/${uid}/progress`);
+    sync.reports = db.collection(`data/users/${uid}`);
     setSync(true);
     sync.ref.onSnapshot((snap) => {
       if (!snap.exists) { scheduleRemote(); return; }
@@ -314,9 +346,21 @@ async function startSync() {
     }, () => { sync.ref = null; setSync(false); });
   } catch (e) { /* sync unavailable, local only */ }
 }
-function recordQuestion(id, score) {
+function dayKey(ts = Date.now()) {
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+function encodeAnswer(q, ans) {
+  if (q.y === 2) return ans || '';
+  return ans.map((v) => (v === null ? '?' : v ? 'T' : 'F')).join('');
+}
+function recordQuestion(id, score, ans) {
+  const now = Date.now();
   const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
-  state.q[id] = { ...rec, a: rec.a + 1, c: rec.c + (score === 1 ? 1 : 0), l: score, t: Date.now() };
+  state.q[id] = { ...rec, a: rec.a + 1, c: rec.c + (score === 1 ? 1 : 0), l: score, t: now };
+  const day = dayKey(now);
+  state.h = state.h || {};
+  state.h[day] = { ...(state.h[day] || {}), [id]: { s: score, a: encodeAnswer(QBYID[id], ans), t: now } };
 }
 function toggleFlag(id) {
   const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
@@ -340,6 +384,8 @@ function renderQuestion(q, opts) {
     h('span', { class: 'tag', text: REGION[q.r] }),
     h('span', { text: q.t }),
     h('span', { text: q.y === 1 ? 'Type 1 · true/false' : 'Type 2 · key A–E' }),
+    q.d === 2 ? h('span', { class: 'tag hard', text: 'Harder' }) : null,
+    q.src ? h('span', { class: 'tag sample', text: 'Official NSA sample' }) : null,
     rec && rec.f ? h('span', { class: 'flagged', text: '⚑ Flagged' }) : null,
     opts.headExtra || null);
   const list = h('ol', { class: 'opts' });
@@ -354,13 +400,13 @@ function renderQuestion(q, opts) {
         q.y === 1 && opts.ans[i] !== null ? ` · you said ${opts.ans[i] ? 'true' : 'false'}` : ''),
         h('div', { class: 'expl', text: o[2] }));
     }
-    const row = h('div', { class: 'opt-row' }, h('span', { class: 'opt-n', text: String(i + 1) }), textBlock);
+    const row = h('div', { class: 'opt-row' }, h('span', { class: 'opt-n', text: q.y === 1 ? T1_LABELS[i] : String(i + 1) }), textBlock);
     if (q.y === 1) {
-      const tf = h('div', { class: 'tf', role: 'group', 'aria-label': `Statement ${i + 1}` });
+      const tf = h('div', { class: 'tf', role: 'group', 'aria-label': `Statement ${T1_LABELS[i]}` });
       for (const val of [true, false]) {
         tf.append(h('button', {
           type: 'button', 'aria-pressed': String(opts.ans[i] === val), disabled: opts.reveal || !opts.onAnswer,
-          text: val ? 'T' : 'F', 'aria-label': `${val ? 'True' : 'False'} for statement ${i + 1}`,
+          text: val ? 'T' : 'F', 'aria-label': `${val ? 'True' : 'False'} for statement ${T1_LABELS[i]}`,
           onclick: () => { const next = opts.ans.slice(); next[i] = val; opts.onAnswer(next); },
         }));
       }
@@ -405,11 +451,12 @@ function chipGroup(container, items, selected, { multi = true, onChange }) {
 }
 
 /* ---------- practice ---------- */
-const practice = { regions: new Set(), type: 'all', status: 'all', queue: [], idx: 0, ans: null, reveal: false };
+const practice = { regions: new Set(), type: 'all', diff: 'all', status: 'all', queue: [], idx: 0, ans: null, reveal: false };
 function practiceMatches() {
   return DATA.questions.filter((q) => {
     if (practice.regions.size && !practice.regions.has(q.r)) return false;
     if (practice.type !== 'all' && String(q.y) !== practice.type) return false;
+    if (practice.diff !== 'all' && String(q.d) !== practice.diff) return false;
     const rec = state.q[q.id];
     if (practice.status === 'unseen' && rec && rec.a) return false;
     if (practice.status === 'wrong' && !(rec && rec.a && rec.l < 1)) return false;
@@ -430,6 +477,9 @@ function renderPracticeFilters() {
     });
   chipGroup($('#practice-types'), [{ value: 'all', label: 'Both' }, { value: '1', label: 'Type 1 (T/F)' }, { value: '2', label: 'Type 2 (A–E)' }], practice.type, {
     multi: false, onChange: (v) => { practice.type = v; renderPracticeFilters(); },
+  });
+  chipGroup($('#practice-diff'), [{ value: 'all', label: 'All' }, { value: '1', label: 'Standard (NSA level)' }, { value: '2', label: 'Harder (ABNS level)' }], practice.diff, {
+    multi: false, onChange: (v) => { practice.diff = v; renderPracticeFilters(); },
   });
   chipGroup($('#practice-status'), [{ value: 'all', label: 'All' }, { value: 'unseen', label: 'Not yet tried' }, { value: 'wrong', label: 'Got wrong last time' }, { value: 'flagged', label: 'Flagged' }], practice.status, {
     multi: false, onChange: (v) => { practice.status = v; renderPracticeFilters(); },
@@ -463,7 +513,7 @@ function renderPractice() {
   const foot = h('div', { class: 'q-foot' });
   if (!practice.reveal) {
     foot.append(h('button', { class: 'btn primary', text: 'Check answer', disabled: !answered(q, ans), onclick: () => {
-      practice.reveal = true; recordQuestion(q.id, scoreAnswer(q, ans)); changed();
+      practice.reveal = true; recordQuestion(q.id, scoreAnswer(q, ans), ans); changed();
     } }));
   } else {
     foot.append(scoreLabel(q, scoreAnswer(q, ans)));
@@ -482,12 +532,14 @@ function renderPractice() {
 }
 
 /* ---------- exam ---------- */
-const exam = { phase: 'setup', regions: new Set(), n: 60, minutes: 100, ids: [], ans: [], cur: 0, ends: 0, timer: null, results: null };
+const exam = { phase: 'setup', regions: new Set(), diff: 'all', n: 60, minutes: 100, ids: [], ans: [], cur: 0, ends: 0, timer: null, results: null };
 function renderExam() {
   const area = $('#exam-area');
   clearInterval(exam.timer);
   if (exam.phase === 'setup') {
-    const pool = DATA.questions.filter((q) => !exam.regions.size || exam.regions.has(q.r));
+    const pool = DATA.questions.filter((q) => (!exam.regions.size || exam.regions.has(q.r)) && (exam.diff === 'all' || String(q.d) === exam.diff));
+    const diffBox = h('div', { class: 'chips' });
+    chipGroup(diffBox, [{ value: 'all', label: 'All' }, { value: '1', label: 'Standard (NSA level)' }, { value: '2', label: 'Harder (ABNS level)' }], exam.diff, { multi: false, onChange: (v) => { exam.diff = v; renderExam(); } });
     const regionsBox = h('div', { class: 'chips' });
     const counts = {};
     for (const q of DATA.questions) counts[q.r] = (counts[q.r] || 0) + 1;
@@ -505,6 +557,7 @@ function renderExam() {
       h('p', { class: 'label', text: 'Mock exam' }),
       h('p', { style: 'margin:0 0 12px', text: 'The real paper is 60 questions in 100 minutes with a 70% pass mark. Answers are hidden until you finish.' }),
       h('p', { class: 'label', text: 'Region' }), regionsBox,
+      h('p', { class: 'label', style: 'margin-top:12px', text: 'Difficulty' }), diffBox,
       h('div', { class: 'row', style: 'margin-top:14px' },
         h('label', { for: 'exam-n', text: 'Questions' }), nInput,
         h('span', { class: 'count', text: `Time allowed: ${Math.round(n * 100 / 60)} min · ${pool.length} available` })),
@@ -588,7 +641,7 @@ function confirmFinish(area) {
 function finishExam() {
   clearInterval(exam.timer);
   const scores = exam.ids.map((id, i) => scoreAnswer(QBYID[id], exam.ans[i]));
-  exam.ids.forEach((id, i) => { if (answered(QBYID[id], exam.ans[i])) recordQuestion(id, scores[i]); });
+  exam.ids.forEach((id, i) => { if (answered(QBYID[id], exam.ans[i])) recordQuestion(id, scores[i], exam.ans[i]); });
   const usedMs = exam.duration - Math.max(0, exam.ends - Date.now());
   exam.results = {
     scores, total: scores.reduce((a, b) => a + b, 0) / scores.length, full: scores.filter((s) => s === 1).length,
@@ -665,6 +718,90 @@ function rateCard(id, grade) {
   drawCard();
 }
 
+/* ---------- daily report ---------- */
+function dayReport(day) {
+  const entries = Object.entries((state.h || {})[day] || {}).filter(([id]) => QBYID[id]).sort((a, b) => a[1].t - b[1].t);
+  const wrong = [];
+  let total = 0;
+  for (const [id, rec] of entries) {
+    total += rec.s;
+    if (rec.s === 1) continue;
+    const q = QBYID[id];
+    const lines = [];
+    if (q.y === 1) {
+      q.o.forEach((o, i) => {
+        const yours = rec.a[i];
+        const right = o[1] ? 'T' : 'F';
+        if (yours !== right) lines.push({ label: T1_LABELS[i], text: o[0], answer: o[1] ? 'True' : 'False', yours: yours === '?' ? 'blank' : (yours === 'T' ? 'True' : 'False'), why: o[2] });
+      });
+    } else {
+      lines.push({ label: 'Key', text: `You chose ${rec.a || 'nothing'}; answer ${q.k} (${KEY_TEXT[q.k]})`, answer: '', yours: '', why: '' });
+      q.o.forEach((o, i) => lines.push({ label: String(i + 1), text: o[0], answer: o[1] ? 'True' : 'False', yours: '', why: o[2] }));
+    }
+    wrong.push({ q, score: rec.s, lines });
+  }
+  const answered = entries.length;
+  const full = answered - wrong.length;
+  const nice = new Date(`${day}T12:00:00`).toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' });
+  const byRegion = {};
+  for (const w of wrong) byRegion[REGION[w.q.r]] = (byRegion[REGION[w.q.r]] || 0) + 1;
+  let text = `NSA anatomy ${nice}: ${answered} answered, ${full} fully correct, average ${answered ? pct(total / answered) : '0%'}.`;
+  if (wrong.length) {
+    text += `\nMissed by region: ${Object.entries(byRegion).map(([r, n]) => `${r} ${n}`).join(', ')}.`;
+    for (const w of wrong) {
+      text += `\n\n${REGION[w.q.r]}: ${w.q.s}`;
+      for (const l of w.lines) {
+        if (w.q.y === 1) text += `\n ${l.label}. ${l.text} -> ${l.answer} (you: ${l.yours})`;
+        else if (l.label === 'Key') text += `\n ${l.text}`;
+        else text += `\n ${l.label}. ${l.text} -> ${l.answer}`;
+      }
+    }
+  }
+  return { day, nice, answered, full, avg: answered ? total / answered : 0, wrong, text };
+}
+let todayDay = null;
+function renderToday() {
+  const area = $('#today-area');
+  const days = Object.keys(state.h || {}).filter((d) => Object.keys(state.h[d]).length).sort().reverse();
+  const today = dayKey();
+  if (!days.includes(today)) days.unshift(today);
+  if (!todayDay || !days.includes(todayDay)) todayDay = today;
+  const r = dayReport(todayDay);
+  const dayChips = h('div', { class: 'chips' });
+  chipGroup(dayChips, days.slice(0, 14).map((d) => ({ value: d, label: d === today ? 'Today' : new Date(`${d}T12:00:00`).toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' }) })), todayDay, {
+    multi: false, onChange: (v) => { todayDay = v; renderToday(); },
+  });
+  const copyBox = h('textarea', { class: 'copy', id: 'report-text', readonly: true, 'aria-label': 'Report text' });
+  copyBox.value = r.text;
+  const copyBtn = h('button', { class: 'btn small', text: 'Copy as text', onclick: (e) => {
+    const done = () => { e.target.textContent = 'Copied'; setTimeout(() => { e.target.textContent = 'Copy as text'; }, 1500); };
+    try { navigator.clipboard.writeText(r.text).then(done, () => { copyBox.select(); }); } catch (err) { copyBox.select(); }
+  } });
+  const list = h('div', {});
+  for (const w of r.wrong) {
+    const ul = h('ul', {});
+    for (const l of w.lines) {
+      if (l.label === 'Key') { ul.append(h('li', {}, h('b', { text: l.text }))); continue; }
+      ul.append(h('li', {}, h('b', { text: `${l.label}. ` }), l.text, ' ', h('b', { class: l.answer === 'True' ? 'pass' : 'fail', text: `→ ${l.answer}` }),
+        l.yours ? ` (you said ${l.yours})` : '', h('div', { class: 'expl', text: l.why })));
+    }
+    list.append(h('div', { class: 'report-q' },
+      h('div', { class: 'q-head', style: 'padding:0;border:0' }, h('span', { class: 'tag', text: REGION[w.q.r] }), h('span', { text: w.q.t }), scoreLabel(w.q, w.score)),
+      h('div', { style: 'font-weight:700;margin-top:4px', text: w.q.s }), ul));
+  }
+  area.replaceChildren(
+    h('div', { class: 'panel' }, h('p', { class: 'label', text: 'Daily breakdown' }), dayChips,
+      h('div', { class: 'row', style: 'margin-top:12px' }, h('span', { class: 'big', text: r.answered ? pct(r.avg) : '–' }),
+        h('span', { class: 'count', text: `${r.answered} answered on ${r.nice} · ${r.full} fully correct · ${r.wrong.length} with mistakes` }))),
+    h('div', { class: 'panel' }, h('p', { class: 'label', text: r.wrong.length ? 'Questions you got wrong' : 'Nothing wrong yet' }),
+      r.wrong.length ? list : h('p', { class: 'count', style: 'margin:0', text: r.answered ? 'Every question answered on this day was fully correct.' : 'Answer some questions in Practice or Exam and they will appear here.' }),
+      r.wrong.length ? h('div', { class: 'row', style: 'margin-top:10px' }, h('button', { class: 'btn small primary', text: 'Practise these again', onclick: () => {
+        practice.queue = shuffle(r.wrong.map((w) => w.q.id)); practice.idx = 0; practice.ans = null; practice.reveal = false; show('practice');
+      } })) : null),
+    h('div', { class: 'panel' }, h('div', { class: 'row' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Text version' }), copyBtn), copyBox,
+      h('p', { class: 'count', style: 'margin:8px 0 0', text: 'Each evening this summary is also saved to your account for the daily phone notification.' })));
+}
+
 /* ---------- progress ---------- */
 let resetArmed = false;
 function renderProgress() {
@@ -691,7 +828,7 @@ function renderProgress() {
   const resetBox = resetArmed
     ? h('div', { class: 'confirm' }, h('span', { class: 'grow', text: 'Erase all question and flashcard progress on every device?' }),
       h('button', { class: 'btn small', text: 'Cancel', onclick: () => { resetArmed = false; renderProgress(); } }),
-      h('button', { class: 'btn small primary', text: 'Erase', onclick: () => { resetArmed = false; state = { v: 1, r: Date.now(), q: {}, c: {} }; changed(); } }))
+      h('button', { class: 'btn small primary', text: 'Erase', onclick: () => { resetArmed = false; state = { v: 1, r: Date.now(), q: {}, c: {}, h: {} }; changed(); } }))
     : h('button', { class: 'btn small ghost', text: 'Reset progress', onclick: () => { resetArmed = true; renderProgress(); } });
   area.replaceChildren(
     h('div', { class: 'panel' },
@@ -712,18 +849,19 @@ function renderFormat() {
   $('#format-area').replaceChildren(
     h('p', { class: 'label', text: 'Exam format' }),
     h('p', { text: 'The NSA Neurosurgery Anatomy Examination is a single paper of 60 multiple choice questions in 100 minutes, based on Last\'s Anatomy, Regional and Applied, 9th edition. The pass mark is 70%.' }),
-    h('p', {}, h('b', { text: 'Type 1: ' }), 'a stem with four statements. Mark each statement true or false. Here each statement is worth a quarter of the question.'),
-    h('p', {}, h('b', { text: 'Type 2: ' }), 'a stem with four numbered statements, answered with one letter from this key. The whole question is right or wrong.'),
+    h('p', {}, h('b', { text: 'Type 1: ' }), 'a stem with four statements labelled A to D. Mark each statement true or false. Here each statement is worth a quarter of the question.'),
+    h('p', {}, h('b', { text: 'Type 2: ' }), 'a stem with four numbered statements, answered with a single letter from the official NSA key below. The whole question is right or wrong.'),
     h('div', { class: 'key', style: 'margin:0 0 10px' }, h('table', {}, ...Object.entries(KEY_TEXT).map(([k, v]) => h('tr', {}, h('td', { text: k }), h('td', { text: v }))))),
-    h('p', { class: 'count', text: 'Check this key against the sample questions in the NSA examination information document. If the official key differs, the letters can be remapped in one place.' }),
+    h('p', { class: 'count', text: 'This is the key printed in the NSA examination information document. The four official sample questions are in the bank, marked "Official NSA sample".' }),
     h('p', { class: 'label', style: 'margin-top:14px', text: 'This bank' }),
-    h('p', { text: `${DATA.questions.length} questions (${DATA.questions.length - t2} Type 1, ${t2} Type 2) across ${DATA.regions.length} regions${DATA.cards.length ? `, plus ${DATA.cards.length} flashcards from your Last's Anki deck` : ''}. Explanations quote Last's where its wording differs from other textbooks. Built ${DATA.built}.` }));
+    h('p', { text: `${DATA.questions.length} questions (${DATA.questions.length - t2} Type 1, ${t2} Type 2) across ${DATA.regions.length} regions${DATA.cards.length ? `, plus ${DATA.cards.length} flashcards from your Last's Anki deck` : ''}. Explanations quote Last's where its wording differs from other textbooks. Questions marked Harder go beyond the NSA level using ABNS primary-exam neuroanatomy (thalamic and basal ganglia circuits, gaze centres, brainstem syndromes); some of that detail is not in Last's. Built ${DATA.built}.` }));
 }
 
 /* ---------- tabs & boot ---------- */
-const VIEWS = { practice: renderPractice, exam: renderExam, cards: renderCards, progress: renderProgress, format: renderFormat };
+const VIEWS = { practice: renderPractice, exam: renderExam, cards: renderCards, today: renderToday, progress: renderProgress, format: renderFormat };
 let currentView = 'practice';
 function show(view) {
+  if (view === 'practice') { renderPracticeFilters(); }
   currentView = view;
   for (const btn of document.querySelectorAll('nav.tabs button')) btn.setAttribute('aria-selected', String(btn.dataset.view === view));
   for (const v of Object.keys(VIEWS)) $(`#view-${v}`).hidden = v !== view;
@@ -735,6 +873,7 @@ $('#practice-start').addEventListener('click', startPractice);
 listeners.add(() => {
   if (currentView === 'practice') { renderPracticeFilters(); renderPractice(); }
   if (currentView === 'progress') renderProgress();
+  if (currentView === 'today') renderToday();
 });
 function renderMeta() {
   const days = Math.ceil((EXAM_DATE - Date.now()) / 86400000);
