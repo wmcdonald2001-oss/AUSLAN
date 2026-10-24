@@ -516,18 +516,18 @@ function renderPractice() {
   const ans = practice.ans;
   const rec = state.q[q.id];
   const foot = h('div', { class: 'q-foot' });
+  const next = () => { practice.idx++; practice.ans = null; practice.reveal = false; renderPractice(); window.scrollTo({ top: $('#practice-area').offsetTop - 60 }); };
+  if (practice.reveal) foot.append(scoreLabel(q, scoreAnswer(q, ans)));
+  foot.append(h('button', { class: 'btn small ghost', text: rec && rec.f ? 'Unflag' : 'Flag', onclick: () => toggleFlag(q.id) }));
+  if (!practice.reveal) foot.append(h('button', { class: 'btn small ghost', text: 'Skip', onclick: next }));
+  foot.append(h('span', { class: 'grow' }));
   if (!practice.reveal) {
     foot.append(h('button', { class: 'btn primary', text: 'Check answer', disabled: !answered(q, ans), onclick: () => {
       practice.reveal = true; recordQuestion(q.id, scoreAnswer(q, ans), ans); changed();
     } }));
   } else {
-    foot.append(scoreLabel(q, scoreAnswer(q, ans)));
+    foot.append(h('button', { class: 'btn primary', text: 'Next question', onclick: next }));
   }
-  foot.append(h('span', { class: 'grow' }),
-    h('button', { class: 'btn small ghost', text: rec && rec.f ? 'Unflag' : 'Flag', onclick: () => toggleFlag(q.id) }),
-    h('button', { class: `btn ${practice.reveal ? 'primary' : 'ghost'}`, text: practice.reveal ? 'Next question' : 'Skip', onclick: () => {
-      practice.idx++; practice.ans = null; practice.reveal = false; renderPractice(); window.scrollTo({ top: $('#practice-area').offsetTop - 60 });
-    } }));
   area.replaceChildren(renderQuestion(q, {
     ans, reveal: practice.reveal,
     onAnswer: practice.reveal ? null : (next) => { practice.ans = next; renderPractice(); },

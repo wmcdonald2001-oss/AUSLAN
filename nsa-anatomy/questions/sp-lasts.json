@@ -141,6 +141,846 @@
      "At 7 years. (Last's page pg 557-8)"
     ]
    ]
+  },
+  {
+   "t": "Vertebrae",
+   "y": 1,
+   "s": "Morphology of the vertebrae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The primary curvature is retained in the thoracic and sacral regions",
+     1,
+     "Last's. (Last's page pg 535-6)"
+    ],
+    [
+     "The costal facets of thoracic vertebrae lie on the neural arch, not the centrum",
+     1,
+     "The neurocentral junction lies in front of them. (Last's page pg 535-6)"
+    ],
+    [
+     "Lumbar transverse processes are true transverse elements",
+     0,
+     "They are costal elements; the mamillary process and accessory tubercle are the true transverse elements. (Last's page pg 535-6)"
+    ],
+    [
+     "A lumbar rib results from fusion of the costal element",
+     0,
+     "From its failure to fuse. (Last's page pg 535-6)"
+    ]
+   ]
+  },
+  {
+   "t": "Intervertebral disc",
+   "y": 1,
+   "s": "The intervertebral disc (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It is a secondary cartilaginous joint",
+     1,
+     "A symphysis. (Last's page pg 537)"
+    ],
+    [
+     "The nucleus pulposus lies posteriorly in the adult disc",
+     1,
+     "Because the notochord moved backwards. (Last's page pg 537)"
+    ],
+    [
+     "The nucleus pulposus is about 50% of the disc",
+     0,
+     "About 15%. (Last's page pg 537)"
+    ],
+    [
+     "The nucleus pulposus is about 70% water at birth",
+     0,
+     "About 90% at birth, 70% in old age. (Last's page pg 537)"
+    ]
+   ]
+  },
+  {
+   "t": "Longitudinal ligaments",
+   "y": 1,
+   "s": "The longitudinal ligaments (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The anterior longitudinal ligament broadens as it passes down",
+     1,
+     "Last's. (Last's page pg 537)"
+    ],
+    [
+     "The posterior longitudinal ligament is firmly attached over the discs",
+     1,
+     "Loosely over the bodies. (Last's page pg 537)"
+    ],
+    [
+     "The posterior longitudinal ligament broadens as it descends",
+     0,
+     "It narrows. (Last's page pg 537)"
+    ],
+    [
+     "The anterior longitudinal ligament begins at the body of the axis",
+     0,
+     "At the anterior tubercle of the atlas; the PLL begins at the axis. (Last's page pg 537)"
+    ]
+   ]
+  },
+  {
+   "t": "Notochord",
+   "y": 1,
+   "s": "The notochord (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It extended as far cranially as the sella turcica",
+     1,
+     "Last's. (Last's page pg 537)"
+    ],
+    [
+     "The apical ligament of the dens is a notochordal remnant",
+     1,
+     "Last's. (Last's page pg 537)"
+    ],
+    [
+     "Its remnant in the disc is the annulus fibrosus",
+     0,
+     "The nucleus pulposus. (Last's page pg 537)"
+    ],
+    [
+     "The alar ligaments are notochordal remnants",
+     0,
+     "Only the apical ligament. (Last's page pg 537)"
+    ]
+   ]
+  },
+  {
+   "t": "Disc prolapse",
+   "y": 1,
+   "s": "Discs and nerve roots (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "An L5/S1 disc prolapse usually irritates the S1 root",
+     1,
+     "Last's. (Last's page pg 539)"
+    ],
+    [
+     "A C6/7 disc irritates the C7 root",
+     1,
+     "Last's. (Last's page pg 539)"
+    ],
+    [
+     "An L4/5 disc prolapse usually irritates the L4 root",
+     0,
+     "The L5 root (one below). (Last's page pg 539)"
+    ],
+    [
+     "Uncovertebral joints are synovial",
+     0,
+     "They are degenerative clefts, not synovial joints. (Last's page pg 539)"
+    ]
+   ]
+  },
+  {
+   "t": "Neural arch joints",
+   "y": 1,
+   "s": "Joints between the neural arches (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Facet joints are supplied from their own level and the level above",
+     1,
+     "One nerve supplies two joints. (Last's page pg 539)"
+    ],
+    [
+     "Ligamenta flava attach to the front of the upper lamina and back of the lower",
+     1,
+     "Last's. (Last's page pg 539)"
+    ],
+    [
+     "Ligamenta flava are relaxed by flexion",
+     0,
+     "Stretched by flexion. (Last's page pg 539)"
+    ],
+    [
+     "The supraspinous ligament continues in the neck as the anterior longitudinal ligament",
+     0,
+     "As the ligamentum nuchae. (Last's page pg 539)"
+    ]
+   ]
+  },
+  {
+   "t": "Vertebral canal",
+   "y": 1,
+   "s": "The vertebral canal and intervertebral foramina (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The canal becomes progressively smaller from above down",
+     1,
+     "Last's. (Last's page pg 540)"
+    ],
+    [
+     "Pedicles form the upper and lower boundaries of each foramen",
+     1,
+     "Last's. (Last's page pg 540)"
+    ],
+    [
+     "In the cervical spine only the body above bounds the foramen anteriorly",
+     0,
+     "The body below is also included. (Last's page pg 540)"
+    ],
+    [
+     "The lumbar spine permits free rotation",
+     0,
+     "Lumbar rotation is not possible. (Last's page pg 540)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal movement",
+   "y": 1,
+   "s": "Movements of the spine (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Thoracic rotation occurs mainly above T9",
+     1,
+     "The lower 3-4 vertebrae do not rotate. (Last's page pg 540)"
+    ],
+    [
+     "The atlantoaxial joints allow rotation only",
+     1,
+     "Last's. (Last's page pg 540)"
+    ],
+    [
+     "The atlanto-occipital joints allow rotation",
+     0,
+     "Flexion, extension and some abduction only. (Last's page pg 540)"
+    ],
+    [
+     "Cervical facets lie on the circumference of a circle centred on the body",
+     0,
+     "Thoracic ones do; cervical ones do not. (Last's page pg 540)"
+    ]
+   ]
+  },
+  {
+   "t": "Atlas and axis",
+   "y": 1,
+   "s": "The atlas (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The anterior arch is the ossified hypochordal bow",
+     1,
+     "Last's. (Last's page pg 541-2)"
+    ],
+    [
+     "C1 and C2 anterior rami pass behind the atlantal joints",
+     1,
+     "Last's. (Last's page pg 541-2)"
+    ],
+    [
+     "The inferior facet of the atlas is kidney-shaped",
+     0,
+     "The superior facet is kidney-shaped; the inferior is round and flat. (Last's page pg 541-2)"
+    ],
+    [
+     "Rectus capitis posterior major attaches to the posterior arch of the atlas",
+     0,
+     "Minor is the only muscle there. (Last's page pg 541-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Atlas and axis",
+   "y": 1,
+   "s": "The axis (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The dens bears no weight",
+     1,
+     "Weight passes through the superior articular facets. (Last's page pg 541-2)"
+    ],
+    [
+     "Its foramen transversarium is directed upwards and outwards",
+     1,
+     "Giving the vertebral artery a lateral bend. (Last's page pg 541-2)"
+    ],
+    [
+     "The dens is the centrum of the atlas",
+     0,
+     "Last's says it is not. (Last's page pg 541-2)"
+    ],
+    [
+     "Semispinalis capitis inserts into the bifid spine of the axis",
+     0,
+     "Semispinalis cervicis does. (Last's page pg 541-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Atlanto-occipital region",
+   "y": 1,
+   "s": "Ligaments at the craniovertebral junction (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The tectorial membrane is continuous with the PLL",
+     1,
+     "Last's. (Last's page pg 541-2)"
+    ],
+    [
+     "The alar ligaments limit rotation",
+     1,
+     "Last's. (Last's page pg 541-2)"
+    ],
+    [
+     "The tectorial membrane lies behind the dura",
+     0,
+     "In front of the dura, firmly attached to it. (Last's page pg 541-2)"
+    ],
+    [
+     "The apical ligament lies behind the cruciform ligament",
+     0,
+     "In front of its upper longitudinal band. (Last's page pg 541-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Atlanto-occipital region",
+   "y": 1,
+   "s": "The atlanto-occipital membranes (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "They are supplied by C1",
+     1,
+     "Last's. (Last's page pg 541-2)"
+    ],
+    [
+     "The posterior membrane is deficient laterally for the vertebral artery and C1",
+     1,
+     "Last's. (Last's page pg 541-2)"
+    ],
+    [
+     "The anterior membrane attaches to the posterior border of the anterior arch",
+     0,
+     "To its anterior (upper) border. (Last's page pg 541-2)"
+    ],
+    [
+     "The lateral atlantoaxial joints are supplied by C1",
+     0,
+     "By C2. (Last's page pg 541-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Back muscles",
+   "y": 1,
+   "s": "Extensor muscles of the back (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Rotatores occur only in the thoracic spine",
+     1,
+     "Last's. (Last's page pg 544)"
+    ],
+    [
+     "Semispinalis capitis is the chief extensor of the head",
+     1,
+     "Last's. (Last's page pg 544)"
+    ],
+    [
+     "Multifidus extends from the sacrum to C1",
+     0,
+     "To C2. (Last's page pg 544)"
+    ],
+    [
+     "Iliocostalis forms the most medial part of erector spinae",
+     0,
+     "The most lateral; spinalis is the most medial. (Last's page pg 544)"
+    ]
+   ]
+  },
+  {
+   "t": "Back muscles",
+   "y": 1,
+   "s": "Splenius and the vertebral flexors (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Splenius cervicis attaches to the transverse processes of C1-3 or C1-4",
+     1,
+     "Last's. (Last's page pg 544)"
+    ],
+    [
+     "Longus colli and psoas belong to the flexor group",
+     1,
+     "Supplied by anterior rami. (Last's page pg 544)"
+    ],
+    [
+     "Splenius is supplied by the accessory nerve",
+     0,
+     "By posterior rami. (Last's page pg 544)"
+    ],
+    [
+     "The vertebral flexors derive from the outer layer of the body wall",
+     0,
+     "From the innermost layer. (Last's page pg 544)"
+    ]
+   ]
+  },
+  {
+   "t": "Suboccipital triangle",
+   "y": 1,
+   "s": "The suboccipital triangle (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its floor is the posterior arch of the atlas and posterior atlanto-occipital membrane",
+     1,
+     "Last's. (Last's page pg 546)"
+    ],
+    [
+     "The suboccipital nerve and vertebral artery cross its floor",
+     1,
+     "Last's. (Last's page pg 546)"
+    ],
+    [
+     "It is bounded by rectus capitis posterior minor",
+     0,
+     "By rectus major and the two obliques. (Last's page pg 546)"
+    ],
+    [
+     "The greater occipital nerve crosses its floor",
+     0,
+     "It crosses its roof. (Last's page pg 546)"
+    ]
+   ]
+  },
+  {
+   "t": "Suboccipital muscles",
+   "y": 1,
+   "s": "The suboccipital muscles (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "They are supplied by the posterior ramus of C1",
+     1,
+     "Last's. (Last's page pg 546)"
+    ],
+    [
+     "Inferior oblique runs from the axis spine to the atlas lateral mass",
+     1,
+     "It rotates the atlas. (Last's page pg 546)"
+    ],
+    [
+     "Superior oblique runs from the axis spine to the occiput",
+     0,
+     "From the atlas lateral mass. (Last's page pg 546)"
+    ],
+    [
+     "The suboccipital nerve supplies skin of the occiput",
+     0,
+     "Neither ramus supplies skin. (Last's page pg 546)"
+    ]
+   ]
+  },
+  {
+   "t": "Vertebral artery",
+   "y": 1,
+   "s": "The vertebral artery in the neck (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It enters the C6 foramen transversarium",
+     1,
+     "Last's. (Last's page pg 547-8)"
+    ],
+    [
+     "It passes behind the atlanto-occipital joint",
+     1,
+     "Last's. (Last's page pg 547-8)"
+    ],
+    [
+     "It runs behind the emerging cervical nerves",
+     0,
+     "In front of them. (Last's page pg 547-8)"
+    ],
+    [
+     "Vertebral veins accompany it inside the skull",
+     0,
+     "They exist only in the neck. (Last's page pg 547-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Vertebral veins",
+   "y": 1,
+   "s": "Vertebral veins (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "One emerges with the artery through C6",
+     1,
+     "Last's. (Last's page pg 547-8)"
+    ],
+    [
+     "One passes alone through C7 foramen transversarium",
+     1,
+     "Last's. (Last's page pg 547-8)"
+    ],
+    [
+     "They drain into the internal jugular vein",
+     0,
+     "Into the brachiocephalic vein. (Last's page pg 547-8)"
+    ],
+    [
+     "The C7 foramen transmits the vertebral artery",
+     0,
+     "It does not. (Last's page pg 547-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Occipital artery",
+   "y": 1,
+   "s": "The occipital artery (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It grooves the occipitomastoid suture deep to digastric",
+     1,
+     "Last's. (Last's page pg 547-8)"
+    ],
+    [
+     "The hypoglossal nerve hooks round it from behind",
+     1,
+     "Last's. (Last's page pg 547-8)"
+    ],
+    [
+     "It crosses the floor of the suboccipital triangle",
+     0,
+     "The upper part of its roof. (Last's page pg 547-8)"
+    ],
+    [
+     "Its upper sternocleidomastoid branch is a guide to the facial nerve",
+     0,
+     "To the accessory nerve. (Last's page pg 547-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic vertebrae",
+   "y": 1,
+   "s": "Typical thoracic vertebrae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The spines are steepest at T7",
+     1,
+     "Then level out to T12. (Last's page pg 548-50)"
+    ],
+    [
+     "The upper six costotransverse facets are concave",
+     1,
+     "Lower ones flat. (Last's page pg 548-50)"
+    ],
+    [
+     "The superior articular facets face anteromedially",
+     0,
+     "Posterolaterally. (Last's page pg 548-50)"
+    ],
+    [
+     "The body takes part in the boundary of the foramen above",
+     0,
+     "The pedicle is flush with the top, so it does not. (Last's page pg 548-50)"
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic vertebrae",
+   "y": 1,
+   "s": "Atypical thoracic vertebrae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "T1 has a whole facet for the first rib",
+     1,
+     "Last's. (Last's page pg 548-50)"
+    ],
+    [
+     "T12 has a lumbar-type inferior facet",
+     1,
+     "Last's. (Last's page pg 548-50)"
+    ],
+    [
+     "T1 pedicles are flush with the top of the body",
+     0,
+     "They attach below the upper margin, as in cervical vertebrae. (Last's page pg 548-50)"
+    ],
+    [
+     "The T12 posterior ramus runs between its mamillary and accessory processes",
+     0,
+     "The T11 posterior ramus does. (Last's page pg 548-50)"
+    ]
+   ]
+  },
+  {
+   "t": "Lumbar vertebrae",
+   "y": 1,
+   "s": "Lumbar vertebrae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "L5 is the only vertebra whose transverse process joins the body",
+     1,
+     "Last's. (Last's page pg 550-2)"
+    ],
+    [
+     "The lumbar lordosis is mainly due to wedge-shaped discs",
+     1,
+     "Last's. (Last's page pg 550-2)"
+    ],
+    [
+     "L1 usually has the longest transverse process",
+     0,
+     "L4 (L3 in other texts); L5 is short and massive. (Last's page pg 550-2)"
+    ],
+    [
+     "Lumbar bodies are heart-shaped",
+     0,
+     "Kidney-shaped. (Last's page pg 550-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Lumbar vertebrae",
+   "y": 1,
+   "s": "Relations of lumbar vertebrae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Psoas spans the vertebral concavity on fibrous arches",
+     1,
+     "Lumbar vessels and sympathetic rami pass beneath. (Last's page pg 550-2)"
+    ],
+    [
+     "The arcuate ligaments attach to the L1 transverse process",
+     1,
+     "Last's. (Last's page pg 550-2)"
+    ],
+    [
+     "Quadratus lumborum lies medial to the ridge on the transverse process",
+     0,
+     "Lateral; psoas is medial. (Last's page pg 550-2)"
+    ],
+    [
+     "The L5 inferior facets face backwards",
+     0,
+     "They face forwards into backward-facing sacral facets. (Last's page pg 550-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Sacrum",
+   "y": 1,
+   "s": "The sacrum (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The sacroiliac joint itself is not weight-bearing",
+     1,
+     "The ligaments bear the weight. (Last's page pg 552-4)"
+    ],
+    [
+     "Medial borders of the anterior foramina are vertebral bodies",
+     1,
+     "The rest is costal. (Last's page pg 552-4)"
+    ],
+    [
+     "The sacral hiatus is due to failure of fusion of S1 laminae",
+     0,
+     "S5 (and sometimes S4). (Last's page pg 552-4)"
+    ],
+    [
+     "The sacral plexus lies medial to the anterior foramina",
+     0,
+     "Lateral, on piriformis. (Last's page pg 552-4)"
+    ]
+   ]
+  },
+  {
+   "t": "Sacrum",
+   "y": 1,
+   "s": "Relations of the sacrum (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The sympathetic trunk crosses medial to the sacral foramina",
+     1,
+     "Last's. (Last's page pg 552-4)"
+    ],
+    [
+     "The obturator nerve is the most lateral structure crossing the ala",
+     1,
+     "After trunk, lumbosacral trunk and iliolumbar artery. (Last's page pg 552-4)"
+    ],
+    [
+     "Sacrotuberous ligament arises above the auricular surface",
+     0,
+     "Below it. (Last's page pg 552-4)"
+    ],
+    [
+     "The dural sac in the sacral canal ends at S4",
+     0,
+     "At S2. (Last's page pg 552-4)"
+    ]
+   ]
+  },
+  {
+   "t": "Coccyx",
+   "y": 1,
+   "s": "The coccyx (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lateral sacrococcygeal ligament completes the foramen for S5",
+     1,
+     "Last's. (Last's page pg 552-4)"
+    ],
+    [
+     "Its tip gives attachment to the anococcygeal raphe",
+     1,
+     "Last's. (Last's page pg 552-4)"
+    ],
+    [
+     "It usually has six pieces",
+     0,
+     "Four. (Last's page pg 552-4)"
+    ],
+    [
+     "Its lower surface lies in the pelvic floor",
+     0,
+     "Upper surface in the pelvic floor, lower in the buttock. (Last's page pg 552-4)"
+    ]
+   ]
+  },
+  {
+   "t": "Cervical vertebrae",
+   "y": 1,
+   "s": "Typical cervical vertebrae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The C6 anterior tubercle is the carotid tubercle",
+     1,
+     "Last's. (Last's page pg 555-6)"
+    ],
+    [
+     "The posterior root ganglia lie on the lamella behind the foramen",
+     1,
+     "Last's. (Last's page pg 555-6)"
+    ],
+    [
+     "Scalenus anterior attaches to posterior tubercles",
+     0,
+     "To anterior tubercles. (Last's page pg 555-6)"
+    ],
+    [
+     "The vertebral body is larger than the vertebral foramen",
+     0,
+     "The same size or smaller. (Last's page pg 555-6)"
+    ]
+   ]
+  },
+  {
+   "t": "Cervical vertebrae",
+   "y": 1,
+   "s": "The seventh cervical vertebra (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its foramen transversarium does not transmit the vertebral artery",
+     1,
+     "Last's. (Last's page pg 555-6)"
+    ],
+    [
+     "Its spine ends in a rounded tubercle, not bifid",
+     1,
+     "Last's. (Last's page pg 555-6)"
+    ],
+    [
+     "Its anterior tubercle is large",
+     0,
+     "Small, for scalenus pleuralis and suprapleural membrane. (Last's page pg 555-6)"
+    ],
+    [
+     "Its foramen transmits the grey ramus to C8",
+     0,
+     "To the C7 anterior ramus. (Last's page pg 555-6)"
+    ]
+   ]
+  },
+  {
+   "t": "Ossification",
+   "y": 1,
+   "s": "Ossification of the axis (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It has five primary centres",
+     1,
+     "Last's. (Last's page pg 555-6)"
+    ],
+    [
+     "It has seven centres in total",
+     1,
+     "Five primary, tip of dens, and lower ring epiphysis. (Last's page pg 555-6)"
+    ],
+    [
+     "The tip of the dens centre appears at 12",
+     0,
+     "It appears at 3 and fuses at 12. (Last's page pg 555-6)"
+    ],
+    [
+     "The arch centres appear at the fifth month",
+     0,
+     "At the seventh week. (Last's page pg 555-6)"
+    ]
+   ]
+  },
+  {
+   "t": "Back blood supply",
+   "y": 1,
+   "s": "Blood supply of the vertebral column (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The deep cervical artery supplies the cervical extensors",
+     1,
+     "With the transverse cervical artery. (Last's page pg 555-6)"
+    ],
+    [
+     "Vertebral veins communicate with the left renal vein",
+     1,
+     "Last's. (Last's page pg 555-6)"
+    ],
+    [
+     "Basivertebral veins drain into the external vertebral plexus",
+     0,
+     "Into the internal plexus. (Last's page pg 555-6)"
+    ],
+    [
+     "The external vertebral plexus lies within the vertebral canal",
+     0,
+     "It is intramuscular. (Last's page pg 555-6)"
+    ]
+   ]
   }
  ]
 }
