@@ -1,0 +1,492 @@
+{
+ "code": "ab",
+ "region": "Abdomen & pelvis",
+ "questions": [
+  {
+   "t": "Anterior abdominal wall nerves",
+   "y": 1,
+   "s": "Concerning the nerves of the anterior abdominal wall:",
+   "o": [
+    [
+     "The lower six thoracic nerves run between internal oblique and transversus abdominis",
+     1,
+     "This is the neurovascular plane of the abdominal wall."
+    ],
+    [
+     "T10 supplies the skin of the umbilicus",
+     1,
+     "T7 the subcostal angle, T8 the rib margin."
+    ],
+    [
+     "The iliohypogastric nerve pierces the external oblique aponeurosis about 2.5 cm above the superficial ring",
+     1,
+     "Last's."
+    ],
+    [
+     "The ilioinguinal nerve enters the inguinal canal through the deep ring",
+     0,
+     "Last's: it enters the canal from the side by piercing internal oblique, not through the deep ring, and emerges through the superficial ring."
+    ]
+   ]
+  },
+  {
+   "t": "Inguinal canal",
+   "y": 2,
+   "s": "Damage to the ilioinguinal nerve within the inguinal canal would cause:",
+   "o": [
+    [
+     "Weakness of the conjoint tendon",
+     0,
+     "Last's: within the canal the nerve is sensory only. Its motor branch has already been given off."
+    ],
+    [
+     "Sensory loss over the root of the penis and anterior scrotum",
+     1,
+     "Its cutaneous territory is L1."
+    ],
+    [
+     "Loss of the cremasteric reflex",
+     0,
+     "The efferent limb is the genital branch of the genitofemoral nerve."
+    ],
+    [
+     "Sensory loss over the upper medial thigh",
+     1,
+     "Below the medial end of the inguinal ligament."
+    ]
+   ]
+  },
+  {
+   "t": "Inguinal canal",
+   "y": 1,
+   "s": "Regarding the inguinal canal and spermatic cord:",
+   "o": [
+    [
+     "The genital branch of the genitofemoral nerve is a content of the spermatic cord",
+     1,
+     "It supplies cremaster."
+    ],
+    [
+     "The ilioinguinal nerve is a content of the spermatic cord",
+     0,
+     "It lies in the canal but outside the coverings of the cord."
+    ],
+    [
+     "The lacunar ligament forms the medial margin of the femoral ring",
+     1,
+     "Its crescentic free edge."
+    ],
+    [
+     "The conjoint tendon is formed by internal oblique and transversus abdominis aponeuroses",
+     1,
+     "It is attached to the pectineal line."
+    ]
+   ]
+  },
+  {
+   "t": "Testis innervation",
+   "y": 2,
+   "s": "Regarding the innervation of the testis:",
+   "o": [
+    [
+     "It receives no parasympathetic supply",
+     1,
+     "Gonads and suprarenals receive only sympathetic fibres."
+    ],
+    [
+     "Its sympathetic supply is mainly from the T10 segment",
+     1,
+     "Last's."
+    ],
+    [
+     "Testicular pain afferents run with the testicular artery and splanchnic nerves to the T10 dorsal root ganglion",
+     1,
+     "So testicular pain may be referred to the umbilical region."
+    ],
+    [
+     "Its preganglionic sympathetic fibres relay in the coeliac ganglion region before running with the testicular artery",
+     1,
+     "Last's: fibres from about T10 reach the coeliac ganglion via the greater or lesser splanchnic nerves, and postganglionic fibres follow the testicular artery."
+    ]
+   ]
+  },
+  {
+   "t": "Posterior abdominal wall",
+   "y": 1,
+   "s": "Concerning psoas major:",
+   "o": [
+    [
+     "It arises from the discs and the fibrous arches over the bodies of T12 to L5, and the transverse processes",
+     1,
+     "The lumbar arteries, veins and sympathetic rami pass beneath the arches."
+    ],
+    [
+     "It is supplied by L1 to L3, mainly L2",
+     1,
+     "Last's."
+    ],
+    [
+     "Its fascia forms the medial arcuate ligament",
+     1,
+     "From the body of L1 (or L2) to the L1 transverse process."
+    ],
+    [
+     "Its fascia is part of the thoracolumbar (lumbar) fascia",
+     0,
+     "Last's: the psoas fascia is not part of the lumbar fascia, though its lateral edge blends with the anterior layer."
+    ]
+   ]
+  },
+  {
+   "t": "Posterior abdominal wall",
+   "y": 2,
+   "s": "The quadratus lumborum:",
+   "o": [
+    [
+     "Lies in the anterior compartment of the lumbar fascia",
+     1,
+     "Erector spinae lies in the posterior compartment."
+    ],
+    [
+     "Arises from the iliolumbar ligament and iliac crest",
+     1,
+     "And from the L5 transverse process."
+    ],
+    [
+     "Inserts into the medial half of the twelfth rib",
+     1,
+     "And the L1 to L4 transverse processes."
+    ],
+    [
+     "Is supplied by the obturator nerve",
+     0,
+     "It is supplied by T12 to L3 anterior rami."
+    ]
+   ]
+  },
+  {
+   "t": "Lumbar sympathetic trunk",
+   "y": 1,
+   "s": "Regarding the lumbar sympathetic trunk:",
+   "o": [
+    [
+     "The right trunk lies behind the inferior vena cava",
+     1,
+     "The left lies along the left margin of the aorta."
+    ],
+    [
+     "It lies in front of the lumbar vessels",
+     1,
+     "Although some lumbar veins may pass in front."
+    ],
+    [
+     "The common iliac vessels lie behind the trunks at the pelvic brim",
+     0,
+     "Last's: the common iliac vessels always lie in front of the trunks."
+    ],
+    [
+     "Lumbar splanchnic nerves join the coeliac, aortic and superior hypogastric plexuses",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic autonomic nerves",
+   "y": 2,
+   "s": "The pelvic splanchnic nerves:",
+   "o": [
+    [
+     "Arise from S2, S3 and S4",
+     1,
+     "The sacral parasympathetic outflow."
+    ],
+    [
+     "Are motor to the detrusor muscle",
+     1,
+     "They are the main motor supply to the bladder."
+    ],
+    [
+     "Supply the colon from the splenic flexure distally",
+     1,
+     "Some fibres run up behind the peritoneum, some via the inferior mesenteric artery."
+    ],
+    [
+     "Synapse in the inferior hypogastric plexus",
+     0,
+     "Last's: none of the parasympathetic fibres synapse in the plexus. They relay in the walls of the viscera. About half the sympathetic fibres relay there."
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic autonomic nerves",
+   "y": 1,
+   "s": "Concerning the sympathetic supply of the pelvic viscera:",
+   "o": [
+    [
+     "It is motor to the internal urethral sphincter in the male",
+     1,
+     "Preventing reflux during ejaculation."
+    ],
+    [
+     "It is motor to the ductus deferens, seminal vesicles and prostate",
+     1,
+     "Emission is sympathetic (L1 and L2)."
+    ],
+    [
+     "Pain from the body of the uterus travels with the sympathetic nerves to T10 to L1",
+     1,
+     "Pain from the lower cervix travels with the parasympathetics."
+    ],
+    [
+     "It carries the sensation of distension of the bladder",
+     0,
+     "Distension of bladder and rectum is carried by the pelvic splanchnic (parasympathetic) nerves."
+    ]
+   ]
+  },
+  {
+   "t": "Micturition",
+   "y": 2,
+   "s": "After complete spinal cord transection above S2:",
+   "o": [
+    [
+     "Afferent impulses of bladder distension cannot reach consciousness",
+     1,
+     "Last's."
+    ],
+    [
+     "The bladder may empty reflexly when distended",
+     1,
+     "The sacral centre is intact, as in the infant."
+    ],
+    [
+     "Cortical inhibition of the sacral reflex is lost",
+     1,
+     "The cortical inhibitory centre is on the medial frontal surface."
+    ],
+    [
+     "The detrusor is permanently paralysed",
+     0,
+     "Detrusor paralysis with overflow incontinence follows destruction of the sacral segments themselves."
+    ]
+   ]
+  },
+  {
+   "t": "Pudendal nerve",
+   "y": 1,
+   "s": "The pudendal nerve:",
+   "o": [
+    [
+     "Arises from S2, S3 and S4",
+     1,
+     "From the anterior surfaces of the roots."
+    ],
+    [
+     "Crosses the sacrospinous ligament medial to the pudendal vessels",
+     1,
+     "It enters the gluteal region briefly then the pudendal canal."
+    ],
+    [
+     "Gives the inferior rectal nerve to the external anal sphincter",
+     1,
+     "Its perineal branch supplies the external urethral sphincter."
+    ],
+    [
+     "Supplies the skin of the dorsum of the root of the penis",
+     0,
+     "Last's: the dorsal nerve supplies the whole penis except the dorsum at its root, which is supplied by the ilioinguinal nerve (L1)."
+    ]
+   ]
+  },
+  {
+   "t": "Perineal reflexes",
+   "y": 2,
+   "s": "Regarding perineal reflexes and dermatomes:",
+   "o": [
+    [
+     "The anal reflex depends on intact sacral segments",
+     1,
+     "Pinprick of perianal skin produces contraction of the external sphincter."
+    ],
+    [
+     "The bulbocavernosus reflex is mediated mainly by S3",
+     1,
+     "Last's."
+    ],
+    [
+     "S4 supplies the perianal skin",
+     1,
+     "S5 and Co1 behind the anus and over the coccyx."
+    ],
+    [
+     "Pain from the prostate may be referred to the posterior thigh",
+     1,
+     "Last's: via the pelvic splanchnics (S2 to S4) to the posterior femoral cutaneous territory, mimicking sciatica."
+    ]
+   ]
+  },
+  {
+   "t": "Coeliac plexus",
+   "y": 1,
+   "s": "Concerning the coeliac plexus:",
+   "o": [
+    [
+     "The greater splanchnic nerves pierce the crura to reach the coeliac ganglia",
+     1,
+     "The lesser too."
+    ],
+    [
+     "Preganglionic fibres to the suprarenal medulla pass through without relay",
+     1,
+     "Last's: the medulla is in effect a modified ganglion."
+    ],
+    [
+     "Its sympathetic fibres are excitatory to peristalsis",
+     0,
+     "They are inhibitory to peristalsis, motor to sphincters, vasomotor and sensory."
+    ],
+    [
+     "The vagus contributes parasympathetic fibres to it",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Vagus in abdomen",
+   "y": 2,
+   "s": "Regarding the abdominal vagus:",
+   "o": [
+    [
+     "About 10% of its fibres are afferent",
+     0,
+     "Last's: about 90% of the abdominal vagal fibres are afferent, serving reflex activity."
+    ],
+    [
+     "Highly selective vagotomy divides the branches to the pyloric antrum",
+     0,
+     "Highly selective vagotomy divides only the branches to the fundus and body, preserving the antral supply (nerves of Latarjet)."
+    ],
+    [
+     "Vagal afferents carry the main pain sensation from the stomach",
+     0,
+     "Pain from abdominal viscera runs with the sympathetic nerves."
+    ],
+    [
+     "Truncal vagotomy divides the trunks on the abdominal oesophagus",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Suprarenal glands",
+   "y": 1,
+   "s": "Concerning the suprarenal glands:",
+   "o": [
+    [
+     "The medulla develops from neural crest",
+     1,
+     "Chromaffin cells."
+    ],
+    [
+     "The cortex develops from the intermediate cell mass mesoderm",
+     1,
+     "Last's."
+    ],
+    [
+     "At birth the suprarenal is almost as large as the kidney",
+     1,
+     "Last's anatomy of the child."
+    ],
+    [
+     "They receive both sympathetic and parasympathetic innervation",
+     0,
+     "Suprarenals and gonads have only sympathetic supply."
+    ]
+   ]
+  },
+  {
+   "t": "Embryology of gut",
+   "y": 2,
+   "s": "The ductus venosus:",
+   "o": [
+    [
+     "Connects the left branch of the portal vein to the inferior vena cava",
+     1,
+     "Carrying blood from the left umbilical vein."
+    ],
+    [
+     "Becomes the ligamentum venosum",
+     1,
+     "Bounding the caudate lobe."
+    ],
+    [
+     "Is connected to the ligamentum teres",
+     1,
+     "The obliterated left umbilical vein."
+    ],
+    [
+     "Closes at birth by muscular contraction triggered by oxygen",
+     0,
+     "That describes the ductus arteriosus. The ductus venosus clots off when flow stops."
+    ]
+   ]
+  },
+  {
+   "t": "Child abdomen",
+   "y": 1,
+   "s": "In the newborn:",
+   "o": [
+    [
+     "The liver is relatively twice as large as in the adult",
+     1,
+     "Its lower border is palpable below the costal margin."
+    ],
+    [
+     "The appendix arises from the apex of a conical caecum",
+     1,
+     "Last's."
+    ],
+    [
+     "The fundus of the bladder lies above the symphysis pubis even when empty",
+     1,
+     "The pelvis is small."
+    ],
+    [
+     "The kidneys have abundant perinephric fat",
+     0,
+     "They are lobulated with very little perinephric fat."
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic wall",
+   "y": 2,
+   "s": "Concerning the pelvic wall:",
+   "o": [
+    [
+     "The sacral plexus lies external to the parietal pelvic fascia",
+     1,
+     "Last's: nerves lie outside the fascia, vessels inside."
+    ],
+    [
+     "Branches of the sacral plexus to the buttock pierce the parietal pelvic fascia",
+     0,
+     "Last's: because the plexus lies behind the fascia (between it and piriformis), its branches to the buttock do not pierce it."
+    ],
+    [
+     "The obturator nerve is the chief nerve supply of the pelvic parietal peritoneum",
+     1,
+     "Last's."
+    ],
+    [
+     "The internal iliac vessels lie external to the pelvic fascia",
+     0,
+     "The vessels lie internal to (inside) the fascia."
+    ]
+   ]
+  }
+ ]
+}

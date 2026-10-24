@@ -1,0 +1,789 @@
+{
+ "code": "sk",
+ "region": "Skull & cranial cavity",
+ "questions": [
+  {
+   "t": "Foramina of the middle cranial fossa",
+   "y": 1,
+   "s": "Concerning the foramen rotundum:",
+   "o": [
+    [
+     "It lies in the greater wing of the sphenoid, below the medial end of the superior orbital fissure",
+     1,
+     "Foramen rotundum pierces the root of the greater wing just below the medial end of the superior orbital fissure."
+    ],
+    [
+     "It opens anteriorly into the pterygopalatine fossa",
+     1,
+     "The maxillary nerve passes forward through it into the upper part of the pterygopalatine fossa."
+    ],
+    [
+     "It transmits the maxillary nerve and the middle meningeal artery",
+     0,
+     "Only the maxillary nerve (with small emissary veins). The middle meningeal artery passes through foramen spinosum."
+    ],
+    [
+     "It transmits the nerve of the pterygoid canal",
+     0,
+     "The nerve of the pterygoid canal runs in the pterygoid canal, which lies below and medial to foramen rotundum."
+    ]
+   ]
+  },
+  {
+   "t": "Foramina of the middle cranial fossa",
+   "y": 1,
+   "s": "Structures passing through the foramen ovale include the:",
+   "o": [
+    [
+     "Lesser petrosal nerve",
+     1,
+     "The lesser petrosal nerve usually leaves through foramen ovale (sometimes through the small canaliculus innominatus) to reach the otic ganglion."
+    ],
+    [
+     "Accessory meningeal artery",
+     1,
+     "The accessory meningeal artery, from the maxillary artery or middle meningeal artery, enters the skull through foramen ovale."
+    ],
+    [
+     "Nervus spinosus",
+     0,
+     "The meningeal branch of the mandibular nerve arises below the skull and re-enters through foramen spinosum with the middle meningeal artery."
+    ],
+    [
+     "Emissary vein connecting the cavernous sinus to the pterygoid plexus",
+     1,
+     "Emissary veins through foramen ovale connect the cavernous sinus with the pterygoid venous plexus."
+    ]
+   ]
+  },
+  {
+   "t": "Foramina of the middle cranial fossa",
+   "y": 2,
+   "s": "Regarding the foramen spinosum:",
+   "o": [
+    [
+     "It lies posterolateral to the foramen ovale",
+     1,
+     "Foramen spinosum lies just posterolateral to foramen ovale, anteromedial to the spine of the sphenoid."
+    ],
+    [
+     "It transmits the middle meningeal artery",
+     1,
+     "The middle meningeal artery, from the first part of the maxillary artery, enters the middle cranial fossa here."
+    ],
+    [
+     "It transmits the meningeal branch of the mandibular nerve",
+     1,
+     "The nervus spinosus accompanies the artery back into the skull."
+    ],
+    [
+     "It lies anteromedial to the spine of the sphenoid",
+     1,
+     "The spine of the sphenoid lies posterolateral to the foramen and gives attachment to the sphenomandibular ligament."
+    ]
+   ]
+  },
+  {
+   "t": "Zygomatic bone",
+   "y": 1,
+   "s": "The zygomatic bone:",
+   "o": [
+    [
+     "Articulates with the greater wing of the sphenoid",
+     1,
+     "Its frontal process articulates with the frontal bone and its orbital surface with the greater wing of the sphenoid, forming the lateral orbital wall."
+    ],
+    [
+     "Articulates with the lacrimal bone",
+     0,
+     "The zygomatic bone articulates with four bones: frontal, sphenoid, temporal and maxilla. The lacrimal does not reach it."
+    ],
+    [
+     "Transmits branches of the maxillary nerve through the zygomaticofacial and zygomaticotemporal foramina",
+     1,
+     "The zygomatic nerve, a branch of the maxillary nerve, divides into zygomaticofacial and zygomaticotemporal branches that pierce the bone."
+    ],
+    [
+     "Gives attachment to the masseter muscle",
+     1,
+     "The superficial part of masseter arises from the zygomatic process of the maxilla and the lower border of the zygomatic arch."
+    ]
+   ]
+  },
+  {
+   "t": "Jugular foramen",
+   "y": 1,
+   "s": "Concerning the jugular foramen:",
+   "o": [
+    [
+     "It lies between the petrous temporal bone and the occipital bone",
+     1,
+     "It lies at the posterior end of the petro-occipital fissure, between the jugular notches of the two bones."
+    ],
+    [
+     "The inferior petrosal sinus passes through its anterior part",
+     1,
+     "The inferior petrosal sinus occupies the anterior compartment and joins the internal jugular vein just below the skull."
+    ],
+    [
+     "The glossopharyngeal nerve passes through its posterior part with the sigmoid sinus",
+     0,
+     "Last's: two dural septa divide the foramen into three compartments. IX shares the anterior compartment with the inferior petrosal sinus (IX lies lateral to the sinus). X and XI occupy the middle compartment, and the large posterior compartment holds the jugular bulb (end of the sigmoid sinus)."
+    ],
+    [
+     "The hypoglossal nerve passes through it",
+     0,
+     "The hypoglossal nerve leaves through its own hypoglossal canal, above the anterior part of the occipital condyle."
+    ]
+   ]
+  },
+  {
+   "t": "Internal acoustic meatus",
+   "y": 1,
+   "s": "Regarding the internal acoustic meatus:",
+   "o": [
+    [
+     "It transmits the facial nerve, the nervus intermedius and the vestibulocochlear nerve",
+     1,
+     "These three, together with the labyrinthine artery, enter the meatus."
+    ],
+    [
+     "The facial nerve lies in the anterosuperior quadrant of the fundus",
+     1,
+     "At the fundus the transverse crest separates the upper facial and superior vestibular areas from the lower cochlear and inferior vestibular areas. The facial nerve is anterosuperior."
+    ],
+    [
+     "The cochlear nerve lies in the posterosuperior quadrant",
+     0,
+     "The cochlear nerve is anteroinferior. The superior vestibular nerve is posterosuperior."
+    ],
+    [
+     "The labyrinthine artery is most commonly a branch of the posterior inferior cerebellar artery",
+     0,
+     "Last's gives the labyrinthine artery as a branch of the basilar artery or of AICA, never of PICA."
+    ]
+   ]
+  },
+  {
+   "t": "Superior orbital fissure",
+   "y": 2,
+   "s": "Structures passing through the superior orbital fissure within the common tendinous ring include the:",
+   "o": [
+    [
+     "Nasociliary nerve",
+     1,
+     "The nasociliary nerve passes within the ring, between the two divisions of the oculomotor nerve."
+    ],
+    [
+     "Abducent nerve",
+     1,
+     "The abducent nerve passes within the ring, inferolateral to the nasociliary nerve."
+    ],
+    [
+     "Superior and inferior divisions of the oculomotor nerve",
+     1,
+     "Both divisions of III pass within the ring."
+    ],
+    [
+     "Trochlear nerve",
+     0,
+     "The trochlear nerve passes above the ring with the frontal and lacrimal nerves, so it is not within it."
+    ]
+   ]
+  },
+  {
+   "t": "Optic canal",
+   "y": 1,
+   "s": "The optic canal:",
+   "o": [
+    [
+     "Lies between the two roots of the lesser wing of the sphenoid",
+     1,
+     "The canal is bounded by the body of the sphenoid medially and the two roots of the lesser wing."
+    ],
+    [
+     "Transmits the ophthalmic artery, which lies above and medial to the optic nerve",
+     0,
+     "In the canal the ophthalmic artery lies below and lateral to the nerve, within the dural sheath."
+    ],
+    [
+     "Transmits postganglionic sympathetic fibres",
+     1,
+     "Sympathetic fibres from the internal carotid plexus accompany the ophthalmic artery."
+    ],
+    [
+     "Is separated from the sphenoidal sinus by bone that may be very thin",
+     1,
+     "The canal is related medially to the sphenoidal (and sometimes posterior ethmoidal) sinus, and the bony wall may be deficient."
+    ]
+   ]
+  },
+  {
+   "t": "Pterygopalatine fossa",
+   "y": 1,
+   "s": "The pterygopalatine fossa communicates directly with the:",
+   "o": [
+    [
+     "Nasal cavity through the sphenopalatine foramen",
+     1,
+     "The sphenopalatine foramen, in its medial wall, opens into the nasal cavity behind the middle meatus."
+    ],
+    [
+     "Orbit through the inferior orbital fissure",
+     1,
+     "The apex of the inferior orbital fissure opens into the fossa."
+    ],
+    [
+     "Oral cavity through the greater palatine canal",
+     1,
+     "The greater and lesser palatine canals lead down from the fossa to the palate."
+    ],
+    [
+     "Posterior cranial fossa through the pterygoid canal",
+     0,
+     "The pterygoid canal opens posteriorly at the anterior wall of foramen lacerum in the middle cranial fossa, not the posterior cranial fossa."
+    ]
+   ]
+  },
+  {
+   "t": "Pterion and surface anatomy",
+   "y": 1,
+   "s": "Concerning the pterion:",
+   "o": [
+    [
+     "It is the H-shaped junction of the frontal, parietal, squamous temporal bones and greater wing of the sphenoid",
+     1,
+     "These four bones meet at the pterion in the temporal fossa."
+    ],
+    [
+     "It overlies the anterior branch of the middle meningeal artery",
+     1,
+     "The anterior (frontal) branch grooves, or tunnels through, the inner surface here, making it vulnerable to fracture and extradural haematoma."
+    ],
+    [
+     "Its burr-hole site lies about 3 cm above the midpoint of the zygomatic arch, behind and above the frontozygomatic suture",
+     1,
+     "This is Last's surface marking for exposing the frontal branch of the middle meningeal artery (many other texts quote 4 cm). The frontozygomatic suture is the palpable landmark."
+    ],
+    [
+     "It overlies the junction of the transverse and sigmoid sinuses",
+     0,
+     "That is the asterion, where the parietal, occipital and mastoid temporal bones meet."
+    ]
+   ]
+  },
+  {
+   "t": "Foramen magnum",
+   "y": 2,
+   "s": "Structures passing through the foramen magnum include the:",
+   "o": [
+    [
+     "Hypoglossal nerves",
+     0,
+     "The hypoglossal nerves leave through the hypoglossal canals."
+    ],
+    [
+     "Vertebral arteries",
+     1,
+     "They pierce the posterior atlanto-occipital membrane and dura to enter the skull."
+    ],
+    [
+     "Internal jugular veins",
+     0,
+     "The sigmoid sinus becomes the internal jugular vein at the jugular foramen."
+    ],
+    [
+     "Spinal roots of the accessory nerves",
+     1,
+     "Last's: with the lower medulla, the spinal arteries and veins and the vertebral arteries."
+    ]
+   ]
+  },
+  {
+   "t": "Petrous temporal bone",
+   "y": 1,
+   "s": "On the anterior (cerebral) surface of the petrous temporal bone:",
+   "o": [
+    [
+     "The arcuate eminence is produced by the superior semicircular canal",
+     1,
+     "The arcuate eminence is raised by the underlying superior (anterior) semicircular canal."
+    ],
+    [
+     "The tegmen tympani forms the roof of the middle ear and mastoid antrum",
+     1,
+     "The thin tegmen tympani roofs the tympanic cavity and antrum and continues backward over the auditory tube canal."
+    ],
+    [
+     "The hiatus for the greater petrosal nerve lies lateral to the hiatus for the lesser petrosal nerve",
+     0,
+     "The greater petrosal hiatus lies medial to (and in front of) the smaller hiatus for the lesser petrosal nerve."
+    ],
+    [
+     "The trigeminal impression lies near the apex",
+     1,
+     "The trigeminal ganglion lies in a depression near the apex, within the trigeminal (Meckel's) cave."
+    ]
+   ]
+  },
+  {
+   "t": "Foramen lacerum",
+   "y": 1,
+   "s": "Regarding the foramen lacerum:",
+   "o": [
+    [
+     "In life it is closed by dense fibrous tissue and transmits no major structure",
+     1,
+     "Last's: apart from minute emissary veins, no structure passes through the foramen lacerum from the cranial cavity to the exterior."
+    ],
+    [
+     "The internal carotid artery passes vertically through it from the neck",
+     0,
+     "The internal carotid artery enters via the carotid canal and crosses the upper part of the foramen lacerum horizontally, then turns up into the cavernous sinus. It does not traverse the foramen from below."
+    ],
+    [
+     "The greater and deep petrosal nerves unite here to form the nerve of the pterygoid canal",
+     1,
+     "They join in the foramen lacerum and enter the pterygoid canal in its anterior wall."
+    ],
+    [
+     "Lies between the apex of the petrous temporal bone and the body and greater wing of the sphenoid",
+     1,
+     "These bones bound the foramen, with the basiocciput medially."
+    ]
+   ]
+  },
+  {
+   "t": "Mandible",
+   "y": 1,
+   "s": "Concerning the mandible:",
+   "o": [
+    [
+     "The sphenomandibular ligament attaches to the lingula",
+     1,
+     "The lingula projects over the mandibular foramen and gives attachment to the sphenomandibular ligament, a remnant of Meckel's cartilage."
+    ],
+    [
+     "The superior mental (genial) spines give origin to geniohyoid",
+     0,
+     "The superior genial tubercles give origin to genioglossus. Geniohyoid arises from the inferior tubercles."
+    ],
+    [
+     "The lateral pterygoid inserts into the pterygoid fovea on the front of the neck of the mandible",
+     1,
+     "Last's: the two heads lie edge to edge and form a thick tendon into the pterygoid fovea, drawing the condyle and disc forward down the articular tubercle."
+    ],
+    [
+     "In the adult the mental foramen lies midway between the upper and lower borders below the second premolar",
+     1,
+     "In the dentate adult it lies midway between the borders. In infants it is near the lower border, and in edentulous elderly near the upper border, after the alveolar margin is absorbed."
+    ]
+   ]
+  },
+  {
+   "t": "Hyoid bone",
+   "y": 1,
+   "s": "The hyoid bone:",
+   "o": [
+    [
+     "Gives attachment to the middle constrictor along the greater horn and lesser horn",
+     1,
+     "The middle constrictor arises from the upper border of the greater horn, the lesser horn and the lower part of the stylohyoid ligament."
+    ],
+    [
+     "Has its lesser horns derived from the third pharyngeal arch",
+     0,
+     "The lesser horns and upper body come from the second arch. The greater horns and lower body come from the third."
+    ],
+    [
+     "Is separated from the thyrohyoid membrane by a bursa",
+     1,
+     "The thyrohyoid membrane attaches to the upper border of the posterior body, and a bursa lies between membrane and the back of the body."
+    ],
+    [
+     "Gives attachment to the stylohyoid ligament at the tip of the greater horn",
+     0,
+     "The stylohyoid ligament attaches to the lesser horn."
+    ]
+   ]
+  },
+  {
+   "t": "Neonatal skull",
+   "y": 1,
+   "s": "In the skull of the newborn:",
+   "o": [
+    [
+     "The mastoid process is absent and the facial nerve is relatively unprotected as it emerges from the stylomastoid foramen",
+     1,
+     "The mastoid process develops after the second year, so the emerging facial nerve lies superficially, covered only by fibres of sternocleidomastoid."
+    ],
+    [
+     "The mastoid antrum is absent",
+     0,
+     "The internal ear, middle ear and mastoid antrum are fully developed at birth."
+    ],
+    [
+     "The vault contains no cancellous diploe",
+     1,
+     "At birth the vault bones are a single layer of compact bone. The diploe develops later."
+    ],
+    [
+     "The anterior fontanelle closes at about 18 months",
+     1,
+     "Last's: the anterior fontanelle closes at about 18 months and the posterior fontanelle by the end of the first year."
+    ]
+   ]
+  },
+  {
+   "t": "Neonatal skull",
+   "y": 2,
+   "s": "Concerning the skull at birth:",
+   "o": [
+    [
+     "The tympanic membrane is almost of adult size",
+     1,
+     "The tympanic membrane is nearly adult size but faces more downward."
+    ],
+    [
+     "The mandibular fossa is deep and faces directly forward",
+     0,
+     "The fossa is shallow at birth and faces slightly laterally. It deepens and turns forward with development."
+    ],
+    [
+     "The maxillary sinus is a narrow slit in the medial wall of the maxilla",
+     1,
+     "The sinus enlarges rapidly after the permanent teeth begin to erupt, at about 6 years."
+    ],
+    [
+     "The two halves of the frontal bone are united by a fused metopic suture",
+     0,
+     "The frontal bone is in two halves at birth. Last's: the metopic suture usually unites in the second year, though it may persist."
+    ]
+   ]
+  },
+  {
+   "t": "Anterior cranial fossa",
+   "y": 1,
+   "s": "Regarding the anterior cranial fossa:",
+   "o": [
+    [
+     "The falx cerebri attaches to the crista galli",
+     1,
+     "The anterior end of the falx attaches to the crista galli of the ethmoid."
+    ],
+    [
+     "The anterior ethmoidal nerve crosses the cribriform plate before entering the nasal cavity beside the crista galli",
+     1,
+     "It enters the cranial cavity from the orbit through the anterior ethmoidal foramen, runs extradurally on the cribriform plate, then descends through a slit beside the crista galli."
+    ],
+    [
+     "The foramen caecum may transmit an emissary vein from the nose to the superior sagittal sinus",
+     1,
+     "Last's: the foramen caecum is usually a blind pit plugged by the falx (a huge Sharpey's fibre). Only in about 1% does a patent vein connect nasal veins with the superior sagittal sinus."
+    ],
+    [
+     "Its floor is formed entirely by the orbital plates of the frontal bone",
+     0,
+     "The floor is formed by the orbital plates of the frontal bone, the cribriform plate of the ethmoid, and the lesser wings and anterior body (jugum) of the sphenoid."
+    ]
+   ]
+  },
+  {
+   "t": "Sphenoid and sella",
+   "y": 1,
+   "s": "Concerning the sphenoid bone and sella turcica:",
+   "o": [
+    [
+     "The tentorium cerebelli's free border attaches to the anterior clinoid process",
+     1,
+     "The free margin runs forward to the anterior clinoid process. The attached margin ends at the posterior clinoid process, so the two cross."
+    ],
+    [
+     "The pituitary gland is separated from the sphenoidal sinus by the floor of the hypophysial fossa",
+     1,
+     "This relationship is the basis of the trans-sphenoidal approach."
+    ],
+    [
+     "The diaphragma sellae is pierced by the infundibulum",
+     1,
+     "The diaphragma sellae roofs the fossa and is pierced centrally by the pituitary stalk."
+    ],
+    [
+     "The optic chiasma lies directly within the hypophysial fossa",
+     0,
+     "The chiasma lies above the diaphragma sellae, usually above and slightly behind the tuberculum sellae, not within the fossa."
+    ]
+   ]
+  },
+  {
+   "t": "Orbital walls and fissures",
+   "y": 1,
+   "s": "The inferior orbital fissure:",
+   "o": [
+    [
+     "Lies between the greater wing of the sphenoid and the orbital surface of the maxilla",
+     1,
+     "It separates the lateral wall (greater wing) from the floor (maxilla and orbital process of palatine)."
+    ],
+    [
+     "Transmits the zygomatic nerve",
+     1,
+     "The zygomatic branch of the maxillary nerve enters the orbit through the fissure."
+    ],
+    [
+     "Transmits the infraorbital vessels and nerve",
+     1,
+     "The infraorbital nerve and vessels enter the infraorbital groove from the fissure."
+    ],
+    [
+     "Transmits the superior ophthalmic vein",
+     0,
+     "The superior ophthalmic vein passes through the superior orbital fissure. Branches of the inferior ophthalmic vein may pass through the inferior fissure to the pterygoid plexus."
+    ]
+   ]
+  },
+  {
+   "t": "Medial orbital wall",
+   "y": 2,
+   "s": "The medial wall of the orbit is formed by the:",
+   "o": [
+    [
+     "Frontal process of the maxilla",
+     1,
+     "It forms the anterior part, including the anterior lacrimal crest."
+    ],
+    [
+     "Lacrimal bone",
+     1,
+     "The lacrimal bone carries the posterior lacrimal crest."
+    ],
+    [
+     "Orbital plate (lamina papyracea) of the ethmoid",
+     1,
+     "The paper-thin lamina papyracea forms most of the medial wall and is easily breached by ethmoid infection."
+    ],
+    [
+     "Orbital surface of the zygomatic bone",
+     0,
+     "The zygomatic bone contributes to the lateral wall and floor, not the medial wall. The body of the sphenoid completes the medial wall posteriorly."
+    ]
+   ]
+  },
+  {
+   "t": "Middle ear walls",
+   "y": 1,
+   "s": "Regarding the walls of the tympanic cavity:",
+   "o": [
+    [
+     "The promontory on the medial wall is formed by the basal turn of the cochlea",
+     1,
+     "The promontory overlies the first turn of the cochlea and is covered by the tympanic plexus."
+    ],
+    [
+     "The prominence of the facial canal lies above the oval window on the medial wall",
+     1,
+     "The facial canal runs backward above the oval window, then turns down in the posterior wall."
+    ],
+    [
+     "The floor separates the cavity from the internal carotid artery",
+     0,
+     "The floor is a thin plate separating the cavity from the bulb of the internal jugular vein. The internal carotid artery is related to the anterior wall."
+    ],
+    [
+     "The aditus to the mastoid antrum lies in the upper part of the posterior wall",
+     1,
+     "The aditus leads back from the epitympanic recess to the antrum."
+    ]
+   ]
+  },
+  {
+   "t": "Cranial dura and venous sinuses",
+   "y": 1,
+   "s": "Concerning the cavernous sinus:",
+   "o": [
+    [
+     "The oculomotor and trochlear nerves lie in its lateral wall",
+     1,
+     "From above down the lateral wall contains III, IV, ophthalmic and maxillary nerves."
+    ],
+    [
+     "The abducent nerve lies in the lateral wall below the ophthalmic nerve",
+     0,
+     "Last's: VI lies within the sinus, lateral to and then below the ICA. No nerve lies medial to the abducent, and no nerve lies lateral to the trigeminal branches."
+    ],
+    [
+     "It drains into the superior and inferior petrosal sinuses",
+     1,
+     "It drains posteriorly into the superior petrosal sinus (to the transverse/sigmoid) and inferior petrosal sinus (to the internal jugular vein)."
+    ],
+    [
+     "It receives the superficial middle cerebral vein",
+     1,
+     "Last's: the superficial middle cerebral vein crosses the subarachnoid space and pierces the roof of the cavernous sinus near the emerging ICA. This is how cavernous thrombosis can spread to the hemisphere."
+    ]
+   ]
+  },
+  {
+   "t": "Cranial dura and venous sinuses",
+   "y": 2,
+   "s": "The straight sinus:",
+   "o": [
+    [
+     "Is formed by the union of the inferior sagittal sinus and the great cerebral vein",
+     1,
+     "These join at the anterior end of the junction of falx and tentorium."
+    ],
+    [
+     "Runs in the line of attachment of the falx cerebri to the tentorium cerebelli",
+     1,
+     "It runs backward in this junction to the internal occipital protuberance."
+    ],
+    [
+     "Usually becomes continuous with the left transverse sinus",
+     1,
+     "The superior sagittal sinus usually continues as the right transverse sinus, and the straight sinus as the left."
+    ],
+    [
+     "Slopes gently, at much less than 45 degrees, from front to back",
+     0,
+     "Last's: the straight sinus slopes down steeply, at more than 45 degrees, in the intact dura. Last's also says it receives the inferior sagittal sinus, the great cerebral vein and both basal veins at its anterior end."
+    ]
+   ]
+  },
+  {
+   "t": "Nerve supply of the dura",
+   "y": 1,
+   "s": "Regarding the sensory nerve supply of the cranial dura:",
+   "o": [
+    [
+     "The upper surface of the tentorium cerebelli is supplied by tentorial branches of the ophthalmic nerve",
+     1,
+     "Last's: the tentorial nerves arise at the anterior end of the cavernous sinus and supply the falx, the vault dura and the upper surface of the tentorium. Its under surface is supplied by IX and X."
+    ],
+    [
+     "The dura around the margin of the foramen magnum is supplied by the upper three cervical nerves",
+     1,
+     "Last's: the rest of the posterior fossa dura (and the under surface of the tentorium) is supplied by meningeal branches of IX and X. The ring around the foramen magnum is supplied by C1 to C3, which explains suboccipital pain."
+    ],
+    [
+     "The dura of the middle cranial fossa is supplied mainly by the facial nerve",
+     0,
+     "Last's: the anterior half of the middle fossa dura is supplied by the middle meningeal nerve (V2) and the posterior half by the nervus spinosus (V3)."
+    ],
+    [
+     "The dura of the anterior cranial fossa receives branches of the anterior ethmoidal nerve",
+     1,
+     "The anterior ethmoidal and other ophthalmic branches supply the anterior fossa dura."
+    ]
+   ]
+  },
+  {
+   "t": "Emissary veins and diploe",
+   "y": 1,
+   "s": "Concerning emissary veins:",
+   "o": [
+    [
+     "The mastoid emissary vein connects the sigmoid sinus to the posterior auricular or occipital veins",
+     1,
+     "The mastoid emissary vein runs through the mastoid foramen."
+    ],
+    [
+     "They contain valves that ensure flow is directed outward",
+     0,
+     "Emissary veins are valveless, so flow can occur in either direction. This lets infection spread from scalp to sinuses."
+    ],
+    [
+     "The parietal emissary vein connects the superior sagittal sinus with veins of the scalp",
+     1,
+     "It passes through the parietal foramen."
+    ],
+    [
+     "A vein through the hypoglossal canal connects the sigmoid sinus or basilar plexus with the internal jugular vein",
+     1,
+     "The venous plexus of the hypoglossal canal connects intracranial veins with the internal jugular vein."
+    ]
+   ]
+  },
+  {
+   "t": "Occipital bone",
+   "y": 1,
+   "s": "Regarding the occipital bone:",
+   "o": [
+    [
+     "The hypoglossal canal lies above the anterior part of the occipital condyle",
+     1,
+     "The canal pierces the bone above the anterior part of each condyle."
+    ],
+    [
+     "The condylar canal, when present, transmits an emissary vein from the sigmoid sinus",
+     1,
+     "The posterior condylar canal in the condylar fossa transmits an emissary vein."
+    ],
+    [
+     "The basiocciput gives attachment to the pharyngobasilar fascia at the pharyngeal tubercle",
+     1,
+     "The pharyngeal tubercle gives attachment to the median raphe of the superior constrictor."
+    ],
+    [
+     "The alar ligaments attach to the anterior margin of the foramen magnum",
+     0,
+     "The apical ligament attaches to the anterior margin (basion). The alar ligaments attach to the medial sides of the occipital condyles."
+    ]
+   ]
+  },
+  {
+   "t": "Nasal cavity lateral wall",
+   "y": 1,
+   "s": "Concerning the lateral wall of the nasal cavity:",
+   "o": [
+    [
+     "The nasolacrimal duct opens into the inferior meatus",
+     1,
+     "The nasolacrimal duct opens into the anterior part of the inferior meatus, guarded by a mucosal fold (valve of Hasner)."
+    ],
+    [
+     "The maxillary sinus opens into the hiatus semilunaris of the middle meatus",
+     1,
+     "The maxillary ostium is high on its medial wall, opening into the posterior part of the hiatus semilunaris. Hence poor gravitational drainage."
+    ],
+    [
+     "The posterior ethmoidal air cells open into the middle meatus",
+     0,
+     "Posterior ethmoidal cells open into the superior meatus. Anterior and middle cells open into the middle meatus."
+    ],
+    [
+     "The sphenoidal sinus opens into the sphenoethmoidal recess",
+     1,
+     "The sphenoidal sinus drains into the sphenoethmoidal recess above the superior concha."
+    ]
+   ]
+  },
+  {
+   "t": "Paranasal sinuses",
+   "y": 2,
+   "s": "Regarding the paranasal sinuses:",
+   "o": [
+    [
+     "The sphenoidal sinus is well developed at birth",
+     0,
+     "It is rudimentary at birth and develops mainly after puberty."
+    ],
+    [
+     "The maxillary sinus opens into the inferior meatus",
+     0,
+     "It opens high on its medial wall into the posterior end of the hiatus semilunaris of the middle meatus."
+    ],
+    [
+     "The posterior ethmoidal air cells open into the middle meatus",
+     0,
+     "They open into the superior meatus."
+    ],
+    [
+     "The infraorbital nerve runs in the roof of the maxillary sinus",
+     1,
+     "In its groove and canal in the floor of the orbit."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,654 @@
+{
+ "code": "gp",
+ "region": "General principles & embryology",
+ "questions": [
+  {
+   "t": "Tissues",
+   "y": 1,
+   "s": "Concerning the basic tissues (Last's chapter 1):",
+   "o": [
+    [
+     "Sweat glands are supplied by cholinergic fibres in sympathetic nerves",
+     1,
+     "Sudomotor fibres are sympathetic but cholinergic."
+    ],
+    [
+     "Sweat glands are absent from the lip margins, nipples and glans penis",
+     1,
+     "Also from the tympanic membrane, inner prepuce and labia minora, where sebaceous glands are present instead."
+    ],
+    [
+     "Elastic cartilage is found in the epiglottis and auditory tube",
+     1,
+     "And the external ear."
+    ],
+    [
+     "Hyaline cartilage has a rich blood supply",
+     0,
+     "Last's: only fibrocartilage has a (sparse) blood supply. Hyaline and elastic cartilage rely on diffusion."
+    ]
+   ]
+  },
+  {
+   "t": "Tissues",
+   "y": 2,
+   "s": "The panniculus carnosus in man is represented by:",
+   "o": [
+    [
+     "Platysma and the muscles of the scalp and face",
+     1,
+     "Last's."
+    ],
+    [
+     "Palmaris brevis",
+     1,
+     "Last's."
+    ],
+    [
+     "Dartos of the scrotum",
+     1,
+     "Also corrugator cutis ani and the subareolar muscle of the nipple."
+    ],
+    [
+     "Corrugator cutis ani",
+     1,
+     "Last's list also includes the subareolar muscle of the nipple."
+    ]
+   ]
+  },
+  {
+   "t": "Joints",
+   "y": 1,
+   "s": "Regarding joints:",
+   "o": [
+    [
+     "The spheno-occipital joint is a primary cartilaginous joint",
+     1,
+     "A synchondrosis that ossifies at about 25 years."
+    ],
+    [
+     "Intervertebral discs are secondary cartilaginous joints",
+     1,
+     "Symphyses, typically midline."
+    ],
+    [
+     "The first sternochondral joint is a synovial joint",
+     0,
+     "It is a primary cartilaginous joint."
+    ],
+    [
+     "Articular discs are found in the sternoclavicular and temporomandibular joints",
+     1,
+     "Where congruity is low. Also the menisci of the knee."
+    ]
+   ]
+  },
+  {
+   "t": "Joints",
+   "y": 2,
+   "s": "Hilton's law states that the nerve to a muscle tends to supply:",
+   "o": [
+    [
+     "The joint moved by that muscle",
+     1,
+     "Last's."
+    ],
+    [
+     "The skin over the joint",
+     1,
+     "Last's."
+    ],
+    [
+     "The muscle itself",
+     1,
+     "The motor nerve gives branches to the joint and overlying skin."
+    ],
+    [
+     "The periosteum deep to the muscle",
+     0,
+     "Not part of Hilton's law as stated by Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Bone",
+   "y": 1,
+   "s": "Concerning bone:",
+   "o": [
+    [
+     "The periosteum does not cover articular surfaces of synovial joints",
+     1,
+     "Last's."
+    ],
+    [
+     "Subcutaneous periosteum is supplied by the nerve of the overlying skin",
+     1,
+     "Deeper periosteum is supplied by nerves to nearby muscles."
+    ],
+    [
+     "Secondary cartilage develops in the head of the mandible and ends of the clavicle",
+     1,
+     "Last's: in certain growing membrane bones. Not related to secondary cartilaginous joints."
+    ],
+    [
+     "Sesamoid bones are constantly present in the tendon of flexor pollicis longus",
+     0,
+     "Last's: constant sesamoids are the patella and those in adductor pollicis, flexor pollicis brevis and flexor hallucis brevis."
+    ]
+   ]
+  },
+  {
+   "t": "Blood vessels and lymphatics",
+   "y": 2,
+   "s": "Veins without valves include the:",
+   "o": [
+    [
+     "Superior and inferior venae cavae",
+     1,
+     "Last's list."
+    ],
+    [
+     "Dural venous sinuses and veins of the head and neck",
+     1,
+     "Including the ophthalmic veins."
+    ],
+    [
+     "Vertebral venous plexuses",
+     1,
+     "A route for metastatic spread."
+    ],
+    [
+     "Portal vein and its tributaries",
+     1,
+     "Also hepatic, cardiac, pulmonary and pelvic veins."
+    ]
+   ]
+  },
+  {
+   "t": "Peripheral nerves",
+   "y": 1,
+   "s": "Regarding peripheral nerves:",
+   "o": [
+    [
+     "In the sciatic nerve about 80% of the cross-section is connective tissue",
+     1,
+     "BSE notes after Last's."
+    ],
+    [
+     "The median nerve has its own artery from the anterior interosseous artery",
+     1,
+     "And the sciatic from the inferior gluteal."
+    ],
+    [
+     "Group C fibres are thinly myelinated preganglionic autonomic fibres",
+     0,
+     "Group B are preganglionic autonomic (myelinated). Group C are unmyelinated postganglionic autonomic and slow pain fibres."
+    ],
+    [
+     "About 40% of the fibres in a nerve to a limb muscle are afferent",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Spinal nerves and rami",
+   "y": 2,
+   "s": "Concerning the posterior (dorsal) rami:",
+   "o": [
+    [
+     "In the upper half of the body the medial branches reach the skin",
+     1,
+     "Down to about T6. Below this the lateral branches do."
+    ],
+    [
+     "The posterior rami of C7, C8, L4 and L5 have no cutaneous branches",
+     1,
+     "Nor does C1."
+    ],
+    [
+     "No posterior ramus supplies skin or muscle of a limb",
+     1,
+     "Last's."
+    ],
+    [
+     "The cutaneous territory of posterior rami extends to the posterior axillary line",
+     0,
+     "Last's: it extends beyond the extensor muscles but does not reach the posterior axillary lines."
+    ]
+   ]
+  },
+  {
+   "t": "Body wall nerves",
+   "y": 1,
+   "s": "Regarding the general plan of body wall innervation:",
+   "o": [
+    [
+     "Where a spinal nerve and segmental artery cross, the nerve lies nearer the skin",
+     1,
+     "Last's."
+    ],
+    [
+     "The neurovascular plane lies between the middle and innermost muscle layers",
+     1,
+     "In both thorax and abdomen."
+    ],
+    [
+     "The most caudal root of a limb plexus is distributed entirely to the extensor compartment",
+     0,
+     "It goes entirely to the flexor compartment (T1 in the brachial, S3 in the sacral plexus), showing the richer flexor supply."
+    ],
+    [
+     "Limb buds grow out from the lateral strip supplied by lateral branches of anterior rami",
+     1,
+     "Their anterior divisions supply flexors, posterior divisions extensors."
+    ]
+   ]
+  },
+  {
+   "t": "Body wall nerves",
+   "y": 2,
+   "s": "Muscles with double innervation because of migration between compartments include:",
+   "o": [
+    [
+     "Deltoid (axillary and suprascapular)",
+     0,
+     "Deltoid is supplied by the axillary nerve alone."
+    ],
+    [
+     "Brachialis (lateral part supplied by the radial nerve)",
+     1,
+     "Last's: the lateral part developed in the extensor compartment."
+    ],
+    [
+     "Rectus femoris (femoral and obturator)",
+     0,
+     "Rectus femoris is supplied by the femoral nerve only."
+    ],
+    [
+     "Short head of biceps femoris (common peroneal)",
+     1,
+     "Last's: it migrated from the extensor compartment, so its supply differs from the long head (tibial)."
+    ]
+   ]
+  },
+  {
+   "t": "Dermatomes and segments",
+   "y": 1,
+   "s": "Concerning Last's rules of segmental innervation of muscles:",
+   "o": [
+    [
+     "Muscles sharing a primary action on a joint are supplied by the same segments",
+     1,
+     "Usually two."
+    ],
+    [
+     "Their opponents are supplied by segments running in numerical sequence with these",
+     1,
+     "E.g. elbow flexion C5/6, extension C7/8."
+    ],
+    [
+     "For a more distal joint the spinal centre lies one segment lower",
+     1,
+     "Last's."
+    ],
+    [
+     "Most upper limb muscles are supplied equally by three segments",
+     0,
+     "Most muscles are supplied equally by two adjacent segments. Some upper limb muscles are predominantly unisegmental."
+    ]
+   ]
+  },
+  {
+   "t": "Reflexes",
+   "y": 2,
+   "s": "Concerning reflexes:",
+   "o": [
+    [
+     "The plantar reflex becomes flexor during the second year",
+     1,
+     "Under one year an extensor response is normal."
+    ],
+    [
+     "Exaggerated tendon reflexes in upper motor neurone lesions reflect release of the fusimotor loop",
+     1,
+     "Loss of supraspinal (reticulospinal, vestibulospinal) control makes gamma motor neurones over-excitable."
+    ],
+    [
+     "The abdominal reflexes are lost in upper motor neurone lesions",
+     1,
+     "Beevor's sign indicates weakness below the umbilicus."
+    ],
+    [
+     "The anal reflex is a monosynaptic stretch reflex",
+     0,
+     "Last's: plantar, abdominal, anal and bulbocavernosus are multisynaptic cutaneous reflexes."
+    ]
+   ]
+  },
+  {
+   "t": "Pharyngeal arches",
+   "y": 1,
+   "s": "Derivatives of the first pharyngeal arch include:",
+   "o": [
+    [
+     "The malleus and incus",
+     1,
+     "From Meckel's cartilage."
+    ],
+    [
+     "The sphenomandibular ligament and lingula",
+     1,
+     "The anterior ligament of the malleus too."
+    ],
+    [
+     "The mandible, formed by ossification of Meckel's cartilage",
+     0,
+     "Last's: the mandible and maxilla ossify in membrane, not from Meckel's cartilage."
+    ],
+    [
+     "Tensor tympani and tensor veli palatini",
+     1,
+     "Supplied by the mandibular nerve."
+    ]
+   ]
+  },
+  {
+   "t": "Pharyngeal arches",
+   "y": 2,
+   "s": "Derivatives of the second pharyngeal arch include:",
+   "o": [
+    [
+     "Stapes",
+     1,
+     "Second arch cartilage."
+    ],
+    [
+     "Styloid process and stylohyoid ligament",
+     1,
+     "Their lengths vary inversely."
+    ],
+    [
+     "Lesser horns and upper body of the hyoid",
+     1,
+     "Third arch: greater horns and lower body."
+    ],
+    [
+     "Stapedius and posterior belly of digastric",
+     1,
+     "Supplied by the facial nerve."
+    ]
+   ]
+  },
+  {
+   "t": "Pharyngeal pouches",
+   "y": 1,
+   "s": "Concerning the pharyngeal pouches:",
+   "o": [
+    [
+     "The third pouch forms the inferior parathyroid and the thymus",
+     1,
+     "Hence the inferior parathyroid descends with the thymus and may be found in the mediastinum."
+    ],
+    [
+     "The fourth pouch forms the superior parathyroid",
+     1,
+     "Last's."
+    ],
+    [
+     "The fifth pouch forms the ultimobranchial body, giving the parafollicular cells",
+     1,
+     "Last's."
+    ],
+    [
+     "The second pouch forms the auditory tube",
+     0,
+     "The first pouch forms the auditory tube, middle ear and mastoid antrum. The second pouch forms the tonsillar crypts and supratonsillar fossa."
+    ]
+   ]
+  },
+  {
+   "t": "Aortic arches",
+   "y": 2,
+   "s": "Regarding the aortic arch arteries:",
+   "o": [
+    [
+     "The right fourth arch forms the proximal right subclavian artery",
+     1,
+     "The left fourth forms the arch of the aorta."
+    ],
+    [
+     "The third arch forms part of the internal carotid artery",
+     1,
+     "So the carotid sinus is supplied by IX, the third arch nerve."
+    ],
+    [
+     "The right recurrent laryngeal nerve hooks under the subclavian because the right fifth and dorsal sixth arches disappear",
+     1,
+     "Last's."
+    ],
+    [
+     "The second arch artery persists as the stapedial artery in the adult",
+     0,
+     "Last's: the stapedial artery does not persist after birth."
+    ]
+   ]
+  },
+  {
+   "t": "Neural crest and early development",
+   "y": 1,
+   "s": "Neural crest cells give rise to:",
+   "o": [
+    [
+     "Posterior root ganglia",
+     1,
+     "Last's."
+    ],
+    [
+     "Schwann cells",
+     1,
+     "Also satellite cells of ganglia."
+    ],
+    [
+     "Chromaffin cells of the suprarenal medulla",
+     1,
+     "Last's."
+    ],
+    [
+     "Oligodendrocytes",
+     0,
+     "Oligodendrocytes arise from the neural tube (neuroectoderm), not the neural crest."
+    ]
+   ]
+  },
+  {
+   "t": "Mesoderm",
+   "y": 2,
+   "s": "Regarding the intraembryonic mesoderm:",
+   "o": [
+    [
+     "Paraxial mesoderm forms somites giving sclerotome and myotome",
+     1,
+     "Sclerotome gives vertebrae and dura, myotome the body wall muscles."
+    ],
+    [
+     "The intermediate cell mass gives the gonads and suprarenal cortex medially",
+     1,
+     "And the nephric systems laterally."
+    ],
+    [
+     "Rathke's pouch arises from ectoderm cranial to the buccopharyngeal membrane",
+     1,
+     "It forms the adenohypophysis."
+    ],
+    [
+     "The lateral plate is segmented",
+     0,
+     "Last's: the lateral plate remains unsegmented and gives the limb buds."
+    ]
+   ]
+  },
+  {
+   "t": "Septum transversum",
+   "y": 1,
+   "s": "Concerning the septum transversum:",
+   "o": [
+    [
+     "Its cranial part forms the pericardium and part of the diaphragm",
+     1,
+     "Last's."
+    ],
+    [
+     "It is invaded by cervical myotomes, mainly the fourth",
+     1,
+     "Producing diaphragmatic muscle."
+    ],
+    [
+     "Its caudal part is invaded by the developing liver",
+     1,
+     "Forming the ventral mesogastrium."
+    ],
+    [
+     "It forms the oesophageal and vena caval openings",
+     0,
+     "Last's: the connective tissue around these openings comes from the oesophageal mesentery."
+    ]
+   ]
+  },
+  {
+   "t": "Anatomy of the child",
+   "y": 2,
+   "s": "In the newborn:",
+   "o": [
+    [
+     "The foot is everted",
+     0,
+     "The foot is inverted at birth and gradually everts."
+    ],
+    [
+     "The spinal cord ends at L1",
+     0,
+     "At birth it ends at L3, reaching L1/2 by about 20 years."
+    ],
+    [
+     "The mastoid process is well developed",
+     0,
+     "It is absent at birth, leaving the emerging facial nerve unprotected."
+    ],
+    [
+     "The internal ear, middle ear and mastoid antrum are fully developed",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Anatomy of the child",
+   "y": 1,
+   "s": "Concerning growth of the skull and face:",
+   "o": [
+    [
+     "In the fetus the vertical height of the orbit equals that of the maxilla and mandible together",
+     1,
+     "In the adult it is a third, because of growth of the maxillary sinus and alveolar bone."
+    ],
+    [
+     "The face elongates rapidly when the permanent teeth erupt from about 6 years",
+     1,
+     "Last's."
+    ],
+    [
+     "In the newborn the mental foramen lies near the lower border of the mandible",
+     1,
+     "In the edentulous elderly it lies near the upper border."
+    ],
+    [
+     "The two halves of the mandible are fused at birth",
+     0,
+     "They are separated by fibrous tissue at the symphysis and unite in the first year."
+    ]
+   ]
+  },
+  {
+   "t": "Ossification",
+   "y": 2,
+   "s": "Bones that ossify in membrane include the:",
+   "o": [
+    [
+     "Clavicle",
+     1,
+     "Last's: skull vault, face and clavicle ossify in membrane."
+    ],
+    [
+     "Bones of the skull vault",
+     1,
+     "Also the squamous and tympanic temporal."
+    ],
+    [
+     "Tuberosity of each terminal phalanx",
+     1,
+     "Last's."
+    ],
+    [
+     "Squamous and tympanic parts of the temporal bone",
+     1,
+     "Last's: the vault and these parts ossify in membrane, the petromastoid and styloid in cartilage."
+    ]
+   ]
+  },
+  {
+   "t": "Ossification",
+   "y": 1,
+   "s": "Regarding ossification of the vertebrae:",
+   "o": [
+    [
+     "Each vertebra ossifies from three primary centres, a centrum and two halves of the neural arch",
+     1,
+     "All are ossified by the eighth fetal week."
+    ],
+    [
+     "The neurocentral junctions unite by about 7 years",
+     1,
+     "The laminae unite by about 2 years."
+    ],
+    [
+     "The costal elements of cervical and lumbar vertebrae have separate primary centres",
+     0,
+     "Last's: they ossify by extension from the neural arch. An occasional centre in C7 or L1 gives a cervical or lumbar rib. Sacral costal elements do have centres."
+    ],
+    [
+     "The tip of the dens has a secondary centre appearing at about 3 years and fusing at 12",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Ossification",
+   "y": 2,
+   "s": "Concerning the axis:",
+   "o": [
+    [
+     "It has five primary ossification centres",
+     1,
+     "Last's: lower part of the body, two for the halves of the arch and lateral parts, and two for the halves of the dens and upper body."
+    ],
+    [
+     "It has no secondary ossification centres",
+     0,
+     "It has a secondary centre for the tip of the dens (appears about 3 years, fuses about 12) and an epiphyseal ring for the lower body (puberty, fuses about 25)."
+    ],
+    [
+     "The dens and lateral parts unite with the body at about 3 years",
+     1,
+     "Last's."
+    ],
+    [
+     "The dens transmits the weight of the skull to the axis",
+     0,
+     "Last's: the dens bears no weight. Weight passes through the superior articular facets beside it."
+    ]
+   ]
+  }
+ ]
+}

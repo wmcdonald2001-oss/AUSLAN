@@ -1,0 +1,748 @@
+<title>NSA Anatomy Bank</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: a single study column (max 46rem) under a sticky tab bar; panels swap in place. */
+:root {
+  --bg: #eef1f3;
+  --surface: #ffffff;
+  --sunk: #e4e9ec;
+  --ink: #18212b;
+  --muted: #56626e;
+  --line: #d3dae0;
+  --accent: #1d5c9e;
+  --accent-ink: #ffffff;
+  --true: #1b7543;
+  --true-bg: #e2f2e8;
+  --false: #b1271d;
+  --false-bg: #f8e3e1;
+  --flag: #a8660f;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1318; --surface: #161d24; --sunk: #1d252e; --ink: #e5e9ed; --muted: #9ba6b2; --line: #2b3540;
+    --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1318; --surface: #161d24; --sunk: #1d252e; --ink: #e5e9ed; --muted: #9ba6b2; --line: #2b3540;
+  --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 17px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 46rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--surface); border-bottom: 1px solid var(--line); }
+header.top .wrap { padding-block: 14px 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; margin: 0; letter-spacing: 0.005em; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.sync { margin-left: auto; font-size: 0.78rem; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.sync i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; }
+.sync.on i { background: var(--true); }
+nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+nav.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+nav.tabs button { flex: 1 0 auto; background: none; border: 0; border-bottom: 3px solid transparent; padding: 10px 8px 9px; font: inherit; font-size: 0.95rem; color: var(--muted); cursor: pointer; }
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 700; }
+main .wrap { padding-block: 16px 64px; display: flex; flex-direction: column; gap: 14px; }
+section[hidden] { display: none !important; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+.label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; margin: 0 0 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--line); background: var(--sunk); color: var(--ink); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 0.88rem; cursor: pointer; display: inline-flex; gap: 6px; align-items: baseline; }
+.chip small { color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.chip[aria-pressed="true"] small { color: inherit; opacity: 0.85; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.grow { flex: 1 1 auto; }
+.btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 10px 16px; font: inherit; font-weight: 700; cursor: pointer; min-height: 44px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.ghost { background: transparent; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn.small { padding: 6px 12px; min-height: 36px; font-size: 0.88rem; }
+button:focus-visible, select:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+select, input[type="number"] { font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); min-height: 44px; }
+.count { color: var(--muted); font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+details.filters summary { cursor: pointer; font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+details.filters summary::-webkit-details-marker { display: none; }
+details.filters summary::after { content: "Filters ▾"; font-weight: 400; color: var(--muted); font-size: 0.9rem; }
+details.filters[open] summary::after { content: "Hide ▴"; }
+.filter-body { display: flex; flex-direction: column; gap: 14px; margin-top: 12px; }
+
+.q { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.q-head { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); font-size: 0.82rem; color: var(--muted); }
+.tag { border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; font-weight: 700; color: var(--ink); background: var(--sunk); }
+.q-head .flagged { color: var(--flag); font-weight: 700; }
+.stem { padding: 14px 16px 4px; font-size: 1.08rem; font-weight: 700; text-wrap: pretty; }
+ol.opts { list-style: none; margin: 0; padding: 6px 0 4px; }
+ol.opts li { padding: 10px 16px; border-top: 1px solid transparent; }
+ol.opts li + li { border-top-color: var(--line); }
+.opt-row { display: flex; gap: 12px; align-items: flex-start; }
+.opt-n { flex: 0 0 auto; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--sunk); display: grid; place-items: center; font-size: 0.85rem; font-weight: 700; font-variant-numeric: tabular-nums; margin-top: 1px; }
+.opt-text { flex: 1 1 auto; min-width: 0; }
+.tf { display: flex; gap: 6px; flex: 0 0 auto; }
+.tf button { min-width: 3rem; min-height: 40px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-weight: 700; cursor: pointer; }
+.tf button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.tf button:disabled { cursor: default; }
+li.ok { background: var(--true-bg); }
+li.bad { background: var(--false-bg); }
+.verdict { margin-top: 6px; font-size: 0.92rem; }
+.verdict b.t { color: var(--true); }
+.verdict b.f { color: var(--false); }
+.expl { color: var(--ink); opacity: 0.88; font-size: 0.93rem; margin-top: 4px; }
+.key { margin: 4px 16px 12px; padding: 10px 12px; background: var(--sunk); border-radius: 8px; font-size: 0.88rem; }
+.key table { border-collapse: collapse; width: 100%; }
+.key td { padding: 2px 6px; vertical-align: top; }
+.key td:first-child { font-weight: 700; width: 1.5rem; }
+.letters { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; padding: 4px 16px 14px; }
+.letters button { min-height: 48px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-weight: 700; font-size: 1.1rem; cursor: pointer; }
+.letters button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.letters button.right { background: var(--true); color: var(--surface); border-color: var(--true); }
+.letters button.wrong { background: var(--false); color: var(--surface); border-color: var(--false); }
+.q-foot { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 16px; border-top: 1px solid var(--line); background: var(--sunk); }
+.score { font-weight: 700; font-variant-numeric: tabular-nums; }
+.score.full { color: var(--true); }
+.score.part { color: var(--flag); }
+.score.none { color: var(--false); }
+.empty { text-align: center; color: var(--muted); padding: 28px 16px; }
+.empty b { color: var(--ink); display: block; font-size: 1.05rem; margin-bottom: 4px; }
+
+.timer { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.1rem; }
+.timer.low { color: var(--false); }
+.bar { height: 6px; background: var(--sunk); border-radius: 3px; overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--accent); }
+.grid-nav { display: grid; grid-template-columns: repeat(auto-fill, minmax(2.4rem, 1fr)); gap: 4px; }
+.grid-nav button { min-height: 36px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--muted); font: inherit; font-size: 0.82rem; font-variant-numeric: tabular-nums; cursor: pointer; }
+.grid-nav button.done { background: var(--sunk); color: var(--ink); font-weight: 700; }
+.grid-nav button.cur { outline: 2px solid var(--accent); outline-offset: -2px; color: var(--ink); }
+.grid-nav button.ok { background: var(--true-bg); color: var(--true); }
+.grid-nav button.bad { background: var(--false-bg); color: var(--false); }
+.big { font-family: var(--font-display); font-size: 2.6rem; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+.pass { color: var(--true); font-weight: 700; }
+.fail { color: var(--false); font-weight: 700; }
+table.stats { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+table.stats th { text-align: left; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 700; padding: 6px 4px; border-bottom: 1px solid var(--line); }
+table.stats td { padding: 8px 4px; border-bottom: 1px solid var(--line); vertical-align: middle; font-variant-numeric: tabular-nums; }
+table.stats td.num { text-align: right; white-space: nowrap; }
+table.stats td.meter { width: 32%; }
+.meterbar { height: 8px; border-radius: 4px; background: var(--sunk); overflow: hidden; display: flex; }
+.meterbar span { display: block; height: 100%; }
+.meterbar .m-ok { background: var(--true); }
+.meterbar .m-bad { background: var(--false); opacity: 0.75; }
+.table-scroll { overflow-x: auto; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); min-height: 14rem; display: flex; flex-direction: column; }
+.card-face { padding: 18px 16px; font-size: 1.02rem; overflow-wrap: anywhere; }
+.card-face.back { border-top: 1px dashed var(--line); background: var(--sunk); }
+.cloze { color: var(--accent); font-weight: 700; }
+.cloze-a { color: var(--accent); font-weight: 700; background: color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 3px; padding: 0 2px; }
+.fig { color: var(--muted); font-style: italic; font-size: 0.85em; }
+.card hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }
+.rate { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.prose p { margin: 0 0 10px; }
+.prose p:last-child { margin-bottom: 0; }
+.confirm { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px; border: 1px solid var(--false); border-radius: 8px; background: var(--false-bg); }
+@media (max-width: 420px) {
+  body { font-size: 16px; }
+  .opt-row { flex-wrap: wrap; }
+  .tf { width: 100%; justify-content: flex-end; }
+  .tf button { flex: 0 0 4.2rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <h1>NSA Anatomy Bank</h1>
+    <span class="meta" id="meta"></span>
+    <span class="sync" id="sync" title="Where your progress is saved"><i></i><span>Saved on this device</span></span>
+  </div>
+</header>
+<nav class="tabs" aria-label="Sections">
+  <div class="wrap" role="tablist">
+    <button role="tab" id="tab-practice" aria-selected="true" data-view="practice">Practice</button>
+    <button role="tab" id="tab-exam" aria-selected="false" data-view="exam">Exam</button>
+    <button role="tab" id="tab-cards" aria-selected="false" data-view="cards">Cards</button>
+    <button role="tab" id="tab-progress" aria-selected="false" data-view="progress">Progress</button>
+    <button role="tab" id="tab-format" aria-selected="false" data-view="format">Format</button>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <section id="view-practice">
+      <details class="filters panel" id="practice-filters" open>
+        <summary><span>Choose questions <span class="count" id="practice-count"></span></span></summary>
+        <div class="filter-body">
+          <div><p class="label">Region</p><div class="chips" id="practice-regions"></div></div>
+          <div><p class="label">Question type</p><div class="chips" id="practice-types"></div></div>
+          <div><p class="label">Show</p><div class="chips" id="practice-status"></div></div>
+          <div class="row"><button class="btn primary" id="practice-start">Start practice</button><span class="count" id="practice-hint"></span></div>
+        </div>
+      </details>
+      <div id="practice-area"></div>
+    </section>
+
+    <section id="view-exam" hidden>
+      <div id="exam-area"></div>
+    </section>
+
+    <section id="view-cards" hidden>
+      <div class="panel">
+        <p class="label">Region</p>
+        <div class="chips" id="card-regions"></div>
+        <p class="count" id="card-count" style="margin:10px 0 0"></p>
+      </div>
+      <div id="card-area"></div>
+    </section>
+
+    <section id="view-progress" hidden>
+      <div id="progress-area"></div>
+    </section>
+
+    <section id="view-format" hidden>
+      <div class="panel prose" id="format-area"></div>
+    </section>
+  </div>
+</main>
+
+<script>
+const DATA = /*__DATA__*/null;
+const EXAM_DATE = new Date('2027-02-19T09:00:00+11:00');
+const STORE_KEY = 'nsa-anatomy-bank-v1';
+const KEY_TEXT = { A: '1, 2 and 3 are correct', B: '1 and 3 are correct', C: '2 and 4 are correct', D: 'Only 4 is correct', E: 'All are correct' };
+const REGION = Object.fromEntries(DATA.regions.map((r) => [r.code, r.name]));
+const QBYID = Object.fromEntries(DATA.questions.map((q) => [q.id, q]));
+const CBYID = Object.fromEntries(DATA.cards.map((c) => [c.id, c]));
+
+const $ = (sel, el = document) => el.querySelector(sel);
+const h = (tag, attrs = {}, ...kids) => {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v;
+    else if (k === 'text') el.textContent = v;
+    else if (k === 'html') el.innerHTML = v;
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid.nodeType ? kid : document.createTextNode(kid));
+  return el;
+};
+const shuffle = (arr) => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const pct = (x) => `${Math.round(x * 100)}%`;
+
+/* ---------- progress store (this device + optional sync) ---------- */
+let state = { v: 1, q: {}, c: {} };
+const listeners = new Set();
+function loadLocal() {
+  try { const raw = localStorage.getItem(STORE_KEY); if (raw) state = mergeStates(state, JSON.parse(raw)); } catch (e) { /* storage unavailable */ }
+}
+function saveLocal() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* storage unavailable */ }
+}
+function mergeStates(a, b) {
+  // Per-item last-writer-wins; a reset wipes every record older than it.
+  const reset = Math.max((a && a.r) || 0, (b && b.r) || 0);
+  const out = { v: 1, r: reset, q: {}, c: {} };
+  for (const kind of ['q', 'c']) {
+    for (const src of [a, b]) {
+      for (const [id, rec] of Object.entries((src && src[kind]) || {})) {
+        if ((rec.t || 0) <= reset) continue;
+        const mine = out[kind][id];
+        if (!mine || (rec.t || 0) > (mine.t || 0)) out[kind][id] = rec;
+      }
+    }
+  }
+  return out;
+}
+const sync = { db: null, ref: null, pending: false, writing: false, lastRemote: '' };
+function changed() {
+  saveLocal();
+  scheduleRemote();
+  listeners.forEach((fn) => fn());
+}
+function scheduleRemote() {
+  if (!sync.ref) return;
+  sync.pending = true;
+  clearTimeout(sync.timer);
+  sync.timer = setTimeout(flushRemote, 1200);
+}
+async function flushRemote() {
+  if (!sync.ref || sync.writing || !sync.pending) return;
+  sync.writing = true; sync.pending = false;
+  try {
+    const body = JSON.stringify(state);
+    if (body !== sync.lastRemote) { await sync.ref.set(JSON.parse(body)); sync.lastRemote = body; }
+  } catch (e) {
+    if (e && (e.code === 'invalid_argument' || e.code === 'revoked' || e.code === 'not_granted')) { sync.ref = null; setSync(false); }
+    else sync.pending = true;
+  } finally {
+    sync.writing = false;
+    if (sync.pending) sync.timer = setTimeout(flushRemote, 3000);
+  }
+}
+function setSync(on) {
+  const el = $('#sync');
+  el.classList.toggle('on', on);
+  el.lastElementChild.textContent = on ? 'Synced to your account' : 'Saved on this device';
+}
+async function startSync() {
+  try {
+    if (!window.claude || !window.claude.use) return;
+    const [db, user] = await Promise.all([window.claude.use('db'), window.claude.use('user')]);
+    if (!db || !user) return;
+    const uid = await user.id();
+    if (!uid) return;
+    sync.db = db;
+    sync.ref = db.doc(`data/users/${uid}/progress`);
+    setSync(true);
+    sync.ref.onSnapshot((snap) => {
+      if (!snap.exists) { scheduleRemote(); return; }
+      const remote = snap.data();
+      const before = JSON.stringify(state);
+      state = mergeStates(state, remote);
+      sync.lastRemote = JSON.stringify(remote);
+      if (JSON.stringify(state) !== before) { saveLocal(); listeners.forEach((fn) => fn()); }
+      if (JSON.stringify(state) !== sync.lastRemote) scheduleRemote();
+    }, () => { sync.ref = null; setSync(false); });
+  } catch (e) { /* sync unavailable, local only */ }
+}
+function recordQuestion(id, score) {
+  const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
+  state.q[id] = { ...rec, a: rec.a + 1, c: rec.c + (score === 1 ? 1 : 0), l: score, t: Date.now() };
+}
+function toggleFlag(id) {
+  const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
+  state.q[id] = { ...rec, f: rec.f ? 0 : 1, t: Date.now() };
+  changed();
+}
+
+/* ---------- scoring ---------- */
+function scoreAnswer(q, ans) {
+  if (q.y === 1) return ans.filter((v, i) => v === !!q.o[i][1]).length / 4;
+  return ans === q.k ? 1 : 0;
+}
+function answered(q, ans) { return q.y === 1 ? ans.every((v) => v !== null) : !!ans; }
+function blankAnswer(q) { return q.y === 1 ? [null, null, null, null] : null; }
+
+/* ---------- question renderer ---------- */
+function renderQuestion(q, opts) {
+  // opts: { ans, reveal, onAnswer(ans), headExtra, footer }
+  const rec = state.q[q.id];
+  const head = h('div', { class: 'q-head' },
+    h('span', { class: 'tag', text: REGION[q.r] }),
+    h('span', { text: q.t }),
+    h('span', { text: q.y === 1 ? 'Type 1 · true/false' : 'Type 2 · key A–E' }),
+    rec && rec.f ? h('span', { class: 'flagged', text: '⚑ Flagged' }) : null,
+    opts.headExtra || null);
+  const list = h('ol', { class: 'opts' });
+  q.o.forEach((o, i) => {
+    const truth = !!o[1];
+    let liClass = '';
+    if (opts.reveal && q.y === 1) liClass = opts.ans[i] === truth ? 'ok' : 'bad';
+    const textBlock = h('div', { class: 'opt-text' }, h('div', { text: o[0] }));
+    if (opts.reveal) {
+      textBlock.append(h('div', { class: 'verdict' },
+        h('b', { class: truth ? 't' : 'f', text: truth ? 'True' : 'False' }),
+        q.y === 1 && opts.ans[i] !== null ? ` · you said ${opts.ans[i] ? 'true' : 'false'}` : ''),
+        h('div', { class: 'expl', text: o[2] }));
+    }
+    const row = h('div', { class: 'opt-row' }, h('span', { class: 'opt-n', text: String(i + 1) }), textBlock);
+    if (q.y === 1) {
+      const tf = h('div', { class: 'tf', role: 'group', 'aria-label': `Statement ${i + 1}` });
+      for (const val of [true, false]) {
+        tf.append(h('button', {
+          type: 'button', 'aria-pressed': String(opts.ans[i] === val), disabled: opts.reveal || !opts.onAnswer,
+          text: val ? 'T' : 'F', 'aria-label': `${val ? 'True' : 'False'} for statement ${i + 1}`,
+          onclick: () => { const next = opts.ans.slice(); next[i] = val; opts.onAnswer(next); },
+        }));
+      }
+      row.append(tf);
+    }
+    list.append(h('li', { class: liClass }, row));
+  });
+  const box = h('article', { class: 'q' }, head, h('div', { class: 'stem', text: q.s }), list);
+  if (q.y === 2) {
+    const table = h('table', {}, ...Object.entries(KEY_TEXT).map(([k, v]) => h('tr', {}, h('td', { text: k }), h('td', { text: v }))));
+    box.append(h('div', { class: 'key' }, table));
+    const letters = h('div', { class: 'letters', role: 'group', 'aria-label': 'Answer letter' });
+    for (const k of Object.keys(KEY_TEXT)) {
+      let cls = '';
+      if (opts.reveal) cls = k === q.k ? 'right' : (k === opts.ans ? 'wrong' : '');
+      letters.append(h('button', {
+        type: 'button', class: cls, 'aria-pressed': String(opts.ans === k), disabled: opts.reveal || !opts.onAnswer, text: k,
+        onclick: () => opts.onAnswer(k),
+      }));
+    }
+    box.append(letters);
+  }
+  if (opts.footer) box.append(opts.footer);
+  return box;
+}
+function scoreLabel(q, score) {
+  const cls = score === 1 ? 'full' : score === 0 ? 'none' : 'part';
+  const text = q.y === 1 ? `${Math.round(score * 4)}/4 statements correct` : (score === 1 ? `Correct, ${q.k}` : `Answer ${q.k}: ${KEY_TEXT[q.k]}`);
+  return h('span', { class: `score ${cls}`, text });
+}
+
+/* ---------- chips ---------- */
+function chipGroup(container, items, selected, { multi = true, onChange }) {
+  container.replaceChildren();
+  for (const it of items) {
+    const on = multi ? selected.has(it.value) : selected === it.value;
+    container.append(h('button', {
+      type: 'button', class: 'chip', 'aria-pressed': String(on),
+      onclick: () => onChange(it.value),
+    }, it.label, it.count != null ? h('small', { text: String(it.count) }) : null));
+  }
+}
+
+/* ---------- practice ---------- */
+const practice = { regions: new Set(), type: 'all', status: 'all', queue: [], idx: 0, ans: null, reveal: false };
+function practiceMatches() {
+  return DATA.questions.filter((q) => {
+    if (practice.regions.size && !practice.regions.has(q.r)) return false;
+    if (practice.type !== 'all' && String(q.y) !== practice.type) return false;
+    const rec = state.q[q.id];
+    if (practice.status === 'unseen' && rec && rec.a) return false;
+    if (practice.status === 'wrong' && !(rec && rec.a && rec.l < 1)) return false;
+    if (practice.status === 'flagged' && !(rec && rec.f)) return false;
+    return true;
+  });
+}
+function renderPracticeFilters() {
+  const counts = {};
+  for (const q of DATA.questions) counts[q.r] = (counts[q.r] || 0) + 1;
+  chipGroup($('#practice-regions'), [{ value: '__all', label: 'All regions', count: DATA.questions.length }, ...DATA.regions.map((r) => ({ value: r.code, label: r.name, count: counts[r.code] || 0 }))],
+    practice.regions.size ? practice.regions : new Set(['__all']), {
+      onChange: (v) => {
+        if (v === '__all') practice.regions.clear();
+        else practice.regions.has(v) ? practice.regions.delete(v) : practice.regions.add(v);
+        renderPracticeFilters();
+      },
+    });
+  chipGroup($('#practice-types'), [{ value: 'all', label: 'Both' }, { value: '1', label: 'Type 1 (T/F)' }, { value: '2', label: 'Type 2 (A–E)' }], practice.type, {
+    multi: false, onChange: (v) => { practice.type = v; renderPracticeFilters(); },
+  });
+  chipGroup($('#practice-status'), [{ value: 'all', label: 'All' }, { value: 'unseen', label: 'Not yet tried' }, { value: 'wrong', label: 'Got wrong last time' }, { value: 'flagged', label: 'Flagged' }], practice.status, {
+    multi: false, onChange: (v) => { practice.status = v; renderPracticeFilters(); },
+  });
+  const n = practiceMatches().length;
+  $('#practice-count').textContent = `· ${n} match`;
+  $('#practice-start').disabled = n === 0;
+  $('#practice-hint').textContent = n === 0 ? 'Nothing matches these filters yet.' : 'Questions are shuffled each time.';
+}
+function startPractice() {
+  practice.queue = shuffle(practiceMatches().map((q) => q.id));
+  practice.idx = 0; practice.reveal = false; practice.ans = null;
+  if (window.matchMedia('(max-width: 700px)').matches) $('#practice-filters').open = false;
+  renderPractice();
+}
+function renderPractice() {
+  const area = $('#practice-area');
+  if (!practice.queue.length) {
+    area.replaceChildren(h('div', { class: 'panel empty' }, h('b', { text: 'Pick regions and press Start practice' }), 'Each answer is marked straight away with an explanation for every statement.'));
+    return;
+  }
+  if (practice.idx >= practice.queue.length) {
+    area.replaceChildren(h('div', { class: 'panel empty' }, h('b', { text: 'End of this set' }), `You worked through ${practice.queue.length} questions.`,
+      h('div', { class: 'row', style: 'justify-content:center;margin-top:12px' }, h('button', { class: 'btn primary', text: 'Shuffle and go again', onclick: startPractice }))));
+    return;
+  }
+  const q = QBYID[practice.queue[practice.idx]];
+  if (practice.ans === null && !practice.reveal) practice.ans = blankAnswer(q);
+  const ans = practice.ans;
+  const rec = state.q[q.id];
+  const foot = h('div', { class: 'q-foot' });
+  if (!practice.reveal) {
+    foot.append(h('button', { class: 'btn primary', text: 'Check answer', disabled: !answered(q, ans), onclick: () => {
+      practice.reveal = true; recordQuestion(q.id, scoreAnswer(q, ans)); changed();
+    } }));
+  } else {
+    foot.append(scoreLabel(q, scoreAnswer(q, ans)));
+  }
+  foot.append(h('span', { class: 'grow' }),
+    h('button', { class: 'btn small ghost', text: rec && rec.f ? 'Unflag' : 'Flag', onclick: () => toggleFlag(q.id) }),
+    h('button', { class: `btn ${practice.reveal ? 'primary' : 'ghost'}`, text: practice.reveal ? 'Next question' : 'Skip', onclick: () => {
+      practice.idx++; practice.ans = null; practice.reveal = false; renderPractice(); window.scrollTo({ top: $('#practice-area').offsetTop - 60 });
+    } }));
+  area.replaceChildren(renderQuestion(q, {
+    ans, reveal: practice.reveal,
+    onAnswer: practice.reveal ? null : (next) => { practice.ans = next; renderPractice(); },
+    headExtra: h('span', { class: 'grow', style: 'text-align:right', text: `${practice.idx + 1} of ${practice.queue.length}` }),
+    footer: foot,
+  }));
+}
+
+/* ---------- exam ---------- */
+const exam = { phase: 'setup', regions: new Set(), n: 60, minutes: 100, ids: [], ans: [], cur: 0, ends: 0, timer: null, results: null };
+function renderExam() {
+  const area = $('#exam-area');
+  clearInterval(exam.timer);
+  if (exam.phase === 'setup') {
+    const pool = DATA.questions.filter((q) => !exam.regions.size || exam.regions.has(q.r));
+    const regionsBox = h('div', { class: 'chips' });
+    const counts = {};
+    for (const q of DATA.questions) counts[q.r] = (counts[q.r] || 0) + 1;
+    chipGroup(regionsBox, [{ value: '__all', label: 'All regions', count: DATA.questions.length }, ...DATA.regions.map((r) => ({ value: r.code, label: r.name, count: counts[r.code] }))],
+      exam.regions.size ? exam.regions : new Set(['__all']), { onChange: (v) => {
+        if (v === '__all') exam.regions.clear(); else exam.regions.has(v) ? exam.regions.delete(v) : exam.regions.add(v);
+        renderExam();
+      } });
+    const n = Math.min(exam.n, pool.length);
+    const nInput = h('input', { type: 'number', id: 'exam-n', min: '5', max: String(pool.length), value: String(n), style: 'width:6rem', onchange: (e) => {
+      exam.n = Math.max(5, Math.min(pool.length, parseInt(e.target.value, 10) || 60));
+      exam.minutes = Math.round(exam.n * 100 / 60); renderExam();
+    } });
+    area.replaceChildren(h('div', { class: 'panel' },
+      h('p', { class: 'label', text: 'Mock exam' }),
+      h('p', { style: 'margin:0 0 12px', text: 'The real paper is 60 questions in 100 minutes with a 70% pass mark. Answers are hidden until you finish.' }),
+      h('p', { class: 'label', text: 'Region' }), regionsBox,
+      h('div', { class: 'row', style: 'margin-top:14px' },
+        h('label', { for: 'exam-n', text: 'Questions' }), nInput,
+        h('span', { class: 'count', text: `Time allowed: ${Math.round(n * 100 / 60)} min · ${pool.length} available` })),
+      h('div', { class: 'row', style: 'margin-top:14px' }, h('button', { class: 'btn primary', text: 'Start exam', disabled: pool.length < 5, onclick: () => {
+        exam.ids = shuffle(pool.map((q) => q.id)).slice(0, n);
+        exam.ans = exam.ids.map((id) => blankAnswer(QBYID[id]));
+        exam.cur = 0; exam.duration = Math.round(n * 100 / 60) * 60000; exam.ends = Date.now() + exam.duration; exam.phase = 'run'; renderExam();
+      } }))));
+    return;
+  }
+  if (exam.phase === 'run') {
+    const q = QBYID[exam.ids[exam.cur]];
+    const timerEl = h('span', { class: 'timer' });
+    const tick = () => {
+      const left = Math.max(0, exam.ends - Date.now());
+      const m = Math.floor(left / 60000), s = Math.floor(left / 1000) % 60;
+      timerEl.textContent = `${m}:${String(s).padStart(2, '0')} left`;
+      timerEl.classList.toggle('low', left < 5 * 60000);
+      if (left <= 0) finishExam();
+    };
+    tick();
+    exam.timer = setInterval(tick, 1000);
+    const done = exam.ids.filter((id, i) => answered(QBYID[id], exam.ans[i])).length;
+    const navGrid = h('div', { class: 'grid-nav' }, ...exam.ids.map((id, i) => h('button', {
+      class: `${answered(QBYID[id], exam.ans[i]) ? 'done' : ''} ${i === exam.cur ? 'cur' : ''}`, text: String(i + 1), 'aria-label': `Question ${i + 1}`,
+      onclick: () => { exam.cur = i; renderExam(); },
+    })));
+    const foot = h('div', { class: 'q-foot' },
+      h('button', { class: 'btn ghost', text: 'Previous', disabled: exam.cur === 0, onclick: () => { exam.cur--; renderExam(); } }),
+      h('span', { class: 'grow' }),
+      exam.cur < exam.ids.length - 1
+        ? h('button', { class: 'btn primary', text: 'Next', onclick: () => { exam.cur++; renderExam(); } })
+        : h('button', { class: 'btn primary', text: 'Finish and mark', onclick: () => confirmFinish(area) }));
+    area.replaceChildren(
+      h('div', { class: 'panel' },
+        h('div', { class: 'row' }, timerEl, h('span', { class: 'grow' }), h('span', { class: 'count', text: `${done} of ${exam.ids.length} answered` }),
+          h('button', { class: 'btn small', text: 'Finish', onclick: () => confirmFinish(area) })),
+        h('div', { class: 'bar', style: 'margin:10px 0' }, h('span', { style: `width:${(done / exam.ids.length) * 100}%` })),
+        navGrid),
+      renderQuestion(q, { ans: exam.ans[exam.cur], reveal: false, onAnswer: (next) => { exam.ans[exam.cur] = next; renderExam(); },
+        headExtra: h('span', { class: 'grow', style: 'text-align:right', text: `Question ${exam.cur + 1} of ${exam.ids.length}` }), footer: foot }));
+    return;
+  }
+  if (exam.phase === 'done') {
+    const r = exam.results;
+    const byRegion = {};
+    exam.ids.forEach((id, i) => { const q = QBYID[id]; (byRegion[q.r] = byRegion[q.r] || []).push(r.scores[i]); });
+    const rows = Object.entries(byRegion).map(([code, arr]) => {
+      const avg = arr.reduce((a, b) => a + b, 0) / arr.length;
+      return h('tr', {}, h('td', { text: REGION[code] }), h('td', { class: 'num', text: String(arr.length) }), h('td', { class: 'num', text: pct(avg) }));
+    });
+    const reviewGrid = h('div', { class: 'grid-nav' }, ...exam.ids.map((id, i) => h('button', {
+      class: `${r.scores[i] === 1 ? 'ok' : r.scores[i] === 0 ? 'bad' : 'done'} ${i === exam.cur ? 'cur' : ''}`, text: String(i + 1), onclick: () => { exam.cur = i; renderExam(); },
+    })));
+    const q = QBYID[exam.ids[exam.cur]];
+    const foot = h('div', { class: 'q-foot' }, scoreLabel(q, r.scores[exam.cur]), h('span', { class: 'grow' }),
+      h('button', { class: 'btn ghost', text: 'Previous', disabled: exam.cur === 0, onclick: () => { exam.cur--; renderExam(); } }),
+      h('button', { class: 'btn ghost', text: 'Next', disabled: exam.cur === exam.ids.length - 1, onclick: () => { exam.cur++; renderExam(); } }));
+    area.replaceChildren(
+      h('div', { class: 'panel' },
+        h('p', { class: 'label', text: 'Result' }),
+        h('div', { class: 'row' }, h('span', { class: 'big', text: pct(r.total) }),
+          h('span', { class: r.total >= 0.7 ? 'pass' : 'fail', text: r.total >= 0.7 ? 'At or above the 70% pass mark' : 'Below the 70% pass mark' })),
+        h('p', { class: 'count', style: 'margin:8px 0 12px', text: `${exam.ids.length} questions · ${r.full} fully correct · time used ${r.used}` }),
+        h('div', { class: 'table-scroll' }, h('table', { class: 'stats' }, h('tr', {}, h('th', { text: 'Region' }), h('th', { text: 'Qs' }), h('th', { text: 'Score' })), ...rows)),
+        h('div', { class: 'row', style: 'margin-top:14px' }, h('button', { class: 'btn primary', text: 'New exam', onclick: () => { exam.phase = 'setup'; renderExam(); } }))),
+      h('div', { class: 'panel' }, h('p', { class: 'label', text: 'Review each question' }), reviewGrid),
+      renderQuestion(q, { ans: exam.ans[exam.cur], reveal: true, onAnswer: null, footer: foot }));
+  }
+}
+function confirmFinish(area) {
+  const unanswered = exam.ids.filter((id, i) => !answered(QBYID[id], exam.ans[i])).length;
+  if (unanswered === 0) { finishExam(); return; }
+  const existing = $('.confirm', area);
+  if (existing) return;
+  area.prepend(h('div', { class: 'confirm' },
+    h('span', { class: 'grow', text: `${unanswered} unanswered question${unanswered === 1 ? '' : 's'} will score zero (Type 1 statements left blank score zero).` }),
+    h('button', { class: 'btn small', text: 'Keep going', onclick: (e) => e.target.closest('.confirm').remove() }),
+    h('button', { class: 'btn small primary', text: 'Finish now', onclick: finishExam })));
+}
+function finishExam() {
+  clearInterval(exam.timer);
+  const scores = exam.ids.map((id, i) => scoreAnswer(QBYID[id], exam.ans[i]));
+  exam.ids.forEach((id, i) => { if (answered(QBYID[id], exam.ans[i])) recordQuestion(id, scores[i]); });
+  const usedMs = exam.duration - Math.max(0, exam.ends - Date.now());
+  exam.results = {
+    scores, total: scores.reduce((a, b) => a + b, 0) / scores.length, full: scores.filter((s) => s === 1).length,
+    used: `${Math.floor(usedMs / 60000)} min`,
+  };
+  exam.phase = 'done'; exam.cur = 0;
+  changed();
+  renderExam();
+}
+
+/* ---------- flashcards (simple Leitner boxes) ---------- */
+const INTERVAL_DAYS = [0, 1, 3, 7, 16, 35, 70];
+const cards = { regions: new Set(), queue: [], cur: null, flipped: false };
+function cardPool() { return DATA.cards.filter((c) => !cards.regions.size || cards.regions.has(c.r)); }
+function buildCardQueue() {
+  const now = Date.now();
+  const pool = cardPool();
+  const due = pool.filter((c) => state.c[c.id] && state.c[c.id].d <= now).sort((a, b) => state.c[a.id].d - state.c[b.id].d);
+  const fresh = pool.filter((c) => !state.c[c.id]);
+  cards.queue = [...due.map((c) => c.id), ...fresh.map((c) => c.id)];
+  cards.cur = cards.queue[0] || null; cards.flipped = false;
+  return { due: due.length, fresh: fresh.length, total: pool.length };
+}
+function renderCards() {
+  const counts = {};
+  for (const c of DATA.cards) counts[c.r] = (counts[c.r] || 0) + 1;
+  chipGroup($('#card-regions'), [{ value: '__all', label: 'All regions', count: DATA.cards.length }, ...DATA.regions.filter((r) => counts[r.code]).map((r) => ({ value: r.code, label: r.name, count: counts[r.code] }))],
+    cards.regions.size ? cards.regions : new Set(['__all']), { onChange: (v) => {
+      if (v === '__all') cards.regions.clear(); else cards.regions.has(v) ? cards.regions.delete(v) : cards.regions.add(v);
+      renderCards();
+    } });
+  const area = $('#card-area');
+  if (!DATA.cards.length) {
+    area.replaceChildren(h('div', { class: 'panel empty' }, h('b', { text: 'No flashcards in this copy' }), 'Flashcards are built from your Anki export when the page is built.'));
+    $('#card-count').textContent = '';
+    return;
+  }
+  const info = buildCardQueue();
+  $('#card-count').textContent = `${info.due} due for review · ${info.fresh} new · ${info.total} in selection`;
+  drawCard();
+}
+function drawCard() {
+  const area = $('#card-area');
+  if (!cards.cur) {
+    area.replaceChildren(h('div', { class: 'panel empty' }, h('b', { text: 'All caught up' }), 'No cards are due in this selection. Come back later or pick more regions.'));
+    return;
+  }
+  const c = CBYID[cards.cur];
+  const rec = state.c[c.id];
+  const body = h('div', { class: 'card' },
+    h('div', { class: 'q-head' }, h('span', { class: 'tag', text: REGION[c.r] }), h('span', { text: rec ? `Box ${rec.b}` : 'New card' }), h('span', { class: 'grow', style: 'text-align:right', text: `${cards.queue.length} left` })),
+    h('div', { class: 'card-face', html: c.f }));
+  if (cards.flipped) body.append(h('div', { class: 'card-face back', html: c.b }));
+  const controls = cards.flipped
+    ? h('div', { class: 'rate' },
+      h('button', { class: 'btn', text: 'Again', onclick: () => rateCard(c.id, 0) }),
+      h('button', { class: 'btn', text: 'Hard', onclick: () => rateCard(c.id, 1) }),
+      h('button', { class: 'btn primary', text: 'Got it', onclick: () => rateCard(c.id, 2) }))
+    : h('button', { class: 'btn primary', style: 'width:100%', text: 'Show answer', onclick: () => { cards.flipped = true; drawCard(); } });
+  area.replaceChildren(body, controls);
+}
+function rateCard(id, grade) {
+  const rec = state.c[id] || { b: 0, d: 0 };
+  let b = rec.b;
+  if (grade === 0) b = 0; else if (grade === 2) b = Math.min(INTERVAL_DAYS.length - 1, b + 1);
+  const days = grade === 0 ? 0 : grade === 1 ? Math.max(0.5, INTERVAL_DAYS[b] / 2) : INTERVAL_DAYS[b];
+  const due = grade === 0 ? Date.now() + 10 * 60000 : Date.now() + days * 86400000;
+  state.c[id] = { b, d: due, t: Date.now() };
+  changed();
+  cards.queue = cards.queue.filter((x) => x !== id);
+  if (grade === 0) cards.queue.push(id);
+  cards.cur = cards.queue[0] || null; cards.flipped = false;
+  $('#card-count').textContent = `${cards.queue.length} left in this session`;
+  drawCard();
+}
+
+/* ---------- progress ---------- */
+let resetArmed = false;
+function renderProgress() {
+  const area = $('#progress-area');
+  const rows = [];
+  let seen = 0, totalScore = 0, attempted = 0;
+  for (const r of DATA.regions) {
+    const qs = DATA.questions.filter((q) => q.r === r.code);
+    const tried = qs.filter((q) => state.q[q.id] && state.q[q.id].a);
+    const ok = tried.filter((q) => state.q[q.id].l === 1).length;
+    const avg = tried.length ? tried.reduce((a, q) => a + state.q[q.id].l, 0) / tried.length : 0;
+    seen += tried.length; totalScore += tried.reduce((a, q) => a + state.q[q.id].l, 0); attempted += tried.length;
+    rows.push(h('tr', {},
+      h('td', { text: r.name }),
+      h('td', { class: 'num', text: `${tried.length}/${qs.length}` }),
+      h('td', { class: 'meter' }, h('div', { class: 'meterbar', title: `${ok} fully correct, ${tried.length - ok} not` },
+        h('span', { class: 'm-ok', style: `width:${qs.length ? ok / qs.length * 100 : 0}%` }),
+        h('span', { class: 'm-bad', style: `width:${qs.length ? (tried.length - ok) / qs.length * 100 : 0}%` }))),
+      h('td', { class: 'num', text: tried.length ? pct(avg) : '–' })));
+  }
+  const learned = Object.values(state.c).filter((c) => c.b >= 3).length;
+  const reviewed = Object.keys(state.c).length;
+  const flagged = Object.values(state.q).filter((q) => q.f).length;
+  const resetBox = resetArmed
+    ? h('div', { class: 'confirm' }, h('span', { class: 'grow', text: 'Erase all question and flashcard progress on every device?' }),
+      h('button', { class: 'btn small', text: 'Cancel', onclick: () => { resetArmed = false; renderProgress(); } }),
+      h('button', { class: 'btn small primary', text: 'Erase', onclick: () => { resetArmed = false; state = { v: 1, r: Date.now(), q: {}, c: {} }; changed(); } }))
+    : h('button', { class: 'btn small ghost', text: 'Reset progress', onclick: () => { resetArmed = true; renderProgress(); } });
+  area.replaceChildren(
+    h('div', { class: 'panel' },
+      h('p', { class: 'label', text: 'Overall' }),
+      h('div', { class: 'row' }, h('span', { class: 'big', text: attempted ? pct(totalScore / attempted) : '–' }),
+        h('span', { class: 'count', text: `average on your latest attempt at ${seen} of ${DATA.questions.length} questions · ${flagged} flagged` })),
+      DATA.cards.length ? h('p', { class: 'count', style: 'margin:8px 0 0', text: `Flashcards: ${reviewed} of ${DATA.cards.length} studied, ${learned} well known (box 3 or higher)` }) : null),
+    h('div', { class: 'panel' },
+      h('p', { class: 'label', text: 'By region' }),
+      h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },
+        h('tr', {}, h('th', { text: 'Region' }), h('th', { text: 'Tried' }), h('th', { text: 'Fully correct / not' }), h('th', { text: 'Avg' })), ...rows))),
+    h('div', { class: 'panel' }, h('div', { class: 'row' }, h('span', { class: 'grow count', text: 'Progress is kept per person and merges between your laptop and phone when you open this page signed in.' }), resetBox)));
+}
+
+/* ---------- format ---------- */
+function renderFormat() {
+  const t2 = DATA.questions.filter((q) => q.y === 2).length;
+  $('#format-area').replaceChildren(
+    h('p', { class: 'label', text: 'Exam format' }),
+    h('p', { text: 'The NSA Neurosurgery Anatomy Examination is a single paper of 60 multiple choice questions in 100 minutes, based on Last\'s Anatomy, Regional and Applied, 9th edition. The pass mark is 70%.' }),
+    h('p', {}, h('b', { text: 'Type 1: ' }), 'a stem with four statements. Mark each statement true or false. Here each statement is worth a quarter of the question.'),
+    h('p', {}, h('b', { text: 'Type 2: ' }), 'a stem with four numbered statements, answered with one letter from this key. The whole question is right or wrong.'),
+    h('div', { class: 'key', style: 'margin:0 0 10px' }, h('table', {}, ...Object.entries(KEY_TEXT).map(([k, v]) => h('tr', {}, h('td', { text: k }), h('td', { text: v }))))),
+    h('p', { class: 'count', text: 'Check this key against the sample questions in the NSA examination information document. If the official key differs, the letters can be remapped in one place.' }),
+    h('p', { class: 'label', style: 'margin-top:14px', text: 'This bank' }),
+    h('p', { text: `${DATA.questions.length} questions (${DATA.questions.length - t2} Type 1, ${t2} Type 2) across ${DATA.regions.length} regions${DATA.cards.length ? `, plus ${DATA.cards.length} flashcards from your Last's Anki deck` : ''}. Explanations quote Last's where its wording differs from other textbooks. Built ${DATA.built}.` }));
+}
+
+/* ---------- tabs & boot ---------- */
+const VIEWS = { practice: renderPractice, exam: renderExam, cards: renderCards, progress: renderProgress, format: renderFormat };
+let currentView = 'practice';
+function show(view) {
+  currentView = view;
+  for (const btn of document.querySelectorAll('nav.tabs button')) btn.setAttribute('aria-selected', String(btn.dataset.view === view));
+  for (const v of Object.keys(VIEWS)) $(`#view-${v}`).hidden = v !== view;
+  if (view !== 'exam') clearInterval(exam.timer);
+  VIEWS[view]();
+}
+for (const btn of document.querySelectorAll('nav.tabs button')) btn.addEventListener('click', () => show(btn.dataset.view));
+$('#practice-start').addEventListener('click', startPractice);
+listeners.add(() => {
+  if (currentView === 'practice') { renderPracticeFilters(); renderPractice(); }
+  if (currentView === 'progress') renderProgress();
+});
+function renderMeta() {
+  const days = Math.ceil((EXAM_DATE - Date.now()) / 86400000);
+  $('#meta').textContent = `Last's 9th ed · exam 19 Feb 2027${days > 0 ? ` · ${days} days to go` : ''}`;
+}
+loadLocal();
+renderMeta();
+renderPracticeFilters();
+renderPractice();
+startSync();
+</script>

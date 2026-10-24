@@ -1,0 +1,465 @@
+{
+ "code": "th",
+ "region": "Thorax",
+ "questions": [
+  {
+   "t": "Phrenic nerve",
+   "y": 1,
+   "s": "Concerning the phrenic nerve:",
+   "o": [
+    [
+     "It is C3, C4 and C5, mainly C4",
+     1,
+     "Muscle migrated from cervical myotomes into the septum transversum, carrying its nerve."
+    ],
+    [
+     "It descends on scalenus anterior deep to the prevertebral fascia",
+     1,
+     "The transverse cervical and suprascapular arteries cross it anterior to the fascia."
+    ],
+    [
+     "The right phrenic nerve passes through the oesophageal opening of the diaphragm",
+     0,
+     "The right nerve passes through the vena caval opening in the central tendon. The left pierces the muscle of the left dome."
+    ],
+    [
+     "It is accompanied by the pericardiacophrenic artery because it has no regional artery in the mediastinum",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Phrenic nerve",
+   "y": 2,
+   "s": "Sensory fibres of the phrenic nerve supply the:",
+   "o": [
+    [
+     "Costal pleura",
+     0,
+     "Costal pleura is supplied by the intercostal nerves."
+    ],
+    [
+     "Fibrous pericardium and parietal serous pericardium",
+     1,
+     "About a third of phrenic fibres are sensory."
+    ],
+    [
+     "Visceral serous pericardium",
+     0,
+     "Last's: the visceral serous pericardium is insensitive."
+    ],
+    [
+     "Central parts of the diaphragmatic pleura and peritoneum",
+     1,
+     "The periphery is supplied by the lower intercostal nerves."
+    ]
+   ]
+  },
+  {
+   "t": "Vagus in thorax",
+   "y": 1,
+   "s": "Regarding the vagi in the thorax:",
+   "o": [
+    [
+     "The right vagus is in contact with the trachea",
+     1,
+     "Last's: the vagi try to reach the midline. On the left the great arteries hold the nerve away."
+    ],
+    [
+     "The left vagus crosses the arch of the aorta deep to the left superior intercostal vein",
+     1,
+     "The phrenic lies anterior, the vein crossing between."
+    ],
+    [
+     "Both vagi pass behind the lung roots",
+     1,
+     "They contribute to the posterior pulmonary plexuses."
+    ],
+    [
+     "The anterior vagal trunk consists predominantly of right vagal fibres",
+     0,
+     "The anterior trunk is mainly left vagal fibres and the posterior trunk mainly right, reflecting gut rotation."
+    ]
+   ]
+  },
+  {
+   "t": "Cardiac plexus",
+   "y": 2,
+   "s": "Concerning the cardiac plexus:",
+   "o": [
+    [
+     "The superficial part lies in front of the ligamentum arteriosum",
+     1,
+     "The deep part lies to its right, in front of the left main bronchus."
+    ],
+    [
+     "The superficial part receives the cardiac branch of the left superior cervical sympathetic ganglion",
+     1,
+     "And the inferior cervical cardiac branch of the left vagus."
+    ],
+    [
+     "Both recurrent laryngeal nerves contribute to the deep part",
+     1,
+     "Last's."
+    ],
+    [
+     "Cardiac pain fibres travel with the vagus",
+     0,
+     "Cardiac pain travels with sympathetic fibres (cell bodies in upper thoracic DRG). Vagal afferents mediate cardiovascular reflexes."
+    ]
+   ]
+  },
+  {
+   "t": "Sympathetic trunk in thorax",
+   "y": 1,
+   "s": "Regarding the thoracic sympathetic trunk:",
+   "o": [
+    [
+     "It lies on the necks of the ribs, anterior to the intercostal vessels and nerves",
+     1,
+     "Lateral to the heads of the ribs."
+    ],
+    [
+     "The greater splanchnic nerve arises from the fifth to ninth ganglia",
+     1,
+     "Lesser from T10 and T11, least from T12."
+    ],
+    [
+     "It enters the abdomen behind the lateral arcuate ligament",
+     0,
+     "It passes behind the medial arcuate ligament on the front of psoas. The subcostal bundle passes behind the lateral arcuate ligament."
+    ],
+    [
+     "The least splanchnic nerve relays in a renal ganglion",
+     1,
+     "Last's: an offshoot of the coeliac ganglion behind the renal artery."
+    ]
+   ]
+  },
+  {
+   "t": "Sympathectomy",
+   "y": 2,
+   "s": "Concerning sympathectomy:",
+   "o": [
+    [
+     "White rami communicantes are found on all cervical nerves",
+     0,
+     "White rami exist only from T1 to L2. Every spinal nerve receives a grey ramus."
+    ],
+    [
+     "Removal of the T1 ganglion risks Horner's syndrome",
+     1,
+     "Last's: never remove T1 in upper limb sympathectomy."
+    ],
+    [
+     "Sympathetic fibres to the upper limb reach it mainly by running along the subclavian and axillary arteries",
+     0,
+     "Last's: limb vessels get their sympathetic fibres from adjacent peripheral nerves, not from fibres running long distances along the arteries."
+    ],
+    [
+     "Removal of the L1 ganglion may compromise ejaculation",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Intercostal spaces",
+   "y": 1,
+   "s": "Regarding the intercostal spaces:",
+   "o": [
+    [
+     "The neurovascular bundle lies between the internal intercostal and innermost intercostal layers",
+     1,
+     "The plane between the middle and inner layers."
+    ],
+    [
+     "From above down, the order in the costal groove is vein, artery, nerve",
+     1,
+     "The nerve lies lowest and nearest the skin."
+    ],
+    [
+     "The first intercostal nerve gives a large lateral cutaneous branch",
+     0,
+     "Last's: the first intercostal nerve has no lateral or anterior cutaneous branch."
+    ],
+    [
+     "Levatores costarum are supplied by posterior rami",
+     1,
+     "Last's: the only thoracic wall muscles supplied by posterior rami."
+    ]
+   ]
+  },
+  {
+   "t": "Intercostal spaces",
+   "y": 2,
+   "s": "The posterior intercostal arteries of the first two spaces arise from the:",
+   "o": [
+    [
+     "Superior intercostal artery",
+     1,
+     "A branch of the costocervical trunk (second part of the subclavian)."
+    ],
+    [
+     "Internal thoracic artery",
+     0,
+     "It gives the anterior intercostal arteries of the upper six spaces."
+    ],
+    [
+     "Costocervical trunk via its descending branch",
+     1,
+     "The superior intercostal artery is this descending branch."
+    ],
+    [
+     "Descending thoracic aorta",
+     0,
+     "The aorta supplies the remaining nine spaces."
+    ]
+   ]
+  },
+  {
+   "t": "Ribs and joints",
+   "y": 1,
+   "s": "Concerning the costovertebral joints:",
+   "o": [
+    [
+     "The radiate ligament has three bands, the central one forming the hypochordal bow",
+     1,
+     "Last's: this explains the anterior arch of the atlas."
+    ],
+    [
+     "The first rib articulates with C7 and T1",
+     0,
+     "Last's: the first rib articulates with T1 only, never with C7."
+    ],
+    [
+     "The 11th and 12th ribs have no costotransverse synovial joints",
+     1,
+     "They have only ligamentous attachments."
+    ],
+    [
+     "Every costochondral joint is a primary cartilaginous joint",
+     1,
+     "No movement occurs there."
+    ]
+   ]
+  },
+  {
+   "t": "First rib",
+   "y": 2,
+   "s": "Regarding the first rib:",
+   "o": [
+    [
+     "The subclavian artery lies in the groove on the upper surface, in contact with the bone",
+     0,
+     "Last's: the lower trunk of the brachial plexus lies in the groove. The artery usually lies a little higher, touching only the outer border."
+    ],
+    [
+     "Scalenus medius inserts into the scalene tubercle",
+     0,
+     "Scalenus anterior inserts into the scalene tubercle. Scalenus medius inserts between the groove and the tubercle of the rib."
+    ],
+    [
+     "The first costal cartilage forms a synovial joint with the manubrium",
+     0,
+     "It forms a primary cartilaginous joint, so the first ribs and manubrium move as one."
+    ],
+    [
+     "The subclavian vein lies in contact with the bone in front of the scalene tubercle",
+     1,
+     "In its own groove, in front of scalenus anterior."
+    ]
+   ]
+  },
+  {
+   "t": "Diaphragm",
+   "y": 1,
+   "s": "Concerning the openings in the diaphragm:",
+   "o": [
+    [
+     "The aortic opening lies at T12 behind the median arcuate ligament",
+     1,
+     "It transmits the aorta, azygos vein and thoracic duct."
+    ],
+    [
+     "The oesophageal opening at T10 transmits the vagal trunks",
+     1,
+     "And the oesophageal branches of the left gastric vessels."
+    ],
+    [
+     "The vena caval opening lies in the left leaf of the central tendon",
+     0,
+     "It lies near the junction of the central and right leaves at T8."
+    ],
+    [
+     "The splanchnic nerves pierce the crura",
+     1,
+     "Last's."
+    ]
+   ]
+  },
+  {
+   "t": "Diaphragm development",
+   "y": 2,
+   "s": "The diaphragm develops from the:",
+   "o": [
+    [
+     "Septum transversum",
+     1,
+     "It forms the central tendon."
+    ],
+    [
+     "Pleuroperitoneal membranes",
+     1,
+     "Their failure is the commonest cause of congenital diaphragmatic hernia."
+    ],
+    [
+     "Third to fifth cervical myotomes",
+     1,
+     "Muscle cells bring the phrenic nerve with them."
+    ],
+    [
+     "Dorsal mesentery of the oesophagus and body wall mesoderm",
+     1,
+     "Last's lists all four sources."
+    ]
+   ]
+  },
+  {
+   "t": "Pleura and lungs",
+   "y": 1,
+   "s": "Regarding the nerve supply of the pleura and lungs:",
+   "o": [
+    [
+     "The parietal pleura of the chest wall is supplied by the intercostal nerves",
+     1,
+     "It is pain-sensitive."
+    ],
+    [
+     "The visceral pleura has only autonomic supply and is insensitive",
+     1,
+     "Last's."
+    ],
+    [
+     "Sympathetic fibres to the lungs cause bronchoconstriction",
+     0,
+     "Sympathetic fibres (T2 to T6) are dilator to bronchi. Vagal parasympathetic fibres are constrictor."
+    ],
+    [
+     "The cough reflex from the bronchi is mediated by vagal afferents",
+     1,
+     "Cell bodies in the inferior vagal ganglion."
+    ]
+   ]
+  },
+  {
+   "t": "Superior mediastinum",
+   "y": 2,
+   "s": "Concerning the veins of the superior mediastinum:",
+   "o": [
+    [
+     "The arch of the azygos vein passes superficial to the right vagus and deep to the right phrenic nerve",
+     1,
+     "Last's: the same relationship as the left superior intercostal vein on the left."
+    ],
+    [
+     "The left superior intercostal vein drains into the left brachiocephalic vein",
+     1,
+     "It drains the second to fourth left spaces."
+    ],
+    [
+     "In the infant the left brachiocephalic vein may cross the trachea above the jugular notch",
+     1,
+     "Relevant to tracheostomy in children."
+    ],
+    [
+     "The first intercostal space drains into the superior intercostal vein",
+     0,
+     "The first space drains into the highest (supreme) intercostal vein, which joins the brachiocephalic vein."
+    ]
+   ]
+  },
+  {
+   "t": "Oesophagus",
+   "y": 1,
+   "s": "Regarding the innervation of the oesophagus:",
+   "o": [
+    [
+     "The upper striated part is supplied from the nucleus ambiguus",
+     1,
+     "Via the recurrent laryngeal nerves."
+    ],
+    [
+     "The lower smooth muscle part is supplied from the dorsal motor nucleus of the vagus",
+     1,
+     "Via the oesophageal plexus."
+    ],
+    [
+     "Its sympathetic supply in the upper part comes from the middle cervical ganglion with the inferior thyroid artery",
+     1,
+     "Last's."
+    ],
+    [
+     "Pain from the oesophagus is carried only by the vagus",
+     0,
+     "Last's: pain travels with both vagus and sympathetics."
+    ]
+   ]
+  },
+  {
+   "t": "Thorax surface anatomy",
+   "y": 2,
+   "s": "Vertebral levels of thoracic landmarks:",
+   "o": [
+    [
+     "The jugular notch lies at the level of T3",
+     1,
+     "Last's: jugular notch T3, sternal angle T4 (the T4/5 disc), lower end of sternum T8."
+    ],
+    [
+     "The sternal angle lies at the level of T4",
+     1,
+     "Last's gives T4 (at the T4/5 disc). It marks the lower limit of the superior mediastinum."
+    ],
+    [
+     "The lower end of the sternum lies at T8",
+     1,
+     "Last's."
+    ],
+    [
+     "The plane of the sternal angle marks the lower limit of the superior mediastinum",
+     1,
+     "It passes to the T4/5 disc behind."
+    ]
+   ]
+  },
+  {
+   "t": "Development of the heart and great vessels",
+   "y": 1,
+   "s": "Concerning the ductus arteriosus:",
+   "o": [
+    [
+     "It is derived from the left sixth arch artery",
+     1,
+     "The right dorsal sixth arch disappears, so the right RLN hooks under the subclavian."
+    ],
+    [
+     "It closes after birth by contraction of its muscular wall",
+     1,
+     "Stimulated by the rise in oxygen tension."
+    ],
+    [
+     "It becomes the ligamentum venosum",
+     0,
+     "It becomes the ligamentum arteriosum. The ductus venosus becomes the ligamentum venosum."
+    ],
+    [
+     "The left recurrent laryngeal nerve hooks around it",
+     1,
+     "Lying to its left."
+    ]
+   ]
+  }
+ ]
+}

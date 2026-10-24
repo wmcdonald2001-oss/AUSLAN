@@ -1,0 +1,600 @@
+{
+ "code": "ll",
+ "region": "Lower limb",
+ "questions": [
+  {
+   "t": "Lumbar plexus",
+   "y": 1,
+   "s": "Concerning the lumbar plexus:",
+   "o": [
+    [
+     "It forms within the substance of psoas major",
+     1,
+     "Most branches emerge laterally. The genitofemoral emerges anteriorly, and the obturator and lumbosacral trunk medially."
+    ],
+    [
+     "The femoral nerve is formed from the posterior divisions of L2, L3 and L4",
+     1,
+     "The obturator nerve is from the anterior divisions."
+    ],
+    [
+     "The accessory obturator nerve, when present, supplies pectineus",
+     1,
+     "Last's: from the posterior divisions of L3 and L4, present in about a third. It would better be called an accessory femoral nerve."
+    ],
+    [
+     "The genitofemoral nerve emerges from the lateral border of psoas",
+     0,
+     "It emerges from the anterior surface of psoas and runs down on it, deep to the psoas fascia."
+    ]
+   ]
+  },
+  {
+   "t": "Lumbar plexus",
+   "y": 2,
+   "s": "Regarding the genitofemoral nerve:",
+   "o": [
+    [
+     "Its genital branch supplies cremaster",
+     1,
+     "It enters the coverings of the spermatic cord through the deep ring region."
+    ],
+    [
+     "Its femoral branch supplies skin below the middle of the inguinal ligament",
+     1,
+     "It enters the femoral sheath in front of the femoral artery."
+    ],
+    [
+     "It is crossed by the ureter and gonadal vessels",
+     1,
+     "On the left also by the left colic vessels and inferior mesenteric vein."
+    ],
+    [
+     "It is motor to sartorius",
+     0,
+     "The femoral branch has no motor fibres. Sartorius is supplied by the femoral nerve."
+    ]
+   ]
+  },
+  {
+   "t": "Lateral femoral cutaneous nerve",
+   "y": 1,
+   "s": "The lateral femoral cutaneous nerve:",
+   "o": [
+    [
+     "Arises from the posterior divisions of L2 and L3 or from the femoral nerve",
+     1,
+     "Last's gives both possible origins."
+    ],
+    [
+     "Enters the thigh about 1 cm medial to the anterior superior iliac spine",
+     1,
+     "In a tunnel behind or through the inguinal ligament."
+    ],
+    [
+     "May be compressed to cause meralgia paraesthetica",
+     1,
+     "Also traction from transversus fibres arising from the iliac fascia."
+    ],
+    [
+     "Supplies the skin of the medial thigh",
+     0,
+     "It supplies the anterolateral and lateral thigh."
+    ]
+   ]
+  },
+  {
+   "t": "Femoral nerve",
+   "y": 1,
+   "s": "Concerning the femoral nerve:",
+   "o": [
+    [
+     "It enters the thigh lateral to the femoral sheath",
+     1,
+     "It lies in the gutter between psoas and iliacus, outside the sheath."
+    ],
+    [
+     "It supplies iliacus within the abdomen",
+     1,
+     "By two or three branches."
+    ],
+    [
+     "Its nerve to vastus medialis travels in the adductor canal and supplies the knee",
+     1,
+     "Hilton's law."
+    ],
+    [
+     "The saphenous nerve crosses the femoral artery from medial to lateral in the adductor canal",
+     0,
+     "The saphenous nerve crosses the artery anteriorly from lateral to medial."
+    ]
+   ]
+  },
+  {
+   "t": "Femoral triangle and adductor canal",
+   "y": 2,
+   "s": "The adductor (subsartorial) canal contains the:",
+   "o": [
+    [
+     "Femoral artery",
+     1,
+     "The artery always lies between the saphenous nerve and the femoral vein."
+    ],
+    [
+     "Saphenous nerve",
+     1,
+     "It leaves the canal between sartorius and gracilis."
+    ],
+    [
+     "Nerve to vastus medialis in its upper part",
+     1,
+     "Last's."
+    ],
+    [
+     "Femoral vein",
+     1,
+     "Last's: the vein spirals from medial to the artery in the femoral triangle to lateral at the adductor hiatus."
+    ]
+   ]
+  },
+  {
+   "t": "Obturator nerve",
+   "y": 1,
+   "s": "Regarding the obturator nerve:",
+   "o": [
+    [
+     "It emerges from the medial border of psoas",
+     1,
+     "It crosses the pelvic brim medial to the sacroiliac joint."
+    ],
+    [
+     "Its anterior division supplies adductor longus, brevis and gracilis",
+     1,
+     "And sometimes pectineus. It also supplies the hip joint."
+    ],
+    [
+     "Its posterior division supplies the knee joint",
+     1,
+     "This explains referred knee pain in hip disease."
+    ],
+    [
+     "Its posterior division supplies the ischial part of adductor magnus",
+     0,
+     "The posterior division supplies obturator externus and the adductor (pubic) part of adductor magnus. The ischial (hamstring) part is supplied by the tibial part of the sciatic nerve."
+    ]
+   ]
+  },
+  {
+   "t": "Sacral plexus",
+   "y": 2,
+   "s": "Branches of the sacral plexus from posterior divisions include the:",
+   "o": [
+    [
+     "Superior gluteal nerve",
+     1,
+     "L4, L5, S1."
+    ],
+    [
+     "Nerve to quadratus femoris",
+     0,
+     "Last's: the nerve to quadratus femoris (L4, L5, S1) is from anterior divisions."
+    ],
+    [
+     "Common peroneal part of the sciatic nerve",
+     1,
+     "L4 to S2."
+    ],
+    [
+     "Pudendal nerve",
+     0,
+     "The pudendal nerve (S2 to S4) is from the anterior rami before division."
+    ]
+   ]
+  },
+  {
+   "t": "Gluteal region",
+   "y": 1,
+   "s": "Concerning nerves of the gluteal region:",
+   "o": [
+    [
+     "The superior gluteal nerve leaves the pelvis above piriformis",
+     1,
+     "It runs between gluteus medius and minimus and ends in tensor fasciae latae."
+    ],
+    [
+     "The inferior gluteal nerve is L5, S1 and S2",
+     1,
+     "It supplies gluteus maximus."
+    ],
+    [
+     "The nerve to obturator internus hooks around the base of the ischial spine",
+     1,
+     "Lateral to the pudendal vessels. It also supplies superior gemellus."
+    ],
+    [
+     "The posterior femoral cutaneous nerve lies deep to the sciatic nerve",
+     0,
+     "Last's: the posterior femoral cutaneous nerve is superficial to the sciatic, and the nerve to quadratus femoris is deep to it."
+    ]
+   ]
+  },
+  {
+   "t": "Sciatic nerve",
+   "y": 1,
+   "s": "Regarding the sciatic nerve:",
+   "o": [
+    [
+     "It emerges below piriformis, lateral to the inferior gluteal and pudendal bundles",
+     1,
+     "It lies on the ischium over the posterior part of the acetabulum."
+    ],
+    [
+     "Its blood supply includes a branch of the inferior gluteal artery, a remnant of the axial artery",
+     1,
+     "Last's."
+    ],
+    [
+     "The short head of biceps femoris is supplied by its tibial part",
+     0,
+     "The short head of biceps is supplied by the common peroneal part. All other hamstrings and the ischial part of adductor magnus are supplied by the tibial part."
+    ],
+    [
+     "It may divide high, with the peroneal part piercing piriformis",
+     1,
+     "In this case the tibial part runs normally below the muscle."
+    ]
+   ]
+  },
+  {
+   "t": "Common peroneal nerve",
+   "y": 2,
+   "s": "The common peroneal nerve:",
+   "o": [
+    [
+     "Divides behind the lateral femoral condyle",
+     0,
+     "It divides in the substance of peroneus longus, around the neck of the fibula."
+    ],
+    [
+     "Gives rise to the sural nerve",
+     0,
+     "The sural nerve arises from the tibial nerve. The common peroneal gives the peroneal communicating nerve, which joins it."
+    ],
+    [
+     "Supplies tibialis posterior",
+     0,
+     "Tibialis posterior is supplied by the tibial nerve."
+    ],
+    [
+     "Gives the lateral cutaneous nerve of the calf",
+     1,
+     "It pierces the roof of the popliteal fossa over the lateral head of gastrocnemius."
+    ]
+   ]
+  },
+  {
+   "t": "Peroneal nerves",
+   "y": 1,
+   "s": "Concerning the peroneal nerves:",
+   "o": [
+    [
+     "The superficial peroneal nerve supplies peroneus longus and brevis",
+     1,
+     "It then perforates the deep fascia halfway down the leg."
+    ],
+    [
+     "The deep peroneal nerve supplies extensor digitorum brevis",
+     1,
+     "And the skin of the first cleft."
+    ],
+    [
+     "The deep peroneal nerve lies medial to the anterior tibial artery throughout the leg",
+     0,
+     "Last's: the deep peroneal nerve runs lateral to the anterior tibial vessels and lies lateral to dorsalis pedis on the foot."
+    ],
+    [
+     "The superficial peroneal nerve supplies most of the dorsum of the foot",
+     1,
+     "Except the first cleft (deep peroneal) and the lateral border (sural)."
+    ]
+   ]
+  },
+  {
+   "t": "Tibial nerve",
+   "y": 1,
+   "s": "Regarding the tibial nerve:",
+   "o": [
+    [
+     "It is the most superficial of the main structures in the popliteal fossa",
+     1,
+     "The popliteal vein always lies between the artery and the nerve."
+    ],
+    [
+     "It supplies all the muscles arising in the popliteal fossa",
+     1,
+     "Including gastrocnemius, plantaris, soleus and popliteus."
+    ],
+    [
+     "It divides into the medial and lateral plantar nerves deep to the flexor retinaculum",
+     1,
+     "Behind the medial malleolus."
+    ],
+    [
+     "The medial calcanean nerve supplies the skin of the lateral border of the foot",
+     0,
+     "It supplies the weight-bearing skin of the heel. The sural nerve supplies the lateral border."
+    ]
+   ]
+  },
+  {
+   "t": "Plantar nerves",
+   "y": 2,
+   "s": "The medial plantar nerve supplies:",
+   "o": [
+    [
+     "Adductor hallucis",
+     0,
+     "Adductor hallucis is supplied by the deep branch of the lateral plantar nerve."
+    ],
+    [
+     "Flexor hallucis brevis",
+     1,
+     "Medial plantar: FDB, abductor hallucis, FHB and first lumbrical, like the median nerve in the hand."
+    ],
+    [
+     "Flexor digiti minimi brevis",
+     0,
+     "Supplied by the superficial branch of the lateral plantar nerve."
+    ],
+    [
+     "The first lumbrical",
+     1,
+     "The lateral three lumbricals are supplied by the deep branch of the lateral plantar nerve."
+    ]
+   ]
+  },
+  {
+   "t": "Popliteal fossa",
+   "y": 2,
+   "s": "Structures piercing the roof of the popliteal fossa include the:",
+   "o": [
+    [
+     "Tibial nerve",
+     0,
+     "The tibial nerve lies within the fossa, the most superficial of its main contents."
+    ],
+    [
+     "Popliteal artery",
+     0,
+     "The artery is the deepest of the main contents, lying on the floor."
+    ],
+    [
+     "Common peroneal nerve",
+     0,
+     "The common peroneal nerve runs along the lateral boundary medial to biceps. Its branches (lateral cutaneous nerve of the calf and peroneal communicating nerve) pierce the roof."
+    ],
+    [
+     "Small saphenous vein",
+     1,
+     "Last's lists four structures piercing the roof: small saphenous vein, posterior femoral cutaneous nerve, peroneal communicating nerve and lateral cutaneous nerve of the calf."
+    ]
+   ]
+  },
+  {
+   "t": "Sural nerve",
+   "y": 1,
+   "s": "The sural nerve:",
+   "o": [
+    [
+     "Arises from the tibial nerve in the popliteal fossa",
+     1,
+     "It lies in the groove between the heads of gastrocnemius."
+    ],
+    [
+     "Pierces the deep fascia halfway down the leg",
+     1,
+     "There it is joined by the peroneal communicating nerve."
+    ],
+    [
+     "Lies medial to the small saphenous vein behind the medial malleolus",
+     0,
+     "It runs lateral to the small saphenous vein behind the lateral malleolus."
+    ],
+    [
+     "Ends on the lateral side of the little toe",
+     1,
+     "It supplies the lateral border of the foot."
+    ]
+   ]
+  },
+  {
+   "t": "Lower limb myotomes",
+   "y": 1,
+   "s": "Regarding the segmental supply of lower limb movements:",
+   "o": [
+    [
+     "Hip flexion and adduction are L2 and L3",
+     1,
+     "Hip extension and abduction are L4 and L5."
+    ],
+    [
+     "Knee extension is L3 and L4",
+     1,
+     "Knee flexion is L5 and S1."
+    ],
+    [
+     "Ankle plantarflexion is S1 and S2",
+     1,
+     "Dorsiflexion is L4 and L5."
+    ],
+    [
+     "Inversion of the foot is S1",
+     0,
+     "Inversion (tibialis anterior and posterior) is L4. Eversion is L5 and S1."
+    ]
+   ]
+  },
+  {
+   "t": "Lower limb myotomes",
+   "y": 2,
+   "s": "Concerning nerve supply anomalies noted by Last:",
+   "o": [
+    [
+     "Tibialis posterior is supplied by L4 although it is a plantarflexor",
+     1,
+     "It matches its inverting partner, tibialis anterior."
+    ],
+    [
+     "Gluteus maximus and obturator internus are L5, S1 and S2",
+     1,
+     "Other buttock muscles are L4, L5 and S1."
+    ],
+    [
+     "The short head of biceps femoris is supplied by the common peroneal part of the sciatic nerve",
+     1,
+     "It migrated from the extensor compartment."
+    ],
+    [
+     "Pectineus may receive supply from both femoral and obturator nerves",
+     1,
+     "Pectineus, adductor magnus and biceps femoris all have dual supply."
+    ]
+   ]
+  },
+  {
+   "t": "Lower limb dermatomes",
+   "y": 1,
+   "s": "Regarding dermatomes of the lower limb:",
+   "o": [
+    [
+     "L1 supplies the inguinal region and anterior scrotum",
+     1,
+     "Last's."
+    ],
+    [
+     "L5 supplies the dorsum of the foot and great toe",
+     1,
+     "Also the lateral leg."
+    ],
+    [
+     "S1 supplies the lateral border of the foot and sole",
+     1,
+     "And the lateral malleolus."
+    ],
+    [
+     "S3 supplies the posterior thigh",
+     0,
+     "S2 supplies the posterior thigh and leg. S3 supplies the sitting area of the buttock and posterior scrotum."
+    ]
+   ]
+  },
+  {
+   "t": "Hip joint",
+   "y": 1,
+   "s": "Concerning the hip joint:",
+   "o": [
+    [
+     "The main blood supply to the femoral head in adults is from retinacular branches of the medial circumflex femoral artery",
+     1,
+     "The artery of the ligamentum teres is minor in adults."
+    ],
+    [
+     "The iliofemoral ligament resists extension",
+     1,
+     "It is the strongest ligament in the body."
+    ],
+    [
+     "It is supplied by the femoral, obturator and sciatic nerves",
+     1,
+     "Including the nerve to quadratus femoris."
+    ],
+    [
+     "The neck of the femur ossifies from a separate epiphysis",
+     0,
+     "Last's: the neck is the upper end of the shaft and ossifies as part of it."
+    ]
+   ]
+  },
+  {
+   "t": "Knee joint",
+   "y": 2,
+   "s": "The knee joint receives nerve supply from the:",
+   "o": [
+    [
+     "Femoral nerve via the nerve to vastus medialis",
+     1,
+     "Last's (Hilton's law)."
+    ],
+    [
+     "Genicular branches of the tibial and common peroneal nerves",
+     1,
+     "From the sciatic nerve."
+    ],
+    [
+     "Posterior division of the obturator nerve",
+     1,
+     "Running with the femoral artery through the adductor hiatus."
+    ],
+    [
+     "Saphenous nerve via its infrapatellar branch",
+     1,
+     "It supplies the front of the knee and patellar plexus."
+    ]
+   ]
+  },
+  {
+   "t": "Ossification lower limb",
+   "y": 1,
+   "s": "Regarding ossification in the lower limb:",
+   "o": [
+    [
+     "The centre for the lower end of the femur appears at birth and is medicolegal evidence of maturity",
+     1,
+     "Last's."
+    ],
+    [
+     "The fibula is exceptional in that its upper (growing) end ossifies later than its lower end",
+     1,
+     "Head at 4 years, lower end at 1 year."
+    ],
+    [
+     "The cuboid ossifies at about 9 months of fetal life",
+     1,
+     "Its presence is also evidence of maturity."
+    ],
+    [
+     "Most growth in length of the lower limb occurs at the hip",
+     0,
+     "Growth proceeds more rapidly at the knee than at the hip or ankle."
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic and lower limb vessels",
+   "y": 2,
+   "s": "Concerning veins of the lower limb:",
+   "o": [
+    [
+     "The great saphenous vein marks the preaxial border of the limb",
+     1,
+     "The small saphenous marks the postaxial border."
+    ],
+    [
+     "The great saphenous vein passes in front of the medial malleolus with the saphenous nerve",
+     1,
+     "A site for venous cutdown."
+    ],
+    [
+     "The femoral vein lies lateral to the femoral artery at the adductor hiatus",
+     1,
+     "Last's: it spirals from medial (in the triangle) to lateral (at the hiatus)."
+    ],
+    [
+     "The small saphenous vein drains into the femoral vein",
+     0,
+     "It pierces the roof of the popliteal fossa to drain into the popliteal vein."
+    ]
+   ]
+  }
+ ]
+}

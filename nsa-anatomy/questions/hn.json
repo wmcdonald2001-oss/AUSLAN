@@ -1,0 +1,1059 @@
+{
+ "code": "hn",
+ "region": "Head & neck",
+ "questions": [
+  {
+   "t": "Deep cervical fascia",
+   "y": 1,
+   "s": "Concerning the prevertebral fascia:",
+   "o": [
+    [
+     "It extends inferiorly to the body of T3, the lower limit of longus colli",
+     1,
+     "Last's: attached to the skull base in front of longus capitis and rectus capitis lateralis, it extends down to T3 and fades out laterally under trapezius."
+    ],
+    [
+     "It is pierced by the four cutaneous branches of the cervical plexus",
+     1,
+     "Great auricular, lesser occipital, transverse cervical and supraclavicular nerves pierce it."
+    ],
+    [
+     "The accessory nerve lies deep to it in the posterior triangle",
+     0,
+     "The accessory nerve, the posterior triangle lymph nodes, the subclavian and axillary veins and the cervical sympathetic trunk lie anterior to (superficial to) it."
+    ],
+    [
+     "It is prolonged over the subclavian artery into the axilla as the axillary sheath",
+     1,
+     "The third part of the subclavian artery and the brachial plexus trunks lie behind it, so it is carried into the axilla. The subclavian vein lies in front and is free to dilate."
+    ]
+   ]
+  },
+  {
+   "t": "Deep cervical fascia",
+   "y": 2,
+   "s": "The investing layer of deep cervical fascia:",
+   "o": [
+    [
+     "Forms the floor of the posterior triangle",
+     0,
+     "It forms the roof. The floor is the prevertebral fascia over the muscles."
+    ],
+    [
+     "Splits to enclose sternocleidomastoid and trapezius",
+     1,
+     "It also splits to form the parotid capsule and the suprasternal space."
+    ],
+    [
+     "Is attached to the anterior tubercles of the cervical transverse processes",
+     0,
+     "That is the prevertebral fascia's attachment region. The investing layer attaches to the skull, mandible, hyoid, ligamentum nuchae and pectoral girdle."
+    ],
+    [
+     "Is attached to the hyoid bone",
+     1,
+     "This draws sternocleidomastoid forward in a gentle convexity."
+    ]
+   ]
+  },
+  {
+   "t": "Pretracheal fascia and thyroid",
+   "y": 1,
+   "s": "Regarding the pretracheal fascia and thyroid gland:",
+   "o": [
+    [
+     "The pretracheal fascia is attached above to the hyoid bone and the oblique line of the thyroid cartilage",
+     1,
+     "It is limited by the infrahyoid strap muscles."
+    ],
+    [
+     "The fascia is firmly attached to the thyroid gland only between the isthmus and the second to fourth tracheal rings",
+     1,
+     "Elsewhere the gland is loosely enclosed. This attachment makes the gland move with swallowing."
+    ],
+    [
+     "Inferiorly the pretracheal fascia blends with the fibrous pericardium",
+     1,
+     "It passes behind the brachiocephalic veins to blend with the arch adventitia and fibrous pericardium."
+    ],
+    [
+     "The sympathetic supply of the thyroid comes mainly from the inferior cervical ganglion",
+     0,
+     "Last's: sympathetic fibres reach the gland from the superior cervical ganglion (with the superior thyroid artery) and the middle cervical ganglion (with the inferior thyroid artery)."
+    ]
+   ]
+  },
+  {
+   "t": "Carotid sheath",
+   "y": 1,
+   "s": "Concerning the carotid sheath and its contents:",
+   "o": [
+    [
+     "The vagus nerve lies between and behind the internal jugular vein and the carotid artery",
+     1,
+     "It remains in the gutter between artery and vein throughout the neck."
+    ],
+    [
+     "The ansa cervicalis is embedded in the anterior wall of the sheath",
+     1,
+     "It lies in front of the internal jugular vein."
+    ],
+    [
+     "The cervical sympathetic trunk lies within the sheath, medial to the vagus",
+     0,
+     "The sympathetic trunk lies behind the sheath, outside it, on the prevertebral fascia."
+    ],
+    [
+     "The thoracic duct arches behind the left internal jugular vein at the level of C7",
+     1,
+     "It then descends to the junction of the internal jugular and subclavian veins."
+    ]
+   ]
+  },
+  {
+   "t": "Internal jugular vein",
+   "y": 2,
+   "s": "Tributaries of the internal jugular vein include the:",
+   "o": [
+    [
+     "Inferior thyroid vein",
+     0,
+     "The inferior thyroid veins drain into the brachiocephalic veins."
+    ],
+    [
+     "Facial vein",
+     1,
+     "Facial, lingual and superior thyroid veins usually join near the tip of the greater horn of the hyoid."
+    ],
+    [
+     "Vertebral vein",
+     0,
+     "The vertebral vein drains into the brachiocephalic vein at the root of the neck."
+    ],
+    [
+     "Inferior petrosal sinus",
+     1,
+     "Last's: it is the first (highest) tributary, joining just below the skull base."
+    ]
+   ]
+  },
+  {
+   "t": "External carotid artery",
+   "y": 1,
+   "s": "Regarding the external carotid artery:",
+   "o": [
+    [
+     "It gives three branches from its front, two from behind and one from its medial side before entering the parotid",
+     1,
+     "Front: superior thyroid, lingual, facial. Behind: occipital, posterior auricular. Medial: ascending pharyngeal."
+    ],
+    [
+     "It is separated from the internal carotid by the styloid process, stylopharyngeus and the glossopharyngeal nerve",
+     1,
+     "Also by the stylohyoid ligament, the pharyngeal branch of the vagus and the deep part of the parotid."
+    ],
+    [
+     "The hypoglossal nerve crosses it deep to the internal jugular vein's facial tributary",
+     1,
+     "The hypoglossal nerve runs superficial to the arteries but deep to the veins (facial vein)."
+    ],
+    [
+     "It ends behind the neck of the mandible by dividing into the maxillary and facial arteries",
+     0,
+     "It divides in the parotid behind the neck of the mandible into the maxillary and superficial temporal arteries."
+    ]
+   ]
+  },
+  {
+   "t": "Internal carotid artery in the neck",
+   "y": 2,
+   "s": "The internal carotid artery in the neck:",
+   "o": [
+    [
+     "Has no branches",
+     1,
+     "It gives no branches in the neck."
+    ],
+    [
+     "Lies lateral to the external carotid at its origin",
+     1,
+     "Last's: it is external (lateral) at its origin, then slopes back to a medial, deeper level."
+    ],
+    [
+     "Is crossed superficially by the hypoglossal nerve and the occipital artery",
+     1,
+     "Also by the lingual and facial veins, and higher up by the posterior belly of digastric and stylohyoid."
+    ],
+    [
+     "Has the superior laryngeal nerve passing superficial to it",
+     0,
+     "The superior laryngeal nerve crosses obliquely behind (deep to) the ICA to reach its medial side, where it divides."
+    ]
+   ]
+  },
+  {
+   "t": "Carotid sinus and body",
+   "y": 1,
+   "s": "Concerning the carotid sinus and carotid body:",
+   "o": [
+    [
+     "The carotid sinus is a dilatation at the origin of the internal carotid artery",
+     1,
+     "Its thin wall contains baroreceptors."
+    ],
+    [
+     "The carotid sinus is supplied by the glossopharyngeal nerve",
+     1,
+     "Via the carotid sinus nerve to the nucleus of the tractus solitarius."
+    ],
+    [
+     "The carotid body lies behind the bifurcation of the common carotid artery",
+     1,
+     "It contains chemoreceptor glomus cells and is supplied by IX and X."
+    ],
+    [
+     "The carotid body responds mainly to changes in blood pressure",
+     0,
+     "It is a chemoreceptor concerned with respiratory reflexes. The sinus is the baroreceptor."
+    ]
+   ]
+  },
+  {
+   "t": "Posterior triangle",
+   "y": 1,
+   "s": "Concerning the posterior triangle of the neck:",
+   "o": [
+    [
+     "Its floor includes splenius, levator scapulae and the scalene muscles",
+     1,
+     "From above down: semispinalis capitis, splenius, levator scapulae, scaleni posterior, medius and anterior, and the first digitation of serratus anterior."
+    ],
+    [
+     "The trunks of the brachial plexus lie behind the prevertebral fascia in its lower part",
+     1,
+     "Together with the third part of the subclavian artery."
+    ],
+    [
+     "The cervical plexus lies within the posterior triangle",
+     0,
+     "Last's: the cervical plexus lies on scalenus medius under cover of the upper SCM and does not actually lie in the posterior triangle. Only its cutaneous branches emerge into it."
+    ],
+    [
+     "The external jugular vein crosses it to pierce the investing fascia above the clavicle",
+     1,
+     "It then drains into the subclavian vein."
+    ]
+   ]
+  },
+  {
+   "t": "Cervical plexus",
+   "y": 2,
+   "s": "Cutaneous branches of the cervical plexus and their roots:",
+   "o": [
+    [
+     "Lesser occipital nerve, C3 and C4",
+     0,
+     "The lesser occipital is C2 (anterior ramus). It hooks around the accessory nerve."
+    ],
+    [
+     "Great auricular nerve, C4 and C5",
+     0,
+     "The great auricular is C2 and C3, mainly C2."
+    ],
+    [
+     "Transverse cervical nerve, from the posterior ramus of C3",
+     0,
+     "The transverse cervical nerve is from the anterior rami of C2 and C3 (cervical plexus). The third occipital nerve is the posterior ramus of C3."
+    ],
+    [
+     "Supraclavicular nerves, C3 and C4",
+     1,
+     "Mainly C4. Medial, intermediate and lateral groups supply skin down to the sternal angle and over the shoulder to the scapular spine."
+    ]
+   ]
+  },
+  {
+   "t": "Ansa cervicalis and infrahyoid muscles",
+   "y": 1,
+   "s": "Regarding the ansa cervicalis:",
+   "o": [
+    [
+     "Its superior root consists of C1 fibres carried by the hypoglossal nerve",
+     1,
+     "Formerly called the descendens hypoglossi."
+    ],
+    [
+     "Its inferior root is formed from C2 and C3",
+     1,
+     "Formerly the descendens cervicalis. It spirals around the lateral side of the IJV."
+    ],
+    [
+     "It supplies thyrohyoid",
+     0,
+     "Thyrohyoid and geniohyoid are supplied by C1 fibres directly from the hypoglossal nerve, not via the ansa."
+    ],
+    [
+     "It supplies sternohyoid, omohyoid and sternothyroid",
+     1,
+     "Segmentally: sternohyoid and omohyoid C1 to C3, sternothyroid C2 and C3."
+    ]
+   ]
+  },
+  {
+   "t": "Root of the neck",
+   "y": 1,
+   "s": "Concerning scalenus anterior and its relations:",
+   "o": [
+    [
+     "The phrenic nerve descends on its anterior surface deep to the prevertebral fascia",
+     1,
+     "It is plastered to the muscle and crosses its obliquity from lateral to medial."
+    ],
+    [
+     "The subclavian vein passes behind it",
+     0,
+     "The subclavian vein lies in front of the muscle, anterior to the prevertebral fascia. The second part of the subclavian artery and the plexus roots are behind it."
+    ],
+    [
+     "It arises from the anterior tubercles of C3 to C6 and inserts on the scalene tubercle of the first rib",
+     1,
+     "It is supplied by C4 to C6."
+    ],
+    [
+     "The transverse cervical and suprascapular arteries cross in front of it",
+     1,
+     "They lie in front of the prevertebral fascia, between the muscle and the carotid sheath."
+    ]
+   ]
+  },
+  {
+   "t": "Root of the neck",
+   "y": 2,
+   "s": "The pyramidal space between longus colli and scalenus anterior:",
+   "o": [
+    [
+     "Has the carotid tubercle of C6 at its apex",
+     1,
+     "Chassaignac's tubercle."
+    ],
+    [
+     "Contains the vertebral artery and vein",
+     1,
+     "And the inferior cervical or stellate ganglion."
+    ],
+    [
+     "Has as its base the subclavian artery and neck of the first rib",
+     1,
+     "With the suprapleural membrane between them."
+    ],
+    [
+     "Is roofed by the investing layer of deep cervical fascia",
+     0,
+     "Last's: there is no fascial roof across the pyramidal space."
+    ]
+   ]
+  },
+  {
+   "t": "Cervical sympathetic trunk",
+   "y": 1,
+   "s": "Regarding the cervical sympathetic ganglia:",
+   "o": [
+    [
+     "The superior cervical ganglion lies in front of the lateral masses of the atlas and axis",
+     1,
+     "It lies behind the carotid sheath, medial to the vertebral artery."
+    ],
+    [
+     "The superior ganglion gives grey rami to C1 to C4",
+     1,
+     "Middle gives grey rami to C5 and C6, inferior to C7 and C8."
+    ],
+    [
+     "The middle cervical ganglion lies medial to the carotid tubercle of C6, in front of the vertebral artery",
+     1,
+     "Last's: it is small and inconstant. The ansa subclavia passes in front of the subclavian artery to link it with the inferior (stellate) ganglion."
+    ],
+    [
+     "The stellate ganglion lies on the neck of the first rib",
+     1,
+     "It lies on the front of the neck of the first rib. Lateral to it, from medial to lateral, lie the supreme intercostal vein, the superior intercostal artery and the anterior ramus of T1."
+    ]
+   ]
+  },
+  {
+   "t": "Parotid region",
+   "y": 1,
+   "s": "Concerning the parotid gland:",
+   "o": [
+    [
+     "From superficial to deep, the facial nerve, retromandibular vein and external carotid artery lie within it",
+     1,
+     "The nerve is immediately superficial to the vein, which is a surgical guide."
+    ],
+    [
+     "Its secretomotor fibres relay in the otic ganglion",
+     1,
+     "Inferior salivary nucleus, IX, tympanic branch, tympanic plexus, lesser petrosal nerve, otic ganglion, auriculotemporal nerve."
+    ],
+    [
+     "Its fascia receives sensory fibres from the great auricular nerve",
+     1,
+     "The gland itself receives sensory fibres from the auriculotemporal nerve."
+    ],
+    [
+     "The parotid duct pierces masseter to open opposite the upper second premolar",
+     0,
+     "The duct crosses masseter, turns around its anterior border and pierces buccinator to open opposite the upper second molar."
+    ]
+   ]
+  },
+  {
+   "t": "Infratemporal fossa",
+   "y": 1,
+   "s": "Regarding the maxillary artery:",
+   "o": [
+    [
+     "It passes forward between the neck of the mandible and the sphenomandibular ligament",
+     1,
+     "The auriculotemporal nerve lies above it and the maxillary vein below."
+    ],
+    [
+     "Its first-part branches all enter bony foramina",
+     1,
+     "Inferior alveolar, middle meningeal, accessory meningeal, deep auricular and anterior tympanic."
+    ],
+    [
+     "The accessory meningeal artery is an important supply to the trigeminal ganglion",
+     1,
+     "Last's: it enters through foramen ovale and runs up the mandibular division to the ganglion."
+    ],
+    [
+     "None of its branches pass through the petrotympanic fissure",
+     0,
+     "The anterior tympanic artery passes through the petrotympanic fissure to the middle ear. The deep auricular passes through the squamotympanic fissure region to the meatus."
+    ]
+   ]
+  },
+  {
+   "t": "Infratemporal fossa",
+   "y": 2,
+   "s": "The sphenomandibular ligament:",
+   "o": [
+    [
+     "Is attached to the spine of the sphenoid and the lingula",
+     1,
+     "It attaches to the lingula and inferior margin of the mandibular foramen."
+    ],
+    [
+     "Is derived from the perichondrium of Meckel's cartilage",
+     1,
+     "First arch derivative."
+    ],
+    [
+     "Is pierced by the nerve to mylohyoid",
+     1,
+     "The mylohyoid vessels groove the mandible here."
+    ],
+    [
+     "Has the auriculotemporal nerve and maxillary artery passing between it and the neck of the mandible",
+     1,
+     "The inferior alveolar nerve and vessels pass between the ligament and the ramus."
+    ]
+   ]
+  },
+  {
+   "t": "Muscles of mastication",
+   "y": 1,
+   "s": "Concerning the muscles of mastication:",
+   "o": [
+    [
+     "The posterior fibres of temporalis are the only fibres that retract the mandible",
+     1,
+     "Last's: no other muscle retracts the condyle."
+    ],
+    [
+     "The masseteric nerve passes through the mandibular notch above the lateral pterygoid",
+     1,
+     "It also supplies the TMJ (Hilton's law)."
+    ],
+    [
+     "The buccal nerve is the only branch to pass between the two heads of lateral pterygoid",
+     1,
+     "It is sensory to the cheek. A middle deep temporal nerve may accompany it."
+    ],
+    [
+     "Medial pterygoid is supplied by the anterior division of the mandibular nerve",
+     0,
+     "Medial pterygoid is supplied from the main trunk, which also gives the motor branch for the tensors."
+    ]
+   ]
+  },
+  {
+   "t": "Temporomandibular joint",
+   "y": 2,
+   "s": "Regarding the temporomandibular joint:",
+   "o": [
+    [
+     "It is supplied by the auriculotemporal nerve and the nerve to masseter",
+     1,
+     "The auriculotemporal gives the major sensory supply (Hilton's law for masseter)."
+    ],
+    [
+     "Its articular surfaces are covered with hyaline cartilage",
+     0,
+     "They are covered with fibrocartilage, because the mandible and squamous temporal ossify in membrane."
+    ],
+    [
+     "The temporomandibular ligament is attached to the lateral surface of the articular tubercle",
+     1,
+     "It lies deep to the parotid fascia."
+    ],
+    [
+     "It receives sensory branches from the facial nerve",
+     0,
+     "The facial nerve is motor here. Sensory supply is from V3 (auriculotemporal and masseteric)."
+    ]
+   ]
+  },
+  {
+   "t": "Pterygopalatine ganglion branches",
+   "y": 1,
+   "s": "Regarding branches distributed through the pterygopalatine ganglion:",
+   "o": [
+    [
+     "The nasopalatine nerve supplies the posteroinferior part of the nasal septum and the gum behind the incisors",
+     1,
+     "It passes through the sphenopalatine foramen, along the septum and through the incisive canal."
+    ],
+    [
+     "The greater palatine nerve supplies the whole hard palate except the incisor gum",
+     1,
+     "It also supplies the posteroinferior lateral nasal wall."
+    ],
+    [
+     "The lesser palatine nerves supply the soft palate and tonsil",
+     1,
+     "They emerge through the lesser palatine foramina."
+    ],
+    [
+     "The pharyngeal branch passes through the vomerovaginal canal",
+     0,
+     "Last's: the pharyngeal nerve passes through the palatovaginal canal. The vomerovaginal canal transmits only a minute pharyngeal branch of the sphenopalatine artery."
+    ]
+   ]
+  },
+  {
+   "t": "Nose",
+   "y": 2,
+   "s": "The nerve supply of the lateral wall of the nasal cavity includes the:",
+   "o": [
+    [
+     "Anterior ethmoidal nerve to the anterosuperior part",
+     1,
+     "It enters through the slit beside the crista galli."
+    ],
+    [
+     "Anterior superior alveolar nerve to the anteroinferior part",
+     1,
+     "Last's: it reaches the anteroinferior quadrant, including the nasolacrimal duct."
+    ],
+    [
+     "Lateral posterior superior nasal nerves to the posterosuperior part",
+     1,
+     "From the pterygopalatine ganglion through the sphenopalatine foramen."
+    ],
+    [
+     "Nasociliary branches of the facial nerve to the vestibule",
+     0,
+     "The vestibule is supplied by branches of the infraorbital nerve that have crept in from the face."
+    ]
+   ]
+  },
+  {
+   "t": "Pharynx",
+   "y": 1,
+   "s": "Concerning the wall of the pharynx:",
+   "o": [
+    [
+     "The pharyngobasilar fascia is attached to the pharyngeal tubercle and the petrous temporal bone in front of the carotid canal",
+     1,
+     "Then to the cartilaginous auditory tube and the medial pterygoid plate."
+    ],
+    [
+     "The cartilaginous auditory tube enters the nasopharynx above the upper border of the superior constrictor",
+     1,
+     "It passes through the gap between the skull base and superior constrictor, with levator palati."
+    ],
+    [
+     "Stylopharyngeus enters the pharynx between the middle and inferior constrictors",
+     0,
+     "Stylopharyngeus, IX and the lingual nerve pass through the gap between the superior and middle constrictors."
+    ],
+    [
+     "The recurrent laryngeal nerve enters the larynx deep to the lower border of the inferior constrictor",
+     1,
+     "It passes just behind the cricothyroid joint with the inferior laryngeal vessels."
+    ]
+   ]
+  },
+  {
+   "t": "Pharynx",
+   "y": 2,
+   "s": "Muscles supplied by the pharyngeal plexus include:",
+   "o": [
+    [
+     "Salpingopharyngeus",
+     1,
+     "All pharyngeal muscles except stylopharyngeus."
+    ],
+    [
+     "Palatopharyngeus",
+     1,
+     "Motor fibres arise in the nucleus ambiguus and reach the vagus via the cranial accessory root."
+    ],
+    [
+     "Levator veli palatini",
+     1,
+     "All palatal muscles except tensor veli palatini."
+    ],
+    [
+     "The superior, middle and inferior constrictors",
+     1,
+     "Last's: cricopharyngeus may also receive fibres from the recurrent or external laryngeal nerve."
+    ]
+   ]
+  },
+  {
+   "t": "Palate",
+   "y": 1,
+   "s": "Regarding tensor veli palatini:",
+   "o": [
+    [
+     "It arises from the scaphoid fossa, the spine of the sphenoid and the cartilaginous auditory tube",
+     1,
+     "So it arises outside the pharynx, from bone at front and back and cartilage between."
+    ],
+    [
+     "Its tendon turns around the pterygoid hamulus",
+     1,
+     "It passes above the fibrous origin of buccinator to become the palatine aponeurosis."
+    ],
+    [
+     "It opens the auditory tube during swallowing",
+     1,
+     "Levator palati assists."
+    ],
+    [
+     "It elevates the soft palate",
+     0,
+     "It tenses the aponeurosis so that other muscles can elevate (levator palati) or depress it."
+    ]
+   ]
+  },
+  {
+   "t": "Tongue",
+   "y": 1,
+   "s": "Concerning the development and innervation of the tongue:",
+   "o": [
+    [
+     "Its muscles are derived from occipital myotomes, which explains the course of the hypoglossal nerve",
+     1,
+     "Their migration passes outside the carotids but deep to the jugular vein."
+    ],
+    [
+     "The mucosa in front of the sulcus terminalis develops from the first arch",
+     1,
+     "Tuberculum impar and lateral lingual swellings, supplied by the lingual nerve and chorda tympani."
+    ],
+    [
+     "The second arch contributes most of the posterior third",
+     0,
+     "Last's: the second arch is not represented. The third arch overgrows it, so IX supplies the posterior third, with a small fourth-arch area supplied by the internal laryngeal nerve near the vallecula."
+    ],
+    [
+     "The foramen caecum marks the origin of the thyroglossal duct",
+     1,
+     "It lies at the apex of the sulcus terminalis."
+    ]
+   ]
+  },
+  {
+   "t": "Tongue",
+   "y": 2,
+   "s": "Structures on the superficial (lateral) surface of hyoglossus include the:",
+   "o": [
+    [
+     "Lingual nerve",
+     1,
+     "From above down on hyoglossus: lingual nerve, submandibular duct, hypoglossal nerve."
+    ],
+    [
+     "Lingual artery",
+     0,
+     "The lingual artery lies deep to hyoglossus, with IX and the stylohyoid ligament."
+    ],
+    [
+     "Submandibular ganglion",
+     1,
+     "It hangs from the lingual nerve on hyoglossus."
+    ],
+    [
+     "Glossopharyngeal nerve",
+     0,
+     "IX passes deep to hyoglossus, at its posterior border."
+    ]
+   ]
+  },
+  {
+   "t": "Submandibular region",
+   "y": 1,
+   "s": "Regarding the submandibular gland and duct:",
+   "o": [
+    [
+     "The superficial and deep parts are continuous around the posterior border of mylohyoid",
+     1,
+     "The deep part lies between mylohyoid and hyoglossus."
+    ],
+    [
+     "The facial artery grooves the posterior part of the superficial part",
+     1,
+     "It grooves the lateral surface, then hooks over the mandible in front of masseter."
+    ],
+    [
+     "The duct is about 5 cm long and opens beside the frenulum",
+     1,
+     "It runs between mylohyoid and hyoglossus, then between the sublingual gland and genioglossus."
+    ],
+    [
+     "The facial vein passes deep to the gland",
+     0,
+     "The facial vein, cervical branch of VII and (if low) the marginal mandibular branch cross the inferior (superficial) surface."
+    ]
+   ]
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning the larynx:",
+   "o": [
+    [
+     "Its mucosa above the vocal folds is supplied by the internal laryngeal nerve",
+     1,
+     "Below the folds it is the recurrent laryngeal nerve. Cell bodies of both are in the inferior vagal ganglion."
+    ],
+    [
+     "The superior laryngeal artery is a branch of the superior thyroid artery",
+     1,
+     "It enters with the internal laryngeal nerve through the thyrohyoid membrane."
+    ],
+    [
+     "Posterior cricoarytenoid is the only abductor of the vocal folds",
+     1,
+     "Supplied by the recurrent laryngeal nerve."
+    ],
+    [
+     "The laryngeal cartilages derive from the second and third arches",
+     0,
+     "They derive from the fourth and sixth arches. Cricothyroid is from the fourth."
+    ]
+   ]
+  },
+  {
+   "t": "Larynx",
+   "y": 2,
+   "s": "The recurrent laryngeal nerve:",
+   "o": [
+    [
+     "Supplies all intrinsic laryngeal muscles except cricothyroid",
+     1,
+     "Cricothyroid is supplied by the external laryngeal nerve."
+    ],
+    [
+     "Lies immediately behind the cricothyroid joint",
+     1,
+     "Last's: this is the joint with a nerve related to it."
+    ],
+    [
+     "May divide into two branches before entering the larynx",
+     1,
+     "Last's: it is often double by the time it enters, having divided at about the upper border of the thyroid isthmus."
+    ],
+    [
+     "Is non-recurrent on the right when there is an aberrant right subclavian artery",
+     1,
+     "With a retro-oesophageal right subclavian (1 to 2%), the right nerve passes directly to the larynx, a thyroidectomy hazard."
+    ]
+   ]
+  },
+  {
+   "t": "Orbit",
+   "y": 1,
+   "s": "Regarding the extraocular muscles:",
+   "o": [
+    [
+     "Inferior oblique is the only extraocular muscle not arising from the back of the orbit",
+     1,
+     "It arises from the orbital floor, beside the nasolacrimal canal."
+    ],
+    [
+     "The nerve to inferior oblique is the longest muscular nerve in the orbit",
+     1,
+     "It carries the parasympathetic root to the ciliary ganglion."
+    ],
+    [
+     "Superior oblique turns the eye down and out",
+     1,
+     "It also intorts."
+    ],
+    [
+     "Lateral rectus is supplied by the abducent nerve entering its orbital surface",
+     0,
+     "Last's: the nerves to the recti (and VI) enter the ocular surface of their muscles. Only the trochlear nerve enters its muscle from the orbital surface."
+    ]
+   ]
+  },
+  {
+   "t": "Orbit",
+   "y": 2,
+   "s": "The ciliary ganglion:",
+   "o": [
+    [
+     "Contains synapses of sympathetic fibres to the dilator pupillae",
+     0,
+     "Sympathetic fibres pass through without synapse, and dilator fibres travel mainly in the long ciliary nerves."
+    ],
+    [
+     "Receives its parasympathetic root from the superior division of the oculomotor nerve",
+     0,
+     "The parasympathetic root comes from the nerve to inferior oblique (inferior division)."
+    ],
+    [
+     "Sends sensory fibres to the conjunctiva",
+     0,
+     "Last's: its sensory fibres supply the eye, cornea, iris and ciliary body, but not the conjunctiva, which is supplied by the nerves of the overlying lid."
+    ],
+    [
+     "Receives its sensory root from the nasociliary nerve",
+     1,
+     "These fibres pass through without relay."
+    ]
+   ]
+  },
+  {
+   "t": "Orbit",
+   "y": 1,
+   "s": "Concerning the ophthalmic artery and veins:",
+   "o": [
+    [
+     "The central retinal artery is the first and smallest branch of the ophthalmic artery",
+     1,
+     "Last's: it is also the most important. It is an end artery entering the inferomedial part of the nerve."
+    ],
+    [
+     "The ophthalmic artery crosses above the optic nerve from lateral to medial",
+     1,
+     "It crosses with the nasociliary nerve and superior ophthalmic vein."
+    ],
+    [
+     "The superior ophthalmic vein drains directly into the cavernous sinus",
+     1,
+     "It begins above the medial palpebral ligament, communicating with the angular vein."
+    ],
+    [
+     "The inferior ophthalmic vein drains only into the cavernous sinus",
+     0,
+     "It drains much of its blood through the inferior orbital fissure into the pterygoid plexus."
+    ]
+   ]
+  },
+  {
+   "t": "Ear",
+   "y": 1,
+   "s": "Regarding the tympanic membrane:",
+   "o": [
+    [
+     "It is set at about 55 degrees to the meatus, facing laterally, downwards and forwards",
+     1,
+     "The umbo is produced by the tip of the handle of malleus."
+    ],
+    [
+     "Its outer surface is supplied by the auriculotemporal nerve and the auricular branch of the vagus",
+     1,
+     "Facial nerve fibres via the tympanic plexus may also reach it."
+    ],
+    [
+     "Its inner surface is supplied by the tympanic branch of the glossopharyngeal nerve",
+     1,
+     "Via the tympanic plexus."
+    ],
+    [
+     "The chorda tympani crosses lateral to the neck of the malleus",
+     0,
+     "The chorda crosses medial to the neck of the malleus, over the pars flaccida, under the mucous membrane."
+    ]
+   ]
+  },
+  {
+   "t": "Ear",
+   "y": 2,
+   "s": "Concerning the auditory tube:",
+   "o": [
+    [
+     "Its bony part is longer than its cartilaginous part",
+     0,
+     "The bony part is about 1 cm and the cartilaginous part about 2 cm, the reverse of the external acoustic meatus."
+    ],
+    [
+     "The isthmus lies posteromedial to the spine of the sphenoid",
+     1,
+     "It is the narrowest part, at the junction of the bony and cartilaginous parts."
+    ],
+    [
+     "It is derived from the second pharyngeal pouch",
+     0,
+     "It derives from the first pouch, with the middle ear and mastoid antrum."
+    ],
+    [
+     "Its cartilaginous part is supplied by the meningeal branch of the mandibular nerve",
+     1,
+     "Last's: nervus spinosus to the cartilaginous part, tympanic plexus (IX) to the bony part, and the pharyngeal branch of the pterygopalatine ganglion at the ostium."
+    ]
+   ]
+  },
+  {
+   "t": "Ear",
+   "y": 1,
+   "s": "Regarding the mastoid antrum and suprameatal triangle:",
+   "o": [
+    [
+     "The antrum lies about 15 mm deep to the suprameatal triangle",
+     1,
+     "The triangle is bounded by the suprameatal spine and upper and posterior tangents of the meatus."
+    ],
+    [
+     "The antrum is present at birth",
+     1,
+     "The mastoid process and air cells develop later. Aeration begins in the second year."
+    ],
+    [
+     "The lateral semicircular canal bulges into the medial wall of the aditus",
+     1,
+     "Just above the ridge of the facial canal."
+    ],
+    [
+     "The roof of the antrum is formed by the squamous temporal bone",
+     0,
+     "The tegmen tympani of the petrous bone roofs the middle ear, antrum and canal for tensor tympani."
+    ]
+   ]
+  },
+  {
+   "t": "Scalp and face",
+   "y": 1,
+   "s": "Concerning the scalp:",
+   "o": [
+    [
+     "Its vessels and nerves run in the dense connective tissue layer",
+     1,
+     "Arteries are attached to the deep dermis, so wounds bleed freely."
+    ],
+    [
+     "Occipitalis arises from the highest nuchal line",
+     1,
+     "Only occipitalis has a bony attachment. Frontalis arises from orbicularis oculi and skin."
+    ],
+    [
+     "The greater occipital nerve is a branch of the anterior ramus of C2",
+     0,
+     "The greater occipital nerve is the posterior ramus of C2. The lesser occipital is the anterior ramus of C2."
+    ],
+    [
+     "The supratrochlear and supraorbital arteries are branches of the internal carotid system",
+     1,
+     "They arise from the ophthalmic artery."
+    ]
+   ]
+  },
+  {
+   "t": "Scalp and face",
+   "y": 2,
+   "s": "Regarding the sensory supply of the face:",
+   "o": [
+    [
+     "The skin over the angle of the mandible is supplied by the great auricular nerve",
+     1,
+     "Last's: this is the only facial skin not supplied by the trigeminal nerve."
+    ],
+    [
+     "The zygomaticofacial nerve supplies the hairless skin of the temple",
+     0,
+     "That is the zygomaticotemporal nerve. The zygomaticofacial supplies the skin over the zygomatic bone."
+    ],
+    [
+     "The infraorbital nerve supplies the upper lip and labial gum to include the second premolar",
+     1,
+     "Midline to second premolar."
+    ],
+    [
+     "The lower eyelid is supplied by the infratrochlear nerve",
+     0,
+     "The lower eyelid and its conjunctiva are supplied by the palpebral branches of the infraorbital nerve."
+    ]
+   ]
+  },
+  {
+   "t": "Face veins",
+   "y": 1,
+   "s": "Concerning venous connections of the face with the cavernous sinus:",
+   "o": [
+    [
+     "The angular vein connects via the superior ophthalmic vein",
+     1,
+     "One of the two routes bounding Last's danger area."
+    ],
+    [
+     "The deep facial vein connects via the pterygoid plexus and emissary veins through foramen ovale",
+     1,
+     "And through the foramen of Vesalius if present."
+    ],
+    [
+     "The danger area lies below the level of the deep facial vein",
+     0,
+     "Last's: the danger area (upper lip, nose and medial cheek) lies above the level of the deep facial vein, between the two communications."
+    ],
+    [
+     "Retrograde thrombosis of the inferior petrosal sinus and medullary veins is usually fatal",
+     1,
+     "Last's: the ophthalmoplegia itself is not dangerous."
+    ]
+   ]
+  },
+  {
+   "t": "Facial nerve branches",
+   "y": 2,
+   "s": "Concerning the branches of the facial nerve to the face:",
+   "o": [
+    [
+     "Division of the zygomatic branches crossing the zygomatic arch can endanger vision",
+     1,
+     "Inability to close the lids leads to corneal desiccation and ulceration."
+    ],
+    [
+     "The marginal mandibular branch lies below the angle of the mandible in about 20%",
+     1,
+     "Relevant to submandibular incisions."
+    ],
+    [
+     "The buccal branches supply buccinator",
+     1,
+     "Paralysis prevents emptying of the cheek pouch."
+    ],
+    [
+     "The cervical branch supplies the posterior belly of digastric",
+     0,
+     "The cervical branch supplies platysma. The posterior belly of digastric is supplied by a branch given off just below the stylomastoid foramen."
+    ]
+   ]
+  }
+ ]
+}
