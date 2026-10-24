@@ -192,6 +192,7 @@ table.stats td.meter { width: 32%; }
           <div><p class="label">Region</p><div class="chips" id="practice-regions"></div></div>
           <div><p class="label">Question type</p><div class="chips" id="practice-types"></div></div>
           <div><p class="label">Difficulty</p><div class="chips" id="practice-diff"></div></div>
+          <div><p class="label">Source</p><div class="chips" id="practice-source"></div></div>
           <div><p class="label">Show</p><div class="chips" id="practice-status"></div></div>
           <div class="row"><button class="btn primary" id="practice-start">Start practice</button><span class="count" id="practice-hint"></span></div>
         </div>
@@ -385,7 +386,7 @@ function renderQuestion(q, opts) {
     h('span', { text: q.t }),
     h('span', { text: q.y === 1 ? 'Type 1 · true/false' : 'Type 2 · key A–E' }),
     q.d === 2 ? h('span', { class: 'tag hard', text: 'Harder' }) : null,
-    q.src ? h('span', { class: 'tag sample', text: 'Official NSA sample' }) : null,
+    q.src ? h('span', { class: 'tag sample', text: q.src === 'NSA sample' ? 'Official NSA sample' : q.src }) : null,
     rec && rec.f ? h('span', { class: 'flagged', text: '⚑ Flagged' }) : null,
     opts.headExtra || null);
   const list = h('ol', { class: 'opts' });
@@ -451,12 +452,13 @@ function chipGroup(container, items, selected, { multi = true, onChange }) {
 }
 
 /* ---------- practice ---------- */
-const practice = { regions: new Set(), type: 'all', diff: 'all', status: 'all', queue: [], idx: 0, ans: null, reveal: false };
+const practice = { regions: new Set(), type: 'all', diff: 'all', source: 'all', status: 'all', queue: [], idx: 0, ans: null, reveal: false };
 function practiceMatches() {
   return DATA.questions.filter((q) => {
     if (practice.regions.size && !practice.regions.has(q.r)) return false;
     if (practice.type !== 'all' && String(q.y) !== practice.type) return false;
     if (practice.diff !== 'all' && String(q.d) !== practice.diff) return false;
+    if (practice.source !== 'all' && (q.src === "Last's text") !== (practice.source === 'lasts')) return false;
     const rec = state.q[q.id];
     if (practice.status === 'unseen' && rec && rec.a) return false;
     if (practice.status === 'wrong' && !(rec && rec.a && rec.l < 1)) return false;
@@ -480,6 +482,9 @@ function renderPracticeFilters() {
   });
   chipGroup($('#practice-diff'), [{ value: 'all', label: 'All' }, { value: '1', label: 'Standard (NSA level)' }, { value: '2', label: 'Harder (ABNS level)' }], practice.diff, {
     multi: false, onChange: (v) => { practice.diff = v; renderPracticeFilters(); },
+  });
+  chipGroup($('#practice-source'), [{ value: 'all', label: 'All' }, { value: 'bank', label: 'Mixed-topic bank' }, { value: 'lasts', label: "Sentence by sentence from Last's" }], practice.source, {
+    multi: false, onChange: (v) => { practice.source = v; renderPracticeFilters(); },
   });
   chipGroup($('#practice-status'), [{ value: 'all', label: 'All' }, { value: 'unseen', label: 'Not yet tried' }, { value: 'wrong', label: 'Got wrong last time' }, { value: 'flagged', label: 'Flagged' }], practice.status, {
     multi: false, onChange: (v) => { practice.status = v; renderPracticeFilters(); },
@@ -798,8 +803,71 @@ function renderToday() {
       r.wrong.length ? h('div', { class: 'row', style: 'margin-top:10px' }, h('button', { class: 'btn small primary', text: 'Practise these again', onclick: () => {
         practice.queue = shuffle(r.wrong.map((w) => w.q.id)); practice.idx = 0; practice.ans = null; practice.reveal = false; show('practice');
       } })) : null),
+    ankiPanel(todayDay),
     h('div', { class: 'panel' }, h('div', { class: 'row' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Text version' }), copyBtn), copyBox,
       h('p', { class: 'count', style: 'margin:8px 0 0', text: 'Each evening this summary is also saved to your account for the daily phone notification.' })));
+}
+
+/* ---------- Anki export ---------- */
+function mistakesFor(days) {
+  const byId = new Map();
+  for (const day of days) {
+    for (const [id, rec] of Object.entries((state.h || {})[day] || {})) {
+      const q = QBYID[id];
+      if (!q || rec.s === 1) continue;
+      const m = byId.get(id) || { q, idx: new Set() };
+      if (q.y === 1) q.o.forEach((o, i) => { if (rec.a[i] !== (o[1] ? 'T' : 'F')) m.idx.add(i); });
+      byId.set(id, m);
+    }
+  }
+  return [...byId.values()];
+}
+function ankiFile(mistakes) {
+  const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/[\t\r\n]+/g, ' ');
+  const tag = (t) => t.replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '');
+  const rows = [];
+  for (const { q, idx } of mistakes) {
+    const tags = `NSA ${tag(REGION[q.r])} ${tag(q.t)}`;
+    if (q.y === 1) {
+      for (const i of [...idx].sort()) {
+        const o = q.o[i];
+        rows.push([`${esc(q.s)}<br><br><b>True or false?</b> ${esc(o[0])}`, `<b>${o[1] ? 'True' : 'False'}</b><br>${esc(o[2])}`, tags, `nsa-${q.id}-${i}`]);
+      }
+    } else {
+      const front = `${esc(q.s)}<br>${q.o.map((o, i) => `${i + 1}. ${esc(o[0])}`).join('<br>')}<br><br><small>${Object.entries(KEY_TEXT).map(([k, v]) => `${k}: ${esc(v)}`).join('<br>')}</small>`;
+      const back = `<b>${q.k}: ${esc(KEY_TEXT[q.k])}</b><br>${q.o.map((o, i) => `${i + 1}. ${o[1] ? 'True' : 'False'}: ${esc(o[2])}`).join('<br>')}`;
+      rows.push([front, back, tags, `nsa-${q.id}`]);
+    }
+  }
+  const head = ['#separator:tab', '#html:true', '#notetype:Basic', '#deck:NSA anatomy mistakes', '#tags column:3', '#guid column:4'];
+  return { text: head.concat(rows.map((r) => r.join('\t'))).join('\n') + '\n', count: rows.length };
+}
+async function downloadAnki(days, label, statusEl) {
+  const { text, count } = ankiFile(mistakesFor(days));
+  if (!count) { statusEl.textContent = 'No mistakes to export yet.'; return; }
+  const filename = `nsa-anki-${label}.txt`;
+  const dl = window.claude && typeof window.claude.use === 'function' ? await window.claude.use('downloads').catch(() => null) : null;
+  try {
+    if (dl) await dl.save({ filename, data: text });
+    else {
+      const a = h('a', { href: URL.createObjectURL(new Blob([text], { type: 'text/plain' })), download: filename });
+      document.body.append(a); a.click(); a.remove();
+    }
+    statusEl.textContent = `${count} cards saved as ${filename}.`;
+  } catch (e) {
+    statusEl.textContent = e && e.code === 'declined' ? 'Download cancelled.' : 'Download is not available here. Use the copy box instead.';
+  }
+}
+function ankiPanel(day) {
+  const status = h('p', { class: 'count', style: 'margin:8px 0 0', 'aria-live': 'polite' });
+  const allDays = Object.keys(state.h || {});
+  return h('div', { class: 'panel' },
+    h('p', { class: 'label', text: 'Anki cards from your mistakes' }),
+    h('p', { style: 'margin:0 0 10px', text: 'Each statement you got wrong becomes a card (Type 2 questions become one card with the key). Import the file in Anki with File → Import. Cards keep the same ID, so importing again updates them instead of making duplicates.' }),
+    h('div', { class: 'row' },
+      h('button', { class: 'btn small primary', text: 'This day\'s mistakes', onclick: () => downloadAnki([day], day, status) }),
+      h('button', { class: 'btn small', text: 'All mistakes so far', onclick: () => downloadAnki(allDays, 'all', status) })),
+    status);
 }
 
 /* ---------- progress ---------- */
