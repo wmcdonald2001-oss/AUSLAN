@@ -49,6 +49,7 @@ h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; mar
 .sync { margin-left: auto; font-size: 0.78rem; color: var(--muted); display: flex; align-items: center; gap: 6px; }
 .sync i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; }
 .sync.on i { background: var(--true); }
+.theme-btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: 0.8rem; cursor: pointer; min-height: 32px; align-self: center; }
 nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
 nav.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 nav.tabs button { flex: 1 0 auto; background: none; border: 0; border-bottom: 3px solid transparent; padding: 10px 8px 9px; font: inherit; font-size: 0.95rem; color: var(--muted); cursor: pointer; }
@@ -202,6 +203,7 @@ table.stats td.meter { width: 32%; }
     <h1>NSA Anatomy Bank</h1>
     <span class="meta" id="meta"></span>
     <span class="sync" id="sync" title="Where your progress is saved"><i></i><span>Saved on this device</span></span>
+    <button type="button" class="theme-btn" id="theme-btn" aria-label="Colour theme"></button>
   </div>
 </header>
 <nav class="tabs" aria-label="Sections">
@@ -261,6 +263,27 @@ table.stats td.meter { width: 32%; }
 </main>
 
 <script>
+/* ---------- theme ---------- */
+(function () {
+  const order = ['auto', 'light', 'dark'];
+  const labels = { auto: '◐ Theme: auto', light: '☀ Theme: light', dark: '☾ Theme: dark' };
+  let mode = 'auto';
+  try { mode = localStorage.getItem('nsa-theme') || 'auto'; } catch (e) { /* storage unavailable */ }
+  const apply = () => {
+    if (mode === 'auto') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', mode);
+    const btn = document.getElementById('theme-btn');
+    if (btn) { btn.textContent = labels[mode]; btn.title = 'Switch between automatic, light and dark'; }
+  };
+  apply();
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest || !e.target.closest('#theme-btn')) return;
+    mode = order[(order.indexOf(mode) + 1) % order.length];
+    try { localStorage.setItem('nsa-theme', mode); } catch (err) { /* ignore */ }
+    apply();
+  });
+})();
+
 const DATA = /*__DATA__*/null;
 const EXAM_DATE = new Date('2027-02-19T09:00:00+11:00');
 const STORE_KEY = 'nsa-anatomy-bank-v1';
