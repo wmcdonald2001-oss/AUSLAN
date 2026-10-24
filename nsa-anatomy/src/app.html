@@ -19,6 +19,9 @@
   --false: #b1271d;
   --false-bg: #f8e3e1;
   --flag: #a8660f;
+  --fb-bg: #fcf3d4;
+  --fb-ink: #3b3216;
+  --part: #e8973a;
   --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
   --radius: 10px;
@@ -26,13 +29,13 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0e1318; --surface: #161d24; --sunk: #1d252e; --ink: #e5e9ed; --muted: #9ba6b2; --line: #2b3540;
-    --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c;
+    --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c; --fb-bg: #3a3218; --fb-ink: #f1e7c4; --part: #e5a14c;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e1318; --surface: #161d24; --sunk: #1d252e; --ink: #e5e9ed; --muted: #9ba6b2; --line: #2b3540;
-  --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c;
+  --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c; --fb-bg: #3a3218; --fb-ink: #f1e7c4; --part: #e5a14c;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -113,6 +116,28 @@ li.bad { background: var(--false-bg); }
 .letters button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
 .letters button.right { background: var(--true); color: var(--surface); border-color: var(--true); }
 .letters button.wrong { background: var(--false); color: var(--surface); border-color: var(--false); }
+.mq { padding: 4px 16px 8px; }
+.mq-stem { padding: 14px 0 6px; font-size: 1.05rem; font-weight: 700; text-wrap: pretty; }
+.mq-item { padding: 12px 0 14px; border-top: 1px solid var(--line); }
+.mq-text { margin-bottom: 8px; text-wrap: pretty; }
+.mq-text b { margin-right: 6px; }
+.mq-opts { display: flex; flex-direction: column; gap: 2px; }
+.mq-opt { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 2px 8px; border-radius: 6px; cursor: pointer; border: 0; background: none; color: var(--ink); font: inherit; text-align: left; width: 100%; }
+.mq-opt:hover:not(:disabled) { background: var(--sunk); }
+.mq-opt:disabled { cursor: default; }
+.mq-radio { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--muted); display: grid; place-items: center; }
+.mq-opt[aria-checked="true"] .mq-radio { border-color: var(--accent); background: var(--accent); }
+.mq-opt[aria-checked="true"] .mq-radio::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-ink); }
+.mq-mark { flex: 0 0 1.2rem; font-weight: 700; text-align: center; }
+.mq-mark.yes { color: var(--true); }
+.mq-mark.no { color: var(--false); }
+.mq-list { margin: 0 0 6px; padding-left: 1.6rem; }
+.mq-list li { margin: 6px 0; }
+.mq-fb { display: flex; gap: 10px; margin-top: 10px; padding-left: 10px; border-left: 3px solid var(--line); }
+.mq-fb > .mq-mark { padding-top: 10px; }
+.mq-fb-box { flex: 1 1 auto; background: var(--fb-bg); color: var(--fb-ink); padding: 10px 14px; border-radius: 4px; font-size: 0.95rem; }
+.mq-fb-box p { margin: 0 0 6px; }
+.mq-fb-box p:last-child { margin: 0; }
 .q-foot { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 16px; border-top: 1px solid var(--line); background: var(--sunk); }
 .score { font-weight: 700; font-variant-numeric: tabular-nums; }
 .score.full { color: var(--true); }
@@ -131,6 +156,12 @@ li.bad { background: var(--false-bg); }
 .grid-nav button.cur { outline: 2px solid var(--accent); outline-offset: -2px; color: var(--ink); }
 .grid-nav button.ok { background: var(--true-bg); color: var(--true); }
 .grid-nav button.bad { background: var(--false-bg); color: var(--false); }
+.grid-nav.solid button { color: #fff; border-color: transparent; font-weight: 700; }
+.grid-nav.solid button.ok { background: var(--true); }
+.grid-nav.solid button.part { background: var(--part); }
+.grid-nav.solid button.bad { background: var(--false); }
+.grid-nav.solid button.todo { background: var(--surface); color: var(--muted); border-color: var(--line); font-weight: 400; }
+.grid-nav.solid button.cur { outline: 3px solid var(--ink); outline-offset: 1px; }
 .big { font-family: var(--font-display); font-size: 2.6rem; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
 .pass { color: var(--true); font-weight: 700; }
 .fail { color: var(--false); font-weight: 700; }
@@ -193,6 +224,7 @@ table.stats td.meter { width: 32%; }
           <div><p class="label">Question type</p><div class="chips" id="practice-types"></div></div>
           <div><p class="label">Difficulty</p><div class="chips" id="practice-diff"></div></div>
           <div><p class="label">Source</p><div class="chips" id="practice-source"></div></div>
+          <div><p class="label">Block size</p><div class="chips" id="practice-size"></div></div>
           <div><p class="label">Show</p><div class="chips" id="practice-status"></div></div>
           <div class="row"><button class="btn primary" id="practice-start">Start practice</button><span class="count" id="practice-hint"></span></div>
         </div>
@@ -389,47 +421,44 @@ function renderQuestion(q, opts) {
     q.src ? h('span', { class: 'tag sample', text: q.src === 'NSA sample' ? 'Official NSA sample' : q.src }) : null,
     rec && rec.f ? h('span', { class: 'flagged', text: '⚑ Flagged' }) : null,
     opts.headExtra || null);
-  const list = h('ol', { class: 'opts' });
-  q.o.forEach((o, i) => {
-    const truth = !!o[1];
-    let liClass = '';
-    if (opts.reveal && q.y === 1) liClass = opts.ans[i] === truth ? 'ok' : 'bad';
-    const textBlock = h('div', { class: 'opt-text' }, h('div', { text: o[0] }));
-    if (opts.reveal) {
-      textBlock.append(h('div', { class: 'verdict' },
-        h('b', { class: truth ? 't' : 'f', text: truth ? 'True' : 'False' }),
-        q.y === 1 && opts.ans[i] !== null ? ` · you said ${opts.ans[i] ? 'true' : 'false'}` : ''),
-        h('div', { class: 'expl', text: o[2] }));
-    }
-    const row = h('div', { class: 'opt-row' }, h('span', { class: 'opt-n', text: q.y === 1 ? T1_LABELS[i] : String(i + 1) }), textBlock);
-    if (q.y === 1) {
-      const tf = h('div', { class: 'tf', role: 'group', 'aria-label': `Statement ${T1_LABELS[i]}` });
+  const live = !opts.reveal && !!opts.onAnswer;
+  // One radio option in the exam's style: circle, then a tick or cross once marked.
+  const option = (label, checked, correct, onPick, name) => {
+    let mark = null;
+    if (opts.reveal && correct) mark = h('span', { class: 'mq-mark yes', text: '✓', 'aria-label': 'correct answer' });
+    else if (opts.reveal && checked) mark = h('span', { class: 'mq-mark no', text: '✗', 'aria-label': 'your answer, incorrect' });
+    else if (opts.reveal) mark = h('span', { class: 'mq-mark' });
+    return h('button', { type: 'button', class: 'mq-opt', role: 'radio', 'aria-checked': String(checked), 'aria-label': `${name}: ${label}`, disabled: !live, onclick: onPick },
+      h('span', { class: 'mq-radio' }), mark, h('span', { text: label }));
+  };
+  const feedback = (ok, paras) => h('div', { class: 'mq-fb' },
+    h('span', { class: `mq-mark ${ok ? 'yes' : 'no'}`, text: ok ? '✓' : '✗' }),
+    h('div', { class: 'mq-fb-box' }, ...paras.map((t) => h('p', { text: t }))));
+  const body = h('div', { class: 'mq' }, h('div', { class: 'mq-stem', text: q.s }));
+  if (q.y === 1) {
+    q.o.forEach((o, i) => {
+      const truth = !!o[1];
+      const group = h('div', { class: 'mq-opts', role: 'radiogroup', 'aria-label': `Statement ${T1_LABELS[i]}` });
       for (const val of [true, false]) {
-        tf.append(h('button', {
-          type: 'button', 'aria-pressed': String(opts.ans[i] === val), disabled: opts.reveal || !opts.onAnswer,
-          text: val ? 'T' : 'F', 'aria-label': `${val ? 'True' : 'False'} for statement ${T1_LABELS[i]}`,
-          onclick: () => { const next = opts.ans.slice(); next[i] = val; opts.onAnswer(next); },
-        }));
+        group.append(option(val ? 'True' : 'False', opts.ans[i] === val, opts.reveal && truth === val, () => {
+          const next = opts.ans.slice(); next[i] = val; opts.onAnswer(next);
+        }, `Statement ${T1_LABELS[i]}`));
       }
-      row.append(tf);
+      const item = h('div', { class: 'mq-item' }, h('div', { class: 'mq-text' }, h('b', { text: `${T1_LABELS[i]}.` }), o[0]), group);
+      if (opts.reveal) item.append(feedback(opts.ans[i] === truth, [`${truth ? 'True' : 'False'}. ${o[2]}`]));
+      body.append(item);
+    });
+  } else {
+    body.append(h('ol', { class: 'mq-list' }, ...q.o.map((o) => h('li', { text: o[0] }))));
+    const group = h('div', { class: 'mq-opts', role: 'radiogroup', 'aria-label': 'Answer' });
+    for (const [k, v] of Object.entries(KEY_TEXT)) {
+      group.append(option(`${k}. ${v}`, opts.ans === k, opts.reveal && k === q.k, () => opts.onAnswer(k), 'Answer'));
     }
-    list.append(h('li', { class: liClass }, row));
-  });
-  const box = h('article', { class: 'q' }, head, h('div', { class: 'stem', text: q.s }), list);
-  if (q.y === 2) {
-    const table = h('table', {}, ...Object.entries(KEY_TEXT).map(([k, v]) => h('tr', {}, h('td', { text: k }), h('td', { text: v }))));
-    box.append(h('div', { class: 'key' }, table));
-    const letters = h('div', { class: 'letters', role: 'group', 'aria-label': 'Answer letter' });
-    for (const k of Object.keys(KEY_TEXT)) {
-      let cls = '';
-      if (opts.reveal) cls = k === q.k ? 'right' : (k === opts.ans ? 'wrong' : '');
-      letters.append(h('button', {
-        type: 'button', class: cls, 'aria-pressed': String(opts.ans === k), disabled: opts.reveal || !opts.onAnswer, text: k,
-        onclick: () => opts.onAnswer(k),
-      }));
-    }
-    box.append(letters);
+    const item = h('div', { class: 'mq-item' }, h('div', { class: 'mq-text', text: 'Select one:' }), group);
+    if (opts.reveal) item.append(feedback(opts.ans === q.k, [`The answer is ${q.k}: ${KEY_TEXT[q.k]}.`, ...q.o.map((o, i) => `${i + 1}. ${o[1] ? 'True' : 'False'}. ${o[2]}`)]));
+    body.append(item);
   }
+  const box = h('article', { class: 'q' }, head, body);
   if (opts.footer) box.append(opts.footer);
   return box;
 }
@@ -452,7 +481,7 @@ function chipGroup(container, items, selected, { multi = true, onChange }) {
 }
 
 /* ---------- practice ---------- */
-const practice = { regions: new Set(), type: 'all', diff: 'all', source: 'all', status: 'all', queue: [], idx: 0, ans: null, reveal: false };
+const practice = { regions: new Set(), type: 'all', diff: 'all', source: 'all', status: 'all', size: '20', queue: [], idx: 0, ans: null, reveal: false, results: {} };
 function practiceMatches() {
   return DATA.questions.filter((q) => {
     if (practice.regions.size && !practice.regions.has(q.r)) return false;
@@ -486,32 +515,61 @@ function renderPracticeFilters() {
   chipGroup($('#practice-source'), [{ value: 'all', label: 'All' }, { value: 'bank', label: 'Mixed-topic bank' }, { value: 'lasts', label: "Sentence by sentence from Last's" }], practice.source, {
     multi: false, onChange: (v) => { practice.source = v; renderPracticeFilters(); },
   });
+  chipGroup($('#practice-size'), ['20', '30', '40', 'all'].map((v) => ({ value: v, label: v === 'all' ? 'All matching' : `${v} questions` })), practice.size, {
+    multi: false, onChange: (v) => { practice.size = v; renderPracticeFilters(); },
+  });
   chipGroup($('#practice-status'), [{ value: 'all', label: 'All' }, { value: 'unseen', label: 'Not yet tried' }, { value: 'wrong', label: 'Got wrong last time' }, { value: 'flagged', label: 'Flagged' }], practice.status, {
     multi: false, onChange: (v) => { practice.status = v; renderPracticeFilters(); },
   });
   const n = practiceMatches().length;
   $('#practice-count').textContent = `· ${n} match`;
   $('#practice-start').disabled = n === 0;
-  $('#practice-hint').textContent = n === 0 ? 'Nothing matches these filters yet.' : 'Questions are shuffled each time.';
+  $('#practice-hint').textContent = n === 0 ? 'Nothing matches these filters yet.' : `Questions are shuffled; the block has ${practice.size === 'all' ? n : Math.min(n, +practice.size)} questions.`;
 }
-function startPractice() {
-  practice.queue = shuffle(practiceMatches().map((q) => q.id));
-  practice.idx = 0; practice.reveal = false; practice.ans = null;
+function startPractice(ids) {
+  const pool = Array.isArray(ids) ? shuffle(ids.slice()) : shuffle(practiceMatches().map((q) => q.id));
+  practice.queue = Array.isArray(ids) || practice.size === 'all' ? pool : pool.slice(0, +practice.size);
+  practice.idx = 0; practice.reveal = false; practice.ans = null; practice.results = {};
   if (window.matchMedia('(max-width: 700px)').matches) $('#practice-filters').open = false;
   renderPractice();
+}
+function resultClass(res) { return !res ? 'todo' : res.score === 1 ? 'ok' : res.score === 0 ? 'bad' : 'part'; }
+function practiceNav() {
+  return h('div', { class: 'grid-nav solid', role: 'navigation', 'aria-label': 'Question navigation' }, ...practice.queue.map((id, i) => h('button', {
+    type: 'button', class: `${resultClass(practice.results[i])} ${i === practice.idx ? 'cur' : ''}`, text: String(i + 1),
+    'aria-label': `Question ${i + 1}${practice.results[i] ? `, ${pct(practice.results[i].score)}` : ''}`,
+    onclick: () => { practice.idx = i; practice.ans = null; practice.reveal = false; renderPractice(); },
+  })));
 }
 function renderPractice() {
   const area = $('#practice-area');
   if (!practice.queue.length) {
-    area.replaceChildren(h('div', { class: 'panel empty' }, h('b', { text: 'Pick regions and press Start practice' }), 'Each answer is marked straight away with an explanation for every statement.'));
+    area.replaceChildren(h('div', { class: 'panel empty' }, h('b', { text: 'Pick regions and a block size, then press Start practice' }), 'Each answer is marked straight away with an explanation for every statement.'));
     return;
   }
+  const done = Object.values(practice.results);
+  const total = done.reduce((a, r) => a + r.score, 0);
+  const navPanel = h('div', { class: 'panel' },
+    h('div', { class: 'row', style: 'margin-bottom:10px' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Question navigation' }),
+      h('span', { class: 'count', text: `${done.length} of ${practice.queue.length} answered${done.length ? ` · ${pct(total / done.length)}` : ''}` })),
+    practiceNav());
   if (practice.idx >= practice.queue.length) {
-    area.replaceChildren(h('div', { class: 'panel empty' }, h('b', { text: 'End of this set' }), `You worked through ${practice.queue.length} questions.`,
-      h('div', { class: 'row', style: 'justify-content:center;margin-top:12px' }, h('button', { class: 'btn primary', text: 'Shuffle and go again', onclick: startPractice }))));
+    const wrong = practice.queue.filter((id, i) => practice.results[i] && practice.results[i].score < 1);
+    const full = done.filter((r) => r.score === 1).length;
+    area.replaceChildren(
+      h('div', { class: 'panel' }, h('p', { class: 'label', text: 'Block finished' }),
+        h('div', { class: 'row' }, h('span', { class: 'big', text: done.length ? pct(total / done.length) : '–' }),
+          h('span', { class: 'count', text: `${done.length} of ${practice.queue.length} answered · ${full} fully correct · ${wrong.length} with mistakes` })),
+        h('p', { class: 'count', style: 'margin:10px 0 0', text: 'Tap a number to review that question.' }),
+        h('div', { class: 'row', style: 'margin-top:12px' },
+          wrong.length ? h('button', { class: 'btn primary', text: `Redo the ${wrong.length} with mistakes`, onclick: () => startPractice(wrong) }) : null,
+          h('button', { class: `btn ${wrong.length ? '' : 'primary'}`, text: 'New block', onclick: () => startPractice() }))),
+      navPanel);
     return;
   }
   const q = QBYID[practice.queue[practice.idx]];
+  const saved = practice.results[practice.idx];
+  if (saved) { practice.ans = saved.ans; practice.reveal = true; }
   if (practice.ans === null && !practice.reveal) practice.ans = blankAnswer(q);
   const ans = practice.ans;
   const rec = state.q[q.id];
@@ -521,19 +579,22 @@ function renderPractice() {
   foot.append(h('button', { class: 'btn small ghost', text: rec && rec.f ? 'Unflag' : 'Flag', onclick: () => toggleFlag(q.id) }));
   if (!practice.reveal) foot.append(h('button', { class: 'btn small ghost', text: 'Skip', onclick: next }));
   foot.append(h('span', { class: 'grow' }));
+  const last = practice.idx === practice.queue.length - 1;
   if (!practice.reveal) {
     foot.append(h('button', { class: 'btn primary', text: 'Check answer', disabled: !answered(q, ans), onclick: () => {
-      practice.reveal = true; recordQuestion(q.id, scoreAnswer(q, ans), ans); changed();
+      const score = scoreAnswer(q, ans);
+      practice.results[practice.idx] = { ans, score };
+      practice.reveal = true; recordQuestion(q.id, score, ans); changed();
     } }));
   } else {
-    foot.append(h('button', { class: 'btn primary', text: 'Next question', onclick: next }));
+    foot.append(h('button', { class: 'btn primary', text: last ? 'Finish block' : 'Next question', onclick: next }));
   }
   area.replaceChildren(renderQuestion(q, {
     ans, reveal: practice.reveal,
-    onAnswer: practice.reveal ? null : (next) => { practice.ans = next; renderPractice(); },
+    onAnswer: practice.reveal ? null : (nextAns) => { practice.ans = nextAns; renderPractice(); },
     headExtra: h('span', { class: 'grow', style: 'text-align:right', text: `${practice.idx + 1} of ${practice.queue.length}` }),
     footer: foot,
-  }));
+  }), navPanel);
 }
 
 /* ---------- exam ---------- */
@@ -614,8 +675,8 @@ function renderExam() {
       const avg = arr.reduce((a, b) => a + b, 0) / arr.length;
       return h('tr', {}, h('td', { text: REGION[code] }), h('td', { class: 'num', text: String(arr.length) }), h('td', { class: 'num', text: pct(avg) }));
     });
-    const reviewGrid = h('div', { class: 'grid-nav' }, ...exam.ids.map((id, i) => h('button', {
-      class: `${r.scores[i] === 1 ? 'ok' : r.scores[i] === 0 ? 'bad' : 'done'} ${i === exam.cur ? 'cur' : ''}`, text: String(i + 1), onclick: () => { exam.cur = i; renderExam(); },
+    const reviewGrid = h('div', { class: 'grid-nav solid' }, ...exam.ids.map((id, i) => h('button', {
+      class: `${resultClass({ score: r.scores[i] })} ${i === exam.cur ? 'cur' : ''}`, text: String(i + 1), onclick: () => { exam.cur = i; renderExam(); },
     })));
     const q = QBYID[exam.ids[exam.cur]];
     const foot = h('div', { class: 'q-foot' }, scoreLabel(q, r.scores[exam.cur]), h('span', { class: 'grow' }),
@@ -801,7 +862,7 @@ function renderToday() {
     h('div', { class: 'panel' }, h('p', { class: 'label', text: r.wrong.length ? 'Questions you got wrong' : 'Nothing wrong yet' }),
       r.wrong.length ? list : h('p', { class: 'count', style: 'margin:0', text: r.answered ? 'Every question answered on this day was fully correct.' : 'Answer some questions in Practice or Exam and they will appear here.' }),
       r.wrong.length ? h('div', { class: 'row', style: 'margin-top:10px' }, h('button', { class: 'btn small primary', text: 'Practise these again', onclick: () => {
-        practice.queue = shuffle(r.wrong.map((w) => w.q.id)); practice.idx = 0; practice.ans = null; practice.reveal = false; show('practice');
+        startPractice(r.wrong.map((w) => w.q.id)); show('practice');
       } })) : null),
     ankiPanel(todayDay),
     h('div', { class: 'panel' }, h('div', { class: 'row' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Text version' }), copyBtn), copyBox,
@@ -937,7 +998,7 @@ function show(view) {
   VIEWS[view]();
 }
 for (const btn of document.querySelectorAll('nav.tabs button')) btn.addEventListener('click', () => show(btn.dataset.view));
-$('#practice-start').addEventListener('click', startPractice);
+$('#practice-start').addEventListener('click', () => startPractice());
 listeners.add(() => {
   if (currentView === 'practice') { renderPracticeFilters(); renderPractice(); }
   if (currentView === 'progress') renderProgress();
