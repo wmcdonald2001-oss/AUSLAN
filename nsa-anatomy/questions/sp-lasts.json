@@ -1,0 +1,146 @@
+{
+ "code": "sp",
+ "region": "Vertebral column & back",
+ "questions": [
+  {
+   "t": "Vertebral development",
+   "y": 1,
+   "s": "Development of the vertebrae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "They derive from the sclerotome parts of the somites",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "Each vertebra forms from adjacent caudal and cranial halves of two somites",
+     1,
+     "So vertebrae lie in intersegmental planes. (Last's page pg 557-8)"
+    ],
+    [
+     "Each cartilaginous ring ossifies from a single centre",
+     0,
+     "From three centres: centrum and two halves of the neural arch. (Last's page pg 557-8)"
+    ],
+    [
+     "Failure of one half of the double centrum centre causes spina bifida",
+     0,
+     "It causes a hemivertebra. (Last's page pg 557-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Vertebral ossification",
+   "y": 1,
+   "s": "Ossification of a typical vertebra (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "All vertebrae ossify in hyaline cartilage",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "The laminae are completely united by 2 years",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "The neurocentral junctions are united by about 2 years",
+     0,
+     "By about 7 years. (Last's page pg 557-8)"
+    ],
+    [
+     "The ring epiphyses fuse with the body around puberty",
+     0,
+     "They appear soon after puberty and fuse in the early twenties. (Last's page pg 557-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Vertebral ossification",
+   "y": 1,
+   "s": "Secondary centres and costal elements (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The bifid cervical spines have double secondary centres",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "Mamillary processes of T12 and lumbar vertebrae have secondary centres",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "Cervical and lumbar costal elements have separate bony centres",
+     0,
+     "They ossify from the neural arch; an occasional centre causes a cervical or lumbar rib. (Last's page pg 557-8)"
+    ],
+    [
+     "Sacral costal elements have no separate centres",
+     0,
+     "They do, appearing at 6 months fetal life. (Last's page pg 557-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Atlas and axis",
+   "y": 1,
+   "s": "Ossification of the atlas and axis (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The atlas lateral masses ossify at the seventh week",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "The anterior arch centre appears at the first year",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "The posterior arch of the atlas unites at 12 years",
+     0,
+     "At the fourth year. (Last's page pg 557-8)"
+    ],
+    [
+     "The tip of the dens fuses at 3 years",
+     0,
+     "It appears at about 3 and fuses at 12. (Last's page pg 557-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Atlas and axis",
+   "y": 1,
+   "s": "Ossification of the axis (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The dens has two half-side centres appearing at the fifth month",
+     1,
+     "Fusing two months later. (Last's page pg 557-8)"
+    ],
+    [
+     "The dens unites with the body at 3 years",
+     1,
+     "Last's. (Last's page pg 557-8)"
+    ],
+    [
+     "The lower ring epiphysis fuses at about 12 years",
+     0,
+     "At about 25 years. (Last's page pg 557-8)"
+    ],
+    [
+     "The anterior arch epiphyses of the atlas fuse at 3 years",
+     0,
+     "At 7 years. (Last's page pg 557-8)"
+    ]
+   ]
+  }
+ ]
+}

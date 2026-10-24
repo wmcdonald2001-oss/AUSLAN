@@ -1,0 +1,230 @@
+{
+ "code": "th",
+ "region": "Thorax",
+ "questions": [
+  {
+   "t": "Rib joints",
+   "y": 1,
+   "s": "Joints of the heads of the ribs (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lower facet of the head articulates with its own vertebra",
+     1,
+     "Last's."
+    ],
+    [
+     "The intra-articular ligament attaches the ridge to the disc",
+     1,
+     "Last's."
+    ],
+    [
+     "The first rib articulates with C7 and T1",
+     0,
+     "T1 only, never C7."
+    ],
+    [
+     "The radiate ligament of the first rib has three bands",
+     0,
+     "Two bands for the first and last two ribs."
+    ]
+   ]
+  },
+  {
+   "t": "Rib joints",
+   "y": 1,
+   "s": "The hypochordal bow (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It is formed by the central band of the radiate ligament",
+     1,
+     "Last's."
+    ],
+    [
+     "It runs deep to the anterior longitudinal ligament",
+     1,
+     "Last's."
+    ],
+    [
+     "It explains the formation of the dens",
+     0,
+     "It explains the anterior arch of the atlas."
+    ],
+    [
+     "It lies superficial to the anterior longitudinal ligament",
+     0,
+     "Deep to it."
+    ]
+   ]
+  },
+  {
+   "t": "Rib joints",
+   "y": 1,
+   "s": "Costal cartilage joints (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Costochondral joints are primary cartilaginous",
+     1,
+     "No movement occurs."
+    ],
+    [
+     "The first sternocostal joint is primary cartilaginous",
+     1,
+     "Manubrium and first ribs move together."
+    ],
+    [
+     "Interchondral synovial joints exist between cartilages 2 to 5",
+     0,
+     "Between 6 and 7, 7 and 8, 8 and 9."
+    ],
+    [
+     "The third sternocostal joint has two cavities",
+     0,
+     "It is the second that has two separate cavities."
+    ]
+   ]
+  },
+  {
+   "t": "Rib joints",
+   "y": 1,
+   "s": "Costotransverse joints (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The upper six are reciprocally curved",
+     1,
+     "Lower down they are flat."
+    ],
+    [
+     "The superior costotransverse ligament runs to the transverse process above",
+     1,
+     "Last's."
+    ],
+    [
+     "The lower two ribs have synovial costotransverse joints",
+     0,
+     "Only ligamentous attachments."
+    ],
+    [
+     "The lateral costotransverse ligament attaches to the medial facet of the tubercle",
+     0,
+     "To the lateral, non-articular facet."
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic wall",
+   "y": 1,
+   "s": "Thoracic wall muscles (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The serratus posterior muscles belong to the outer layer",
+     1,
+     "With the external intercostals."
+    ],
+    [
+     "The neurovascular plane lies between middle and inner layers",
+     1,
+     "Last's."
+    ],
+    [
+     "The subcostals belong to the middle layer",
+     0,
+     "To the inner (transversus thoracis) group."
+    ],
+    [
+     "The internal intercostals correspond to external oblique",
+     0,
+     "To internal oblique."
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic joints",
+   "y": 1,
+   "s": "Joints of the thoracic cage (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The last two costal cartilages are free",
+     1,
+     "Last's."
+    ],
+    [
+     "The manubriosternal joint is a symphysis",
+     1,
+     "Last's."
+    ],
+    [
+     "The upper ten costal cartilages articulate with the sternum",
+     0,
+     "The upper seven."
+    ],
+    [
+     "Ribs articulate with the vertebral column in one place",
+     0,
+     "In two: heads and tubercles."
+    ]
+   ]
+  },
+  {
+   "t": "Respiration",
+   "y": 1,
+   "s": "Central control of respiration (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The inspiratory centre lies near the nucleus of the tractus solitarius",
+     1,
+     "Last's."
+    ],
+    [
+     "The pneumotaxic centre lies near the superior cerebellar peduncle",
+     1,
+     "Last's."
+    ],
+    [
+     "Inspiratory neurons project to the ipsilateral phrenic neurons",
+     0,
+     "To the contralateral phrenic neurons."
+    ],
+    [
+     "Hypoxia is detected centrally in the medulla",
+     0,
+     "Peripherally by carotid and aortic bodies; the brain responds to CO2."
+    ]
+   ]
+  },
+  {
+   "t": "Cardiac plexus",
+   "y": 1,
+   "s": "The cardiac plexus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its superficial and deep parts are functionally one",
+     1,
+     "Last's."
+    ],
+    [
+     "It includes a pulmonary part supplying bronchial muscle",
+     1,
+     "Last's."
+    ],
+    [
+     "Its branches reach only the SA node",
+     0,
+     "Also the AV node, bundle, ventricles and coronary arteries."
+    ],
+    [
+     "Afferent vagal fibres from the lungs have cell bodies in the superior vagal ganglion",
+     0,
+     "In the inferior vagal ganglion."
+    ]
+   ]
+  }
+ ]
+}

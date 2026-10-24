@@ -1,0 +1,146 @@
+{
+ "code": "ab",
+ "region": "Abdomen & pelvis",
+ "questions": [
+  {
+   "t": "Pelvic autonomics",
+   "y": 1,
+   "s": "The inferior hypogastric plexus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It lies on the side wall of the pelvis lateral to the rectum",
+     1,
+     "Within the parietal pelvic fascia. (Last's page pg 399)"
+    ],
+    [
+     "Its parasympathetic fibres come from S2, 3 and 4",
+     1,
+     "The pelvic splanchnic nerves. (Last's page pg 399)"
+    ],
+    [
+     "It measures about 2 cm anteroposteriorly",
+     0,
+     "Nearly 5 cm anteroposteriorly, 2 cm vertically. (Last's page pg 399)"
+    ],
+    [
+     "All parasympathetic fibres relay in its ganglia",
+     0,
+     "They pass through and relay in the walls of the viscera. (Last's page pg 399)"
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic autonomics",
+   "y": 1,
+   "s": "Motor supply of the pelvic viscera (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The detrusor is supplied by the pelvic splanchnics",
+     1,
+     "Last's. (Last's page pg 399)"
+    ],
+    [
+     "The internal urethral sphincter is supplied through the superior hypogastric plexus",
+     1,
+     "Sympathetic. (Last's page pg 399)"
+    ],
+    [
+     "The internal anal sphincter is supplied by the pelvic splanchnics",
+     0,
+     "By sacral sympathetic ganglia branches through the pelvic plexus. (Last's page pg 399)"
+    ],
+    [
+     "Pain from the uterine body runs with the pelvic splanchnics",
+     0,
+     "With the hypogastric nerves to T10-L1; lower cervix pain runs with the parasympathetics. (Last's page pg 399)"
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic autonomics",
+   "y": 1,
+   "s": "Parasympathetic and sympathetic roles in the pelvis (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The pelvic splanchnics supply the colon from the splenic flexure distally",
+     1,
+     "Last's. (Last's page pg 399-400)"
+    ],
+    [
+     "Sympathetics are motor to the ductus deferens and seminal vesicles",
+     1,
+     "Last's. (Last's page pg 399-400)"
+    ],
+    [
+     "The descending colon receives sensory supply from pelvic splanchnics",
+     0,
+     "Its sensory supply is sympathetic. (Last's page pg 399-400)"
+    ],
+    [
+     "Rectal pain is referred to L1 dermatome",
+     0,
+     "To S2-4 (posterior femoral cutaneous), mimicking sciatica. (Last's page pg 399-400)"
+    ]
+   ]
+  },
+  {
+   "t": "Micturition",
+   "y": 1,
+   "s": "Control of micturition (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Stretch afferents travel in the pelvic splanchnic nerves",
+     1,
+     "To sacral segments. (Last's page pg 382-3)"
+    ],
+    [
+     "The detrusor motor centre lies in the medial pontine reticular formation",
+     1,
+     "Last's. (Last's page pg 382-3)"
+    ],
+    [
+     "The external sphincter is supplied by the inferior rectal nerve",
+     0,
+     "By the perineal branch of the pudendal nerve. (Last's page pg 382-3)"
+    ],
+    [
+     "Destruction of the sacral segments causes automatic reflex emptying",
+     0,
+     "It paralyses the detrusor with overflow incontinence; transection above S2 causes automatic emptying. (Last's page pg 382-3)"
+    ]
+   ]
+  },
+  {
+   "t": "Iliolumbar ligament",
+   "y": 1,
+   "s": "The iliolumbar ligament (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its apex attaches to the transverse process of L5",
+     1,
+     "Last's. (Last's page pg 414)"
+    ],
+    [
+     "Its upper band gives partial origin to quadratus lumborum",
+     1,
+     "Last's. (Last's page pg 414)"
+    ],
+    [
+     "Its lower band blends with the dorsal sacroiliac ligament",
+     0,
+     "With the ventral sacroiliac ligament. (Last's page pg 414)"
+    ],
+    [
+     "Its upper band attaches to the ischial spine",
+     0,
+     "To the iliac crest. (Last's page pg 414)"
+    ]
+   ]
+  }
+ ]
+}

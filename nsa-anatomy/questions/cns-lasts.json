@@ -4397,6 +4397,62 @@
      "Recent authorities regard it as purely motor. (Last's page pg 628-9)"
     ]
    ]
+  },
+  {
+   "t": "Internal capsule",
+   "y": 1,
+   "s": "The posterior parts of the internal capsule (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Thalamocortical fibres lie beside and behind corticospinal fibres",
+     1,
+     "Last's. (Last's page pg 584-5)"
+    ],
+    [
+     "The retrolentiform part carries the optic radiation",
+     1,
+     "From the lateral geniculate body. (Last's page pg 584-5)"
+    ],
+    [
+     "The sublentiform part carries the optic radiation",
+     0,
+     "It carries the auditory radiation. (Last's page pg 584-5)"
+    ],
+    [
+     "Parieto-, occipito- and temporopontine fibres occupy the medial third of the peduncle base",
+     0,
+     "The lateral third. (Last's page pg 584-5)"
+    ]
+   ]
+  },
+  {
+   "t": "Third ventricle",
+   "y": 1,
+   "s": "The floor of the third ventricle (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The median eminence lies at the base of the infundibulum",
+     1,
+     "Part of the tuber cinereum. (Last's page pg 594)"
+    ],
+    [
+     "The supraoptic recess lies between lamina terminalis and chiasma",
+     1,
+     "Last's. (Last's page pg 594)"
+    ],
+    [
+     "The mamillary bodies indent the inside of the ventricle",
+     0,
+     "They make no mark inside. (Last's page pg 594)"
+    ],
+    [
+     "The anterior commissure is a commissure of the neopallium",
+     0,
+     "Of the archaeopallium. (Last's page pg 594)"
+    ]
+   ]
   }
  ]
 }

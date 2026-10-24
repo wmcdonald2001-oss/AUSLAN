@@ -1,0 +1,426 @@
+{
+ "code": "hn",
+ "region": "Head & neck",
+ "questions": [
+  {
+   "t": "Platysma",
+   "y": 1,
+   "s": "Platysma (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It is part of the panniculus carnosus",
+     1,
+     "Last's."
+    ],
+    [
+     "It covers the external and anterior jugular veins",
+     1,
+     "Last's."
+    ],
+    [
+     "It is supplied by the marginal mandibular branch of the facial nerve",
+     0,
+     "By the cervical branch; proprioception via the transverse cervical nerve."
+    ],
+    [
+     "Its lateral border forms zygomaticus minor",
+     0,
+     "It forms risorius, attached to the modiolus."
+    ]
+   ]
+  },
+  {
+   "t": "Submandibular gland",
+   "y": 1,
+   "s": "The superficial part of the submandibular gland (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its lateral surface is grooved by the facial artery",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "Its inferior surface is crossed by the facial vein",
+     1,
+     "And the cervical branch of the facial nerve. (Last's page pg 436)"
+    ],
+    [
+     "Its medial surface lies mostly against hyoglossus",
+     0,
+     "Mostly against mylohyoid; hyoglossus is overlapped posteriorly. (Last's page pg 436)"
+    ],
+    [
+     "It overlaps the masseter insertion",
+     0,
+     "It overlaps the front of the medial pterygoid insertion. (Last's page pg 436)"
+    ]
+   ]
+  },
+  {
+   "t": "Submandibular gland",
+   "y": 1,
+   "s": "The deep part of the gland and its duct (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lingual nerve lies above the deep part",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "The duct is about 5 cm long",
+     1,
+     "The same length as the parotid duct. (Last's page pg 436)"
+    ],
+    [
+     "The hypoglossal nerve lies above the deep part",
+     0,
+     "Below it, with the duct. (Last's page pg 436)"
+    ],
+    [
+     "The duct emerges from the deep part of the gland",
+     0,
+     "From the superficial part near the posterior border of mylohyoid. (Last's page pg 436)"
+    ]
+   ]
+  },
+  {
+   "t": "Submandibular gland",
+   "y": 1,
+   "s": "Innervation of the submandibular gland:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Preganglionic fibres arise in the superior salivary nucleus",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "Sympathetic fibres come from the plexus on the facial artery",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "Preganglionic fibres run in the lesser petrosal nerve",
+     0,
+     "Via nervus intermedius, chorda tympani and lingual nerve. (Last's page pg 436)"
+    ],
+    [
+     "All secretomotor cell bodies lie in the submandibular ganglion",
+     0,
+     "A few lie in small ganglionic masses on the gland. (Last's page pg 436)"
+    ]
+   ]
+  },
+  {
+   "t": "External carotid",
+   "y": 1,
+   "s": "The external carotid artery (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It begins near the greater horn of the hyoid",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "It divides behind the neck of the mandible",
+     1,
+     "Within the parotid. (Last's page pg 436)"
+    ],
+    [
+     "It lies lateral to the internal carotid at its origin",
+     0,
+     "It is initially medial; the ICA is really lateral at its origin. (Last's page pg 436)"
+    ],
+    [
+     "The IJV lies medial to it at its commencement",
+     0,
+     "Lateral at first, then posterior and deep. (Last's page pg 436)"
+    ]
+   ]
+  },
+  {
+   "t": "External carotid",
+   "y": 1,
+   "s": "Branches of the external carotid below the parotid:",
+   "src": "Last's text",
+   "o": [
+    [
+     "There are six",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "The ascending pharyngeal is the medial branch",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "The occipital artery arises from the front",
+     0,
+     "From behind, with the posterior auricular. (Last's page pg 436)"
+    ],
+    [
+     "The facial artery runs along the upper border of the posterior belly of digastric",
+     0,
+     "The occipital and posterior auricular run along digastric's borders. (Last's page pg 436)"
+    ]
+   ]
+  },
+  {
+   "t": "External carotid",
+   "y": 1,
+   "s": "Separating the external from the internal carotid artery are:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The styloid process",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "Stylopharyngeus",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "The glossopharyngeal nerve",
+     1,
+     "Last's. (Last's page pg 436)"
+    ],
+    [
+     "The hypoglossal nerve",
+     0,
+     "It crosses both carotids superficially. (Last's page pg 436)"
+    ]
+   ]
+  },
+  {
+   "t": "Vertebral canal",
+   "y": 1,
+   "s": "The vertebral canal (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The internal vertebral plexus receives mainly basivertebral veins",
+     1,
+     "Last's. (Last's page pg 574)"
+    ],
+    [
+     "It is a bypass of the diaphragm during raised abdominal pressure",
+     1,
+     "Last's. (Last's page pg 574)"
+    ],
+    [
+     "The internal vertebral plexus has valves",
+     0,
+     "There are no valves. (Last's page pg 574)"
+    ],
+    [
+     "The spinal dura fits tightly within the canal",
+     0,
+     "Cord is narrower than dura, dura narrower than canal. (Last's page pg 574)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal meninges",
+   "y": 1,
+   "s": "The spinal dura (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It is the inner layer of posterior fossa dura continued",
+     1,
+     "Last's. (Last's page pg 574)"
+    ],
+    [
+     "It attaches firmly to the PLL on the axis",
+     1,
+     "And the tectorial membrane. (Last's page pg 574)"
+    ],
+    [
+     "It is firmly attached to the lumbar vertebral bodies",
+     0,
+     "Elsewhere it is free of bony attachments. (Last's page pg 574)"
+    ],
+    [
+     "It ends at L2",
+     0,
+     "At S2. (Last's page pg 574)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal meninges",
+   "y": 1,
+   "s": "The spinal pia and arachnoid (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The filum terminale perforates the theca at S2",
+     1,
+     "Last's. (Last's page pg 574-5)"
+    ],
+    [
+     "The lowest denticulation lies at the L1 root",
+     1,
+     "Last's. (Last's page pg 574-5)"
+    ],
+    [
+     "The filum terminale ends at the tip of the sacrum",
+     0,
+     "It descends to the back of the coccyx. (Last's page pg 574-5)"
+    ],
+    [
+     "The arachnoid strands are well developed in the anterior midline",
+     0,
+     "In the posterior midline. (Last's page pg 574-5)"
+    ]
+   ]
+  },
+  {
+   "t": "Lumbar puncture",
+   "y": 1,
+   "s": "Lumbar puncture and spinal anaesthesia (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The spinal subarachnoid space holds about 75 ml of CSF",
+     1,
+     "Last's. (Last's page pg 575)"
+    ],
+    [
+     "The needle passes supraspinous then interspinous ligaments",
+     1,
+     "Last's. (Last's page pg 575)"
+    ],
+    [
+     "The spinal cord ends at L3 in the adult",
+     0,
+     "At L1. (Last's page pg 575)"
+    ],
+    [
+     "Epidural anaesthetic is injected into the subarachnoid space",
+     0,
+     "Into the extradural space. (Last's page pg 575)"
+    ]
+   ]
+  },
+  {
+   "t": "Internal carotid",
+   "y": 1,
+   "s": "The carotid sinus and body (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The carotid sinus wall contains baroreceptors",
+     1,
+     "Supplied by the glossopharyngeal. (Last's page pg 438)"
+    ],
+    [
+     "The carotid body lies behind the bifurcation",
+     1,
+     "Last's. (Last's page pg 438)"
+    ],
+    [
+     "The carotid body is supplied by the ascending pharyngeal artery",
+     0,
+     "By glomic arteries from the bifurcation. (Last's page pg 438)"
+    ],
+    [
+     "The carotid body is mainly innervated by the vagus",
+     0,
+     "By the glossopharyngeal nerve. (Last's page pg 438)"
+    ]
+   ]
+  },
+  {
+   "t": "Internal carotid",
+   "y": 1,
+   "s": "Relations of the cervical internal carotid (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The sympathetic trunk lies behind it outside the sheath",
+     1,
+     "Last's. (Last's page pg 438)"
+    ],
+    [
+     "The superior laryngeal nerve crosses obliquely behind it",
+     1,
+     "Last's. (Last's page pg 438)"
+    ],
+    [
+     "It gives several branches in the neck",
+     0,
+     "It has no branches in the neck. (Last's page pg 438)"
+    ],
+    [
+     "Its surface marking runs to the tragus",
+     0,
+     "To the head of the mandible; the ECA line runs to the tragus. (Last's page pg 438)"
+    ]
+   ]
+  },
+  {
+   "t": "Internal jugular vein",
+   "y": 1,
+   "s": "The internal jugular vein (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It leaves the posterior compartment of the jugular foramen",
+     1,
+     "Last's. (Last's page pg 438)"
+    ],
+    [
+     "Its first tributary is the inferior petrosal sinus",
+     1,
+     "Last's. (Last's page pg 438)"
+    ],
+    [
+     "The thoracic duct crosses behind the right vein at C7",
+     0,
+     "Behind the left vein. (Last's page pg 438)"
+    ],
+    [
+     "The inferior root of the ansa curls round its medial border",
+     0,
+     "Its lateral border. (Last's page pg 438)"
+    ]
+   ]
+  },
+  {
+   "t": "Internal jugular vein",
+   "y": 1,
+   "s": "Tributaries and surface marking of the IJV:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The pharyngeal plexus joins above the facial vein",
+     1,
+     "Last's order. (Last's page pg 439)"
+    ],
+    [
+     "The middle thyroid is the lowest named tributary",
+     1,
+     "Last's. (Last's page pg 439)"
+    ],
+    [
+     "The surface marking runs from the tragus to the sternal end of the clavicle",
+     0,
+     "From the ear lobule. (Last's page pg 439)"
+    ],
+    [
+     "At 45 degrees the jugular pulse is normally seen at the angle of the mandible",
+     0,
+     "Just above the clavicle. (Last's page pg 439)"
+    ]
+   ]
+  }
+ ]
+}
