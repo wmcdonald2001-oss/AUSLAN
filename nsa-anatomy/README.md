@@ -2,7 +2,7 @@
 
 A question bank for the Neurosurgical Society of Australasia Neurosurgery Anatomy Examination (19 February 2027), written to *Last's Anatomy, Regional and Applied*, 9th edition.
 
-- 312 questions in the exam's two formats, each statement with its own explanation:
+- 914 questions in the exam's two formats, each statement with its own explanation:
   - **Type 1:** mark four statements true or false.
   - **Type 2:** pick one letter from the A–E key.
 - 11 regions to filter by: skull and cranial cavity, brain and spinal cord, cranial nerves, vertebral column, head and neck, upper and lower limb, thorax, abdomen and pelvis, autonomic nervous system, and general principles and embryology.

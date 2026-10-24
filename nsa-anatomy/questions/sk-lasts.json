@@ -2605,6 +2605,146 @@
      "With the sphenoid. (Last's page pg 658)"
     ]
    ]
+  },
+  {
+   "t": "Ethmoid",
+   "y": 1,
+   "s": "The ethmoid bone (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its lateral labyrinth wall is the orbital plate (lamina papyracea)",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "The labyrinth ossifies in cartilage at the fifth month",
+     1,
+     "Complete before birth. (Last's page pg 658)"
+    ],
+    [
+     "The cribriform plate ossifies before birth",
+     0,
+     "At about 1 year, with crista galli and perpendicular plate. (Last's page pg 658)"
+    ],
+    [
+     "The crista galli projects down from the cribriform plate",
+     0,
+     "It projects up; the perpendicular plate projects down. (Last's page pg 658)"
+    ]
+   ]
+  },
+  {
+   "t": "Foramina",
+   "y": 1,
+   "s": "Structures passing through foramen ovale include:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The mandibular nerve",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "The accessory meningeal artery",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "An emissary vein from the cavernous sinus",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "The middle meningeal artery",
+     0,
+     "Foramen spinosum. (Last's page pg 658)"
+    ]
+   ]
+  },
+  {
+   "t": "Foramina",
+   "y": 1,
+   "s": "Foramen magnum (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The spinal roots of the accessory nerves pass through it",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "The vertebral arteries pass through it",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "The hypoglossal nerves pass through it",
+     0,
+     "They use the hypoglossal canals. (Last's page pg 658)"
+    ],
+    [
+     "The brain weighs about 500 g in CSF",
+     0,
+     "About 50 g; 1500 g out of CSF. (Last's page pg 658)"
+    ]
+   ]
+  },
+  {
+   "t": "Pterygopalatine fossa",
+   "y": 1,
+   "s": "The pterygopalatine fossa:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Foramen rotundum opens into it",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "The pterygoid process forms its posterior wall",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "Its medial wall is the lateral pterygoid plate",
+     0,
+     "The perpendicular plate of the palatine. (Last's page pg 658)"
+    ],
+    [
+     "It communicates laterally through the inferior orbital fissure",
+     0,
+     "Laterally through the pterygomaxillary fissure; the inferior orbital fissure is superior. (Last's page pg 658)"
+    ]
+   ]
+  },
+  {
+   "t": "Hamulus",
+   "y": 1,
+   "s": "The pterygoid hamulus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It is the lower end of the medial pterygoid plate",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "Tensor palati turns around it",
+     1,
+     "Last's. (Last's page pg 658)"
+    ],
+    [
+     "It gives attachment to the stylomandibular ligament",
+     0,
+     "To the pterygomaxillary ligament and raphe. (Last's page pg 658)"
+    ],
+    [
+     "The pterygomandibular raphe attaches to the lateral plate",
+     0,
+     "To the hamulus. (Last's page pg 658)"
+    ]
+   ]
   }
  ]
 }
