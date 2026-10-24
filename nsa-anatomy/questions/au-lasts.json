@@ -1,0 +1,314 @@
+{
+ "code": "au",
+ "region": "Autonomic nervous system",
+ "questions": [
+  {
+   "t": "Autonomic plan",
+   "y": 1,
+   "s": "General plan of the autonomic system (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Grey rami carry postganglionic efferent fibres",
+     1,
+     "Last's."
+    ],
+    [
+     "White rami carry preganglionic and visceral afferent fibres",
+     1,
+     "Last's."
+    ],
+    [
+     "The suprarenal glands receive both sympathetic and parasympathetic supply",
+     0,
+     "Suprarenals and gonads have only sympathetic supply."
+    ],
+    [
+     "Parasympathetic fibres supply the limbs",
+     0,
+     "Parasympathetic supply is wholly visceral."
+    ]
+   ]
+  },
+  {
+   "t": "Autonomic plan",
+   "y": 1,
+   "s": "Last's notes that lumbar sympathectomy at L1:",
+   "src": "Last's text",
+   "o": [
+    [
+     "May compromise ejaculation",
+     1,
+     "Last's."
+    ],
+    [
+     "Abolishes bladder emptying",
+     0,
+     "Detrusor is parasympathetic."
+    ],
+    [
+     "Abolishes penile erection",
+     0,
+     "Erection is parasympathetic (pelvic splanchnic)."
+    ],
+    [
+     "Removes vasoconstrictor supply to parts of the lower limb",
+     1,
+     "Grey rami to lumbar nerves carry vasoconstrictor fibres to the lower limb."
+    ]
+   ]
+  },
+  {
+   "t": "Cranial ganglia",
+   "y": 1,
+   "s": "The cranial parasympathetic ganglia (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Each has parasympathetic, sympathetic and sensory roots",
+     1,
+     "Last's."
+    ],
+    [
+     "Only the parasympathetic fibres synapse in them",
+     1,
+     "Last's."
+    ],
+    [
+     "The dorsal vagal nucleus relays in a named cranial ganglion",
+     0,
+     "Its fibres relay in the walls of the viscera."
+    ],
+    [
+     "The sympathetic roots come from T5 to T8",
+     0,
+     "From T1-3 via the superior cervical ganglion."
+    ]
+   ]
+  },
+  {
+   "t": "Cranial ganglia",
+   "y": 1,
+   "s": "Sympathetic roots of the cranial ganglia (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The ciliary ganglion receives sympathetics from the ICA plexus",
+     1,
+     "Last's."
+    ],
+    [
+     "The otic ganglion receives sympathetics with the middle meningeal artery",
+     1,
+     "Last's."
+    ],
+    [
+     "The submandibular ganglion receives sympathetics from the ICA plexus",
+     0,
+     "From the facial artery plexus (ECA)."
+    ],
+    [
+     "The pterygopalatine ganglion receives sympathetics with the maxillary artery",
+     0,
+     "Via the deep petrosal nerve from the ICA plexus."
+    ]
+   ]
+  },
+  {
+   "t": "Cranial ganglia",
+   "y": 1,
+   "s": "The otic ganglion (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its parasympathetic root is the lesser petrosal nerve",
+     1,
+     "From the inferior salivary nucleus."
+    ],
+    [
+     "It has a somatic motor root from the nerve to medial pterygoid",
+     1,
+     "Unique among the cranial ganglia."
+    ],
+    [
+     "Its secretomotor fibres reach the parotid via the facial nerve",
+     0,
+     "Via the auriculotemporal nerve."
+    ],
+    [
+     "Motor fibres to tensor tympani synapse in it",
+     0,
+     "They pass through without synapse."
+    ]
+   ]
+  },
+  {
+   "t": "Cranial ganglia",
+   "y": 1,
+   "s": "The ciliary and pterygopalatine ganglia:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The ciliary parasympathetic root comes via the nerve to inferior oblique",
+     1,
+     "Last's."
+    ],
+    [
+     "The ciliary sensory root comes from the nasociliary nerve",
+     1,
+     "Last's."
+    ],
+    [
+     "The pterygopalatine sensory root comes from the mandibular nerve",
+     0,
+     "From the maxillary nerve."
+    ],
+    [
+     "Pterygopalatine postganglionic lacrimal fibres travel in the nasociliary nerve",
+     0,
+     "Via the zygomatic and lacrimal nerves."
+    ]
+   ]
+  },
+  {
+   "t": "Visceral afferents",
+   "y": 1,
+   "s": "Parasympathetic afferent fibres (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Cranial visceral afferent cell bodies lie in the inferior ganglia of IX and X",
+     1,
+     "Last's."
+    ],
+    [
+     "Pelvic visceral afferent cell bodies lie in the S2-4 posterior root ganglia",
+     1,
+     "Last's."
+    ],
+    [
+     "Cranial visceral afferents end in the dorsal motor nucleus of the vagus",
+     0,
+     "In the nucleus of the tractus solitarius."
+    ],
+    [
+     "About 10% of abdominal vagal fibres are afferent",
+     0,
+     "About 90%."
+    ]
+   ]
+  },
+  {
+   "t": "Lumbar sympathetic",
+   "y": 1,
+   "s": "The lumbar sympathetic trunk (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It enters behind the medial arcuate ligament",
+     1,
+     "Last's. (Last's page pg 365)"
+    ],
+    [
+     "The right trunk lies behind the IVC",
+     1,
+     "Last's. (Last's page pg 365)"
+    ],
+    [
+     "The common iliac vessels lie behind the trunks at the pelvic brim",
+     0,
+     "They lie in front. (Last's page pg 365)"
+    ],
+    [
+     "There are usually six lumbar ganglia",
+     0,
+     "Usually four. (Last's page pg 365)"
+    ]
+   ]
+  },
+  {
+   "t": "Lumbar sympathetic",
+   "y": 1,
+   "s": "Branches of the lumbar sympathetic trunk (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Grey rami pass to all five lumbar nerves",
+     1,
+     "Last's. (Last's page pg 365)"
+    ],
+    [
+     "The superior hypogastric plexus lies in front of L5",
+     1,
+     "Last's. (Last's page pg 365)"
+    ],
+    [
+     "White rami reach all five lumbar nerves",
+     0,
+     "Only the first two lumbar nerves give white rami. (Last's page pg 365)"
+    ],
+    [
+     "The \"presacral nerve\" lies in front of the sacrum",
+     0,
+     "It is a misnomer: it is prelumbar. (Last's page pg 365)"
+    ]
+   ]
+  },
+  {
+   "t": "Coeliac plexus",
+   "y": 1,
+   "s": "The coeliac plexus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lesser splanchnic nerve comes from T10 and T11",
+     1,
+     "Last's. (Last's page pg 365)"
+    ],
+    [
+     "The least splanchnic relays in a renal ganglion",
+     1,
+     "Last's. (Last's page pg 365)"
+    ],
+    [
+     "The greater splanchnic nerve comes from T1 to T4",
+     0,
+     "From T5 to T9. (Last's page pg 365)"
+    ],
+    [
+     "Coeliac fibres to the suprarenal medulla are the secretomotor supply",
+     0,
+     "Preganglionic splanchnic fibres reach the medulla without relay; postganglionic coeliac fibres are vasomotor. (Last's page pg 365)"
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic autonomics",
+   "y": 1,
+   "s": "Bladder and rectal innervation (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The parasympathetic is the main motor supply to the bladder",
+     1,
+     "Last's. (Last's page pg 380)"
+    ],
+    [
+     "Sympathetic fibres contract the superficial trigone",
+     1,
+     "And the male internal sphincter. (Last's page pg 380)"
+    ],
+    [
+     "Bladder distension sensation travels with sympathetic fibres",
+     0,
+     "With parasympathetic fibres. (Last's page pg 380)"
+    ],
+    [
+     "Rectal pain travels only with sympathetic fibres",
+     0,
+     "With both. (Last's page pg 380)"
+    ]
+   ]
+  }
+ ]
+}

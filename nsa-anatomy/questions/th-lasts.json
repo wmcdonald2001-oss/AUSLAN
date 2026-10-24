@@ -225,6 +225,594 @@
      "In the inferior vagal ganglion."
     ]
    ]
+  },
+  {
+   "t": "Thoracic wall nerves",
+   "y": 1,
+   "s": "Cutaneous supply of the thoracic wall (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Skin above the second rib is supplied by supraclavicular nerves (C4)",
+     1,
+     "Last's."
+    ],
+    [
+     "Lateral cutaneous branches emerge in the midaxillary line",
+     1,
+     "With anterior and posterior divisions."
+    ],
+    [
+     "The first intercostal nerve has a large lateral cutaneous branch",
+     0,
+     "It has no lateral or anterior cutaneous branch."
+    ],
+    [
+     "The collateral branch supplies skin",
+     0,
+     "It has no cutaneous supply."
+    ]
+   ]
+  },
+  {
+   "t": "Intercostal nerves",
+   "y": 1,
+   "s": "The intercostal neurovascular bundle (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The order from above down is vein, artery, nerve",
+     1,
+     "Last's."
+    ],
+    [
+     "The collateral branches run along the upper border of the rib below",
+     1,
+     "Last's."
+    ],
+    [
+     "Upper anterior cutaneous branches pass behind the internal thoracic artery",
+     0,
+     "They pass in front of it."
+    ],
+    [
+     "The subcostal lateral cutaneous branch supplies skin over the umbilicus",
+     0,
+     "It supplies the anterior buttock between iliac crest and greater trochanter."
+    ]
+   ]
+  },
+  {
+   "t": "Intercostal vessels",
+   "y": 1,
+   "s": "Intercostal arteries (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The first two spaces are supplied posteriorly by the superior intercostal artery",
+     1,
+     "From the costocervical trunk."
+    ],
+    [
+     "The musculophrenic artery supplies spaces 7 to 9 anteriorly",
+     1,
+     "Last's."
+    ],
+    [
+     "The internal thoracic artery supplies spaces 1 to 9 anteriorly",
+     0,
+     "Spaces 1 to 6."
+    ],
+    [
+     "Spaces 10 and 11 have anterior intercostal arteries from the musculophrenic",
+     0,
+     "They have none."
+    ]
+   ]
+  },
+  {
+   "t": "Intercostal vessels",
+   "y": 1,
+   "s": "Intercostal veins (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The first space drains to the supreme intercostal vein",
+     1,
+     "Then the brachiocephalic vein."
+    ],
+    [
+     "The left superior intercostal vein crosses the arch superficial to the vagus",
+     1,
+     "Deep to the phrenic."
+    ],
+    [
+     "The right superior intercostal vein drains to the right brachiocephalic vein",
+     0,
+     "It drains to the azygos."
+    ],
+    [
+     "Each space has two posterior and one anterior vein",
+     0,
+     "One posterior and two anterior."
+    ]
+   ]
+  },
+  {
+   "t": "Superior intercostal artery",
+   "y": 1,
+   "s": "At the neck of the first rib, from medial to lateral, lie:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The sympathetic trunk (stellate ganglion)",
+     1,
+     "Most medial."
+    ],
+    [
+     "The supreme intercostal vein",
+     1,
+     "Next."
+    ],
+    [
+     "The superior intercostal artery",
+     1,
+     "Then."
+    ],
+    [
+     "The internal thoracic artery",
+     0,
+     "T1 anterior ramus is most lateral."
+    ]
+   ]
+  },
+  {
+   "t": "Diaphragm",
+   "y": 1,
+   "s": "Origins of the diaphragm (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The right crus attaches to L1-3",
+     1,
+     "Last's."
+    ],
+    [
+     "The left crus attaches to L1-2",
+     1,
+     "Last's."
+    ],
+    [
+     "The medial arcuate ligament is a thickening of the lumbar fascia",
+     0,
+     "Of the psoas fascia; the lateral is lumbar fascia."
+    ],
+    [
+     "The median arcuate ligament lies at L2",
+     0,
+     "At T12."
+    ]
+   ]
+  },
+  {
+   "t": "Diaphragm",
+   "y": 1,
+   "s": "Openings of the diaphragm (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The vena caval opening transmits the right phrenic nerve",
+     1,
+     "Last's."
+    ],
+    [
+     "The oesophageal opening transmits the left gastric vessels",
+     1,
+     "And vagal trunks."
+    ],
+    [
+     "The aortic opening lies at T10",
+     0,
+     "At T12, behind the median arcuate ligament."
+    ],
+    [
+     "The left phrenic nerve passes through the oesophageal opening",
+     0,
+     "It pierces the muscle of the left dome."
+    ]
+   ]
+  },
+  {
+   "t": "Diaphragm",
+   "y": 1,
+   "s": "Nerve supply of the diaphragm (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The phrenic nerves supply it from its abdominal surface",
+     1,
+     "Last's."
+    ],
+    [
+     "Each half including its crus is supplied by the ipsilateral phrenic",
+     1,
+     "Last's."
+    ],
+    [
+     "The sling of the right crus around the oesophagus is supplied by the right phrenic",
+     0,
+     "By the left phrenic."
+    ],
+    [
+     "Its morphology is the outer (external oblique) layer",
+     0,
+     "It is the inner (transversus) layer."
+    ]
+   ]
+  },
+  {
+   "t": "Phrenic nerve",
+   "y": 1,
+   "s": "The phrenic nerve (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It is plastered to scalenus anterior by prevertebral fascia",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "About one-third of its fibres are sensory",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "It passes lateral to the apex of the lung",
+     0,
+     "Medial. (Last's page pg 442)"
+    ],
+    [
+     "It runs behind the lung root",
+     0,
+     "In front of the lung root. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Phrenic nerve",
+   "y": 1,
+   "s": "Relations of the phrenic nerves in the thorax:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The right phrenic lies on venous structures throughout",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The left phrenic lies lateral to the left superior intercostal vein",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The phrenic lies behind the vagus",
+     0,
+     "Anterior to the vagus. (Last's page pg 442)"
+    ],
+    [
+     "The left phrenic supplies the visceral serous pericardium",
+     0,
+     "The visceral layer is insensate. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic vagus",
+   "y": 1,
+   "s": "The vagus in the thorax (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The right vagus is in contact with the trachea",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The anterior vagal trunk carries predominantly left vagal fibres",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "Both vagi pass in front of the lung roots",
+     0,
+     "Behind them. (Last's page pg 442)"
+    ],
+    [
+     "The right vagus runs superficial to the azygos arch",
+     0,
+     "Deep to it. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Cardiac plexus",
+   "y": 1,
+   "s": "The cardiac plexus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The superficial plexus lies in front of the ligamentum arteriosum",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The deep plexus lies in front of the left main bronchus",
+     1,
+     "To the right of the ligamentum. (Last's page pg 442)"
+    ],
+    [
+     "The superficial plexus receives the right vagal cervical branches",
+     0,
+     "It receives the left inferior cervical vagal branch and left superior cervical sympathetic branch. (Last's page pg 442)"
+    ],
+    [
+     "Cardiac pain afferents travel only with the vagus",
+     0,
+     "With the sympathetics; vagal afferents serve reflexes. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Sympathetic trunk",
+   "y": 1,
+   "s": "The thoracic sympathetic trunk (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It lies on the necks of the ribs",
+     1,
+     "Lateral to the heads. (Last's page pg 442)"
+    ],
+    [
+     "It lies in front of the intercostal vessels and nerves",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "It enters the abdomen behind the lateral arcuate ligament",
+     0,
+     "Behind the medial arcuate ligament. (Last's page pg 442)"
+    ],
+    [
+     "It always has 12 ganglia",
+     0,
+     "Up to 12, often fewer from fusion. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Pleura",
+   "y": 1,
+   "s": "Innervation of the pleura and lungs (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The visceral pleura is insensate",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The mediastinal pleura is supplied by the phrenic",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The costal pleura is supplied by the phrenic",
+     0,
+     "By intercostal nerves. (Last's page pg 442)"
+    ],
+    [
+     "Sympathetic fibres constrict the bronchi",
+     0,
+     "Sympathetic (T2-6) dilates; vagus constricts. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic landmarks",
+   "y": 1,
+   "s": "Thoracic vertebral levels (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The jugular notch lies at T3",
+     1,
+     "Last's (lower border T2/T3). (Last's page pg 442)"
+    ],
+    [
+     "The sternal angle lies at T4",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The lower end of the sternum lies at T12",
+     0,
+     "At T8. (Last's page pg 442)"
+    ],
+    [
+     "The vena caval opening lies at T12",
+     0,
+     "At T8. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Ribs",
+   "y": 1,
+   "s": "Typical and atypical ribs (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lower facet on the head articulates with its own vertebra",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The first, eleventh and twelfth ribs have a single facet on the head",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The 11th and 12th ribs have synovial costotransverse joints",
+     0,
+     "Only ligaments, usually no tubercles. (Last's page pg 442)"
+    ],
+    [
+     "The tenth rib is always atypical",
+     0,
+     "Usually typical. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Ribs",
+   "y": 1,
+   "s": "The first rib (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lower trunk of the brachial plexus lies in the subclavian groove",
+     1,
+     "The artery touches only the outer border. (Last's page pg 442)"
+    ],
+    [
+     "Scalenus anterior attaches to the scalene tubercle",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The subclavian artery lies in its groove",
+     0,
+     "The lower trunk does. (Last's page pg 442)"
+    ],
+    [
+     "Scalenus medius attaches in front of the subclavian vein groove",
+     0,
+     "Between the arterial groove and tubercle. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Ribs",
+   "y": 1,
+   "s": "The second and twelfth ribs:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The second rib has a tuberosity for serratus anterior",
+     1,
+     "For its first two digitations. (Last's page pg 442)"
+    ],
+    [
+     "The twelfth rib has no angle or costal groove",
+     1,
+     "Last's. (Last's page pg 442)"
+    ],
+    [
+     "The second rib has a tuberosity for scalenus medius",
+     0,
+     "For scalenus posterior. (Last's page pg 442)"
+    ],
+    [
+     "Quadratus lumborum attaches to the lateral part of the twelfth rib",
+     0,
+     "To the medial half of the lower border. (Last's page pg 442)"
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic wall muscles",
+   "y": 1,
+   "s": "Thoracic wall muscles (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Levatores costarum are supplied by posterior rami",
+     1,
+     "Last's. (Last's page pg 244-6)"
+    ],
+    [
+     "Serratus posterior superior inserts lateral to the angles of ribs 2-5",
+     1,
+     "Last's. (Last's page pg 244-6)"
+    ],
+    [
+     "Serratus posterior inferior inserts into ribs 5-8",
+     0,
+     "Ribs 9-12. (Last's page pg 244-6)"
+    ],
+    [
+     "External intercostals extend forward to the sternum",
+     0,
+     "To the costochondral junction, then anterior intercostal membrane. (Last's page pg 244-6)"
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic wall muscles",
+   "y": 1,
+   "s": "Internal and innermost intercostals (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Internal intercostals extend to the side of the sternum",
+     1,
+     "Last's. (Last's page pg 244-6)"
+    ],
+    [
+     "They are replaced posteriorly by the posterior intercostal membrane",
+     1,
+     "From the angle to the superior costotransverse ligament. (Last's page pg 244-6)"
+    ],
+    [
+     "Innermost intercostals are wider above than below",
+     0,
+     "Wider below than above. (Last's page pg 244-6)"
+    ],
+    [
+     "Transversus thoracis arises from the manubrium",
+     0,
+     "From the lower end of the sternum. (Last's page pg 244-6)"
+    ]
+   ]
+  },
+  {
+   "t": "Oesophagus",
+   "y": 1,
+   "s": "Innervation of the oesophagus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The upper striated muscle is supplied from the nucleus ambiguus",
+     1,
+     "Last's. (Last's page pg 244-6)"
+    ],
+    [
+     "The upper part receives sympathetics from the middle cervical ganglion",
+     1,
+     "Via inferior thyroid arteries. (Last's page pg 244-6)"
+    ],
+    [
+     "The lower part receives no sympathetic supply",
+     0,
+     "From the trunks and greater splanchnics. (Last's page pg 244-6)"
+    ],
+    [
+     "Sensation travels only via sympathetic fibres",
+     0,
+     "Vagus (inferior ganglion) and sympathetics. (Last's page pg 244-6)"
+    ]
+   ]
   }
  ]
 }

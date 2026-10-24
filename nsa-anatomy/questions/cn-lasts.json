@@ -2129,6 +2129,146 @@
      "Sternothyroid is C2, 3; sternohyoid and omohyoid C1, 2, 3. (Last's page pg 639-40)"
     ]
    ]
+  },
+  {
+   "t": "Cranial nerve injury",
+   "y": 1,
+   "s": "Cranial nerve injury (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The nerves most commonly affected by trauma include I, II, III, VI and VII",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "Olfactory filaments are torn at the cribriform plate in anterior fossa fractures",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "Most deficiencies of smell are due to olfactory nerve injury",
+     0,
+     "Most are due to affections of the nasal mucosa. (Last's page pg 639-40)"
+    ],
+    [
+     "Trochlear palsy is the commonest cranial nerve lesion",
+     0,
+     "Facial nerve paralysis is the commonest. (Last's page pg 639-40)"
+    ]
+   ]
+  },
+  {
+   "t": "Glossopharyngeal nerve",
+   "y": 2,
+   "s": "Branches of the glossopharyngeal nerve include:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The carotid sinus nerve",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "A tympanic branch",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "A lingual branch",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "A tonsillar branch",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ]
+   ]
+  },
+  {
+   "t": "Facial nerve",
+   "y": 1,
+   "s": "The facial nerve and its branches (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Taste from the soft palate travels in the greater petrosal nerve",
+     1,
+     "Taste from the tongue via chorda tympani. (Last's page pg 639-40)"
+    ],
+    [
+     "Tympanic branches carry somatic sensation from the tympanic membrane",
+     1,
+     "Via the tympanic plexus. (Last's page pg 639-40)"
+    ],
+    [
+     "Its somatic afferents end in the nucleus of the tractus solitarius",
+     0,
+     "In the trigeminal sensory nuclei. (Last's page pg 639-40)"
+    ],
+    [
+     "The chorda tympani joins the lingual nerve about 4 cm below the skull",
+     0,
+     "About 2 cm. (Last's page pg 639-40)"
+    ]
+   ]
+  },
+  {
+   "t": "Vagus nerve",
+   "y": 1,
+   "s": "The vagus nerve (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The vagal trigone overlies the dorsal motor nucleus",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "The recurrent laryngeal nerves supply all laryngeal muscles except cricothyroid",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "The accessory gives its nucleus ambiguus fibres to the vagus inside the skull",
+     0,
+     "Outside the skull, at the inferior vagal ganglion. (Last's page pg 639-40)"
+    ],
+    [
+     "The recurrent laryngeal nerves supply mucosa above the vocal folds",
+     0,
+     "Below the vocal folds. (Last's page pg 639-40)"
+    ]
+   ]
+  },
+  {
+   "t": "Hypoglossal nerve",
+   "y": 1,
+   "s": "Relations of the hypoglossal nerve (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It runs superficial to the occipital and lingual arteries",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "It runs deep to the facial vein",
+     1,
+     "Last's. (Last's page pg 639-40)"
+    ],
+    [
+     "It runs deep to the internal and external carotid arteries",
+     0,
+     "Superficial (outside) to the arteries. (Last's page pg 639-40)"
+    ],
+    [
+     "Its two roots unite outside the canal",
+     0,
+     "Inside the canal, above the atlanto-occipital joint. (Last's page pg 639-40)"
+    ]
+   ]
   }
  ]
 }
