@@ -1877,6 +1877,2526 @@
      "They lack fenestrations and have abundant tight junctions. (Last's page pg 600)"
     ]
    ]
+  },
+  {
+   "t": "Middle cerebral artery",
+   "y": 1,
+   "s": "The middle cerebral artery (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Is the largest and most direct branch of the internal carotid",
+     1,
+     "Hence most subject to embolism. (Last's page pg 600)"
+    ],
+    [
+     "Supplies the insula and overlying opercula",
+     1,
+     "Last's. (Last's page pg 600)"
+    ],
+    [
+     "Supplies the superior frontal gyrus",
+     0,
+     "Its territory falls short of the borders by about one gyrus: it does not reach the superior frontal or inferior temporal gyri. (Last's page pg 600)"
+    ],
+    [
+     "Supplies the motor area for the leg and perineum",
+     0,
+     "These are in anterior cerebral territory. (Last's page pg 600)"
+    ]
+   ]
+  },
+  {
+   "t": "Anterior cerebral artery",
+   "y": 1,
+   "s": "The anterior cerebral artery:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Passes forwards above the optic nerve",
+     1,
+     "Last's. (Last's page pg 600)"
+    ],
+    [
+     "Supplies the medial surface above the corpus callosum back to the parieto-occipital sulcus",
+     1,
+     "Last's. (Last's page pg 600)"
+    ],
+    [
+     "Supplies the inferior temporal gyrus",
+     0,
+     "That is posterior cerebral territory. (Last's page pg 600)"
+    ],
+    [
+     "Never arises from the opposite carotid",
+     0,
+     "Occasionally both anterior cerebrals arise from one carotid by a common stem. (Last's page pg 600)"
+    ]
+   ]
+  },
+  {
+   "t": "Internal carotid occlusion",
+   "y": 1,
+   "s": "Concerning internal carotid stenosis or occlusion (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It may cause blindness in one eye with contralateral hemiplegia",
+     1,
+     "Ophthalmic plus anterior and middle cerebral territories. (Last's page pg 600)"
+    ],
+    [
+     "It may be clinically silent",
+     1,
+     "Owing to collateral flow through the arterial circle. (Last's page pg 600)"
+    ],
+    [
+     "The typical combination is blindness in one eye with ipsilateral hemiplegia",
+     0,
+     "Contralateral hemiplegia. (Last's page pg 600)"
+    ],
+    [
+     "Micturition and defecation areas lie in middle cerebral territory",
+     0,
+     "In anterior cerebral territory. (Last's page pg 600)"
+    ]
+   ]
+  },
+  {
+   "t": "Posterior cerebral artery",
+   "y": 1,
+   "s": "The posterior cerebral artery:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Supplies the cerebral peduncle and optic tract as it curls round the peduncle",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "Supplies the inferior temporal gyrus",
+     1,
+     "And a strip of lateral occipital cortex. (Last's page pg 601)"
+    ],
+    [
+     "Has the macular visual cortex always wholly within its territory",
+     0,
+     "Middle cerebral branches sometimes supply the macular area, giving macular sparing. (Last's page pg 601)"
+    ],
+    [
+     "Arising from the internal carotid is an acquired anomaly",
+     0,
+     "It is persistence of the primitive embryonic pattern. (Last's page pg 601)"
+    ]
+   ]
+  },
+  {
+   "t": "Striate arteries",
+   "y": 1,
+   "s": "The striate (central) arteries (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "They enter through the anterior perforated substance from anterior and middle cerebrals",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "Medial striate branches supply the genu and posterior limb of the internal capsule",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "Heubner's artery arises from the middle cerebral",
+     0,
+     "From the anterior cerebral. (Last's page pg 601)"
+    ],
+    [
+     "Heubner's artery is absent in about 30%",
+     0,
+     "In about 3%. (Last's page pg 601)"
+    ]
+   ]
+  },
+  {
+   "t": "Striate arteries",
+   "y": 1,
+   "s": "Regarding the lateral striate arteries:",
+   "src": "Last's text",
+   "o": [
+    [
+     "They arise from the middle cerebral and anterior choroidal arteries",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "One of them is \"the artery of cerebral haemorrhage\"",
+     1,
+     "From the middle cerebral. (Last's page pg 601)"
+    ],
+    [
+     "They arise from the posterior cerebral artery",
+     0,
+     "Posterior cerebral branches enter the posterior perforated substance. (Last's page pg 601)"
+    ],
+    [
+     "Their occlusion typically causes ipsilateral hemiplegia",
+     0,
+     "Contralateral hemiplegia. (Last's page pg 601)"
+    ]
+   ]
+  },
+  {
+   "t": "Anterior choroidal artery",
+   "y": 1,
+   "s": "The anterior choroidal artery:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Passes below the optic tract",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "Enters the choroid fissure at the tip of the inferior horn, just above the uncus",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "Supplies the anterior limb of the internal capsule",
+     0,
+     "It supplies the posterior part of the internal capsule. (Last's page pg 601)"
+    ],
+    [
+     "Supplies the medial geniculate body",
+     0,
+     "It supplies the chiasma, optic tract and lateral geniculate body. (Last's page pg 601)"
+    ]
+   ]
+  },
+  {
+   "t": "Arterial occlusion",
+   "y": 1,
+   "s": "Effects of complete occlusion described by Last's:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Anterior cerebral distal to Heubner's artery affects only the opposite leg",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "Middle cerebral occlusion may cause hemianopia from oedema compressing the optic radiation",
+     1,
+     "Last's. (Last's page pg 601)"
+    ],
+    [
+     "Posterior cerebral occlusion causes contralateral hemiplegia",
+     0,
+     "Contralateral hemianopia and hemianaesthesia, and cerebral oedema. (Last's page pg 601)"
+    ],
+    [
+     "Anterior choroidal occlusion spares vision",
+     0,
+     "Contralateral hemiplegia, hemianaesthesia and hemianopia. (Last's page pg 601)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebral veins",
+   "y": 1,
+   "s": "Superficial cerebral veins (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Cortical veins travel superficially in the arachnoid",
+     1,
+     "Unlike arteries, deep in the sulci. (Last's page pg 602)"
+    ],
+    [
+     "They enter sinuses obliquely against the bloodstream",
+     1,
+     "Last's. (Last's page pg 602)"
+    ],
+    [
+     "Superior cerebral veins meeting a blood lake pass between the dural layers",
+     0,
+     "They pass on its cerebral surface beneath the arachnoid. (Last's page pg 602)"
+    ],
+    [
+     "The superficial middle cerebral vein drains into the transverse sinus",
+     0,
+     "Into the cavernous sinus. (Last's page pg 602)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebral veins",
+   "y": 1,
+   "s": "Regarding the cerebral veins:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The depths of the lateral sulcus and insula drain by the deep middle cerebral vein",
+     1,
+     "Which joins the basal vein. (Last's page pg 602)"
+    ],
+    [
+     "The anterior cerebral vein drains the orbital surface of the frontal lobe",
+     1,
+     "Last's. (Last's page pg 602)"
+    ],
+    [
+     "The anterior cerebral vein drains into the inferior sagittal sinus",
+     0,
+     "It joins the basal vein. (Last's page pg 602)"
+    ],
+    [
+     "The superior anastomotic vein empties into the transverse sinus",
+     0,
+     "Into the superior sagittal sinus; the inferior anastomotic vein into the transverse. (Last's page pg 602)"
+    ]
+   ]
+  },
+  {
+   "t": "Deep veins",
+   "y": 1,
+   "s": "The basal vein (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Is formed from striate, deep middle cerebral and anterior cerebral veins",
+     1,
+     "Last's. (Last's page pg 603)"
+    ],
+    [
+     "Passes round the peduncle below the optic tract",
+     1,
+     "With the fourth nerve and posterior cerebral artery. (Last's page pg 603)"
+    ],
+    [
+     "Drains the upper parts of the basal ganglia",
+     0,
+     "Only the lower parts; the upper parts drain to the internal cerebral vein. (Last's page pg 603)"
+    ],
+    [
+     "Joins the straight sinus directly",
+     0,
+     "It joins the great cerebral vein below the splenium. (Last's page pg 603)"
+    ]
+   ]
+  },
+  {
+   "t": "Deep veins",
+   "y": 1,
+   "s": "The internal cerebral vein:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Is formed at the interventricular foramen",
+     1,
+     "By choroidal and thalamostriate veins. (Last's page pg 603)"
+    ],
+    [
+     "Runs back in the tela choroidea",
+     1,
+     "Last's. (Last's page pg 603)"
+    ],
+    [
+     "Receives the septal veins directly in most cases",
+     0,
+     "Septal veins usually join the thalamostriate vein. (Last's page pg 603)"
+    ],
+    [
+     "Joins its fellow above the splenium",
+     0,
+     "Beneath the splenium, forming the great cerebral vein. (Last's page pg 603)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebral cortex",
+   "y": 1,
+   "s": "The structure of the cerebral cortex (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Layer I is the plexiform layer",
+     1,
+     "Abundant fibres, few cells. (Last's page pg 603)"
+    ],
+    [
+     "Layer IV is the ganglionic layer",
+     0,
+     "IV is internal granular; V is ganglionic. (Last's page pg 603)"
+    ],
+    [
+     "The stria of Gennari is the external band of Baillarger",
+     1,
+     "In the visual cortex. (Last's page pg 603)"
+    ],
+    [
+     "Betz cells give rise to about 20% of corticospinal fibres",
+     0,
+     "No more than 2%. (Last's page pg 603)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebral cortex",
+   "y": 1,
+   "s": "Cortical histology:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Sensory cortex has predominantly granular cells",
+     1,
+     "Postcentral, superior temporal, calcarine. (Last's page pg 603)"
+    ],
+    [
+     "Betz cells are in layer V of the precentral gyrus",
+     1,
+     "Last's. (Last's page pg 603)"
+    ],
+    [
+     "CNS myelin is formed by Schwann cells",
+     0,
+     "By oligodendrocytes. (Last's page pg 603)"
+    ],
+    [
+     "Layer II is the external pyramidal layer",
+     0,
+     "Layer II is external granular; III is pyramidal. (Last's page pg 603)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem",
+   "y": 1,
+   "s": "The brainstem (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "It extends from just above the tentorial aperture to C1",
+     1,
+     "Last's. (Last's page pg 603-5)"
+    ],
+    [
+     "The reticular formation continues into the spinal cord",
+     1,
+     "Last's. (Last's page pg 603-5)"
+    ],
+    [
+     "The vital centres are anatomically demonstrable nuclei",
+     0,
+     "They are not anatomically demonstrable as distinct nuclei. (Last's page pg 603-5)"
+    ],
+    [
+     "Five sections are the minimum needed to understand it",
+     0,
+     "A minimum of seven. (Last's page pg 603-5)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem",
+   "y": 1,
+   "s": "Levels of cranial nerve nuclei:",
+   "src": "Last's text",
+   "o": [
+    [
+     "III and IV nuclei are in the midbrain",
+     1,
+     "Last's. (Last's page pg 603-5)"
+    ],
+    [
+     "The trigeminal motor nucleus, VI and VII are in the pons",
+     1,
+     "Last's. (Last's page pg 603-5)"
+    ],
+    [
+     "The eighth nerve nuclei lie wholly in the medulla",
+     0,
+     "They overlap the pontomedullary junction. (Last's page pg 603-5)"
+    ],
+    [
+     "The trigeminal sensory nuclei are confined to pons and medulla",
+     0,
+     "They extend through midbrain, pons and medulla. (Last's page pg 603-5)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain",
+   "y": 1,
+   "s": "The midbrain (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Most of it lies in the posterior cranial fossa",
+     1,
+     "Extending from just above the dorsum sellae to the petrous apices. (Last's page pg 606)"
+    ],
+    [
+     "The tectum is the part dorsal to the aqueduct",
+     1,
+     "Last's. (Last's page pg 606)"
+    ],
+    [
+     "The medial geniculate body lies medial to the superior colliculus",
+     0,
+     "It lies lateral to each superior colliculus. (Last's page pg 606)"
+    ],
+    [
+     "The superior cerebellar peduncles converge above the superior colliculi",
+     0,
+     "Below the inferior colliculi. (Last's page pg 606)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain",
+   "y": 1,
+   "s": "The trochlear nerve is unique in that it:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Is the smallest cranial nerve",
+     1,
+     "Last's. (Last's page pg 606)"
+    ],
+    [
+     "Is the only one emerging dorsally",
+     1,
+     "Last's. (Last's page pg 606)"
+    ],
+    [
+     "Is the only one to decussate within the brainstem",
+     1,
+     "Last's. (Last's page pg 606)"
+    ],
+    [
+     "Is the only one passing between posterior cerebral and superior cerebellar arteries",
+     0,
+     "The oculomotor also passes between them, more medially. (Last's page pg 606)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain",
+   "y": 1,
+   "s": "Around the cerebral peduncle:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The trochlear nerve passes lateral to the oculomotor between the arteries",
+     1,
+     "Last's. (Last's page pg 606)"
+    ],
+    [
+     "The basal vein lies ventral to the optic tract",
+     1,
+     "Last's. (Last's page pg 606)"
+    ],
+    [
+     "The posterior communicating artery lies dorsal to the optic tract",
+     0,
+     "It lies ventral to it. (Last's page pg 606)"
+    ],
+    [
+     "The trochlear nerve enters the cavernous sinus above the free edge of the tentorium",
+     0,
+     "It runs just below the free edge. (Last's page pg 606)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain sections",
+   "y": 1,
+   "s": "Midbrain sections (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "At superior colliculus level the red nucleus is seen",
+     1,
+     "With III fibres sweeping through. (Last's page pg 606-7)"
+    ],
+    [
+     "At inferior colliculus level the decussation of the superior cerebellar peduncles is central",
+     1,
+     "Last's. (Last's page pg 606-7)"
+    ],
+    [
+     "The substantia nigra belongs functionally to the limbic system",
+     0,
+     "To the basal nuclei. (Last's page pg 606-7)"
+    ],
+    [
+     "Parkinsonism follows loss of about 30% of nigral dopaminergic cells",
+     0,
+     "About 80%. (Last's page pg 606-7)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain sections",
+   "y": 1,
+   "s": "Colliculi and pretectal nuclei:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The superior colliculus mediates general light reflexes",
+     1,
+     "Last's. (Last's page pg 606-7)"
+    ],
+    [
+     "The inferior colliculus mediates sound reflexes",
+     1,
+     "Last's. (Last's page pg 606-7)"
+    ],
+    [
+     "The pretectal nuclei lie caudal to the superior colliculi",
+     0,
+     "Just cranial, at the midbrain-diencephalic junction. (Last's page pg 606-7)"
+    ],
+    [
+     "The colliculi project via the medial longitudinal bundle only",
+     0,
+     "Via tectobulbar and tectospinal tracts. (Last's page pg 606-7)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain nuclei",
+   "y": 1,
+   "s": "Midbrain nuclei (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The oculomotor nucleus lies against the midline ventral to the aqueduct",
+     1,
+     "In line with IV, VI and XII. (Last's page pg 607)"
+    ],
+    [
+     "The trochlear nucleus is at inferior colliculus level",
+     1,
+     "Caudal to the oculomotor. (Last's page pg 607)"
+    ],
+    [
+     "The red nucleus lies dorsal to the oculomotor nucleus",
+     0,
+     "Ventral to it; III axons pass through it. (Last's page pg 607)"
+    ],
+    [
+     "The red nucleus receives from the ipsilateral dentate nucleus",
+     0,
+     "From the opposite dentate via the superior cerebellar peduncle. (Last's page pg 607)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain nuclei",
+   "y": 1,
+   "s": "The red nucleus:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Is slightly larger than a full-sized pea",
+     1,
+     "Last's. (Last's page pg 607)"
+    ],
+    [
+     "Connects especially with the cortex and globus pallidus",
+     1,
+     "Last's. (Last's page pg 607)"
+    ],
+    [
+     "Its efferent fibres decussate at superior colliculus level",
+     0,
+     "At the level of the inferior colliculi. (Last's page pg 607)"
+    ],
+    [
+     "Is associated with a well-defined human disease",
+     0,
+     "Last's: it is not associated with any known disease. (Last's page pg 607)"
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain",
+   "y": 1,
+   "s": "Midbrain blood supply and related structures:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Supplied by the posterior cerebral and superior cerebellar arteries",
+     1,
+     "As they curl round the peduncle. (Last's page pg 607-8)"
+    ],
+    [
+     "Veins drain mostly into the basal vein",
+     1,
+     "Some from the colliculi into the great cerebral vein. (Last's page pg 607-8)"
+    ],
+    [
+     "The mesencephalic nucleus lies medial to the aqueduct",
+     0,
+     "Lateral, in the central grey. (Last's page pg 607-8)"
+    ],
+    [
+     "The medial geniculate body lies at inferior colliculus level",
+     0,
+     "At superior colliculus level. (Last's page pg 607-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Pons",
+   "y": 1,
+   "s": "The pons (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The trigeminal is the only nerve to emerge from the pons",
+     1,
+     "Its emergence marks the change from pons to peduncle. (Last's page pg 608)"
+    ],
+    [
+     "It lies along the clivus separated by the pontine cistern",
+     1,
+     "Last's. (Last's page pg 608)"
+    ],
+    [
+     "The anterior inferior cerebellar artery curls round the upper margin of the pons",
+     0,
+     "The superior cerebellar artery does. (Last's page pg 608)"
+    ],
+    [
+     "The pontine roof of the fourth ventricle is the inferior medullary velum",
+     0,
+     "The superior medullary velum, with the lingula on it. (Last's page pg 608)"
+    ]
+   ]
+  },
+  {
+   "t": "Pons",
+   "y": 1,
+   "s": "Internal structure of the pons:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Pontine nuclei send fibres across to form the middle cerebellar peduncle",
+     1,
+     "Last's. (Last's page pg 608)"
+    ],
+    [
+     "The trigeminal motor nucleus lies below the lateral floor of the upper fourth ventricle",
+     1,
+     "Last's. (Last's page pg 608)"
+    ],
+    [
+     "The main sensory nucleus lies medial to the motor nucleus",
+     0,
+     "Lateral to it. (Last's page pg 608)"
+    ],
+    [
+     "The spinal nucleus subserves touch",
+     0,
+     "The main sensory nucleus subserves touch; spinal nucleus pain and temperature. (Last's page pg 608)"
+    ]
+   ]
+  },
+  {
+   "t": "Pons",
+   "y": 1,
+   "s": "Salivary and vestibular nuclei:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The superior salivary nucleus lies alongside the facial nucleus",
+     1,
+     "Axons via nervus intermedius. (Last's page pg 609)"
+    ],
+    [
+     "The inferior salivary nucleus lies just above the pontomedullary junction",
+     1,
+     "To the otic ganglion via IX. (Last's page pg 609)"
+    ],
+    [
+     "The cochlear nuclei are mainly pontine",
+     0,
+     "Mainly medullary. (Last's page pg 609)"
+    ],
+    [
+     "Vestibular fibres pass posterior to the inferior cerebellar peduncle",
+     0,
+     "Anterior to it. (Last's page pg 609)"
+    ]
+   ]
+  },
+  {
+   "t": "Pons",
+   "y": 1,
+   "s": "Pontine blood supply and venous drainage:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Mainly pontine branches of the basilar",
+     1,
+     "Last's. (Last's page pg 609)"
+    ],
+    [
+     "Contributions from the superior cerebellar and AICA",
+     1,
+     "Last's. (Last's page pg 609)"
+    ],
+    [
+     "Venous return is mainly to the superior petrosal sinus",
+     0,
+     "Inferior petrosal sinuses and the basilar plexus. (Last's page pg 609)"
+    ],
+    [
+     "The pontine reticular formation lies ventral to the pontine nuclei",
+     0,
+     "Dorsal to them. (Last's page pg 609)"
+    ]
+   ]
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "The medulla oblongata (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Lies from a line joining the jugular tubercles to the atlas",
+     1,
+     "Last's. (Last's page pg 609-10)"
+    ],
+    [
+     "It lies in the vallecula of the cerebellum",
+     1,
+     "Last's. (Last's page pg 609-10)"
+    ],
+    [
+     "The closed part is the upper part",
+     0,
+     "The closed part is the lower part with the central canal. (Last's page pg 609-10)"
+    ],
+    [
+     "The inferior cerebellar peduncle enters above and lateral to the middle peduncle",
+     0,
+     "Medial to and below. (Last's page pg 609-10)"
+    ]
+   ]
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "Surface of the medulla:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The sixth nerve emerges between pons and pyramid",
+     1,
+     "Last's. (Last's page pg 609-10)"
+    ],
+    [
+     "The twelfth emerges between pyramid and olive",
+     1,
+     "In two small groups of rootlets. (Last's page pg 609-10)"
+    ],
+    [
+     "IX, X and cranial XI emerge medial to the olive",
+     0,
+     "Lateral to the olive. (Last's page pg 609-10)"
+    ],
+    [
+     "The vagal trigone lies medial to the hypoglossal trigone",
+     0,
+     "The hypoglossal trigone is adjacent to the midline with the vagal trigone lateral. (Last's page pg 609-10)"
+    ]
+   ]
+  },
+  {
+   "t": "Medulla sections",
+   "y": 1,
+   "s": "Sections through the medulla (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The upper medulla shows the sac-like olivary nucleus",
+     1,
+     "Last's. (Last's page pg 610)"
+    ],
+    [
+     "Pyramidal decussation characterises the lowest part",
+     1,
+     "Last's. (Last's page pg 610)"
+    ],
+    [
+     "The sensory decussation lies below the pyramidal decussation",
+     0,
+     "The decussation of the medial lemnisci is at a slightly higher level. (Last's page pg 610)"
+    ],
+    [
+     "The nucleus ambiguus lies superficially beneath the floor of the ventricle",
+     0,
+     "At a deeper level. (Last's page pg 610)"
+    ]
+   ]
+  },
+  {
+   "t": "Tractus solitarius",
+   "y": 1,
+   "s": "The nucleus of the tractus solitarius (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its cells are the most tightly packed of any brainstem nucleus",
+     1,
+     "Last's. (Last's page pg 610)"
+    ],
+    [
+     "The two sides meet in the lowest part of the open medulla",
+     1,
+     "Forming a V. (Last's page pg 610)"
+    ],
+    [
+     "Its lower part receives taste fibres",
+     0,
+     "Its upper part receives taste. (Last's page pg 610)"
+    ],
+    [
+     "It contains the expiratory centre",
+     0,
+     "Some of its cells form the inspiratory centre. (Last's page pg 610)"
+    ]
+   ]
+  },
+  {
+   "t": "Tractus solitarius",
+   "y": 2,
+   "s": "The nucleus of the tractus solitarius receives:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Taste fibres from the chorda tympani",
+     1,
+     "Last's. (Last's page pg 610)"
+    ],
+    [
+     "Baroreceptor afferents from the carotid sinus",
+     1,
+     "Last's. (Last's page pg 610)"
+    ],
+    [
+     "Afferents from the aortic bodies",
+     1,
+     "Last's. (Last's page pg 610)"
+    ],
+    [
+     "Taste via the internal laryngeal nerve",
+     1,
+     "Last's. (Last's page pg 610)"
+    ]
+   ]
+  },
+  {
+   "t": "Medulla nuclei",
+   "y": 1,
+   "s": "The nucleus ambiguus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Its upper part supplies the palate",
+     1,
+     "Last's. (Last's page pg 610-11)"
+    ],
+    [
+     "Its lowest part supplies the larynx",
+     1,
+     "Last's. (Last's page pg 610-11)"
+    ],
+    [
+     "Its middle part supplies the larynx",
+     0,
+     "The middle supplies pharynx and oesophagus. (Last's page pg 610-11)"
+    ],
+    [
+     "All its fibres are distributed by the vagus",
+     0,
+     "Except stylopharyngeus by the glossopharyngeal. (Last's page pg 610-11)"
+    ]
+   ]
+  },
+  {
+   "t": "Medulla nuclei",
+   "y": 1,
+   "s": "Further medullary nuclei:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The spinal trigeminal nucleus lies lateral to the tractus solitarius nucleus",
+     1,
+     "Last's. (Last's page pg 610-11)"
+    ],
+    [
+     "Olivocerebellar fibres decussate to enter the inferior cerebellar peduncle",
+     1,
+     "Last's. (Last's page pg 610-11)"
+    ],
+    [
+     "The accessory cuneate nucleus conveys lower limb proprioception",
+     0,
+     "Upper limb, via cuneocerebellar fibres. (Last's page pg 610-11)"
+    ],
+    [
+     "The gracile and cuneate nuclei give rise to the lateral lemniscus",
+     0,
+     "To the medial lemniscus. (Last's page pg 610-11)"
+    ]
+   ]
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "The area postrema and reticular formation (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The area postrema lies medial to each gracile nucleus at the lower angle of the ventricle",
+     1,
+     "Last's. (Last's page pg 611)"
+    ],
+    [
+     "The area postrema is the chemoreceptor trigger zone",
+     1,
+     "And vomiting centre, with no blood-brain barrier. (Last's page pg 611)"
+    ],
+    [
+     "The reticular formation receives cerebellar input from the ipsilateral hemisphere via the dentate",
+     0,
+     "From the opposite cerebellar hemisphere. (Last's page pg 611)"
+    ],
+    [
+     "Spinoreticular fibres are part of the touch pathway",
+     0,
+     "They are part of the pain pathway. (Last's page pg 611)"
+    ]
+   ]
+  },
+  {
+   "t": "Medullary syndromes",
+   "y": 1,
+   "s": "Medial medullary syndrome (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Results from damage to penetrating branches of the anterior spinal branch of the vertebral",
+     1,
+     "Last's. (Last's page pg 611-12)"
+    ],
+    [
+     "Causes paralysis of the tongue on the same side",
+     1,
+     "Hypoglossal nucleus. (Last's page pg 611-12)"
+    ],
+    [
+     "Causes loss of pain and temperature on the opposite side",
+     0,
+     "It causes hemiplegia with loss of touch and kinaesthetic sense on the opposite side (pyramid and medial lemniscus). (Last's page pg 611-12)"
+    ],
+    [
+     "Causes ipsilateral Horner's syndrome",
+     0,
+     "That is lateral medullary syndrome. (Last's page pg 611-12)"
+    ]
+   ]
+  },
+  {
+   "t": "Medullary syndromes",
+   "y": 1,
+   "s": "Lateral medullary (PICA) syndrome:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Ipsilateral vocal fold paralysis from nucleus ambiguus involvement",
+     1,
+     "Last's. (Last's page pg 611-12)"
+    ],
+    [
+     "Loss of pain and temperature on the same side of the face",
+     1,
+     "Uncrossed spinal trigeminal tract. (Last's page pg 611-12)"
+    ],
+    [
+     "Loss of pain and temperature on the same side of the body",
+     0,
+     "On the opposite side, from the crossed spinal lemniscus. (Last's page pg 611-12)"
+    ],
+    [
+     "Contralateral Horner's syndrome",
+     0,
+     "Ipsilateral, from the descending sympathetic pathway. (Last's page pg 611-12)"
+    ]
+   ]
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "Blood supply and venous drainage of the medulla:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Ventrally from vertebral and basilar branches",
+     1,
+     "Last's. (Last's page pg 611-12)"
+    ],
+    [
+     "Laterally and dorsally from PICA",
+     1,
+     "Last's. (Last's page pg 611-12)"
+    ],
+    [
+     "Veins drain dorsally to the inferior petrosal sinus",
+     0,
+     "Dorsally to the occipital sinus; ventrally to the basilar plexus and inferior petrosal sinus. (Last's page pg 611-12)"
+    ],
+    [
+     "Medullary veins do not communicate with spinal veins",
+     0,
+     "They do communicate. (Last's page pg 611-12)"
+    ]
+   ]
+  },
+  {
+   "t": "Descending tracts",
+   "y": 1,
+   "s": "Corticospinal and corticonuclear fibres (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "They arise from cells in layer 5 of MsI",
+     1,
+     "Last's. (Last's page pg 612)"
+    ],
+    [
+     "About 80% come from the primary motor area",
+     0,
+     "Only about 40%; the rest from widely scattered areas. (Last's page pg 612)"
+    ],
+    [
+     "Corticonuclear fibres run in the genu of the internal capsule",
+     1,
+     "Last's. (Last's page pg 612)"
+    ],
+    [
+     "The upper part of the facial nucleus receives only contralateral cortical input",
+     0,
+     "The lower part of the facial nucleus is the important exception, supplied only by the opposite cortex. (Last's page pg 612)"
+    ]
+   ]
+  },
+  {
+   "t": "Descending tracts",
+   "y": 1,
+   "s": "The pyramid and decussation (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Each pyramid contains about one million fibres",
+     1,
+     "About 700 000 are small and myelinated. (Last's page pg 612)"
+    ],
+    [
+     "About 85% of fibres cross in the motor decussation",
+     1,
+     "Last's. (Last's page pg 612)"
+    ],
+    [
+     "In the crus, arm fibres lie lateral to leg fibres",
+     0,
+     "Arm fibres are medial to leg fibres. (Last's page pg 612)"
+    ],
+    [
+     "Anterior corticospinal fibres never cross",
+     0,
+     "They eventually cross in the cord. (Last's page pg 612)"
+    ]
+   ]
+  },
+  {
+   "t": "Descending tracts",
+   "y": 1,
+   "s": "Corticopontine fibres and tegmental decussations:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Frontopontine fibres occupy the medial one-fifth of the crus",
+     1,
+     "Last's. (Last's page pg 612)"
+    ],
+    [
+     "Temporo-, parieto- and occipitopontine fibres occupy the lateral one-fifth",
+     1,
+     "Last's. (Last's page pg 612)"
+    ],
+    [
+     "Rubrospinal fibres decussate in the dorsal tegmental decussation",
+     0,
+     "In the ventral tegmental decussation; tectospinal fibres cross in the dorsal one. (Last's page pg 612)"
+    ],
+    [
+     "The superior cerebellar peduncles decussate at superior colliculus level",
+     0,
+     "At inferior colliculus level. (Last's page pg 612)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "The medial longitudinal bundle (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Lies immediately ventral to the periaqueductal grey",
+     1,
+     "Last's. (Last's page pg 613)"
+    ],
+    [
+     "Extends to the upper cervical cord",
+     1,
+     "Last's. (Last's page pg 613)"
+    ],
+    [
+     "Links mainly the cochlear nuclei with eye-muscle nuclei",
+     0,
+     "It links the vestibular nuclei with III, IV and VI. (Last's page pg 613)"
+    ],
+    [
+     "Lies far lateral to the midline in the medulla",
+     0,
+     "It remains adjacent to the midline. (Last's page pg 613)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "Reticulospinal and vestibulospinal tracts:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lateral reticulospinal tract arises from the medullary reticular formation",
+     1,
+     "Last's. (Last's page pg 613)"
+    ],
+    [
+     "The lateral vestibulospinal tract arises from the lateral vestibular nucleus",
+     1,
+     "Last's. (Last's page pg 613)"
+    ],
+    [
+     "The anterior (medial) reticulospinal tract arises from the medulla",
+     0,
+     "From the pontine reticular formation. (Last's page pg 613)"
+    ],
+    [
+     "The tectospinal tract descends to lumbar levels",
+     0,
+     "No farther than the cervical cord. (Last's page pg 613)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "The medial lemniscus (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Begins in the lower medulla",
+     1,
+     "From the opposite gracile and cuneate nuclei. (Last's page pg 613)"
+    ],
+    [
+     "Its fibres cross as internal arcuate fibres",
+     1,
+     "In the sensory decussation. (Last's page pg 613)"
+    ],
+    [
+     "Lies laterally in the medulla and moves medially in the midbrain",
+     0,
+     "It starts adjacent to the midline and deviates laterally higher up. (Last's page pg 613)"
+    ],
+    [
+     "Is joined by the lateral lemniscus",
+     0,
+     "It is joined by the trigeminal lemniscus. (Last's page pg 613)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "Ascending brainstem tracts:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Most spinal lemniscus fibres end in the reticular formation",
+     1,
+     "So it quickly becomes smaller. (Last's page pg 613)"
+    ],
+    [
+     "The trapezoid body is formed by decussating cochlear nucleus fibres",
+     1,
+     "At the pontomedullary junction. (Last's page pg 613)"
+    ],
+    [
+     "The posterior spinocerebellar tract enters the superior cerebellar peduncle",
+     0,
+     "It enters the inferior peduncle; the anterior tract enters the superior. (Last's page pg 613)"
+    ],
+    [
+     "Trigeminal pain fibres synapse before descending in the spinal tract",
+     0,
+     "They descend first, then synapse in the spinal nucleus. (Last's page pg 613)"
+    ]
+   ]
+  },
+  {
+   "t": "Fourth ventricle",
+   "y": 1,
+   "s": "The roof of the fourth ventricle:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The superior medullary velum is bounded by the superior cerebellar peduncles",
+     1,
+     "Last's. (Last's page pg 613-14)"
+    ],
+    [
+     "The inferior medullary velum is white matter from the base of the flocculus",
+     1,
+     "Last's. (Last's page pg 613-14)"
+    ],
+    [
+     "The median aperture opens into the pontine cistern",
+     0,
+     "Into the cerebellomedullary cistern. (Last's page pg 613-14)"
+    ],
+    [
+     "The lateral apertures open posteriorly into the cerebellomedullary cistern",
+     0,
+     "They open anteriorly just behind VIII into the pontine cistern. (Last's page pg 613-14)"
+    ]
+   ]
+  },
+  {
+   "t": "Fourth ventricle",
+   "y": 1,
+   "s": "The choroid plexus of the fourth ventricle (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Is supplied by a branch of PICA",
+     1,
+     "Starting at the lateral aperture. (Last's page pg 613-14)"
+    ],
+    [
+     "Lies just below the flocculus at the lateral aperture",
+     1,
+     "Last's. (Last's page pg 613-14)"
+    ],
+    [
+     "Indents the pontine part of the roof",
+     0,
+     "It indents the medullary part. (Last's page pg 613-14)"
+    ],
+    [
+     "Drains to the straight sinus",
+     0,
+     "To the occipital sinus. (Last's page pg 613-14)"
+    ]
+   ]
+  },
+  {
+   "t": "Fourth ventricle",
+   "y": 1,
+   "s": "The floor of the fourth ventricle:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The medullary striae are aberrant pontine fibres to the cerebellum",
+     1,
+     "Via the inferior peduncle. (Last's page pg 614)"
+    ],
+    [
+     "The locus caeruleus lies in the upper superior fovea",
+     1,
+     "Pigmented noradrenergic cells. (Last's page pg 614)"
+    ],
+    [
+     "The facial colliculus lies at the upper end of the medial eminence",
+     0,
+     "At its lower end. (Last's page pg 614)"
+    ],
+    [
+     "The hypoglossal trigone has its apex upwards",
+     0,
+     "Apex down; the vagal trigone has its apex upwards. (Last's page pg 614)"
+    ]
+   ]
+  },
+  {
+   "t": "Fourth ventricle",
+   "y": 1,
+   "s": "The medullary part of the floor:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Is smaller than the pontine part",
+     1,
+     "Last's. (Last's page pg 614)"
+    ],
+    [
+     "The inferior fovea divides it into two triangles",
+     1,
+     "Last's. (Last's page pg 614)"
+    ],
+    [
+     "The vagal trigone lies medial to the hypoglossal trigone",
+     0,
+     "Lateral. (Last's page pg 614)"
+    ],
+    [
+     "The vestibular area is confined to the pontine part",
+     0,
+     "Its lower part occupies the medullary lateral angle. (Last's page pg 614)"
+    ]
+   ]
+  },
+  {
+   "t": "CSF",
+   "y": 1,
+   "s": "Cerebrospinal fluid (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "About 30% comes from brain capillaries other than the choroid plexuses",
+     1,
+     "Last's. (Last's page pg 614)"
+    ],
+    [
+     "The total volume is about 130 ml",
+     1,
+     "Last's. (Last's page pg 614)"
+    ],
+    [
+     "About 75 ml lies in the cranial subarachnoid space",
+     0,
+     "75 ml spinal; 25 ml cranial. (Last's page pg 614)"
+    ],
+    [
+     "Production is about 150 ml per day",
+     0,
+     "Over 500 ml per day. (Last's page pg 614)"
+    ]
+   ]
+  },
+  {
+   "t": "CSF",
+   "y": 1,
+   "s": "Regarding CSF:",
+   "src": "Last's text",
+   "o": [
+    [
+     "About 30 ml is within the ventricular system",
+     1,
+     "Last's. (Last's page pg 614)"
+    ],
+    [
+     "Some drains through the cribriform plate to cervical lymphatics",
+     1,
+     "Last's. (Last's page pg 614)"
+    ],
+    [
+     "CSF pressure follows arterial pressure closely",
+     0,
+     "Arterial changes have little effect; venous pressure changes are quickly reflected. (Last's page pg 614)"
+    ],
+    [
+     "Buoyancy reduces the brain's effective weight to about 500 g",
+     0,
+     "From 1500 g to about 50 g. (Last's page pg 614)"
+    ]
+   ]
+  },
+  {
+   "t": "Cranial nerve nuclei",
+   "y": 1,
+   "s": "Cranial nerve nuclei summary (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Sensory nuclei contain cell bodies of second neurons",
+     1,
+     "First neurons lie in ganglia. (Last's page pg 614-15)"
+    ],
+    [
+     "The trigeminal motor nucleus supplies mylohyoid and tensor palati",
+     1,
+     "And muscles of mastication. (Last's page pg 614-15)"
+    ],
+    [
+     "The oculomotor somatic nucleus is level with the inferior colliculi",
+     0,
+     "Superior colliculi; the trochlear is at inferior colliculus level. (Last's page pg 614-15)"
+    ],
+    [
+     "The main sensory trigeminal nucleus lies medial to the motor nucleus",
+     0,
+     "Lateral. (Last's page pg 614-15)"
+    ]
+   ]
+  },
+  {
+   "t": "Cranial nerve nuclei",
+   "y": 1,
+   "s": "Glossopharyngeal and vagal nuclei:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The nucleus ambiguus lies deep in the upper medulla",
+     1,
+     "Last's. (Last's page pg 615-16)"
+    ],
+    [
+     "IX carries carotid body chemoreceptor fibres to the tractus solitarius",
+     1,
+     "Last's. (Last's page pg 615-16)"
+    ],
+    [
+     "X carries taste from the posterior third of the tongue",
+     0,
+     "IX does; X carries taste from the epiglottis. (Last's page pg 615-16)"
+    ],
+    [
+     "The tractus solitarius lies medial to the dorsal vagal nucleus",
+     0,
+     "Lateral. (Last's page pg 615-16)"
+    ]
+   ]
+  },
+  {
+   "t": "Brain death",
+   "y": 1,
+   "s": "Brainstem death tests and their anatomical basis (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Fixed pupils test midbrain function",
+     1,
+     "Last's. (Last's page pg 616)"
+    ],
+    [
+     "Absent corneal reflex tests pontine trigeminal-facial connections",
+     1,
+     "Last's. (Last's page pg 616)"
+    ],
+    [
+     "Absent gag reflex tests pontine connexions",
+     0,
+     "It tests vagal connexions in the medulla. (Last's page pg 616)"
+    ],
+    [
+     "The apnoea test requires PaCO2 above 30 mm Hg",
+     0,
+     "Above 50 mm Hg (6.7 kPa). (Last's page pg 616)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "The cerebellum (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The superior peduncle enters the midbrain",
+     1,
+     "Last's. (Last's page pg 616)"
+    ],
+    [
+     "The archaeocerebellum is concerned with balance",
+     1,
+     "Vestibular mechanisms. (Last's page pg 616)"
+    ],
+    [
+     "The palaeocerebellum is associated with the cerebral hemispheres",
+     0,
+     "With spinal mechanisms (limb movements); the neocerebellum with the cerebrum. (Last's page pg 616)"
+    ],
+    [
+     "The highest part of the cerebellum lies at the attached margin of the tentorium",
+     0,
+     "At the tentorial notch. (Last's page pg 616)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "Cerebellar fissures and lobes:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The horizontal fissure is the deepest sulcus",
+     1,
+     "But of no functional significance. (Last's page pg 617)"
+    ],
+    [
+     "The primary fissure separates palaeocerebellum from neocerebellum",
+     1,
+     "Last's. (Last's page pg 617)"
+    ],
+    [
+     "The anterior lobe is large and the posterior lobe small",
+     0,
+     "Small anterior lobe, large posterior lobe. (Last's page pg 617)"
+    ],
+    [
+     "The primary fissure lies on the inferior surface",
+     0,
+     "On the superior surface, in front of the horizontal fissure. (Last's page pg 617)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "The vermis and flocculonodular lobe (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The inferior vermis consists of pyramid, uvula and nodule",
+     1,
+     "Last's. (Last's page pg 617)"
+    ],
+    [
+     "The nodule lies highest, on the roof of the fourth ventricle",
+     1,
+     "Last's. (Last's page pg 617)"
+    ],
+    [
+     "The flocculonodular lobe and pyramid form the archaeocerebellum",
+     0,
+     "The flocculonodular lobe and the lingula. (Last's page pg 617)"
+    ],
+    [
+     "The paraflocculus lies above the flocculus",
+     0,
+     "It lies beneath the flocculus, attached mainly to the pyramid. (Last's page pg 617)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "Cerebellar lesions (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Archaeocerebellar lesions cause trunk ataxia",
+     1,
+     "Without nystagmus or tremor. (Last's page pg 617-18)"
+    ],
+    [
+     "Neocerebellar lesions cause intention tremor",
+     1,
+     "And hypotonia, pendular jerks, dysdiadochokinesia and nystagmus. (Last's page pg 617-18)"
+    ],
+    [
+     "Palaeocerebellar lesions cause reduced muscle reflexes",
+     0,
+     "Increased muscle reflexes with disturbed postural mechanisms. (Last's page pg 617-18)"
+    ],
+    [
+     "Cerebellar lesions cause paralysis",
+     0,
+     "They do not cause paralysis. (Last's page pg 617-18)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellar nuclei",
+   "y": 1,
+   "s": "The cerebellar nuclei (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The dentate opens towards the superior peduncle",
+     1,
+     "Last's. (Last's page pg 618)"
+    ],
+    [
+     "From lateral to medial: emboliform, globose, fastigial",
+     1,
+     "EGF. (Last's page pg 618)"
+    ],
+    [
+     "The fastigial nucleus belongs to the palaeocerebellum",
+     0,
+     "To the archaeocerebellum. (Last's page pg 618)"
+    ],
+    [
+     "Dentate efferents go to the ipsilateral red nucleus",
+     0,
+     "To the contralateral red nucleus and thalamus. (Last's page pg 618)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellar cortex",
+   "y": 1,
+   "s": "The cerebellar cortex:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The molecular layer is superficial",
+     1,
+     "Mostly fibres with few cells. (Last's page pg 618)"
+    ],
+    [
+     "Purkinje cells lie between molecular and granular layers",
+     1,
+     "Last's. (Last's page pg 618)"
+    ],
+    [
+     "Climbing fibres act through granule cells",
+     0,
+     "Climbing fibres activate Purkinje cells directly; mossy fibres act through granule and basket cells. (Last's page pg 618)"
+    ],
+    [
+     "Purkinje dendrites lie parallel to the long axis of a folium",
+     0,
+     "At right angles to it. (Last's page pg 618)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellar cortex",
+   "y": 1,
+   "s": "Cerebellar circuitry (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "A climbing fibre activates one Purkinje cell",
+     1,
+     "Last's. (Last's page pg 618-19)"
+    ],
+    [
+     "A basket cell axon arborises around some 500 Purkinje cells",
+     1,
+     "Last's. (Last's page pg 618-19)"
+    ],
+    [
+     "Mossy fibres are terminals of pontine and vestibular fibres",
+     0,
+     "Those are climbing fibres; mossy fibres are spino- and olivocerebellar terminals. (Last's page pg 618-19)"
+    ],
+    [
+     "Efferent fibres generally arise from the cortex",
+     0,
+     "From subcortical nuclei. (Last's page pg 618-19)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellar peduncles",
+   "y": 1,
+   "s": "The cerebellar peduncles (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The superior peduncle is predominantly efferent",
+     1,
+     "Last's. (Last's page pg 619)"
+    ],
+    [
+     "The middle peduncle carries fibres from contralateral pontine nuclei",
+     1,
+     "Last's. (Last's page pg 619)"
+    ],
+    [
+     "The anterior spinocerebellar tract runs in the inferior peduncle",
+     0,
+     "In the superior peduncle. (Last's page pg 619)"
+    ],
+    [
+     "Olivocerebellar fibres come from the ipsilateral olive",
+     0,
+     "From the opposite olive. (Last's page pg 619)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellar arteries",
+   "y": 1,
+   "s": "Cerebellar blood supply (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "PICA is the largest branch of the vertebral artery",
+     1,
+     "Last's. (Last's page pg 619)"
+    ],
+    [
+     "PICA passes between the rootlets of IX and X",
+     1,
+     "After passing below the hypoglossal rootlets. (Last's page pg 619)"
+    ],
+    [
+     "AICA arises from the basilar at the upper part of the pons",
+     0,
+     "At the lower part of the pons. (Last's page pg 619)"
+    ],
+    [
+     "The superior cerebellar artery winds round the peduncle above the fourth nerve",
+     0,
+     "Below the fourth nerve. (Last's page pg 619)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellar veins",
+   "y": 1,
+   "s": "Cerebellar venous drainage (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Superior and posterior surfaces drain to straight and transverse sinuses",
+     1,
+     "Last's. (Last's page pg 619)"
+    ],
+    [
+     "The superior vermis drains to the great cerebral vein",
+     1,
+     "At its entrance to the straight sinus. (Last's page pg 619)"
+    ],
+    [
+     "The inferior surfaces drain to the superior petrosal sinus",
+     0,
+     "To the inferior petrosal, sigmoid and occipital sinuses. (Last's page pg 619)"
+    ],
+    [
+     "Two arteries supply the small upper surface of each hemisphere",
+     0,
+     "One supplies the upper surface; two supply the large under surface. (Last's page pg 619)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal cord",
+   "y": 1,
+   "s": "The spinal cord (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "In the fetus it reaches S2 vertebra",
+     1,
+     "Last's. (Last's page pg 619-20)"
+    ],
+    [
+     "At birth the conus lies opposite L3",
+     1,
+     "Last's. (Last's page pg 619-20)"
+    ],
+    [
+     "It reaches its adult level at about 5 years",
+     0,
+     "About 20 years. (Last's page pg 619-20)"
+    ],
+    [
+     "The cervical enlargement occupies segments C3 to T1",
+     0,
+     "C5 to T1; vertebral levels C3 to T1. (Last's page pg 619-20)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal cord",
+   "y": 1,
+   "s": "Spinal cord enlargements and roots:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lumbosacral enlargement spans segments L2 to S3",
+     1,
+     "Last's. (Last's page pg 619-20)"
+    ],
+    [
+     "It lies opposite vertebrae T9 to L1",
+     1,
+     "Last's. (Last's page pg 619-20)"
+    ],
+    [
+     "Each anterior root has ten or more rootlets",
+     0,
+     "Three or four. (Last's page pg 619-20)"
+    ],
+    [
+     "The roots unite inside the dural theca",
+     0,
+     "They unite in the intervertebral foramina after evaginating the dura separately. (Last's page pg 619-20)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal roots",
+   "y": 1,
+   "s": "Spinal nerve roots (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Cervical posterior root ganglia lie just lateral to the foramina",
+     1,
+     "In contact with the vertebral artery. (Last's page pg 620)"
+    ],
+    [
+     "The cauda equina consists of nerve roots, not nerves",
+     1,
+     "Last's. (Last's page pg 620)"
+    ],
+    [
+     "The filum terminale is part of the cauda equina",
+     0,
+     "It is pia and not classified as part of the cauda. (Last's page pg 620)"
+    ],
+    [
+     "Upper thoracic roots kink downwards to reach their foramina",
+     0,
+     "They kink upwards. (Last's page pg 620)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal cord",
+   "y": 1,
+   "s": "Internal structure of the cord:",
+   "src": "Last's text",
+   "o": [
+    [
+     "The central canal extends into the upper few mm of the filum",
+     1,
+     "Last's. (Last's page pg 620)"
+    ],
+    [
+     "The white commissure lies anterior to the grey commissure",
+     1,
+     "Last's. (Last's page pg 620)"
+    ],
+    [
+     "Posterior white columns are largest in the lumbar region",
+     0,
+     "In the cervical region. (Last's page pg 620)"
+    ],
+    [
+     "The anterior horn reaches the surface of the cord",
+     0,
+     "It falls short; the posterior horn reaches the surface. (Last's page pg 620)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal grey matter",
+   "y": 1,
+   "s": "Anterior horn cell organisation (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Medial cells supply trunk muscles",
+     1,
+     "Last's. (Last's page pg 621-2)"
+    ],
+    [
+     "Lateral cells supply limbs",
+     1,
+     "Last's. (Last's page pg 621-2)"
+    ],
+    [
+     "Dorsal cells of the lateral group supply proximal limb muscles",
+     0,
+     "Ventral cells supply proximal; dorsal cells distal. (Last's page pg 621-2)"
+    ],
+    [
+     "The sympathetic lateral horn spans T1 to L4",
+     0,
+     "T1 to L2. (Last's page pg 621-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Rexed laminae",
+   "y": 1,
+   "s": "Rexed laminae (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Lamina II is the gelatinous substance",
+     1,
+     "Last's. (Last's page pg 621-2)"
+    ],
+    [
+     "The thoracic nucleus is in the medial part of lamina VII",
+     1,
+     "Last's. (Last's page pg 621-2)"
+    ],
+    [
+     "Laminae VII and VIII form the nucleus proprius",
+     0,
+     "Laminae III to VI. (Last's page pg 621-2)"
+    ],
+    [
+     "Lamina V contains the alpha motor neurons",
+     0,
+     "Lamina IX; lamina V is a main source of anterolateral tract fibres. (Last's page pg 621-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal white matter",
+   "y": 1,
+   "s": "Spinal white matter (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Anterior roots divide lateral from anterior white columns",
+     1,
+     "Last's. (Last's page pg 622-3)"
+    ],
+    [
+     "Propriospinal fibres lie adjacent to the grey matter",
+     1,
+     "Last's. (Last's page pg 622-3)"
+    ],
+    [
+     "Tracts have sharp boundaries throughout the cord",
+     0,
+     "Except in the posterior columns, there are no sharp boundaries. (Last's page pg 622-3)"
+    ],
+    [
+     "The posterior column contains descending fibres",
+     0,
+     "It is wholly occupied by ascending gracile and cuneate fibres. (Last's page pg 622-3)"
+    ]
+   ]
+  },
+  {
+   "t": "Posterior columns",
+   "y": 1,
+   "s": "The posterior white columns (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Fibres from the lowest segments lie nearest the midline",
+     1,
+     "Last's. (Last's page pg 622-3)"
+    ],
+    [
+     "They carry the sense of bladder and rectal fullness",
+     1,
+     "Last's. (Last's page pg 622-3)"
+    ],
+    [
+     "Fibres enter on the lateral side of the posterior roots",
+     0,
+     "On the medial side. (Last's page pg 622-3)"
+    ],
+    [
+     "The gracile tract carries upper limb fibres",
+     0,
+     "Lower trunk, lower limb and perineum; the cuneate carries upper limb. (Last's page pg 622-3)"
+    ]
+   ]
+  },
+  {
+   "t": "Posterior columns",
+   "y": 1,
+   "s": "Testing posterior column function:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Romberg's sign indicates sensory ataxia",
+     1,
+     "Last's. (Last's page pg 623-4)"
+    ],
+    [
+     "Two points 3 mm apart are normally distinguishable on the finger pads",
+     1,
+     "Last's. (Last's page pg 623-4)"
+    ],
+    [
+     "Vibration is tested with a 512 Hz fork",
+     0,
+     "Last's: 128 Hz. (Last's page pg 623-4)"
+    ],
+    [
+     "Cerebellar ataxia worsens markedly with eyes closed",
+     0,
+     "With cerebellar or labyrinthine ataxia there is little difference. (Last's page pg 623-4)"
+    ]
+   ]
+  },
+  {
+   "t": "Anterolateral tract",
+   "y": 1,
+   "s": "The anterolateral tract (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Lies in front of the lateral corticospinal tract",
+     1,
+     "And in front of the denticulate ligament. (Last's page pg 623-4)"
+    ],
+    [
+     "Arises mainly from laminae I and V",
+     1,
+     "Last's. (Last's page pg 623-4)"
+    ],
+    [
+     "Fibres cross behind the central canal",
+     0,
+     "In front of the central canal. (Last's page pg 623-4)"
+    ],
+    [
+     "Cervical fibres lie most laterally",
+     0,
+     "Sacral fibres lie most laterally; cervical most deeply. (Last's page pg 623-4)"
+    ]
+   ]
+  },
+  {
+   "t": "Anterolateral tract",
+   "y": 1,
+   "s": "Pain fibres and Lissauer's tract:",
+   "src": "Last's text",
+   "o": [
+    [
+     "C fibres carry slow pain",
+     1,
+     "Unmyelinated. (Last's page pg 623-4)"
+    ],
+    [
+     "A-delta fibres carry fast pain and temperature",
+     1,
+     "Thinly myelinated. (Last's page pg 623-4)"
+    ],
+    [
+     "Lissauer's tract fibres run 5-6 segments before synapsing",
+     0,
+     "One or two segments. (Last's page pg 623-4)"
+    ],
+    [
+     "Crude touch fibres occupy the lateral part of the tract",
+     0,
+     "The more medial part, and cross less obliquely. (Last's page pg 623-4)"
+    ]
+   ]
+  },
+  {
+   "t": "Anterolateral tract",
+   "y": 1,
+   "s": "Pain pathways (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "About 10% of anterolateral fibres pass directly to the thalamus",
+     1,
+     "Last's. (Last's page pg 624)"
+    ],
+    [
+     "The rest synapse in the reticular formation",
+     1,
+     "Spinoreticulothalamic. (Last's page pg 624)"
+    ],
+    [
+     "Endogenous opioid peptides readily cross the blood-brain barrier",
+     0,
+     "They do not. (Last's page pg 624)"
+    ],
+    [
+     "Deep pain is tested by pinprick",
+     0,
+     "Pinprick tests superficial pain; squeezing tests deep pain. (Last's page pg 624)"
+    ]
+   ]
+  },
+  {
+   "t": "Cordotomy",
+   "y": 1,
+   "s": "Anterolateral cordotomy (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The knife enters in front of the denticulate ligament",
+     1,
+     "To spare the corticospinal tract. (Last's page pg 625)"
+    ],
+    [
+     "The cut is made several segments above the desired level",
+     1,
+     "Because fibres cross obliquely. (Last's page pg 625)"
+    ],
+    [
+     "Pain relief is usually permanent",
+     0,
+     "It rarely lasts more than a few months (2 years at most). (Last's page pg 625)"
+    ],
+    [
+     "It divides the medial part of the anterolateral tract",
+     0,
+     "The lateral part. (Last's page pg 625)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinocerebellar tracts",
+   "y": 1,
+   "s": "Spinocerebellar pathways (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Clarke's column spans all thoracic and first two lumbar segments",
+     1,
+     "Last's. (Last's page pg 625)"
+    ],
+    [
+     "The posterior spinocerebellar tract is uncrossed",
+     1,
+     "To the inferior peduncle. (Last's page pg 625)"
+    ],
+    [
+     "The anterior spinocerebellar tract is mostly uncrossed",
+     0,
+     "It mostly crosses. (Last's page pg 625)"
+    ],
+    [
+     "Cervical proprioception travels in the posterior spinocerebellar tract",
+     0,
+     "Via the accessory cuneate nucleus and cuneocerebellar tract. (Last's page pg 625)"
+    ]
+   ]
+  },
+  {
+   "t": "Corticospinal tract",
+   "y": 1,
+   "s": "The lateral corticospinal tract (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Lies behind the attachment of the denticulate ligament",
+     1,
+     "Last's. (Last's page pg 625)"
+    ],
+    [
+     "Arm fibres cross slightly higher than leg fibres",
+     1,
+     "Last's. (Last's page pg 625)"
+    ],
+    [
+     "About 25% of fibres supply the upper limb",
+     0,
+     "About 55% end at cervical and T1 levels; 25% for the lower limb. (Last's page pg 625)"
+    ],
+    [
+     "Most fibres synapse directly on motor neurons",
+     0,
+     "98% synapse with interneurons in laminae VII and VIII. (Last's page pg 625)"
+    ]
+   ]
+  },
+  {
+   "t": "Descending tracts",
+   "y": 1,
+   "s": "Extrapyramidal tracts in the cord (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The lateral reticulospinal tract is facilitatory",
+     1,
+     "Last's. (Last's page pg 625)"
+    ],
+    [
+     "The medial reticulospinal tract is inhibitory",
+     1,
+     "Last's. (Last's page pg 625)"
+    ],
+    [
+     "The anterior corticospinal tract reaches the sacral cord",
+     0,
+     "No lower than the upper thoracic cord. (Last's page pg 625)"
+    ],
+    [
+     "The vestibulospinal tract mainly affects distal limb muscles",
+     0,
+     "Trunk and limb girdle muscles. (Last's page pg 625)"
+    ]
+   ]
+  },
+  {
+   "t": "Motor lesions",
+   "y": 1,
+   "s": "Upper motor neuron lesions (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "A pure pyramidal lesion causes flaccid paralysis",
+     1,
+     "Last's. (Last's page pg 625-6)"
+    ],
+    [
+     "Spasticity reflects concomitant extrapyramidal involvement",
+     1,
+     "Last's. (Last's page pg 625-6)"
+    ],
+    [
+     "A pure pyramidal lesion can arise in the internal capsule",
+     0,
+     "It is possible from a lesion confined to the medullary pyramid. (Last's page pg 625-6)"
+    ],
+    [
+     "Parasagittal meningioma affects both arm areas",
+     0,
+     "It presses on the leg areas of both hemispheres. (Last's page pg 625-6)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal arteries",
+   "y": 1,
+   "s": "Spinal arteries (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The anterior spinal artery forms from both vertebral arteries",
+     1,
+     "At the foramen magnum. (Last's page pg 626)"
+    ],
+    [
+     "It supplies the cord anterior to the posterior grey columns",
+     1,
+     "Last's. (Last's page pg 626)"
+    ],
+    [
+     "The posterior spinal arteries arise from the anterior spinal artery",
+     0,
+     "From PICA or the vertebral artery. (Last's page pg 626)"
+    ],
+    [
+     "The anterior spinal artery is largest in the thoracic region",
+     0,
+     "It may become so small there that it is considered absent. (Last's page pg 626)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal arteries",
+   "y": 1,
+   "s": "Radicular arteries (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Embryonically every segment has a radicular vessel on both sides",
+     1,
+     "Last's. (Last's page pg 626)"
+    ],
+    [
+     "Adamkiewicz is slightly commoner on the left",
+     1,
+     "Last's. (Last's page pg 626)"
+    ],
+    [
+     "Adamkiewicz always accompanies T10 or T11",
+     0,
+     "It may be anywhere from T7 to L4. (Last's page pg 626)"
+    ],
+    [
+     "Lateral sacral arteries never give radicular branches",
+     0,
+     "They are among the parent vessels. (Last's page pg 626)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal veins",
+   "y": 1,
+   "s": "Spinal pial supply and veins:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Pial arteries supply the periphery of the cord",
+     1,
+     "Last's. (Last's page pg 626)"
+    ],
+    [
+     "Sacral sparing results from pial supply to superficial sacral fibres",
+     1,
+     "Last's. (Last's page pg 626)"
+    ],
+    [
+     "Posterior spinal veins are single",
+     0,
+     "Double, straddling the posterior roots. (Last's page pg 626)"
+    ],
+    [
+     "Spinal veins drain to the azygos system in the lumbar region",
+     0,
+     "To lumbar veins; azygos in the thorax. (Last's page pg 626)"
+    ]
+   ]
+  },
+  {
+   "t": "Cord injury",
+   "y": 1,
+   "s": "Spinal cord injury (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Transection above T10 abolishes effective cough",
+     1,
+     "From abdominal and lower intercostal paralysis. (Last's page pg 627)"
+    ],
+    [
+     "Perianal sensation tests conduction through the cord",
+     1,
+     "Last's. (Last's page pg 627)"
+    ],
+    [
+     "Brown-Sequard causes ipsilateral loss of pain and temperature",
+     0,
+     "Contralateral. (Last's page pg 627)"
+    ],
+    [
+     "In anterior spinal artery syndrome touch is lost",
+     0,
+     "The posterior columns and touch remain intact. (Last's page pg 627)"
+    ]
+   ]
+  },
+  {
+   "t": "Cord injury",
+   "y": 1,
+   "s": "Central cord syndrome (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "Commonly follows sudden hyperextension of the cervical spine",
+     1,
+     "Last's. (Last's page pg 627)"
+    ],
+    [
+     "Causes flaccid upper limb paralysis",
+     1,
+     "Anterior horn damage. (Last's page pg 627)"
+    ],
+    [
+     "Lower limb spasticity arises from sacral corticospinal fibres",
+     0,
+     "From lumbar fibres; sacral fibres are more superficial. (Last's page pg 627)"
+    ],
+    [
+     "It spares upper limb pain sensation",
+     0,
+     "Deep cervical anterolateral fibres are interrupted. (Last's page pg 627)"
+    ]
+   ]
+  },
+  {
+   "t": "Development",
+   "y": 1,
+   "s": "The sulcus limitans and nuclear columns (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "The alar lamina is dorsal and sensory",
+     1,
+     "Last's. (Last's page pg 627)"
+    ],
+    [
+     "Autonomic cells lie near the sulcus limitans",
+     1,
+     "Last's. (Last's page pg 627)"
+    ],
+    [
+     "Somatic cells lie nearest the sulcus limitans",
+     0,
+     "They lie further away. (Last's page pg 627)"
+    ],
+    [
+     "In the fourth ventricle efferent cells lie lateral",
+     0,
+     "They lie medial; afferent cells lateral. (Last's page pg 627)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem nuclei",
+   "y": 1,
+   "s": "Motor columns of the brainstem:",
+   "src": "Last's text",
+   "o": [
+    [
+     "Somatic motor nuclei lie near the midline",
+     1,
+     "III, IV, VI and XII. (Last's page pg 627-8)"
+    ],
+    [
+     "The branchial column is sometimes called special visceral",
+     1,
+     "Last's. (Last's page pg 627-8)"
+    ],
+    [
+     "The nucleus ambiguus has migrated medially",
+     0,
+     "It has migrated laterally. (Last's page pg 627-8)"
+    ],
+    [
+     "The Edinger-Westphal nucleus has migrated laterally",
+     0,
+     "It migrated medially, cranial to the somatic oculomotor nucleus. (Last's page pg 627-8)"
+    ]
+   ]
+  },
+  {
+   "t": "Brainstem nuclei",
+   "y": 1,
+   "s": "Afferent columns of the brainstem (Last's):",
+   "src": "Last's text",
+   "o": [
+    [
+     "From medial to lateral: visceral, branchial, somatic",
+     1,
+     "The reverse of the motor columns. (Last's page pg 628-9)"
+    ],
+    [
+     "Cochlear and vestibular nuclei form a special somatic group lying farthest laterally",
+     1,
+     "Last's. (Last's page pg 628-9)"
+    ],
+    [
+     "Each afferent column consists of several separate nuclei",
+     0,
+     "Each is a single nuclear mass. (Last's page pg 628-9)"
+    ],
+    [
+     "The dorsal nucleus of the vagus is currently regarded as mixed motor and sensory",
+     0,
+     "Recent authorities regard it as purely motor. (Last's page pg 628-9)"
+    ]
+   ]
   }
  ]
 }
