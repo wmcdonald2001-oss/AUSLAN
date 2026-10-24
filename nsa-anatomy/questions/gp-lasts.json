@@ -72,7 +72,7 @@
     [
      "The epiphyseal plate is a primary cartilaginous joint",
      1,
-     "Last's."
+     "True. In a primary cartilaginous joint bone meets hyaline cartilage directly, as at the epiphyseal plate; it allows no movement. (Last's)"
     ],
     [
      "The pubic symphysis is a primary cartilaginous joint",
@@ -123,7 +123,7 @@
     [
      "Perineurium joins fibres into fascicles",
      1,
-     "Last's."
+     "True. Endoneurium surrounds each fibre, perineurium binds fibres into fascicles and epineurium binds fascicles into the nerve. (Last's)"
     ],
     [
      "The phrenic nerve takes its own artery through the mediastinum",
@@ -184,7 +184,7 @@
     [
      "More distal joints are controlled from lower cord segments",
      1,
-     "Last's."
+     "True. For each joint further down the limb the spinal centre lies one segment lower (e.g. shoulder C5, elbow C6-7, wrist C6-7, hand C8-T1). (Last's)"
     ],
     [
      "Cutaneous nerve lesions cause proprioceptive loss",
@@ -207,12 +207,12 @@
     [
      "Where nerve and segmental artery cross, the nerve lies nearer the skin",
      1,
-     "Last's."
+     "True. Where the spinal nerve and segmental artery cross, the nerve is always the more superficial. (Last's)"
     ],
     [
      "The sympathetic trunk lies within the circle of the segmental artery",
      1,
-     "Last's."
+     "True. The sympathetic trunk lies vertically within the circle made by each segmental artery. (Last's)"
     ],
     [
      "Posterior rami supply limb muscles",
@@ -240,7 +240,7 @@
     [
      "Posterior divisions supply extensor compartments",
      1,
-     "Last's."
+     "True. Posterior divisions of the plexuses supply extensor muscles and skin; anterior divisions supply flexors. (Last's)"
     ],
     [
      "The extensor compartment has the richer nerve supply",
@@ -268,7 +268,7 @@
     [
      "The adult septum imprisons the ulnar nerve in the extensor compartment above the elbow",
      1,
-     "Last's."
+     "True. The ulnar nerve was a flexor-compartment nerve, but the medial intermuscular septum traps it behind, in the extensor compartment, above the elbow. (Last's)"
     ],
     [
      "The short head of biceps femoris developed in the flexor compartment",
@@ -291,7 +291,7 @@
     [
      "There is no dermatomal overlap across axial lines",
      1,
-     "Last's."
+     "True. Adjacent dermatomes overlap, but dermatomes meeting at an axial line are discontinuous and do not, so test across axial lines. (Last's)"
     ],
     [
      "The upper limb anterior axial line starts near the sternal angle",
@@ -319,12 +319,12 @@
     [
      "C1 has no skin supply",
      1,
-     "Last's."
+     "True. C1 usually has no cutaneous branch; C2 supplies the back of the scalp. (Last's)"
     ],
     [
      "T10 supplies the umbilicus",
      1,
-     "Last's."
+     "True. T10 supplies the umbilicus; T4 the nipple and T8 the costal margin. (Last's)"
     ],
     [
      "C7 supplies the little finger",
@@ -347,12 +347,12 @@
     [
      "L4 supplies the medial malleolus",
      1,
-     "Last's."
+     "True. L4 supplies the medial leg and malleolus; L5 the dorsum and great toe; S1 the lateral foot. (Last's)"
     ],
     [
      "S3 supplies the sitting area of the buttock",
      1,
-     "Last's."
+     "True. S3 supplies the sitting area of the buttock and the posterior scrotum or labium. (Last's)"
     ],
     [
      "L5 supplies the lateral malleolus",
@@ -375,12 +375,12 @@
     [
      "Biceps jerk is C6",
      1,
-     "Last's."
+     "True. Biceps jerk C6, triceps C7, knee L3, ankle S1. (Last's)"
     ],
     [
      "Knee jerk is L3",
      1,
-     "Last's."
+     "True. The knee jerk is mediated mainly by L3 through the femoral nerve. (Last's)"
     ],
     [
      "Ankle jerk is L5",
@@ -403,7 +403,7 @@
     [
      "Hip adduction is L2/3",
      1,
-     "Last's."
+     "True. Hip flexion, adduction and medial rotation are L2/3; extension, abduction and lateral rotation L4/5. (Last's)"
     ],
     [
      "Tibialis posterior is supplied by L4",
@@ -431,12 +431,12 @@
     [
      "The plantar response becomes flexor during the second year",
      1,
-     "Last's."
+     "True. An extensor plantar response is normal under one year; it becomes flexor in the second year. (Last's)"
     ],
     [
      "The anal and bulbocavernosus reflexes depend mainly on S3",
      1,
-     "Last's."
+     "True. The anal and bulbocavernosus reflexes depend on intact sacral segments, mainly S3. (Last's)"
     ],
     [
      "Abdominal reflexes are exaggerated in upper motor neuron lesions",
@@ -459,12 +459,12 @@
     [
      "The superior cervical ganglion represents C1-4",
      1,
-     "Last's."
+     "True. The upper four cervical ganglia fuse into the superior cervical ganglion, which gives grey rami to C1-4. (Last's)"
     ],
     [
      "Only T1-L2 give white rami",
      1,
-     "Last's."
+     "True. Only T1-L2 have lateral horn cells, so only they have white rami; every spinal nerve receives a grey ramus. (Last's)"
     ],
     [
      "Grey rami are preganglionic",
@@ -487,12 +487,12 @@
     [
      "Sacral splanchnic nerves are sympathetic",
      1,
-     "Last's."
+     "True. Sacral splanchnic nerves are sympathetic branches of the sacral trunk to the pelvic plexus. (Last's)"
     ],
     [
      "Pelvic splanchnic nerves are parasympathetic",
      1,
-     "Last's."
+     "True. Pelvic splanchnic nerves are the S2-4 parasympathetic outflow; do not confuse the two. (Last's)"
     ],
     [
      "A proximal root lesion reduces sympathetic function in the limb",
@@ -515,7 +515,7 @@
     [
      "The embryo becomes a fetus after 8 weeks",
      1,
-     "Last's."
+     "True. The developing human is called an embryo for the first eight weeks and a fetus thereafter. (Last's)"
     ],
     [
      "Neural crest gives Schwann cells",
@@ -543,12 +543,12 @@
     [
      "The stapedial artery is a second arch remnant",
      1,
-     "Last's."
+     "True. The second arch artery disappears except for the stapedial artery. (Last's)"
     ],
     [
      "Stylopharyngeus is the third arch muscle",
      1,
-     "Last's."
+     "True. Stylopharyngeus is the only muscle of the third arch, supplied by IX. (Last's)"
     ],
     [
      "The mandible ossifies in Meckel's cartilage",
@@ -576,7 +576,7 @@
     [
      "The fourth pouch forms the superior parathyroid",
      1,
-     "Last's."
+     "True. The dorsal part of the fourth pouch forms the superior parathyroid. (Last's)"
     ],
     [
      "The second pouch forms the thymus",
@@ -599,7 +599,7 @@
     [
      "A branchial fistula tracks between internal and external carotids",
      1,
-     "Last's."
+     "True. A branchial fistula runs from the tonsillar fossa between the internal and external carotids to the skin at the lower anterior border of SCM. (Last's)"
     ],
     [
      "An aberrant right subclavian makes the right laryngeal nerve non-recurrent",
@@ -627,12 +627,12 @@
     [
      "The anterior fontanelle closes at about 18 months",
      1,
-     "Last's."
+     "True. The anterior fontanelle, between frontal and parietal bones, closes at about 18 months. (Last's)"
     ],
     [
      "The posterior fontanelle closes by the end of the first year",
      1,
-     "Last's."
+     "True. The posterior fontanelle, at the lambda, closes by the end of the first year. (Last's)"
     ],
     [
      "The mastoid is aerated at birth",
@@ -655,12 +655,12 @@
     [
      "The squamous and tympanic parts ossify in membrane",
      1,
-     "Last's."
+     "True. The squamous and tympanic parts ossify in membrane; the petromastoid and styloid in cartilage. (Last's)"
     ],
     [
      "The foramen of Huschke is temporary",
      1,
-     "Last's."
+     "True. Growing flanges of the tympanic plate enclose a temporary gap, the foramen of Huschke, which normally closes in childhood. (Last's)"
     ],
     [
      "The facial nerve at birth is protected by the mastoid process",

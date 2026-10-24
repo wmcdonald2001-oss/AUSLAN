@@ -11,7 +11,7 @@
     [
      "The lateral femoral cutaneous nerve is L2, 3",
      1,
-     "Last's."
+     "True. The lateral femoral cutaneous nerve comes from the posterior divisions of L2 and L3. (Last's)"
     ],
     [
      "The femoral branch of the genitofemoral nerve is L1",
@@ -67,7 +67,7 @@
     [
      "The femoral artery always lies between the saphenous nerve and femoral vein",
      1,
-     "Last's."
+     "True. In the adductor canal the femoral artery always lies between the saphenous nerve (lateral, then crossing) and the femoral vein. (Last's)"
     ],
     [
      "The femoral vein lies lateral to the artery at the adductor hiatus",
@@ -95,12 +95,12 @@
     [
      "The tibial nerve is the most superficial of the main contents",
      1,
-     "Last's."
+     "True. From superficial to deep in the popliteal fossa: tibial nerve, popliteal vein, popliteal artery. (Last's)"
     ],
     [
      "The popliteal vein lies between the artery and the nerve",
      1,
-     "Last's."
+     "True. The vein is sandwiched between the artery (deepest) and the tibial nerve (most superficial). (Last's)"
     ],
     [
      "The common peroneal nerve runs lateral to the biceps tendon",
@@ -123,17 +123,17 @@
     [
      "The small saphenous vein",
      1,
-     "Last's."
+     "True. The small saphenous vein pierces the roof of the popliteal fossa to join the popliteal vein. (Last's)"
     ],
     [
      "The peroneal communicating nerve",
      1,
-     "Last's."
+     "True. The peroneal communicating nerve pierces the roof to join the sural nerve. (Last's)"
     ],
     [
      "The lateral cutaneous nerve of the calf",
      1,
-     "Last's."
+     "True. The lateral cutaneous nerve of the calf pierces the roof over the lateral head of gastrocnemius. (Last's)"
     ],
     [
      "The sural nerve",
@@ -161,7 +161,7 @@
     [
      "Genicular branches of the tibial nerve",
      1,
-     "Last's."
+     "True. Genicular branches of the tibial (and common peroneal) parts of the sciatic supply the knee (Hilton's law). (Last's)"
     ],
     [
      "The saphenous nerve proper",
@@ -179,12 +179,12 @@
     [
      "The femoral nerve comes from posterior divisions of L2, 3, 4",
      1,
-     "Last's."
+     "True. The femoral nerve comes from posterior divisions of L2, 3, 4, so it supplies extensors (quadriceps). (Last's)"
     ],
     [
      "The obturator nerve comes from anterior divisions of L2, 3, 4",
      1,
-     "Last's."
+     "True. The obturator nerve comes from anterior divisions of L2, 3, 4 and supplies the adductors. (Last's)"
     ],
     [
      "The accessory obturator is present in about two-thirds",
@@ -207,12 +207,12 @@
     [
      "The nerve to quadratus femoris is L4, 5, S1 from anterior divisions",
      1,
-     "Last's."
+     "True. The nerve to quadratus femoris (L4, 5, S1, anterior divisions) also supplies inferior gemellus and the hip joint. (Last's)"
     ],
     [
      "The inferior gluteal nerve is L5, S1, 2 from posterior divisions",
      1,
-     "Last's."
+     "True. The inferior gluteal nerve (L5, S1, 2) comes from posterior divisions and supplies gluteus maximus. (Last's)"
     ],
     [
      "The superior gluteal nerve comes from anterior divisions",
@@ -235,7 +235,7 @@
     [
      "The ilioinguinal is the collateral branch of the iliohypogastric",
      1,
-     "Last's."
+     "True. The ilioinguinal nerve is the collateral branch of the iliohypogastric, running parallel at a lower level. (Last's)"
     ],
     [
      "The ilioinguinal supplies the anterior third of the scrotum",
@@ -263,7 +263,7 @@
     [
      "C1, C7, C8, L4 and L5 posterior rami give no cutaneous supply",
      1,
-     "Last's."
+     "True. The posterior rami of C1, C7, C8, L4 and L5 supply muscles but no skin. (Last's)"
     ],
     [
      "Medial branches supply skin in the upper part of the trunk",
@@ -291,12 +291,12 @@
     [
      "It may arise from the femoral nerve in the iliac fossa",
      1,
-     "Last's."
+     "True. The lateral femoral cutaneous nerve may arise from the femoral nerve in the gutter between psoas and iliacus. (Last's)"
     ],
     [
      "It lies in a tunnel about 1 cm medial to the ASIS",
      1,
-     "Last's."
+     "True. It passes into the thigh in a tunnel in or under the inguinal ligament about 1 cm medial to the ASIS, a site of entrapment (meralgia paraesthetica). (Last's)"
     ],
     [
      "Its anterior branch is L2",
@@ -319,12 +319,12 @@
     [
      "It emerges from the anterior surface of psoas",
      1,
-     "Last's."
+     "True. The genitofemoral nerve emerges from the anterior surface of psoas and runs down on it. (Last's)"
     ],
     [
      "On the left it is crossed by the inferior mesenteric vein",
      1,
-     "Last's."
+     "True. On the left the nerve is crossed by the left colic vessels and inferior mesenteric vein; on the right by the ileocolic artery. (Last's)"
     ],
     [
      "On the right it is crossed by the inferior mesenteric vein",
@@ -352,7 +352,7 @@
     [
      "The nerve to vastus medialis is the largest deep branch",
      1,
-     "Last's."
+     "True. The nerve to vastus medialis is the largest deep branch and often double; it also supplies the knee. (Last's)"
     ],
     [
      "The nerve to pectineus runs in front of the femoral sheath",
@@ -380,7 +380,7 @@
     [
      "Its divisions straddle adductor brevis",
      1,
-     "Last's."
+     "True. The anterior and posterior divisions of the obturator nerve pass in front of and behind adductor brevis. (Last's)"
     ],
     [
      "Its posterior division supplies adductor longus",
@@ -403,12 +403,12 @@
     [
      "The superior gluteal nerve leaves above piriformis",
      1,
-     "Last's."
+     "True. The superior gluteal nerve and vessels leave the greater sciatic foramen above piriformis; everything else passes below it. (Last's)"
     ],
     [
      "The superior gluteal nerve ends in tensor fasciae latae",
      1,
-     "Last's."
+     "True. It runs between gluteus medius and minimus, supplying both, and ends in tensor fasciae latae. (Last's)"
     ],
     [
      "The inferior gluteal nerve enters gluteus maximus near its insertion",
@@ -436,7 +436,7 @@
     [
      "Its perineal branch supplies the lateral posterior scrotum",
      1,
-     "Last's."
+     "True. The perineal branch winds round the hamstring origin to the lateral part of the posterior scrotum or labium; the pudendal supplies the medial part. (Last's)"
     ],
     [
      "It lies deep to the sciatic nerve",
@@ -464,7 +464,7 @@
     [
      "It lies a fingerbreadth lateral to the semimembranosus tendon",
      1,
-     "Last's."
+     "True. In the thigh the sciatic nerve lies about a fingerbreadth lateral to the semimembranosus tendon, under biceps. (Last's)"
     ],
     [
      "The tibial part supplies the short head of biceps",
@@ -492,7 +492,7 @@
     [
      "The recurrent genicular nerve supplies the superior tibiofibular joint",
      1,
-     "Last's."
+     "True. The recurrent genicular nerve supplies the superior tibiofibular joint, the knee and a few fibres of tibialis anterior. (Last's)"
     ],
     [
      "It divides in the substance of peroneus brevis",
@@ -515,7 +515,7 @@
     [
      "The deep peroneal nerve supplies the skin of the first cleft",
      1,
-     "Last's."
+     "True. The deep peroneal nerve gives cutaneous supply only to the first web space (cleft) between the great and second toes. (Last's)"
     ],
     [
      "The superficial peroneal nerve supplies both peronei",
@@ -543,12 +543,12 @@
     [
      "It passes beneath the fibrous arch of soleus",
      1,
-     "Last's."
+     "True. The tibial nerve and posterior tibial vessels pass deep to the fibrous arch of soleus into the deep calf. (Last's)"
     ],
     [
      "It divides behind the medial malleolus beneath the flexor retinaculum",
      1,
-     "Last's."
+     "True. Behind the medial malleolus, under the flexor retinaculum, the tibial nerve divides into medial and lateral plantar nerves (tarsal tunnel). (Last's)"
     ],
     [
      "The sural nerve runs medial to the small saphenous vein at the ankle",
@@ -571,12 +571,12 @@
     [
      "The medial plantar nerve supplies the first lumbrical",
      1,
-     "Last's."
+     "True. The medial plantar nerve supplies abductor hallucis, flexor digitorum brevis, flexor hallucis brevis and the first lumbrical (like the median nerve). (Last's)"
     ],
     [
      "The deep branch of the lateral plantar nerve supplies adductor hallucis",
      1,
-     "Last's."
+     "True. The deep branch of the lateral plantar nerve supplies adductor hallucis, the lateral three lumbricals and most interossei (like the ulnar). (Last's)"
     ],
     [
      "The medial plantar artery lies lateral to the nerve",
@@ -599,12 +599,12 @@
     [
      "The anterior tibial becomes dorsalis pedis midway between the malleoli",
      1,
-     "Last's."
+     "True. The anterior tibial artery becomes dorsalis pedis in front of the ankle, midway between the malleoli. (Last's)"
     ],
     [
      "Dorsalis pedis lies between EHL tendon and the deep peroneal nerve",
      1,
-     "Last's."
+     "True. Dorsalis pedis lies between the EHL tendon medially and the deep peroneal nerve laterally, where its pulse is felt. (Last's)"
     ],
     [
      "The nerve to quadratus femoris supplies superior gemellus",

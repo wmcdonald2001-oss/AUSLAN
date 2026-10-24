@@ -11,12 +11,12 @@
     [
      "Grey rami carry postganglionic efferent fibres",
      1,
-     "Last's."
+     "True. Grey rami carry unmyelinated postganglionic fibres from the trunk ganglia back into every spinal nerve. (Last's)"
     ],
     [
      "White rami carry preganglionic and visceral afferent fibres",
      1,
-     "Last's."
+     "True. White rami (T1-L2 only) carry myelinated preganglionic fibres to the trunk and visceral afferents back to the cord. (Last's)"
     ],
     [
      "The suprarenal glands receive both sympathetic and parasympathetic supply",
@@ -39,7 +39,7 @@
     [
      "May compromise ejaculation",
      1,
-     "Last's."
+     "True. Sympathetic fibres from L1 contract the ductus deferens and seminal vesicles, so removing that ganglion can abolish ejaculation. (Last's)"
     ],
     [
      "Abolishes bladder emptying",
@@ -67,12 +67,12 @@
     [
      "Each has parasympathetic, sympathetic and sensory roots",
      1,
-     "Last's."
+     "True. Ciliary, pterygopalatine, submandibular and otic ganglia each receive a parasympathetic, a sympathetic and a sensory root. (Last's)"
     ],
     [
      "Only the parasympathetic fibres synapse in them",
      1,
-     "Last's."
+     "True. Sympathetic and sensory fibres pass straight through; only parasympathetic preganglionic fibres relay there. (Last's)"
     ],
     [
      "The dorsal vagal nucleus relays in a named cranial ganglion",
@@ -95,12 +95,12 @@
     [
      "The ciliary ganglion receives sympathetics from the ICA plexus",
      1,
-     "Last's."
+     "True. Postganglionic fibres from the superior cervical ganglion reach the ciliary ganglion from the internal carotid plexus. (Last's)"
     ],
     [
      "The otic ganglion receives sympathetics with the middle meningeal artery",
      1,
-     "Last's."
+     "True. The otic ganglion receives its sympathetic fibres from the plexus on the middle meningeal artery. (Last's)"
     ],
     [
      "The submandibular ganglion receives sympathetics from the ICA plexus",
@@ -151,12 +151,12 @@
     [
      "The ciliary parasympathetic root comes via the nerve to inferior oblique",
      1,
-     "Last's."
+     "True. Edinger-Westphal fibres travel in the inferior division of III and leave the nerve to inferior oblique to reach the ganglion. (Last's)"
     ],
     [
      "The ciliary sensory root comes from the nasociliary nerve",
      1,
-     "Last's."
+     "True. The sensory root comes from the nasociliary nerve; its fibres pass through the ganglion to the eyeball and cornea. (Last's)"
     ],
     [
      "The pterygopalatine sensory root comes from the mandibular nerve",
@@ -179,12 +179,12 @@
     [
      "Cranial visceral afferent cell bodies lie in the inferior ganglia of IX and X",
      1,
-     "Last's."
+     "True. Visceral afferents of IX and X have cell bodies in their inferior ganglia and end centrally in the nucleus of the tractus solitarius. (Last's)"
     ],
     [
      "Pelvic visceral afferent cell bodies lie in the S2-4 posterior root ganglia",
      1,
-     "Last's."
+     "True. Pelvic visceral afferents have cell bodies in the S2-4 posterior root ganglia and serve bladder reflexes and pelvic pain. (Last's)"
     ],
     [
      "Cranial visceral afferents end in the dorsal motor nucleus of the vagus",
@@ -207,12 +207,12 @@
     [
      "It enters behind the medial arcuate ligament",
      1,
-     "(Last's p. 365)"
+     "True. The trunk passes behind the medial arcuate ligament on the front of psoas to enter the abdomen. (Last's p. 365)"
     ],
     [
      "The right trunk lies behind the IVC",
      1,
-     "(Last's p. 365)"
+     "True. The right lumbar trunk lies behind the IVC; the left lies alongside the aorta with para-aortic nodes in front. (Last's p. 365)"
     ],
     [
      "The common iliac vessels lie behind the trunks at the pelvic brim",
@@ -235,12 +235,12 @@
     [
      "Grey rami pass to all five lumbar nerves",
      1,
-     "(Last's p. 365)"
+     "True. Every lumbar nerve receives a grey ramus, but only L1 and L2 send white rami. (Last's p. 365)"
     ],
     [
      "The superior hypogastric plexus lies in front of L5",
      1,
-     "(Last's p. 365)"
+     "True. Fibres from the aortic plexus and L3-4 splanchnics form the superior hypogastric plexus in front of L5 (the misnamed \"presacral nerve\"). (Last's p. 365)"
     ],
     [
      "White rami reach all five lumbar nerves",
@@ -263,12 +263,12 @@
     [
      "The lesser splanchnic nerve comes from T10 and T11",
      1,
-     "(Last's p. 365)"
+     "True. The lesser splanchnic nerve arises from T10 and T11 ganglia; the greater from T5-9 and the least from T12. (Last's p. 365)"
     ],
     [
      "The least splanchnic relays in a renal ganglion",
      1,
-     "(Last's p. 365)"
+     "True. The least splanchnic nerve relays in a small renal ganglion behind the renal artery, an offshoot of the coeliac ganglion. (Last's p. 365)"
     ],
     [
      "The greater splanchnic nerve comes from T1 to T4",
@@ -291,7 +291,7 @@
     [
      "The parasympathetic is the main motor supply to the bladder",
      1,
-     "(Last's p. 380)"
+     "True. Pelvic splanchnic (parasympathetic) fibres are the main motor supply of the bladder; sympathetic fibres are vasomotor and inhibit the detrusor. (Last's p. 380)"
     ],
     [
      "Sympathetic fibres contract the superficial trigone",
