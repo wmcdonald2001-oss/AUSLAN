@@ -116,6 +116,7 @@ li.bad { background: var(--false-bg); }
 .letters button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
 .letters button.right { background: var(--true); color: var(--surface); border-color: var(--true); }
 .letters button.wrong { background: var(--false); color: var(--surface); border-color: var(--false); }
+.q-head .tally { text-align: right; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
 .mq { padding: 4px 16px 8px; }
 .mq-stem { padding: 14px 0 6px; font-size: 1.05rem; font-weight: 700; text-wrap: pretty; }
 .mq-item { padding: 12px 0 14px; border-top: 1px solid var(--line); }
@@ -464,8 +465,8 @@ function renderQuestion(q, opts) {
 }
 function scoreLabel(q, score) {
   const cls = score === 1 ? 'full' : score === 0 ? 'none' : 'part';
-  const text = q.y === 1 ? `${Math.round(score * 4)}/4 statements correct` : (score === 1 ? `Correct, ${q.k}` : `Answer ${q.k}: ${KEY_TEXT[q.k]}`);
-  return h('span', { class: `score ${cls}`, text });
+  const detail = q.y === 1 ? ` · ${Math.round(score * 4)}/4 statements` : ` · answer ${q.k}`;
+  return h('span', { class: `score ${cls}`, text: `Mark ${score.toFixed(2)} out of 1.00${detail}` });
 }
 
 /* ---------- chips ---------- */
@@ -534,13 +535,6 @@ function startPractice(ids) {
   renderPractice();
 }
 function resultClass(res) { return !res ? 'todo' : res.score === 1 ? 'ok' : res.score === 0 ? 'bad' : 'part'; }
-function practiceNav() {
-  return h('div', { class: 'grid-nav solid', role: 'navigation', 'aria-label': 'Question navigation' }, ...practice.queue.map((id, i) => h('button', {
-    type: 'button', class: `${resultClass(practice.results[i])} ${i === practice.idx ? 'cur' : ''}`, text: String(i + 1),
-    'aria-label': `Question ${i + 1}${practice.results[i] ? `, ${pct(practice.results[i].score)}` : ''}`,
-    onclick: () => { practice.idx = i; practice.ans = null; practice.reveal = false; renderPractice(); },
-  })));
-}
 function renderPractice() {
   const area = $('#practice-area');
   if (!practice.queue.length) {
@@ -549,22 +543,16 @@ function renderPractice() {
   }
   const done = Object.values(practice.results);
   const total = done.reduce((a, r) => a + r.score, 0);
-  const navPanel = h('div', { class: 'panel' },
-    h('div', { class: 'row', style: 'margin-bottom:10px' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Question navigation' }),
-      h('span', { class: 'count', text: `${done.length} of ${practice.queue.length} answered${done.length ? ` · ${pct(total / done.length)}` : ''}` })),
-    practiceNav());
   if (practice.idx >= practice.queue.length) {
     const wrong = practice.queue.filter((id, i) => practice.results[i] && practice.results[i].score < 1);
     const full = done.filter((r) => r.score === 1).length;
     area.replaceChildren(
       h('div', { class: 'panel' }, h('p', { class: 'label', text: 'Block finished' }),
         h('div', { class: 'row' }, h('span', { class: 'big', text: done.length ? pct(total / done.length) : '–' }),
-          h('span', { class: 'count', text: `${done.length} of ${practice.queue.length} answered · ${full} fully correct · ${wrong.length} with mistakes` })),
-        h('p', { class: 'count', style: 'margin:10px 0 0', text: 'Tap a number to review that question.' }),
+          h('span', { class: 'count', text: `Marks ${total.toFixed(2)} out of ${done.length}.00 · ${done.length} of ${practice.queue.length} answered · ${full} fully correct · ${wrong.length} with mistakes` })),
         h('div', { class: 'row', style: 'margin-top:12px' },
           wrong.length ? h('button', { class: 'btn primary', text: `Redo the ${wrong.length} with mistakes`, onclick: () => startPractice(wrong) }) : null,
-          h('button', { class: `btn ${wrong.length ? '' : 'primary'}`, text: 'New block', onclick: () => startPractice() }))),
-      navPanel);
+          h('button', { class: `btn ${wrong.length ? '' : 'primary'}`, text: 'New block', onclick: () => startPractice() }))));
     return;
   }
   const q = QBYID[practice.queue[practice.idx]];
@@ -592,9 +580,9 @@ function renderPractice() {
   area.replaceChildren(renderQuestion(q, {
     ans, reveal: practice.reveal,
     onAnswer: practice.reveal ? null : (nextAns) => { practice.ans = nextAns; renderPractice(); },
-    headExtra: h('span', { class: 'grow', style: 'text-align:right', text: `${practice.idx + 1} of ${practice.queue.length}` }),
+    headExtra: h('span', { class: 'grow tally', text: `Answered ${done.length}/${practice.queue.length} · ${total.toFixed(2)} marks` }),
     footer: foot,
-  }), navPanel);
+  }));
 }
 
 /* ---------- exam ---------- */
