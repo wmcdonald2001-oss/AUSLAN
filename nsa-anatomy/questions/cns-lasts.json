@@ -2844,7 +2844,7 @@
     [
      "Olivocerebellar fibres decussate to enter the inferior cerebellar peduncle",
      1,
-     "Olivocerebellar fibres cross the midline and enter the opposite inferior cerebellar peduncle.\nThey end as climbing fibres. (Last's p. 610-11)"
+     "Olivocerebellar fibres cross the midline and enter the opposite inferior cerebellar peduncle.\nLast's describes olivocerebellar fibres ending as mossy fibres on granule cells (p. 618). (Last's p. 610-11)"
     ],
     [
      "The accessory cuneate nucleus conveys lower limb proprioception",
@@ -3577,7 +3577,7 @@
     [
      "Climbing fibres act through granule cells",
      0,
-     "Climbing fibres activate Purkinje cells directly. Mossy fibres act indirectly through granule cells (and basket cells).\nClimbing fibres come from the inferior olive. (Last's p. 618)"
+     "Climbing fibres activate Purkinje cells directly. Mossy fibres act indirectly through granule cells (and basket cells).\nLast's: climbing fibres are the terminals of pontine and vestibular fibres; mossy fibres of spinocerebellar and olivocerebellar fibres. (Last's p. 618)"
     ],
     [
      "Purkinje dendrites lie parallel to the long axis of a folium",
@@ -3603,9 +3603,9 @@
      "Each basket cell axon divides and arborises around the cell bodies of some 500 Purkinje cells, inhibiting them.\nBasket cells are activated by the parallel fibres of granule cells. (Last's p. 618-19)"
     ],
     [
-     "A mossy fibre directly activates a single Purkinje cell",
+     "Mossy fibres are terminals of pontine and vestibular fibres",
      0,
-     "Last's says a mossy fibre activates Purkinje cells indirectly, through granule (and basket) cells, and so influences many hundreds of them. It is the climbing fibre that directly activates one Purkinje cell.\nNote on sources: Last's text calls climbing fibres the terminals of pontine and vestibular fibres, but standard anatomy (and this bank elsewhere) says climbing fibres come from the inferior olive and mossy fibres from pontine, vestibular and spinal sources. Use the standard version. (Last's p. 618-19)"
+     "False. Last's says the climbing fibres are the terminals of pontine and vestibular fibres, and the mossy fibres are the terminals of spinocerebellar and olivocerebellar fibres. So pontine and vestibular fibres end as climbing fibres, not mossy fibres. (Last's p. 618-19)\nThe swap is the trap: climbing fibres wrap round the dendrites of one Purkinje cell and act directly; mossy fibres end as tufts on granule cells and act indirectly on many hundreds of Purkinje cells."
     ],
     [
      "Efferent fibres generally arise from the cortex",
