@@ -11,22 +11,22 @@
     [
      "It lies on the side wall of the pelvis lateral to the rectum",
      1,
-     "Within the parietal pelvic fascia. (Last's p. 399)"
+     "The inferior hypogastric (pelvic) plexus lies on the side wall of the pelvis lateral to the rectum, within the parietal pelvic fascia.\nIt is at risk in rectal surgery, causing bladder and sexual dysfunction. (Last's p. 399)"
     ],
     [
      "Its parasympathetic fibres come from S2, 3 and 4",
      1,
-     "The pelvic splanchnic nerves. (Last's p. 399)"
+     "Its parasympathetic fibres come from S2, S3 and S4 through the pelvic splanchnic nerves.\nSympathetic fibres arrive via the hypogastric nerves. (Last's p. 399)"
     ],
     [
      "It measures about 2 cm anteroposteriorly",
      0,
-     "Nearly 5 cm anteroposteriorly, 2 cm vertically. (Last's p. 399)"
+     "Last's says the plexus measures nearly 5 cm anteroposteriorly (and 2 cm vertically), not 2 cm anteroposteriorly.\nA dimension trap. (Last's p. 399)"
     ],
     [
      "All parasympathetic fibres relay in its ganglia",
      0,
-     "They pass through and relay in the walls of the viscera. (Last's p. 399)"
+     "The parasympathetic fibres pass through the plexus and relay in the walls of the viscera. Only some sympathetic fibres relay in its ganglia.\nParasympathetic ganglia lie close to or in their targets. (Last's p. 399)"
     ]
    ]
   },
@@ -39,22 +39,22 @@
     [
      "The detrusor is supplied by the pelvic splanchnics",
      1,
-     "True. The parasympathetic pelvic splanchnic nerves (S2-4) are the motor supply to the detrusor, so they empty the bladder. (Last's p. 399)"
+     "The parasympathetic pelvic splanchnic nerves (S2 to S4) are the motor supply to the detrusor, so they empty the bladder.\nDamage causes urinary retention. (Last's p. 399)"
     ],
     [
      "The internal urethral sphincter is supplied through the superior hypogastric plexus",
      1,
-     "Sympathetic. (Last's p. 399)"
+     "The internal urethral sphincter is supplied by sympathetic fibres coming through the superior hypogastric plexus.\nIt closes during ejaculation. (Last's p. 399)"
     ],
     [
      "The internal anal sphincter is supplied by the pelvic splanchnics",
      0,
-     "By sacral sympathetic ganglia branches through the pelvic plexus. (Last's p. 399)"
+     "The internal anal sphincter is supplied by sympathetic fibres (from sacral sympathetic ganglia) through the pelvic plexus, not by the pelvic splanchnics.\nThe pelvic splanchnics relax it. (Last's p. 399)"
     ],
     [
      "Pain from the uterine body runs with the pelvic splanchnics",
      0,
-     "With the hypogastric nerves to T10-L1; lower cervix pain runs with the parasympathetics. (Last's p. 399)"
+     "Pain from the body of the uterus runs with the hypogastric (sympathetic) nerves to T10 to L1. Pain from the lower cervix runs with the parasympathetics.\nThe pain pathway follows the \"pelvic pain line\". (Last's p. 399)"
     ]
    ]
   },
@@ -67,22 +67,22 @@
     [
      "The pelvic splanchnics supply the colon from the splenic flexure distally",
      1,
-     "True. Pelvic splanchnic fibres run up through the hypogastric plexuses or behind the peritoneum to the hindgut, from the splenic flexure down to the rectum. (Last's p. 399-400)"
+     "Pelvic splanchnic fibres run up through the hypogastric plexuses or behind the peritoneum to supply the hindgut, from the splenic flexure down to the rectum.\nThe vagus supplies proximal to this. (Last's p. 399-400)"
     ],
     [
      "Sympathetics are motor to the ductus deferens and seminal vesicles",
      1,
-     "True. Sympathetic fibres contract the ductus deferens, seminal vesicles and prostatic muscle (emission), and the bladder neck sphincter. (Last's p. 399-400)"
+     "Sympathetic fibres contract the ductus deferens, seminal vesicles and prostatic muscle (emission), and the bladder neck sphincter.\nErection is parasympathetic. (Last's p. 399-400)"
     ],
     [
      "The descending colon receives sensory supply from pelvic splanchnics",
      0,
-     "Its sensory supply is sympathetic. (Last's p. 399-400)"
+     "The sensory supply of the descending colon is sympathetic; pain from it travels with sympathetic fibres.\nThe pelvic splanchnics carry sensation from the rectum and lower pelvic organs. (Last's p. 399-400)"
     ],
     [
      "Rectal pain is referred to L1 dermatome",
      0,
-     "To S2-4 (posterior femoral cutaneous), mimicking sciatica. (Last's p. 399-400)"
+     "Rectal pain carried by the pelvic splanchnics is referred to S2 to S4 (posterior femoral cutaneous territory), mimicking sciatica, not to L1.\nVisceral pain refers to the dermatomes of its afferent segments. (Last's p. 399-400)"
     ]
    ]
   },
@@ -95,22 +95,22 @@
     [
      "Stretch afferents travel in the pelvic splanchnic nerves",
      1,
-     "To sacral segments. (Last's p. 382-3)"
+     "Stretch afferents from the bladder travel in the pelvic splanchnic nerves to the sacral segments.\nThey trigger the micturition reflex. (Last's p. 382-3)"
     ],
     [
      "The detrusor motor centre lies in the medial pontine reticular formation",
      1,
-     "True. A detrusor motor centre in the medial pontine reticular formation is controlled by a cortical inhibitory centre; reticulospinal fibres descend to the sacral cord. (Last's p. 382-3)"
+     "Last's says a detrusor motor centre lies in the medial pontine reticular formation, controlled by a cortical inhibitory centre; reticulospinal fibres descend to the sacral cord.\nThis pontine micturition centre coordinates detrusor and sphincter. (Last's p. 382-3)"
     ],
     [
      "The external sphincter is supplied by the inferior rectal nerve",
      0,
-     "By the perineal branch of the pudendal nerve. (Last's p. 382-3)"
+     "The external urethral sphincter is supplied by the perineal branch of the pudendal nerve. The inferior rectal nerve supplies the external anal sphincter.\nDifferent branches of the pudendal nerve. (Last's p. 382-3)"
     ],
     [
      "Destruction of the sacral segments causes automatic reflex emptying",
      0,
-     "It paralyses the detrusor with overflow incontinence; transection above S2 causes automatic emptying. (Last's p. 382-3)"
+     "Destruction of the sacral segments paralyses the detrusor, causing overflow incontinence. Automatic reflex emptying follows transection above S2.\nUpper motor neurone bladder empties reflexly; lower motor neurone bladder overflows. (Last's p. 382-3)"
     ]
    ]
   },
@@ -123,22 +123,22 @@
     [
      "Its apex attaches to the transverse process of L5",
      1,
-     "True. The ligament is a sideways V whose apex is on the L5 transverse process, with upper and lower bands fanning out to the ilium. (Last's p. 414)"
+     "The iliolumbar ligament is a sideways V whose apex is on the L5 transverse process, with upper and lower bands fanning out to the ilium.\nIt anchors L5 to the pelvis. (Last's p. 414)"
     ],
     [
      "Its upper band gives partial origin to quadratus lumborum",
      1,
-     "True. The upper band runs to the iliac crest, gives partial origin to quadratus lumborum and is continuous with the lumbar fascia. (Last's p. 414)"
+     "Its upper band runs to the iliac crest, gives partial origin to quadratus lumborum and is continuous with the lumbar fascia.\nSo it forms part of the posterior abdominal wall. (Last's p. 414)"
     ],
     [
      "Its lower band blends with the dorsal sacroiliac ligament",
      0,
-     "With the ventral sacroiliac ligament. (Last's p. 414)"
+     "The lower band blends with the ventral sacroiliac ligament, not the dorsal one.\nIt lies in front of the joint. (Last's p. 414)"
     ],
     [
      "Its upper band attaches to the ischial spine",
      0,
-     "To the iliac crest. (Last's p. 414)"
+     "The upper band attaches to the iliac crest, not the ischial spine.\nThe sacrospinous ligament attaches to the ischial spine. (Last's p. 414)"
     ]
    ]
   },
@@ -151,22 +151,22 @@
     [
      "It arises from S2, 3 and 4",
      1,
-     "True. The pudendal nerve arises from the anterior divisions of S2, 3 and 4. (Last's p. 414)"
+     "The pudendal nerve arises from the anterior divisions of S2, S3 and S4.\nIt supplies the perineum. (Last's p. 414)"
     ],
     [
      "It lies medial to the pudendal vessels",
      1,
-     "True. It leaves the pelvis below piriformis, crosses the sacrospinous ligament medial to the internal pudendal vessels and enters the pudendal canal. (Last's p. 414)"
+     "The pudendal nerve leaves the pelvis below piriformis and crosses the sacrospinous ligament medial to the internal pudendal vessels before entering the pudendal canal.\nSo the nerve is the most medial structure at this point. (Last's p. 414)"
     ],
     [
      "The inferior rectal nerve supplies the internal anal sphincter",
      0,
-     "It supplies the external anal sphincter. (Last's p. 414)"
+     "The inferior rectal nerve supplies the external anal sphincter (striated), not the internal sphincter (smooth muscle).\nThe internal sphincter has autonomic supply. (Last's p. 414)"
     ],
     [
      "The dorsal nerve of the penis supplies the skin of the dorsum at the root",
      0,
-     "The ilioinguinal nerve does. (Last's p. 414)"
+     "The skin of the dorsum of the penis at its root is supplied by the ilioinguinal nerve (L1), not the dorsal nerve.\nThe dorsal nerve supplies the rest of the penis. (Last's p. 414)"
     ]
    ]
   },
@@ -179,22 +179,22 @@
     [
      "It arises by eight digitations from the lower eight ribs",
      1,
-     "True. Its upper four slips interdigitate with serratus anterior and its lower four with latissimus dorsi. (Last's p. 414)"
+     "External oblique arises by eight digitations from the lower eight ribs. Its upper four slips interdigitate with serratus anterior and its lower four with latissimus dorsi.\nThe fibres run down and forward (\"hands in pockets\"). (Last's p. 414)"
     ],
     [
      "Its lower aponeurotic border forms the inguinal ligament",
      1,
-     "True. Between the anterior superior iliac spine and the pubic tubercle the free lower border of the aponeurosis is rolled in as the inguinal ligament. (Last's p. 414)"
+     "Between the anterior superior iliac spine and the pubic tubercle the free lower border of the external oblique aponeurosis is rolled in as the inguinal ligament.\nIt forms the floor of the inguinal canal. (Last's p. 414)"
     ],
     [
      "Its upper four digitations interdigitate with latissimus dorsi",
      0,
-     "With serratus anterior; the lower four with latissimus dorsi. (Last's p. 414)"
+     "The upper four digitations interdigitate with serratus anterior; the lower four with latissimus dorsi.\nThe statement swaps them. (Last's p. 414)"
     ],
     [
      "Its posterior muscular border forms the posterior boundary of the lumbar triangle",
      0,
-     "The anterior boundary. (Last's p. 414)"
+     "The posterior muscular border of external oblique forms the anterior boundary of the lumbar triangle (of Petit). Latissimus dorsi forms the posterior boundary.\nThe iliac crest forms the base. (Last's p. 414)"
     ]
    ]
   },
@@ -207,22 +207,22 @@
     [
      "The internal oblique arises from the lateral two-thirds of the inguinal ligament",
      1,
-     "True. Internal oblique arises from the lumbar fascia, the anterior two-thirds of the iliac crest and the lateral two-thirds of the inguinal ligament; transversus only from the lateral half. (Last's p. 414)"
+     "Internal oblique arises from the lumbar fascia, the anterior two-thirds of the iliac crest and the lateral two-thirds of the inguinal ligament.\nTransversus arises from only the lateral half of the ligament. (Last's p. 414)"
     ],
     [
      "Below the arcuate line the transversus aponeurosis passes in front of rectus",
      1,
-     "True. Below the arcuate line all three aponeuroses pass in front of rectus, leaving only transversalis fascia behind it. (Last's p. 414)"
+     "Below the arcuate line all three aponeuroses, including transversus, pass in front of rectus, leaving only transversalis fascia behind it.\nAbove the line, internal oblique splits around rectus. (Last's p. 414)"
     ],
     [
      "Transversus arises from the lateral two-thirds of the inguinal ligament",
      0,
-     "From the lateral half. (Last's p. 414)"
+     "Transversus arises from the lateral half (one-third in some texts) of the inguinal ligament, not two-thirds.\nInternal oblique takes the lateral two-thirds. (Last's p. 414)"
     ],
     [
      "The conjoint tendon attaches to the anterior superior iliac spine",
      0,
-     "To the pubic crest and pectineal line. (Last's p. 414)"
+     "The conjoint tendon attaches to the pubic crest and pectineal line, not the anterior superior iliac spine.\nIt reinforces the medial part of the posterior wall of the canal. (Last's p. 414)"
     ]
    ]
   },
@@ -235,22 +235,22 @@
     [
      "Pyramidalis is supplied by T12",
      1,
-     "True. Pyramidalis and the lowest part of rectus are supplied by the subcostal nerve (T12). (Last's p. 414)"
+     "Pyramidalis and the lowest part of rectus abdominis are supplied by the subcostal nerve (T12).\nPyramidalis tenses the linea alba. (Last's p. 414)"
     ],
     [
      "The nerves run between internal oblique and transversus",
      1,
-     "True. The lower intercostal and subcostal nerves run forwards in the neurovascular plane between internal oblique and transversus, as in the thorax. (Last's p. 414)"
+     "The lower intercostal and subcostal nerves run forward in the neurovascular plane between internal oblique and transversus, as in the thorax.\nIncisions that cut across them cause muscle weakness. (Last's p. 414)"
     ],
     [
      "T7 runs obliquely downwards in the sheath",
      0,
-     "T7 runs upwards just below the costal margin. (Last's p. 414)"
+     "T7 runs upward just below the costal margin, not obliquely downward in the sheath.\nThe lower nerves run progressively more obliquely downward. (Last's p. 414)"
     ],
     [
      "The ilioinguinal nerve enters the inguinal canal through the deep ring",
      0,
-     "It enters from the side. (Last's p. 414)"
+     "The ilioinguinal nerve enters the inguinal canal from the side, by piercing internal oblique, not through the deep ring.\nThen it emerges through the superficial ring. (Last's p. 414)"
     ]
    ]
   },
@@ -263,22 +263,22 @@
     [
      "The genital branch of genitofemoral supplies cremaster",
      1,
-     "True. The genital branch passes through the deep ring into the cord coverings and is motor to cremaster and sensory to the spermatic fasciae. (Last's p. 414)"
+     "The genital branch of the genitofemoral nerve passes through the deep ring into the cord coverings. It is motor to cremaster and sensory to the spermatic fasciae.\nIt forms the efferent limb of the cremasteric reflex. (Last's p. 414)"
     ],
     [
      "The ilioinguinal is sensory only within the canal",
      1,
-     "True. Its motor fibres to internal oblique and transversus leave before it enters the canal, so injury in the canal does not weaken the conjoint tendon. (Last's p. 414)"
+     "Within the canal the ilioinguinal nerve is sensory only; its motor fibres to internal oblique and transversus leave before it enters.\nSo injury in the canal causes only numbness. (Last's p. 414)"
     ],
     [
      "Damage to the ilioinguinal nerve in the canal weakens the conjoint tendon",
      0,
-     "Its motor branch arises before the canal. (Last's p. 414)"
+     "Damage to the ilioinguinal nerve in the canal does not weaken the conjoint tendon, because its motor branch arises before the canal.\nA Last's point. (Last's p. 414)"
     ],
     [
      "The testis has parasympathetic supply from the vagus",
      0,
-     "Sympathetic only, mainly T10. (Last's p. 414)"
+     "The testis has a sympathetic supply only (mainly T10), with no parasympathetic supply from the vagus.\nThe vagus does not reach the gonads. (Last's p. 414)"
     ]
    ]
   },
@@ -291,22 +291,22 @@
     [
      "Central diaphragmatic peritoneum is supplied by the phrenic nerve",
      1,
-     "True. The central diaphragmatic peritoneum is supplied by the phrenic nerve (C3-5), so pain here is referred to the shoulder tip; the periphery is supplied by intercostal nerves. (Last's p. 414)"
+     "The central diaphragmatic peritoneum is supplied by the phrenic nerve (C3 to C5), so pain here is referred to the shoulder tip. The periphery is supplied by intercostal nerves.\nSubphrenic abscess can cause shoulder pain. (Last's p. 414)"
     ],
     [
      "The obturator nerve is the chief supply of pelvic parietal peritoneum",
      1,
-     "True. The obturator nerve is the chief supply of pelvic parietal peritoneum, so pelvic peritonitis may refer pain to the medial thigh. (Last's p. 414)"
+     "The obturator nerve is the chief supply of the pelvic parietal peritoneum, so pelvic peritonitis may refer pain to the medial thigh.\nAlso seen with a pelvic appendix. (Last's p. 414)"
     ],
     [
      "Meissner's plexus lies between the muscle layers",
      0,
-     "That is Auerbach's; Meissner's is submucosal. (Last's p. 414)"
+     "The myenteric (Auerbach's) plexus lies between the muscle layers; Meissner's plexus is submucosal.\nAuerbach's controls motility, Meissner's secretion. (Last's p. 414)"
     ],
     [
      "Highly selective vagotomy cuts the nerves to the pylorus",
      0,
-     "It cuts only branches to fundus and body. (Last's p. 414)"
+     "Highly selective vagotomy cuts only the branches to the fundus and body; the nerves to the pylorus are preserved.\nSo emptying is maintained. (Last's p. 414)"
     ]
    ]
   },
@@ -319,22 +319,22 @@
     [
      "The genitofemoral nerve emerges from its anterior surface",
      1,
-     "True. The genitofemoral nerve is the only branch to emerge from the anterior surface of psoas; the obturator and lumbosacral trunk emerge medially, the rest laterally. (Last's p. 414)"
+     "The genitofemoral nerve is the only branch of the lumbar plexus to emerge from the anterior surface of psoas. The obturator nerve and lumbosacral trunk emerge medially, the others laterally.\nA useful identification rule. (Last's p. 414)"
     ],
     [
      "The obturator nerve emerges from its medial border",
      1,
-     "With the lumbosacral trunk. (Last's p. 414)"
+     "The obturator nerve emerges from the medial border of psoas, with the lumbosacral trunk.\nIt then runs along the pelvic side wall. (Last's p. 414)"
     ],
     [
      "The femoral nerve emerges from its medial border",
      0,
-     "Its lateral border. (Last's p. 414)"
+     "The femoral nerve emerges from the lateral border of psoas, in the groove between psoas and iliacus.\nThe obturator is medial. (Last's p. 414)"
     ],
     [
      "It is supplied mainly by L4",
      0,
-     "By L1-3, mainly L2. (Last's p. 414)"
+     "Psoas major is supplied by L1 to L3, mainly L2, not L4.\nL4 supplies more of quadriceps. (Last's p. 414)"
     ]
    ]
   },
@@ -347,22 +347,22 @@
     [
      "Quadratus lumborum lies in the anterior compartment of the lumbar fascia",
      1,
-     "True. The anterior and middle layers of the lumbar fascia enclose quadratus lumborum; erector spinae lies in the posterior compartment. (Last's p. 414)"
+     "The anterior and middle layers of the lumbar fascia enclose quadratus lumborum; erector spinae lies in the posterior compartment, between the middle and posterior layers.\nThree layers, two compartments. (Last's p. 414)"
     ],
     [
      "The middle layer attaches to the tips of the lumbar transverse processes",
      1,
-     "True. The middle layer attaches to the tips of the lumbar transverse processes; the anterior layer to their bases. (Last's p. 414)"
+     "The middle layer of the lumbar fascia attaches to the tips of the lumbar transverse processes; the anterior layer to their bases (front).\nThe posterior layer attaches to the spines. (Last's p. 414)"
     ],
     [
      "Psoas minor is present in about 90% of people",
      0,
-     "In about two-thirds. (Last's p. 414)"
+     "Last's says psoas minor is present in about two-thirds of people, not 90 percent.\nIt is absent in many. (Last's p. 414)"
     ],
     [
      "The psoas fascia is part of the lumbar fascia",
      0,
-     "It is not, though its edge blends with the anterior layer. (Last's p. 414)"
+     "Last's says the psoas fascia is not part of the lumbar fascia, though its lateral edge blends with the anterior layer.\nA psoas abscess stays within its own sheath. (Last's p. 414)"
     ]
    ]
   },
@@ -375,22 +375,22 @@
     [
      "It passes beneath the lateral arcuate ligament",
      1,
-     "True. The subcostal nerve and vessels leave the thorax behind the lateral arcuate ligament and run along the 12th rib in front of quadratus lumborum. (Last's p. 360)"
+     "The subcostal nerve and vessels leave the thorax behind the lateral arcuate ligament and run along the 12th rib in front of quadratus lumborum.\nThey then enter the abdominal wall. (Last's p. 360)"
     ],
     [
      "It lies behind the kidney",
      1,
-     "With the iliohypogastric and ilioinguinal nerves. (Last's p. 360)"
+     "The subcostal bundle lies behind the kidney, with the iliohypogastric and ilioinguinal nerves.\nThese nerves can be irritated by renal disease, referring pain to the groin. (Last's p. 360)"
     ],
     [
      "The nerve lies above the vessels",
      0,
-     "Below them. (Last's p. 360)"
+     "The subcostal nerve lies below its vessels (vein, artery, nerve from above down).\nThe same order as in the intercostal spaces. (Last's p. 360)"
     ],
     [
      "The adrenal cortex arises from neural crest",
      0,
-     "From intermediate mesoderm; the medulla is neural crest. (Last's p. 360)"
+     "The adrenal cortex arises from intermediate mesoderm; the medulla comes from neural crest.\nTwo different origins. (Last's p. 360)"
     ]
    ]
   },
@@ -403,22 +403,22 @@
     [
      "It covers obturator internus and piriformis",
      1,
-     "True. The parietal pelvic fascia covers obturator internus and piriformis and is firmly attached to the periosteum at their margins. (Last's p. 360)"
+     "The parietal pelvic fascia covers obturator internus and piriformis and is firmly attached to the periosteum at their margins.\nIt forms the tendinous arch for levator ani. (Last's p. 360)"
     ],
     [
      "The sacral plexus lies behind it",
      1,
-     "Between it and piriformis. (Last's p. 360)"
+     "The sacral plexus lies behind the parietal pelvic fascia, between it and piriformis.\nNerves lie outside the fascia. (Last's p. 360)"
     ],
     [
      "Pelvic nerves lie inside the fascia and vessels outside it",
      0,
-     "Nerves lie external; vessels internal. (Last's p. 360)"
+     "Last's principle is the reverse: nerves lie outside (external to) the fascia and vessels inside it.\nSo vessels must pierce the fascia to leave the pelvis. (Last's p. 360)"
     ],
     [
      "Sacral plexus branches to the buttock pierce the fascia",
      0,
-     "They do not pierce it. (Last's p. 360)"
+     "Because the sacral plexus lies behind the fascia, its branches to the buttock do not need to pierce it.\nThe gluteal vessels do pierce it. (Last's p. 360)"
     ]
    ]
   }

@@ -11,22 +11,22 @@
     [
      "Grey rami carry postganglionic efferent fibres",
      1,
-     "True. Grey rami carry unmyelinated postganglionic fibres from the trunk ganglia back into every spinal nerve. (Last's)"
+     "Grey rami carry unmyelinated postganglionic fibres from the trunk ganglia back into every spinal nerve.\nThey are present at all levels."
     ],
     [
      "White rami carry preganglionic and visceral afferent fibres",
      1,
-     "True. White rami (T1-L2 only) carry myelinated preganglionic fibres to the trunk and visceral afferents back to the cord. (Last's)"
+     "White rami (T1 to L2 only) carry myelinated preganglionic fibres to the trunk and visceral afferents back to the cord.\nSo white rami are limited to the outflow segments."
     ],
     [
      "The suprarenal glands receive both sympathetic and parasympathetic supply",
      0,
-     "Suprarenals and gonads have only sympathetic supply."
+     "The suprarenals and gonads have only sympathetic supply.\nNo parasympathetic fibres reach them."
     ],
     [
      "Parasympathetic fibres supply the limbs",
      0,
-     "Parasympathetic supply is wholly visceral."
+     "Parasympathetic supply is wholly visceral; no parasympathetic fibres supply the limbs.\nAll limb autonomic supply is sympathetic."
     ]
    ]
   },
@@ -39,22 +39,22 @@
     [
      "May compromise ejaculation",
      1,
-     "True. Sympathetic fibres from L1 contract the ductus deferens and seminal vesicles, so removing that ganglion can abolish ejaculation. (Last's)"
+     "Sympathetic fibres from L1 contract the ductus deferens and seminal vesicles, so removing that ganglion can abolish ejaculation (emission).\nBilateral L1 sympathectomy is avoided in young men."
     ],
     [
      "Abolishes bladder emptying",
      0,
-     "Detrusor is parasympathetic."
+     "Bladder emptying depends on the parasympathetic detrusor supply, so lumbar sympathectomy does not abolish it.\nThe detrusor is S2 to S4."
     ],
     [
      "Abolishes penile erection",
      0,
-     "Erection is parasympathetic (pelvic splanchnic)."
+     "Erection is parasympathetic (pelvic splanchnic), so sympathectomy does not abolish it.\n\"Point and shoot\": parasympathetic points, sympathetic shoots."
     ],
     [
      "Removes vasoconstrictor supply to parts of the lower limb",
      1,
-     "Grey rami to lumbar nerves carry vasoconstrictor fibres to the lower limb."
+     "Grey rami to the lumbar nerves carry vasoconstrictor fibres to the lower limb, so sympathectomy removes this supply and increases skin blood flow.\nThat is its purpose in vascular disease."
     ]
    ]
   },
@@ -67,22 +67,22 @@
     [
      "Each has parasympathetic, sympathetic and sensory roots",
      1,
-     "True. Ciliary, pterygopalatine, submandibular and otic ganglia each receive a parasympathetic, a sympathetic and a sensory root. (Last's)"
+     "Each of the cranial parasympathetic ganglia (ciliary, pterygopalatine, submandibular and otic) receives a parasympathetic, a sympathetic and a sensory root.\nOnly the first synapses."
     ],
     [
      "Only the parasympathetic fibres synapse in them",
      1,
-     "True. Sympathetic and sensory fibres pass straight through; only parasympathetic preganglionic fibres relay there. (Last's)"
+     "Sympathetic and sensory fibres pass straight through the cranial ganglia; only parasympathetic preganglionic fibres relay there.\nA rule worth memorising."
     ],
     [
      "The dorsal vagal nucleus relays in a named cranial ganglion",
      0,
-     "Its fibres relay in the walls of the viscera."
+     "Fibres from the dorsal vagal nucleus relay in ganglia in the walls of the viscera, not in a named cranial ganglion.\nThe vagus has no named head ganglion for its efferents."
     ],
     [
      "The sympathetic roots come from T5 to T8",
      0,
-     "From T1-3 via the superior cervical ganglion."
+     "The sympathetic roots of the cranial ganglia come from T1 to T3, relaying in the superior cervical ganglion.\nT5 to T8 supply the abdomen."
     ]
    ]
   },
@@ -95,22 +95,22 @@
     [
      "The ciliary ganglion receives sympathetics from the ICA plexus",
      1,
-     "True. Postganglionic fibres from the superior cervical ganglion reach the ciliary ganglion from the internal carotid plexus. (Last's)"
+     "Postganglionic fibres from the superior cervical ganglion reach the ciliary ganglion from the internal carotid plexus.\nThey then pass to dilator pupillae and vessels."
     ],
     [
      "The otic ganglion receives sympathetics with the middle meningeal artery",
      1,
-     "True. The otic ganglion receives its sympathetic fibres from the plexus on the middle meningeal artery. (Last's)"
+     "The otic ganglion receives its sympathetic fibres from the plexus on the middle meningeal artery.\nA branch of the external carotid system."
     ],
     [
      "The submandibular ganglion receives sympathetics from the ICA plexus",
      0,
-     "From the facial artery plexus (ECA)."
+     "The submandibular ganglion receives sympathetic fibres from the plexus on the facial artery (external carotid), not the internal carotid plexus.\nExternal carotid ganglia: otic and submandibular."
     ],
     [
      "The pterygopalatine ganglion receives sympathetics with the maxillary artery",
      0,
-     "Via the deep petrosal nerve from the ICA plexus."
+     "The pterygopalatine ganglion receives sympathetic fibres via the deep petrosal nerve from the internal carotid plexus, not with the maxillary artery.\nThe deep petrosal joins the greater petrosal at foramen lacerum."
     ]
    ]
   },
@@ -123,22 +123,22 @@
     [
      "Its parasympathetic root is the lesser petrosal nerve",
      1,
-     "From the inferior salivary nucleus."
+     "The parasympathetic root of the otic ganglion is the lesser petrosal nerve, carrying fibres from the inferior salivary nucleus via IX.\nFor the parotid."
     ],
     [
      "It has a somatic motor root from the nerve to medial pterygoid",
      1,
-     "Unique among the cranial ganglia."
+     "The otic ganglion has a somatic motor root from the nerve to medial pterygoid, unique among the cranial ganglia.\nIts fibres pass to the two tensors."
     ],
     [
      "Its secretomotor fibres reach the parotid via the facial nerve",
      0,
-     "Via the auriculotemporal nerve."
+     "Secretomotor fibres from the otic ganglion reach the parotid via the auriculotemporal nerve, not the facial nerve.\nVII only passes through the gland."
     ],
     [
      "Motor fibres to tensor tympani synapse in it",
      0,
-     "They pass through without synapse."
+     "Motor fibres to tensor tympani pass through the otic ganglion without synapse.\nSomatic motor fibres never synapse in autonomic ganglia."
     ]
    ]
   },
@@ -151,22 +151,22 @@
     [
      "The ciliary parasympathetic root comes via the nerve to inferior oblique",
      1,
-     "True. Edinger-Westphal fibres travel in the inferior division of III and leave the nerve to inferior oblique to reach the ganglion. (Last's)"
+     "Edinger–Westphal fibres travel in the inferior division of III and leave in the nerve to inferior oblique to reach the ciliary ganglion.\nThis is its parasympathetic root."
     ],
     [
      "The ciliary sensory root comes from the nasociliary nerve",
      1,
-     "True. The sensory root comes from the nasociliary nerve; its fibres pass through the ganglion to the eyeball and cornea. (Last's)"
+     "The sensory root of the ciliary ganglion comes from the nasociliary nerve; its fibres pass through to the eyeball and cornea.\nSo the corneal reflex can use them."
     ],
     [
      "The pterygopalatine sensory root comes from the mandibular nerve",
      0,
-     "From the maxillary nerve."
+     "The sensory root of the pterygopalatine ganglion comes from the maxillary nerve (its ganglionic branches), not the mandibular nerve.\nThe ganglion hangs from V2."
     ],
     [
      "Pterygopalatine postganglionic lacrimal fibres travel in the nasociliary nerve",
      0,
-     "Via the zygomatic and lacrimal nerves."
+     "Postganglionic lacrimal fibres from the pterygopalatine ganglion travel via the zygomatic and lacrimal nerves, not the nasociliary nerve.\nThe nasociliary is sensory to the eye."
     ]
    ]
   },
@@ -179,22 +179,22 @@
     [
      "Cranial visceral afferent cell bodies lie in the inferior ganglia of IX and X",
      1,
-     "True. Visceral afferents of IX and X have cell bodies in their inferior ganglia and end centrally in the nucleus of the tractus solitarius. (Last's)"
+     "The visceral afferents of IX and X have cell bodies in their inferior ganglia and end centrally in the nucleus of the tractus solitarius.\nLike dorsal root ganglia for the cranial nerves."
     ],
     [
      "Pelvic visceral afferent cell bodies lie in the S2-4 posterior root ganglia",
      1,
-     "True. Pelvic visceral afferents have cell bodies in the S2-4 posterior root ganglia and serve bladder reflexes and pelvic pain. (Last's)"
+     "Pelvic visceral afferents have cell bodies in the S2 to S4 posterior root ganglia and serve bladder reflexes and pelvic pain.\nThey travel in the pelvic splanchnic nerves."
     ],
     [
      "Cranial visceral afferents end in the dorsal motor nucleus of the vagus",
      0,
-     "In the nucleus of the tractus solitarius."
+     "Cranial visceral afferents end in the nucleus of the tractus solitarius, not the dorsal motor nucleus of the vagus.\nThe dorsal motor nucleus is purely efferent."
     ],
     [
      "About 10% of abdominal vagal fibres are afferent",
      0,
-     "About 90%."
+     "About 90 percent of abdominal vagal fibres are afferent, not 10 percent.\nThe vagus is mainly sensory."
     ]
    ]
   },
@@ -207,22 +207,22 @@
     [
      "It enters behind the medial arcuate ligament",
      1,
-     "True. The trunk passes behind the medial arcuate ligament on the front of psoas to enter the abdomen. (Last's p. 365)"
+     "The lumbar sympathetic trunk passes behind the medial arcuate ligament, on the front of psoas, to enter the abdomen.\nIt continues the thoracic trunk. (Last's p. 365)"
     ],
     [
      "The right trunk lies behind the IVC",
      1,
-     "True. The right lumbar trunk lies behind the IVC; the left lies alongside the aorta with para-aortic nodes in front. (Last's p. 365)"
+     "The right lumbar trunk lies behind the IVC; the left lies alongside the aorta, with para-aortic nodes in front.\nSo the right is harder to find surgically. (Last's p. 365)"
     ],
     [
      "The common iliac vessels lie behind the trunks at the pelvic brim",
      0,
-     "They lie in front. (Last's p. 365)"
+     "The common iliac vessels lie in front of the trunks at the pelvic brim.\nThe trunks pass behind them into the pelvis. (Last's p. 365)"
     ],
     [
      "There are usually six lumbar ganglia",
      0,
-     "Usually four. (Last's p. 365)"
+     "There are usually four lumbar ganglia, not six.\nFusion reduces their number. (Last's p. 365)"
     ]
    ]
   },
@@ -235,22 +235,22 @@
     [
      "Grey rami pass to all five lumbar nerves",
      1,
-     "True. Every lumbar nerve receives a grey ramus, but only L1 and L2 send white rami. (Last's p. 365)"
+     "Every lumbar nerve receives a grey ramus, but only L1 and L2 send white rami.\nGrey rami go everywhere; white rami only from the outflow segments. (Last's p. 365)"
     ],
     [
      "The superior hypogastric plexus lies in front of L5",
      1,
-     "True. Fibres from the aortic plexus and L3-4 splanchnics form the superior hypogastric plexus in front of L5 (the misnamed \"presacral nerve\"). (Last's p. 365)"
+     "Fibres from the aortic plexus and the L3 and L4 splanchnic nerves form the superior hypogastric plexus in front of L5. Last's notes it is misnamed the \"presacral nerve\".\nIt lies in front of the lumbosacral junction. (Last's p. 365)"
     ],
     [
      "White rami reach all five lumbar nerves",
      0,
-     "Only the first two lumbar nerves give white rami. (Last's p. 365)"
+     "White rami reach only the first two lumbar nerves (L1 and L2), not all five.\nThe sympathetic outflow ends at L2. (Last's p. 365)"
     ],
     [
      "The \"presacral nerve\" lies in front of the sacrum",
      0,
-     "It is a misnomer: it is prelumbar. (Last's p. 365)"
+     "Last's says \"presacral nerve\" is a misnomer: the plexus is prelumbar, in front of L5, not the sacrum.\nIt divides below into the hypogastric nerves. (Last's p. 365)"
     ]
    ]
   },
@@ -263,22 +263,22 @@
     [
      "The lesser splanchnic nerve comes from T10 and T11",
      1,
-     "True. The lesser splanchnic nerve arises from T10 and T11 ganglia; the greater from T5-9 and the least from T12. (Last's p. 365)"
+     "The lesser splanchnic nerve arises from the T10 and T11 ganglia; the greater from T5 to T9; and the least from T12.\nEach pierces the crus. (Last's p. 365)"
     ],
     [
      "The least splanchnic relays in a renal ganglion",
      1,
-     "True. The least splanchnic nerve relays in a small renal ganglion behind the renal artery, an offshoot of the coeliac ganglion. (Last's p. 365)"
+     "The least splanchnic nerve relays in a small renal ganglion behind the renal artery, an offshoot of the coeliac ganglion.\nIt supplies the kidney. (Last's p. 365)"
     ],
     [
      "The greater splanchnic nerve comes from T1 to T4",
      0,
-     "From T5 to T9. (Last's p. 365)"
+     "The greater splanchnic nerve comes from T5 to T9, not T1 to T4.\nT1 to T4 supply the head, neck, upper limb and heart. (Last's p. 365)"
     ],
     [
      "Coeliac fibres to the suprarenal medulla are the secretomotor supply",
      0,
-     "Preganglionic splanchnic fibres reach the medulla without relay; postganglionic coeliac fibres are vasomotor. (Last's p. 365)"
+     "Preganglionic splanchnic fibres reach the suprarenal medulla without relaying and are its secretomotor supply. Postganglionic coeliac fibres to the gland are vasomotor.\nThe medulla is a modified ganglion. (Last's p. 365)"
     ]
    ]
   },
@@ -291,22 +291,22 @@
     [
      "The parasympathetic is the main motor supply to the bladder",
      1,
-     "True. Pelvic splanchnic (parasympathetic) fibres are the main motor supply of the bladder; sympathetic fibres are vasomotor and inhibit the detrusor. (Last's p. 380)"
+     "The pelvic splanchnic (parasympathetic) fibres are the main motor supply of the bladder; sympathetic fibres are vasomotor and inhibit the detrusor.\nHence parasympathetic damage causes retention. (Last's p. 380)"
     ],
     [
      "Sympathetic fibres contract the superficial trigone",
      1,
-     "And the male internal sphincter. (Last's p. 380)"
+     "Sympathetic fibres contract the superficial trigone and, in the male, the internal sphincter.\nThis closes the bladder neck during ejaculation. (Last's p. 380)"
     ],
     [
      "Bladder distension sensation travels with sympathetic fibres",
      0,
-     "With parasympathetic fibres. (Last's p. 380)"
+     "Bladder distension sensation travels with the parasympathetic (pelvic splanchnic) fibres, not the sympathetic.\nThe sympathetic carries some pain from the bladder roof. (Last's p. 380)"
     ],
     [
      "Rectal pain travels only with sympathetic fibres",
      0,
-     "With both. (Last's p. 380)"
+     "Rectal pain travels with both sympathetic and parasympathetic fibres, not only sympathetic.\nThe rectum is a transitional zone. (Last's p. 380)"
     ]
    ]
   }

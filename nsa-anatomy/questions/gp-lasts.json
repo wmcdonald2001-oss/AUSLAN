@@ -11,22 +11,22 @@
     [
      "Skin creases have thinner epidermis and thicker dermis",
      1,
-     "Bound firmly to underlying fascia."
+     "At skin creases the epidermis is thinner and the dermis thicker, and the skin is bound firmly to the underlying fascia.\nThat is why creases persist."
     ],
     [
      "The panniculus carnosus forms palmaris brevis in man",
      1,
-     "And dartos, platysma and facial muscles."
+     "The panniculus carnosus forms palmaris brevis in man, as well as dartos, platysma and the facial muscles.\nA remnant of an animal skin muscle."
     ],
     [
      "Deep fascia passes freely over bone",
      0,
-     "It is always anchored firmly to periosteum."
+     "Last's says deep fascia is always anchored firmly to periosteum where it meets bone; it does not pass freely over it.\nThis compartmentalises the limbs."
     ],
     [
      "Deep fascia has its own nerve supply distinct from the overlying skin",
      0,
-     "It shares the innervation of the overlying skin."
+     "Deep fascia shares the innervation of the overlying skin; it has no separate nerve supply.\nFascial pain is localised like skin pain."
     ]
    ]
   },
@@ -39,22 +39,22 @@
     [
      "Only fibrocartilage has a blood supply",
      1,
-     "The others rely on diffusion."
+     "Only fibrocartilage has a blood supply; hyaline and elastic cartilage rely on diffusion.\nSo hyaline cartilage heals poorly."
     ],
     [
      "The epiglottis is elastic cartilage",
      1,
-     "As is the pinna."
+     "The epiglottis is elastic cartilage, as is the pinna.\nElastic cartilage does not calcify."
     ],
     [
      "Secondary cartilage is the cartilage of secondary cartilaginous joints",
      0,
-     "It is a special cartilage of growing membrane bones such as the mandibular head and clavicle."
+     "Secondary cartilage is a special cartilage of growing membrane bones, such as the mandibular head and clavicle, not the cartilage of secondary cartilaginous joints.\nThe similar names are a trap."
     ],
     [
      "Menisci of the knee are hyaline cartilage",
      0,
-     "Fibrocartilage."
+     "The menisci of the knee are fibrocartilage, not hyaline cartilage.\nLike the intervertebral discs and TMJ disc."
     ]
    ]
   },
@@ -67,22 +67,22 @@
     [
      "Yellow ligaments include the ligamenta flava",
      1,
-     "And capsular ligaments of the auditory ossicles."
+     "Yellow ligaments (rich in elastic tissue) include the ligamenta flava and the capsular ligaments of the auditory ossicles.\nMost ligaments are white (collagen)."
     ],
     [
      "The epiphyseal plate is a primary cartilaginous joint",
      1,
-     "True. In a primary cartilaginous joint bone meets hyaline cartilage directly, as at the epiphyseal plate; it allows no movement. (Last's)"
+     "In a primary cartilaginous joint bone meets hyaline cartilage directly, as at the epiphyseal plate; it allows no movement.\nIt ossifies when growth stops."
     ],
     [
      "The pubic symphysis is a primary cartilaginous joint",
      0,
-     "Secondary (symphysis)."
+     "The pubic symphysis is a secondary cartilaginous joint (symphysis), with fibrocartilage between hyaline-covered bone ends.\nAll symphyses are midline."
     ],
     [
      "Hilton's law states that a joint's nerve supplies only its capsule",
      0,
-     "The nerve to a muscle also supplies the joint it moves and the overlying skin."
+     "Hilton's law states that the nerve to a muscle also supplies the joint it moves and the overlying skin.\nNot just the capsule."
     ]
    ]
   },
@@ -95,22 +95,22 @@
     [
      "The parietal layer of serosa develops from somatopleure",
      1,
-     "Supplied segmentally by spinal nerves."
+     "The parietal layer of a serous membrane develops from somatopleure and is supplied segmentally by spinal nerves.\nSo it is pain-sensitive."
     ],
     [
      "The visceral layer has no sensory supply",
      1,
-     "Autonomic only."
+     "The visceral layer has no sensory (somatic) supply, only autonomic.\nSo it is insensitive to cutting."
     ],
     [
      "The pulmonary veins have valves",
      0,
-     "They are valveless."
+     "The pulmonary veins are valveless.\nLike the venae cavae and portal veins."
     ],
     [
      "Veins have an internal elastic lamina like arteries",
      0,
-     "They lack one."
+     "Veins lack an internal elastic lamina; arteries have one.\nA histological distinction."
     ]
    ]
   },
@@ -123,22 +123,22 @@
     [
      "Perineurium joins fibres into fascicles",
      1,
-     "True. Endoneurium surrounds each fibre, perineurium binds fibres into fascicles and epineurium binds fascicles into the nerve. (Last's)"
+     "Endoneurium surrounds each fibre, perineurium binds fibres into fascicles, and epineurium binds the fascicles into the nerve.\nPerineurium is the diffusion barrier."
     ],
     [
      "The phrenic nerve takes its own artery through the mediastinum",
      1,
-     "The pericardiacophrenic."
+     "The phrenic nerve takes its own artery, the pericardiacophrenic, through the mediastinum.\nAn example of a nerve with a named artery."
     ],
     [
      "Endoneurium binds fascicles into a nerve",
      0,
-     "That is epineurium."
+     "Epineurium binds the fascicles into a nerve; endoneurium surrounds individual fibres.\nOrder from outside in: epi, peri, endo."
     ],
     [
      "About 10% of fibres in a muscle nerve are afferent",
      0,
-     "About 40%."
+     "About 40 percent of the fibres in a nerve to a muscle are afferent, not 10 percent.\nFrom spindles, tendon organs and pain endings."
     ]
    ]
   },
@@ -151,22 +151,22 @@
     [
      "There are 31 pairs",
      1,
-     "8, 12, 5, 5, 1."
+     "There are 31 pairs of spinal nerves: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal.\nC8 has no matching vertebra."
     ],
     [
      "Anterior roots contain some unmyelinated afferent pain fibres",
      1,
-     "They double back from the DRG."
+     "Anterior roots contain some unmyelinated afferent pain fibres that double back from the dorsal root ganglion.\nThis may explain pain after posterior rhizotomy."
     ],
     [
      "Spinal nerves lie in the spinal canal",
      0,
-     "The roots unite in the intervertebral foramen; no spinal nerves lie in the canal."
+     "The roots unite in the intervertebral foramen; no spinal nerves lie in the spinal canal.\nThe canal contains roots only."
     ],
     [
      "The spinal nerve proper is about 1 cm long",
      0,
-     "1-2 mm at best."
+     "Last's says the spinal nerve proper is only 1 to 2 mm long at best, not 1 cm.\nIt divides almost immediately into rami."
     ]
    ]
   },
@@ -179,22 +179,22 @@
     [
      "The trochlear and abducent nuclei are the exception to overlapping motor pools",
      1,
-     "Each supplies a single muscle."
+     "Last's says the trochlear and abducent nuclei are the exception to overlapping motor neuron pools: each supplies a single muscle.\nOther motor pools overlap."
     ],
     [
      "More distal joints are controlled from lower cord segments",
      1,
-     "True. For each joint further down the limb the spinal centre lies one segment lower (e.g. shoulder C5, elbow C6-7, wrist C6-7, hand C8-T1). (Last's)"
+     "For each joint further down the limb, the spinal centre lies one segment lower (shoulder C5, elbow C6–7, wrist C6–7, hand C8–T1).\nA Last's rule."
     ],
     [
      "Cutaneous nerve lesions cause proprioceptive loss",
      0,
-     "Cutaneous nerves carry no muscle proprioceptive fibres."
+     "Cutaneous nerves carry no muscle proprioceptive fibres, so their lesions do not cause proprioceptive loss.\nProprioception travels with muscle nerves."
     ],
     [
      "Muscles sharing an action are usually supplied by different segments",
      0,
-     "The same segments."
+     "Muscles sharing an action are usually supplied by the same segments, not different ones.\nThat is Last's first rule."
     ]
    ]
   },
@@ -207,22 +207,22 @@
     [
      "Where nerve and segmental artery cross, the nerve lies nearer the skin",
      1,
-     "True. Where the spinal nerve and segmental artery cross, the nerve is always the more superficial. (Last's)"
+     "Where the spinal nerve and the segmental artery cross, the nerve is always the more superficial.\nA body-wall pattern."
     ],
     [
      "The sympathetic trunk lies within the circle of the segmental artery",
      1,
-     "True. The sympathetic trunk lies vertically within the circle made by each segmental artery. (Last's)"
+     "The sympathetic trunk lies vertically within the circle made by each segmental artery.\nThe arteries arch around the vertebral bodies."
     ],
     [
      "Posterior rami supply limb muscles",
      0,
-     "Never."
+     "Posterior rami never supply limb muscles.\nLimbs are supplied by anterior rami."
     ],
     [
      "The collateral intercostal branch supplies skin",
      0,
-     "Motor only."
+     "The collateral branch of an intercostal nerve is motor only and does not supply skin.\nIt supplies the intercostal muscles."
     ]
    ]
   },
@@ -235,22 +235,22 @@
     [
      "Limb buds arise from the lateral strip of the body wall",
      1,
-     "Supplied by lateral branches of anterior rami."
+     "Limb buds arise from the lateral strip of the body wall, supplied by lateral branches of the anterior rami.\nHence the limb plexuses."
     ],
     [
      "Posterior divisions supply extensor compartments",
      1,
-     "True. Posterior divisions of the plexuses supply extensor muscles and skin; anterior divisions supply flexors. (Last's)"
+     "Posterior divisions of the plexuses supply the extensor muscles and skin; anterior divisions supply the flexors.\nA basic plan."
     ],
     [
      "The extensor compartment has the richer nerve supply",
      0,
-     "The flexor; the lowest root of each plexus goes wholly to flexors."
+     "The flexor compartment has the richer nerve supply; the lowest root of each plexus goes wholly to flexors.\nT1 and S3."
     ],
     [
      "The cephalic vein marks the postaxial border of the upper limb",
      0,
-     "The preaxial border; basilic is postaxial."
+     "The cephalic vein marks the preaxial border of the upper limb; the basilic vein marks the postaxial border.\nSimilarly great and small saphenous in the leg."
     ]
    ]
   },
@@ -263,22 +263,22 @@
     [
      "Brachioradialis developed in the extensor compartment",
      1,
-     "Hence radial nerve supply."
+     "Brachioradialis developed in the extensor compartment, which is why it is supplied by the radial nerve despite flexing the elbow.\nIts supply reflects origin, not action."
     ],
     [
      "The adult septum imprisons the ulnar nerve in the extensor compartment above the elbow",
      1,
-     "True. The ulnar nerve was a flexor-compartment nerve, but the medial intermuscular septum traps it behind, in the extensor compartment, above the elbow. (Last's)"
+     "The ulnar nerve began as a flexor-compartment nerve, but in the adult the medial intermuscular septum traps it behind, in the extensor compartment, above the elbow.\nIt then returns to the flexors."
     ],
     [
      "The short head of biceps femoris developed in the flexor compartment",
      0,
-     "In the extensor; hence common peroneal supply."
+     "The short head of biceps femoris developed in the extensor compartment, hence its common peroneal supply.\nThe long head is tibial."
     ],
     [
      "The radial nerve lies in the extensor compartment just above the elbow",
      0,
-     "The septum places it in the flexor compartment."
+     "Just above the elbow the lateral septum places the radial nerve in the flexor compartment, between brachialis and brachioradialis.\nIt pierced the septum to get there."
     ]
    ]
   },
@@ -291,22 +291,22 @@
     [
      "There is no dermatomal overlap across axial lines",
      1,
-     "True. Adjacent dermatomes overlap, but dermatomes meeting at an axial line are discontinuous and do not, so test across axial lines. (Last's)"
+     "Adjacent dermatomes overlap, but dermatomes meeting at an axial line are discontinuous and do not overlap. So sensation should be tested across axial lines.\nLoss is easiest to detect there."
     ],
     [
      "The upper limb anterior axial line starts near the sternal angle",
      1,
-     "Across the 2nd costal cartilage."
+     "The anterior axial line of the upper limb starts near the sternal angle, across the second costal cartilage.\nIt runs down the front of the limb."
     ],
     [
      "The posterior upper limb axial line ends at the wrist",
      0,
-     "At the deltoid insertion."
+     "The posterior axial line of the upper limb ends at the deltoid insertion, not the wrist.\nThe anterior line runs almost to the wrist."
     ],
     [
      "The root of the penis is S2",
      0,
-     "L1; the rest and scrotum S2/3."
+     "The root of the penis is L1; the rest of the penis and the scrotum are S2/3.\nAn axial line crosses the scrotum."
     ]
    ]
   },
@@ -319,22 +319,22 @@
     [
      "C1 has no skin supply",
      1,
-     "True. C1 usually has no cutaneous branch; C2 supplies the back of the scalp. (Last's)"
+     "C1 usually has no cutaneous branch; C2 supplies the back of the scalp.\nSo there is no C1 dermatome."
     ],
     [
      "T10 supplies the umbilicus",
      1,
-     "True. T10 supplies the umbilicus; T4 the nipple and T8 the costal margin. (Last's)"
+     "T10 supplies the umbilicus; T4 the nipple and T8 the costal margin.\nCommon sensory level landmarks."
     ],
     [
      "C7 supplies the little finger",
      0,
-     "The middle finger; C8 the ring and little fingers."
+     "C7 supplies the middle finger; C8 the ring and little fingers.\nC6 supplies the thumb."
     ],
     [
      "T1 supplies the axilla",
      0,
-     "The medial elbow, not the axilla."
+     "T1 supplies the medial side of the elbow region, not the axilla. T2 supplies the axilla.\nA Last's detail."
     ]
    ]
   },
@@ -347,22 +347,22 @@
     [
      "L4 supplies the medial malleolus",
      1,
-     "True. L4 supplies the medial leg and malleolus; L5 the dorsum and great toe; S1 the lateral foot. (Last's)"
+     "L4 supplies the medial leg and malleolus; L5 the dorsum of the foot and great toe; S1 the lateral foot.\nA useful map."
     ],
     [
      "S3 supplies the sitting area of the buttock",
      1,
-     "True. S3 supplies the sitting area of the buttock and the posterior scrotum or labium. (Last's)"
+     "S3 supplies the sitting area of the buttock and the posterior scrotum or labium.\nSaddle anaesthesia involves S3 to S5."
     ],
     [
      "L5 supplies the lateral malleolus",
      0,
-     "S1 does."
+     "S1 supplies the lateral malleolus, not L5.\nL5 is the dorsum and great toe."
     ],
     [
      "S4 supplies the posterior thigh",
      0,
-     "Perianal."
+     "S4 supplies the perianal skin, not the posterior thigh.\nS2 supplies the posterior thigh."
     ]
    ]
   },
@@ -375,22 +375,22 @@
     [
      "Biceps jerk is C6",
      1,
-     "True. Biceps jerk C6, triceps C7, knee L3, ankle S1. (Last's)"
+     "Last's gives the biceps jerk as C6 (others say C5/6); triceps C7, knee L3, ankle S1.\nLast's assigns single segments."
     ],
     [
      "Knee jerk is L3",
      1,
-     "True. The knee jerk is mediated mainly by L3 through the femoral nerve. (Last's)"
+     "The knee jerk is mediated mainly by L3 (with L4) through the femoral nerve.\nReduced in L3/4 root lesions."
     ],
     [
      "Ankle jerk is L5",
      0,
-     "S1."
+     "The ankle jerk is S1, not L5.\nL5 has no reliable reflex."
     ],
     [
      "Abductor pollicis brevis is C6",
      0,
-     "T1."
+     "Abductor pollicis brevis is T1, not C6.\nIt is the classic test of the T1 myotome."
     ]
    ]
   },
@@ -403,22 +403,22 @@
     [
      "Hip adduction is L2/3",
      1,
-     "True. Hip flexion, adduction and medial rotation are L2/3; extension, abduction and lateral rotation L4/5. (Last's)"
+     "Hip flexion, adduction and medial rotation are L2/3; extension, abduction and lateral rotation are L4/5.\nOpposing actions in sequence."
     ],
     [
      "Tibialis posterior is supplied by L4",
      1,
-     "With its inverting partner tibialis anterior."
+     "Tibialis posterior is supplied by L4, with its inverting partner tibialis anterior.\nSegmental supply follows inversion."
     ],
     [
      "Gluteus maximus is L4, 5, S1",
      0,
-     "L5, S1, 2."
+     "Gluteus maximus is L5, S1 and S2, not L4, L5, S1.\nThe other gluteal muscles are L4, L5, S1."
     ],
     [
      "Hip abduction is L2/3",
      0,
-     "L4/5."
+     "Hip abduction is L4/5, not L2/3.\nL2/3 is flexion and adduction."
     ]
    ]
   },
@@ -431,22 +431,22 @@
     [
      "The plantar response becomes flexor during the second year",
      1,
-     "True. An extensor plantar response is normal under one year; it becomes flexor in the second year. (Last's)"
+     "An extensor plantar response is normal under one year; it becomes flexor in the second year.\nAs corticospinal myelination completes."
     ],
     [
      "The anal and bulbocavernosus reflexes depend mainly on S3",
      1,
-     "True. The anal and bulbocavernosus reflexes depend on intact sacral segments, mainly S3. (Last's)"
+     "The anal and bulbocavernosus reflexes depend on intact sacral segments, mainly S3.\nTheir return marks the end of spinal shock."
     ],
     [
      "Abdominal reflexes are exaggerated in upper motor neuron lesions",
      0,
-     "They are absent."
+     "Abdominal reflexes are absent in upper motor neurone lesions, not exaggerated.\nUnlike tendon reflexes."
     ],
     [
      "In Beevor's sign the umbilicus moves downwards",
      0,
-     "Upwards."
+     "In Beevor's sign the umbilicus moves upward when the patient flexes the neck, because the lower abdominal muscles are weak (lesion around T10).\nUpward, not downward."
     ]
    ]
   },
@@ -459,22 +459,22 @@
     [
      "The superior cervical ganglion represents C1-4",
      1,
-     "True. The upper four cervical ganglia fuse into the superior cervical ganglion, which gives grey rami to C1-4. (Last's)"
+     "The upper four cervical ganglia fuse into the superior cervical ganglion, which gives grey rami to C1 to C4.\nThe largest cervical ganglion."
     ],
     [
      "Only T1-L2 give white rami",
      1,
-     "True. Only T1-L2 have lateral horn cells, so only they have white rami; every spinal nerve receives a grey ramus. (Last's)"
+     "Only T1 to L2 have lateral horn cells, so only they have white rami; every spinal nerve receives a grey ramus.\nWhite rami carry the outflow."
     ],
     [
      "Grey rami are preganglionic",
      0,
-     "Postganglionic."
+     "Grey rami carry postganglionic fibres, not preganglionic.\nWhite rami carry preganglionic fibres."
     ],
     [
      "Limb vessels receive sympathetics by fibres running long distances along the arteries",
      0,
-     "From adjacent peripheral nerves."
+     "Limb vessels receive their sympathetic fibres from the adjacent peripheral nerves, not from fibres running long distances along the arteries.\nSo perivascular sympathectomy is ineffective."
     ]
    ]
   },
@@ -487,22 +487,22 @@
     [
      "Sacral splanchnic nerves are sympathetic",
      1,
-     "True. Sacral splanchnic nerves are sympathetic branches of the sacral trunk to the pelvic plexus. (Last's)"
+     "Sacral splanchnic nerves are sympathetic branches of the sacral trunk to the pelvic plexus.\nEasily confused with pelvic splanchnics."
     ],
     [
      "Pelvic splanchnic nerves are parasympathetic",
      1,
-     "True. Pelvic splanchnic nerves are the S2-4 parasympathetic outflow; do not confuse the two. (Last's)"
+     "Pelvic splanchnic nerves are the S2 to S4 parasympathetic outflow; do not confuse the two.\nLast's warns about this."
     ],
     [
      "A proximal root lesion reduces sympathetic function in the limb",
      0,
-     "Sympathetics join distal to the roots, so peripheral lesions do."
+     "Sympathetic fibres join the spinal nerves distal to the roots, so a proximal root lesion does not reduce sympathetic function in the limb; a peripheral nerve lesion does.\nSweating helps localise."
     ],
     [
      "Preganglionic fibres to the suprarenal synapse in the coeliac ganglion",
      0,
-     "They pass without synapse."
+     "Preganglionic fibres to the suprarenal medulla pass through the coeliac ganglion without synapse.\nThe medullary cells are the postganglionic neurons."
     ]
    ]
   },
@@ -515,22 +515,22 @@
     [
      "The embryo becomes a fetus after 8 weeks",
      1,
-     "True. The developing human is called an embryo for the first eight weeks and a fetus thereafter. (Last's)"
+     "The developing human is called an embryo for the first eight weeks and a fetus thereafter.\nOrganogenesis is mostly complete by then."
     ],
     [
      "Neural crest gives Schwann cells",
      1,
-     "And DRG, autonomic ganglia, suprarenal medulla."
+     "Neural crest gives Schwann cells, as well as the dorsal root ganglia, autonomic ganglia and suprarenal medulla.\nA very versatile tissue."
     ],
     [
      "Paraxial mesoderm gives the limb buds",
      0,
-     "The lateral plate does."
+     "The lateral plate mesoderm gives the limb buds, not the paraxial mesoderm.\nLimb muscles migrate in from somites."
     ],
     [
      "Intermediate mesoderm is unsegmented",
      0,
-     "The lateral plate is unsegmented."
+     "The lateral plate is the unsegmented mesoderm; intermediate mesoderm shows some segmentation (nephrotomes).\nParaxial mesoderm forms segmented somites."
     ]
    ]
   },
@@ -543,22 +543,22 @@
     [
      "The stapedial artery is a second arch remnant",
      1,
-     "True. The second arch artery disappears except for the stapedial artery. (Last's)"
+     "The second arch artery disappears except for the stapedial artery.\nWhich itself does not persist after birth."
     ],
     [
      "Stylopharyngeus is the third arch muscle",
      1,
-     "True. Stylopharyngeus is the only muscle of the third arch, supplied by IX. (Last's)"
+     "Stylopharyngeus is the only muscle of the third arch, supplied by IX.\nA favourite fact."
     ],
     [
      "The mandible ossifies in Meckel's cartilage",
      0,
-     "In membrane; Meckel's remnants include the lingula."
+     "The mandible ossifies in membrane around Meckel's cartilage, not in the cartilage; Meckel's remnants include the lingula.\nOnly a small part near the symphysis may involve cartilage."
     ],
     [
      "The 4th arch forms the pulmonary arteries",
      0,
-     "The 6th does."
+     "The sixth arch arteries form the pulmonary arteries (and the ductus on the left), not the fourth.\nThe fourth forms the aortic arch and right subclavian."
     ]
    ]
   },
@@ -571,22 +571,22 @@
     [
      "The third pouch forms the inferior parathyroid",
      1,
-     "And thymus."
+     "The third pouch forms the inferior parathyroid and the thymus.\nThe parathyroid is pulled down with the thymus."
     ],
     [
      "The fourth pouch forms the superior parathyroid",
      1,
-     "True. The dorsal part of the fourth pouch forms the superior parathyroid. (Last's)"
+     "The dorsal part of the fourth pouch forms the superior parathyroid.\nIt stays near the upper thyroid."
     ],
     [
      "The second pouch forms the thymus",
      0,
-     "It forms the tonsillar crypts."
+     "The second pouch forms the tonsillar crypts (and supratonsillar fossa), not the thymus.\nThe thymus is third pouch."
     ],
     [
      "The fifth pouch forms the follicular thyroid cells",
      0,
-     "Ultimobranchial body and parafollicular cells."
+     "The fifth pouch forms the ultimobranchial body, which gives the parafollicular (C) cells, not the follicular cells.\nFollicular cells come from the thyroid diverticulum."
     ]
    ]
   },
@@ -599,22 +599,22 @@
     [
      "A branchial fistula tracks between internal and external carotids",
      1,
-     "True. A branchial fistula runs from the tonsillar fossa between the internal and external carotids to the skin at the lower anterior border of SCM. (Last's)"
+     "A branchial fistula runs from the tonsillar fossa between the internal and external carotids to the skin at the lower anterior border of sternocleidomastoid.\nIt follows the second cleft and pouch."
     ],
     [
      "An aberrant right subclavian makes the right laryngeal nerve non-recurrent",
      1,
-     "Incidence 1-2%."
+     "An aberrant right subclavian artery (1 to 2 percent) makes the right laryngeal nerve non-recurrent.\nA thyroid surgery hazard."
     ],
     [
      "The fistula opens at the posterior border of SCM",
      0,
-     "At the anterior lower border."
+     "A branchial fistula opens at the lower anterior border of sternocleidomastoid, not the posterior border.\nThe anterior border is the typical site."
     ],
     [
      "The chorda tympani is a post-trematic nerve",
      0,
-     "It is pretrematic."
+     "Last's describes the chorda tympani as a pretrematic nerve (running in front of the first cleft), not post-trematic.\nA morphological point."
     ]
    ]
   },
@@ -627,22 +627,22 @@
     [
      "The anterior fontanelle closes at about 18 months",
      1,
-     "True. The anterior fontanelle, between frontal and parietal bones, closes at about 18 months. (Last's)"
+     "The anterior fontanelle, between the frontal and parietal bones, closes at about 18 months.\nIt can be used to assess hydration and intracranial pressure."
     ],
     [
      "The posterior fontanelle closes by the end of the first year",
      1,
-     "True. The posterior fontanelle, at the lambda, closes by the end of the first year. (Last's)"
+     "The posterior fontanelle, at the lambda, closes by the end of the first year.\nEarlier than the anterior."
     ],
     [
      "The mastoid is aerated at birth",
      0,
-     "From the beginning of the second year."
+     "The mastoid is aerated from the beginning of the second year, not at birth.\nThe antrum is present at birth."
     ],
     [
      "The geniculate ganglion is separated from middle fossa dura at birth",
      0,
-     "The tegmen is incomplete so it contacts the dura."
+     "Last's says at birth the tegmen is incomplete, so the geniculate ganglion is in contact with the middle fossa dura.\nIt is not separated from it."
     ]
    ]
   },
@@ -655,22 +655,22 @@
     [
      "The squamous and tympanic parts ossify in membrane",
      1,
-     "True. The squamous and tympanic parts ossify in membrane; the petromastoid and styloid in cartilage. (Last's)"
+     "The squamous and tympanic parts of the temporal bone ossify in membrane; the petromastoid and styloid parts ossify in cartilage.\nA mixed bone."
     ],
     [
      "The foramen of Huschke is temporary",
      1,
-     "True. Growing flanges of the tympanic plate enclose a temporary gap, the foramen of Huschke, which normally closes in childhood. (Last's)"
+     "Growing flanges of the tympanic plate enclose a temporary gap, the foramen of Huschke, which normally closes in childhood.\nIf it persists it can transmit infection."
     ],
     [
      "The facial nerve at birth is protected by the mastoid process",
      0,
-     "Unprotected, covered only by SCM."
+     "At birth the facial nerve is unprotected, covered only by sternocleidomastoid, because there is no mastoid process.\nCare with postauricular incisions in infants."
     ],
     [
      "The spinal cord ends at L1 at birth",
      0,
-     "L3."
+     "At birth the spinal cord ends at L3, not L1.\nIt reaches L1/2 in adulthood."
     ]
    ]
   }

@@ -11,22 +11,22 @@
     [
      "A prefixed plexus (C4-C8) occurs in about 10%",
      1,
-     "True. In about 10% the plexus is prefixed (C4-C8), and in about 10% postfixed (C6-T2). (Last's)"
+     "In about 10 percent the brachial plexus is prefixed (C4 to C8), and in about 10 percent postfixed (C6 to T2).\nThe root levels of injuries shift accordingly."
     ],
     [
      "The divisions lie behind the clavicle",
      1,
-     "True. The trunks divide into anterior and posterior divisions behind the clavicle; roots and trunks are above it and cords below. (Last's)"
+     "The trunks divide into anterior and posterior divisions behind the clavicle; the roots and trunks are above it and the cords below.\nSo clavicle fractures can affect the divisions."
     ],
     [
      "The lateral cord is formed from the lower anterior division",
      0,
-     "The medial cord; the lateral cord is from the upper two anterior divisions."
+     "The medial cord is formed from the lower anterior division. The lateral cord is formed from the upper and middle anterior divisions.\nAll three posterior divisions form the posterior cord."
     ],
     [
      "The cords embrace the first part of the axillary artery",
      0,
-     "They embrace its second part."
+     "The cords embrace the second part of the axillary artery, behind pectoralis minor, not the first part.\nThey are named by their relation to it."
     ]
    ]
   },
@@ -39,22 +39,22 @@
     [
      "The dorsal scapular nerve (C5) passes behind the roots",
      1,
-     "True. The dorsal scapular nerve (C5) passes back through scalenus medius, behind the roots, to the rhomboids. (Last's)"
+     "The dorsal scapular nerve (C5) passes back through scalenus medius, behind the roots, to supply the rhomboids.\nIt runs with the dorsal scapular artery."
     ],
     [
      "The nerve to subclavius passes in front of the roots",
      1,
-     "True. The nerve to subclavius (C5, 6) runs down in front of the roots and subclavian vessels. (Last's)"
+     "The nerve to subclavius (C5, C6) runs down in front of the roots and the subclavian vessels.\nIt may carry an accessory phrenic branch."
     ],
     [
      "The long thoracic nerve passes in front of the roots",
      0,
-     "Behind them."
+     "The long thoracic nerve passes behind the roots, not in front.\nIt then descends on serratus anterior."
     ],
     [
      "The suprascapular nerve arises from the lateral cord",
      0,
-     "From the upper trunk."
+     "The suprascapular nerve arises from the upper trunk, not the lateral cord.\nIt is the only branch of a trunk."
     ]
    ]
   },
@@ -67,22 +67,22 @@
     [
      "The thoracodorsal nerve is C6, 7, 8",
      1,
-     "True. The thoracodorsal nerve (C6, 7, 8) arises from the posterior cord and supplies latissimus dorsi. (Last's)"
+     "The thoracodorsal nerve (C6, C7, C8) arises from the posterior cord and supplies latissimus dorsi.\nIt is preserved in axillary surgery when possible."
     ],
     [
      "The ulnar nerve is C7, 8, T1",
      1,
-     "True. The ulnar nerve is C8, T1 from the medial cord, plus C7 fibres from the lateral cord. (Last's)"
+     "The ulnar nerve is C8 and T1 from the medial cord, plus C7 fibres from the lateral cord.\nSo its root value is C7, C8, T1."
     ],
     [
      "The axillary nerve arises from the lateral cord",
      0,
-     "From the posterior cord."
+     "The axillary nerve arises from the posterior cord, not the lateral cord.\nWith the radial nerve."
     ],
     [
      "The medial cutaneous nerve of the arm arises from the posterior cord",
      0,
-     "From the medial cord."
+     "The medial cutaneous nerve of the arm arises from the medial cord, not the posterior cord.\nIt is T1."
     ]
    ]
   },
@@ -95,22 +95,22 @@
     [
      "The long thoracic nerve supplies the lowest four digitations of serratus anterior from C7",
      1,
-     "C5 the first two, C6 the next two."
+     "The long thoracic nerve supplies serratus anterior segmentally: C5 to the first two digitations, C6 to the next two and C7 to the lowest four.\nLesions cause winging of the scapula."
     ],
     [
      "Pectoralis major is supplied by all five segments of the plexus",
      1,
-     "The only muscle to be so."
+     "Pectoralis major is the only muscle supplied by all five segments of the brachial plexus.\nC5 to T1 via the two pectoral nerves."
     ],
     [
      "The nerve to subclavius never carries phrenic fibres",
      0,
-     "It may carry an accessory phrenic contribution."
+     "The nerve to subclavius may carry an accessory phrenic contribution.\nSo \"never\" is wrong."
     ],
     [
      "The dorsal scapular nerve supplies latissimus dorsi",
      0,
-     "It supplies the rhomboids and often levator scapulae."
+     "The dorsal scapular nerve supplies the rhomboids and often levator scapulae, not latissimus dorsi.\nLatissimus dorsi is supplied by the thoracodorsal nerve."
     ]
    ]
   },
@@ -123,22 +123,22 @@
     [
      "Its first part has one branch",
      1,
-     "The superior thoracic."
+     "The first part of the axillary artery has one branch, the superior thoracic.\nThe number of branches matches the part number."
     ],
     [
      "Its third part has three branches",
      1,
-     "Subscapular and two circumflex humerals."
+     "The third part has three branches: the subscapular and the anterior and posterior circumflex humeral arteries.\nThe largest branch is the subscapular."
     ],
     [
      "The lateral thoracic artery arises from the third part",
      0,
-     "From the second part, with the thoracoacromial."
+     "The lateral thoracic artery arises from the second part, with the thoracoacromial.\nThe second part has two branches."
     ],
     [
      "It becomes the brachial artery at the lower border of pectoralis minor",
      0,
-     "At the lower border of teres major."
+     "The axillary artery becomes the brachial artery at the lower border of teres major, not pectoralis minor.\nPectoralis minor only divides it into parts."
     ]
    ]
   },
@@ -151,22 +151,22 @@
     [
      "It passes through the quadrangular space",
      1,
-     "With the posterior circumflex humeral vessels."
+     "The axillary nerve passes through the quadrangular space with the posterior circumflex humeral vessels.\nIt winds round the surgical neck."
     ],
     [
      "Its posterior branch supplies teres minor",
      1,
-     "And becomes the upper lateral cutaneous nerve of the arm."
+     "The posterior branch of the axillary nerve supplies teres minor and becomes the upper lateral cutaneous nerve of the arm.\nThe anterior branch supplies most of deltoid."
     ],
     [
      "It lies below the posterior circumflex humeral vessels",
      0,
-     "It lies above them."
+     "In the quadrangular space the axillary nerve lies above the posterior circumflex humeral vessels, close to the capsule.\nSo inferior dislocation stretches it."
     ],
     [
      "It supplies the skin over the upper half of deltoid",
      0,
-     "Its cutaneous branch supplies skin over the lower half."
+     "The cutaneous branch of the axillary nerve supplies the skin over the lower half of deltoid (the regimental badge area), not the upper half.\nThe upper half is supraclavicular (C4)."
     ]
    ]
   },
@@ -179,22 +179,22 @@
     [
      "The quadrangular space is bounded medially by the long head of triceps",
      1,
-     "True. The quadrangular space is bounded by teres minor above, teres major below, the long head of triceps medially and the humerus laterally. (Last's)"
+     "The quadrangular space is bounded by teres minor above, teres major below, the long head of triceps medially and the humerus laterally.\nIt transmits the axillary nerve."
     ],
     [
      "The triangular space (lower) transmits the radial nerve and profunda brachii vessels",
      1,
-     "True. The lower triangular space (triangular interval) below teres major transmits the radial nerve and profunda brachii vessels. (Last's)"
+     "The lower triangular space (triangular interval), below teres major, transmits the radial nerve and the profunda brachii vessels.\nLateral to the long head of triceps."
     ],
     [
      "The quadrangular space is bounded above by teres major",
      0,
-     "By teres minor (with subscapularis); teres major is below."
+     "The quadrangular space is bounded above by teres minor (with subscapularis in front); teres major forms its lower boundary.\n\"Minor above, major below.\""
     ],
     [
      "The circumflex scapular artery passes through the quadrangular space",
      0,
-     "It passes between subscapularis and teres major in the upper triangular space."
+     "The circumflex scapular artery passes through the upper triangular space, between subscapularis/teres minor, teres major and the long head, medial to the long head.\nThe quadrangular space is lateral."
     ]
    ]
   },
@@ -207,22 +207,22 @@
     [
      "It pierces coracobrachialis",
      1,
-     "True. The musculocutaneous nerve pierces coracobrachialis, supplying it, then runs between biceps and brachialis. (Last's)"
+     "The musculocutaneous nerve pierces coracobrachialis, supplying it, then runs between biceps and brachialis.\nIt supplies all three flexors of the arm."
     ],
     [
      "It continues as the lateral cutaneous nerve of the forearm",
      1,
-     "True. Beyond the elbow it becomes the lateral cutaneous nerve of the forearm. (Last's)"
+     "Beyond the elbow it continues as the lateral cutaneous nerve of the forearm.\nIt supplies the lateral forearm skin."
     ],
     [
      "It is the sole supply of brachialis",
      0,
-     "Brachialis also receives a lateral branch from the radial nerve."
+     "Brachialis also receives a lateral branch from the radial nerve, so the musculocutaneous is not its sole supply.\nA dual supply."
     ],
     [
      "It pierces the deep fascia medial to the biceps tendon",
      0,
-     "Lateral to the biceps tendon."
+     "The nerve pierces the deep fascia lateral to the biceps tendon, not medial.\nThe median nerve lies medial to the tendon."
     ]
    ]
   },
@@ -235,22 +235,22 @@
     [
      "It usually supplies no muscle above the elbow",
      1,
-     "Unless a high branch to pronator teres."
+     "The median nerve usually supplies no muscle above the elbow, unless there is a high branch to pronator teres.\nIts branches are in the forearm and hand."
     ],
     [
      "It passes between the two heads of pronator teres",
      1,
-     "True. The median nerve passes between the two heads of pronator teres, then under the arch of FDS. (Last's)"
+     "The median nerve passes between the two heads of pronator teres, then under the fibrous arch of flexor digitorum superficialis.\nBoth are sites of compression."
     ],
     [
      "In the carpal tunnel it lies medial to the FDS tendons",
      0,
-     "Lateral to FDS (to middle finger), medial to FCR."
+     "In the carpal tunnel the median nerve lies lateral to the FDS tendon to the middle finger and medial to flexor carpi radialis, not medial to the FDS tendons.\nIt is superficial and lateral."
     ],
     [
      "The palmar cutaneous branch arises within the carpal tunnel",
      0,
-     "Just above the flexor retinaculum."
+     "The palmar cutaneous branch arises just above the flexor retinaculum, not within the carpal tunnel.\nSo it is spared in carpal tunnel syndrome."
     ]
    ]
   },
@@ -263,22 +263,22 @@
     [
      "Flexor pollicis brevis has the most variable innervation of any muscle",
      1,
-     "Median, ulnar or both."
+     "Last's says flexor pollicis brevis has the most variable innervation of any muscle: median, ulnar or both.\nSo thenar wasting varies."
     ],
     [
      "Opponens pollicis usually has a double supply",
      1,
-     "Median and ulnar."
+     "Opponens pollicis usually has a double supply, median and ulnar.\nA Last's point."
     ],
     [
      "The median nerve supplies all four lumbricals",
      0,
-     "It supplies two; the ulnar supplies two."
+     "The median nerve supplies the two lateral lumbricals; the ulnar supplies the two medial ones.\nNot all four."
     ],
     [
      "The medial and lateral branches of the median nerve arise in the forearm",
      0,
-     "In the carpal tunnel."
+     "The medial and lateral branches of the median nerve arise in the carpal tunnel, not in the forearm.\nThe recurrent branch arises from the lateral branch."
     ]
    ]
   },
@@ -291,22 +291,22 @@
     [
      "It gives no branches in the arm",
      1,
-     "True. The ulnar nerve gives no branches in the arm. (Last's)"
+     "The ulnar nerve gives no branches in the arm.\nIts first branch is to FCU at the elbow."
     ],
     [
      "It pierces the medial intermuscular septum in the lower third of the arm",
      1,
-     "True. It pierces the medial intermuscular septum in the lower third of the arm with the superior ulnar collateral artery. (Last's)"
+     "The ulnar nerve pierces the medial intermuscular septum in the lower third of the arm with the superior ulnar collateral artery.\nIt then passes behind the medial epicondyle."
     ],
     [
      "It passes through the cubital fossa",
      0,
-     "It does not; the fossa contains median nerve, brachial artery and biceps tendon."
+     "The ulnar nerve does not pass through the cubital fossa. The fossa contains the median nerve, brachial artery and biceps tendon.\nThe ulnar nerve is behind the medial epicondyle."
     ],
     [
      "Its C7 fibres usually come from the middle trunk",
      0,
-     "From the lateral cord in more than 95%."
+     "In more than 95 percent the C7 fibres of the ulnar nerve come from the lateral cord, not the middle trunk.\nThey supply FCU."
     ]
    ]
   },
@@ -319,22 +319,22 @@
     [
      "It divides into superficial and deep branches on the flexor retinaculum",
      1,
-     "Beside the pisiform."
+     "The ulnar nerve divides into superficial and deep branches on the flexor retinaculum, beside the pisiform.\nIn Guyon's canal."
     ],
     [
      "Its superficial branch supplies palmaris brevis",
      1,
-     "True. The superficial branch of the ulnar nerve supplies palmaris brevis and the skin of the medial one and a half digits. (Last's)"
+     "The superficial branch of the ulnar nerve supplies palmaris brevis and the skin of the medial one and a half digits.\nIt is the only motor fibre of the superficial branch."
     ],
     [
      "Its C7 fibres supply the interossei",
      0,
-     "They form the branch to FCU in the forearm."
+     "Last's says the C7 fibres of the ulnar nerve form the branch to FCU in the forearm, not the supply to the interossei.\nThe interossei are C8 and T1."
     ],
     [
      "Its deep branch passes medial to the hook of hamate without contacting it",
      0,
-     "It lies on the hook of hamate."
+     "The deep branch of the ulnar nerve lies on the hook of hamate (curving around it), and can be compressed there.\nSo it does contact it."
     ]
    ]
   },
@@ -347,22 +347,22 @@
     [
      "It leaves the axilla through the triangular space",
      1,
-     "With the profunda brachii vessels."
+     "The radial nerve leaves the axilla through the lower triangular space with the profunda brachii vessels.\nThen it enters the spiral groove."
     ],
     [
      "The ulnar collateral nerve is the first branch to the medial head of triceps",
      1,
-     "True. The first branch to the medial head of triceps runs with the ulnar nerve and is called the ulnar collateral nerve. (Last's)"
+     "The first branch of the radial nerve to the medial head of triceps runs with the ulnar nerve and is called the ulnar collateral nerve.\nA Last's term."
     ],
     [
      "It pierces the medial intermuscular septum",
      0,
-     "The lateral septum."
+     "The radial nerve pierces the lateral intermuscular septum, not the medial.\nThe ulnar nerve pierces the medial one."
     ],
     [
      "The posterior interosseous nerve supplies extensor carpi radialis longus",
      0,
-     "The radial nerve supplies ECRL before giving the PIN."
+     "The radial nerve itself supplies ECRL before giving off the posterior interosseous nerve.\nThe PIN supplies ECRB and supinator onward."
     ]
    ]
   },
@@ -375,22 +375,22 @@
     [
      "Sensory loss is usually a coin-shaped area over the first dorsal interosseous",
      1,
-     "True. Because of overlap from median and ulnar nerves, radial sensory loss is usually only a coin-sized area over the first dorsal interosseous. (Last's)"
+     "Because of overlap from the median and ulnar nerves, radial sensory loss is usually only a coin-sized area over the first dorsal interosseous.\nThe autonomous zone."
     ],
     [
      "The posterior interosseous nerve passes between the two layers of supinator",
      1,
-     "True. The PIN passes between the superficial and deep layers of supinator, where it can be compressed. (Last's)"
+     "The posterior interosseous nerve passes between the superficial and deep layers of supinator, where it can be compressed.\nRadial tunnel syndrome."
     ],
     [
      "Sensory loss covers the whole dorsum of the radial 3.5 digits",
      0,
-     "It is much smaller due to overlap."
+     "Radial sensory loss is much smaller than the whole dorsum of the radial three and a half digits, because of overlap.\nOnly a small patch is reliably anaesthetic."
     ],
     [
      "The PIN supplies brachioradialis",
      0,
-     "The radial nerve does."
+     "Brachioradialis is supplied by the radial nerve itself, not the posterior interosseous nerve.\nIt works in PIN palsy."
     ]
    ]
   },
@@ -403,22 +403,22 @@
     [
      "The flexor retinaculum attaches radially to the scaphoid tubercle and trapezium",
      1,
-     "True. Radially the flexor retinaculum attaches to the scaphoid tubercle and the ridge of the trapezium. (Last's)"
+     "Radially the flexor retinaculum attaches to the scaphoid tubercle and the ridge of the trapezium.\nThe FCR tendon runs in a groove in the trapezium."
     ],
     [
      "It attaches medially to the pisiform and hook of hamate",
      1,
-     "True. Medially it attaches to the pisiform and the hook of hamate. (Last's)"
+     "Medially it attaches to the pisiform and the hook of hamate.\nThese four bony points form the carpal arch."
     ],
     [
      "EPL forms the radial boundary of the snuffbox",
      0,
-     "EPL is the ulnar boundary; APL and EPB the radial."
+     "Extensor pollicis longus forms the ulnar (medial) boundary of the snuffbox. Abductor pollicis longus and extensor pollicis brevis form the radial boundary.\nEPL hooks round Lister's tubercle."
     ],
     [
      "The cephalic vein pierces the clavipectoral fascia with the medial pectoral nerve",
      0,
-     "With the lateral pectoral nerve."
+     "The cephalic vein pierces the clavipectoral fascia with the lateral pectoral nerve, not the medial.\nThe medial pectoral nerve pierces pectoralis minor."
     ]
    ]
   },
@@ -431,22 +431,22 @@
     [
      "The lower subscapular nerve supplies teres major",
      1,
-     "True. The lower subscapular nerve supplies the lower part of subscapularis and teres major. (Last's)"
+     "The lower subscapular nerve supplies the lower part of subscapularis and teres major.\nBoth from the posterior cord."
     ],
     [
      "The thoracodorsal nerve enters the deep surface of latissimus dorsi",
      1,
-     "True. The thoracodorsal nerve runs down the posterior axillary wall to enter the deep surface of latissimus dorsi. (Last's)"
+     "The thoracodorsal nerve runs down the posterior axillary wall to enter the deep surface of latissimus dorsi.\nIt accompanies the thoracodorsal artery."
     ],
     [
      "The thoracodorsal nerve lies behind the thoracodorsal artery as it descends",
      0,
-     "It comes to lie in front of the artery."
+     "As it descends, the thoracodorsal nerve comes to lie in front of the thoracodorsal artery, not behind it.\nA Last's detail."
     ],
     [
      "Latissimus dorsi developed in the flexor compartment",
      0,
-     "In the extensor compartment."
+     "Latissimus dorsi developed in the extensor (dorsal) compartment of the limb, which is why it is supplied by the posterior cord.\nA limb muscle that has spread onto the back."
     ]
    ]
   },
@@ -459,22 +459,22 @@
     [
      "The medial cutaneous nerve of the arm runs with the axillary vein",
      1,
-     "True. The medial cutaneous nerve of the arm runs down medial to the axillary vein. (Last's)"
+     "The medial cutaneous nerve of the arm runs down medial to the axillary vein.\nIt supplies the medial arm."
     ],
     [
      "The medial cutaneous nerve of the forearm runs between axillary artery and vein",
      1,
-     "True. The medial cutaneous nerve of the forearm runs between the axillary artery and vein, then pierces the deep fascia with the basilic vein. (Last's)"
+     "The medial cutaneous nerve of the forearm runs between the axillary artery and vein, then pierces the deep fascia with the basilic vein.\nIt supplies the medial forearm."
     ],
     [
      "The medial and lateral cutaneous nerves of the forearm overlap widely at the anterior axial line",
      0,
-     "They meet without overlap."
+     "Last's says the medial and lateral cutaneous nerves of the forearm meet without overlap at the anterior axial line.\nThat is the nature of an axial line."
     ],
     [
      "The posterior cutaneous nerve of the forearm arises from the ulnar nerve",
      0,
-     "From the radial nerve."
+     "The posterior cutaneous nerve of the forearm arises from the radial nerve, not the ulnar.\nIt leaves the radial nerve in the spiral groove."
     ]
    ]
   }

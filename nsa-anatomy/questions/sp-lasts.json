@@ -11,22 +11,22 @@
     [
      "They derive from the sclerotome parts of the somites",
      1,
-     "True. Vertebrae come from the sclerotome (medial) part of the paraxial mesoderm somites. (Last's p. 557-8)"
+     "Vertebrae develop from the sclerotome (medial) parts of the somites of the paraxial mesoderm.\nThe sclerotome cells migrate around the notochord and neural tube. (Last's p. 557-8)"
     ],
     [
      "Each vertebra forms from adjacent caudal and cranial halves of two somites",
      1,
-     "So vertebrae lie in intersegmental planes. (Last's p. 557-8)"
+     "Each vertebra forms from the caudal half of one sclerotome and the cranial half of the next, so vertebrae lie in intersegmental planes.\nThat is why the segmental nerves and arteries pass between vertebrae. (Last's p. 557-8)"
     ],
     [
      "Each cartilaginous ring ossifies from a single centre",
      0,
-     "From three centres: centrum and two halves of the neural arch. (Last's p. 557-8)"
+     "Each cartilaginous vertebral ring ossifies from three primary centres: one for the centrum and one for each half of the neural arch.\nNot a single centre. (Last's p. 557-8)"
     ],
     [
      "Failure of one half of the double centrum centre causes spina bifida",
      0,
-     "It causes a hemivertebra. (Last's p. 557-8)"
+     "Failure of one half of the (double) centrum centre causes a hemivertebra, producing congenital scoliosis. Spina bifida results from failure of the neural arch halves to fuse.\nDifferent centres, different defects. (Last's p. 557-8)"
     ]
    ]
   },
@@ -39,22 +39,22 @@
     [
      "All vertebrae ossify in hyaline cartilage",
      1,
-     "True. Vertebrae are preformed in hyaline cartilage and ossify from three primary centres. (Last's p. 557-8)"
+     "All vertebrae are preformed in hyaline cartilage and ossify from three primary centres.\nUnlike the vault of the skull, which ossifies in membrane. (Last's p. 557-8)"
     ],
     [
      "The laminae are completely united by 2 years",
      1,
-     "True. The two halves of the neural arch begin uniting after birth and are fully joined by 2 years. (Last's p. 557-8)"
+     "The two halves of the neural arch begin uniting after birth and are fully joined by about 2 years.\nFailure gives spina bifida occulta. (Last's p. 557-8)"
     ],
     [
      "The neurocentral junctions are united by about 2 years",
      0,
-     "By about 7 years. (Last's p. 557-8)"
+     "The neurocentral junctions (between arch and centrum) unite by about 7 years, not 2.\nA neurocentral line seen on X-ray in a young child is normal. (Last's p. 557-8)"
     ],
     [
      "The ring epiphyses fuse with the body around puberty",
      0,
-     "They appear soon after puberty and fuse in the early twenties. (Last's p. 557-8)"
+     "The ring epiphyses appear soon after puberty and fuse with the body in the early twenties.\nThey are not fused at puberty. (Last's p. 557-8)"
     ]
    ]
   },
@@ -67,22 +67,22 @@
     [
      "The bifid cervical spines have double secondary centres",
      1,
-     "True. Bifid cervical spines have a double secondary centre, one for each tip. (Last's p. 557-8)"
+     "The bifid cervical spines have a double secondary centre, one for each tip.\nSecondary centres appear after puberty. (Last's p. 557-8)"
     ],
     [
      "Mamillary processes of T12 and lumbar vertebrae have secondary centres",
      1,
-     "True. The mamillary processes of T12 and the lumbar vertebrae have their own secondary centres after puberty. (Last's p. 557-8)"
+     "The mammillary processes of T12 and the lumbar vertebrae have their own secondary centres after puberty.\nSo do the transverse processes and spines. (Last's p. 557-8)"
     ],
     [
      "Cervical and lumbar costal elements have separate bony centres",
      0,
-     "They ossify from the neural arch; an occasional centre causes a cervical or lumbar rib. (Last's p. 557-8)"
+     "Cervical and lumbar costal elements ossify from the neural arch, without separate centres. An occasional separate centre gives a cervical or lumbar rib.\nSeparate centres are abnormal here. (Last's p. 557-8)"
     ],
     [
      "Sacral costal elements have no separate centres",
      0,
-     "They do, appearing at 6 months fetal life. (Last's p. 557-8)"
+     "The sacral costal elements do have separate centres, appearing at about 6 months of fetal life.\nThey form the lateral parts of the sacrum. (Last's p. 557-8)"
     ]
    ]
   },
@@ -95,22 +95,22 @@
     [
      "The atlas lateral masses ossify at the seventh week",
      1,
-     "True. The atlas ossifies from a centre in each lateral mass at the seventh week. (Last's p. 557-8)"
+     "The atlas ossifies from a centre in each lateral mass, appearing at the seventh week.\nThese two centres extend into the posterior arch. (Last's p. 557-8)"
     ],
     [
      "The anterior arch centre appears at the first year",
      1,
-     "True. A centre for the anterior arch appears at about one year and fuses with the lateral masses at 7. (Last's p. 557-8)"
+     "A centre for the anterior arch appears at about one year and fuses with the lateral masses at about 7 years.\nBefore then the anterior arch is cartilaginous. (Last's p. 557-8)"
     ],
     [
      "The posterior arch of the atlas unites at 12 years",
      0,
-     "At the fourth year. (Last's p. 557-8)"
+     "The two halves of the posterior arch of the atlas unite at about the fourth year, not 12.\nFailure leaves a posterior cleft. (Last's p. 557-8)"
     ],
     [
      "The tip of the dens fuses at 3 years",
      0,
-     "It appears at about 3 and fuses at 12. (Last's p. 557-8)"
+     "The centre for the tip of the dens appears at about 3 years and fuses at about 12.\nSo the tip is separate for many years (os terminale if it fails to fuse). (Last's p. 557-8)"
     ]
    ]
   },
@@ -123,22 +123,22 @@
     [
      "The dens has two half-side centres appearing at the fifth month",
      1,
-     "Fusing two months later. (Last's p. 557-8)"
+     "The dens has two half-side centres appearing at the fifth fetal month, which fuse about two months later.\nHence the dens may appear bifid on rare occasions. (Last's p. 557-8)"
     ],
     [
      "The dens unites with the body at 3 years",
      1,
-     "True. The dens and body of the axis unite at about 3 years. (Last's p. 557-8)"
+     "The dens and the body of the axis unite at about 3 years.\nBefore that, the synchondrosis can be mistaken for a fracture. (Last's p. 557-8)"
     ],
     [
      "The lower ring epiphysis fuses at about 12 years",
      0,
-     "At about 25 years. (Last's p. 557-8)"
+     "The lower ring epiphysis of the axis body fuses at about 25 years, not 12.\nRing epiphyses fuse late. (Last's p. 557-8)"
     ],
     [
      "The anterior arch epiphyses of the atlas fuse at 3 years",
      0,
-     "At 7 years. (Last's p. 557-8)"
+     "The anterior arch epiphyses of the atlas fuse at about 7 years, not 3.\nThe dens base fuses at 3. (Last's p. 557-8)"
     ]
    ]
   },
@@ -151,22 +151,22 @@
     [
      "The primary curvature is retained in the thoracic and sacral regions",
      1,
-     "True. The primary (fetal) kyphosis persists in the thoracic and sacral regions; the cervical and lumbar curves are secondary. (Last's p. 535-6)"
+     "The primary (fetal) curvature, concave forward, is retained in the thoracic and sacral regions. The cervical and lumbar curves are secondary.\nThey appear with head-holding and walking. (Last's p. 535-6)"
     ],
     [
      "The costal facets of thoracic vertebrae lie on the neural arch, not the centrum",
      1,
-     "The neurocentral junction lies in front of them. (Last's p. 535-6)"
+     "The costal facets of thoracic vertebrae lie on the neural arch, not the centrum, because the neurocentral junction lies in front of them.\nA Last's morphological point. (Last's p. 535-6)"
     ],
     [
      "Lumbar transverse processes are true transverse elements",
      0,
-     "They are costal elements; the mamillary process and accessory tubercle are the true transverse elements. (Last's p. 535-6)"
+     "Lumbar transverse processes are costal elements. The mammillary process and accessory tubercle are the true transverse elements.\nSo the \"transverse process\" of a lumbar vertebra is really a rib element. (Last's p. 535-6)"
     ],
     [
      "A lumbar rib results from fusion of the costal element",
      0,
-     "From its failure to fuse. (Last's p. 535-6)"
+     "A lumbar rib results from failure of the costal element to fuse with the vertebra, not from fusion.\nThe same applies to a cervical rib. (Last's p. 535-6)"
     ]
    ]
   },
@@ -179,22 +179,22 @@
     [
      "It is a secondary cartilaginous joint",
      1,
-     "A symphysis. (Last's p. 537)"
+     "The intervertebral disc is a secondary cartilaginous joint (symphysis).\nHyaline cartilage plates are joined by fibrocartilage. (Last's p. 537)"
     ],
     [
      "The nucleus pulposus lies posteriorly in the adult disc",
      1,
-     "Because the notochord moved backwards. (Last's p. 537)"
+     "In the adult disc the nucleus pulposus lies nearer the back, because the notochord moved backward during development.\nThat is one reason herniations go backward. (Last's p. 537)"
     ],
     [
      "The nucleus pulposus is about 50% of the disc",
      0,
-     "About 15%. (Last's p. 537)"
+     "Last's says the nucleus pulposus is about 15 percent of the disc, not 50 percent.\nThe annulus makes up most of the disc. (Last's p. 537)"
     ],
     [
      "The nucleus pulposus is about 70% water at birth",
      0,
-     "About 90% at birth, 70% in old age. (Last's p. 537)"
+     "The nucleus pulposus is about 90 percent water at birth, falling to about 70 percent in old age.\nLoss of water explains loss of height with age. (Last's p. 537)"
     ]
    ]
   },
@@ -207,22 +207,22 @@
     [
      "The anterior longitudinal ligament broadens as it passes down",
      1,
-     "True. The anterior longitudinal ligament widens as it descends to the sacrum. (Last's p. 537)"
+     "The anterior longitudinal ligament widens as it descends to the sacrum.\nIt resists extension. (Last's p. 537)"
     ],
     [
      "The posterior longitudinal ligament is firmly attached over the discs",
      1,
-     "Loosely over the bodies. (Last's p. 537)"
+     "The posterior longitudinal ligament is firmly attached over the discs and loosely over the bodies.\nBasivertebral veins emerge under it. (Last's p. 537)"
     ],
     [
      "The posterior longitudinal ligament broadens as it descends",
      0,
-     "It narrows. (Last's p. 537)"
+     "The posterior longitudinal ligament narrows as it descends, which leaves the lumbar discs less protected posterolaterally.\nContrast the anterior ligament, which widens. (Last's p. 537)"
     ],
     [
      "The anterior longitudinal ligament begins at the body of the axis",
      0,
-     "At the anterior tubercle of the atlas; the PLL begins at the axis. (Last's p. 537)"
+     "The anterior longitudinal ligament begins at the anterior tubercle of the atlas; the posterior longitudinal ligament begins at the axis (continuing up as the tectorial membrane).\nDifferent upper ends. (Last's p. 537)"
     ]
    ]
   },
@@ -235,22 +235,22 @@
     [
      "It extended as far cranially as the sella turcica",
      1,
-     "True. The notochord extended cranially as far as the sella turcica. (Last's p. 537)"
+     "The notochord extended cranially as far as the sella turcica.\nChordomas can therefore arise in the clivus as well as the sacrum. (Last's p. 537)"
     ],
     [
      "The apical ligament of the dens is a notochordal remnant",
      1,
-     "True. The apical ligament from the dens to the foramen magnum is a notochordal remnant, as is the nucleus pulposus. (Last's p. 537)"
+     "The apical ligament of the dens, running to the foramen magnum, is a notochordal remnant, like the nucleus pulposus.\nIt is weak and functionally unimportant. (Last's p. 537)"
     ],
     [
      "Its remnant in the disc is the annulus fibrosus",
      0,
-     "The nucleus pulposus. (Last's p. 537)"
+     "The notochordal remnant in the disc is the nucleus pulposus, not the annulus fibrosus.\nThe annulus comes from sclerotome. (Last's p. 537)"
     ],
     [
      "The alar ligaments are notochordal remnants",
      0,
-     "Only the apical ligament. (Last's p. 537)"
+     "Only the apical ligament is a notochordal remnant; the alar ligaments are not.\nThe alar ligaments are strong check ligaments. (Last's p. 537)"
     ]
    ]
   },
@@ -263,22 +263,22 @@
     [
      "An L5/S1 disc prolapse usually irritates the S1 root",
      1,
-     "True. A posterolateral L5/S1 prolapse misses the L5 root (already exiting higher) and compresses S1. (Last's p. 539)"
+     "A posterolateral L5/S1 disc prolapse misses the L5 root, which has already exited higher in its foramen, and compresses the S1 root.\nThe ankle jerk is then reduced. (Last's p. 539)"
     ],
     [
      "A C6/7 disc irritates the C7 root",
      1,
-     "True. In the cervical spine the root exits above its vertebra, so a C6/7 disc affects C7. (Last's p. 539)"
+     "In the cervical spine each root exits above its vertebra, so a C6/7 disc affects the C7 root.\nTriceps weakness and reflex loss result. (Last's p. 539)"
     ],
     [
      "An L4/5 disc prolapse usually irritates the L4 root",
      0,
-     "The L5 root (one below). (Last's p. 539)"
+     "An L4/5 disc prolapse usually irritates the L5 root (the one below).\nThe L4 root has already left above the disc. (Last's p. 539)"
     ],
     [
      "Uncovertebral joints are synovial",
      0,
-     "They are degenerative clefts, not synovial joints. (Last's p. 539)"
+     "Last's says the uncovertebral joints are degenerative clefts, not true synovial joints.\nThey can still cause foraminal narrowing. (Last's p. 539)"
     ]
    ]
   },
@@ -291,22 +291,22 @@
     [
      "Facet joints are supplied from their own level and the level above",
      1,
-     "One nerve supplies two joints. (Last's p. 539)"
+     "The facet joints are supplied from the medial branch of the dorsal ramus at their own level and the level above; each nerve supplies two joints.\nSo two levels must be blocked to denervate one joint. (Last's p. 539)"
     ],
     [
      "Ligamenta flava attach to the front of the upper lamina and back of the lower",
      1,
-     "True. Each ligamentum flavum runs from the front of the lamina above to the back of the lamina below. (Last's p. 539)"
+     "Each ligamentum flavum runs from the front of the lamina above to the back of the lamina below.\nIt is yellow elastic tissue. (Last's p. 539)"
     ],
     [
      "Ligamenta flava are relaxed by flexion",
      0,
-     "Stretched by flexion. (Last's p. 539)"
+     "The ligamenta flava are stretched by flexion, not relaxed.\nTheir elasticity helps return the spine to upright. (Last's p. 539)"
     ],
     [
      "The supraspinous ligament continues in the neck as the anterior longitudinal ligament",
      0,
-     "As the ligamentum nuchae. (Last's p. 539)"
+     "In the neck the supraspinous ligament continues as the ligamentum nuchae.\nThe anterior longitudinal ligament lies on the front of the bodies. (Last's p. 539)"
     ]
    ]
   },
@@ -319,22 +319,22 @@
     [
      "The canal becomes progressively smaller from above down",
      1,
-     "True. The vertebral canal becomes progressively smaller from above down. (Last's p. 540)"
+     "The vertebral canal becomes progressively smaller from above down.\nIt is largest in the cervical and upper lumbar regions relative to the cord. (Last's p. 540)"
     ],
     [
      "Pedicles form the upper and lower boundaries of each foramen",
      1,
-     "True. The pedicles form the upper and lower boundaries of each intervertebral foramen. (Last's p. 540)"
+     "The pedicles form the upper and lower boundaries of each intervertebral foramen.\nThe disc and bodies lie in front and the facet joint behind. (Last's p. 540)"
     ],
     [
      "In the cervical spine only the body above bounds the foramen anteriorly",
      0,
-     "The body below is also included. (Last's p. 540)"
+     "In the cervical spine the intervertebral foramen is bounded anteriorly by parts of both the body above and the body below (with the disc and uncovertebral region).\nSo not only the body above. (Last's p. 540)"
     ],
     [
      "The lumbar spine permits free rotation",
      0,
-     "Lumbar rotation is not possible. (Last's p. 540)"
+     "The lumbar spine permits almost no rotation, because of the sagittal orientation of its facet joints.\nRotation occurs mainly in the thoracic spine. (Last's p. 540)"
     ]
    ]
   },
@@ -347,22 +347,22 @@
     [
      "Thoracic rotation occurs mainly above T9",
      1,
-     "The lower 3-4 vertebrae do not rotate. (Last's p. 540)"
+     "Thoracic rotation occurs mainly above T9; the lower three or four thoracic vertebrae, with more lumbar-type facets, do not rotate.\nMost trunk rotation is upper thoracic. (Last's p. 540)"
     ],
     [
      "The atlantoaxial joints allow rotation only",
      1,
-     "True. The atlantoaxial joints allow rotation; flexion and extension occur at the atlanto-occipital joints. (Last's p. 540)"
+     "The atlanto-axial joints allow rotation; flexion and extension occur at the atlanto-occipital joints.\nAbout half of all neck rotation occurs at C1/2. (Last's p. 540)"
     ],
     [
      "The atlanto-occipital joints allow rotation",
      0,
-     "Flexion, extension and some abduction only. (Last's p. 540)"
+     "The atlanto-occipital joints allow flexion, extension and some lateral flexion, but no rotation.\nRotation is at the atlanto-axial joints. (Last's p. 540)"
     ],
     [
      "Cervical facets lie on the circumference of a circle centred on the body",
      0,
-     "Thoracic ones do; cervical ones do not. (Last's p. 540)"
+     "The thoracic facets lie on the circumference of a circle centred on the vertebral body, which permits rotation. Cervical facets do not.\nThat is why thoracic rotation is possible. (Last's p. 540)"
     ]
    ]
   },
@@ -375,22 +375,22 @@
     [
      "The anterior arch is the ossified hypochordal bow",
      1,
-     "True. The anterior arch of the atlas is the ossified hypochordal bow, homologous with the central band of the radiate ligament. (Last's p. 541-2)"
+     "The anterior arch of the atlas is the ossified hypochordal bow, homologous with the central band of the radiate ligament of the ribs.\nA Last's morphological point. (Last's p. 541-2)"
     ],
     [
      "C1 and C2 anterior rami pass behind the atlantal joints",
      1,
-     "True. The atlantal facets lie in line with the uncovertebral joints, so the C1 and C2 anterior rami pass behind them. (Last's p. 541-2)"
+     "The atlantal facets lie in line with the uncovertebral joints, so the C1 and C2 anterior rami pass behind them.\nLower cervical rami pass behind the uncovertebral region too. (Last's p. 541-2)"
     ],
     [
      "The inferior facet of the atlas is kidney-shaped",
      0,
-     "The superior facet is kidney-shaped; the inferior is round and flat. (Last's p. 541-2)"
+     "The superior facet of the atlas is kidney-shaped (for the occipital condyle); the inferior facet is round and flat.\nThe superior facet is concave. (Last's p. 541-2)"
     ],
     [
      "Rectus capitis posterior major attaches to the posterior arch of the atlas",
      0,
-     "Minor is the only muscle there. (Last's p. 541-2)"
+     "Rectus capitis posterior minor is the only muscle attached to the posterior arch of the atlas (at its tubercle). Rectus capitis posterior major attaches to the axis spine.\nMinor on the atlas, major on the axis. (Last's p. 541-2)"
     ]
    ]
   },
@@ -403,22 +403,22 @@
     [
      "The dens bears no weight",
      1,
-     "Weight passes through the superior articular facets. (Last's p. 541-2)"
+     "The dens bears no weight; weight passes from the atlas through the superior articular facets of the axis.\nThe dens acts as a pivot. (Last's p. 541-2)"
     ],
     [
      "Its foramen transversarium is directed upwards and outwards",
      1,
-     "Giving the vertebral artery a lateral bend. (Last's p. 541-2)"
+     "The foramen transversarium of the axis is directed upward and outward, giving the vertebral artery a lateral bend.\nThe artery then turns medially above the atlas. (Last's p. 541-2)"
     ],
     [
      "The dens is the centrum of the atlas",
      0,
-     "Last's says it is not. (Last's p. 541-2)"
+     "Last's says the dens is not the centrum of the atlas. Note that most embryology texts describe the dens as derived largely from the atlas centrum, so expect this point to be contested.\nAnswer according to Last's. (Last's p. 541-2)"
     ],
     [
      "Semispinalis capitis inserts into the bifid spine of the axis",
      0,
-     "Semispinalis cervicis does. (Last's p. 541-2)"
+     "Semispinalis cervicis inserts into the bifid spine of the axis. Semispinalis capitis inserts into the occipital bone.\nCapitis goes to the head. (Last's p. 541-2)"
     ]
    ]
   },
@@ -431,22 +431,22 @@
     [
      "The tectorial membrane is continuous with the PLL",
      1,
-     "True. The tectorial membrane is the upward continuation of the PLL from the axis to the foramen magnum. (Last's p. 541-2)"
+     "The tectorial membrane is the upward continuation of the posterior longitudinal ligament from the axis to the foramen magnum.\nIt covers the dens from behind. (Last's p. 541-2)"
     ],
     [
      "The alar ligaments limit rotation",
      1,
-     "True. The strong alar ligaments from the dens to the condyles limit rotation of the head. (Last's p. 541-2)"
+     "The strong alar ligaments, from the dens to the occipital condyles, limit rotation of the head.\nThey are check ligaments. (Last's p. 541-2)"
     ],
     [
      "The tectorial membrane lies behind the dura",
      0,
-     "In front of the dura, firmly attached to it. (Last's p. 541-2)"
+     "The tectorial membrane lies in front of the dura, firmly attached to it, not behind it.\nIt is the most posterior ligament, just in front of the dura. (Last's p. 541-2)"
     ],
     [
      "The apical ligament lies behind the cruciform ligament",
      0,
-     "In front of its upper longitudinal band. (Last's p. 541-2)"
+     "The apical ligament lies in front of the upper longitudinal band of the cruciform ligament, not behind it.\nFrom front to back: apical, cruciform, tectorial membrane. (Last's p. 541-2)"
     ]
    ]
   },
@@ -459,22 +459,22 @@
     [
      "They are supplied by C1",
      1,
-     "True. Both atlanto-occipital membranes are supplied by C1. (Last's p. 541-2)"
+     "Both atlanto-occipital membranes are supplied by C1.\nThe joint and its membranes share a nerve supply. (Last's p. 541-2)"
     ],
     [
      "The posterior membrane is deficient laterally for the vertebral artery and C1",
      1,
-     "True. The posterior membrane is deficient at each end for the vertebral artery and C1 nerve. (Last's p. 541-2)"
+     "The posterior atlanto-occipital membrane is deficient at each end for the vertebral artery and C1 nerve.\nThese pass beneath its lateral free border. (Last's p. 541-2)"
     ],
     [
      "The anterior membrane attaches to the posterior border of the anterior arch",
      0,
-     "To its anterior (upper) border. (Last's p. 541-2)"
+     "The anterior atlanto-occipital membrane attaches to the anterior (upper) border of the anterior arch of the atlas.\nIt continues the anterior longitudinal ligament. (Last's p. 541-2)"
     ],
     [
      "The lateral atlantoaxial joints are supplied by C1",
      0,
-     "By C2. (Last's p. 541-2)"
+     "The lateral atlanto-axial joints are supplied by C2, not C1.\nThe C2 nerve lies just behind them. (Last's p. 541-2)"
     ]
    ]
   },
@@ -487,22 +487,22 @@
     [
      "Rotatores occur only in the thoracic spine",
      1,
-     "True. Rotatores (TP to root of the spine above) are found only in the thoracic spine. (Last's p. 544)"
+     "Rotatores (from a transverse process to the root of the spine above) are found only in the thoracic spine.\nThey are the deepest transversospinalis muscles. (Last's p. 544)"
     ],
     [
      "Semispinalis capitis is the chief extensor of the head",
      1,
-     "True. Semispinalis capitis, from upper thoracic and lower cervical transverse processes to the occiput, is the chief extensor of the head. (Last's p. 544)"
+     "Semispinalis capitis, from upper thoracic and lower cervical transverse processes to the occiput, is the chief extensor of the head.\nIt is a thick muscle under trapezius. (Last's p. 544)"
     ],
     [
      "Multifidus extends from the sacrum to C1",
      0,
-     "To C2. (Last's p. 544)"
+     "Multifidus extends from the sacrum to C2, not C1.\nC1 has no spine for it to reach. (Last's p. 544)"
     ],
     [
      "Iliocostalis forms the most medial part of erector spinae",
      0,
-     "The most lateral; spinalis is the most medial. (Last's p. 544)"
+     "Iliocostalis forms the most lateral part of erector spinae; spinalis is the most medial.\nLongissimus is intermediate. (Last's p. 544)"
     ]
    ]
   },
@@ -515,22 +515,22 @@
     [
      "Splenius cervicis attaches to the transverse processes of C1-3 or C1-4",
      1,
-     "True. Splenius cervicis inserts into the transverse processes of C1-3 or C1-4, deep to levator scapulae. (Last's p. 544)"
+     "Splenius cervicis inserts into the transverse processes of C1 to C3 or C1 to C4, deep to levator scapulae.\nSplenius capitis inserts into the mastoid and superior nuchal line. (Last's p. 544)"
     ],
     [
      "Longus colli and psoas belong to the flexor group",
      1,
-     "Supplied by anterior rami. (Last's p. 544)"
+     "Longus colli and psoas belong to the vertebral flexor group, supplied by anterior rami.\nThey lie in front of the transverse processes. (Last's p. 544)"
     ],
     [
      "Splenius is supplied by the accessory nerve",
      0,
-     "By posterior rami. (Last's p. 544)"
+     "Splenius is supplied by posterior (dorsal) rami, as an intrinsic back muscle, not by the accessory nerve.\nThe accessory nerve supplies sternocleidomastoid and trapezius. (Last's p. 544)"
     ],
     [
      "The vertebral flexors derive from the outer layer of the body wall",
      0,
-     "From the innermost layer. (Last's p. 544)"
+     "Last's says the vertebral flexors derive from the innermost layer of the body wall, not the outer layer.\nThey correspond to transversus abdominis in layer. (Last's p. 544)"
     ]
    ]
   },
@@ -543,22 +543,22 @@
     [
      "Its floor is the posterior arch of the atlas and posterior atlanto-occipital membrane",
      1,
-     "True. The floor of the suboccipital triangle is the posterior arch of the atlas and posterior atlanto-occipital membrane. (Last's p. 546)"
+     "The floor of the suboccipital triangle is the posterior arch of the atlas and the posterior atlanto-occipital membrane.\nThe vertebral artery lies on the arch. (Last's p. 546)"
     ],
     [
      "The suboccipital nerve and vertebral artery cross its floor",
      1,
-     "True. The vertebral artery and the suboccipital nerve (C1) lie on the floor. (Last's p. 546)"
+     "The vertebral artery and the suboccipital nerve (C1) lie on the floor of the triangle.\nThe nerve emerges between the artery and the arch. (Last's p. 546)"
     ],
     [
      "It is bounded by rectus capitis posterior minor",
      0,
-     "By rectus major and the two obliques. (Last's p. 546)"
+     "The triangle is bounded by rectus capitis posterior major and the two oblique muscles. Rectus minor lies medial to it.\nMinor does not form a side. (Last's p. 546)"
     ],
     [
      "The greater occipital nerve crosses its floor",
      0,
-     "It crosses its roof. (Last's p. 546)"
+     "The greater occipital nerve crosses the roof of the triangle, not its floor.\nIt winds around the lower border of obliquus inferior. (Last's p. 546)"
     ]
    ]
   },
@@ -571,22 +571,22 @@
     [
      "They are supplied by the posterior ramus of C1",
      1,
-     "True. The recti and obliques of the suboccipital region are supplied by the posterior ramus of C1 (suboccipital nerve). (Last's p. 546)"
+     "The suboccipital recti and obliques are supplied by the posterior ramus of C1 (the suboccipital nerve).\nIt has no cutaneous branch. (Last's p. 546)"
     ],
     [
      "Inferior oblique runs from the axis spine to the atlas lateral mass",
      1,
-     "It rotates the atlas. (Last's p. 546)"
+     "Inferior oblique runs from the spine of the axis to the transverse process (lateral mass) of the atlas. It rotates the atlas.\nDespite its name it does not reach the skull. (Last's p. 546)"
     ],
     [
      "Superior oblique runs from the axis spine to the occiput",
      0,
-     "From the atlas lateral mass. (Last's p. 546)"
+     "Superior oblique runs from the transverse process (lateral mass) of the atlas to the occiput, not from the axis spine.\nThe axis spine gives origin to the inferior oblique and rectus major. (Last's p. 546)"
     ],
     [
      "The suboccipital nerve supplies skin of the occiput",
      0,
-     "Neither ramus supplies skin. (Last's p. 546)"
+     "The suboccipital nerve has no cutaneous branch; neither of its rami supplies skin.\nThe occipital skin is C2 (greater occipital). (Last's p. 546)"
     ]
    ]
   },
@@ -599,22 +599,22 @@
     [
      "It enters the C6 foramen transversarium",
      1,
-     "True. The vertebral artery usually enters the foramen transversarium of C6, not C7. (Last's p. 547-8)"
+     "The vertebral artery usually enters the foramen transversarium of C6, not C7.\nAbout 5 percent enter at another level. (Last's p. 547-8)"
     ],
     [
      "It passes behind the atlanto-occipital joint",
      1,
-     "True. Above the atlas it turns medially behind the atlanto-occipital joint, grooving the posterior arch. (Last's p. 547-8)"
+     "Above the atlas the vertebral artery turns medially behind the atlanto-occipital joint, grooving the posterior arch.\nThis is its suboccipital part. (Last's p. 547-8)"
     ],
     [
      "It runs behind the emerging cervical nerves",
      0,
-     "In front of them. (Last's p. 547-8)"
+     "The vertebral artery runs in front of the emerging cervical nerves, not behind them.\nThe nerves pass behind it in the transverse processes. (Last's p. 547-8)"
     ],
     [
      "Vertebral veins accompany it inside the skull",
      0,
-     "They exist only in the neck. (Last's p. 547-8)"
+     "Last's says the vertebral veins exist only in the neck; they do not accompany the artery inside the skull.\nNo veins accompany the vertebral and basilar arteries intracranially. (Last's p. 547-8)"
     ]
    ]
   },
@@ -627,22 +627,22 @@
     [
      "One emerges with the artery through C6",
      1,
-     "True. One vertebral vein emerges with the artery from the C6 foramen. (Last's p. 547-8)"
+     "One vertebral vein emerges with the artery from the C6 foramen transversarium.\nIt forms from a plexus around the artery. (Last's p. 547-8)"
     ],
     [
      "One passes alone through C7 foramen transversarium",
      1,
-     "True. A second vein passes alone through the C7 foramen transversarium. (Last's p. 547-8)"
+     "A second vertebral vein passes alone through the C7 foramen transversarium.\nThat foramen does not carry the artery. (Last's p. 547-8)"
     ],
     [
      "They drain into the internal jugular vein",
      0,
-     "Into the brachiocephalic vein. (Last's p. 547-8)"
+     "The vertebral veins drain into the brachiocephalic vein, not the internal jugular vein.\nThey enter its back at the root of the neck. (Last's p. 547-8)"
     ],
     [
      "The C7 foramen transmits the vertebral artery",
      0,
-     "It does not. (Last's p. 547-8)"
+     "The C7 foramen does not transmit the vertebral artery, which enters at C6.\nIt carries only a vein and a grey ramus. (Last's p. 547-8)"
     ]
    ]
   },
@@ -655,22 +655,22 @@
     [
      "It grooves the occipitomastoid suture deep to digastric",
      1,
-     "True. The occipital artery grooves the occipitomastoid suture deep to the posterior belly of digastric and longissimus capitis. (Last's p. 547-8)"
+     "The occipital artery grooves the occipitomastoid suture deep to the posterior belly of digastric and longissimus capitis.\nIt runs back to the scalp. (Last's p. 547-8)"
     ],
     [
      "The hypoglossal nerve hooks round it from behind",
      1,
-     "True. XII hooks round the occipital artery from behind, held down by its lower sternocleidomastoid branch. (Last's p. 547-8)"
+     "XII hooks round the occipital artery from behind, held down by its lower sternocleidomastoid branch.\nA landmark for finding XII. (Last's p. 547-8)"
     ],
     [
      "It crosses the floor of the suboccipital triangle",
      0,
-     "The upper part of its roof. (Last's p. 547-8)"
+     "The occipital artery crosses the upper part of the roof of the suboccipital triangle, not its floor.\nThe vertebral artery is on the floor. (Last's p. 547-8)"
     ],
     [
      "Its upper sternocleidomastoid branch is a guide to the facial nerve",
      0,
-     "To the accessory nerve. (Last's p. 547-8)"
+     "The upper sternocleidomastoid branch of the occipital artery is a guide to the accessory nerve, not the facial nerve.\nThe lower branch relates to XII. (Last's p. 547-8)"
     ]
    ]
   },
@@ -683,22 +683,22 @@
     [
      "The spines are steepest at T7",
      1,
-     "Then level out to T12. (Last's p. 548-50)"
+     "The spines of the thoracic vertebrae are steepest (most downward-sloping) at T7, then level out towards T12.\nSo the T7 spine overlies the T8 body. (Last's p. 548-50)"
     ],
     [
      "The upper six costotransverse facets are concave",
      1,
-     "Lower ones flat. (Last's p. 548-50)"
+     "The upper six costotransverse facets are concave (allowing rotation of the rib); the lower ones are flat (allowing gliding).\nThis difference affects rib movement. (Last's p. 548-50)"
     ],
     [
      "The superior articular facets face anteromedially",
      0,
-     "Posterolaterally. (Last's p. 548-50)"
+     "The superior articular facets of thoracic vertebrae face posterolaterally, not anteromedially.\nThey lie on the arc of a circle, allowing rotation. (Last's p. 548-50)"
     ],
     [
      "The body takes part in the boundary of the foramen above",
      0,
-     "The pedicle is flush with the top, so it does not. (Last's p. 548-50)"
+     "In thoracic vertebrae the pedicle is flush with the top of the body, so the body does not take part in the boundary of the foramen above.\nThe disc and body below bound it. (Last's p. 548-50)"
     ]
    ]
   },
@@ -711,22 +711,22 @@
     [
      "T1 has a whole facet for the first rib",
      1,
-     "True. T1 has a complete round facet for the head of the first rib and a demifacet below for the second. (Last's p. 548-50)"
+     "T1 has a complete round facet for the head of the first rib and a demifacet below for the second.\nIt is transitional. (Last's p. 548-50)"
     ],
     [
      "T12 has a lumbar-type inferior facet",
      1,
-     "True. T12's inferior articular processes are lumbar in type, facing laterally. (Last's p. 548-50)"
+     "The inferior articular processes of T12 are lumbar in type, facing laterally.\nSo rotation is limited below it. (Last's p. 548-50)"
     ],
     [
      "T1 pedicles are flush with the top of the body",
      0,
-     "They attach below the upper margin, as in cervical vertebrae. (Last's p. 548-50)"
+     "The pedicles of T1 attach below the upper margin of the body, as in cervical vertebrae, not flush with the top.\nT1 is transitional. (Last's p. 548-50)"
     ],
     [
      "The T12 posterior ramus runs between its mamillary and accessory processes",
      0,
-     "The T11 posterior ramus does. (Last's p. 548-50)"
+     "Last's says it is the T11 posterior ramus that runs between the mammillary and accessory processes of T12.\nA small Last's detail. (Last's p. 548-50)"
     ]
    ]
   },
@@ -739,22 +739,22 @@
     [
      "L5 is the only vertebra whose transverse process joins the body",
      1,
-     "True. Only L5 has a transverse process joining the body as well as the pedicle; it is short and massive. (Last's p. 550-2)"
+     "Only L5 has a transverse process that joins the body as well as the pedicle; it is short and massive.\nIt bears weight transmitted through the iliolumbar ligament. (Last's p. 550-2)"
     ],
     [
      "The lumbar lordosis is mainly due to wedge-shaped discs",
      1,
-     "True. Last's: the lumbar lordosis is produced mainly by wedge-shaped discs. (Last's p. 550-2)"
+     "Last's says the lumbar lordosis is produced mainly by wedge-shaped discs.\nRather than wedge-shaped vertebral bodies. (Last's p. 550-2)"
     ],
     [
      "L1 usually has the longest transverse process",
      0,
-     "L4 (L3 in other texts); L5 is short and massive. (Last's p. 550-2)"
+     "The longest lumbar transverse process is usually L3 or L4 (Last's says L4); L1 is not the longest. L5 is short and massive.\nThe transverse processes of L1 are shortest. (Last's p. 550-2)"
     ],
     [
      "Lumbar bodies are heart-shaped",
      0,
-     "Kidney-shaped. (Last's p. 550-2)"
+     "Lumbar vertebral bodies are kidney-shaped, not heart-shaped.\nThoracic bodies are heart-shaped. (Last's p. 550-2)"
     ]
    ]
   },
@@ -767,22 +767,22 @@
     [
      "Psoas spans the vertebral concavity on fibrous arches",
      1,
-     "Lumbar vessels and sympathetic rami pass beneath. (Last's p. 550-2)"
+     "Psoas spans the concavity at the sides of the lumbar bodies on fibrous arches. The lumbar vessels and sympathetic rami pass beneath them.\nThis protects the vessels. (Last's p. 550-2)"
     ],
     [
      "The arcuate ligaments attach to the L1 transverse process",
      1,
-     "True. The medial and lateral arcuate ligaments attach to the L1 transverse process. (Last's p. 550-2)"
+     "The medial and lateral arcuate ligaments attach to the transverse process of L1.\nThe diaphragm arises from them. (Last's p. 550-2)"
     ],
     [
      "Quadratus lumborum lies medial to the ridge on the transverse process",
      0,
-     "Lateral; psoas is medial. (Last's p. 550-2)"
+     "Quadratus lumborum lies lateral to the ridge on the transverse process; psoas is medial.\nThe ridge marks the attachment of the anterior layer of the thoracolumbar fascia. (Last's p. 550-2)"
     ],
     [
      "The L5 inferior facets face backwards",
      0,
-     "They face forwards into backward-facing sacral facets. (Last's p. 550-2)"
+     "The inferior facets of L5 face forward, fitting into the backward-facing superior facets of the sacrum.\nThis prevents L5 sliding forward. (Last's p. 550-2)"
     ]
    ]
   },
@@ -795,22 +795,22 @@
     [
      "The sacroiliac joint itself is not weight-bearing",
      1,
-     "The ligaments bear the weight. (Last's p. 552-4)"
+     "Last's says the sacroiliac joint itself is not weight-bearing; the strong interosseous and posterior ligaments bear the weight.\nThe sacrum hangs from the ligaments. (Last's p. 552-4)"
     ],
     [
      "Medial borders of the anterior foramina are vertebral bodies",
      1,
-     "The rest is costal. (Last's p. 552-4)"
+     "The medial borders of the anterior sacral foramina are formed by the fused vertebral bodies; the rest of the lateral mass is costal in origin.\nThe costal elements form the alae. (Last's p. 552-4)"
     ],
     [
      "The sacral hiatus is due to failure of fusion of S1 laminae",
      0,
-     "S5 (and sometimes S4). (Last's p. 552-4)"
+     "The sacral hiatus is due to failure of fusion of the laminae of S5 (and sometimes S4), not S1.\nFailure at S1 is spina bifida occulta of S1, which is common but different. (Last's p. 552-4)"
     ],
     [
      "The sacral plexus lies medial to the anterior foramina",
      0,
-     "Lateral, on piriformis. (Last's p. 552-4)"
+     "The sacral plexus lies lateral to the anterior sacral foramina, on piriformis.\nThe sympathetic trunk lies medial to them. (Last's p. 552-4)"
     ]
    ]
   },
@@ -823,22 +823,22 @@
     [
      "The sympathetic trunk crosses medial to the sacral foramina",
      1,
-     "True. The sacral sympathetic trunk runs down medial to the anterior sacral foramina; the sacral plexus is lateral. (Last's p. 552-4)"
+     "The sacral sympathetic trunk runs down medial to the anterior sacral foramina; the sacral plexus is lateral.\nThe two trunks join in front of the coccyx (ganglion impar). (Last's p. 552-4)"
     ],
     [
      "The obturator nerve is the most lateral structure crossing the ala",
      1,
-     "After trunk, lumbosacral trunk and iliolumbar artery. (Last's p. 552-4)"
+     "Crossing the sacral ala from medial to lateral are the sympathetic trunk, the lumbosacral trunk, the iliolumbar artery and the obturator nerve. The obturator nerve is the most lateral.\nThese structures can be injured in sacral fractures. (Last's p. 552-4)"
     ],
     [
      "Sacrotuberous ligament arises above the auricular surface",
      0,
-     "Below it. (Last's p. 552-4)"
+     "The sacrotuberous ligament arises below the auricular surface, not above it.\nIt runs from the back of the sacrum and ilium to the ischial tuberosity. (Last's p. 552-4)"
     ],
     [
      "The dural sac in the sacral canal ends at S4",
      0,
-     "At S2. (Last's p. 552-4)"
+     "The dural sac in the sacral canal ends at S2, not S4.\nBelow that the canal contains roots in their own sheaths and the filum. (Last's p. 552-4)"
     ]
    ]
   },
@@ -851,22 +851,22 @@
     [
      "The lateral sacrococcygeal ligament completes the foramen for S5",
      1,
-     "True. The lateral sacrococcygeal ligament completes the foramen for the S5 nerve. (Last's p. 552-4)"
+     "The lateral sacrococcygeal ligament completes the foramen for the S5 nerve.\nIt runs between the coccyx and the sacrum. (Last's p. 552-4)"
     ],
     [
      "Its tip gives attachment to the anococcygeal raphe",
      1,
-     "True. The coccygeal tip gives attachment to the anococcygeal raphe and part of the external anal sphincter. (Last's p. 552-4)"
+     "The tip of the coccyx gives attachment to the anococcygeal raphe and part of the external anal sphincter.\nLevator ani also attaches nearby. (Last's p. 552-4)"
     ],
     [
      "It usually has six pieces",
      0,
-     "Four. (Last's p. 552-4)"
+     "The coccyx usually has four pieces, not six.\nThe number varies from three to five. (Last's p. 552-4)"
     ],
     [
      "Its lower surface lies in the pelvic floor",
      0,
-     "Upper surface in the pelvic floor, lower in the buttock. (Last's p. 552-4)"
+     "The upper surface of the coccyx lies in the pelvic floor; the lower surface lies in the buttock.\nCoccygeus and levator ani attach to its margins. (Last's p. 552-4)"
     ]
    ]
   },
@@ -879,22 +879,22 @@
     [
      "The C6 anterior tubercle is the carotid tubercle",
      1,
-     "True. The large C6 anterior tubercle is the carotid (Chassaignac's) tubercle, against which the carotid can be compressed. (Last's p. 555-6)"
+     "The large anterior tubercle of C6 is the carotid (Chassaignac's) tubercle, against which the carotid can be compressed.\nIt is also a stellate block landmark. (Last's p. 555-6)"
     ],
     [
      "The posterior root ganglia lie on the lamella behind the foramen",
      1,
-     "True. Cervical posterior root ganglia lie on the intertubercular lamella behind the vertebral artery. (Last's p. 555-6)"
+     "Cervical posterior root ganglia lie on the intertubercular lamella behind the vertebral artery.\nThey sit in the gutter of the transverse process. (Last's p. 555-6)"
     ],
     [
      "Scalenus anterior attaches to posterior tubercles",
      0,
-     "To anterior tubercles. (Last's p. 555-6)"
+     "Scalenus anterior attaches to the anterior tubercles of C3 to C6, not the posterior tubercles.\nScalenus medius and posterior attach to the posterior tubercles. (Last's p. 555-6)"
     ],
     [
      "The vertebral body is larger than the vertebral foramen",
      0,
-     "The same size or smaller. (Last's p. 555-6)"
+     "In typical cervical vertebrae the body is the same size as or smaller than the large triangular vertebral foramen.\nThe canal is roomy for the cervical enlargement. (Last's p. 555-6)"
     ]
    ]
   },
@@ -907,22 +907,22 @@
     [
      "Its foramen transversarium does not transmit the vertebral artery",
      1,
-     "True. The C7 foramen transversarium usually carries only a vertebral vein and a grey ramus, not the artery. (Last's p. 555-6)"
+     "The foramen transversarium of C7 usually carries only a vertebral vein and a grey ramus, not the vertebral artery.\nThe artery enters at C6. (Last's p. 555-6)"
     ],
     [
      "Its spine ends in a rounded tubercle, not bifid",
      1,
-     "True. C7 (vertebra prominens) has a long spine ending in a single tubercle. (Last's p. 555-6)"
+     "C7 (vertebra prominens) has a long spine ending in a single rounded tubercle, not bifid.\nIt is the first easily palpable spine. (Last's p. 555-6)"
     ],
     [
      "Its anterior tubercle is large",
      0,
-     "Small, for scalenus pleuralis and suprapleural membrane. (Last's p. 555-6)"
+     "The anterior tubercle of C7 is small, giving attachment to scalenus pleuralis and the suprapleural membrane.\nC6 has the large one. (Last's p. 555-6)"
     ],
     [
      "Its foramen transmits the grey ramus to C8",
      0,
-     "To the C7 anterior ramus. (Last's p. 555-6)"
+     "Last's says the grey ramus through the C7 foramen goes to the C7 anterior ramus, not C8.\nSmall details are often tested. (Last's p. 555-6)"
     ]
    ]
   },
@@ -935,22 +935,22 @@
     [
      "It has five primary centres",
      1,
-     "True. The axis has five primary centres: lower body, two half-arches with lateral parts, and two for the dens and upper body. (Last's p. 555-6)"
+     "Last's says the axis has five primary centres: the lower body, two half-arches with the lateral parts, and two for the dens and upper body.\nMore than a typical vertebra. (Last's p. 555-6)"
     ],
     [
      "It has seven centres in total",
      1,
-     "Five primary, tip of dens, and lower ring epiphysis. (Last's p. 555-6)"
+     "In total the axis has seven centres: five primary, plus the tip of the dens and the lower ring epiphysis.\nSecondary centres appear later. (Last's p. 555-6)"
     ],
     [
      "The tip of the dens centre appears at 12",
      0,
-     "It appears at 3 and fuses at 12. (Last's p. 555-6)"
+     "The centre for the tip of the dens appears at about 3 years and fuses at about 12.\nSo 12 is the fusion age, not the appearance. (Last's p. 555-6)"
     ],
     [
      "The arch centres appear at the fifth month",
      0,
-     "At the seventh week. (Last's p. 555-6)"
+     "The neural arch centres of the axis appear at about the seventh fetal week, not the fifth month.\nThe dens centres appear at the fifth month. (Last's p. 555-6)"
     ]
    ]
   },
@@ -963,22 +963,22 @@
     [
      "The deep cervical artery supplies the cervical extensors",
      1,
-     "With the transverse cervical artery. (Last's p. 555-6)"
+     "The deep cervical artery, with the transverse cervical artery, supplies the cervical extensor muscles.\nThe deep cervical comes from the costocervical trunk. (Last's p. 555-6)"
     ],
     [
      "Vertebral veins communicate with the left renal vein",
      1,
-     "True. Through segmental veins the vertebral plexuses communicate with the left renal vein, a route for spread of cancer. (Last's p. 555-6)"
+     "Through segmental veins the vertebral venous plexuses communicate with the left renal vein, a route for the spread of cancer.\nBatson's plexus links many systems. (Last's p. 555-6)"
     ],
     [
      "Basivertebral veins drain into the external vertebral plexus",
      0,
-     "Into the internal plexus. (Last's p. 555-6)"
+     "The basivertebral veins drain into the internal vertebral plexus, not the external.\nThey emerge from the backs of the bodies into the canal. (Last's p. 555-6)"
     ],
     [
      "The external vertebral plexus lies within the vertebral canal",
      0,
-     "It is intramuscular. (Last's p. 555-6)"
+     "The external vertebral plexus lies outside the canal, around the vertebrae and within the back muscles; the internal plexus lies within the canal.\nTheir names describe their positions. (Last's p. 555-6)"
     ]
    ]
   }

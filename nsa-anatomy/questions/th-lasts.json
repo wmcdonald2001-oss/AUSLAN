@@ -11,22 +11,22 @@
     [
      "The lower facet of the head articulates with its own vertebra",
      1,
-     "True. The lower facet on the rib head articulates with the upper border of its own vertebra; the upper facet with the vertebra above. (Last's)"
+     "The lower facet on the head of a typical rib articulates with the upper border of its own vertebra; the upper facet with the vertebra above.\nSo rib 6 articulates with T5 and T6."
     ],
     [
      "The intra-articular ligament attaches the ridge to the disc",
      1,
-     "True. The intra-articular ligament ties the crest between the two facets to the intervertebral disc. (Last's)"
+     "The intra-articular ligament ties the crest between the two facets of the rib head to the intervertebral disc.\nThis divides the joint into two cavities."
     ],
     [
      "The first rib articulates with C7 and T1",
      0,
-     "T1 only, never C7."
+     "Last's says the first rib articulates with T1 only, never with C7.\nIts head has a single facet."
     ],
     [
      "The radiate ligament of the first rib has three bands",
      0,
-     "Two bands for the first and last two ribs."
+     "The radiate ligament of the first rib (and of the last two ribs) has two bands, not three, because these ribs articulate with only one vertebra.\nTypical ribs have three bands."
     ]
    ]
   },
@@ -39,22 +39,22 @@
     [
      "It is formed by the central band of the radiate ligament",
      1,
-     "True. The central band of the radiate ligament crosses horizontally to meet that of the other side: the hypochordal bow. (Last's)"
+     "The central band of the radiate ligament crosses horizontally to meet its fellow of the other side; Last's calls this the hypochordal bow.\nIt is a morphological remnant."
     ],
     [
      "It runs deep to the anterior longitudinal ligament",
      1,
-     "True. The hypochordal bow lies deep to the anterior longitudinal ligament, blending with the disc. (Last's)"
+     "The hypochordal bow lies deep to the anterior longitudinal ligament, blending with the disc.\nIt is not visible from the front."
     ],
     [
      "It explains the formation of the dens",
      0,
-     "It explains the anterior arch of the atlas."
+     "Last's uses the hypochordal bow to explain the anterior arch of the atlas, not the dens.\nThe anterior arch is an ossified hypochordal bow."
     ],
     [
      "It lies superficial to the anterior longitudinal ligament",
      0,
-     "Deep to it."
+     "The hypochordal bow lies deep to the anterior longitudinal ligament, not superficial to it.\nIt runs across the disc."
     ]
    ]
   },
@@ -67,22 +67,22 @@
     [
      "Costochondral joints are primary cartilaginous",
      1,
-     "No movement occurs."
+     "Costochondral joints are primary cartilaginous joints; no movement occurs at them.\nThe rib is continuous with its cartilage."
     ],
     [
      "The first sternocostal joint is primary cartilaginous",
      1,
-     "Manubrium and first ribs move together."
+     "The first sternocostal joint is primary cartilaginous, so the manubrium and first ribs move together.\nThe other sternocostal joints are synovial."
     ],
     [
      "Interchondral synovial joints exist between cartilages 2 to 5",
      0,
-     "Between 6 and 7, 7 and 8, 8 and 9."
+     "Interchondral synovial joints exist between costal cartilages 6 and 7, 7 and 8, and 8 and 9, not between 2 and 5.\nCartilages 2 to 5 do not touch each other."
     ],
     [
      "The third sternocostal joint has two cavities",
      0,
-     "It is the second that has two separate cavities."
+     "It is the second sternocostal joint that has two separate cavities, because it meets the manubriosternal junction.\nThe third has one cavity."
     ]
    ]
   },
@@ -95,22 +95,22 @@
     [
      "The upper six are reciprocally curved",
      1,
-     "Lower down they are flat."
+     "The upper six costotransverse joints are reciprocally curved (concave on the transverse process), allowing rotation of the rib neck. Lower down they are flat, allowing gliding.\nThis explains bucket-handle versus pump-handle movements."
     ],
     [
      "The superior costotransverse ligament runs to the transverse process above",
      1,
-     "True. The superior costotransverse ligament runs from the crest of the rib neck to the transverse process above. (Last's)"
+     "The superior costotransverse ligament runs from the crest of the rib neck to the transverse process above.\nIt lies in front of the posterior ramus."
     ],
     [
      "The lower two ribs have synovial costotransverse joints",
      0,
-     "Only ligamentous attachments."
+     "The 11th and 12th ribs have no tubercles and no synovial costotransverse joints, only ligamentous attachments.\nThey are floating ribs."
     ],
     [
      "The lateral costotransverse ligament attaches to the medial facet of the tubercle",
      0,
-     "To the lateral, non-articular facet."
+     "The lateral costotransverse ligament attaches to the lateral, non-articular facet of the rib tubercle, not the medial (articular) facet.\nThe medial facet forms the synovial joint."
     ]
    ]
   },
@@ -123,22 +123,22 @@
     [
      "The serratus posterior muscles belong to the outer layer",
      1,
-     "With the external intercostals."
+     "The serratus posterior muscles belong to the outer layer of the thoracic wall, with the external intercostals.\nThey are respiratory muscles."
     ],
     [
      "The neurovascular plane lies between middle and inner layers",
      1,
-     "True. The intercostal vessels and nerves run between the middle (internal intercostal) and inner (innermost) layers. (Last's)"
+     "The intercostal vessels and nerves run between the middle (internal intercostal) and inner (innermost intercostal) layers.\nThis is the neurovascular plane."
     ],
     [
      "The subcostals belong to the middle layer",
      0,
-     "To the inner (transversus thoracis) group."
+     "The subcostals belong to the inner (transversus thoracis) group, with the innermost intercostals and sternocostalis.\nThey span more than one space."
     ],
     [
      "The internal intercostals correspond to external oblique",
      0,
-     "To internal oblique."
+     "The internal intercostals correspond to internal oblique in the abdominal wall. The external intercostals correspond to external oblique.\nThe layers are continuous in plan."
     ]
    ]
   },
@@ -151,22 +151,22 @@
     [
      "The last two costal cartilages are free",
      1,
-     "True. Costal cartilages 11 and 12 are free; 8-10 join the cartilage above. (Last's)"
+     "Costal cartilages 11 and 12 are free; cartilages 8 to 10 join the cartilage above.\nSo only seven reach the sternum."
     ],
     [
      "The manubriosternal joint is a symphysis",
      1,
-     "True. The manubriosternal joint is a symphysis (secondary cartilaginous joint). (Last's)"
+     "The manubriosternal joint is a symphysis (secondary cartilaginous joint).\nIt may ossify in old age."
     ],
     [
      "The upper ten costal cartilages articulate with the sternum",
      0,
-     "The upper seven."
+     "Only the upper seven costal cartilages articulate with the sternum, not ten.\nThese are the \"true\" ribs."
     ],
     [
      "Ribs articulate with the vertebral column in one place",
      0,
-     "In two: heads and tubercles."
+     "Ribs articulate with the vertebral column in two places: at the head (with the bodies) and at the tubercle (with the transverse process).\nExcept ribs 11 and 12, which have only the head joint."
     ]
    ]
   },
@@ -179,22 +179,22 @@
     [
      "The inspiratory centre lies near the nucleus of the tractus solitarius",
      1,
-     "True. A medullary inspiratory centre near the nucleus of the tractus solitarius sets the rhythm of breathing. (Last's)"
+     "A medullary inspiratory centre near the nucleus of the tractus solitarius sets the rhythm of breathing.\nLast's calls it a respiratory \"pacemaker\"."
     ],
     [
      "The pneumotaxic centre lies near the superior cerebellar peduncle",
      1,
-     "True. The pontine pneumotaxic centre near the superior cerebellar peduncle switches inspiration to expiration. (Last's)"
+     "The pontine pneumotaxic centre, near the superior cerebellar peduncle, switches inspiration off to allow expiration.\nIt fine-tunes the rhythm."
     ],
     [
      "Inspiratory neurons project to the ipsilateral phrenic neurons",
      0,
-     "To the contralateral phrenic neurons."
+     "Last's says inspiratory neurons project to the contralateral phrenic neurons, not the ipsilateral ones.\nThe fibres cross in the medulla."
     ],
     [
      "Hypoxia is detected centrally in the medulla",
      0,
-     "Peripherally by carotid and aortic bodies; the brain responds to CO2."
+     "Hypoxia is detected peripherally by the carotid and aortic bodies. The brain responds to carbon dioxide.\nCentral chemoreceptors sense pH."
     ]
    ]
   },
@@ -207,22 +207,22 @@
     [
      "Its superficial and deep parts are functionally one",
      1,
-     "True. The superficial and deep cardiac plexuses are a descriptive division; functionally they are one. (Last's)"
+     "Last's says the superficial and deep cardiac plexuses are only a descriptive division; functionally they are one plexus.\nThey are continuous."
     ],
     [
      "It includes a pulmonary part supplying bronchial muscle",
      1,
-     "True. Its pulmonary part enters the lung root to supply bronchial muscle and lung vessels. (Last's)"
+     "The cardiac plexus has a pulmonary part that enters the lung root to supply bronchial muscle and the lung vessels.\nThe pulmonary plexuses are extensions of it."
     ],
     [
      "Its branches reach only the SA node",
      0,
-     "Also the AV node, bundle, ventricles and coronary arteries."
+     "Cardiac plexus branches reach the SA node, the AV node, the bundle, the ventricles and the coronary arteries, not just the SA node.\nAutonomic control reaches all parts of the heart."
     ],
     [
      "Afferent vagal fibres from the lungs have cell bodies in the superior vagal ganglion",
      0,
-     "In the inferior vagal ganglion."
+     "Afferent vagal fibres from the lungs have their cell bodies in the inferior vagal ganglion, not the superior one.\nThe superior ganglion serves only the meningeal and auricular branches."
     ]
    ]
   },
@@ -235,22 +235,22 @@
     [
      "Skin above the second rib is supplied by supraclavicular nerves (C4)",
      1,
-     "True. Above the second rib the chest skin is supplied by the supraclavicular nerves (C3, 4); T2 lies just below, at the axial line. (Last's)"
+     "Above the second rib the chest skin is supplied by the supraclavicular nerves (C3, C4). T2 lies just below, across an axial line.\nSo C4 meets T2 on the front of the chest."
     ],
     [
      "Lateral cutaneous branches emerge in the midaxillary line",
      1,
-     "With anterior and posterior divisions."
+     "The lateral cutaneous branches of the intercostal nerves emerge in the midaxillary line, dividing into anterior and posterior branches.\nA useful level for blocking them."
     ],
     [
      "The first intercostal nerve has a large lateral cutaneous branch",
      0,
-     "It has no lateral or anterior cutaneous branch."
+     "Last's says the first intercostal nerve has no lateral or anterior cutaneous branch.\nMost of T1 goes into the brachial plexus."
     ],
     [
      "The collateral branch supplies skin",
      0,
-     "It has no cutaneous supply."
+     "The collateral branch of an intercostal nerve has no cutaneous supply; it supplies muscle, pleura and periosteum.\nIt runs along the upper border of the rib below."
     ]
    ]
   },
@@ -263,22 +263,22 @@
     [
      "The order from above down is vein, artery, nerve",
      1,
-     "True. Under the costal groove the order from above down is vein, artery, nerve. (Last's)"
+     "Under the costal groove the order of the bundle from above down is vein, artery, nerve.\nThe nerve is lowest."
     ],
     [
      "The collateral branches run along the upper border of the rib below",
      1,
-     "True. The collateral branches run along the upper border of the rib below, so chest drains are inserted just above a rib, avoiding the main bundle. (Last's)"
+     "The collateral branches run along the upper border of the rib below. Chest drains are inserted just above a rib to avoid the main bundle.\nThe collateral branches are small."
     ],
     [
      "Upper anterior cutaneous branches pass behind the internal thoracic artery",
      0,
-     "They pass in front of it."
+     "The upper anterior cutaneous branches pass in front of the internal thoracic artery, not behind it.\nThe artery lies about 1 cm from the sternal edge."
     ],
     [
      "The subcostal lateral cutaneous branch supplies skin over the umbilicus",
      0,
-     "It supplies the anterior buttock between iliac crest and greater trochanter."
+     "The lateral cutaneous branch of the subcostal nerve supplies the skin of the anterior buttock between the iliac crest and the greater trochanter, not over the umbilicus.\nThe umbilicus is T10."
     ]
    ]
   },
@@ -291,22 +291,22 @@
     [
      "The first two spaces are supplied posteriorly by the superior intercostal artery",
      1,
-     "From the costocervical trunk."
+     "The first two intercostal spaces are supplied posteriorly by the superior intercostal artery, from the costocervical trunk.\nThe aorta supplies the rest."
     ],
     [
      "The musculophrenic artery supplies spaces 7 to 9 anteriorly",
      1,
-     "True. The musculophrenic artery supplies the anterior intercostal arteries of spaces 7 to 9; spaces 10 and 11 have none. (Last's)"
+     "The musculophrenic artery supplies the anterior intercostal arteries of spaces 7 to 9; spaces 10 and 11 have none.\nThe lowest spaces are open in front."
     ],
     [
      "The internal thoracic artery supplies spaces 1 to 9 anteriorly",
      0,
-     "Spaces 1 to 6."
+     "The internal thoracic artery supplies the anterior intercostal arteries of spaces 1 to 6, not 1 to 9.\nThe musculophrenic takes over below."
     ],
     [
      "Spaces 10 and 11 have anterior intercostal arteries from the musculophrenic",
      0,
-     "They have none."
+     "Spaces 10 and 11 have no anterior intercostal arteries.\nTheir cartilages do not reach the front."
     ]
    ]
   },
@@ -319,22 +319,22 @@
     [
      "The first space drains to the supreme intercostal vein",
      1,
-     "Then the brachiocephalic vein."
+     "The first intercostal space drains to the supreme (highest) intercostal vein, which joins the brachiocephalic vein.\nThe next spaces drain to the superior intercostal vein."
     ],
     [
      "The left superior intercostal vein crosses the arch superficial to the vagus",
      1,
-     "Deep to the phrenic."
+     "The left superior intercostal vein crosses the aortic arch superficial to the vagus and deep to the phrenic nerve.\nIt drains to the left brachiocephalic vein."
     ],
     [
      "The right superior intercostal vein drains to the right brachiocephalic vein",
      0,
-     "It drains to the azygos."
+     "The right superior intercostal vein drains into the azygos vein, not the right brachiocephalic vein.\nThe left one drains into the left brachiocephalic."
     ],
     [
      "Each space has two posterior and one anterior vein",
      0,
-     "One posterior and two anterior."
+     "Each intercostal space has one posterior and two anterior intercostal veins, the reverse of the statement.\nThe anterior veins accompany the paired anterior arteries."
     ]
    ]
   },
@@ -347,22 +347,22 @@
     [
      "The sympathetic trunk (stellate ganglion)",
      1,
-     "Most medial."
+     "At the neck of the first rib the sympathetic trunk (stellate ganglion) lies most medially.\nA Pancoast tumour here can cause Horner's syndrome."
     ],
     [
      "The supreme intercostal vein",
      1,
-     "Next."
+     "Next laterally lies the supreme intercostal vein.\nIt drains the first space."
     ],
     [
      "The superior intercostal artery",
      1,
-     "Then."
+     "Then comes the superior intercostal artery, from the costocervical trunk.\nIt supplies the first two spaces."
     ],
     [
      "The internal thoracic artery",
      0,
-     "T1 anterior ramus is most lateral."
+     "The most lateral structure at the neck of the first rib is the T1 anterior ramus, not the internal thoracic artery.\nThe internal thoracic artery lies far anterior, behind the costal cartilages."
     ]
    ]
   },
@@ -375,22 +375,22 @@
     [
      "The right crus attaches to L1-3",
      1,
-     "True. The larger right crus attaches to the bodies of L1-3 and their discs. (Last's)"
+     "The larger right crus attaches to the bodies of L1 to L3 and their discs.\nIt forms the oesophageal opening."
     ],
     [
      "The left crus attaches to L1-2",
      1,
-     "True. The left crus attaches to L1-2. (Last's)"
+     "The left crus attaches to the bodies of L1 and L2.\nIt is smaller than the right."
     ],
     [
      "The medial arcuate ligament is a thickening of the lumbar fascia",
      0,
-     "Of the psoas fascia; the lateral is lumbar fascia."
+     "The medial arcuate ligament is a thickening of the psoas fascia. The lateral arcuate ligament is a thickening of the lumbar fascia over quadratus lumborum.\nPsoas medial, quadratus lateral."
     ],
     [
      "The median arcuate ligament lies at L2",
      0,
-     "At T12."
+     "The median arcuate ligament, joining the two crura in front of the aorta, lies at T12, not L2.\nThe coeliac trunk arises just below it."
     ]
    ]
   },
@@ -403,22 +403,22 @@
     [
      "The vena caval opening transmits the right phrenic nerve",
      1,
-     "True. The right phrenic nerve passes through the vena caval opening in the central tendon. (Last's)"
+     "The right phrenic nerve passes through the vena caval opening in the central tendon.\nIt supplies the under surface of the diaphragm."
     ],
     [
      "The oesophageal opening transmits the left gastric vessels",
      1,
-     "And vagal trunks."
+     "The oesophageal opening transmits the oesophagus, the vagal trunks and the oesophageal branches of the left gastric vessels.\nA portosystemic anastomosis lies here."
     ],
     [
      "The aortic opening lies at T10",
      0,
-     "At T12, behind the median arcuate ligament."
+     "The aortic opening lies at T12, behind the median arcuate ligament, not at T10.\nThe oesophageal opening is at T10."
     ],
     [
      "The left phrenic nerve passes through the oesophageal opening",
      0,
-     "It pierces the muscle of the left dome."
+     "The left phrenic nerve pierces the muscle of the left dome of the diaphragm, not the oesophageal opening.\nNeither phrenic uses the oesophageal opening."
     ]
    ]
   },
@@ -431,22 +431,22 @@
     [
      "The phrenic nerves supply it from its abdominal surface",
      1,
-     "True. The phrenic nerves pierce the diaphragm and supply it from its abdominal surface. (Last's)"
+     "The phrenic nerves pierce the diaphragm and supply it from its abdominal (under) surface.\nTheir branches run in the muscle below the pleura."
     ],
     [
      "Each half including its crus is supplied by the ipsilateral phrenic",
      1,
-     "True. Each half of the diaphragm, including its crus, is supplied by its own phrenic nerve. (Last's)"
+     "Each half of the diaphragm, including its crus, is supplied by its own phrenic nerve.\nSo unilateral phrenic palsy paralyses one hemidiaphragm."
     ],
     [
      "The sling of the right crus around the oesophagus is supplied by the right phrenic",
      0,
-     "By the left phrenic."
+     "The sling of right crus fibres around the oesophagus is supplied by the left phrenic nerve, because those fibres cross from the left.\nA Last's detail."
     ],
     [
      "Its morphology is the outer (external oblique) layer",
      0,
-     "It is the inner (transversus) layer."
+     "Morphologically the diaphragm belongs to the inner (transversus) layer of the body wall, not the outer (external oblique) layer.\nIt is continuous in plan with transversus abdominis."
     ]
    ]
   },
@@ -459,22 +459,22 @@
     [
      "It is plastered to scalenus anterior by prevertebral fascia",
      1,
-     "True. The phrenic descends on scalenus anterior beneath the prevertebral fascia, which protects it during neck dissection. (Last's p. 442)"
+     "The phrenic nerve descends on scalenus anterior beneath the prevertebral fascia, which holds it in place and protects it during neck dissection.\nDissection superficial to the fascia spares it. (Last's p. 442)"
     ],
     [
      "About one-third of its fibres are sensory",
      1,
-     "True. About a third of phrenic fibres are sensory, from the pericardium, mediastinal and diaphragmatic pleura and peritoneum. (Last's p. 442)"
+     "About a third of phrenic fibres are sensory, from the pericardium, mediastinal and diaphragmatic pleura, and peritoneum.\nThe rest are motor to the diaphragm. (Last's p. 442)"
     ],
     [
      "It passes lateral to the apex of the lung",
      0,
-     "Medial. (Last's p. 442)"
+     "In the root of the neck the phrenic nerve passes medial to the apex of the lung, in front of the subclavian artery.\nThe dome of the pleura lies lateral. (Last's p. 442)"
     ],
     [
      "It runs behind the lung root",
      0,
-     "In front of the lung root. (Last's p. 442)"
+     "The phrenic nerve runs in front of the lung root. The vagus runs behind it.\n\"Phrenic in front, vagus behind.\" (Last's p. 442)"
     ]
    ]
   },
@@ -487,22 +487,22 @@
     [
      "The right phrenic lies on venous structures throughout",
      1,
-     "True. The right phrenic runs on the right brachiocephalic vein, SVC, right atrium and IVC. (Last's p. 442)"
+     "The right phrenic nerve runs on venous structures throughout: the right brachiocephalic vein, superior vena cava, right atrium and inferior vena cava.\nIt passes through the caval opening. (Last's p. 442)"
     ],
     [
      "The left phrenic lies lateral to the left superior intercostal vein",
      1,
-     "True. The left phrenic crosses the arch lateral to the left superior intercostal vein (and the vagus). (Last's p. 442)"
+     "The left phrenic nerve crosses the aortic arch lateral to (in front of) the left superior intercostal vein and the vagus.\nThe vein crosses between the two nerves. (Last's p. 442)"
     ],
     [
      "The phrenic lies behind the vagus",
      0,
-     "Anterior to the vagus. (Last's p. 442)"
+     "The phrenic lies anterior to the vagus, not behind it.\nOn the arch: phrenic in front, vein between, vagus behind. (Last's p. 442)"
     ],
     [
      "The left phrenic supplies the visceral serous pericardium",
      0,
-     "The visceral layer is insensate. (Last's p. 442)"
+     "The visceral serous pericardium is insensate; the phrenic supplies the fibrous and parietal serous pericardium only.\nPain arises from the parietal layer. (Last's p. 442)"
     ]
    ]
   },
@@ -515,22 +515,22 @@
     [
      "The right vagus is in contact with the trachea",
      1,
-     "True. The right vagus lies directly against the trachea; the left is held away by the great arteries. (Last's p. 442)"
+     "The right vagus lies directly against the trachea; the left is held away by the great arteries.\nThe vagi try to reach the midline. (Last's p. 442)"
     ],
     [
      "The anterior vagal trunk carries predominantly left vagal fibres",
      1,
-     "True. The anterior vagal trunk is mainly left vagal fibres and the posterior mainly right, though both are mixed. (Last's p. 442)"
+     "The anterior vagal trunk consists mainly of left vagal fibres and the posterior mainly of right, though both are mixed.\nA result of gut rotation. (Last's p. 442)"
     ],
     [
      "Both vagi pass in front of the lung roots",
      0,
-     "Behind them. (Last's p. 442)"
+     "Both vagi pass behind the lung roots, not in front.\nThey help form the posterior pulmonary plexuses. (Last's p. 442)"
     ],
     [
      "The right vagus runs superficial to the azygos arch",
      0,
-     "Deep to it. (Last's p. 442)"
+     "The right vagus runs deep to the arch of the azygos vein, not superficial to it.\nThe right phrenic lies superficial. (Last's p. 442)"
     ]
    ]
   },
@@ -543,22 +543,22 @@
     [
      "The superficial plexus lies in front of the ligamentum arteriosum",
      1,
-     "True. The superficial cardiac plexus lies in front of the ligamentum arteriosum, below the arch. (Last's p. 442)"
+     "The superficial cardiac plexus lies in front of the ligamentum arteriosum, below the aortic arch.\nIt is small. (Last's p. 442)"
     ],
     [
      "The deep plexus lies in front of the left main bronchus",
      1,
-     "To the right of the ligamentum. (Last's p. 442)"
+     "The deep cardiac plexus lies in front of the left main bronchus (and tracheal bifurcation), to the right of the ligamentum.\nIt receives most cardiac nerves. (Last's p. 442)"
     ],
     [
      "The superficial plexus receives the right vagal cervical branches",
      0,
-     "It receives the left inferior cervical vagal branch and left superior cervical sympathetic branch. (Last's p. 442)"
+     "The superficial plexus receives the left inferior cervical vagal branch and the left superior cervical sympathetic branch, not right vagal branches.\nAll right-sided branches go to the deep plexus. (Last's p. 442)"
     ],
     [
      "Cardiac pain afferents travel only with the vagus",
      0,
-     "With the sympathetics; vagal afferents serve reflexes. (Last's p. 442)"
+     "Cardiac pain afferents travel with the sympathetic nerves; vagal afferents serve reflexes.\nAngina refers to T1 to T5. (Last's p. 442)"
     ]
    ]
   },
@@ -571,22 +571,22 @@
     [
      "It lies on the necks of the ribs",
      1,
-     "Lateral to the heads. (Last's p. 442)"
+     "The thoracic sympathetic trunk lies on the necks of the ribs, lateral to their heads.\nLower down it lies on the vertebral bodies. (Last's p. 442)"
     ],
     [
      "It lies in front of the intercostal vessels and nerves",
      1,
-     "True. The sympathetic trunk lies on the rib necks in front of the intercostal vessels and nerves. (Last's p. 442)"
+     "It lies in front of the intercostal vessels and nerves.\nSo the trunk is accessible thoracoscopically for sympathectomy. (Last's p. 442)"
     ],
     [
      "It enters the abdomen behind the lateral arcuate ligament",
      0,
-     "Behind the medial arcuate ligament. (Last's p. 442)"
+     "The thoracic sympathetic trunk enters the abdomen behind the medial arcuate ligament, not the lateral.\nThe subcostal bundle passes behind the lateral one. (Last's p. 442)"
     ],
     [
      "It always has 12 ganglia",
      0,
-     "Up to 12, often fewer from fusion. (Last's p. 442)"
+     "The thoracic trunk has up to 12 ganglia but often fewer, because of fusion.\nThe first often fuses with the inferior cervical (stellate). (Last's p. 442)"
     ]
    ]
   },
@@ -599,22 +599,22 @@
     [
      "The visceral pleura is insensate",
      1,
-     "True. The visceral pleura has only autonomic (vasomotor) supply and is insensitive to pain. (Last's p. 442)"
+     "The visceral pleura has only autonomic (vasomotor) supply and is insensitive to pain.\nLung tumours are painless until they reach the parietal pleura. (Last's p. 442)"
     ],
     [
      "The mediastinal pleura is supplied by the phrenic",
      1,
-     "True. The mediastinal pleura is supplied by the phrenic nerve. (Last's p. 442)"
+     "The mediastinal pleura is supplied by the phrenic nerve.\nSo mediastinal pleurisy may refer pain to the shoulder. (Last's p. 442)"
     ],
     [
      "The costal pleura is supplied by the phrenic",
      0,
-     "By intercostal nerves. (Last's p. 442)"
+     "The costal pleura is supplied by the intercostal nerves, not the phrenic.\nPain is felt locally on the chest wall. (Last's p. 442)"
     ],
     [
      "Sympathetic fibres constrict the bronchi",
      0,
-     "Sympathetic (T2-6) dilates; vagus constricts. (Last's p. 442)"
+     "Sympathetic fibres (T2 to T6) dilate the bronchi; the vagus constricts them.\nBeta-agonists relieve bronchospasm. (Last's p. 442)"
     ]
    ]
   },
@@ -627,22 +627,22 @@
     [
      "The jugular notch lies at T3",
      1,
-     "Last's (lower border T2/T3). (Last's p. 442)"
+     "Last's places the jugular notch at T3 (at the lower border of T2/T3).\nIt is the upper border of the manubrium. (Last's p. 442)"
     ],
     [
      "The sternal angle lies at T4",
      1,
-     "True. The sternal angle lies at the level of the T4/5 disc, marking the start and end of the arch and the tracheal bifurcation. (Last's p. 442)"
+     "The sternal angle lies at the level of the T4/5 disc, marking the start and end of the aortic arch and the tracheal bifurcation.\nAlso the second costal cartilage. (Last's p. 442)"
     ],
     [
      "The lower end of the sternum lies at T12",
      0,
-     "At T8. (Last's p. 442)"
+     "The lower end of the sternum lies at about T8, not T12.\nT12 is the level of the aortic opening. (Last's p. 442)"
     ],
     [
      "The vena caval opening lies at T12",
      0,
-     "At T8. (Last's p. 442)"
+     "The vena caval opening lies at T8, not T12.\nThe aortic opening is at T12. (Last's p. 442)"
     ]
    ]
   },
@@ -655,22 +655,22 @@
     [
      "The lower facet on the head articulates with its own vertebra",
      1,
-     "True. The lower facet on a typical rib head articulates with its own vertebra, the upper with the one above. (Last's p. 442)"
+     "The lower facet on the head of a typical rib articulates with its own vertebra; the upper with the vertebra above.\nTwo demifacets. (Last's p. 442)"
     ],
     [
      "The first, eleventh and twelfth ribs have a single facet on the head",
      1,
-     "True. Ribs 1, 11 and 12 articulate only with their own vertebrae, so they have a single facet. (Last's p. 442)"
+     "Ribs 1, 11 and 12 articulate only with their own vertebrae, so they have a single facet on the head.\nRib 10 often does too. (Last's p. 442)"
     ],
     [
      "The 11th and 12th ribs have synovial costotransverse joints",
      0,
-     "Only ligaments, usually no tubercles. (Last's p. 442)"
+     "Ribs 11 and 12 have only ligamentous costotransverse attachments and usually no tubercles.\nNo synovial costotransverse joints. (Last's p. 442)"
     ],
     [
      "The tenth rib is always atypical",
      0,
-     "Usually typical. (Last's p. 442)"
+     "Last's says the tenth rib is usually typical (it may sometimes have a single facet).\nSo \"always atypical\" is wrong. (Last's p. 442)"
     ]
    ]
   },
@@ -683,22 +683,22 @@
     [
      "The lower trunk of the brachial plexus lies in the subclavian groove",
      1,
-     "The artery touches only the outer border. (Last's p. 442)"
+     "The lower trunk of the brachial plexus lies in the subclavian groove of the first rib; the artery touches only its outer border.\nA cervical rib or tight scalene can compress the lower trunk. (Last's p. 442)"
     ],
     [
      "Scalenus anterior attaches to the scalene tubercle",
      1,
-     "True. Scalenus anterior inserts into the scalene tubercle on the inner border of the first rib, between the subclavian vein and artery. (Last's p. 442)"
+     "Scalenus anterior inserts into the scalene tubercle on the inner border of the first rib, between the grooves for the subclavian vein and artery.\nIt separates vein (front) from artery (behind). (Last's p. 442)"
     ],
     [
      "The subclavian artery lies in its groove",
      0,
-     "The lower trunk does. (Last's p. 442)"
+     "The lower trunk of the plexus lies in the groove; the subclavian artery lies a little higher.\nLast's makes a point of this. (Last's p. 442)"
     ],
     [
      "Scalenus medius attaches in front of the subclavian vein groove",
      0,
-     "Between the arterial groove and tubercle. (Last's p. 442)"
+     "Scalenus medius attaches behind the arterial groove, between it and the tubercle of the rib, not in front of the venous groove.\nScalenus anterior lies between the venous and arterial grooves. (Last's p. 442)"
     ]
    ]
   },
@@ -711,22 +711,22 @@
     [
      "The second rib has a tuberosity for serratus anterior",
      1,
-     "For its first two digitations. (Last's p. 442)"
+     "The second rib has a tuberosity on its outer surface for the first two digitations of serratus anterior.\nA useful identifying feature. (Last's p. 442)"
     ],
     [
      "The twelfth rib has no angle or costal groove",
      1,
-     "True. The short twelfth rib has no angle, tubercle or costal groove. (Last's p. 442)"
+     "The short twelfth rib has no angle, tubercle or costal groove.\nIt may be very short. (Last's p. 442)"
     ],
     [
      "The second rib has a tuberosity for scalenus medius",
      0,
-     "For scalenus posterior. (Last's p. 442)"
+     "The second rib has a tuberosity for serratus anterior; scalenus posterior attaches to the second rib's upper border, and scalenus medius to the first rib.\nSo scalenus medius is wrong. (Last's p. 442)"
     ],
     [
      "Quadratus lumborum attaches to the lateral part of the twelfth rib",
      0,
-     "To the medial half of the lower border. (Last's p. 442)"
+     "Quadratus lumborum attaches to the medial half of the lower border of the twelfth rib, not the lateral part.\nIt steadies the rib in inspiration. (Last's p. 442)"
     ]
    ]
   },
@@ -739,22 +739,22 @@
     [
      "Levatores costarum are supplied by posterior rami",
      1,
-     "True. Levatores costarum are true back muscles, supplied by posterior rami. (Last's p. 244-6)"
+     "Levatores costarum are true back muscles, supplied by posterior rami.\nThey are the only thoracic wall muscles so supplied. (Last's p. 244-6)"
     ],
     [
      "Serratus posterior superior inserts lateral to the angles of ribs 2-5",
      1,
-     "True. Serratus posterior superior runs from C6-T2 spines to just lateral to the angles of ribs 2-5. (Last's p. 244-6)"
+     "Serratus posterior superior runs from the C6 to T2 spines to just lateral to the angles of ribs 2 to 5.\nIt may elevate the ribs. (Last's p. 244-6)"
     ],
     [
      "Serratus posterior inferior inserts into ribs 5-8",
      0,
-     "Ribs 9-12. (Last's p. 244-6)"
+     "Serratus posterior inferior inserts into ribs 9 to 12, not 5 to 8.\nIt runs from the lower thoracic and upper lumbar spines. (Last's p. 244-6)"
     ],
     [
      "External intercostals extend forward to the sternum",
      0,
-     "To the costochondral junction, then anterior intercostal membrane. (Last's p. 244-6)"
+     "The external intercostals extend forward only to the costochondral junctions, then are replaced by the anterior intercostal membrane.\nThey do not reach the sternum. (Last's p. 244-6)"
     ]
    ]
   },
@@ -767,22 +767,22 @@
     [
      "Internal intercostals extend to the side of the sternum",
      1,
-     "True. Unlike the externals, the internal intercostals extend forward to the sternum; behind they become the posterior intercostal membrane. (Last's p. 244-6)"
+     "Unlike the externals, the internal intercostals extend forward to the side of the sternum. Behind, they are replaced by the posterior intercostal membrane.\nThey run down and back. (Last's p. 244-6)"
     ],
     [
      "They are replaced posteriorly by the posterior intercostal membrane",
      1,
-     "From the angle to the superior costotransverse ligament. (Last's p. 244-6)"
+     "Posteriorly, from the angle of the rib to the superior costotransverse ligament, the internal intercostals are replaced by the posterior intercostal membrane.\nThe bundle is then exposed. (Last's p. 244-6)"
     ],
     [
      "Innermost intercostals are wider above than below",
      0,
-     "Wider below than above. (Last's p. 244-6)"
+     "The innermost intercostals are wider below than above.\nThey are poorly developed in the upper spaces. (Last's p. 244-6)"
     ],
     [
      "Transversus thoracis arises from the manubrium",
      0,
-     "From the lower end of the sternum. (Last's p. 244-6)"
+     "Transversus thoracis arises from the lower end of the sternum (and xiphoid), not the manubrium, and fans up to costal cartilages 2 to 6.\nIt lies behind the internal thoracic vessels. (Last's p. 244-6)"
     ]
    ]
   },
@@ -795,22 +795,22 @@
     [
      "The upper striated muscle is supplied from the nucleus ambiguus",
      1,
-     "True. The upper striated oesophageal muscle is supplied by nucleus ambiguus fibres in the vagus and recurrent laryngeal nerves. (Last's p. 244-6)"
+     "The upper striated muscle of the oesophagus is supplied by nucleus ambiguus fibres in the vagus and recurrent laryngeal nerves.\nIt is continuous with the pharynx. (Last's p. 244-6)"
     ],
     [
      "The upper part receives sympathetics from the middle cervical ganglion",
      1,
-     "Via inferior thyroid arteries. (Last's p. 244-6)"
+     "The upper oesophagus receives sympathetic fibres from the middle cervical ganglion via the inferior thyroid arteries.\nThe lower part from the thoracic trunk. (Last's p. 244-6)"
     ],
     [
      "The lower part receives no sympathetic supply",
      0,
-     "From the trunks and greater splanchnics. (Last's p. 244-6)"
+     "The lower oesophagus does receive sympathetic supply, from the thoracic trunks and greater splanchnic nerves.\nEvery part of the gut has sympathetic supply. (Last's p. 244-6)"
     ],
     [
      "Sensation travels only via sympathetic fibres",
      0,
-     "Vagus (inferior ganglion) and sympathetics. (Last's p. 244-6)"
+     "Oesophageal sensation travels via both the vagus (inferior ganglion) and sympathetic fibres.\nSo vagotomy does not abolish oesophageal pain. (Last's p. 244-6)"
     ]
    ]
   }

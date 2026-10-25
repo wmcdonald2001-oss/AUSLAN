@@ -10,22 +10,22 @@
     [
      "Preganglionic cell bodies lie in the lateral horns of T1 to L2",
      1,
-     "The thoracolumbar outflow."
+     "Sympathetic preganglionic cell bodies lie in the lateral horns of T1 to L2, the thoracolumbar outflow.\nParasympathetic outflow is craniosacral."
     ],
     [
      "Every spinal nerve from C1 to coccygeal carries postganglionic sympathetic fibres",
      1,
-     "Via grey rami."
+     "Every spinal nerve, from C1 to coccygeal, receives postganglionic sympathetic fibres through grey rami.\nSo sympathetic fibres reach the whole body wall and limbs."
     ],
     [
      "Grey rami contain myelinated preganglionic fibres",
      0,
-     "White rami contain myelinated preganglionic (and visceral afferent) fibres. Grey rami contain unmyelinated postganglionic fibres."
+     "White rami contain myelinated preganglionic (and visceral afferent) fibres. Grey rami contain unmyelinated postganglionic fibres.\nWhite = myelinated = preganglionic."
     ],
     [
      "Some preganglionic fibres pass to the suprarenal medulla without synapse",
      1,
-     "A few, via the splanchnic nerves."
+     "Some preganglionic fibres pass through the splanchnic nerves to the suprarenal medulla without synapse.\nThe medulla is effectively a sympathetic ganglion."
     ]
    ]
   },
@@ -37,22 +37,22 @@
     [
      "The inferior cervical ganglion represents C7, C8 and T1 in all subjects",
      0,
-     "The inferior ganglion is C7 and C8, and often fuses with T1 to form the stellate ganglion."
+     "The inferior cervical ganglion represents C7 and C8, and often fuses with T1 to form the stellate ganglion; it does not represent T1 in all subjects.\nThe fusion is common but not universal."
     ],
     [
      "The middle cervical ganglion gives grey rami to C7 and C8",
      0,
-     "Last's: the middle ganglion gives grey rami to C5 and C6, the inferior to C7 and C8."
+     "Last's says the middle cervical ganglion gives grey rami to C5 and C6; the inferior gives them to C7 and C8.\nC7 and C8 belong to the inferior."
     ],
     [
      "The superior cervical ganglion gives grey rami to C5 and C6",
      0,
-     "The superior ganglion gives grey rami to C1 to C4 (the cervical plexus)."
+     "The superior cervical ganglion gives grey rami to C1 to C4 (the cervical plexus).\nC5 and C6 belong to the middle."
     ],
     [
      "The superior cervical ganglion represents fused C1 to C4 ganglia",
      1,
-     "True. The upper four cervical ganglia fuse into the superior cervical ganglion, which gives grey rami to C1-4. (Last's)"
+     "The upper four cervical ganglia fuse into the superior cervical ganglion, which gives grey rami to C1 to C4.\nAnswer D: 4 only."
     ]
    ]
   },
@@ -64,22 +64,22 @@
     [
      "The main function of sympathetic fibres in spinal nerves is vasoconstriction for thermoregulation",
      1,
-     "Plus sudomotor and pilomotor fibres."
+     "The main function of sympathetic fibres in spinal nerves is vasoconstriction for thermoregulation, plus sudomotor (sweating) and pilomotor fibres.\nThey control skin blood flow."
     ],
     [
      "Limb arteries receive sympathetic fibres from nearby peripheral nerves, not from fibres running down the vessels",
      1,
-     "True. Limb vessels receive sympathetic fibres from adjacent peripheral nerves along their length, not by fibres running down the artery from the trunk. (Last's)"
+     "Last's says limb arteries receive sympathetic fibres from the adjacent peripheral nerves along their length, not from fibres running down the artery from the trunk.\nThat is why stripping the femoral artery adventitia does not denervate the leg."
     ],
     [
      "Head and neck arteries receive direct branches from the cervical ganglia",
      1,
-     "E.g. the internal carotid plexus from the superior ganglion."
+     "Head and neck arteries receive direct branches from the cervical ganglia; for example the internal carotid plexus comes from the superior ganglion.\nSo the head's supply follows the vessels."
     ],
     [
      "A lesion of the nerve roots proper abolishes sudomotor function in the limb",
      0,
-     "Last's: grey rami join distal to the roots, so a root lesion does not reduce sympathetic activity. A peripheral nerve lesion does."
+     "Last's says grey rami join the spinal nerves distal to the roots, so a lesion of the roots proper does not reduce sympathetic activity in the limb. A peripheral nerve lesion does.\nSweating is preserved in root lesions but lost in nerve lesions."
     ]
    ]
   },
@@ -91,22 +91,22 @@
     [
      "Pelvic splanchnic nerves",
      1,
-     "S2 to S4 parasympathetic outflow."
+     "The pelvic splanchnic nerves carry the S2 to S4 parasympathetic outflow.\nThey are the nervi erigentes."
     ],
     [
      "Sacral splanchnic nerves",
      0,
-     "Last's: sacral splanchnics are sympathetic, from the sacral sympathetic ganglia."
+     "Last's says the sacral splanchnic nerves are sympathetic, from the sacral sympathetic ganglia.\nSimilar names, opposite systems."
     ],
     [
      "The greater splanchnic nerves",
      0,
-     "Sympathetic, preganglionic fibres from the fifth to ninth thoracic ganglia to the coeliac ganglia."
+     "The greater splanchnic nerves are sympathetic, carrying preganglionic fibres from about the fifth to ninth thoracic ganglia to the coeliac ganglia.\nThey pass through the thoracic trunk without synapse."
     ],
     [
      "Lumbar splanchnic nerves",
      0,
-     "Sympathetic, from the lumbar ganglia to the aortic and superior hypogastric plexuses."
+     "The lumbar splanchnic nerves are sympathetic, running from the lumbar ganglia to the aortic and superior hypogastric plexuses.\nAnswer A: 1 only."
     ]
    ]
   },
@@ -118,22 +118,22 @@
     [
      "It is entirely visceral, with no distribution to the body wall or limbs",
      1,
-     "True. Parasympathetic supply is wholly visceral; sweat glands, vessels and hair muscles of the limbs and body wall receive only sympathetic fibres. (Last's)"
+     "The parasympathetic system is entirely visceral. The sweat glands, vessels and hair muscles of the limbs and body wall receive only sympathetic fibres.\nThere is no parasympathetic supply to the skin."
     ],
     [
      "Vagal postganglionic cell bodies lie in the walls of the viscera supplied",
      1,
-     "Heart, lungs and gut."
+     "Vagal postganglionic cell bodies lie in the walls of the viscera supplied (heart, lungs and gut).\nSo vagal preganglionic fibres are very long."
     ],
     [
      "The suprarenal glands receive parasympathetic fibres from the vagus",
      0,
-     "Suprarenals and gonads have only sympathetic supply."
+     "The suprarenals (and gonads) have only sympathetic supply, with no vagal parasympathetic fibres.\nA point often tested."
     ],
     [
      "Sacral preganglionic fibres arise from the lateral grey matter of S2 to S4",
      1,
-     "Forming the pelvic splanchnic nerves."
+     "Sacral preganglionic parasympathetic fibres arise from the lateral grey matter of S2 to S4 and form the pelvic splanchnic nerves.\nThere is no true lateral horn here, but a lateral grey column."
     ]
    ]
   },
@@ -145,22 +145,22 @@
     [
      "Only the parasympathetic fibres synapse",
      1,
-     "Sympathetic and sensory fibres pass through."
+     "In the cranial parasympathetic ganglia only the parasympathetic fibres synapse; sympathetic and sensory fibres pass through.\nThis holds for all four ganglia."
     ],
     [
      "The sympathetic root carries postganglionic fibres whose preganglionic cells are in T1 to T3",
      1,
-     "Via the superior cervical ganglion."
+     "The sympathetic root carries postganglionic fibres whose preganglionic cells lie in T1 to T3, relaying in the superior cervical ganglion.\nThese fibres pass through without synapse."
     ],
     [
      "The ciliary and pterygopalatine ganglia receive sympathetic fibres via branches of the internal carotid artery",
      1,
-     "The otic and submandibular via branches of the external carotid."
+     "The ciliary and pterygopalatine ganglia receive sympathetic fibres via branches of the internal carotid artery; the otic and submandibular via branches of the external carotid.\nEach from the nearest arterial plexus."
     ],
     [
      "The sensory root contains cell bodies of trigeminal sensory neurones",
      0,
-     "The sensory root carries peripheral processes whose cell bodies are in the trigeminal ganglion. There are no sensory cell bodies in the parasympathetic ganglia."
+     "The sensory root carries peripheral processes whose cell bodies are in the trigeminal ganglion. There are no sensory cell bodies in the parasympathetic ganglia.\nAnswer C: 1, 2 and 3."
     ]
    ]
   },
@@ -172,22 +172,22 @@
     [
      "The central pathway descends from the posterolateral hypothalamus through the lateral brainstem near the spinal lemniscus",
      1,
-     "True. Central sympathetic fibres descend from the posterolateral hypothalamus through the lateral brainstem near the spinal lemniscus, so lateral medullary lesions cause Horner's. (Last's)"
+     "The central sympathetic pathway descends from the posterolateral hypothalamus through the lateral brainstem near the spinal lemniscus. So lateral medullary lesions cause Horner's syndrome.\nThe first neuron ends in the lateral horn at T1."
     ],
     [
      "Preganglionic fibres leave the cord in the T1 white ramus and ascend to synapse in the superior cervical ganglion",
      1,
-     "True. Preganglionic fibres leave in the T1 white ramus, ascend in the cervical trunk and synapse in the superior cervical ganglion. (Last's)"
+     "Preganglionic fibres leave the cord in the T1 white ramus, ascend in the cervical trunk and synapse in the superior cervical ganglion.\nSo a lesion anywhere along the trunk can cause Horner's."
     ],
     [
      "Ptosis results from paralysis of the smooth muscle part of levator palpebrae superioris",
      1,
-     "These fibres reach the muscle via the oculomotor nerve."
+     "Ptosis results from paralysis of the smooth muscle part of levator palpebrae superioris (superior tarsal muscle). Last's says these fibres reach it via the oculomotor nerve.\nThe ptosis is partial."
     ],
     [
      "Anhidrosis occurs with postganglionic lesions above the superior cervical ganglion",
      0,
-     "Last's: anhidrosis occurs only with central or preganglionic lesions, because sudomotor fibres to the face follow the external carotid branches."
+     "Last's says anhidrosis occurs only with central or preganglionic lesions, because the sudomotor fibres to the face follow the external carotid branches. A lesion above the superior cervical ganglion, on the internal carotid plexus, spares them.\nSo facial sweating helps localise."
     ]
    ]
   },
@@ -199,22 +199,22 @@
     [
      "Cranial parasympathetic afferent cell bodies lie in the dorsal motor nucleus of the vagus",
      0,
-     "Last's: their cell bodies lie in the inferior ganglia of IX and X, and the central processes pass to the nucleus of the tractus solitarius."
+     "Last's says cranial parasympathetic afferent cell bodies lie in the inferior ganglia of IX and X; their central processes pass to the nucleus of the tractus solitarius.\nThe dorsal motor nucleus is efferent."
     ],
     [
      "Grey rami carry visceral afferent fibres",
      0,
-     "Visceral afferents travel in the white rami with the preganglionic efferents."
+     "Visceral afferents travel in the white rami with the preganglionic efferents, not in the grey rami.\nGrey rami carry only postganglionic efferents."
     ],
     [
      "Visceral pain from abdominal organs travels mainly with the vagus",
      0,
-     "Pain from abdominal viscera travels with the sympathetic nerves."
+     "Pain from the abdominal viscera travels mainly with the sympathetic nerves.\nThe vagus carries reflex afferents."
     ],
     [
      "Pelvic parasympathetic afferent cell bodies lie in the posterior root ganglia of S2 to S4",
      1,
-     "They serve bladder reflexes and pain from the pelvic viscera."
+     "Pelvic parasympathetic afferent cell bodies lie in the posterior root ganglia of S2 to S4. They serve bladder reflexes and pain from the pelvic viscera.\nAnswer D: 4 only."
     ]
    ]
   },
@@ -226,22 +226,22 @@
     [
      "Cardiac pain afferents usually have cell bodies in the T1 to T5 dorsal root ganglia",
      1,
-     "Last's: pain from the heart is subserved by the sympathetic system because the heart is a modified blood vessel."
+     "Last's says pain from the heart is carried by the sympathetic afferents, with cell bodies usually in the T1 to T5 dorsal root ganglia, because the heart is a modified blood vessel.\nHence referral of angina to the chest and arm."
     ],
     [
      "The vagus is sensory to the oesophagus, trachea and lungs",
      1,
-     "True. Unlike its supply to the gut, the vagus carries sensory fibres (including pain) from the oesophagus, trachea and lungs. (Last's)"
+     "Unlike its supply to the gut, the vagus carries sensory fibres (including pain) from the oesophagus, trachea and lungs.\nSo these thoracic organs have vagal pain."
     ],
     [
      "Sympathetic supply to the lungs is from T2 to T6",
      1,
-     "Dilator to bronchi and arterioles."
+     "The sympathetic supply to the lungs is from T2 to T6; it dilates the bronchi and constricts the arterioles.\nThe vagus constricts the bronchi."
     ],
     [
      "The vagus carries pain fibres from the stomach and colon",
      0,
-     "Last's: vagal branches to the gut are motor and secretomotor but do not carry pain fibres."
+     "Last's says the vagal branches to the gut are motor and secretomotor but do not carry pain fibres.\nGut pain travels with sympathetic fibres."
     ]
    ]
   },
@@ -253,22 +253,22 @@
     [
      "In the Argyll Robertson pupil the accommodation reflex is lost but the light reflex is preserved",
      0,
-     "The reverse: the light reflex is lost and accommodation preserved, from a pretectal lesion."
+     "In the Argyll Robertson pupil the light reflex is lost and accommodation is preserved, from a pretectal lesion.\nThe statement reverses it."
     ],
     [
      "Dilator pupillae is supplied by sympathetic fibres travelling in the long ciliary nerves",
      1,
-     "Picked up by the ophthalmic nerve in the cavernous sinus."
+     "Dilator pupillae is supplied by sympathetic fibres travelling in the long ciliary nerves, picked up by the ophthalmic nerve in the cavernous sinus.\nThey do not pass through the ciliary ganglion's synapses."
     ],
     [
      "The ciliary muscle is of ectodermal origin",
      0,
-     "Last's: sphincter and dilator pupillae are ectodermal, but the ciliary muscle is mesodermal."
+     "Last's says sphincter and dilator pupillae are ectodermal, but the ciliary muscle is mesodermal.\nAn unusual developmental detail."
     ],
     [
      "Sphincter pupillae is supplied by parasympathetic fibres relaying in the ciliary ganglion",
      1,
-     "Via the short ciliary nerves."
+     "Sphincter pupillae is supplied by parasympathetic fibres relaying in the ciliary ganglion, reaching it via the short ciliary nerves.\nAnswer B: 2 and 4."
     ]
    ]
   },
@@ -280,22 +280,22 @@
     [
      "Hypothalamic cells send long axons by a descending sympathetic tract to the thoracolumbar lateral horn",
      1,
-     "The tract lies adjacent to the lateral horn in the cord."
+     "Hypothalamic cells send long axons through a descending sympathetic tract to the thoracolumbar lateral horn. The tract lies next to the lateral horn in the cord.\nCord lesions above T1 can cause Horner's syndrome."
     ],
     [
      "The vasomotor and respiratory centres lie in the medullary reticular formation",
      1,
-     "Not anatomically distinct nuclei."
+     "The vasomotor and respiratory centres lie in the medullary reticular formation, but they are not anatomically distinct nuclei.\nThey are functional regions."
     ],
     [
      "Hypoxia is detected mainly by central medullary chemoreceptors",
      0,
-     "Last's: hypoxia is detected peripherally by the carotid and aortic bodies. The brain responds to CO2, not oxygen."
+     "Last's says hypoxia is detected peripherally by the carotid and aortic bodies. The central medullary chemoreceptors respond to carbon dioxide (pH), not oxygen.\nThis is why giving oxygen can depress breathing in CO2 retainers."
     ],
     [
      "The inspiratory centre lies near the nucleus of the tractus solitarius",
      1,
-     "Last's: a kind of respiratory SA node."
+     "Last's says the inspiratory centre lies near the nucleus of the tractus solitarius, acting as a kind of respiratory SA node.\nIt sets the rhythm of breathing."
     ]
    ]
   }

@@ -11,22 +11,22 @@
     [
      "has denticulate ligament attaching down to S2 level",
      0,
-     "The denticulate ligament is pia mater. Its lowest denticulation is at the L1 root (Last's). It is the dural sac that ends at S2."
+     "The denticulate ligament is formed by pia mater, not dura, and its lowest denticulation is at the L1 root (Last's). It is the dural sac that ends at S2.\nThe statement mixes up two structures."
     ],
     [
      "is a prolongation of the inner layer of the dura mater of the posterior cranial fossa",
      1,
-     "Last's: the outer (periosteal) layer does not continue below the foramen magnum."
+     "Last's says the spinal dura is the inner (meningeal) layer of the posterior fossa dura continued through the foramen magnum. The outer (periosteal) layer does not continue below the foramen.\nThat is why the spinal canal has an epidural space."
     ],
     [
      "is attached to the spinal arachnoid by web-like processes which are well developed to form an anterior median septum",
      0,
-     "The web-like strands run from arachnoid to pia, not dura, and they form an incomplete posterior median septum."
+     "The web-like strands run from the arachnoid to the pia, not from the dura, and they form an incomplete posterior median septum, not an anterior one.\nTwo errors in one statement."
     ],
     [
      "is surrounded by a layer of fat in which lies the internal vertebral venous plexus",
      1,
-     "The extradural (epidural) space contains fat and the internal vertebral plexus."
+     "The spinal dura is surrounded by the extradural (epidural) space, which contains fat and the internal vertebral venous plexus.\nThis is the space used for epidural anaesthesia. Answer B: 2 and 4."
     ]
    ]
   },
@@ -38,22 +38,22 @@
     [
      "It has no body",
      1,
-     "Its body has fused with the axis to form the dens."
+     "The atlas has no body; its body has fused with the axis to form the dens.\nIt is a ring of anterior and posterior arches with lateral masses."
     ],
     [
      "The vertebral artery grooves the upper surface of its posterior arch",
      1,
-     "The artery and the C1 nerve (suboccipital nerve) lie in the groove behind the lateral mass."
+     "The vertebral artery grooves the upper surface of the posterior arch of the atlas behind the lateral mass, with the C1 nerve (suboccipital nerve) below it.\nThe groove may be bridged by bone (ponticulus posticus)."
     ],
     [
      "Its transverse process is palpable between the mastoid process and the angle of the mandible",
      1,
-     "The tip of the large transverse process of the atlas is palpable there."
+     "The tip of the large transverse process of the atlas is palpable between the mastoid process and the angle of the mandible.\nXI crosses it."
     ],
     [
      "The transverse ligament attaches to the anterior tubercle",
      0,
-     "The transverse ligament attaches to tubercles on the medial sides of the lateral masses, holding the dens against the anterior arch. The anterior tubercle gives attachment to longus colli."
+     "The transverse ligament attaches to tubercles on the medial sides of the lateral masses, holding the dens against the anterior arch. The anterior tubercle gives attachment to longus colli.\nRupture of the transverse ligament allows the dens to compress the cord."
     ]
    ]
   },
@@ -65,22 +65,22 @@
     [
      "The apical ligament of the dens is a remnant of the notochord",
      1,
-     "The apical ligament runs from the tip of the dens to the anterior margin of the foramen magnum."
+     "The apical ligament of the dens, running from its tip to the anterior margin of the foramen magnum, is a remnant of the notochord.\nIt is weak and of little mechanical importance."
     ],
     [
      "The alar ligaments attach the dens to the medial sides of the occipital condyles and limit rotation",
      1,
-     "They are strong and check rotation and lateral flexion."
+     "The alar ligaments attach the sides of the dens to the medial sides of the occipital condyles. They are strong and check rotation and lateral flexion of the head.\nTheir injury can cause atlanto-axial rotatory instability."
     ],
     [
      "The tectorial membrane is the upward continuation of the anterior longitudinal ligament",
      0,
-     "The tectorial membrane continues the posterior longitudinal ligament up to the basiocciput. The anterior longitudinal ligament continues as the anterior atlanto-occipital membrane."
+     "The tectorial membrane is the upward continuation of the posterior longitudinal ligament to the basiocciput. The anterior longitudinal ligament continues as the anterior atlanto-occipital membrane.\nPosterior to posterior."
     ],
     [
      "The vertebral artery pierces the posterior atlanto-occipital membrane",
      1,
-     "The artery and C1 nerve pass beneath the lower free border of the membrane, which may ossify to form a ponticulus posticus."
+     "The vertebral artery (with the C1 nerve) pierces, or passes beneath the lower free border of, the posterior atlanto-occipital membrane to enter the vertebral canal.\nThe membrane may ossify to form a ponticulus posticus."
     ]
    ]
   },
@@ -92,22 +92,22 @@
     [
      "Flexion and extension of the head occur mainly at the atlanto-occipital joints",
      1,
-     "Last's: the atlanto-occipital joint allows nodding (flexion and extension) and some abduction, but no rotation, because the condyles form an egg-shaped ball."
+     "Last's says the atlanto-occipital joints allow nodding (flexion and extension) and some lateral flexion, but no rotation, because the condyles form an egg-shaped ball.\n\"Yes\" movements."
     ],
     [
      "Rotation of the head occurs mainly at the atlanto-axial joints",
      1,
-     "The atlas and skull rotate on the axis around the dens."
+     "Rotation of the head occurs mainly at the atlanto-axial joints, where the atlas and skull rotate on the axis around the dens.\n\"No\" movements."
     ],
     [
      "The atlanto-axial joints comprise one median and two lateral synovial joints",
      1,
-     "Median: dens with anterior arch and transverse ligament. Lateral: between the lateral masses."
+     "The atlanto-axial joints comprise one median joint (dens with the anterior arch and transverse ligament) and two lateral joints between the lateral masses. All are synovial.\nThree joints act together."
     ],
     [
      "There is an intervertebral disc between the atlas and the axis",
      0,
-     "There is no intervertebral disc between C1 and C2, or between the occiput and C1. The first disc is C2/3."
+     "There is no intervertebral disc between C1 and C2, or between the occiput and C1. The first disc is at C2/3.\nAnswer C: 1, 2 and 3."
     ]
    ]
   },
@@ -119,22 +119,22 @@
     [
      "The vertebral artery usually enters the foramen transversarium of C6",
      1,
-     "The foramen of C7 usually transmits only the vertebral vein (and sometimes an accessory vein)."
+     "The vertebral artery usually enters the foramen transversarium of C6. The foramen of C7 usually transmits only the vertebral vein (and sometimes an accessory vein).\nSo C7's foramen is small or absent."
     ],
     [
      "The anterior tubercle of the transverse process of C6 is the carotid tubercle",
      1,
-     "The common carotid can be compressed against it. It is also a landmark for the stellate ganglion block and the inferior thyroid artery."
+     "The anterior tubercle of the C6 transverse process is the carotid (Chassaignac's) tubercle. The common carotid can be compressed against it, and it is a landmark for stellate ganglion block.\nThe inferior thyroid artery arches near it."
     ],
     [
      "Uncovertebral joints occur between C1 and C2",
      0,
-     "Last's: the uncus on the upper surface of C3 to T1 bodies may appear to form a joint (of Luschka) because a small cavity develops. These are not true synovial joints but result from degenerative change in the disc."
+     "Last's says the uncus on the upper surface of the bodies of C3 to T1 may appear to form a joint (of Luschka) because a small cavity develops; these are degenerative, not true synovial joints, and they do not occur between C1 and C2.\nThe atlas and axis have no bodies to form them."
     ],
     [
      "The spines of C3 to C6 are usually bifid",
      1,
-     "C2 to C6 spines are usually bifid. C7 (vertebra prominens) has a long non-bifid spine."
+     "The spines of C3 to C6 (and usually C2) are bifid. C7, the vertebra prominens, has a long non-bifid spine.\nC7 is the first easily palpable spine."
     ]
    ]
   },
@@ -146,22 +146,22 @@
     [
      "The head of a typical rib articulates with the bodies of its own and the vertebra above",
      1,
-     "Hence demifacets on typical thoracic vertebrae."
+     "The head of a typical rib articulates with the bodies of its own vertebra and the one above, hence the demifacets on typical thoracic vertebrae.\nThe crest of the head is attached to the disc between them."
     ],
     [
      "The first rib articulates with T1 only",
      1,
-     "T1 has a complete facet for rib 1 and a demifacet for rib 2."
+     "The first rib articulates with T1 only; T1 has a complete facet for rib 1 and a demifacet for rib 2.\nRibs 1, 10, 11 and 12 articulate with one vertebra."
     ],
     [
      "The tubercle of a typical rib articulates with the transverse process of the vertebra of the same number",
      1,
-     "A typical rib, e.g. rib 6, articulates with T5 and T6 bodies and the T6 transverse process."
+     "The tubercle of a typical rib articulates with the transverse process of the vertebra of the same number. For example, rib 6 articulates with the bodies of T5 and T6 and the transverse process of T6.\nThe costotransverse joint."
     ],
     [
      "The 11th and 12th ribs articulate with the transverse processes of their own vertebrae",
      0,
-     "Ribs 11 and 12 have no tubercles and no costotransverse joints."
+     "Ribs 11 and 12 have no tubercles and no costotransverse joints.\nAnswer C: 1, 2 and 3."
     ]
    ]
   },
@@ -173,22 +173,22 @@
     [
      "The mammillary process is on the posterior border of the superior articular process",
      1,
-     "Mammillary processes give attachment to multifidus. Accessory processes lie at the root of the transverse process."
+     "The mammillary process lies on the posterior border of the superior articular process of a lumbar vertebra. It gives attachment to multifidus.\nAccessory processes lie at the root of the transverse process."
     ],
     [
      "The iliolumbar ligament attaches to the transverse process of L5",
      1,
-     "It runs from the tip of the L5 transverse process to the iliac crest."
+     "The iliolumbar ligament runs from the tip of the L5 transverse process to the iliac crest.\nIt stabilises the lumbosacral junction."
     ],
     [
      "The sacral hiatus results from failure of fusion of the laminae of S5",
      1,
-     "Sometimes S4 too. It is bounded by the sacral cornua and used for caudal epidural injection."
+     "The sacral hiatus results from failure of fusion of the laminae of S5 (sometimes S4 too). It is bounded by the sacral cornua and used for caudal epidural injection.\nIt is covered by the superficial posterior sacrococcygeal ligament."
     ],
     [
      "The dural sac in the adult ends at the level of L5",
      0,
-     "The dural and arachnoid sac ends at about S2."
+     "In the adult the dural (and arachnoid) sac ends at about S2, not L5.\nThe cord ends at about L1/L2."
     ]
    ]
   },
@@ -200,22 +200,22 @@
     [
      "The nucleus pulposus is derived from the notochord",
      1,
-     "The nucleus pulposus is a notochordal remnant. The annulus fibrosus is from sclerotome."
+     "The nucleus pulposus is a notochordal remnant. The annulus fibrosus comes from sclerotome.\nChordomas arise from notochordal remnants."
     ],
     [
      "A posterolateral L4/5 disc protrusion usually compresses the L5 nerve root",
      1,
-     "Last's rule: a posterolateral herniation irritates the root one below the disc (L4 disc to L5 root, L5 disc to S1, C6 disc to C7). The root of the same number has already left, hugging its pedicle."
+     "Last's rule: a posterolateral disc herniation irritates the root one below the disc (L4/5 disc to L5 root, L5/S1 disc to S1 root, C6/7 disc to C7 root). The root of the same number has already left, hugging its pedicle.\nA far lateral herniation affects the exiting root instead."
     ],
     [
      "The ligamentum flavum is composed mainly of collagen",
      0,
-     "The ligamenta flava are composed mainly of yellow elastic tissue."
+     "The ligamenta flava are composed mainly of yellow elastic tissue, not collagen.\nThat elasticity helps restore the spine after flexion."
     ],
     [
      "The posterior longitudinal ligament is broad over the vertebral bodies and narrow over the discs",
      0,
-     "It is the reverse. The PLL is narrow over the bodies (where basivertebral veins exit) and broad, denticulate and attached over the discs. Its weakness posterolaterally favours posterolateral herniation."
+     "The posterior longitudinal ligament is narrow over the vertebral bodies (where basivertebral veins exit) and broad, denticulate and attached over the discs.\nIts weakness posterolaterally favours posterolateral herniation."
     ]
    ]
   },
@@ -227,22 +227,22 @@
     [
      "There are 31 pairs: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal",
      1,
-     "Standard numbers."
+     "There are 31 pairs of spinal nerves: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal.\nThere are 8 cervical nerves but 7 cervical vertebrae."
     ],
     [
      "The C5 nerve emerges between C5 and C6 vertebrae",
      0,
-     "Cervical nerves C1 to C7 emerge above their vertebrae, so C5 emerges between C4 and C5. C8 emerges between C7 and T1."
+     "Cervical nerves C1 to C7 emerge above their vertebrae, so C5 emerges between C4 and C5. C8 emerges between C7 and T1.\nBelow that, each nerve emerges below its vertebra."
     ],
     [
      "The dorsal root ganglion lies in the intervertebral foramen",
      1,
-     "Except in the sacral and coccygeal nerves, where the ganglia lie in the sacral canal."
+     "The dorsal root ganglion lies in the intervertebral foramen, except for the sacral and coccygeal nerves, whose ganglia lie in the sacral canal.\nForaminal stenosis can compress it."
     ],
     [
      "The dorsal root ganglion contains synapses between primary and secondary sensory neurones",
      0,
-     "The ganglion contains pseudounipolar cell bodies. There are no synapses in it."
+     "The dorsal root ganglion contains pseudounipolar cell bodies but no synapses.\nThe first synapse is in the cord or brainstem."
     ]
    ]
   },
@@ -254,22 +254,22 @@
     [
      "The dorsal ramus of C1 has no cutaneous branch",
      1,
-     "The suboccipital nerve is purely motor to the suboccipital muscles."
+     "The dorsal ramus of C1 (suboccipital nerve) has no cutaneous branch; it is purely motor to the suboccipital muscles.\nSo there is no C1 dermatome."
     ],
     [
      "The dorsal rami of C7, C8, L4 and L5 usually do not reach the skin",
      1,
-     "Last's principles of body wall innervation."
+     "Last's says the dorsal rami of C7, C8, L4 and L5 usually do not reach the skin.\nThey supply only muscle."
     ],
     [
      "Dorsal rami supply the skin of the posterior surface of the upper limb",
      0,
-     "No dorsal ramus ever supplies the skin or muscle of a limb."
+     "No dorsal ramus ever supplies the skin or muscle of a limb.\nLimbs are supplied entirely by anterior rami."
     ],
     [
      "In the upper half of the body the medial branch reaches the skin",
      1,
-     "In the upper half the medial branches are cutaneous. In the lower half the lateral branches are."
+     "In the upper half of the body the medial branches of the dorsal rami reach the skin; in the lower half it is the lateral branches.\nA Last's principle of back innervation."
     ]
    ]
   },
@@ -281,22 +281,22 @@
     [
      "It is bounded by rectus capitis posterior major, obliquus capitis superior and obliquus capitis inferior",
      1,
-     "These form its three sides."
+     "The suboccipital triangle is bounded by rectus capitis posterior major (medially), obliquus capitis superior (laterally above) and obliquus capitis inferior (below).\nIt lies deep to semispinalis capitis."
     ],
     [
      "Its floor is formed by the posterior atlanto-occipital membrane and posterior arch of atlas",
      1,
-     "The vertebral artery lies on the posterior arch in the floor."
+     "The floor of the triangle is formed by the posterior atlanto-occipital membrane and the posterior arch of the atlas, with the vertebral artery on the arch.\nA landmark in posterior approaches."
     ],
     [
      "The greater occipital nerve is the dorsal ramus of C1",
      0,
-     "The greater occipital nerve is the medial branch of the dorsal ramus of C2. It winds around the lower border of obliquus inferior and pierces semispinalis capitis and trapezius."
+     "The greater occipital nerve is the medial branch of the dorsal ramus of C2. It winds around the lower border of obliquus inferior and pierces semispinalis capitis and trapezius.\nThe dorsal ramus of C1 is the suboccipital nerve."
     ],
     [
      "The suboccipital nerve supplies all the muscles bounding the triangle and rectus capitis posterior minor",
      1,
-     "It also supplies semispinalis capitis in part."
+     "The suboccipital nerve (dorsal ramus of C1) supplies all the muscles bounding the triangle and rectus capitis posterior minor, and part of semispinalis capitis.\nIt emerges between the vertebral artery and the arch."
     ]
    ]
   },
@@ -308,22 +308,22 @@
     [
      "Includes multifidus",
      0,
-     "Multifidus belongs to the transversospinalis group, deep to erector spinae."
+     "Multifidus belongs to the transversospinalis group, deep to erector spinae.\nErector spinae is iliocostalis, longissimus and spinalis."
     ],
     [
      "Is supplied by anterior rami",
      0,
-     "All the intrinsic back muscles are supplied by posterior (dorsal) rami."
+     "All the intrinsic (deep) back muscles, including erector spinae, are supplied by posterior (dorsal) rami.\nThat is how they are defined."
     ],
     [
      "Has spinalis as its most lateral column",
      0,
-     "Iliocostalis is lateral, longissimus intermediate, spinalis medial."
+     "Iliocostalis is the lateral column, longissimus intermediate and spinalis medial.\n\"I Love Spaghetti\" from lateral to medial."
     ],
     [
      "Arises from a common origin on the sacrum, iliac crest and lumbar spines",
      1,
-     "Last's: from a thick tendon deep to the lumbar fascia, diverging into iliocostalis and longissimus."
+     "Last's says erector spinae arises from a thick tendon on the sacrum, iliac crest and lumbar spines, deep to the lumbar fascia, then diverges into its columns.\nAnswer D: 4 only."
     ]
    ]
   },
@@ -335,22 +335,22 @@
     [
      "Extends from the external occipital protuberance to the spine of C7",
      1,
-     "It is a median fibrous septum attached to the external occipital crest and the cervical spines."
+     "The ligamentum nuchae is a median fibrous septum from the external occipital protuberance and crest to the spine of C7, attached to the cervical spines.\nIt separates the muscles of the two sides."
     ],
     [
      "Gives origin to trapezius",
      1,
-     "Also to splenius capitis, rhomboid minor and serratus posterior superior."
+     "The ligamentum nuchae gives origin to trapezius, and also to splenius capitis, rhomboid minor and serratus posterior superior.\nIts role is mainly for muscle attachment in humans."
     ],
     [
      "Gives origin to levator scapulae",
      0,
-     "Levator scapulae arises from the transverse processes of C1 to C4."
+     "Levator scapulae arises from the transverse processes of C1 to C4, not the ligamentum nuchae.\nIt lies more laterally."
     ],
     [
      "Is homologous with the supraspinous ligament",
      1,
-     "It continues the supraspinous ligament above C7."
+     "The ligamentum nuchae is homologous with the supraspinous ligament, which it continues above C7.\nIn grazing animals it is thick and elastic."
     ]
    ]
   },
@@ -362,22 +362,22 @@
     [
      "Lies in the extradural space",
      1,
-     "It lies in the epidural fat between dura and bone."
+     "The internal vertebral venous plexus lies in the extradural (epidural) space, in the fat between the dura and bone.\nIt can bleed in spinal surgery."
     ],
     [
      "Is valveless",
      1,
-     "Hence a route for metastasis, for example from prostate to vertebrae and skull."
+     "The plexus is valveless, so it provides a route for metastasis, for example from the prostate to the vertebrae and skull.\nBatson's plexus."
     ],
     [
      "Communicates with the cranial dural venous sinuses through the foramen magnum",
      1,
-     "It connects with the basilar plexus and occipital sinus."
+     "The plexus communicates with the cranial dural venous sinuses (basilar plexus and occipital sinus) through the foramen magnum.\nA continuous valveless system from pelvis to skull."
     ],
     [
      "Receives the basivertebral veins from the vertebral bodies",
      1,
-     "These emerge from the back of each body beneath the posterior longitudinal ligament."
+     "The plexus receives the basivertebral veins, which emerge from the back of each vertebral body beneath the posterior longitudinal ligament.\nAll four true: E."
     ]
    ]
   },
@@ -389,22 +389,22 @@
     [
      "The line joining the highest points of the iliac crests usually crosses the L4 spine or the L4/5 interspace",
      1,
-     "This intercristal (Tuffier's) line is the main landmark."
+     "The line joining the highest points of the iliac crests (Tuffier's or the intercristal line) usually crosses the L4 spine or the L4/5 interspace.\nIt is the main landmark for lumbar puncture."
     ],
     [
      "The needle passes through the ligamentum flavum before the epidural space",
      1,
-     "Skin, subcutaneous tissue, supraspinous ligament, interspinous ligament, ligamentum flavum, epidural space, dura, arachnoid."
+     "The needle passes skin, subcutaneous tissue, supraspinous ligament, interspinous ligament and ligamentum flavum, then the epidural space, dura and arachnoid.\nThe ligamentum flavum gives a distinct \"give\"."
     ],
     [
      "The needle must penetrate the pia mater to enter the subarachnoid space",
      0,
-     "The pia invests the cord and roots. The subarachnoid space lies between arachnoid and pia."
+     "The subarachnoid space lies between the arachnoid and the pia; the pia invests the cord and roots and is not pierced.\nCSF flows once the arachnoid is breached."
     ],
     [
      "Puncture at L1/2 is safe because the cord ends at L3",
      0,
-     "The adult cord usually ends at L1/2, so punctures are performed at L3/4 or L4/5. The L3 level applies at birth."
+     "The adult cord usually ends at about L1/2, so lumbar puncture is performed at L3/4 or L4/5. The L3 level applies at birth.\nPuncture at L1/2 risks the conus."
     ]
    ]
   },
@@ -416,22 +416,22 @@
     [
      "C6 supplies the thumb",
      1,
-     "C6 supplies the lateral forearm and thumb, C7 the middle finger, C8 the little finger."
+     "C6 supplies the lateral forearm and thumb. C7 supplies the middle finger and C8 the little finger.\nA C6 radiculopathy causes thumb numbness."
     ],
     [
      "T10 supplies the umbilicus",
      1,
-     "T4/5 nipple, T7 subcostal angle, T10 umbilicus."
+     "T10 supplies the skin at the level of the umbilicus. T4/5 is at the nipple and T7 at the subcostal angle.\nUseful for sensory levels."
     ],
     [
      "L4 supplies the medial side of the leg",
      1,
-     "L4 supplies the medial leg and medial malleolus region."
+     "L4 supplies the medial side of the leg and the region of the medial malleolus.\nL5 supplies the lateral leg and dorsum of the foot."
     ],
     [
      "S1 supplies the skin over the medial malleolus",
      0,
-     "S1 supplies the lateral ankle, lateral dorsum and sole of the foot and the little toe."
+     "S1 supplies the lateral ankle, the lateral dorsum and sole of the foot and the little toe, not the medial malleolus.\nThe medial malleolus is L4."
     ]
    ]
   },
@@ -443,22 +443,22 @@
     [
      "An axial line is a junction between dermatomes supplied from discontinuous spinal levels",
      1,
-     "For example C5 and T1 on the front of the arm."
+     "An axial line is a junction between dermatomes supplied from discontinuous spinal levels, for example C5 and T1 on the front of the arm.\nAcross such a line there is little overlap."
     ],
     [
      "There is no cutaneous area supplied by C1",
      1,
-     "C1 has no cutaneous branch."
+     "There is no cutaneous area supplied by C1, because the C1 nerve has no cutaneous branch.\nThe C2 dermatome reaches the vertex."
     ],
     [
      "The posterior two-thirds of the scrotum is supplied by S3",
      1,
-     "The anterior third is supplied by L1, an example of an axial line in the perineum."
+     "The posterior two-thirds of the scrotum is supplied by S3 and the anterior third by L1, an example of an axial line in the perineum.\nL1 via the ilioinguinal and genital branches."
     ],
     [
      "Division of a single intercostal nerve produces a band of anaesthesia on the trunk",
      0,
-     "Overlap between adjacent dermatomes means single-nerve division usually produces no anaesthesia, except across axial lines."
+     "Because adjacent dermatomes overlap, division of a single intercostal nerve usually produces no anaesthesia, except across an axial line.\nAnswer C: 1, 2 and 3."
     ]
    ]
   },
@@ -470,22 +470,22 @@
     [
      "The biceps jerk is mediated by C5 and C6",
      1,
-     "Biceps C5/6, triceps C7, knee L3/4, ankle S1."
+     "The biceps jerk is mediated by C5 and C6. Triceps is C7, the knee jerk L3/4 and the ankle jerk S1.\nThese are the standard reflex levels."
     ],
     [
      "The knee jerk is mediated mainly by L3 and L4",
      1,
-     "Via the femoral nerve to quadriceps."
+     "The knee jerk is mediated mainly by L3 and L4, through the femoral nerve to quadriceps.\nIt is reduced in L4 root lesions."
     ],
     [
      "Extension of the great toe is a good test of the L5 myotome",
      1,
-     "Extensor hallucis longus is a clean L5 test."
+     "Extension of the great toe (extensor hallucis longus) is a good test of the L5 myotome.\nL5 has no reliable reflex."
     ],
     [
      "The ankle jerk is mediated mainly by L4",
      0,
-     "The ankle jerk is mediated by S1 (and S2)."
+     "The ankle jerk is mediated by S1 (and S2), not L4.\nIt is lost in S1 radiculopathy."
     ]
    ]
   },
@@ -497,22 +497,22 @@
     [
      "Shoulder abduction and lateral rotation, C5",
      1,
-     "Deltoid, supraspinatus, infraspinatus and teres minor."
+     "Shoulder abduction and lateral rotation (deltoid, supraspinatus, infraspinatus, teres minor) are mainly C5.\nSo C5 lesions weaken shoulder abduction."
     ],
     [
      "Hip flexion, L4 and L5",
      0,
-     "Hip flexion and adduction are L2 and L3. Hip extension and abduction are L4 and L5."
+     "Hip flexion and adduction are mainly L2 and L3. Hip extension and abduction are L4 and L5.\nFlexion is higher up."
     ],
     [
      "Ankle plantarflexion, L4 and L5",
      0,
-     "Plantarflexion is S1 and S2. Dorsiflexion is L4 and L5."
+     "Ankle plantarflexion is mainly S1 and S2. Dorsiflexion is L4 and L5.\n\"Push down = S1.\""
     ],
     [
      "Knee extension, L5 and S1",
      0,
-     "Knee extension (quadriceps) is L3 and L4. Knee flexion is L5 and S1."
+     "Knee extension (quadriceps) is L3 and L4. Knee flexion is L5 and S1.\nAnswer A: 1 only."
     ]
    ]
   },
@@ -524,22 +524,22 @@
     [
      "The spinal dura is separated from the vertebral periosteum by an epidural space containing fat and veins",
      1,
-     "Unlike the cranial dura, which is fused to the periosteum."
+     "The spinal dura is separated from the vertebral periosteum by an epidural space containing fat and veins, unlike the cranial dura, which is fused to the periosteum.\nThat is why spinal epidural haematomas and abscesses can form."
     ],
     [
      "The spinal dura is firmly attached to the margin of the foramen magnum",
      1,
-     "It is also attached to the backs of C2 and C3 bodies and to the posterior longitudinal ligament."
+     "The spinal dura is firmly attached to the margin of the foramen magnum, and also to the backs of the bodies of C2 and C3 and the posterior longitudinal ligament.\nBelow that it is largely free."
     ],
     [
      "The dural sleeves of the spinal nerves end at the dorsal root ganglia, becoming continuous with the epineurium",
      1,
-     "The dura fuses with the epineurium at the intervertebral foramen."
+     "The dural sleeves of the spinal nerves end at the dorsal root ganglia, where the dura fuses with the epineurium at the intervertebral foramen.\nSo the subarachnoid space ends there too."
     ],
     [
      "The subarachnoid space ends at the conus medullaris",
      0,
-     "It extends to S2, containing the cauda equina, which is the space sampled in lumbar puncture."
+     "The subarachnoid space extends to S2, below the conus, containing the cauda equina. This is the space sampled in lumbar puncture.\nThe cord ends higher, at L1/2."
     ]
    ]
   },
@@ -551,22 +551,22 @@
     [
      "The spinal cord ends at about L3 at birth",
      1,
-     "It ascends relatively to L1/2 as the vertebral column grows faster than the cord."
+     "At birth the spinal cord ends at about L3. It ascends relatively to L1/2 as the vertebral column grows faster than the cord.\nSo lumbar puncture in neonates is done lower."
     ],
     [
      "The cervical curvature becomes a secondary ventral convexity when the infant holds up its head",
      1,
-     "The lumbar curvature develops when the infant starts to walk."
+     "The cervical curvature, a secondary curve convex forward, develops when the infant holds up its head. The lumbar curvature develops when the infant starts to walk.\nSecondary curves are postural."
     ],
     [
      "The fetal vertebral column is C-shaped and concave ventrally",
      1,
-     "The primary curvature is a ventral concavity, retained in the thoracic and sacral regions."
+     "The fetal vertebral column is C-shaped and concave ventrally (the primary curvature), retained in the thoracic and sacral regions.\nPrimary curves are concave forward."
     ],
     [
      "The nucleus pulposus is derived from sclerotome",
      0,
-     "The nucleus pulposus is notochordal. The vertebral bodies and annulus fibrosus come from sclerotome."
+     "The nucleus pulposus is notochordal. The vertebral bodies and annulus fibrosus come from sclerotome.\nAnswer C: 1, 2 and 3."
     ]
    ]
   }
