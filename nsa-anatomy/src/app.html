@@ -488,7 +488,7 @@ function renderQuestion(q, opts) {
         }, `Statement ${T1_LABELS[i]}`));
       }
       const item = h('div', { class: 'mq-item' }, h('div', { class: 'mq-text' }, h('b', { text: `${T1_LABELS[i]}.` }), o[0]), group);
-      if (opts.reveal) item.append(feedback(opts.ans[i] === truth, [`${truth ? 'True' : 'False'}. ${o[2]}`]));
+      if (opts.reveal) item.append(feedback(opts.ans[i] === truth, explain(truth, o[2])));
       body.append(item);
     });
   } else {
@@ -498,13 +498,19 @@ function renderQuestion(q, opts) {
       group.append(option(`${k}. ${v}`, opts.ans === k, opts.reveal && k === q.k, () => opts.onAnswer(k), 'Answer'));
     }
     const item = h('div', { class: 'mq-item' }, h('div', { class: 'mq-text', text: 'Select one:' }), group);
-    if (opts.reveal) item.append(feedback(opts.ans === q.k, [`The answer is ${q.k}: ${KEY_TEXT[q.k]}.`, ...q.o.map((o, i) => `${i + 1}. ${o[1] ? 'True' : 'False'}. ${o[2]}`), keyReasoning(q)]));
+    if (opts.reveal) item.append(feedback(opts.ans === q.k, [`The answer is ${q.k}: ${KEY_TEXT[q.k]}.`, ...q.o.flatMap((o, i) => explain(!!o[1], o[2], `${i + 1}. `)), keyReasoning(q)]));
     body.append(item);
   }
   const box = h('article', { class: 'q' }, head, body);
   if (opts.footer) box.append(opts.footer);
   return box;
 }
+// Explanations are one or more paragraphs separated by newlines; the verdict leads the first.
+function explain(truth, text, lead = '') {
+  const paras = String(text).replace(/^(True|False)\.\s*/, '').split('\n').filter(Boolean);
+  return paras.map((p, i) => (i ? p : `${lead}${truth ? 'True' : 'False'}. ${p}`));
+}
+const plainWhy = (t) => String(t).replace(/^(True|False)\.\s*/, '').replace(/\n+/g, ' ');
 const KEY_PATTERN = { A: 'TFFF', B: 'FTFT', C: 'TTTF', D: 'FFFT', E: 'TTTT' };
 // Why each other letter fails: the first statement whose truth breaks that letter's pattern.
 function keyReasoning(q) {
@@ -854,11 +860,11 @@ function dayReport(day) {
       q.o.forEach((o, i) => {
         const yours = rec.a[i];
         const right = o[1] ? 'T' : 'F';
-        if (yours !== right) lines.push({ label: T1_LABELS[i], text: o[0], answer: o[1] ? 'True' : 'False', yours: yours === '?' ? 'blank' : (yours === 'T' ? 'True' : 'False'), why: o[2] });
+        if (yours !== right) lines.push({ label: T1_LABELS[i], text: o[0], answer: o[1] ? 'True' : 'False', yours: yours === '?' ? 'blank' : (yours === 'T' ? 'True' : 'False'), why: plainWhy(o[2]) });
       });
     } else {
       lines.push({ label: 'Key', text: `You chose ${rec.a || 'nothing'}; answer ${q.k} (${KEY_TEXT[q.k]})`, answer: '', yours: '', why: '' });
-      q.o.forEach((o, i) => lines.push({ label: String(i + 1), text: o[0], answer: o[1] ? 'True' : 'False', yours: '', why: o[2] }));
+      q.o.forEach((o, i) => lines.push({ label: String(i + 1), text: o[0], answer: o[1] ? 'True' : 'False', yours: '', why: plainWhy(o[2]) }));
     }
     wrong.push({ q, score: rec.s, lines });
   }
@@ -948,11 +954,11 @@ function ankiFile(mistakes) {
     if (q.y === 1) {
       for (const i of [...idx].sort()) {
         const o = q.o[i];
-        rows.push([`${esc(q.s)}<br><br><b>True or false?</b> ${esc(o[0])}`, `<b>${o[1] ? 'True' : 'False'}</b><br>${esc(o[2])}`, tags, `nsa-${q.id}-${i}`]);
+        rows.push([`${esc(q.s)}<br><br><b>True or false?</b> ${esc(o[0])}`, `<b>${o[1] ? 'True' : 'False'}</b><br>${esc(plainWhy(o[2]))}`, tags, `nsa-${q.id}-${i}`]);
       }
     } else {
       const front = `${esc(q.s)}<br>${q.o.map((o, i) => `${i + 1}. ${esc(o[0])}`).join('<br>')}<br><br><small>${Object.entries(KEY_TEXT).map(([k, v]) => `${k}: ${esc(v)}`).join('<br>')}</small>`;
-      const back = `<b>${q.k}: ${esc(KEY_TEXT[q.k])}</b><br>${q.o.map((o, i) => `${i + 1}. ${o[1] ? 'True' : 'False'}: ${esc(o[2])}`).join('<br>')}`;
+      const back = `<b>${q.k}: ${esc(KEY_TEXT[q.k])}</b><br>${q.o.map((o, i) => `${i + 1}. ${o[1] ? 'True' : 'False'}: ${esc(plainWhy(o[2]))}`).join('<br>')}`;
       rows.push([front, back, tags, `nsa-${q.id}`]);
     }
   }

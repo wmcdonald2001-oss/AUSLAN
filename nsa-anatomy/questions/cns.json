@@ -10,22 +10,22 @@
     [
      "The anterior limb lies between the head of the caudate nucleus and the lentiform nucleus",
      1,
-     "The anterior limb separates the caudate head medially from the lentiform nucleus laterally. The posterior limb lies between thalamus and lentiform nucleus."
+     "The anterior limb of the internal capsule lies between the head of the caudate nucleus (medially) and the lentiform nucleus (laterally). It carries frontopontine fibres and the anterior thalamic radiation.\nThe posterior limb lies between the thalamus (medially) and the lentiform nucleus. The genu sits at the junction, beside the interventricular foramen."
     ],
     [
      "Corticobulbar (corticonuclear) fibres occupy the genu",
      1,
-     "Corticonuclear fibres to the motor cranial nerve nuclei lie in the genu."
+     "Corticonuclear (corticobulbar) fibres to the motor cranial nerve nuclei occupy the genu of the internal capsule.\nA small genu infarct can therefore cause contralateral lower facial and tongue weakness with little limb weakness."
     ],
     [
      "In the posterior limb, corticospinal fibres for the lower limb lie anterior to those for the upper limb",
      0,
-     "In the posterior limb the arrangement runs face/arm (anterior) to leg (posterior)."
+     "In the posterior limb the corticospinal fibres are arranged with face and arm anteriorly and the leg posteriorly.\nSo a lesion of the front of the posterior limb affects the arm more than the leg. \"Leg posterior\" is the rule."
     ],
     [
      "The optic radiation passes through the retrolentiform part",
      1,
-     "The optic radiation (geniculocalcarine) passes in the retrolentiform part. The auditory radiation passes in the sublentiform part."
+     "The optic radiation (geniculocalcarine fibres) passes through the retrolentiform part of the internal capsule, behind the lentiform nucleus.\nThe auditory radiation passes through the sublentiform part. A posterior capsular lesion can therefore add a contralateral homonymous hemianopia."
     ]
    ]
   },
@@ -37,22 +37,22 @@
     [
      "Lateral striate (lenticulostriate) branches of the middle cerebral artery",
      1,
-     "These supply most of the upper parts of both limbs. Their rupture is the classic cause of capsular haemorrhage."
+     "The lateral striate (lenticulostriate) branches of the middle cerebral artery supply most of the upper parts of both limbs of the internal capsule.\nTheir rupture is the classic cause of capsular haemorrhage (\"the artery of cerebral haemorrhage\"). The lower posterior limb is supplied by the anterior choroidal artery, and the anterior limb partly by the recurrent artery of Heubner."
     ],
     [
      "Anterior inferior cerebellar artery",
      0,
-     "AICA supplies the lower pons, the inferolateral cerebellum and usually gives the labyrinthine artery. It does not reach the capsule."
+     "The anterior inferior cerebellar artery supplies the lower pons and the inferolateral cerebellum and usually gives the labyrinthine artery.\nIt does not reach the cerebral hemisphere."
     ],
     [
      "Superior cerebellar artery",
      0,
-     "It supplies the upper surface of the cerebellum and parts of the midbrain, not the internal capsule."
+     "The superior cerebellar artery supplies the upper surface of the cerebellum, the deep cerebellar nuclei and parts of the midbrain and upper pons.\nThe internal capsule is supplied by branches of the internal carotid, middle and anterior cerebral arteries."
     ],
     [
      "Posterior inferior cerebellar artery",
      0,
-     "PICA supplies the lateral medulla and inferior cerebellum, not the capsule."
+     "The posterior inferior cerebellar artery supplies the lateral medulla and the inferior cerebellum (its occlusion causes the lateral medullary syndrome).\nIt does not supply any part of the cerebrum."
     ]
    ]
   },
@@ -64,22 +64,22 @@
     [
      "The ventral posteromedial nucleus receives the trigeminal lemniscus and taste fibres",
      1,
-     "VPM relays sensation from the face (trigeminothalamic fibres) and taste (from the solitary nucleus) to the postcentral gyrus and insula."
+     "The ventral posteromedial (VPM) nucleus receives the trigeminal lemniscus (sensation from the face) and taste fibres from the nucleus of the tractus solitarius. It projects to the face area of the postcentral gyrus and to the insula.\nThe ventral posterolateral (VPL) nucleus receives the medial lemniscus and spinothalamic tracts for the body."
     ],
     [
      "The ventral lateral nucleus receives fibres from the dentate nucleus of the contralateral cerebellum",
      1,
-     "Dentatothalamic fibres cross in the superior cerebellar peduncle decussation and relay in VL to the motor cortex."
+     "The ventral lateral (VL) nucleus receives dentatothalamic fibres from the contralateral dentate nucleus, which cross in the decussation of the superior cerebellar peduncles. It projects to the motor cortex.\nThe ventral anterior nucleus receives mainly from the globus pallidus. Both are motor relay nuclei."
     ],
     [
      "The anterior nucleus receives the mammillothalamic tract",
      1,
-     "The anterior nucleus is part of the Papez circuit and projects to the cingulate gyrus."
+     "The anterior nucleus receives the mammillothalamic tract and projects to the cingulate gyrus. It is part of the Papez circuit (hippocampus, fornix, mammillary body, anterior thalamus, cingulate).\nThe mammillothalamic tract is a key structure in memory; lesions cause amnesia."
     ],
     [
      "The reticular nucleus projects mainly to the cerebral cortex",
      0,
-     "The reticular nucleus lies outside the external medullary lamina. Its GABAergic neurones project back to other thalamic nuclei, not to the cortex."
+     "The reticular nucleus forms a thin shell outside the external medullary lamina. Its GABAergic neurons project back to the other thalamic nuclei, not to the cortex.\nIt gates thalamocortical traffic. Nearly all other thalamic nuclei project to the cortex."
     ]
    ]
   },
@@ -91,22 +91,22 @@
     [
      "Receives fibres from the temporal retina of the ipsilateral eye",
      1,
-     "Uncrossed temporal fibres reach the ipsilateral LGB."
+     "Uncrossed fibres from the temporal half of the ipsilateral retina reach the ipsilateral lateral geniculate body.\nTogether with crossed nasal fibres from the other eye, they represent the opposite half of the visual field."
     ],
     [
      "Relays auditory impulses to the transverse temporal gyri",
      0,
-     "That is the medial geniculate body."
+     "The medial geniculate body relays auditory impulses to the transverse temporal gyri (Heschl's).\nThe lateral geniculate body relays vision to the calcarine cortex. \"Lateral = light, medial = music.\""
     ],
     [
      "Has six layers, with crossed fibres ending in layers 1, 4 and 6",
      1,
-     "Contralateral (crossed nasal) fibres end in layers 1, 4 and 6. Ipsilateral fibres end in 2, 3 and 5."
+     "The lateral geniculate body has six layers. Crossed (contralateral, nasal) fibres end in layers 1, 4 and 6; uncrossed (ipsilateral, temporal) fibres in layers 2, 3 and 5.\nEach layer therefore receives from one eye only."
     ],
     [
      "Projects to the superior colliculus through the brachium of the superior colliculus",
      0,
-     "Fibres from the optic tract bypass the LGB to reach the superior colliculus and pretectum through the superior brachium. The LGB projects to the calcarine cortex."
+     "Fibres to the superior colliculus and pretectum bypass the lateral geniculate body. They leave the optic tract through the brachium of the superior colliculus.\nThe lateral geniculate body projects to the calcarine (visual) cortex through the optic radiation."
     ]
    ]
   },
@@ -118,22 +118,22 @@
     [
      "The lentiform nucleus consists of the putamen and globus pallidus",
      1,
-     "The lentiform (lenticular) nucleus is the putamen laterally plus the globus pallidus medially."
+     "The lentiform (lenticular) nucleus consists of the putamen laterally and the globus pallidus medially, together shaped like a lens.\nIt lies lateral to the internal capsule."
     ],
     [
      "The corpus striatum includes the caudate nucleus and the lentiform nucleus",
      1,
-     "Corpus striatum = caudate + lentiform. The striatum (neostriatum) = caudate + putamen."
+     "The corpus striatum consists of the caudate nucleus and the lentiform nucleus. The striatum (neostriatum) is the caudate plus the putamen.\nThe distinction matters: the globus pallidus belongs to the corpus striatum but not to the striatum."
     ],
     [
      "The claustrum lies between the external capsule and the extreme capsule",
      1,
-     "The claustrum is a thin sheet of grey matter between the external capsule (medially) and extreme capsule (laterally), deep to the insula."
+     "The claustrum is a thin sheet of grey matter between the external capsule (medially) and the extreme capsule (laterally), deep to the insula.\nFrom medial to lateral: lentiform nucleus, external capsule, claustrum, extreme capsule, insula."
     ],
     [
      "The tail of the caudate nucleus lies in the floor of the inferior horn of the lateral ventricle",
      0,
-     "The tail of the caudate lies in the roof of the inferior horn. The hippocampus forms the floor."
+     "The tail of the caudate nucleus lies in the roof of the inferior horn of the lateral ventricle. The hippocampus forms the floor.\nThe caudate follows the ventricle around: head in the lateral wall of the anterior horn, body in the floor of the body, tail in the roof of the inferior horn."
     ]
    ]
   },
@@ -145,22 +145,22 @@
     [
      "The inferior cerebellar peduncle carries olivocerebellar fibres",
      1,
-     "Olivocerebellar (climbing) fibres from the contralateral inferior olive enter through the inferior peduncle."
+     "Olivocerebellar fibres from the contralateral inferior olivary nucleus enter the cerebellum through the inferior cerebellar peduncle and end as climbing fibres on Purkinje cells.\nThe inferior peduncle also carries the dorsal spinocerebellar tract and vestibulocerebellar fibres."
     ],
     [
      "The middle cerebellar peduncle carries only afferent pontocerebellar fibres",
      1,
-     "The middle peduncle is composed of crossed pontocerebellar fibres from the pontine nuclei."
+     "The middle cerebellar peduncle consists of crossed pontocerebellar fibres from the pontine nuclei, all afferent to the cerebellum.\nIt is the largest peduncle, carrying the corticopontocerebellar pathway."
     ],
     [
      "The superior cerebellar peduncle carries the dorsal spinocerebellar tract",
      0,
-     "The dorsal spinocerebellar tract enters through the inferior peduncle. The ventral spinocerebellar tract enters through the superior peduncle."
+     "The dorsal (posterior) spinocerebellar tract enters through the inferior cerebellar peduncle. The ventral (anterior) spinocerebellar tract enters through the superior peduncle.\nThe superior peduncle is otherwise mainly efferent (dentatothalamic and dentatorubral fibres)."
     ],
     [
      "Efferent fibres from the dentate nucleus decussate in the midbrain at the level of the inferior colliculus",
      1,
-     "The decussation of the superior cerebellar peduncles is in the caudal midbrain at the level of the inferior colliculi."
+     "Efferent fibres from the dentate nucleus leave in the superior cerebellar peduncle and decussate in the caudal midbrain at the level of the inferior colliculi.\nThey then reach the red nucleus and the ventral lateral thalamus. Because of this crossing, each cerebellar hemisphere controls the same side of the body."
     ]
    ]
   },
@@ -172,22 +172,22 @@
     [
      "Granule cells are the only output neurones of the cerebellar cortex",
      0,
-     "Purkinje cell axons are the sole output of the cortex. Granule cell axons form the parallel fibres within the cortex."
+     "Purkinje cell axons are the only output of the cerebellar cortex. Granule cell axons form the parallel fibres, which stay within the cortex.\nGranule cells are the only excitatory cortical neurons; Purkinje cells are inhibitory."
     ],
     [
      "Purkinje cells are inhibitory (GABAergic)",
      1,
-     "Purkinje cells inhibit the deep cerebellar and vestibular nuclei."
+     "Purkinje cells are GABAergic and inhibit the deep cerebellar nuclei and the lateral vestibular nucleus.\nSo the cortical output is entirely inhibitory; the deep nuclei provide the excitatory output of the cerebellum."
     ],
     [
      "The deep nuclei from medial to lateral are dentate, emboliform, globose and fastigial",
      0,
-     "From medial to lateral the order is fastigial, globose, emboliform, dentate. The dentate is the most lateral."
+     "From medial to lateral the deep nuclei are fastigial, globose, emboliform and dentate. The dentate is the most lateral and largest.\nA memory aid: \"Fat Girls Eat Doughnuts\" (medial to lateral)."
     ],
     [
      "Mossy fibres synapse with granule cells in the cerebellar glomeruli",
      1,
-     "Mossy fibres (pontocerebellar, spinocerebellar, vestibular and others) end on granule cell dendrites in the glomeruli. Climbing fibres from the inferior olive end on Purkinje cells."
+     "Mossy fibres (pontocerebellar, spinocerebellar, vestibular and others) end on granule cell dendrites in the cerebellar glomeruli.\nClimbing fibres, from the inferior olive, end directly on Purkinje cells."
     ]
    ]
   },
@@ -199,22 +199,22 @@
     [
      "Is separated from the body of the cerebellum by the posterolateral fissure",
      1,
-     "The posterolateral fissure is the first fissure to appear and separates the flocculonodular lobe."
+     "The posterolateral fissure separates the flocculonodular lobe from the body of the cerebellum. It is the first fissure to appear in development.\nDo not confuse it with the primary fissure."
     ],
     [
      "Is phylogenetically the oldest part (archicerebellum)",
      1,
-     "It is the vestibulocerebellum."
+     "The flocculonodular lobe is the oldest part of the cerebellum phylogenetically (archicerebellum). Functionally it is the vestibulocerebellum.\nIts lesions cause truncal ataxia and nystagmus rather than limb ataxia."
     ],
     [
      "Has major connections with the vestibular nuclei",
      1,
-     "It receives primary and secondary vestibular fibres and projects to the vestibular nuclei, directly and through the fastigial nucleus."
+     "The flocculonodular lobe receives primary and secondary vestibular fibres and projects back to the vestibular nuclei, directly and through the fastigial nucleus.\nThis connection controls balance and eye movements."
     ],
     [
      "Is separated from the anterior lobe by the primary fissure",
      0,
-     "The primary fissure separates the anterior lobe from the posterior (middle) lobe."
+     "The primary fissure separates the anterior lobe from the posterior (middle) lobe. The flocculonodular lobe is separated by the posterolateral fissure.\n\"Primary\" divides the body of the cerebellum; \"posterolateral\" cuts off the flocculonodular lobe."
     ]
    ]
   },
@@ -226,22 +226,22 @@
     [
      "It is present in the body and inferior horn of the lateral ventricle",
      1,
-     "The plexus runs along the choroid fissure from the interventricular foramen through the body, atrium (glomus) and inferior horn."
+     "The choroid plexus of the lateral ventricle runs along the choroid fissure from the interventricular foramen through the body and the atrium (where it forms the glomus) into the inferior horn.\nIt follows the C-shaped curve of the ventricle."
     ],
     [
      "It is present in the anterior horn of the lateral ventricle",
      0,
-     "There is no choroid plexus in the anterior (frontal) or posterior (occipital) horns."
+     "There is no choroid plexus in the anterior (frontal) horn or the posterior (occipital) horn of the lateral ventricle.\nThe plexus begins at the interventricular foramen and runs backward."
     ],
     [
      "It is present in the roof of the third ventricle",
      1,
-     "Two strands hang from the tela choroidea in the roof of the third ventricle."
+     "Two strands of choroid plexus hang from the tela choroidea in the roof of the third ventricle.\nThey are continuous through the interventricular foramina with the plexuses of the lateral ventricles."
     ],
     [
      "It is present in the cerebral aqueduct",
      0,
-     "The aqueduct contains no choroid plexus."
+     "The cerebral aqueduct contains no choroid plexus.\nThat is one reason why it is a common site of obstruction: it is a narrow tube with no secretory tissue, and blockage causes hydrocephalus of the lateral and third ventricles."
     ]
    ]
   },
@@ -253,22 +253,22 @@
     [
      "Has the facial colliculus in the floor of its medullary part",
      0,
-     "The facial colliculus is in the pontine part of the floor. The hypoglossal and vagal trigones are in the medullary part."
+     "The facial colliculus is in the pontine part of the floor of the fourth ventricle. The hypoglossal and vagal trigones are in the medullary part.\nThe striae medullares roughly divide the two parts."
     ],
     [
      "Communicates with the subarachnoid space through the median aperture",
      1,
-     "The foramen of Magendie in the lower roof opens into the cerebellomedullary cistern."
+     "The median aperture (foramen of Magendie) in the lower roof opens into the cerebellomedullary cistern (cisterna magna).\nIt is the main exit of CSF from the ventricular system."
     ],
     [
      "Communicates directly with the third ventricle through the interventricular foramina",
      0,
-     "It communicates with the third ventricle through the cerebral aqueduct. The interventricular foramina join the lateral and third ventricles."
+     "The fourth ventricle communicates with the third ventricle through the cerebral aqueduct. The interventricular foramina join the lateral ventricles to the third ventricle.\nOrder of flow: lateral ventricles, interventricular foramina, third ventricle, aqueduct, fourth ventricle."
     ],
     [
      "Communicates with the pontine cistern through the lateral apertures",
      1,
-     "Last's: the lateral apertures (foramina of Luschka) open just behind VIII into the pontine cistern."
+     "Last's describes the lateral apertures (foramina of Luschka) as opening just behind VIII into the pontine cistern.\nA tuft of choroid plexus often protrudes through them."
     ]
    ]
   },
@@ -280,22 +280,22 @@
     [
      "The interventricular foramina lie between the fornix and the anterior pole of the thalamus",
      1,
-     "Last's: the anterior columns of the fornix form the anterior margins of the interventricular foramina, with the anterior pole of the thalamus behind."
+     "The anterior columns of the fornix form the anterior margins of the interventricular foramina, with the anterior pole of the thalamus behind.\nA colloid cyst at this site can block both foramina and cause acute hydrocephalus."
     ],
     [
      "The optic and infundibular recesses lie in its anterior inferior wall",
      1,
-     "The optic recess lies above the chiasma, the infundibular recess in the stalk."
+     "The optic recess lies above the optic chiasma and the infundibular recess extends into the pituitary stalk, both in the anterior and inferior wall of the third ventricle.\nThe lamina terminalis forms the front wall above them."
     ],
     [
      "Its lateral walls are formed entirely by the thalamus",
      0,
-     "The upper lateral wall is thalamus. Below the hypothalamic sulcus it is hypothalamus."
+     "The upper part of the lateral wall is formed by the thalamus. Below the hypothalamic sulcus the wall is formed by the hypothalamus.\nThe interthalamic adhesion often crosses the cavity between the two thalami."
     ],
     [
      "The pineal recess lies in its posterior wall",
      1,
-     "The posterior wall has the suprapineal and pineal recesses, with the posterior commissure below and the habenular commissure above the pineal stalk."
+     "The posterior wall of the third ventricle has the suprapineal and pineal recesses. The posterior commissure lies below the pineal stalk and the habenular commissure above it.\nPineal tumours compress the tectum here (Parinaud's syndrome) and the aqueduct."
     ]
    ]
   },
@@ -307,22 +307,22 @@
     [
      "The supraoptic and paraventricular nuclei produce vasopressin and oxytocin",
      1,
-     "Their magnocellular neurones produce ADH and oxytocin, transported down the hypothalamohypophysial tract to the posterior pituitary."
+     "The magnocellular neurons of the supraoptic and paraventricular nuclei produce vasopressin (ADH) and oxytocin. These are carried down their axons in the hypothalamohypophysial tract to the posterior pituitary.\nDamage to this tract causes diabetes insipidus."
     ],
     [
      "The suprachiasmatic nucleus receives direct retinal input",
      1,
-     "The retinohypothalamic tract to the suprachiasmatic nucleus regulates circadian rhythms."
+     "The suprachiasmatic nucleus receives direct retinal input through the retinohypothalamic tract and regulates circadian rhythms.\nIt sits just above the optic chiasma."
     ],
     [
      "The fornix ends mainly in the mammillary body",
      1,
-     "Most postcommissural fornix fibres end in the mammillary body."
+     "Most postcommissural fornix fibres end in the mammillary body.\nThe mammillary body then projects to the anterior thalamic nucleus through the mammillothalamic tract (Papez circuit)."
     ],
     [
      "Releasing hormones reach the anterior pituitary via the hypothalamohypophysial nerve tract",
      0,
-     "Releasing hormones from the arcuate (infundibular) and other nuclei reach the anterior lobe via the hypophysial portal veins, not by axons."
+     "Releasing hormones from the arcuate (infundibular) and other nuclei are carried to the anterior pituitary in the hypophysial portal veins, not by nerve fibres.\nThe hypothalamohypophysial nerve tract serves the posterior lobe. Anterior lobe = blood; posterior lobe = nerve."
     ]
    ]
   },
@@ -334,22 +334,22 @@
     [
      "The primary auditory cortex is in the transverse temporal gyri",
      1,
-     "Heschl's gyri (areas 41 and 42) on the upper surface of the superior temporal gyrus."
+     "The primary auditory cortex (areas 41 and 42) lies on the transverse temporal gyri (Heschl's gyri), on the upper surface of the superior temporal gyrus within the lateral sulcus.\nSurrounding it is the auditory association cortex, including Wernicke's area."
     ],
     [
      "The motor speech area of Broca lies in the inferior frontal gyrus of the dominant hemisphere",
      1,
-     "The pars opercularis and triangularis (areas 44 and 45)."
+     "Broca's motor speech area lies in the inferior frontal gyrus of the dominant (usually left) hemisphere: the pars opercularis and pars triangularis (areas 44 and 45).\nA lesion here causes an expressive (non-fluent) aphasia with preserved comprehension."
     ],
     [
      "The frontal eye field lies in the precentral gyrus",
      0,
-     "The frontal eye field (area 8) lies in the posterior part of the middle frontal gyrus, in front of the precentral gyrus."
+     "The frontal eye field (area 8) lies in the posterior part of the middle frontal gyrus, in front of the precentral gyrus.\nIt controls voluntary conjugate eye movements to the opposite side; an acute lesion deviates the eyes towards the side of the lesion."
     ],
     [
      "The primary visual cortex lies on the walls of the calcarine sulcus",
      1,
-     "Area 17, marked by the stria of Gennari."
+     "The primary visual cortex (area 17) lies on the walls of the calcarine sulcus on the medial surface of the occipital lobe. It is marked by the stria of Gennari.\nThe upper bank represents the lower visual field and vice versa."
     ]
    ]
   },
@@ -361,22 +361,22 @@
     [
      "The anterior commissure interconnects the temporal lobes and olfactory structures",
      1,
-     "It crosses in the lamina terminalis, linking olfactory regions and the middle and inferior temporal gyri."
+     "The anterior commissure crosses in the lamina terminalis and connects the olfactory regions and the middle and inferior temporal gyri of the two sides.\nIt is a small but distinct commissure seen in midline section."
     ],
     [
      "The forceps minor passes through the splenium of the corpus callosum",
      0,
-     "The forceps minor passes through the genu to the frontal lobes. The forceps major passes through the splenium to the occipital lobes."
+     "The forceps minor passes through the genu of the corpus callosum to the frontal lobes. The forceps major passes through the splenium to the occipital lobes.\n\"Major\" is posterior (splenium, occipital)."
     ],
     [
      "The posterior commissure carries fibres concerned with the consensual light reflex",
      1,
-     "Pretectal fibres to the contralateral Edinger-Westphal nucleus cross in the posterior commissure."
+     "Fibres from the pretectal nucleus to the contralateral Edinger–Westphal nucleus cross in the posterior commissure. They provide the consensual light reflex.\nThat is why light shone in one eye constricts both pupils."
     ],
     [
      "The anterior commissure crosses in the posterior wall of the third ventricle",
      0,
-     "The anterior commissure crosses in the lamina terminalis, in the anterior wall. The posterior and habenular commissures are in the posterior wall."
+     "The anterior commissure crosses in the lamina terminalis, in the anterior wall of the third ventricle. The posterior and habenular commissures lie in the posterior wall.\nSo the anterior commissure is anterior in name and position."
     ]
    ]
   },
@@ -388,22 +388,22 @@
     [
      "The oculomotor nerve passes between the posterior cerebral and superior cerebellar arteries",
      1,
-     "The nerve emerges between these two arteries close to the basilar bifurcation."
+     "III emerges into the interpeduncular fossa and passes forward between the posterior cerebral artery above and the superior cerebellar artery below, close to the basilar bifurcation.\nIV also passes between these two arteries, more laterally. Aneurysms or ectatic vessels here can compress either nerve."
     ],
     [
      "The anterior cerebral artery passes above the optic nerve",
      1,
-     "The A1 segment runs forward and medially above the optic nerve or chiasma to the longitudinal fissure."
+     "The A1 segment of the anterior cerebral artery runs forward and medially above the optic nerve or chiasma to reach the longitudinal fissure, where the anterior communicating artery joins the two sides.\nThe internal carotid artery lies lateral to the chiasma; the optic nerve lies below A1."
     ],
     [
      "The recurrent artery of Heubner usually arises from the middle cerebral artery",
      0,
-     "Heubner's artery arises from the anterior cerebral artery. Last's describes it as the largest medial striate branch, supplying the more posterior part of the capsule including the leg area (absent in 3%). Many neurosurgical texts emphasise the head of caudate and anterior limb, so know both."
+     "The recurrent artery of Heubner arises from the anterior cerebral artery, near the anterior communicating artery.\nLast's describes it as the largest medial striate branch, supplying the more posterior part of the capsule including the leg area. Neurosurgical texts emphasise its supply to the head of caudate and anterior limb, so know both descriptions."
     ],
     [
      "The posterior communicating artery is closely related to the oculomotor nerve",
      1,
-     "The oculomotor nerve runs alongside the posterior communicating artery. An aneurysm at its origin compresses the nerve, and the pupil is often affected first."
+     "III runs alongside the posterior communicating artery, below and lateral to it. An aneurysm at the PComm origin compresses the nerve, and the superficial pupillary fibres are often affected first.\nA \"surgical\" III palsy (painful, dilated pupil) points to compression; a pupil-sparing palsy suggests ischaemia (for example diabetes)."
     ]
    ]
   },
@@ -415,22 +415,22 @@
     [
      "Arises from the internal carotid artery",
      1,
-     "Last's: it arises from the termination of the ICA or its near neighbours (MCA or posterior communicating). It is the fourth artery to the cerebrum and does not supply cortex."
+     "Last's says the anterior choroidal artery arises from the termination of the internal carotid artery, or occasionally from its near neighbours (middle cerebral or posterior communicating). It is the fourth artery to the cerebrum and does not supply cortex.\nIt is small but clinically important because of its deep territory."
     ],
     [
      "Supplies the choroid plexus of the inferior horn of the lateral ventricle",
      1,
-     "It enters the choroid fissure to supply the inferior horn plexus."
+     "The anterior choroidal artery enters the choroid fissure at the tip of the inferior horn and supplies the choroid plexus there.\nThe posterior choroidal arteries (from the posterior cerebral) supply the plexus of the body and third ventricle."
     ],
     [
      "Supplies the optic tract and lateral geniculate body",
      1,
-     "Last's: it supplies the optic chiasma and tract, lateral geniculate body, choroid plexus (entering the choroid fissure at the tip of the inferior horn) and the posterior part of the internal capsule. Occlusion gives contralateral hemiplegia, hemianaesthesia and hemianopia."
+     "The anterior choroidal artery supplies the optic chiasma and tract, the lateral geniculate body, the choroid plexus and the posterior part of the internal capsule.\nOcclusion gives contralateral hemiplegia, hemianaesthesia and homonymous hemianopia."
     ],
     [
      "Supplies the head of the caudate nucleus",
      0,
-     "The head of the caudate is supplied mainly by the recurrent artery of Heubner and lateral striate arteries. The anterior choroidal supplies hippocampus, amygdala, posterior limb, optic tract and LGB."
+     "The head of the caudate nucleus is supplied mainly by the recurrent artery of Heubner and the lateral striate arteries.\nThe anterior choroidal supplies more posterior and medial structures: hippocampus, amygdala, posterior limb of the capsule, optic tract and lateral geniculate body."
     ]
    ]
   },
@@ -442,22 +442,22 @@
     [
      "Contralateral hemiplegia affecting the face and arm more than the leg",
      1,
-     "Cortical MCA territory includes the face and arm motor areas. The leg area is on the medial surface (ACA). Last's notes that occlusion of the stem, including the striate arteries, gives complete contralateral hemiplegia."
+     "The cortical branches of the middle cerebral artery supply the lateral surface of the hemisphere, including the face and arm areas of the motor cortex. The leg area lies on the medial surface in anterior cerebral territory. So face and arm are weaker than leg.\nOcclusion of the stem, including the striate arteries, gives a complete contralateral hemiplegia because the internal capsule is also infarcted."
     ],
     [
      "Contralateral sensory loss over the face and arm",
      1,
-     "The face and arm areas of the postcentral gyrus lie on the lateral surface in MCA territory."
+     "The face and arm areas of the postcentral gyrus lie on the lateral surface in MCA territory, so sensation over the contralateral face and arm is lost.\nLeg sensation, on the medial surface, is relatively spared."
     ],
     [
      "Aphasia if the dominant hemisphere is affected",
      1,
-     "Broca's and Wernicke's areas are both in MCA territory."
+     "Broca's area (inferior frontal gyrus) and Wernicke's area (posterior superior temporal gyrus) both lie in MCA territory. Dominant hemisphere occlusion causes aphasia.\nNon-dominant occlusion may instead cause neglect of the opposite side."
     ],
     [
      "Contralateral loss of sensation in the leg predominating",
      0,
-     "Leg sensory cortex is on the medial surface (paracentral lobule), supplied by the ACA."
+     "The leg area of the sensory cortex lies on the medial surface (paracentral lobule), supplied by the anterior cerebral artery. Leg sensory loss predominates in ACA occlusion, not MCA.\nACA occlusion: leg more than arm. MCA occlusion: face and arm more than leg."
     ]
    ]
   },
@@ -469,22 +469,22 @@
     [
      "The great cerebral vein is formed by the union of the two internal cerebral veins",
      1,
-     "They unite beneath the splenium to form the great cerebral vein (of Galen)."
+     "The two internal cerebral veins unite beneath the splenium of the corpus callosum to form the great cerebral vein (of Galen).\nThe great vein joins the inferior sagittal sinus to form the straight sinus."
     ],
     [
      "The internal cerebral vein is formed at the interventricular foramen by the thalamostriate and choroidal veins",
      1,
-     "The thalamostriate and choroidal veins (with septal veins) unite behind the column of the fornix."
+     "The internal cerebral vein is formed just behind the interventricular foramen (behind the column of the fornix) by the union of the thalamostriate and choroidal veins, with the septal vein.\nThe \"venous angle\" seen on angiography marks the interventricular foramen."
     ],
     [
      "The superior anastomotic vein connects the superficial middle cerebral vein with the transverse sinus",
      0,
-     "The superior anastomotic vein (Trolard) drains to the superior sagittal sinus. The inferior anastomotic vein (Labbe) drains to the transverse sinus."
+     "The superior anastomotic vein (Trolard) connects the superficial middle cerebral vein with the superior sagittal sinus. The inferior anastomotic vein (Labbé) connects it with the transverse sinus.\nLabbé is at risk in temporal lobe retraction."
     ],
     [
      "Cerebral veins have no valves",
      1,
-     "The cerebral veins and dural sinuses are valveless."
+     "The cerebral veins and dural venous sinuses have no valves.\nSo blood can flow in either direction, which allows infection to spread from the face (via the ophthalmic veins) into the cavernous sinus."
     ]
    ]
   },
@@ -496,22 +496,22 @@
     [
      "In the adult it usually ends at the level of the L1/L2 intervertebral disc",
      1,
-     "The conus medullaris usually ends at L1/2. At birth it ends at L3."
+     "In the adult the conus medullaris usually ends at the level of the L1/L2 intervertebral disc. At birth it ends at about L3.\nSo lumbar puncture is done below L2 in adults (usually L3/4 or L4/5)."
     ],
     [
      "The denticulate ligaments are attached between the anterior and posterior nerve roots",
      1,
-     "The pia mater forms about 21 pairs of denticulate ligaments, attached to the dura between the roots."
+     "The pia mater forms about 21 pairs of denticulate ligaments, attached laterally to the dura between the anterior and posterior nerve roots.\nThey anchor the cord within the dural sac and are a landmark in cord surgery."
     ],
     [
      "The filum terminale is attached to the back of the first coccygeal segment",
      1,
-     "The filum pierces the dural sac at S2 and attaches to the dorsum of the coccyx."
+     "The filum terminale pierces the dural sac at about S2 and attaches to the back of the first coccygeal segment.\nIt is a continuation of the pia; a thickened, tethering filum causes tethered cord syndrome."
     ],
     [
      "The lateral grey horn is present from C1 to C8",
      0,
-     "Last's: a lateral horn of preganglionic sympathetic cells is present from T1 to L2, and a similar small lateral horn of parasympathetic cells lies in S2 to S4."
+     "Last's describes a lateral horn of preganglionic sympathetic cells from T1 to L2, and a small lateral horn of parasympathetic cells in S2 to S4. There is no lateral horn in the cervical cord.\nSo sympathetic outflow is thoracolumbar and parasympathetic outflow is craniosacral."
     ]
    ]
   },
@@ -523,22 +523,22 @@
     [
      "The fasciculus cuneatus is present only above about the T6 segment",
      1,
-     "The fasciculus cuneatus carries upper limb and upper trunk fibres, entering above about T6."
+     "The fasciculus cuneatus carries fibres from the upper limb and upper trunk, which enter above about the sixth thoracic segment. Below that level only the fasciculus gracilis is present.\nIn the cervical cord the posterior column therefore has two parts, separated by a septum."
     ],
     [
      "In the posterior columns, sacral fibres lie most medially",
      1,
-     "Fibres are added laterally as they ascend, so sacral fibres lie most medially in the fasciculus gracilis."
+     "In the posterior columns, fibres entering at each level are added on the lateral side, so sacral fibres lie most medially and cervical fibres most laterally.\nIn the lateral corticospinal tract the arrangement is reversed: sacral fibres lie most laterally."
     ],
     [
      "Spinothalamic fibres cross in the posterior white commissure",
      0,
-     "They cross in front of the central canal (anterior white commissure). Last's: crossing is transverse in the lowest cord but increasingly oblique higher up, taking 4 to 5 segments in the cervical region."
+     "Spinothalamic fibres cross in front of the central canal, in the anterior white commissure.\nLast's notes the crossing is transverse in the lowest cord but increasingly oblique higher up, taking 4 or 5 segments in the cervical region. So a cord lesion's sensory level may lie a few segments below it."
     ],
     [
      "The dorsal spinocerebellar tract arises from the nucleus dorsalis (Clarke's column)",
      1,
-     "Last's: the thoracic nucleus (Clarke's column, lamina VII) occupies all the thoracic and first two lumbar segments (T1 to L2). Cervical proprioception reaches the cerebellum by the accessory cuneate nucleus and cuneocerebellar tract instead."
+     "The dorsal spinocerebellar tract arises from the thoracic nucleus (Clarke's column, lamina VII), which occupies T1 to L2.\nCervical proprioception reaches the cerebellum instead through the accessory cuneate nucleus and the cuneocerebellar tract."
     ]
    ]
   },
@@ -550,22 +550,22 @@
     [
      "Ipsilateral upper motor neurone paralysis",
      1,
-     "The lateral corticospinal tract has already crossed in the medulla."
+     "The lateral corticospinal tract has already crossed in the medulla, so a hemisection causes ipsilateral upper motor neurone paralysis below the lesion.\nLower motor neurone signs occur only at the level of the lesion, from damage to anterior horn cells."
     ],
     [
      "Contralateral loss of proprioception",
      0,
-     "The dorsal columns are uncrossed in the cord, so proprioception and vibration loss are ipsilateral."
+     "The dorsal columns ascend uncrossed in the cord and cross in the medulla. Proprioception and vibration are lost ipsilaterally below a hemisection.\nContralateral loss of proprioception would need a lesion above the medullary decussation (for example the medial lemniscus)."
     ],
     [
      "Ipsilateral loss of pain and temperature below the lesion",
      0,
-     "Pain and temperature loss is contralateral, because the anterolateral tract has already crossed."
+     "The lateral spinothalamic tract carries fibres that crossed within a few segments of entering. A hemisection causes contralateral loss of pain and temperature, beginning a segment or two below the lesion.\nIpsilateral pain loss occurs only in a narrow band at the level of the lesion."
     ],
     [
      "Bilateral complete loss of light touch",
      0,
-     "Light touch is partly carried in both dorsal columns and anterior spinothalamic tracts, so it is usually relatively preserved."
+     "Light touch is carried in both the dorsal columns (ipsilateral) and the anterior spinothalamic tract (contralateral), so it is usually relatively preserved after a hemisection.\nComplete bilateral touch loss implies a complete transection."
     ]
    ]
   },
@@ -577,22 +577,22 @@
     [
      "About 85 percent of corticospinal fibres decussate in the lower medulla",
      1,
-     "Most fibres cross in the pyramidal decussation. The rest descend uncrossed as the anterior corticospinal tract."
+     "About 85 percent of corticospinal fibres decussate in the lower medulla (pyramidal decussation) and descend as the lateral corticospinal tract.\nThe rest descend uncrossed as the anterior corticospinal tract, mostly crossing at segmental level."
     ],
     [
      "Fibres for the lower limb lie most laterally in the tract",
      1,
-     "In the lateral corticospinal tract, cervical fibres are medial and sacral fibres lateral."
+     "In the lateral corticospinal tract cervical fibres lie medially and sacral (lower limb) fibres laterally.\nThat is why a laterally expanding extramedullary lesion tends to affect the legs first."
     ],
     [
      "It lies anterior to the lateral spinothalamic tract",
      0,
-     "The lateral corticospinal tract lies in the posterior part of the lateral funiculus, in front of the posterior horn. The spinothalamic tract lies anterolaterally."
+     "The lateral corticospinal tract lies in the posterior part of the lateral funiculus, in front of the posterior horn. The lateral spinothalamic tract lies anterior to it, in the anterolateral cord.\nIn anterolateral cordotomy the cut is placed in front of the denticulate ligament to avoid the corticospinal tract."
     ],
     [
      "Many fibres arise from cells in the postcentral gyrus",
      1,
-     "Only about a third of corticospinal fibres arise from area 4. Others come from premotor and parietal cortex, including the postcentral gyrus."
+     "Only about a third of corticospinal fibres arise from the primary motor cortex (area 4). Others come from the premotor cortex and the parietal lobe, including the postcentral gyrus.\nThe parietal fibres end mainly in sensory relay nuclei of the dorsal horn, modulating sensation."
     ]
    ]
   },
@@ -604,22 +604,22 @@
     [
      "The anterior spinal artery is formed by branches of both vertebral arteries",
      1,
-     "A branch from each vertebral artery unites in front of the medulla to form the single anterior spinal artery."
+     "A branch from each vertebral artery unites with its fellow in front of the medulla to form the single anterior spinal artery.\nIt is reinforced along the cord by segmental radicular (medullary) arteries."
     ],
     [
      "The anterior spinal artery supplies about the anterior two-thirds of the cord",
      1,
-     "Last's: it supplies the whole cord anterior to the posterior grey columns. Anterior spinal artery syndrome spares the posterior columns, and pial vessels may spare the superficial sacral fibres (sacral sparing)."
+     "The anterior spinal artery supplies the whole cord in front of the posterior grey columns, about the anterior two-thirds.\nAnterior spinal artery syndrome causes paralysis and loss of pain and temperature below the lesion but spares the posterior columns; pial anastomoses may spare superficial sacral fibres (sacral sparing)."
     ],
     [
      "The arteria radicularis magna (of Adamkiewicz) usually enters on the right side",
      0,
-     "Last's: it is slightly commoner on the left and at T10 or T11, but may be anywhere from T7 to L4, so it cannot be relied on to accompany a low thoracic root."
+     "Last's says the arteria radicularis magna is slightly commoner on the left, usually at T10 or T11, but may enter anywhere from T7 to L4.\nSo it cannot be relied on to be on the right or at any fixed root. Its interruption (for example in aortic surgery) can infarct the lower cord."
     ],
     [
      "The posterior spinal arteries usually arise from the posterior inferior cerebellar arteries or vertebral arteries",
      1,
-     "Last's: each arises from PICA or the vertebral artery at the foramen magnum, is usually double, and runs through and behind the posterior rootlets. Each supplies the posterior grey and white columns of its own side."
+     "Each posterior spinal artery arises from the posterior inferior cerebellar artery or the vertebral artery at the foramen magnum. It is usually double, running through and behind the posterior rootlets, and supplies the posterior grey and white columns of its own side.\nPosterior spinal artery occlusion is rarer because of the rich anastomoses."
     ]
    ]
   },
@@ -631,22 +631,22 @@
     [
      "Contralateral loss of pain and temperature sensation in the face",
      0,
-     "Facial loss is ipsilateral, because the spinal tract and nucleus of V are uncrossed. Body loss is contralateral, from the crossed spinothalamic tract."
+     "In the lateral medullary syndrome facial pain and temperature loss is ipsilateral, because the spinal tract and nucleus of V carry uncrossed fibres. Body loss is contralateral, from the crossed spinothalamic tract.\nThis crossed pattern (ipsilateral face, contralateral body) is the hallmark of the syndrome."
     ],
     [
      "Ipsilateral paralysis of the tongue",
      0,
-     "The hypoglossal nucleus and nerve are medial. Tongue paralysis belongs to the medial medullary syndrome."
+     "The hypoglossal nucleus and nerve lie medially, supplied by the anterior spinal or vertebral artery branches. Tongue paralysis belongs to the medial medullary syndrome.\nThe lateral medulla does not contain XII fibres."
     ],
     [
      "Contralateral hemiplegia",
      0,
-     "The pyramid is medial (anterior spinal artery territory), so hemiplegia is not a feature."
+     "The pyramid is medial, in anterior spinal artery territory, so hemiplegia is not part of the lateral medullary syndrome.\nHemiplegia with ipsilateral tongue weakness points to the medial medullary syndrome."
     ],
     [
      "Ipsilateral paralysis of the palate, pharynx and vocal cord",
      1,
-     "Involvement of the nucleus ambiguus causes dysphagia and dysphonia. Ipsilateral Horner's, vertigo, nystagmus and ataxia also occur."
+     "Involvement of the nucleus ambiguus paralyses the ipsilateral palate, pharynx and vocal cord, causing dysphagia and dysphonia.\nOther features: ipsilateral Horner's syndrome, vertigo and nystagmus (vestibular nuclei) and ipsilateral ataxia (inferior cerebellar peduncle)."
     ]
    ]
   },
@@ -658,22 +658,22 @@
     [
      "The tongue deviates towards the side of the lesion on protrusion",
      1,
-     "Ipsilateral hypoglossal paralysis: the intact genioglossus pushes the tongue toward the paralysed side."
+     "The hypoglossal nucleus or fibres are damaged on the side of the lesion. The intact genioglossus of the other side pushes the tongue towards the paralysed side when protruded.\nThis is a lower motor neurone pattern, with wasting later."
     ],
     [
      "There is contralateral hemiplegia",
      1,
-     "The pyramid is involved above the decussation."
+     "The pyramid is damaged above the decussation, causing contralateral hemiplegia.\nThe face is spared, since the corticonuclear fibres to the facial nucleus have already left at a higher level."
     ],
     [
      "There is contralateral loss of touch and proprioception",
      1,
-     "The medial lemniscus is involved after it has crossed."
+     "The medial lemniscus is damaged after its fibres have crossed (in the lower medulla), causing contralateral loss of touch, vibration and proprioception.\nPain and temperature are spared, as the spinothalamic tract lies laterally."
     ],
     [
      "There is ipsilateral loss of pain and temperature on the face",
      0,
-     "That is a feature of the lateral medullary syndrome (spinal tract of V)."
+     "Ipsilateral loss of facial pain and temperature comes from the spinal tract of V, which lies laterally. It is a feature of the lateral medullary syndrome.\nThe medial syndrome is the triad: ipsilateral tongue, contralateral hemiplegia, contralateral dorsal column loss."
     ]
    ]
   },
@@ -685,22 +685,22 @@
     [
      "The hypoglossal nerve emerges between the pyramid and the olive",
      1,
-     "Its rootlets emerge in the preolivary (anterolateral) sulcus."
+     "The hypoglossal rootlets emerge in the preolivary (anterolateral) sulcus between the pyramid and the olive.\nThis is in line with the anterior roots of the spinal nerves (both somatic motor)."
     ],
     [
      "The abducent nerve emerges at the junction of the pons and pyramid",
      1,
-     "It emerges at the lower border of the pons, above the pyramid."
+     "VI emerges at the lower border of the pons, at the junction with the pyramid, close to the midline.\nVII and VIII emerge more laterally at the same pontomedullary junction."
     ],
     [
      "The trochlear nerve emerges from the ventral surface of the midbrain",
      0,
-     "The trochlear is the only cranial nerve to emerge from the dorsal surface, just below the inferior colliculus. It then crosses in the superior medullary velum."
+     "IV is the only cranial nerve to emerge from the dorsal surface of the brainstem, just below the inferior colliculus. Its fibres cross in the superior medullary velum.\nIII is the nerve that emerges ventrally from the midbrain, into the interpeduncular fossa."
     ],
     [
      "The glossopharyngeal, vagus and cranial accessory nerves emerge posterior to the olive",
      1,
-     "They emerge in the postolivary sulcus, between the olive and the inferior cerebellar peduncle."
+     "IX, X and the cranial accessory rootlets emerge in the postolivary sulcus, between the olive and the inferior cerebellar peduncle.\nThis line is in series with the posterior (dorsal) root line of the cord."
     ]
    ]
   },
@@ -712,22 +712,22 @@
     [
      "The facial colliculus overlies the abducent nucleus",
      1,
-     "The colliculus is formed by facial motor fibres looping (internal genu) around the abducent nucleus."
+     "The facial colliculus is a bulge produced by the abducent nucleus, with the facial motor fibres looping around it (the internal genu).\nA lesion here combines ipsilateral lower motor neurone facial palsy with a gaze palsy."
     ],
     [
      "The area postrema lies outside the blood-brain barrier",
      1,
-     "It is a circumventricular organ concerned with vomiting."
+     "The area postrema, at the lower end of the floor, is a circumventricular organ lying outside the blood–brain barrier. It acts as a chemoreceptor trigger zone for vomiting.\nOther circumventricular organs include the median eminence and the subfornical organ."
     ],
     [
      "The vagal trigone overlies the dorsal motor nucleus of the vagus",
      1,
-     "The hypoglossal trigone lies medially, the vagal trigone laterally."
+     "The vagal trigone overlies the dorsal motor nucleus of the vagus. The hypoglossal trigone lies medial to it, and the vestibular area lateral.\nMedial to lateral in the lower floor: hypoglossal, vagal, vestibular."
     ],
     [
      "The striae medullares cross the floor at the level of the pontomedullary junction",
      1,
-     "Last's: the medullary striae cross the floor at its widest part, between the pontine and medullary parts. They are aberrant fibres from pontine nuclei passing to the cerebellum by the inferior peduncle."
+     "Last's describes the medullary striae crossing the floor at its widest part, between the pontine and medullary parts. They are aberrant fibres from pontine (arcuate) nuclei passing to the cerebellum through the inferior peduncle.\nThey are a useful landmark dividing the floor into upper and lower halves."
     ]
    ]
   },
@@ -739,22 +739,22 @@
     [
      "Oculomotor nucleus",
      1,
-     "The oculomotor complex lies in front of the aqueduct at this level."
+     "At the level of the superior colliculus, the oculomotor nuclear complex lies in front of the aqueduct in the periaqueductal grey.\nThe Edinger–Westphal part lies dorsal and rostral to the somatic part."
     ],
     [
      "Red nucleus",
      1,
-     "The red nucleus lies in the tegmentum at the superior colliculus level and is traversed by the oculomotor fibres."
+     "The red nucleus lies in the tegmentum at the level of the superior colliculus. Oculomotor fibres pass through it on their way to the interpeduncular fossa.\nIt receives dentatorubral fibres after their decussation and gives the rubrospinal tract."
     ],
     [
      "Trochlear nucleus",
      0,
-     "The trochlear nucleus is at the level of the inferior colliculus."
+     "The trochlear nucleus is at the level of the inferior colliculus, below the oculomotor nucleus.\nSuperior colliculus = III; inferior colliculus = IV."
     ],
     [
      "Decussation of the superior cerebellar peduncles",
      0,
-     "This is at the level of the inferior colliculus."
+     "The decussation of the superior cerebellar peduncles lies in the caudal midbrain at the level of the inferior colliculus.\nAt the superior colliculus level the crossed fibres have reached and surround the red nucleus."
     ]
    ]
   },
@@ -766,22 +766,22 @@
     [
      "A lesion of the optic chiasma typically causes bitemporal hemianopia",
      1,
-     "Crossing nasal fibres serve the temporal fields."
+     "At the chiasma the nasal fibres of each retina cross. Nasal retina sees the temporal visual field, so a chiasmal lesion (classically a pituitary tumour) causes bitemporal hemianopia.\nUncrossed temporal fibres, serving the nasal fields, run at the lateral edges of the chiasma and are spared."
     ],
     [
      "Fibres of Meyer's loop serving the contralateral upper quadrant pass through the temporal lobe",
      1,
-     "Inferior retinal fibres loop around the inferior horn. A temporal lesion produces a contralateral superior quadrantanopia."
+     "Fibres from the lower half of the retina (serving the upper visual field) loop forward around the tip of the inferior horn in the temporal lobe (Meyer's loop). A temporal lobe lesion therefore causes a contralateral superior quadrantanopia (\"pie in the sky\").\nParietal lesions affect the upper fibres of the radiation, giving an inferior quadrantanopia."
     ],
     [
      "The pupillary light reflex is relayed through the lateral geniculate body",
      0,
-     "Light reflex fibres leave the optic tract before the LGB to reach the pretectal nuclei."
+     "Light reflex fibres leave the optic tract before it reaches the lateral geniculate body and pass through the brachium of the superior colliculus to the pretectal nuclei.\nThat is why a lesion of the lateral geniculate body or optic radiation causes field loss with normal pupillary reflexes."
     ],
     [
      "A lesion of the optic tract produces contralateral homonymous hemianopia",
      1,
-     "Each tract carries fibres from the ipsilateral temporal and contralateral nasal retina."
+     "Each optic tract carries fibres from the ipsilateral temporal retina and the contralateral nasal retina, which together see the contralateral half of the visual field. A tract lesion causes contralateral homonymous hemianopia.\nTract lesions can also affect the pupil (relative afferent defect), unlike lesions behind the lateral geniculate body."
     ]
    ]
   },
@@ -793,22 +793,22 @@
     [
      "The amygdala lies in the temporal lobe in front of the tip of the inferior horn",
      1,
-     "The amygdaloid body lies deep to the uncus, anterior to the inferior horn tip."
+     "The amygdaloid body (amygdala) lies in the temporal lobe deep to the uncus, just in front of the tip of the inferior horn of the lateral ventricle.\nIt is part of the limbic system, concerned with emotion and fear."
     ],
     [
      "The stria terminalis runs from the amygdala alongside the thalamostriate vein",
      1,
-     "The stria terminalis runs in the groove between caudate and thalamus with the thalamostriate vein, to the septal area and hypothalamus."
+     "The stria terminalis runs from the amygdala around the lateral ventricle in the groove between the caudate nucleus and the thalamus, alongside the thalamostriate vein, to the septal area and hypothalamus.\nIt is the main efferent pathway of the amygdala."
     ],
     [
      "The hippocampus forms the floor of the inferior horn of the lateral ventricle",
      1,
-     "It forms the floor (medial part) of the inferior horn."
+     "The hippocampus forms the floor (medial part) of the inferior horn of the lateral ventricle.\nThe tail of the caudate lies in the roof."
     ],
     [
      "The mammillothalamic tract projects to the medial dorsal nucleus of the thalamus",
      0,
-     "It projects to the anterior thalamic nucleus."
+     "The mammillothalamic tract projects to the anterior thalamic nucleus, which in turn projects to the cingulate gyrus (Papez circuit).\nThe mediodorsal nucleus connects mainly with the prefrontal cortex and amygdala."
     ]
    ]
   },
@@ -820,22 +820,22 @@
     [
      "The pontine cistern contains the vertebral arteries",
      0,
-     "Last's: the pontine cistern contains the basilar artery and nerves V to XII. The vertebral arteries and PICA lie in the lateral part of the cisterna magna."
+     "Last's says the pontine cistern contains the basilar artery and nerves V to XII. The vertebral arteries and the posterior inferior cerebellar arteries lie in the lateral part of the cisterna magna.\nThe vertebral arteries join to form the basilar at the lower border of the pons."
     ],
     [
      "The interpeduncular cistern contains the anterior communicating artery",
      0,
-     "The anterior communicating artery lies in the chiasmatic cistern. The interpeduncular cistern holds the posterior circle, the pituitary stalk and nerves III and IV."
+     "The anterior communicating artery lies in the chiasmatic cistern (cistern of the lamina terminalis), in front of the chiasma. The interpeduncular cistern contains the posterior part of the circle of Willis, the pituitary stalk and nerves III and IV.\nThe front of the circle is in front of the chiasma."
     ],
     [
      "The cisterna magna receives CSF from the lateral apertures",
      0,
-     "It receives CSF from the median aperture. The lateral apertures open into the pontine cistern."
+     "The cisterna magna (cerebellomedullary cistern) receives CSF through the median aperture of the fourth ventricle. The lateral apertures open into the pontine cistern.\nMedian = cisterna magna; lateral = pontine cistern."
     ],
     [
      "The cerebellomedullary cistern can be entered by a needle passed through the posterior atlanto-occipital membrane",
      1,
-     "Cisternal puncture, in the midline, through the membrane and spinal dura."
+     "A needle passed in the midline above the posterior arch of the atlas, through the posterior atlanto-occipital membrane and spinal dura, enters the cerebellomedullary cistern (cisternal puncture).\nThe medulla lies only a few centimetres deeper, so the depth of insertion is critical."
     ]
    ]
   },
@@ -847,22 +847,22 @@
     [
      "The mesencephalic nucleus contains the cell bodies of primary proprioceptive neurones",
      1,
-     "Unusually, these are primary sensory neurones lying within the CNS, carrying proprioception from the muscles of mastication and periodontal ligaments."
+     "Unusually, the mesencephalic nucleus contains the cell bodies of primary sensory neurons, lying within the CNS. They carry proprioception from the muscles of mastication and the periodontal ligaments.\nEvery other primary sensory cell body is in a ganglion outside the CNS."
     ],
     [
      "The spinal nucleus extends down into the upper cervical cord",
      1,
-     "It extends to about C2 or C3, continuous with the substantia gelatinosa."
+     "The spinal trigeminal nucleus extends down into the upper cervical cord, to about C2 or C3, where it is continuous with the substantia gelatinosa.\nThis overlap explains why upper cervical lesions or pain can be felt in the face."
     ],
     [
      "Pain and temperature from the face relay in the principal (chief) sensory nucleus",
      0,
-     "Pain and temperature relay in the spinal nucleus (pars caudalis). The principal nucleus serves discriminative touch."
+     "Pain and temperature from the face relay in the spinal nucleus (pars caudalis). The principal (chief) sensory nucleus serves discriminative touch.\nMesencephalic = proprioception; principal = touch; spinal = pain and temperature."
     ],
     [
      "The motor nucleus lies in the pons medial to the principal sensory nucleus",
      1,
-     "The motor nucleus lies medial to the principal sensory nucleus in the mid pons."
+     "The trigeminal motor nucleus lies in the mid pons, medial to the principal sensory nucleus.\nIt supplies the muscles of mastication, the two tensors, mylohyoid and the anterior belly of digastric."
     ]
    ]
   },
@@ -874,22 +874,22 @@
     [
      "Stylopharyngeus via the glossopharyngeal nerve",
      1,
-     "The cranial-most part of the nucleus ambiguus supplies stylopharyngeus via IX."
+     "The cranial-most part of the nucleus ambiguus supplies stylopharyngeus via IX.\nIt is the only muscle supplied by IX."
     ],
     [
      "Intrinsic muscles of the larynx via the vagus",
      1,
-     "The intrinsic laryngeal muscles are supplied via the recurrent and external laryngeal nerves."
+     "The intrinsic muscles of the larynx are supplied from the nucleus ambiguus via the vagus, through the recurrent and external laryngeal nerves.\nLast's places the laryngeal neurons in the lowest part of the nucleus."
     ],
     [
      "Muscles of the soft palate except tensor veli palatini",
      1,
-     "Via the pharyngeal plexus (vagus and cranial accessory)."
+     "The palatal muscles (except tensor veli palatini) are supplied from the nucleus ambiguus through the pharyngeal plexus (X with the cranial accessory).\nTensor veli palatini is supplied by V3, from the trigeminal motor nucleus."
     ],
     [
      "Striated muscle of the upper oesophagus via the vagus",
      1,
-     "Last's: the upper part of the nucleus serves the palate, the middle part the pharynx and oesophagus, the lowest part the larynx."
+     "The striated muscle of the upper oesophagus is supplied from the nucleus ambiguus via the vagus.\nLast's arrangement: upper part of the nucleus serves the palate, middle part the pharynx and oesophagus, lowest part the larynx. The lower oesophagus (smooth muscle) is supplied from the dorsal motor nucleus."
     ]
    ]
   },
@@ -901,22 +901,22 @@
     [
      "Taste fibres from the anterior two-thirds of the tongue via the facial nerve",
      1,
-     "Taste via chorda tympani, cell bodies in the geniculate ganglion."
+     "Taste from the anterior two-thirds of the tongue travels in the chorda tympani (VII), with cell bodies in the geniculate ganglion, to the nucleus of the tractus solitarius.\nTaste ends in the rostral (gustatory) part of the nucleus."
     ],
     [
      "Taste fibres from the posterior third of the tongue via the glossopharyngeal nerve",
      1,
-     "Cell bodies in the inferior ganglion of IX."
+     "Taste from the posterior third of the tongue travels in IX, with cell bodies in its inferior ganglion, to the nucleus of the tractus solitarius.\nSo all taste, from VII, IX and X, ends in the same nucleus."
     ],
     [
      "Visceral afferents from the carotid sinus via the glossopharyngeal nerve",
      1,
-     "Baroreceptor and chemoreceptor input via the carotid sinus nerve."
+     "Baroreceptor (carotid sinus) and chemoreceptor (carotid body) afferents travel in the carotid sinus nerve of IX to the nucleus of the tractus solitarius.\nThis is the afferent limb of the baroreceptor reflex."
     ],
     [
      "Visceral afferents from the thoracic and abdominal viscera via the vagus",
      1,
-     "General visceral afferents from the vagus end in the caudal part of the nucleus."
+     "General visceral afferents from the thoracic and abdominal viscera travel in the vagus to the caudal part of the nucleus of the tractus solitarius.\nIt is the main visceral sensory nucleus of the brainstem. Somatic sensation, by contrast, goes to the trigeminal nuclei."
     ]
    ]
   },
@@ -928,22 +928,22 @@
     [
      "In the central nervous system, myelin is formed by oligodendrocytes",
      1,
-     "One oligodendrocyte myelinates segments of many axons."
+     "In the CNS myelin is formed by oligodendrocytes. One oligodendrocyte myelinates segments of many axons.\nThat is one reason CNS axons regenerate poorly: oligodendrocytes do not form guiding tubes as Schwann cells do."
     ],
     [
      "In peripheral nerves, myelin is formed by satellite cells",
      0,
-     "Peripheral myelin is formed by Schwann cells (neurolemmocytes). Satellite cells surround neurones in ganglia."
+     "Peripheral myelin is formed by Schwann cells (neurolemmocytes). Satellite cells surround the neuron cell bodies in ganglia.\nA Schwann cell myelinates a single internode of a single axon."
     ],
     [
      "The corticospinal tracts are fully myelinated at birth",
      0,
-     "Corticospinal tracts are not fully myelinated at birth. Myelination continues during the first two years, which explains the extensor plantar response in infancy."
+     "The corticospinal tracts are not fully myelinated at birth. Myelination continues during the first two years.\nThat is why an extensor plantar response is normal in infancy."
     ],
     [
      "Microglia are the phagocytic cells of the CNS",
      1,
-     "Microglia are of mesodermal (monocyte) origin and act as CNS macrophages."
+     "Microglia are the phagocytic cells of the CNS. They are of mesodermal (monocyte) origin, unlike the other glia, which come from neuroectoderm.\nThey act as resident macrophages, clearing debris after injury."
     ]
    ]
   },
@@ -955,22 +955,22 @@
     [
      "The pineal gland frequently calcifies in adults",
      1,
-     "Last's: corpora amylacea calcify, and after about 40 years they normally cast a shadow on skull radiographs. A displaced pineal indicates a supratentorial mass."
+     "Last's notes that corpora amylacea in the pineal calcify and, after about 40 years, normally cast a shadow on skull radiographs.\nA pineal shadow shifted from the midline indicates a supratentorial mass pushing it across."
     ],
     [
      "The habenular nuclei receive fibres through the stria medullaris thalami",
      1,
-     "The stria medullaris thalami carries fibres from the septal area to the habenula."
+     "The stria medullaris thalami carries fibres from the septal area (and other limbic regions) to the habenular nuclei.\nIt runs along the junction of the roof and medial wall of the third ventricle."
     ],
     [
      "The habenulointerpeduncular tract (fasciculus retroflexus) projects to the interpeduncular nucleus",
      1,
-     "It projects from the habenula to the interpeduncular nucleus of the midbrain."
+     "The habenulointerpeduncular tract (fasciculus retroflexus) runs from the habenula to the interpeduncular nucleus of the midbrain.\nIt links the limbic forebrain with midbrain centres."
     ],
     [
      "The pineal gland lies above the posterior commissure and below the splenium",
      1,
-     "The pineal lies in the posterior wall of the third ventricle, below the splenium, with the posterior commissure in its lower lamina."
+     "The pineal gland lies in the posterior wall of the third ventricle, below the splenium of the corpus callosum, with the posterior commissure in the lower lamina of its stalk.\nThe habenular commissure lies in the upper lamina. Pineal tumours compress the tectum and aqueduct."
     ]
    ]
   }

@@ -10,22 +10,22 @@
     [
      "Its fibres pass through the red nucleus before emerging into the interpeduncular fossa",
      1,
-     "Fibres run ventrally through the tegmentum and red nucleus, emerging on the medial side of the cerebral peduncle."
+     "The oculomotor nucleus lies in the periaqueductal grey at the level of the superior colliculus. Its fibres run ventrally through the tegmentum, passing through (and medial to) the red nucleus, and emerge on the medial side of the cerebral peduncle into the interpeduncular fossa.\nThis is why a midbrain lesion through the red nucleus (Benedikt's syndrome) combines a III palsy with contralateral tremor or ataxia. Do not confuse with IV, the only nerve to emerge dorsally."
     ],
     [
      "Parasympathetic fibres reach the ciliary ganglion via the nerve to inferior oblique",
      1,
-     "Preganglionic fibres from the Edinger-Westphal nucleus leave the inferior division in the branch to inferior oblique."
+     "Preganglionic fibres from the Edinger–Westphal nucleus travel in III, then in its inferior division, and leave it in the branch to inferior oblique (the motor root of the ciliary ganglion). They synapse in the ciliary ganglion; short ciliary nerves carry postganglionic fibres to sphincter pupillae and ciliaris.\nNot via the nasociliary nerve: that gives the sensory root, which passes through the ganglion without synapse."
     ],
     [
      "It passes through the superior orbital fissure outside the common tendinous ring",
      0,
-     "Both divisions pass within the tendinous ring."
+     "Both divisions of III enter the orbit through the superior orbital fissure inside the common tendinous ring, together with the nasociliary nerve and VI.\nThe structures that pass outside (above) the ring are lacrimal, frontal and trochlear nerves (and the superior ophthalmic vein). A useful memory: everything that supplies the recti and the eye itself goes through the ring."
     ],
     [
      "Pupillary fibres lie superficially in the nerve, so compression often dilates the pupil early",
      1,
-     "Last's: pupillary fibres lie on the outer part of the nerve (first dorsal, then medial, then inferior). They are supplied by vessels of the nerve sheath, so they are affected by external pressure (PComm aneurysm) but spared by infarction of the trunk (diabetes)."
+     "The pupillary (parasympathetic) fibres lie on the outer part of the nerve (dorsal, then medial, then inferior) and are supplied by vessels of the nerve sheath. External compression (posterior communicating aneurysm, uncal herniation) therefore affects them early and dilates the pupil.\nBy contrast, ischaemic infarction of the core of the trunk (diabetic III palsy) typically spares the pupil, because the superficial fibres keep their sheath blood supply."
     ]
    ]
   },
@@ -37,22 +37,22 @@
     [
      "Loss of the corneal reflex on the right",
      0,
-     "The corneal reflex depends on V1 (afferent) and VII (efferent), not III."
+     "The corneal reflex has its afferent limb in V1 (nasociliary, long ciliary nerves) and its efferent limb in VII (orbicularis oculi). III plays no part, so the blink is preserved in a complete III palsy.\nDo not confuse \"eye closure\" with \"eye opening\": III raises the lid (levator), VII closes it (orbicularis oculi)."
     ],
     [
      "Ptosis of the right upper eyelid",
      1,
-     "Levator palpebrae superioris is paralysed. The superior tarsal muscle (sympathetic) partially compensates."
+     "Levator palpebrae superioris is supplied by the superior division of III, so a complete palsy causes marked ptosis.\nThe ptosis is not quite complete because the superior tarsal muscle (Müller's), supplied by sympathetic fibres, is intact. In Horner's syndrome the ptosis is only partial for the opposite reason: levator is intact and only the tarsal muscle is lost."
     ],
     [
      "Paralysis of the right lateral rectus",
      0,
-     "Lateral rectus is supplied by VI. Unopposed lateral rectus and superior oblique leave the eye down and out."
+     "Lateral rectus is supplied by VI and is spared. Its unopposed action, together with superior oblique (IV), leaves the eye abducted and depressed: \"down and out\".\nA lateral rectus palsy (VI) would instead leave the eye adducted, with diplopia on looking to the affected side."
     ],
     [
      "A dilated right pupil unreactive to light",
      1,
-     "Loss of sphincter pupillae, with unopposed sympathetic dilator."
+     "Parasympathetic fibres to sphincter pupillae run in III, so the pupil is dilated (unopposed sympathetic dilator pupillae) and does not constrict to light directly or consensually on that side.\nThe left eye's consensual response to light shone on the right is preserved, because the afferent limb (II) is intact. Accommodation is also lost (ciliaris)."
     ]
    ]
   },
@@ -64,22 +64,22 @@
     [
      "Decussates in the superior medullary velum before emerging",
      1,
-     "All its fibres cross dorsal to the aqueduct, so each nucleus supplies the contralateral superior oblique."
+     "All trochlear fibres cross dorsal to the aqueduct in the superior medullary velum before the nerve emerges just below the inferior colliculus. Each nucleus therefore supplies the contralateral superior oblique.\nA nuclear or fascicular lesion before the decussation causes a contralateral superior oblique palsy; a lesion of the emerged nerve causes an ipsilateral palsy."
     ],
     [
      "Has the longest intracranial course of any cranial nerve",
      1,
-     "Its long, slender course around the midbrain makes it vulnerable in head injury."
+     "IV is the thinnest cranial nerve and has the longest intracranial course, winding around the midbrain from its dorsal emergence, along the free edge of the tentorium, into the lateral wall of the cavernous sinus.\nThis long slender course makes it prone to stretch in closed head injury and at the tentorial edge. It is also the only nerve to emerge from the dorsum of the brainstem."
     ],
     [
      "Enters the orbit through the superior orbital fissure within the tendinous ring",
      0,
-     "It passes above (outside) the ring, medial to the frontal nerve, and supplies superior oblique from above."
+     "IV enters the orbit through the superior orbital fissure above (outside) the common tendinous ring, medial to the frontal nerve, and enters the upper surface of superior oblique.\nStructures within the ring are the two divisions of III, nasociliary and VI. Because IV lies outside the ring, a retrobulbar block within the cone often leaves superior oblique working."
     ],
     [
      "When paralysed causes diplopia worst on looking down and medially",
      1,
-     "Superior oblique is the principal depressor of the adducted eye. Patients have trouble reading and descending stairs and tilt the head to the opposite side."
+     "Superior oblique is the main depressor of the adducted eye (it also intorts and abducts). Its paralysis gives vertical diplopia worst on looking down and in, as when reading or going downstairs.\nPatients tilt the head away from the affected side to compensate for loss of intorsion. A lateral rectus palsy (VI) instead gives horizontal diplopia worst on looking to the affected side."
     ]
    ]
   },
@@ -91,22 +91,22 @@
     [
      "Its nucleus lies deep to the facial colliculus in the pons",
      1,
-     "The facial nerve fibres loop over it to form the colliculus."
+     "The abducent nucleus lies in the floor of the fourth ventricle in the lower pons. Fibres of the facial nerve loop around it (the internal genu), raising the facial colliculus.\nSo a small lesion here usually damages both VI (or the gaze centre) and the looping VII fibres, giving an ipsilateral lower motor neurone facial palsy with the eye signs."
     ],
     [
      "It passes beneath the petrosphenoidal ligament over the apex of the petrous temporal bone",
      1,
-     "It runs through Dorello's canal, where it is vulnerable to raised intracranial pressure and petrous apex infection."
+     "VI runs up the clivus and passes over the apex of the petrous temporal bone beneath the petrosphenoidal (Gruber's) ligament in Dorello's canal. Here it is fixed and bent sharply.\nThat is why VI is the nerve most often affected as a \"false localising sign\" with raised intracranial pressure, and by petrous apex infection (Gradenigo's syndrome: VI palsy, retro-orbital pain, otorrhoea)."
     ],
     [
      "It runs within the cavernous sinus lateral to the internal carotid artery",
      1,
-     "Last's: it enters the back of the sinus from the inferior petrosal sinus beneath the petroclinoid ligament, runs lateral to and then below the ICA, and enters the tendinous ring below the inferior division of III."
+     "Unlike III, IV, V1 and V2, which lie in the lateral wall, VI runs within the cavernous sinus itself, lateral to the internal carotid artery. It then enters the orbit through the tendinous ring.\nBeing free within the sinus, VI is usually the first nerve affected by a cavernous carotid aneurysm or a carotid–cavernous fistula."
     ],
     [
      "A lesion of its nucleus causes isolated paralysis of lateral rectus",
      0,
-     "A nuclear lesion causes a horizontal gaze palsy to the side of the lesion, because the nucleus contains interneurones projecting via the MLF to the contralateral medial rectus subnucleus. A nuclear lesion often also involves the looping facial fibres."
+     "The abducent nucleus contains both motor neurones to lateral rectus and internuclear neurones that cross and ascend in the contralateral MLF to the medial rectus subnucleus of III. A nuclear lesion therefore causes a horizontal gaze palsy towards the side of the lesion.\nIsolated lateral rectus paralysis comes from a lesion of the nerve, not the nucleus. A nuclear lesion often also catches the looping facial fibres."
     ]
    ]
   },
@@ -118,22 +118,22 @@
     [
      "Long ciliary nerves",
      1,
-     "Long ciliary nerves carry sensation from the cornea, and sympathetic fibres to dilator pupillae."
+     "The nasociliary nerve gives two long ciliary nerves, which carry sensation from the cornea and iris and carry sympathetic fibres to dilator pupillae. They are the afferent limb of the corneal reflex.\nDo not confuse with the short ciliary nerves, which come from the ciliary ganglion and carry parasympathetic fibres (to sphincter pupillae and ciliaris) plus sensory and sympathetic fibres that pass through without synapse."
     ],
     [
      "Posterior ethmoidal nerve",
      1,
-     "It supplies the sphenoidal and posterior ethmoidal sinuses."
+     "The nasociliary nerve gives the posterior ethmoidal nerve, which passes through the posterior ethmoidal foramen to supply the sphenoidal sinus and posterior ethmoidal air cells.\nIts other branches are the communicating branch to the ciliary ganglion, the long ciliary nerves, the infratrochlear nerve and the anterior ethmoidal nerve (whose terminal part is the external nasal nerve)."
     ],
     [
      "Supratrochlear nerve",
      0,
-     "The supratrochlear is a branch of the frontal nerve. The nasociliary gives the infratrochlear."
+     "The supratrochlear nerve is a branch of the frontal nerve (with the supraorbital nerve), supplying the medial upper eyelid and forehead.\nThe nasociliary nerve gives the similarly named infratrochlear nerve, which supplies the medial canthus, lacrimal sac and side of the nose. \"Supra\" comes from frontal, \"infra\" from nasociliary."
     ],
     [
      "External nasal nerve, the terminal part of the anterior ethmoidal",
      1,
-     "The external nasal nerve supplies the skin of the nasal tip. Herpes zoster here (Hutchinson's sign) predicts eye involvement."
+     "The anterior ethmoidal nerve passes through the anterior cranial fossa and nasal cavity and ends as the external nasal nerve, emerging between nasal bone and lateral nasal cartilage to supply the skin of the nasal tip.\nHerpes zoster vesicles on the nasal tip (Hutchinson's sign) mean the nasociliary nerve is involved, which predicts ocular involvement because the same nerve supplies the cornea."
     ]
    ]
   },
@@ -145,22 +145,22 @@
     [
      "It lies in the lateral wall of the cavernous sinus below the ophthalmic nerve",
      1,
-     "It runs in the lowest part of the lateral wall before leaving through foramen rotundum."
+     "In the cavernous sinus the maxillary nerve lies lowest in the lateral wall, below V1 (with III and IV above). It leaves the middle cranial fossa through foramen rotundum to reach the pterygopalatine fossa.\nThe order from above down in the lateral wall is III, IV, V1, V2. VI is not in the wall: it lies free in the sinus lateral to the internal carotid artery."
     ],
     [
      "The posterior superior alveolar nerve arises in the pterygopalatine fossa",
      1,
-     "It descends on the posterior surface of the maxilla to supply the molar teeth and sinus."
+     "The posterior superior alveolar nerve arises from V2 in the pterygopalatine fossa, passes through the pterygomaxillary fissure and runs down the posterior (infratemporal) surface of the maxilla. It supplies the upper molar teeth, gums and maxillary sinus.\nThe middle and anterior superior alveolar nerves arise later, from the infraorbital nerve within the infraorbital canal."
     ],
     [
      "The nasopalatine nerve supplies the mucosa behind the upper incisors",
      1,
-     "Via the incisive canal, communicating with the greater palatine nerve."
+     "The nasopalatine nerve is a V2 branch that passes through the pterygopalatine ganglion without synapse, runs down and forward on the nasal septum, and passes through the incisive canal to supply the palatal mucosa behind the upper incisors.\nThe rest of the hard palate is supplied by the greater palatine nerve, which communicates with it. The soft palate is supplied by the lesser palatine nerves."
     ],
     [
      "The infraorbital nerve supplies the skin of the upper eyelid",
      0,
-     "The infraorbital nerve supplies the lower eyelid, side of the nose, cheek and upper lip. The upper eyelid is supplied by V1."
+     "The infraorbital nerve supplies the lower eyelid, side of the nose, cheek and upper lip.\nThe upper eyelid is supplied by V1 (supraorbital, supratrochlear, lacrimal and infratrochlear branches). The dividing line is the palpebral fissure."
     ]
    ]
   },
@@ -172,22 +172,22 @@
     [
      "The nerve to medial pterygoid supplies tensor tympani and tensor veli palatini",
      1,
-     "Fibres pass through the otic ganglion without synapse."
+     "The nerve to medial pterygoid arises from the main trunk of V3 and gives fibres that pass through the otic ganglion without synapse to supply tensor tympani and tensor veli palatini.\nSo all three muscles derived from the first arch that are supplied by this nerve (medial pterygoid and the two tensors) share one motor branch. Do not confuse with the anterior division, which supplies the other masticatory muscles."
     ],
     [
      "The anterior division is mainly motor but gives one sensory branch, the buccal nerve",
      1,
-     "The buccal nerve passes between the heads of lateral pterygoid and supplies the cheek skin and mucosa. Buccinator itself is supplied by VII."
+     "The anterior division of V3 is mainly motor (masseter, temporalis, lateral pterygoid) and gives one sensory branch, the buccal nerve. It passes between the two heads of lateral pterygoid to supply the skin and mucosa of the cheek.\nBuccinator itself is supplied by the buccal branch of VII; the buccal nerve of V3 is purely sensory."
     ],
     [
      "The auriculotemporal nerve usually splits around the middle meningeal artery",
      1,
-     "Its two roots encircle the middle meningeal artery."
+     "The auriculotemporal nerve arises from the posterior division of V3 by two roots that encircle the middle meningeal artery and then join.\nIt passes back behind the condyle of the mandible and carries postganglionic parasympathetic fibres (from the otic ganglion) to the parotid. Do not confuse with the chorda tympani, which joins the lingual nerve."
     ],
     [
      "The mylohyoid nerve is a branch of the lingual nerve",
      0,
-     "The nerve to mylohyoid arises from the inferior alveolar nerve just before it enters the mandibular foramen. It supplies mylohyoid and the anterior belly of digastric."
+     "The nerve to mylohyoid arises from the inferior alveolar nerve just before that nerve enters the mandibular foramen. It runs in the mylohyoid groove to supply mylohyoid and the anterior belly of digastric.\nThe lingual nerve gives no motor branches; it is sensory to the tongue and carries chorda tympani fibres. The posterior belly of digastric is supplied by VII."
     ]
    ]
   },
@@ -199,22 +199,22 @@
     [
      "Carries secretomotor fibres to the parotid gland",
      0,
-     "Parotid fibres travel IX, lesser petrosal, otic ganglion, auriculotemporal. The lingual nerve carries chorda fibres for the submandibular ganglion."
+     "Secretomotor fibres to the parotid run in IX (tympanic branch), the lesser petrosal nerve, synapse in the otic ganglion and reach the gland via the auriculotemporal nerve.\nThe lingual nerve carries chorda tympani (VII) preganglionic fibres to the submandibular ganglion, for the submandibular and sublingual glands. Parotid = IX; submandibular and sublingual = VII."
     ],
     [
      "Is joined by the chorda tympani about 2 cm below the skull base",
      1,
-     "Last's: just above the lower border of the lateral pterygoid."
+     "The chorda tympani joins the lingual nerve from behind about 2 cm below the skull base, just above the lower border of lateral pterygoid.\nIt brings taste fibres for the anterior two-thirds of the tongue and preganglionic secretomotor fibres for the submandibular ganglion. Above this point the lingual nerve is purely V3 general sensation."
     ],
     [
      "Supplies taste to the posterior third of the tongue",
      0,
-     "The posterior third (including the vallate papillae) is supplied by IX. The lingual nerve carries chorda tympani taste fibres to the anterior two-thirds."
+     "The posterior third of the tongue, including the vallate papillae, is supplied for both taste and general sensation by IX.\nThe lingual nerve supplies general sensation to the anterior two-thirds and carries the chorda tympani taste fibres for that part. The epiglottic region is supplied by the internal laryngeal branch of X."
     ],
     [
      "Lies in contact with the periosteum below and behind the third molar",
      1,
-     "It may groove the bone here, at risk in third molar surgery."
+     "As it descends, the lingual nerve lies directly on the periosteum of the medial surface of the mandible just below and behind the third molar, where it may groove the bone.\nIt is therefore at risk in third molar extraction and lingual flap surgery, giving numbness and loss of taste over the anterior tongue."
     ]
    ]
   },
@@ -226,22 +226,22 @@
     [
      "The labyrinthine segment is the narrowest part of the facial canal",
      1,
-     "This is relevant to oedema in Bell's palsy."
+     "The labyrinthine segment, from the internal acoustic meatus to the geniculate ganglion, is the narrowest part of the facial canal.\nThe nerve almost fills the canal here, so oedema (as in Bell's palsy) compresses it most at this point. The tympanic and mastoid segments are wider."
     ],
     [
      "The geniculate ganglion contains the cell bodies of taste fibres",
      1,
-     "Pseudounipolar cell bodies for taste (anterior two-thirds of tongue and palate) are in the geniculate ganglion."
+     "The geniculate ganglion contains pseudounipolar sensory cell bodies, including those for taste from the anterior two-thirds of the tongue (via chorda tympani) and the palate (via greater petrosal).\nIt contains no synapses for the parasympathetic fibres. These pass through to relay in the pterygopalatine and submandibular ganglia."
     ],
     [
      "The nerve to stapedius arises in the tympanic (horizontal) segment",
      0,
-     "The nerve to stapedius arises from the mastoid (vertical) segment in the posterior wall."
+     "The nerve to stapedius arises from the mastoid (vertical, descending) segment in the posterior wall of the middle ear.\nThe tympanic (horizontal) segment gives no branches. The branches of the intrapetrous facial nerve in order are: greater petrosal (at the geniculate ganglion), nerve to stapedius, then chorda tympani (both from the mastoid segment)."
     ],
     [
      "The chorda tympani leaves the skull through the petrotympanic fissure",
      1,
-     "After crossing the tympanic membrane medial to the handle of malleus, it exits through the petrotympanic fissure."
+     "The chorda tympani arises from the mastoid segment, enters the middle ear, crosses the tympanic membrane medial to the handle of the malleus, and leaves through the petrotympanic fissure to join the lingual nerve.\nDo not confuse with the greater petrosal nerve, which leaves the petrous bone through its own hiatus on the anterior surface into the middle cranial fossa."
     ]
    ]
   },
@@ -253,22 +253,22 @@
     [
      "Ipsilateral paralysis of the muscles of facial expression",
      1,
-     "The lesion is proximal to all motor branches to facial muscles."
+     "All motor branches to the muscles of facial expression arise after the nerve leaves the stylomastoid foramen, so a lesion anywhere in the canal paralyses the whole ipsilateral face (lower motor neurone pattern, forehead included).\nA supranuclear (upper motor neurone) lesion would instead spare the forehead."
     ],
     [
      "Loss of lacrimation on the affected side",
      0,
-     "The greater petrosal nerve arises at the geniculate ganglion, proximal to the lesion, so lacrimation is preserved."
+     "The greater petrosal nerve leaves at the geniculate ganglion, proximal to this lesion, so its fibres to the pterygopalatine ganglion and lacrimal gland are intact and tear production is normal.\nLacrimation is lost only with a lesion at or proximal to the geniculate ganglion. Testing tears is a classic way to localise a facial nerve lesion."
     ],
     [
      "Normal hearing with no hyperacusis",
      0,
-     "The lesion is proximal to the nerve to stapedius, so stapedius is paralysed and hyperacusis results."
+     "The lesion is proximal to the nerve to stapedius, so stapedius is paralysed. Sounds seem abnormally loud (hyperacusis) because stapedius can no longer damp the stapes.\nHearing as such is not lost, because VIII is not involved. A lesion distal to the nerve to stapedius would spare it."
     ],
     [
      "Normal taste over the anterior two-thirds of the tongue",
      0,
-     "The chorda tympani arises distal to the nerve to stapedius, so taste is lost."
+     "The chorda tympani arises distal to the nerve to stapedius, so it is also cut off and taste over the anterior two-thirds of the tongue is lost on that side.\nTaste would be spared only by a lesion distal to the origin of the chorda tympani (for example at the stylomastoid foramen)."
     ]
    ]
   },
@@ -280,22 +280,22 @@
     [
      "It gives branches to the posterior belly of digastric and to stylohyoid",
      1,
-     "These arise just after it exits the stylomastoid foramen, together with the posterior auricular nerve."
+     "Just after leaving the stylomastoid foramen the facial nerve gives the posterior auricular nerve and branches to the posterior belly of digastric and to stylohyoid.\nThese second-arch muscles are supplied by VII. The anterior belly of digastric is first arch and is supplied by V3 (nerve to mylohyoid)."
     ],
     [
      "In the parotid it lies superficial to the retromandibular vein",
      1,
-     "From superficial to deep: facial nerve, retromandibular vein, external carotid artery."
+     "Within the parotid the structures lie, from superficial to deep, as facial nerve, retromandibular vein, external carotid artery.\nThe nerve and its plexus divide the gland into \"superficial\" and \"deep\" parts surgically; the vein is a useful landmark deep to it in parotidectomy."
     ],
     [
      "The marginal mandibular branch may loop below the lower border of the mandible",
      1,
-     "It may run up to 2 cm below the mandible behind the facial artery, which matters for submandibular incisions."
+     "The marginal mandibular branch may run up to 2 cm below the lower border of the mandible, behind the facial artery, before turning up across it.\nThis matters for submandibular incisions, which are placed well below the mandible to avoid weakness of depressor anguli oris (a crooked smile)."
     ],
     [
      "It supplies the buccinator through the buccal branch of the mandibular nerve",
      0,
-     "Buccinator is supplied by the buccal branch of the facial nerve. The buccal branch of V3 is sensory."
+     "Buccinator is a muscle of facial expression supplied by the buccal branch of the facial nerve.\nThe buccal nerve from V3 shares the name but is purely sensory to the cheek skin and mucosa; it pierces buccinator without supplying it."
     ]
    ]
   },
@@ -307,22 +307,22 @@
     [
      "The forehead is relatively spared",
      1,
-     "The part of the facial nucleus supplying the upper face receives bilateral corticonuclear input."
+     "The part of the facial nucleus supplying the upper face (frontalis, upper orbicularis oculi) receives corticonuclear fibres from both hemispheres. A unilateral upper motor neurone lesion therefore leaves the forehead moving.\nForehead sparing is the key sign that separates an upper motor neurone lesion from a lower motor neurone (Bell's type) palsy, where the whole face is weak."
     ],
     [
      "The lower face on the side opposite the lesion is paralysed",
      1,
-     "The lower facial nucleus receives mainly crossed input."
+     "The part of the nucleus supplying the lower face receives mainly crossed input. A capsular lesion therefore weakens the lower face on the side opposite the lesion.\nThe face is weak on the same side as the hemiparesis, because both corticonuclear and corticospinal fibres cross."
     ],
     [
      "Emotional facial movement may be preserved",
      1,
-     "Emotional (limbic) pathways to the facial nucleus are separate from the voluntary corticonuclear pathway."
+     "Emotional (mimetic) facial movement is driven by limbic and extrapyramidal pathways separate from the voluntary corticonuclear fibres, so a spontaneous smile may be symmetrical despite voluntary weakness.\nThe reverse dissociation (voluntary movement preserved, emotional lost) occurs with some thalamic or frontal lesions."
     ],
     [
      "Taste is lost on the anterior two-thirds of the tongue",
      0,
-     "Taste is unaffected by an upper motor neurone lesion of the corticonuclear pathway."
+     "Taste fibres are sensory and run in the chorda tympani to the nucleus of the tractus solitarius. They are not part of the corticonuclear motor pathway, so a capsular infarct does not abolish taste.\nTaste is lost with lesions of the facial nerve proximal to the chorda tympani, not with upper motor neurone lesions."
     ]
    ]
   },
@@ -334,22 +334,22 @@
     [
      "It supplies only one muscle, stylopharyngeus",
      1,
-     "It is the nerve of the third arch."
+     "IX is the nerve of the third pharyngeal arch, and stylopharyngeus is the only muscle derived from that arch and the only muscle IX supplies.\nThe other pharyngeal and palatal muscles are supplied by X via the pharyngeal plexus (except tensor veli palatini, by V3)."
     ],
     [
      "It provides general and taste sensation to the posterior third of the tongue including the vallate papillae",
      1,
-     "The vallate papillae lie in front of the sulcus terminalis but are supplied by IX."
+     "IX gives both general sensation and taste to the posterior third of the tongue, including the vallate papillae, even though these lie just in front of the sulcus terminalis.\nThe anterior two-thirds is supplied by the lingual nerve (general) and chorda tympani (taste); the region near the epiglottis by the internal laryngeal nerve (X)."
     ],
     [
      "Its tympanic branch carries preganglionic parasympathetic fibres destined for the parotid gland",
      1,
-     "Tympanic branch (Jacobson's), tympanic plexus, lesser petrosal, otic ganglion, auriculotemporal."
+     "The tympanic branch (Jacobson's nerve) enters the middle ear, forms the tympanic plexus on the promontory, and continues as the lesser petrosal nerve to the otic ganglion. Postganglionic fibres reach the parotid via the auriculotemporal nerve.\nThis is the parotid pathway; the chorda tympani (VII) supplies the submandibular and sublingual glands instead."
     ],
     [
      "It passes between the internal jugular vein and internal carotid artery deep to the styloid process to reach the tongue",
      0,
-     "It passes forward between the internal and external carotid arteries, winding around the lateral side of stylopharyngeus, to enter the pharynx between the superior and middle constrictors."
+     "After leaving the jugular foramen IX passes forward between the internal and external carotid arteries, winds around the lateral side of stylopharyngeus, and enters the pharynx between the superior and middle constrictors to reach the tongue.\nLying between the internal jugular vein and internal carotid artery is the course of X (in the carotid sheath) and of XII early in the neck, not IX."
     ]
    ]
   },
@@ -361,22 +361,22 @@
     [
      "The internal laryngeal nerve pierces the thyrohyoid membrane",
      1,
-     "It pierces the membrane with the superior laryngeal artery and supplies mucosa above the vocal folds."
+     "The internal laryngeal nerve pierces the thyrohyoid membrane with the superior laryngeal artery. It is sensory (and secretomotor) to the mucosa above the vocal folds, including the piriform fossa.\nIt is the afferent limb of the cough reflex above the cords; a foreign body in the piriform fossa can damage it."
     ],
     [
      "The external laryngeal nerve supplies cricothyroid and is closely related to the superior thyroid artery",
      1,
-     "It is at risk when ligating the superior thyroid pedicle, so the artery is ligated close to the gland."
+     "The external laryngeal nerve supplies cricothyroid (and part of the inferior constrictor) and runs with the superior thyroid artery towards the upper pole of the thyroid.\nIt is at risk when the superior thyroid pedicle is ligated, so the artery is tied close to the gland. Damage lowers voice pitch and power, because cricothyroid tenses the cords."
     ],
     [
      "The left recurrent laryngeal nerve hooks under the left subclavian artery",
      0,
-     "The right nerve hooks under the right subclavian artery. The left hooks under the arch of the aorta beside the ligamentum arteriosum, a sixth-arch derivative."
+     "The left recurrent laryngeal nerve hooks under the arch of the aorta, beside the ligamentum arteriosum, a sixth-arch derivative.\nIt is the right nerve that hooks under the right subclavian artery, because the right sixth-arch artery disappears. The longer left nerve is more often involved in thoracic disease (aortic aneurysm, lung cancer)."
     ],
     [
      "The recurrent laryngeal nerve supplies sensation below the vocal folds",
      1,
-     "Mucosa below the folds is supplied by the recurrent laryngeal nerve."
+     "The recurrent laryngeal nerve supplies sensation to the laryngeal mucosa below the vocal folds, and all the intrinsic laryngeal muscles except cricothyroid.\nAbove the folds sensation is from the internal laryngeal nerve. The vocal folds themselves mark the dividing line."
     ]
    ]
   },
@@ -388,22 +388,22 @@
     [
      "Palatoglossus",
      1,
-     "Palatoglossus is the only tongue muscle not supplied by the hypoglossal nerve."
+     "Palatoglossus is supplied by the pharyngeal branch of X through the pharyngeal plexus. It is the only \"glossus\" muscle not supplied by XII, because it is really a palatal muscle.\nRemember the pattern: all palatal muscles are X except tensor veli palatini (V3); all tongue muscles are XII except palatoglossus (X)."
     ],
     [
      "Tensor veli palatini",
      0,
-     "Tensor veli palatini is supplied by the mandibular nerve (nerve to medial pterygoid)."
+     "Tensor veli palatini is supplied by V3, via the nerve to medial pterygoid, with fibres passing through the otic ganglion without synapse.\nIt is a first-arch muscle, like tensor tympani. Every other palatal muscle (levator veli palatini, palatoglossus, palatopharyngeus, musculus uvulae) is supplied by the pharyngeal plexus (X)."
     ],
     [
      "Styloglossus",
      0,
-     "Styloglossus is supplied by the hypoglossal nerve."
+     "Styloglossus is an extrinsic tongue muscle supplied by XII.\nThe vagus supplies palatoglossus but not the other extrinsic tongue muscles (genioglossus, hyoglossus, styloglossus), all of which are XII."
     ],
     [
      "Stylopharyngeus",
      0,
-     "Stylopharyngeus is supplied by IX."
+     "Stylopharyngeus is supplied by IX, the only muscle that nerve supplies (third arch).\nAll the other pharyngeal muscles (the constrictors, palatopharyngeus, salpingopharyngeus) are supplied by X through the pharyngeal plexus. Stylopharyngeus is the classic exception."
     ]
    ]
   },
@@ -415,22 +415,22 @@
     [
      "It lies in the carotid sheath posterior to and between the internal jugular vein and carotid artery",
      1,
-     "It lies posteriorly in the groove between vein and artery."
+     "In the carotid sheath the vagus lies posteriorly, in the groove between the internal jugular vein (lateral) and the internal and then common carotid artery (medial).\nThe ansa cervicalis lies on or in the front of the sheath, and the sympathetic trunk lies behind it, outside the sheath, on the prevertebral fascia."
     ],
     [
      "Its auricular branch supplies part of the external acoustic meatus",
      1,
-     "Arnold's nerve supplies the posterior wall of the meatus and the tympanic membrane. Stimulation may provoke coughing."
+     "The auricular branch (Arnold's nerve) supplies the skin of the posterior wall of the external acoustic meatus and the outer surface of the tympanic membrane.\nThat is why syringing or touching the meatus can provoke coughing or even vomiting or syncope (vagal reflexes). The rest of the meatus and the drum are supplied by the auriculotemporal nerve (V3)."
     ],
     [
      "The right vagus passes anterior to the root of the right lung",
      0,
-     "Both vagi pass behind the lung roots, forming the posterior pulmonary plexuses. The phrenic nerves pass in front."
+     "Both vagi pass behind the roots of the lungs, contributing to the posterior pulmonary plexuses, then go on to the oesophageal plexus.\nIt is the phrenic nerves that pass in front of the lung roots. \"Phrenic in front, vagus behind\" is the rule for the hilum on both sides."
     ],
     [
      "The left vagus crosses the arch of the aorta deep to the left phrenic nerve",
      1,
-     "On the arch the phrenic nerve is anterior, the vagus posterior, with the left superior intercostal vein crossing between them."
+     "On the left side of the aortic arch the left phrenic nerve lies anterior and the left vagus lies posterior (deep), with the left superior intercostal vein crossing the arch between them. The vagus then gives the left recurrent laryngeal nerve, which hooks under the arch.\nOn the right, the vagus lies on the trachea and passes behind the right lung root."
     ]
    ]
   },
@@ -442,22 +442,22 @@
     [
      "Arises from the anterior grey horn cells of the upper five cervical segments",
      1,
-     "The spinal nucleus extends from C1 to about C5."
+     "The spinal accessory nucleus is a column of anterior horn cells in the upper five (C1 to about C5) cervical segments. Its rootlets emerge between the anterior and posterior roots and ascend through the foramen magnum.\nThe cranial root (from the nucleus ambiguus) is really part of the vagus and joins it outside the skull."
     ],
     [
      "Leaves the skull through the jugular foramen",
      1,
-     "It shares the dural sheath of the vagus."
+     "The spinal accessory nerve enters the skull through the foramen magnum and leaves through the jugular foramen, in the same dural sheath as the vagus.\nThe jugular foramen also transmits IX (in front, in its own sheath), the internal jugular vein (behind) and the inferior petrosal sinus. A jugular foramen lesion (Vernet's syndrome) affects IX, X and XI together."
     ],
     [
      "Crosses the posterior triangle deep to the prevertebral fascia",
      0,
-     "It crosses the posterior triangle superficially, embedded in or just deep to the investing layer of deep fascia, on levator scapulae. This explains its vulnerability to superficial surgery."
+     "XI crosses the posterior triangle superficially, embedded in or just deep to the investing layer of deep cervical fascia that forms the roof, lying on levator scapulae.\nThe prevertebral fascia forms the floor of the triangle and covers the brachial plexus and phrenic nerve. Because XI is so superficial, it is easily cut in lymph node biopsy, causing trapezius weakness and shoulder drop."
     ],
     [
      "Supplies sternocleidomastoid and then emerges about halfway down its posterior border",
      1,
-     "Last's: it passes into SCM (between cleidomastoid and the rest of the muscle), emerges halfway down the posterior border, then crosses levator scapulae within the fascia of the roof of the posterior triangle. The lesser occipital nerve hooks around it."
+     "XI enters the deep surface of sternocleidomastoid, supplies it, and emerges about halfway down its posterior border. It then crosses the posterior triangle to trapezius.\nThe lesser occipital nerve hooks around XI at the posterior border, a useful landmark (Erb's point lies just below). Trapezius also gets proprioceptive fibres from C3 and C4."
     ]
    ]
   },
@@ -469,22 +469,22 @@
     [
      "Hooks around the occipital artery as it descends",
      1,
-     "It winds forward around the origin of the sternocleidomastoid branch of the occipital artery."
+     "As XII descends from the hypoglossal canal it hooks forward around the origin of the sternocleidomastoid branch of the occipital artery.\nIt then runs forward above the greater horn of the hyoid towards the tongue. This hook is a landmark for finding the nerve in carotid surgery."
     ],
     [
      "Crosses lateral to the internal and external carotid arteries and the loop of the lingual artery",
      1,
-     "It crosses all three superficially."
+     "XII crosses superficially (lateral) to the internal carotid, external carotid and the loop of the lingual artery as it runs forward.\nIt is at risk in carotid endarterectomy, especially with a high bifurcation. The structures it crosses all lie deep to it."
     ],
     [
      "Lies on the lateral surface of hyoglossus below the submandibular duct",
      1,
-     "On hyoglossus, from above down: lingual nerve, submandibular duct, hypoglossal nerve. The lingual artery lies deep to hyoglossus."
+     "On the lateral surface of hyoglossus the order from above down is lingual nerve, submandibular duct, hypoglossal nerve (with its venae comitantes).\nThe lingual artery runs deep to hyoglossus, which separates it from XII. The lingual nerve loops around the duct here: lateral, then below, then medial."
     ],
     [
      "Carries fibres of C1 that form the superior root of the ansa cervicalis and supply thyrohyoid and geniohyoid",
      1,
-     "These C1 fibres hitch-hike on XII. They do not belong to the hypoglossal nucleus."
+     "C1 fibres join XII near the skull base and travel with it. Some leave as the superior root of the ansa cervicalis (descendens hypoglossi); others leave as the nerves to thyrohyoid and geniohyoid.\nThese fibres are not from the hypoglossal nucleus. XII itself supplies only tongue muscles. The inferior root of the ansa is C2 and C3."
     ]
    ]
   },
@@ -496,22 +496,22 @@
     [
      "The protruded tongue deviates to the right",
      1,
-     "The left genioglossus is unopposed and pushes the tongue toward the paralysed side."
+     "Each genioglossus protrudes the tongue towards the opposite side. With the right paralysed, the left genioglossus is unopposed and pushes the tip towards the weak right side.\nThe tongue points to the side of a lower motor neurone lesion. An upper motor neurone lesion (corticonuclear) causes much milder deviation, usually towards the side of the hemiplegia."
     ],
     [
      "The right side of the tongue becomes wasted and fasciculates",
      1,
-     "Lower motor neurone signs."
+     "A lower motor neurone lesion denervates the right half of the tongue, which wastes, wrinkles and shows fasciculation.\nThese signs (wasting, fasciculation, flaccidity) distinguish lower motor neurone lesions (nucleus or nerve) from upper motor neurone lesions, where the tongue is not wasted."
     ],
     [
      "Taste over the right anterior two-thirds is lost",
      0,
-     "XII is purely motor (to the tongue). Taste is via VII and IX."
+     "XII is purely motor to the tongue muscles. Taste over the anterior two-thirds travels in the chorda tympani (VII), and over the posterior third in IX.\nGeneral sensation is also unaffected: anterior two-thirds via the lingual nerve (V3), posterior third via IX."
     ],
     [
      "Palatoglossus is paralysed",
      0,
-     "Palatoglossus is supplied by the pharyngeal plexus (vagus)."
+     "Palatoglossus is supplied by the vagus through the pharyngeal plexus, so it is spared in a XII lesion.\nPalatoglossus is the only extrinsic tongue muscle not supplied by XII."
     ]
    ]
   },
@@ -523,22 +523,22 @@
     [
      "The otic ganglion receives preganglionic fibres from the inferior salivary nucleus",
      1,
-     "Via IX, the tympanic branch and the lesser petrosal nerve."
+     "Preganglionic fibres from the inferior salivary nucleus run in IX, its tympanic branch, the tympanic plexus and the lesser petrosal nerve to synapse in the otic ganglion. Postganglionic fibres reach the parotid via the auriculotemporal nerve.\nThe superior salivary nucleus (VII) instead supplies the pterygopalatine and submandibular ganglia."
     ],
     [
      "The pterygopalatine ganglion receives preganglionic fibres via the greater petrosal nerve",
      1,
-     "From the superior salivary nucleus via the nervus intermedius and greater petrosal nerve, then the nerve of the pterygoid canal."
+     "Preganglionic fibres from the superior salivary (lacrimatory) nucleus run in the nervus intermedius and greater petrosal nerve, which joins the deep petrosal nerve to form the nerve of the pterygoid canal, reaching the ganglion.\nThese fibres drive lacrimal, nasal, palatal and pharyngeal glands. Do not confuse with the lesser petrosal (IX, to the otic ganglion)."
     ],
     [
      "The submandibular ganglion sends postganglionic fibres to the parotid gland",
      0,
-     "It supplies the submandibular and sublingual glands."
+     "The submandibular ganglion receives chorda tympani fibres via the lingual nerve and sends postganglionic fibres to the submandibular and sublingual glands.\nThe parotid is supplied from the otic ganglion via the auriculotemporal nerve (the IX pathway)."
     ],
     [
      "Sympathetic fibres synapse in the ciliary ganglion",
      0,
-     "Sympathetic and sensory fibres pass through without synapse. Only parasympathetic fibres synapse."
+     "Only parasympathetic fibres (from III via the Edinger–Westphal nucleus) synapse in the ciliary ganglion. Sympathetic fibres from the internal carotid plexus, which have already synapsed in the superior cervical ganglion, pass through without synapse, as do sensory fibres from nasociliary.\nThe same applies to all four cranial parasympathetic ganglia: only parasympathetic fibres relay there."
     ]
    ]
   },
@@ -550,22 +550,22 @@
     [
      "It lies just below the foramen ovale, medial to the mandibular nerve",
      1,
-     "It lies on the medial side of the mandibular nerve, lateral to tensor veli palatini."
+     "The otic ganglion lies in the infratemporal fossa just below the foramen ovale, on the medial side of the mandibular nerve and lateral to tensor veli palatini.\nThe ganglion is closely attached to the nerve to medial pterygoid, which passes through it."
     ],
     [
      "Its sympathetic root comes from the plexus on the middle meningeal artery",
      1,
-     "Postganglionic sympathetic fibres from the superior cervical ganglion."
+     "Postganglionic sympathetic fibres from the superior cervical ganglion reach the otic ganglion from the plexus around the middle meningeal artery and pass through it without synapse.\nThey join the parasympathetic fibres to the parotid (vasomotor). Each cranial ganglion gets its sympathetic root from the nearest arterial plexus."
     ],
     [
      "Its sensory root is from the auriculotemporal nerve",
      1,
-     "Its secretomotor fibres leave via the auriculotemporal nerve."
+     "The auriculotemporal nerve provides the sensory connection of the otic ganglion, and the same nerve carries its postganglionic secretomotor fibres onward to the parotid.\nSensory fibres pass through the ganglion without synapse, as in all the cranial parasympathetic ganglia."
     ],
     [
      "It has a motor root from the nerve to medial pterygoid",
      1,
-     "Unlike the other three ganglia, it has a somatic motor root. These fibres pass through without synapse to tensor tympani and tensor veli palatini."
+     "Unusually, the otic ganglion has a somatic motor connection: fibres from the nerve to medial pterygoid pass through it without synapse to supply tensor tympani and tensor veli palatini.\nNone of the other three ganglia (ciliary, pterygopalatine, submandibular) has a motor root of this kind."
     ]
    ]
   },
@@ -577,22 +577,22 @@
     [
      "Sends secretomotor fibres to the lacrimal gland via the zygomatic and lacrimal nerves",
      1,
-     "Postganglionic fibres travel in the zygomatic nerve, then a communicating branch to the lacrimal nerve."
+     "Postganglionic secretomotor fibres from the pterygopalatine ganglion join V2, travel in its zygomatic branch, then pass by a communicating branch to the lacrimal nerve (V1) to reach the lacrimal gland.\nThe preganglionic fibres came from the superior salivary nucleus via the greater petrosal nerve. A lesion of the greater petrosal nerve causes a dry eye."
     ],
     [
      "Receives sympathetic fibres via the deep petrosal nerve",
      1,
-     "The deep petrosal nerve comes from the internal carotid plexus and joins the greater petrosal to form the nerve of the pterygoid canal."
+     "The deep petrosal nerve carries postganglionic sympathetic fibres from the internal carotid plexus. It joins the greater petrosal nerve to form the nerve of the pterygoid canal (Vidian nerve), which enters the ganglion.\nThe sympathetic fibres pass through without synapse. \"Greater = parasympathetic, deep = sympathetic\" is the way to keep them apart."
     ],
     [
      "Is suspended from the maxillary nerve in the pterygopalatine fossa",
      1,
-     "It hangs by two ganglionic branches from the maxillary nerve."
+     "The pterygopalatine ganglion lies in the pterygopalatine fossa, suspended from V2 by two short ganglionic branches.\nSensory fibres of V2 pass through these branches and the ganglion without synapse to form the palatine, nasal and pharyngeal branches. The ganglion is the largest of the cranial parasympathetic ganglia."
     ],
     [
      "Contains the cell bodies of taste fibres from the palate",
      0,
-     "Palatal taste fibres pass through it without synapse. Their cell bodies are in the geniculate ganglion of the facial nerve."
+     "Taste fibres from the palate run with the palatine nerves, pass through the ganglion without synapse, and reach the greater petrosal nerve. Their cell bodies are in the geniculate ganglion of VII.\nOnly parasympathetic fibres synapse in the pterygopalatine ganglion; sensory cell bodies are never in an autonomic ganglion."
     ]
    ]
   },
@@ -604,22 +604,22 @@
     [
      "It is surrounded by dura, arachnoid and pia, with an extension of the subarachnoid space",
      1,
-     "Raised intracranial pressure is transmitted along the sheath, causing papilloedema."
+     "The optic nerve is an outgrowth of the brain, so it is ensheathed by dura, arachnoid and pia, and the subarachnoid space extends along it to the back of the globe.\nRaised intracranial pressure is therefore transmitted to the nerve head, obstructing axoplasmic flow and venous return and causing papilloedema. The central retinal vein crosses this space."
     ],
     [
      "The central retinal artery enters the nerve on its inferomedial aspect about 1 cm behind the globe",
      1,
-     "It pierces the dural sheath inferiorly and runs in the nerve to the optic disc."
+     "The central retinal artery, a branch of the ophthalmic artery, pierces the dural sheath on the inferomedial aspect of the nerve about 1 cm behind the globe and runs in the nerve to the optic disc.\nIt is an end artery; occlusion causes sudden painless monocular blindness with a cherry-red spot at the macula."
     ],
     [
      "Its intraorbital part is shorter than the distance from the optic canal to the back of the globe",
      0,
-     "The intraorbital part (about 25 mm) is longer than that distance, so it follows a sinuous course allowing eye movement."
+     "The intraorbital part of the nerve (about 25 mm) is longer than the straight distance from the optic canal to the back of the globe. It follows a slightly sinuous course, which allows free eye movement and some proptosis without stretching.\nIf it were shorter, eye movements would tug on the nerve."
     ],
     [
      "Its fibres are axons of the retinal ganglion cells",
      1,
-     "It is a CNS tract myelinated by oligodendrocytes, so it does not regenerate."
+     "The optic nerve fibres are the axons of retinal ganglion cells. Developmentally the nerve is a CNS tract, myelinated by oligodendrocytes, not Schwann cells.\nAs a result it does not regenerate after division, and it is affected by CNS demyelination (optic neuritis in multiple sclerosis)."
     ]
    ]
   },
@@ -631,22 +631,22 @@
     [
      "The olfactory nerves pass through the cribriform plate to the olfactory bulb",
      1,
-     "About 20 bundles pass through the cribriform plate, with sleeves of meninges."
+     "About 20 bundles of olfactory nerve fibres (unmyelinated axons of the receptor cells) pass through the cribriform plate of the ethmoid, each with a sleeve of meninges, to end in the olfactory bulb.\nA fracture of the cribriform plate can tear them (anosmia) and allow CSF rhinorrhoea through these sleeves."
     ],
     [
      "Olfactory impulses relay in the thalamus before reaching the primary olfactory cortex",
      0,
-     "Olfaction is the only sensation whose primary cortex (piriform and periamygdaloid) is reached without a thalamic relay."
+     "Olfaction is the only sense whose impulses reach the primary cortex (piriform and periamygdaloid cortex, uncus) without relaying in the thalamus.\nEvery other sensory pathway (vision, hearing, taste, general sensation) relays in the thalamus first. Some olfactory connections later reach the thalamus (mediodorsal nucleus) and orbitofrontal cortex, but that is not the primary pathway."
     ],
     [
      "The lateral olfactory stria passes to the uncus and amygdala",
      1,
-     "The lateral stria ends in the piriform cortex, the uncus and the amygdala."
+     "The olfactory tract divides into medial and lateral striae. The lateral stria ends in the piriform cortex, the uncus and the amygdala: the primary olfactory cortex.\nThat is why an uncal lesion can cause olfactory hallucinations (\"uncinate fits\"). The medial stria passes to the septal area and the anterior commissure."
     ],
     [
      "The olfactory receptor cells are not replaced in adult life",
      0,
-     "Olfactory receptor neurones are unusual in being continually replaced from basal cells throughout life."
+     "Olfactory receptor neurones are unusual among neurones in being continually replaced throughout adult life from basal cells of the olfactory epithelium.\nThis turnover helps recovery from minor damage to the receptors, but not from shearing of the fibres at the cribriform plate."
     ]
    ]
   },
@@ -658,22 +658,22 @@
     [
      "The cochlear nuclei lie on the inferior cerebellar peduncle",
      1,
-     "The dorsal and ventral cochlear nuclei lie on the lateral and dorsal aspects of the inferior cerebellar peduncle."
+     "The dorsal and ventral cochlear nuclei lie on the dorsal and lateral aspects of the inferior cerebellar peduncle at the pontomedullary junction. All fibres of the cochlear nerve end in them.\nA lesion of the cochlear nuclei or the nerve causes ipsilateral deafness, unlike a lesion higher in the pathway."
     ],
     [
      "The lateral lemniscus ascends to the inferior colliculus",
      1,
-     "From there fibres pass via the inferior brachium to the medial geniculate body."
+     "The lateral lemniscus carries auditory fibres from the cochlear nuclei, trapezoid body and superior olivary nuclei up to the inferior colliculus. From there the inferior brachium passes to the medial geniculate body, which projects to the auditory cortex.\nDo not confuse with the medial lemniscus, which carries dorsal column sensation to the thalamus."
     ],
     [
      "A unilateral lesion of the lateral lemniscus causes total deafness in the contralateral ear",
      0,
-     "The auditory pathway has extensive bilateral representation, so a central lesion above the cochlear nuclei does not cause unilateral deafness."
+     "Above the cochlear nuclei the auditory pathway is bilateral: fibres cross in the trapezoid body and at higher levels, so each lateral lemniscus carries input from both ears. A unilateral lesion causes at most reduced hearing (mainly in the opposite ear), not complete deafness.\nComplete unilateral deafness means a lesion of the cochlea, the nerve or the cochlear nuclei."
     ],
     [
      "The spiral ganglion lies in the modiolus of the cochlea",
      1,
-     "The bipolar cell bodies of the cochlear nerve lie in the spiral canal of the modiolus."
+     "The bipolar cell bodies of the cochlear nerve form the spiral ganglion, which lies in the spiral canal of the modiolus, the central bony pillar of the cochlea.\nThe vestibular nerve has its own ganglion (Scarpa's) in the internal acoustic meatus."
     ]
    ]
   },
@@ -685,22 +685,22 @@
     [
      "The afferent limb of the corneal reflex is the ophthalmic nerve",
      1,
-     "Via the long ciliary branches of the nasociliary nerve."
+     "The afferent limb of the corneal reflex is the ophthalmic nerve, via the long ciliary branches of the nasociliary nerve, to the trigeminal sensory nuclei. The efferent limb is VII to orbicularis oculi on both sides.\nTesting it checks V1. Its early loss is a sign of a cerebellopontine angle tumour compressing the trigeminal root."
     ],
     [
      "The efferent limb of the jaw jerk is the facial nerve",
      0,
-     "Both limbs of the jaw jerk are in the trigeminal nerve: afferent via the mesencephalic nucleus, efferent via the motor nucleus to masseter."
+     "Both limbs of the jaw jerk are in V. The afferent fibres come from muscle spindles in masseter, with cell bodies in the mesencephalic nucleus, and the efferent fibres are from the trigeminal motor nucleus.\nA brisk jaw jerk indicates an upper motor neurone lesion above the pons (for example pseudobulbar palsy). VII has no role."
     ],
     [
      "The efferent limb of the gag reflex is the hypoglossal nerve",
      0,
-     "The efferent limb is the vagus via the nucleus ambiguus."
+     "The efferent limb of the gag reflex is X (with some IX for stylopharyngeus), arising from the nucleus ambiguus, to the pharyngeal and palatal muscles. The afferent limb is mainly IX.\nXII moves the tongue and plays no part in the gag reflex."
     ],
     [
      "The efferent limb of the pupillary light reflex is the trochlear nerve",
      0,
-     "It is the oculomotor nerve, via the Edinger-Westphal nucleus and ciliary ganglion."
+     "The efferent limb of the pupillary light reflex is III: preganglionic fibres from the Edinger–Westphal nucleus synapse in the ciliary ganglion and short ciliary nerves supply sphincter pupillae.\nIV supplies only superior oblique and plays no part in pupil control. The afferent limb is II, relaying in the pretectal nuclei."
     ]
    ]
   },
@@ -712,22 +712,22 @@
     [
      "Abducent nerve",
      0,
-     "VI runs through the sinus, beside the internal carotid artery."
+     "VI lies within the cavernous sinus itself, lateral to the internal carotid artery, not in the lateral wall.\nBeing inside the sinus, VI is often the first nerve affected by a cavernous carotid aneurysm or fistula."
     ],
     [
      "Oculomotor nerve",
      1,
-     "The highest nerve in the lateral wall."
+     "III is the highest nerve in the lateral wall, above IV, then V1 and V2 lowest.\nIt enters the roof of the sinus between the free and attached edges of the tentorium (the oculomotor triangle) before descending into the wall."
     ],
     [
      "Greater petrosal nerve",
      0,
-     "The greater petrosal runs under the trigeminal ganglion to foramen lacerum, not in the cavernous sinus wall."
+     "The greater petrosal nerve leaves the hiatus on the anterior surface of the petrous bone, runs under the trigeminal ganglion to foramen lacerum, and joins the deep petrosal to form the nerve of the pterygoid canal. It is not in the cavernous sinus wall.\nThe nerves in the wall are III, IV, V1 and V2."
     ],
     [
      "Maxillary nerve",
      1,
-     "It lies in the lowest part of the lateral wall."
+     "V2 lies in the lowest part of the lateral wall before leaving through foramen rotundum.\nV3 does not pass through the cavernous sinus; it leaves the trigeminal ganglion straight down through foramen ovale."
     ]
    ]
   },
@@ -739,22 +739,22 @@
     [
      "The facial nerve lies anterosuperior to the vestibulocochlear nerve",
      1,
-     "The facial nerve and nervus intermedius lie anterosuperior to VIII as they pass to the internal acoustic meatus."
+     "At the cerebellopontine angle and in the internal acoustic meatus, the facial nerve and nervus intermedius lie anterosuperior to VIII.\nIn the fundus of the meatus the facial nerve occupies the anterosuperior quadrant, the cochlear nerve the anteroinferior, and the two vestibular nerves the posterior quadrants. Vestibular schwannomas stretch VII over their surface."
     ],
     [
      "The anterior inferior cerebellar artery often loops near the internal acoustic meatus",
      1,
-     "Last's: AICA runs on the inferior cerebellar surface. The labyrinthine artery arises from AICA or directly from the basilar."
+     "The anterior inferior cerebellar artery runs back on the inferior surface of the cerebellum and often forms a loop at or into the internal acoustic meatus. The labyrinthine artery usually arises from it (sometimes directly from the basilar artery).\nThis loop is relevant in cerebellopontine angle surgery and in neurovascular compression."
     ],
     [
      "A vestibular schwannoma may compress the trigeminal nerve and cause loss of the corneal reflex",
      1,
-     "Loss of the corneal reflex is an early sign of a large tumour, because the trigeminal root is just above."
+     "The trigeminal root lies just above the cerebellopontine angle. As a vestibular schwannoma enlarges upward it compresses V, and loss of the corneal reflex is often the first sign of trigeminal involvement.\nThe facial nerve, though stretched, often keeps function surprisingly well, so facial weakness is a late sign."
     ],
     [
      "The glossopharyngeal nerve lies above the trigeminal nerve",
      0,
-     "The lower cranial nerves (IX, X, XI) lie below VII/VIII at the jugular foramen. The trigeminal is above."
+     "IX lies below VII and VIII, with X and XI, heading for the jugular foramen. V lies above, heading for Meckel's cave.\nFrom above down at the angle: V, then VII and VIII, then IX, X and XI. A large tumour can reach both groups."
     ]
    ]
   }

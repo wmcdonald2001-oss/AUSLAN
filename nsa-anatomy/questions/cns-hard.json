@@ -11,22 +11,22 @@
     [
      "The ventral anterior and ventral lateral nuclei receive the main output of the globus pallidus internus",
      1,
-     "Pallidal output reaches VA and VL by the ansa lenticularis and lenticular fasciculus, joined as the thalamic fasciculus (H1)."
+     "The main output of the globus pallidus internus reaches the ventral anterior and ventral lateral nuclei through the ansa lenticularis and lenticular fasciculus, which join as the thalamic fasciculus (field H1 of Forel).\nThese motor thalamic nuclei project to premotor and motor cortex, completing the basal ganglia loop."
     ],
     [
      "The ventral posterior inferior nucleus receives vestibulothalamic fibres",
      1,
-     "VPI is the principal thalamic vestibular relay."
+     "The ventral posterior inferior (VPI) nucleus is the principal thalamic relay for vestibular information, projecting to the vestibular cortex near the postcentral gyrus and insula.\nMedial lemniscal and spinothalamic input goes to VPL; trigeminal and taste to VPM."
     ],
     [
      "The centromedian and parafascicular nuclei project chiefly to the cingulate gyrus",
      0,
-     "The intralaminar centromedian and parafascicular nuclei project heavily to the striatum. The anterior and lateral dorsal nuclei project to the cingulate gyrus."
+     "The intralaminar centromedian and parafascicular nuclei project heavily to the striatum (and diffusely to cortex).\nIt is the anterior and lateral dorsal nuclei that project to the cingulate gyrus."
     ],
     [
      "The lateral dorsal nucleus receives fibres from the mammillothalamic tract",
      1,
-     "Along with the anterior nucleus. Both project to the cingulate gyrus."
+     "The lateral dorsal nucleus receives fibres from the mammillothalamic tract (and the fornix), together with the anterior nucleus. Both project to the cingulate gyrus.\nSo the lateral dorsal nucleus functions with the anterior group in the limbic (Papez) circuit, despite lying in the lateral group."
     ]
    ]
   },
@@ -38,22 +38,22 @@
     [
      "Receives dentatothalamic fibres from the contralateral cerebellum",
      1,
-     "They cross in the decussation of the superior cerebellar peduncles."
+     "The ventral lateral nucleus receives dentatothalamic fibres from the contralateral dentate (and interposed) nuclei, crossing in the decussation of the superior cerebellar peduncles.\nThis is the cerebellar motor pathway to the cortex."
     ],
     [
      "Receives inputs from the globus pallidus internus and substantia nigra pars reticulata",
      1,
-     "Basal ganglia output to the motor thalamus."
+     "The ventral lateral nucleus also receives basal ganglia output from the globus pallidus internus and substantia nigra pars reticulata (mostly in its anterior part, overlapping with VA).\nThe cerebellar and pallidal territories within VL are largely separate."
     ],
     [
      "Projects to the primary motor and supplementary motor cortex",
      1,
-     "Areas 4 and 6."
+     "The ventral lateral nucleus projects to the primary motor cortex (area 4) and supplementary and premotor cortex (area 6).\nIt is a motor relay nucleus."
     ],
     [
      "Is the thalamic target for deep brain stimulation for essential tremor because it receives the medial lemniscus",
      0,
-     "Its ventral intermediate (Vim) part is the tremor target because it receives cerebellar input. The medial lemniscus ends in VPL."
+     "The ventral intermediate (Vim) part of VL is the target for essential tremor because it receives cerebellar (dentatothalamic) input. The medial lemniscus ends in VPL, just behind it.\nStimulating too far back, in VPL, causes paraesthesiae; too far lateral, in the internal capsule, causes muscle contraction or dysarthria."
     ]
    ]
   },
@@ -65,22 +65,22 @@
     [
      "The pulvinar has association connections with parietal, temporal and occipital cortex",
      1,
-     "It integrates visual attention and higher-order sensory processing."
+     "The pulvinar has extensive association connections with the parietal, temporal and occipital cortex, and with the superior colliculus.\nIt integrates visual attention and higher-order sensory processing."
     ],
     [
      "The pulvinar is the main relay for the medial lemniscus",
      0,
-     "The medial lemniscus relays in VPL."
+     "The medial lemniscus relays in the ventral posterolateral (VPL) nucleus.\nThe pulvinar is an association nucleus, not a primary sensory relay."
     ],
     [
      "The medial dorsal nucleus projects mainly to the occipital lobe",
      0,
-     "It projects to the prefrontal cortex and has reciprocal connections with the frontal lobe."
+     "The medial dorsal (mediodorsal) nucleus projects mainly to the prefrontal cortex, with reciprocal connections, and receives from the amygdala and olfactory regions.\nThe occipital lobe is connected with the lateral geniculate body and pulvinar."
     ],
     [
      "The medial geniculate body receives the lateral lemniscus via the inferior brachium",
      0,
-     "The lateral lemniscus ends in the inferior colliculus. The inferior colliculus then projects through the inferior brachium to the medial geniculate body."
+     "The lateral lemniscus ends in the inferior colliculus. The inferior colliculus then projects through the inferior brachium to the medial geniculate body.\nSo the brachium carries fibres from the colliculus, not the lemniscus itself."
     ]
    ]
   },
@@ -92,22 +92,22 @@
     [
      "Posterior limb of the internal capsule",
      1,
-     "Relevant to capsular side effects (dysarthria, contraction) in thalamic DBS."
+     "The posterior limb of the internal capsule lies immediately lateral to the ventral intermediate nucleus of the thalamus.\nCurrent spread from a Vim electrode into the capsule causes contralateral muscle contraction or dysarthria, a key side effect in thalamic deep brain stimulation."
     ],
     [
      "Globus pallidus externus, without intervening white matter",
      0,
-     "The internal capsule separates the thalamus from the lentiform nucleus."
+     "The internal capsule separates the thalamus from the lentiform nucleus (globus pallidus and putamen). There is no direct contact.\nThe pallidum lies lateral to the posterior limb."
     ],
     [
      "Third ventricle",
      0,
-     "The third ventricle lies medial to the thalamus."
+     "The third ventricle lies medial to the thalamus, not lateral to it.\nFrom medial to lateral: third ventricle, thalamus, internal capsule, globus pallidus, putamen."
     ],
     [
      "Ventral posterior nucleus, which lies anterior to it",
      0,
-     "The ventral posterior nucleus lies posterior to the ventral intermediate nucleus."
+     "The ventral posterior nucleus lies posterior to the ventral intermediate nucleus, not anterior, and not lateral.\nVim is in the posterior part of VL, directly in front of VPL."
     ]
    ]
   },
@@ -119,22 +119,22 @@
     [
      "The globus pallidus externus sends GABAergic inhibitory fibres to the subthalamic nucleus",
      1,
-     "Part of the indirect pathway."
+     "The globus pallidus externus sends GABAergic (inhibitory) fibres to the subthalamic nucleus. This is part of the indirect pathway.\nIn the indirect pathway, the striatum inhibits GPe, which releases the subthalamic nucleus."
     ],
     [
      "The subthalamic nucleus sends glutamatergic excitatory fibres to the globus pallidus internus and substantia nigra pars reticulata",
      1,
-     "It is the only excitatory nucleus within the basal ganglia circuitry."
+     "The subthalamic nucleus sends glutamatergic (excitatory) fibres to the globus pallidus internus and substantia nigra pars reticulata. It is the only excitatory nucleus within the basal ganglia circuit.\nIts overactivity in Parkinson's disease is the rationale for subthalamic deep brain stimulation."
     ],
     [
      "The globus pallidus internus excites the thalamus",
      0,
-     "GPi and SNr outputs are GABAergic and tonically inhibit VA and VL."
+     "The outputs of the globus pallidus internus and substantia nigra pars reticulata are GABAergic and tonically inhibit the ventral anterior and ventral lateral thalamus.\nMovement is released when the striatum (direct pathway) inhibits these output nuclei, so disinhibiting the thalamus."
     ],
     [
      "Nigrostriatal dopamine acting on D1 receptors facilitates the direct pathway",
      1,
-     "D2 receptors inhibit the indirect pathway. Both effects promote movement."
+     "Nigrostriatal dopamine acting on D1 receptors excites the direct pathway striatal neurons. Acting on D2 receptors it inhibits the indirect pathway neurons.\nBoth effects promote movement, so dopamine loss (Parkinson's disease) reduces movement."
     ]
    ]
   },
@@ -146,22 +146,22 @@
     [
      "The lenticular fasciculus (H2) passes through the internal capsule from the globus pallidus internus",
      1,
-     "It runs dorsal to the subthalamic nucleus."
+     "The lenticular fasciculus (field H2 of Forel) leaves the globus pallidus internus by passing through the internal capsule, then runs dorsal to the subthalamic nucleus.\nIt is one of the two pallidothalamic routes."
     ],
     [
      "The ansa lenticularis pierces the posterior limb of the internal capsule",
      0,
-     "The ansa lenticularis loops around the medial (ventral) edge of the internal capsule. It is the lenticular fasciculus that passes through the capsule."
+     "The ansa lenticularis loops around the medial (ventral) edge of the internal capsule rather than piercing it. It is the lenticular fasciculus that passes through the capsule.\n\"Ansa\" means loop: it goes around."
     ],
     [
      "The ansa lenticularis and lenticular fasciculus join to form the thalamic fasciculus (H1)",
      1,
-     "Which enters VA and VL."
+     "The ansa lenticularis and the lenticular fasciculus join (in field H of Forel) to form the thalamic fasciculus (H1), which enters the ventral anterior and ventral lateral thalamic nuclei.\nThe thalamic fasciculus also carries cerebellothalamic fibres."
     ],
     [
      "The zona incerta lies between the lenticular fasciculus (H2) and the thalamic fasciculus (H1)",
      1,
-     "H1 lies dorsal to the zona incerta and H2 ventral to it."
+     "The zona incerta lies between the lenticular fasciculus (H2, ventral) and the thalamic fasciculus (H1, dorsal).\nThe subthalamic nucleus lies ventral to H2. This layered region is the target area in some deep brain stimulation for tremor."
     ]
    ]
   },
@@ -173,22 +173,22 @@
     [
      "The ventral tegmental area supplies dopamine to the ventral striatum and limbic cortex",
      1,
-     "The mesolimbic and mesocortical pathways."
+     "The ventral tegmental area, medial to the substantia nigra, supplies dopamine to the ventral striatum (nucleus accumbens) and limbic and prefrontal cortex: the mesolimbic and mesocortical pathways.\nThese pathways are involved in reward; they are the targets of antipsychotic drugs."
     ],
     [
      "The locus coeruleus is the main noradrenergic nucleus of the brain",
      1,
-     "It lies in the upper floor of the fourth ventricle (superior fovea) and is involved in arousal and fear responses."
+     "The locus coeruleus, in the upper floor of the fourth ventricle near the superior fovea, is the main noradrenergic nucleus of the brain. It is concerned with arousal, attention and fear responses.\nIts pigmented neurons give a blue-grey colour in fresh brain."
     ],
     [
      "The raphe nuclei are the main source of serotonin",
      1,
-     "In the midline brainstem."
+     "The raphe nuclei in the midline of the brainstem are the main source of serotonin (5-HT) in the CNS.\nThey project widely to the forebrain, cerebellum and spinal cord, modulating mood, sleep and pain."
     ],
     [
      "The tuberoinfundibular dopamine pathway from the arcuate nucleus stimulates prolactin release",
      0,
-     "Dopamine from the arcuate nucleus inhibits prolactin release. Pituitary stalk compression therefore raises prolactin."
+     "Dopamine from the arcuate nucleus, carried by the tuberoinfundibular pathway to the portal system, inhibits prolactin release.\nSo compression of the pituitary stalk (for example by a non-functioning adenoma) raises prolactin through loss of this inhibition (the \"stalk effect\")."
     ]
    ]
   },
@@ -200,22 +200,22 @@
     [
      "Purkinje cells of the vermis project to the fastigial nucleus",
      1,
-     "Vermis (spinocerebellum) to fastigial, intermediate zone to globose and emboliform, lateral hemisphere to dentate."
+     "Purkinje cells of the vermis (spinocerebellum) project to the fastigial nucleus.\nThe intermediate zone projects to the globose and emboliform nuclei, and the lateral hemisphere to the dentate. Medial cortex to medial nucleus."
     ],
     [
      "Purkinje cells of the lateral hemisphere project to the dentate nucleus",
      1,
-     "The cerebrocerebellum."
+     "Purkinje cells of the lateral hemisphere (cerebrocerebellum) project to the dentate nucleus.\nThe dentate then projects via the superior peduncle to the contralateral red nucleus and ventral lateral thalamus."
     ],
     [
      "A flocculonodular lesion characteristically produces ipsilateral limb dysmetria",
      0,
-     "Flocculonodular lesions produce nystagmus and truncal imbalance. Lateral hemisphere lesions cause ipsilateral limb ataxia."
+     "A flocculonodular lesion characteristically produces nystagmus and truncal imbalance (vestibulocerebellar signs).\nIpsilateral limb dysmetria and intention tremor come from lesions of the lateral hemisphere or dentate nucleus."
     ],
     [
      "A midline vermis lesion produces truncal ataxia",
      1,
-     "A broad-based gait, as in alcoholic anterior vermis degeneration."
+     "A midline vermis lesion produces truncal ataxia with a broad-based gait, as in alcoholic degeneration of the anterior vermis.\nLimb coordination tested lying down may be relatively normal."
     ]
    ]
   },
@@ -227,22 +227,22 @@
     [
      "Olivocerebellar fibres",
      1,
-     "Climbing fibres from the contralateral inferior olive."
+     "Olivocerebellar fibres from the contralateral inferior olive enter through the inferior cerebellar peduncle and end as climbing fibres on Purkinje cells.\nThey are the largest component of the inferior peduncle."
     ],
     [
      "Cuneocerebellar fibres from the accessory cuneate nucleus",
      1,
-     "Upper limb unconscious proprioception (posterior external arcuate fibres)."
+     "Cuneocerebellar fibres from the accessory cuneate nucleus (upper limb unconscious proprioception) enter through the inferior peduncle, forming the posterior external arcuate fibres.\nThey are the upper limb counterpart of the posterior spinocerebellar tract."
     ],
     [
      "Posterior spinocerebellar tract",
      1,
-     "From Clarke's column (T1 to L2)."
+     "The posterior spinocerebellar tract, from Clarke's column (T1 to L2), enters through the inferior cerebellar peduncle.\nIt carries unconscious proprioception from the lower limb and trunk, ipsilaterally."
     ],
     [
      "Anterior spinocerebellar tract",
      0,
-     "It enters by the superior cerebellar peduncle after ascending to the midbrain."
+     "The anterior spinocerebellar tract ascends to the upper pons and enters the cerebellum through the superior cerebellar peduncle.\nIt is the classic exception: most cerebellar afferents enter by the inferior or middle peduncles."
     ]
    ]
   },
@@ -254,22 +254,22 @@
     [
      "The anterior hypothalamic area promotes heat loss",
      1,
-     "Lesions cause hyperthermia."
+     "The anterior hypothalamic area promotes heat loss (sweating, vasodilatation). Its lesions cause hyperthermia.\nIt acts as the body's \"thermostat\" for cooling."
     ],
     [
      "The posterior hypothalamus promotes heat conservation",
      1,
-     "Lesions cause poikilothermia."
+     "The posterior hypothalamus promotes heat conservation and production (shivering, vasoconstriction). Its lesions cause poikilothermia, where body temperature drifts with the environment.\nAnterior = lose heat; posterior = keep heat."
     ],
     [
      "The ventromedial nucleus is a feeding centre whose destruction causes anorexia",
      0,
-     "The ventromedial nucleus is the satiety centre. Its destruction causes hyperphagia and obesity. Lateral hypothalamic lesions cause aphagia."
+     "The ventromedial nucleus is the satiety centre: its destruction causes hyperphagia and obesity. Lateral hypothalamic lesions cause aphagia (refusal to eat).\nLateral = feeding centre; ventromedial = satiety centre."
     ],
     [
      "The suprachiasmatic nucleus is the circadian pacemaker",
      1,
-     "It receives the retinohypothalamic tract."
+     "The suprachiasmatic nucleus is the circadian pacemaker. It receives direct retinal input through the retinohypothalamic tract, entraining rhythms to light.\nIt influences melatonin secretion via the pineal."
     ]
    ]
   },
@@ -281,22 +281,22 @@
     [
      "Thyrotropin-releasing hormone stimulates both TSH and prolactin release",
      1,
-     "Hence hyperprolactinaemia in primary hypothyroidism."
+     "Thyrotropin-releasing hormone (TRH) stimulates the release of both TSH and prolactin from the anterior pituitary.\nThat is why primary hypothyroidism, with high TRH, can cause hyperprolactinaemia."
     ],
     [
      "Atrial natriuretic peptide inhibits antidiuretic hormone release",
      1,
-     "ANP opposes ADH, promoting natriuresis and diuresis."
+     "Atrial natriuretic peptide (ANP) inhibits antidiuretic hormone release, opposing its effect and promoting natriuresis and diuresis.\nBoth are released in response to changes in blood volume."
     ],
     [
      "Oxytocin is produced mainly in the paraventricular nucleus",
      1,
-     "Last's: oxytocin mainly paraventricular, vasopressin mainly supraoptic."
+     "Last's says oxytocin is produced mainly in the paraventricular nucleus, and vasopressin mainly in the supraoptic nucleus.\nBoth nuclei make some of each."
     ],
     [
      "Releasing hormones reach the anterior pituitary in the hypothalamohypophysial tract",
      0,
-     "They reach it via the hypophysial portal veins from the median eminence."
+     "Releasing hormones reach the anterior pituitary through the hypophysial portal veins from the median eminence.\nThe hypothalamohypophysial nerve tract carries vasopressin and oxytocin to the posterior pituitary."
     ]
    ]
   },
@@ -308,22 +308,22 @@
     [
      "Auditory information is first represented bilaterally at the superior olivary complex",
      1,
-     "Hence unilateral deafness implies a lesion of the cochlear nucleus, nerve or ear."
+     "Auditory information is first represented bilaterally at the superior olivary complex, which receives from both cochlear nuclei.\nSo a unilateral lesion above the cochlear nuclei does not cause unilateral deafness. One-sided deafness implies a lesion of the ear, nerve or cochlear nucleus."
     ],
     [
      "The anteroventral cochlear nucleus projects to both superior olivary complexes",
      1,
-     "Fibres crossing in the trapezoid body."
+     "The anteroventral cochlear nucleus projects to both superior olivary complexes, with fibres crossing in the trapezoid body.\nComparison of timing and loudness between the two ears there allows sound localisation."
     ],
     [
      "The dorsal cochlear nucleus projects through the lateral lemniscus directly to the inferior colliculus",
      1,
-     "Bypassing the superior olive."
+     "The dorsal cochlear nucleus projects through the contralateral lateral lemniscus directly to the inferior colliculus, bypassing the superior olive.\nIts fibres cross in the dorsal acoustic striae."
     ],
     [
      "The primary auditory cortex lies in the posterior transverse temporal gyrus",
      0,
-     "Last's: it lies mainly in the anterior transverse temporal gyrus of Heschl (areas 41 and 42)."
+     "Last's places the primary auditory cortex (areas 41 and 42) mainly in the anterior transverse temporal gyrus of Heschl, not the posterior one.\nThe posterior parts of the superior temporal gyrus form the auditory association area (including Wernicke's)."
     ]
    ]
   },
@@ -335,22 +335,22 @@
     [
      "Arises from the lateral vestibular nucleus (of Deiters)",
      1,
-     "True. The lateral vestibulospinal tract arises from the lateral vestibular nucleus (Deiters) and facilitates extensor (antigravity) tone. (Last's)"
+     "The lateral vestibulospinal tract arises from the lateral vestibular nucleus (Deiters' nucleus).\nThe medial vestibulospinal tract arises from the medial vestibular nucleus."
     ],
     [
      "Descends ipsilaterally to all levels of the spinal cord",
      1,
-     "It facilitates extensor (antigravity) motor neurones."
+     "The lateral vestibulospinal tract descends ipsilaterally through the whole length of the cord in the anterior funiculus, facilitating extensor (antigravity) motor neurons.\nUnopposed vestibulospinal activity contributes to decerebrate (extensor) rigidity after a lesion between the red and vestibular nuclei."
     ],
     [
      "Is important for posture and balance",
      1,
-     "Last's: it acts mainly on trunk and limb girdle muscles."
+     "Last's says the tract acts mainly on trunk and limb girdle muscles, maintaining posture and balance.\nIt is driven by the vestibular apparatus and modulated by the cerebellum."
     ],
     [
      "Descends mainly to the cervical cord to control head position",
      0,
-     "That describes the medial vestibulospinal tract, from the medial vestibular nucleus, via the MLF."
+     "Descent mainly to the cervical cord to control head position describes the medial vestibulospinal tract, from the medial vestibular nucleus, travelling in the medial longitudinal fasciculus.\nLateral = whole cord, posture; medial = neck, head and eye coordination."
     ]
    ]
   },
@@ -362,22 +362,22 @@
     [
      "The glomerulus is the basic odorant processing unit of the olfactory bulb",
      1,
-     "Receptor axons synapse with mitral, tufted and periglomerular cells."
+     "The glomerulus is the basic odorant processing unit of the olfactory bulb. Receptor axons expressing the same receptor converge on a glomerulus and synapse with mitral, tufted and periglomerular cells.\nEach glomerulus therefore represents one odorant receptor type."
     ],
     [
      "Periglomerular cells receive direct input from primary olfactory neurones",
      1,
-     "They are inhibitory interneurones."
+     "Periglomerular cells receive direct input from primary olfactory neurons. They are inhibitory interneurons that sharpen the signal between neighbouring glomeruli.\nGranule cells provide a second, deeper layer of inhibition."
     ],
     [
      "The piriform cortex includes the uncus and anterior parahippocampal gyrus",
      1,
-     "With the cortical amygdala. It mediates perception of smell."
+     "The primary olfactory (piriform) cortex includes the uncus and the anterior parahippocampal gyrus, with the cortical amygdala. It mediates conscious perception of smell.\nLesions here can cause olfactory hallucinations (uncinate fits)."
     ],
     [
      "Mitral cell axons relay in the medial dorsal thalamic nucleus before reaching the piriform cortex",
      0,
-     "Olfaction reaches primary cortex without a thalamic relay. The thalamic route is a secondary pathway to orbitofrontal cortex."
+     "Mitral cell axons reach the primary olfactory cortex without a thalamic relay. The route through the mediodorsal thalamic nucleus is a secondary pathway to the orbitofrontal cortex.\nOlfaction is the only sense whose primary cortex is reached without a thalamic relay."
     ]
    ]
   },
@@ -389,22 +389,22 @@
     [
      "The circuit begins at the subiculum of the hippocampal formation",
      1,
-     "Output travels by the fornix."
+     "The Papez circuit begins in the hippocampal formation, with output from the subiculum travelling in the fornix.\nThe hippocampus receives its input from the entorhinal cortex."
     ],
     [
      "The fornix projects to the medial mammillary nucleus",
      1,
-     "Most postcommissural fibres."
+     "Most postcommissural fornix fibres end in the medial mammillary nucleus.\nSome fornix fibres (precommissural) go to the septal area instead."
     ],
     [
      "The mammillothalamic tract projects to the anterior thalamic nucleus",
      1,
-     "Which projects to the cingulate gyrus."
+     "The mammillothalamic tract projects from the mammillary body to the anterior thalamic nucleus, which projects to the cingulate gyrus.\nLesions of the mammillary bodies or this tract (as in Wernicke–Korsakoff syndrome) impair memory."
     ],
     [
      "The cingulum returns impulses to the entorhinal cortex and hippocampus",
      1,
-     "Completing the circuit."
+     "The cingulum, an association bundle in the cingulate gyrus, carries impulses back to the entorhinal cortex and hippocampus, completing the circuit.\nThe full loop: hippocampus, fornix, mammillary body, mammillothalamic tract, anterior thalamus, cingulate gyrus, cingulum, entorhinal cortex, hippocampus."
     ]
    ]
   },
@@ -416,22 +416,22 @@
     [
      "The uncinate fasciculus connects the orbitofrontal cortex with the anterior temporal lobe",
      1,
-     "It hooks around the stem of the lateral sulcus."
+     "The uncinate fasciculus connects the orbitofrontal cortex with the anterior temporal lobe, hooking around the stem of the lateral sulcus.\nIt links emotional and memory regions of the frontal and temporal lobes."
     ],
     [
      "The arcuate fasciculus connects Wernicke's area with Broca's area",
      1,
-     "Lesions cause conduction aphasia."
+     "The arcuate fasciculus connects Wernicke's area (posterior superior temporal gyrus) with Broca's area (inferior frontal gyrus), arching around the posterior end of the lateral sulcus.\nIts interruption causes conduction aphasia: fluent speech and good comprehension, but poor repetition."
     ],
     [
      "The hippocampal commissure connects the two fornices",
      1,
-     "Beneath the splenium."
+     "The hippocampal commissure (commissure of the fornix) connects the two crura of the fornix beneath the splenium of the corpus callosum.\nIt links the two hippocampi."
     ],
     [
      "The posterior commissure contains no fibres related to eye movements",
      0,
-     "It carries fibres of the pretectal nuclei, interstitial nucleus of Cajal and nucleus of Darkschewitsch, involved in vertical gaze and the consensual light reflex."
+     "The posterior commissure carries fibres from the pretectal nuclei, the interstitial nucleus of Cajal and the nucleus of Darkschewitsch. These are involved in vertical gaze and the consensual light reflex.\nIts compression (for example by a pineal tumour) causes upgaze palsy (Parinaud's syndrome)."
     ]
    ]
   },
@@ -443,22 +443,22 @@
     [
      "Failure of adduction of the right eye on attempted gaze to the left",
      1,
-     "Interruption of fibres from the left abducent nucleus interneurones to the right medial rectus subnucleus."
+     "On gaze to the left, the left abducent nucleus fires; its internuclear neurons cross and ascend in the right MLF to the right medial rectus subnucleus. A right MLF lesion interrupts this, so the right eye fails to adduct.\nThe internuclear ophthalmoplegia is named for the side of the failed adduction (here, right)."
     ],
     [
      "Failure of abduction of the left eye on gaze to the left",
      0,
-     "Abduction is intact because the left abducent nucleus and nerve are spared. The abducting left eye typically shows nystagmus."
+     "Abduction of the left eye on gaze to the left is intact, because the left abducent nucleus and nerve are spared. The abducting eye typically shows nystagmus.\nFailure of abduction would mean a VI lesion instead."
     ],
     [
      "Loss of convergence in all cases",
      0,
-     "Convergence is usually preserved in a pontine MLF lesion, because it does not depend on the MLF."
+     "Convergence is usually preserved with a pontine MLF lesion, because convergence does not depend on the MLF; it is driven from the midbrain.\nPreserved convergence with failed adduction on lateral gaze proves the medial rectus and III are intact."
     ],
     [
      "Paralysis of right lateral rectus",
      0,
-     "The abducent nucleus and nerve are intact."
+     "The abducent nucleus and nerve are intact, so right lateral rectus is not paralysed.\nAn MLF lesion affects only the yoking of the medial rectus to the opposite lateral rectus."
     ]
    ]
   },
@@ -470,22 +470,22 @@
     [
      "The paramedian pontine reticular formation drives the ipsilateral abducent nucleus for horizontal saccades",
      1,
-     "Last's calls it the para-abducent nucleus."
+     "The paramedian pontine reticular formation (PPRF), which Last's calls the para-abducent nucleus, drives the ipsilateral abducent nucleus to produce horizontal saccades to the same side.\nA PPRF lesion causes an ipsilateral horizontal gaze palsy."
     ],
     [
      "The rostral interstitial nucleus of the MLF lies in the midbrain and generates vertical saccades",
      1,
-     "With the interstitial nucleus of Cajal."
+     "The rostral interstitial nucleus of the MLF, in the midbrain, generates vertical saccades, working with the interstitial nucleus of Cajal.\nMidbrain lesions therefore cause vertical gaze palsies."
     ],
     [
      "The frontal eye field drives saccades to the same side",
      0,
-     "The frontal eye field drives conjugate gaze to the opposite side. An acute destructive lesion deviates the eyes towards the lesion."
+     "The frontal eye field drives conjugate gaze to the opposite side. An acute destructive lesion therefore deviates the eyes towards the side of the lesion (the patient \"looks at the lesion\").\nAn irritative lesion (seizure) drives the eyes away from the lesion."
     ],
     [
      "Parinaud's syndrome from a pineal tumour includes upgaze palsy and light-near dissociation",
      1,
-     "Dorsal midbrain (pretectal) compression."
+     "Parinaud's (dorsal midbrain) syndrome, classically from a pineal tumour compressing the pretectum and posterior commissure, includes upgaze palsy, light-near dissociation of the pupils, convergence-retraction nystagmus and lid retraction.\nThe pupils react to accommodation but not to light."
     ]
    ]
   },
@@ -497,22 +497,22 @@
     [
      "Weber's syndrome: ipsilateral oculomotor palsy with contralateral hemiplegia",
      1,
-     "Ventral midbrain: III fascicles and the cerebral peduncle."
+     "Weber's syndrome is a ventral midbrain lesion affecting the fascicles of III and the cerebral peduncle: ipsilateral III palsy with contralateral hemiplegia.\nIt is typically caused by occlusion of paramedian branches of the posterior cerebral artery."
     ],
     [
      "Benedikt's syndrome: ipsilateral oculomotor palsy with contralateral tremor or ataxia",
      1,
-     "Tegmental midbrain lesion involving the red nucleus."
+     "Benedikt's syndrome is a tegmental midbrain lesion involving III fascicles and the red nucleus: ipsilateral III palsy with contralateral tremor or ataxia.\nThe red nucleus and dentatothalamic fibres are damaged after they cross."
     ],
     [
      "Millard-Gubler syndrome: ipsilateral abducent and facial palsy with contralateral hemiplegia",
      1,
-     "Ventral caudal pons."
+     "Millard–Gubler syndrome is a ventral caudal pontine lesion: ipsilateral VI and VII palsy with contralateral hemiplegia (corticospinal fibres above their decussation).\nA \"crossed\" pattern like this localises the lesion to the brainstem."
     ],
     [
      "AICA occlusion: ipsilateral deafness and facial weakness with Horner's syndrome",
      1,
-     "Lateral inferior pontine syndrome. The labyrinthine artery usually arises from AICA."
+     "AICA occlusion (lateral inferior pontine syndrome) causes ipsilateral deafness (labyrinthine artery, usually from AICA), facial weakness, Horner's syndrome and limb ataxia, with contralateral loss of pain and temperature.\nDeafness distinguishes it from the lateral medullary (PICA) syndrome."
     ]
    ]
   },
@@ -524,22 +524,22 @@
     [
      "Bilateral paramedian thalamic infarction",
      1,
-     "A single trunk from one P1 segment supplies both paramedian thalami."
+     "The artery of Percheron is a single trunk from one P1 segment that supplies the paramedian parts of both thalami (and often the rostral midbrain). Its occlusion causes bilateral paramedian thalamic infarction.\nNormally each side has its own thalamoperforating arteries."
     ],
     [
      "Altered consciousness and vertical gaze palsy",
      1,
-     "With rostral midbrain involvement."
+     "Bilateral paramedian thalamic infarction causes altered consciousness (the intralaminar nuclei) and, if the rostral midbrain is involved, vertical gaze palsy.\nMemory disturbance is also common."
     ],
     [
      "A characteristic dense contralateral hemiplegia as the main sign",
      0,
-     "Motor weakness is not the main feature. Somnolence, memory and vertical gaze disturbance dominate."
+     "Motor weakness is not the main feature. Somnolence, memory loss and vertical gaze disturbance dominate.\nA dense hemiplegia would suggest involvement of the internal capsule or cerebral peduncle instead."
     ],
     [
      "Infarction in a territory supplied from the P1 segment of the posterior cerebral artery",
      1,
-     "Thalamoperforating arteries arise from P1."
+     "The thalamoperforating (paramedian) arteries, including the artery of Percheron, arise from the P1 segment of the posterior cerebral artery, before the posterior communicating junction.\nSo aneurysms or surgery at the basilar tip put them at risk."
     ]
    ]
   },
@@ -551,22 +551,22 @@
     [
      "The spinal nucleus has subnuclei oralis, interpolaris and caudalis",
      1,
-     "Caudalis serves pain and temperature, oralis fine orofacial touch, interpolaris touch and dental pain."
+     "The spinal trigeminal nucleus has three subnuclei: oralis (fine orofacial touch), interpolaris (touch and dental pain) and caudalis (pain and temperature).\nCaudalis is continuous with the substantia gelatinosa of the upper cord."
     ],
     [
      "Pain from the face follows an onion-skin pattern in the spinal nucleus",
      1,
-     "Last's: perioral areas rostral, peripheral face caudal."
+     "Last's describes an onion-skin pattern in the spinal nucleus: perioral areas are represented rostrally, and more peripheral rings of the face progressively caudally.\nA lesion of the lower spinal nucleus therefore causes sensory loss on the outer face, sparing the area around the mouth."
     ],
     [
      "Second-order fibres from the main sensory nucleus project to the contralateral VPM",
      1,
-     "Via the trigeminal lemniscus, with some uncrossed dorsal fibres."
+     "Second-order fibres from the main sensory nucleus project mainly to the contralateral VPM through the trigeminal lemniscus, with some uncrossed dorsal fibres.\nThe face is thus represented mainly in the opposite thalamus and cortex, like the body."
     ],
     [
      "The mesencephalic nucleus projects mainly to the ipsilateral VPL",
      0,
-     "Mesencephalic neurones are primary afferents mediating the jaw jerk via the motor nucleus. Facial sensation relays in VPM, not VPL."
+     "Mesencephalic neurons are primary afferents. They mediate the jaw jerk through the motor nucleus and do not project to the thalamus in this way. Facial sensation relays in VPM, not VPL.\nVPL serves the body (medial lemniscus and spinothalamic tracts)."
     ]
    ]
   },
@@ -578,22 +578,22 @@
     [
      "It lies between the fornix and the thalamus",
      1,
-     "In the body of the ventricle; in the temporal horn between fimbria and stria terminalis."
+     "In the body of the lateral ventricle the choroidal fissure lies between the fornix and the thalamus. In the temporal horn it lies between the fimbria and the stria terminalis.\nThe choroid plexus is attached along this fissure."
     ],
     [
      "Its anterior limit is the interventricular foramen",
      1,
-     "True. The choroid fissure begins at the interventricular foramen and curves back and down into the inferior horn. (Last's)"
+     "The choroidal fissure begins at the interventricular foramen and curves back and down into the inferior horn.\nIts C-shape follows the fornix."
     ],
     [
      "The anterior choroidal artery enters its inferior end at the temporal horn",
      1,
-     "Just above the uncus (the inferior choroidal point)."
+     "The anterior choroidal artery enters the inferior end of the choroidal fissure in the temporal horn, just above the uncus (the inferior choroidal point).\nThis point is a landmark in temporal lobe surgery."
     ],
     [
      "The septal vein runs through it to the vein of Galen",
      0,
-     "Septal veins run on the septum pellucidum to the internal cerebral vein near the interventricular foramen; they do not run through the fissure."
+     "The septal veins run on the septum pellucidum to join the internal cerebral vein near the interventricular foramen. They do not run through the choroidal fissure.\nThe thalamostriate vein runs in the groove between caudate and thalamus to the same point."
     ]
    ]
   },
@@ -605,22 +605,22 @@
     [
      "It includes the posterior limb of the internal capsule",
      1,
-     "The lower part."
+     "The territory of the anterior choroidal artery includes the lower part of the posterior limb of the internal capsule.\nThat is why its occlusion causes contralateral hemiplegia."
     ],
     [
      "It includes the medial globus pallidus",
      1,
-     "Listed by Rhoton-based sources."
+     "Rhoton-based neurosurgical sources include the medial globus pallidus in the anterior choroidal territory.\nThis territory is variable and overlaps with lenticulostriate branches."
     ],
     [
      "It includes the lateral geniculate body and optic tract",
      1,
-     "Infarction gives contralateral hemianopia."
+     "The anterior choroidal artery supplies the optic tract and lateral geniculate body. Infarction gives a contralateral homonymous hemianopia.\nThe full syndrome is hemiplegia, hemianaesthesia and hemianopia."
     ],
     [
      "Its usual origin is the cavernous internal carotid artery",
      0,
-     "It arises from the supraclinoid (communicating) segment of the ICA, distal to the posterior communicating artery."
+     "The anterior choroidal artery arises from the supraclinoid (communicating) segment of the internal carotid artery, distal to the posterior communicating artery.\nThe cavernous segment gives the meningohypophyseal and inferolateral trunks instead."
     ]
    ]
   },
@@ -632,22 +632,22 @@
     [
      "In the anterolateral tract sacral fibres lie most superficially",
      1,
-     "Last's: so intramedullary lesions may spare sacral sensation."
+     "Last's says in the anterolateral (spinothalamic) tract sacral fibres lie most superficially (laterally), with cervical fibres deepest.\nSo intramedullary lesions, expanding from the centre, may spare sacral sensation (sacral sparing)."
     ],
     [
      "In the posterior columns cervical fibres lie most medially",
      0,
-     "Sacral fibres lie most medially; cervical fibres are added laterally."
+     "In the posterior columns sacral fibres lie most medially. Cervical fibres are added laterally as the columns ascend.\nThis is the reverse of the spinothalamic and lateral corticospinal tracts."
     ],
     [
      "Central cord syndrome affects the upper limbs more than the lower limbs",
      1,
-     "Last's: lumbar and sacral corticospinal fibres lie more laterally."
+     "Central cord syndrome affects the upper limbs more than the lower limbs. Last's explains this by the more lateral position of lumbar and sacral corticospinal fibres, away from a central lesion.\nIt typically follows hyperextension injury of a stenotic cervical spine."
     ],
     [
      "The anterior spinal artery syndrome abolishes vibration sense",
      0,
-     "The posterior columns are spared, so vibration and proprioception remain."
+     "The posterior columns are supplied by the posterior spinal arteries, so they are spared in anterior spinal artery syndrome. Vibration and proprioception remain.\nParalysis and loss of pain and temperature below the lesion are the features."
     ]
    ]
   }

@@ -11,22 +11,22 @@
     [
      "Loop around the abducent nucleus forming the internal genu",
      1,
-     "The genu and abducent nucleus together raise the facial colliculus."
+     "Fibres from the facial motor nucleus run dorsomedially, loop over the abducent nucleus (the internal genu), then run ventrolaterally to emerge. The genu and the abducent nucleus together raise the facial colliculus in the floor of the fourth ventricle.\nA lesion of the colliculus therefore gives an ipsilateral lower motor neurone facial palsy plus an ipsilateral horizontal gaze palsy."
     ],
     [
      "Pass through the red nucleus",
      0,
-     "That is the oculomotor nerve."
+     "Passing through the red nucleus is a feature of the oculomotor fibres in the midbrain tegmentum.\nFacial fibres stay in the pons: they pass through the reticular formation, loop around the abducent nucleus and emerge at the pontomedullary junction."
     ],
     [
      "Leave the brainstem through the inferior cerebellar peduncle",
      0,
-     "They emerge at the lower border of the pons, above the olive."
+     "The facial nerve emerges from the lateral part of the lower border of the pons, at the cerebellopontine angle, above the olive and medial to VIII.\nThe inferior cerebellar peduncle carries cerebellar afferents (for example olivocerebellar and posterior spinocerebellar fibres), not cranial motor fibres."
     ],
     [
      "Arise from a nucleus lying in the floor of the fourth ventricle directly beneath the colliculus",
      0,
-     "Last's: the facial nucleus lies deep in the reticular formation of the lower pons. The abducent nucleus, not the facial nucleus, lies beneath the colliculus."
+     "The facial motor nucleus lies deep in the reticular formation of the lower pons, well away from the ventricular floor. The nucleus beneath the colliculus is the abducent nucleus.\nThe facial fibres only reach the floor of the ventricle as they loop over the abducent nucleus. This is a classic trap: the colliculus is named after the facial fibres, not the facial nucleus."
     ]
    ]
   },
@@ -38,22 +38,22 @@
     [
      "The superior rectus subnucleus supplies the contralateral superior rectus",
      1,
-     "Its fibres cross, so a nuclear lesion causes bilateral superior rectus weakness."
+     "Fibres from each superior rectus subnucleus cross to supply the contralateral superior rectus. A unilateral nuclear lesion therefore weakens superior rectus on both sides (the ipsilateral fibres crossing from the opposite side pass through the lesion).\nEvery other muscle supplied from the nucleus (medial rectus, inferior rectus, inferior oblique) is supplied from its own side."
     ],
     [
      "Each levator palpebrae is supplied from its own side only",
      0,
-     "Levator is supplied from a single midline central caudal subnucleus to both sides, so nuclear lesions give bilateral ptosis."
+     "Both levators are supplied from a single unpaired midline group (the central caudal subnucleus).\nA lesion of this midline subnucleus therefore gives bilateral ptosis, not unilateral."
     ],
     [
      "The Edinger-Westphal nucleus lies caudal to the somatic nucleus",
      0,
-     "Last's: it lies cranial (rostral) to the somatic part."
+     "The Edinger–Westphal (parasympathetic) nucleus lies cranial (rostral) and dorsal to the somatic part of the oculomotor complex.\nThis positioning means some rostral midbrain lesions affect the pupil while sparing parts of the somatic nucleus."
     ],
     [
      "A unilateral nuclear lesion can produce isolated unilateral ptosis",
      0,
-     "Because levator is supplied from a single midline subnucleus, ptosis from a nuclear lesion is bilateral."
+     "Because levator is supplied from a single midline subnucleus to both sides, a nuclear lesion causes bilateral ptosis, or none.\nIsolated unilateral ptosis points to a lesion of the nerve (fascicle or peripheral) or to Horner's syndrome, not to the nucleus."
     ]
    ]
   },
@@ -65,22 +65,22 @@
     [
      "Weakness of the right superior oblique",
      0,
-     "Trochlear fibres decussate, so the right nucleus supplies the left superior oblique."
+     "Trochlear fibres decussate in the superior medullary velum, so the right nucleus supplies the left superior oblique.\nA lesion of the right trochlear nerve after it emerges would weaken the right superior oblique. The side depends on whether the lesion is before or after the crossing."
     ],
     [
      "Weakness of the left superior oblique",
      1,
-     "Last's: each trochlear nerve supplies the superior oblique of the opposite side."
+     "Each trochlear nucleus supplies the superior oblique of the opposite side, because all its fibres cross dorsally before emerging.\nIV is the only cranial nerve whose nucleus supplies an entirely contralateral muscle."
     ],
     [
      "Head tilt towards the left",
      0,
-     "Patients tilt the head away from the side of the weak superior oblique, i.e. towards the right here."
+     "Patients tilt the head away from the side of the weak superior oblique, to make up for the lost intorsion. With the left superior oblique weak, the tilt is to the right.\nThe Bielschowsky test uses this: tilting the head towards the weak side makes the vertical deviation worse."
     ],
     [
      "Vertical diplopia worse on looking down and to the right",
      1,
-     "The left superior oblique depresses the adducted left eye, which occurs on looking down and right."
+     "Superior oblique is the main depressor of the adducted eye. The left superior oblique is used on looking down and to the right (left eye adducted), so diplopia is worst there.\nIf it were the right superior oblique, diplopia would be worst on looking down and to the left."
     ]
    ]
   },
@@ -92,22 +92,22 @@
     [
      "It runs upward between the anterior inferior cerebellar artery and the pons",
      1,
-     "Last's: in the pontine cistern."
+     "From its emergence at the pontomedullary junction, VI runs upward in the pontine cistern, usually between the anterior inferior cerebellar artery and the pons.\nThis position means AICA loops can compress it, and it is exposed in clival and prepontine surgery."
     ],
     [
      "It pierces the dura on the clivus above the level of the jugular tubercle",
      1,
-     "True. After running up through the pontine cistern, VI pierces the dura on the clivus above the jugular tubercle and runs between the dural layers to the petrous apex. (Last's)"
+     "After running up through the pontine cistern, VI pierces the dura on the clivus above the level of the jugular tubercle. It then runs between the dural layers up to the petrous apex.\nThe point of dural entry fixes the nerve. Downward shift of the brainstem with raised pressure stretches it over the petrous apex."
     ],
     [
      "It enters the cavernous sinus through the inferior petrosal sinus beneath the petroclinoid ligament",
      1,
-     "Dorello's canal."
+     "At the petrous apex VI passes beneath the petroclinoid (petrosphenoidal) ligament in Dorello's canal, entering the back of the cavernous sinus through the inferior petrosal sinus.\nIt then runs lateral to the internal carotid artery within the sinus, not in the lateral wall."
     ],
     [
      "It enters the tendinous ring above the superior division of the oculomotor nerve",
      0,
-     "Last's: it enters below the inferior division of III."
+     "VI enters the common tendinous ring below the inferior division of III, and passes forward to enter the medial (deep) surface of lateral rectus.\nWithin the ring the order from above down is: superior division of III, nasociliary nerve, inferior division of III, then VI lowest."
     ]
    ]
   },
@@ -119,22 +119,22 @@
     [
      "In Meckel's cave the mandibular fibres lie most laterally and the ophthalmic most medially",
      1,
-     "Last's: at the pons the mandibular fibres are superior and ophthalmic inferior; the root then rotates."
+     "At the pons the sensory fibres are arranged with the mandibular fibres superior and ophthalmic inferior. The root then rotates, so that in Meckel's cave and the ganglion the ophthalmic fibres lie most medial and the mandibular fibres most lateral.\nThis matches the ganglion's divisions: V1 passes medially into the cavernous sinus wall, V3 laterally down through foramen ovale."
     ],
     [
      "The motor root emerges above and medial to the sensory root",
      1,
-     "Last's. It spirals to enter the cave below the sensory root."
+     "The motor root emerges from the pons above and medial to the sensory root. It then spirals around the sensory root to pass below the ganglion and join V3.\nThe motor root has no fibres in V1 or V2; it supplies the muscles of mastication, mylohyoid, anterior belly of digastric and the two tensors."
     ],
     [
      "The cave contains CSF around the posterior half of the ganglion",
      1,
-     "Last's: the dura fuses with the pia halfway along the ganglion."
+     "The arachnoid and subarachnoid space extend into Meckel's cave around the trigeminal root and the posterior half of the ganglion, where the dura fuses with the pia.\nThat is why glycerol or other injections into the cave (rhizotomy) can be delivered into CSF."
     ],
     [
      "The ganglion's chief blood supply is the posterior communicating artery",
      0,
-     "Last's: ganglionic branches of the ICA and, appreciably, the accessory meningeal artery."
+     "The trigeminal ganglion is supplied by ganglionic branches of the internal carotid artery and, appreciably, by the accessory meningeal artery (from the maxillary artery), with contributions from the middle meningeal artery.\nThe posterior communicating artery supplies the hypothalamus, thalamus and optic tract regions, not the trigeminal ganglion."
     ]
    ]
   },
@@ -146,22 +146,22 @@
     [
      "Is possible because the anterior ganglion and mandibular division lie between two layers of dura",
      1,
-     "True. The anterior half of the ganglion and the mandibular division lie between the dural layers of the middle fossa floor, so stripping the dura reaches them without entering the CSF. (Last's)"
+     "The anterior half of the trigeminal ganglion and the mandibular division lie between the two layers of dura in the floor of the middle fossa. Stripping the dura extradurally reaches them without opening the subarachnoid space.\nThe posterior half of the ganglion and the root are within the CSF-filled cave, so reaching those needs the dura opened."
     ],
     [
      "May cause transient facial palsy from traction on the greater petrosal nerve",
      1,
-     "Last's: oedema at the geniculate ganglion compresses facial motor fibres."
+     "Elevating the dura of the middle fossa floor pulls on the greater petrosal nerve, which is attached at the geniculate ganglion. Traction and oedema at the geniculate ganglion can compress the facial motor fibres and cause a transient facial palsy.\nThis is why surgeons divide or carefully free the greater petrosal nerve during this approach."
     ],
     [
      "Necessarily enters the subarachnoid space to reach the sensory root",
      0,
-     "The sensory root and posterior half of the ganglion are bathed in CSF, but the extradural approach to the anterior ganglion avoids the subarachnoid space."
+     "The extradural approach reaches the anterior ganglion and V3 between the dural layers without entering the subarachnoid space.\nOnly the posterior part of the ganglion and the sensory root lie in CSF. A transcutaneous approach through foramen ovale, by contrast, enters the cave."
     ],
     [
      "Risks the abducent nerve less than the trochlear nerve because the abducent lies in the lateral sinus wall",
      0,
-     "VI lies within the sinus, not in its lateral wall."
+     "VI lies within the cavernous sinus, lateral to the internal carotid artery, not in the lateral wall. IV lies in the lateral wall.\nThe ordering in the lateral wall is III, IV, V1, V2. Being in the wall, IV is the more exposed in lateral approaches, but VI is at risk if the sinus is entered."
     ]
    ]
   },
@@ -173,22 +173,22 @@
     [
      "The glossopharyngeal nerve lies lateral to the inferior petrosal sinus in the anterior compartment",
      1,
-     "True. In the anterior compartment IX lies lateral to the inferior petrosal sinus, separated from X and XI by a fibrous septum. (Last's)"
+     "The jugular foramen is divided into compartments. In the anterior compartment IX lies lateral to the inferior petrosal sinus, separated from X and XI by a fibrous septum.\nThat septum is why IX has its own dural sheath while X and XI share one."
     ],
     [
      "The vagus lies lateral to the accessory nerve",
      0,
-     "Last's: the accessory lies lateral to the vagus in the middle compartment."
+     "In the middle compartment the accessory nerve lies lateral to the vagus, not medial.\nFrom medial to lateral across the foramen: inferior petrosal sinus, IX, X, XI, then the jugular bulb posterolaterally."
     ],
     [
      "The cochlear canaliculus opens into the glossopharyngeal notch",
      1,
-     "Last's: perilymph drains to the subarachnoid space here."
+     "The cochlear canaliculus (aqueduct of the cochlea) opens into the glossopharyngeal notch at the medial part of the jugular foramen. It allows perilymph to drain into the subarachnoid space.\nIt is a useful landmark for IX in skull base surgery."
     ],
     [
      "The jugular bulb occupies the posterior and largest compartment",
      1,
-     "True. The sigmoid sinus expands into the jugular bulb in the posterior and largest compartment, then becomes the IJV. (Last's)"
+     "The sigmoid sinus expands into the jugular bulb, which occupies the posterior and largest compartment of the foramen and then continues as the internal jugular vein.\nA high jugular bulb can bulge into the floor of the middle ear, an important hazard in ear surgery."
     ]
    ]
   },
@@ -200,22 +200,22 @@
     [
      "The superior vagal ganglion contains cell bodies for the meningeal and auricular branches",
      1,
-     "True. The small superior ganglion holds cell bodies only for the meningeal and auricular branches; the inferior ganglion holds all the other vagal afferents. (Last's)"
+     "The small superior (jugular) ganglion of X contains cell bodies for the meningeal and auricular branches, which carry general somatic sensation (posterior fossa dura, external acoustic meatus).\nThese fibres end in the spinal trigeminal nucleus, like other somatic sensory fibres in cranial nerves."
     ],
     [
      "The inferior vagal ganglion contains cell bodies of the other vagal sensory fibres",
      1,
-     "Including laryngeal, cardiac and visceral afferents."
+     "The larger inferior (nodose) ganglion contains the cell bodies of all the other vagal afferents: laryngeal, pharyngeal, cardiac, pulmonary and abdominal visceral sensation, and taste from the epiglottic region.\nThese visceral fibres end in the nucleus of the tractus solitarius."
     ],
     [
      "The cranial accessory fibres join the vagus at the inferior vagal ganglion",
      1,
-     "Last's: they are effectively the vagal motor root from the nucleus ambiguus."
+     "The cranial accessory fibres arise from the nucleus ambiguus and join the vagus at the inferior vagal ganglion. They are effectively a motor root of the vagus, distributed in its pharyngeal and laryngeal branches.\nThe spinal accessory, by contrast, supplies sternocleidomastoid and trapezius."
     ],
     [
      "The spinal accessory rootlets emerge anterior to the denticulate ligament",
      0,
-     "Last's: they emerge from the lateral cord behind the denticulate ligament."
+     "The spinal accessory rootlets emerge from the lateral surface of the cord behind (posterior to) the denticulate ligament, between the anterior and posterior roots, and ascend through the foramen magnum.\nThe denticulate ligament is a guide in surgery: anterior roots lie in front of it, posterior roots and XI behind."
     ]
    ]
   },
@@ -227,22 +227,22 @@
     [
      "Its rootlets pass through the inferior olivary nucleus before emerging",
      1,
-     "True. Hypoglossal fibres pass ventrally through the inferior olivary nucleus and emerge between pyramid and olive. (Last's)"
+     "Hypoglossal fibres pass ventrally from the nucleus through the medulla, lateral to the medial lemniscus, often through the inferior olivary nucleus, and emerge in the anterolateral sulcus between pyramid and olive.\nA medial medullary syndrome therefore combines ipsilateral tongue weakness with contralateral hemiplegia (pyramid) and loss of dorsal column sensation (medial lemniscus)."
     ],
     [
      "All its non-lingual branches carry C1 fibres",
      1,
-     "Meningeal, superior root of ansa, thyrohyoid and geniohyoid."
+     "All branches of XII other than those to the tongue muscles are really C1 fibres travelling with it: the meningeal branch, the superior root of the ansa cervicalis, and the nerves to thyrohyoid and geniohyoid.\nXII itself supplies only tongue muscles."
     ],
     [
      "It exits the skull medial and posterior to the jugular foramen",
      1,
-     "Last's: the hypoglossal canal lies deep to the jugular foramen."
+     "XII leaves through the hypoglossal canal, which lies deep (medial and posterior) to the jugular foramen, above the occipital condyle. It then descends lateral to the vagus.\nIn the neck it comes forward between the internal jugular vein and internal carotid artery, deep to the posterior belly of digastric."
     ],
     [
      "It supplies all the intrinsic and extrinsic muscles of the tongue",
      0,
-     "Palatoglossus is supplied by the pharyngeal plexus."
+     "XII supplies all intrinsic and all extrinsic tongue muscles except palatoglossus, which is supplied by the pharyngeal plexus (X).\nThat single exception is the key point. Palatoglossus is functionally a palatal muscle, and all palatal muscles except tensor veli palatini are X."
     ]
    ]
   },
@@ -254,22 +254,22 @@
     [
      "The optic tract is supplied chiefly by the anterior choroidal and posterior communicating arteries",
      1,
-     "True. The anterior choroidal and posterior communicating arteries supply the optic tract. (Last's)"
+     "The optic tract is supplied chiefly by the anterior choroidal artery (from the internal carotid) and the posterior communicating artery.\nAnterior choroidal occlusion can therefore cause a contralateral homonymous hemianopia, along with hemiparesis from posterior limb of internal capsule infarction."
     ],
     [
      "The chiasma and intracranial optic nerve are supplied by the anterior cerebral artery",
      1,
-     "True. The chiasma and the intracranial optic nerve are supplied by branches of the anterior cerebral artery. (Last's)"
+     "The chiasma and the intracranial optic nerve are supplied by branches of the anterior cerebral artery (with small contributions from the internal carotid and anterior communicating arteries).\nThese perforators must be preserved in anterior communicating aneurysm surgery."
     ],
     [
      "A pituitary tumour first compresses the upper posterior part of the chiasma",
      0,
-     "Last's: it presses on the lower anterior part of the chiasma and the medial sides of the optic nerves."
+     "A pituitary tumour rises from below and first presses on the lower anterior part of the chiasma and the medial sides of the optic nerves.\nSince crossing fibres from the lower nasal retina (upper temporal fields) lie lowest, the field defect classically begins in the upper temporal quadrants. A craniopharyngioma, pressing from above and behind, tends to affect the lower quadrants first."
     ],
     [
      "The central retinal artery supplies about the anterior 1 cm of the intraorbital nerve",
      1,
-     "Last's: the posterior 2 cm by the ophthalmic artery."
+     "The central retinal artery enters the optic nerve about 1 cm behind the globe, so it supplies about the anterior 1 cm of the intraorbital nerve. The posterior 2 cm are supplied by pial branches of the ophthalmic artery.\nSo central retinal artery occlusion damages the retina but leaves most of the nerve's blood supply intact."
     ]
    ]
   },
@@ -281,22 +281,22 @@
     [
      "Oculomotor about 24 000",
      1,
-     "True. The oculomotor nerve has about 24 000 fibres; the trochlear is the smallest with about 3400. (Last's)"
+     "Last's gives the oculomotor nerve about 24 000 fibres.\nCompare the trochlear (about 3400, the smallest) and abducent (about 6600). Large fibre numbers fit a nerve supplying four extraocular muscles, levator and the pupil."
     ],
     [
      "Trochlear about 34 000",
      0,
-     "About 3400; it is the smallest cranial nerve."
+     "The trochlear nerve has about 3400 fibres, not 34 000. It is the smallest cranial nerve.\nNote the difference of a factor of ten: a typical \"one number changed\" trap. The largest of the three ocular motor nerves is III."
     ],
     [
      "Abducent about 6600",
      1,
-     "True. The abducent nerve contains about 6600 fibres. (Last's)"
+     "Last's gives the abducent nerve about 6600 fibres.\nIt supplies only lateral rectus, so it is far smaller than III, though larger than IV."
     ],
     [
      "Cochlear about 3000",
      0,
-     "About 30 000. The vestibular nerve has about 18 000."
+     "The cochlear nerve contains about 30 000 fibres, not 3000. The vestibular nerve has about 18 000.\nAnother factor-of-ten trap. The cochlear nerve is the larger of the two parts of VIII."
     ]
    ]
   },
@@ -308,22 +308,22 @@
     [
      "Foramen rotundum lies anteromedial to foramen ovale",
      1,
-     "Foramen rotundum lies in front of and slightly medial to foramen ovale, opening into the pterygopalatine fossa."
+     "Foramen rotundum lies in front of and slightly medial to foramen ovale, and opens forward into the pterygopalatine fossa, carrying V2.\nThe three foramina in the greater wing of the sphenoid run in a curve from anteromedial to posterolateral: rotundum, ovale, spinosum."
     ],
     [
      "The carotid canal opens posterior to foramen ovale",
      1,
-     "The carotid canal lies posteromedial to foramen ovale and spinosum, in the petrous bone."
+     "The carotid canal lies posteromedial to foramen ovale and foramen spinosum, in the petrous temporal bone.\nThe internal carotid artery then emerges above foramen lacerum to enter the cavernous sinus."
     ],
     [
      "Foramen spinosum lies anteromedial to foramen ovale",
      0,
-     "Foramen spinosum lies posterolateral to foramen ovale."
+     "Foramen spinosum lies posterolateral to foramen ovale, close to the spine of the sphenoid. It carries the middle meningeal artery.\nThe order rotundum, ovale, spinosum runs from anteromedial to posterolateral, so \"anteromedial\" describes rotundum, not spinosum."
     ],
     [
      "The petrosal foramen, when present, lies behind foramen ovale and transmits the lesser petrosal nerve",
      1,
-     "Last's. The venous foramen of Vesalius lies medial to it."
+     "When present, the small petrosal foramen (innominate canal) lies behind foramen ovale and transmits the lesser petrosal nerve to the otic ganglion. Otherwise the nerve passes through foramen ovale.\nThe emissary foramen of Vesalius, when present, lies medial to foramen ovale and transmits a vein from the cavernous sinus."
     ]
    ]
   }
