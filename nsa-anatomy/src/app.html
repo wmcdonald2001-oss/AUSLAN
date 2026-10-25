@@ -49,6 +49,18 @@ h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; mar
 .sync { margin-left: auto; font-size: 0.78rem; color: var(--muted); display: flex; align-items: center; gap: 6px; }
 .sync i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; }
 .sync.on i { background: var(--true); }
+.tally { display: inline-flex; align-items: center; justify-content: flex-end; gap: 6px; }
+.arrow { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; min-width: 36px; min-height: 32px; font: inherit; font-size: 1.15rem; line-height: 1; cursor: pointer; }
+.arrow:disabled { opacity: 0.35; cursor: default; }
+.tree-wrap { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 16px; align-items: center; }
+.tree-wrap svg { width: 100%; height: auto; display: block; }
+@media (max-width: 640px) { .tree-wrap { grid-template-columns: 1fr; } }
+.stage { font-size: 1.35rem; font-weight: 800; margin: 0; }
+.stats-mini { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 12px 0; }
+.stats-mini div { border: 1px solid var(--line); border-radius: 10px; padding: 8px; text-align: center; }
+.stats-mini b { display: block; font-size: 1.25rem; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.82rem; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
 .theme-btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: 0.8rem; cursor: pointer; min-height: 32px; align-self: center; }
 nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
 nav.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
@@ -208,7 +220,8 @@ table.stats td.meter { width: 32%; }
 </header>
 <nav class="tabs" aria-label="Sections">
   <div class="wrap" role="tablist">
-    <button role="tab" id="tab-practice" aria-selected="true" data-view="practice">Practice</button>
+    <button role="tab" id="tab-home" aria-selected="true" data-view="home">Home</button>
+    <button role="tab" id="tab-practice" aria-selected="false" data-view="practice">Practice</button>
     <button role="tab" id="tab-exam" aria-selected="false" data-view="exam">Exam</button>
     <button role="tab" id="tab-cards" aria-selected="false" data-view="cards">Cards</button>
     <button role="tab" id="tab-today" aria-selected="false" data-view="today">Today</button>
@@ -219,7 +232,11 @@ table.stats td.meter { width: 32%; }
 
 <main>
   <div class="wrap">
-    <section id="view-practice">
+    <section id="view-home">
+      <div id="home-area"></div>
+    </section>
+
+    <section id="view-practice" hidden>
       <details class="filters panel" id="practice-filters" open>
         <summary><span>Choose questions <span class="count" id="practice-count"></span></span></summary>
         <div class="filter-body">
@@ -266,7 +283,7 @@ table.stats td.meter { width: 32%; }
 /* ---------- theme ---------- */
 (function () {
   const order = ['auto', 'light', 'dark'];
-  const labels = { auto: '◐ Theme: auto', light: '☀ Theme: light', dark: '☾ Theme: dark' };
+  const labels = { auto: 'Theme: auto', light: 'Theme: light', dark: 'Theme: dark' };
   let mode = 'auto';
   try { mode = localStorage.getItem('nsa-theme') || 'auto'; } catch (e) { /* storage unavailable */ }
   const apply = () => {
@@ -414,6 +431,8 @@ function encodeAnswer(q, ans) {
 function recordQuestion(id, score, ans) {
   const now = Date.now();
   const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
+  // Only the first attempt counts towards progress and the daily breakdown; later attempts are kept as reviews.
+  if (rec.a) { state.q[id] = { ...rec, rv: (rec.rv || 0) + 1, rl: score, t: now }; return; }
   state.q[id] = { ...rec, a: rec.a + 1, c: rec.c + (score === 1 ? 1 : 0), l: score, t: now };
   const day = dayKey(now);
   state.h = state.h || {};
@@ -479,12 +498,23 @@ function renderQuestion(q, opts) {
       group.append(option(`${k}. ${v}`, opts.ans === k, opts.reveal && k === q.k, () => opts.onAnswer(k), 'Answer'));
     }
     const item = h('div', { class: 'mq-item' }, h('div', { class: 'mq-text', text: 'Select one:' }), group);
-    if (opts.reveal) item.append(feedback(opts.ans === q.k, [`The answer is ${q.k}: ${KEY_TEXT[q.k]}.`, ...q.o.map((o, i) => `${i + 1}. ${o[1] ? 'True' : 'False'}. ${o[2]}`)]));
+    if (opts.reveal) item.append(feedback(opts.ans === q.k, [`The answer is ${q.k}: ${KEY_TEXT[q.k]}.`, ...q.o.map((o, i) => `${i + 1}. ${o[1] ? 'True' : 'False'}. ${o[2]}`), keyReasoning(q)]));
     body.append(item);
   }
   const box = h('article', { class: 'q' }, head, body);
   if (opts.footer) box.append(opts.footer);
   return box;
+}
+const KEY_PATTERN = { A: 'TFFF', B: 'FTFT', C: 'TTTF', D: 'FFFT', E: 'TTTT' };
+// Why each other letter fails: the first statement whose truth breaks that letter's pattern.
+function keyReasoning(q) {
+  const truth = q.o.map((o) => (o[1] ? 'T' : 'F')).join('');
+  const word = (c) => (c === 'T' ? 'true' : 'false');
+  const nots = Object.entries(KEY_PATTERN).filter(([k]) => k !== q.k).map(([k, pat]) => {
+    const i = [...pat].findIndex((c, j) => c !== truth[j]);
+    return `not ${k} (that needs ${i + 1} to be ${word(pat[i])}, but it is ${word(truth[i])})`;
+  });
+  return `Why ${q.k}: ${truth.split('').map((c, i) => `${i + 1} is ${word(c)}`).join(', ')}. So ${nots.join('; ')}.`;
 }
 function scoreLabel(q, score) {
   const cls = score === 1 ? 'full' : score === 0 ? 'none' : 'part';
@@ -505,7 +535,7 @@ function chipGroup(container, items, selected, { multi = true, onChange }) {
 }
 
 /* ---------- practice ---------- */
-const practice = { regions: new Set(), type: 'all', diff: 'all', source: 'all', status: 'all', size: '20', queue: [], idx: 0, ans: null, reveal: false, results: {} };
+const practice = { regions: new Set(), type: 'all', diff: 'all', source: 'all', status: 'all', size: '20', queue: [], idx: 0, max: 0, ans: null, reveal: false, results: {}, drafts: {} };
 function practiceMatches() {
   return DATA.questions.filter((q) => {
     if (practice.regions.size && !practice.regions.has(q.r)) return false;
@@ -514,7 +544,7 @@ function practiceMatches() {
     if (practice.source !== 'all' && (q.src === "Last's text") !== (practice.source === 'lasts')) return false;
     const rec = state.q[q.id];
     if (practice.status === 'unseen' && rec && rec.a) return false;
-    if (practice.status === 'wrong' && !(rec && rec.a && rec.l < 1)) return false;
+    if (practice.status === 'wrong' && !(rec && rec.a && (rec.rl != null ? rec.rl : rec.l) < 1)) return false;
     if (practice.status === 'flagged' && !(rec && rec.f)) return false;
     return true;
   });
@@ -553,8 +583,12 @@ function renderPracticeFilters() {
 function startPractice(ids) {
   const pool = Array.isArray(ids) ? shuffle(ids.slice()) : shuffle(practiceMatches().map((q) => q.id));
   practice.queue = Array.isArray(ids) || practice.size === 'all' ? pool : pool.slice(0, +practice.size);
-  practice.idx = 0; practice.reveal = false; practice.ans = null; practice.results = {};
+  practice.idx = 0; practice.max = 0; practice.reveal = false; practice.ans = null; practice.results = {}; practice.drafts = {};
   if (window.matchMedia('(max-width: 700px)').matches) $('#practice-filters').open = false;
+  renderPractice();
+}
+function goPractice(i) {
+  practice.idx = Math.max(0, Math.min(i, practice.queue.length - 1)); practice.ans = null; practice.reveal = false;
   renderPractice();
 }
 function resultClass(res) { return !res ? 'todo' : res.score === 1 ? 'ok' : res.score === 0 ? 'bad' : 'part'; }
@@ -575,13 +609,15 @@ function renderPractice() {
           h('span', { class: 'count', text: `Marks ${total.toFixed(2)} out of ${done.length}.00 · ${done.length} of ${practice.queue.length} answered · ${full} fully correct · ${wrong.length} with mistakes` })),
         h('div', { class: 'row', style: 'margin-top:12px' },
           wrong.length ? h('button', { class: 'btn primary', text: `Redo the ${wrong.length} with mistakes`, onclick: () => startPractice(wrong) }) : null,
-          h('button', { class: `btn ${wrong.length ? '' : 'primary'}`, text: 'New block', onclick: () => startPractice() }))));
+          h('button', { class: `btn ${wrong.length ? '' : 'primary'}`, text: 'New block', onclick: () => startPractice() }),
+          h('button', { class: 'btn ghost', text: '‹ Review answers', onclick: () => goPractice(0) }))));
     return;
   }
+  practice.max = Math.max(practice.max, practice.idx);
   const q = QBYID[practice.queue[practice.idx]];
   const saved = practice.results[practice.idx];
   if (saved) { practice.ans = saved.ans; practice.reveal = true; }
-  if (practice.ans === null && !practice.reveal) practice.ans = blankAnswer(q);
+  if (practice.ans === null && !practice.reveal) practice.ans = practice.drafts[practice.idx] || blankAnswer(q);
   const ans = practice.ans;
   const rec = state.q[q.id];
   const foot = h('div', { class: 'q-foot' });
@@ -602,8 +638,11 @@ function renderPractice() {
   }
   area.replaceChildren(renderQuestion(q, {
     ans, reveal: practice.reveal,
-    onAnswer: practice.reveal ? null : (nextAns) => { practice.ans = nextAns; renderPractice(); },
-    headExtra: h('span', { class: 'grow tally', text: `Answered ${done.length}/${practice.queue.length} · ${total.toFixed(2)} marks` }),
+    onAnswer: practice.reveal ? null : (nextAns) => { practice.ans = nextAns; practice.drafts[practice.idx] = nextAns; renderPractice(); },
+    headExtra: h('span', { class: 'grow tally' },
+      h('button', { type: 'button', class: 'arrow', text: '‹', 'aria-label': 'Previous question', disabled: practice.idx === 0, onclick: () => goPractice(practice.idx - 1) }),
+      h('span', { text: `Q${practice.idx + 1} · Answered ${done.length}/${practice.queue.length} · ${total.toFixed(2)} marks` }),
+      h('button', { type: 'button', class: 'arrow', text: '›', 'aria-label': 'Next question', disabled: practice.idx >= practice.max, onclick: () => goPractice(practice.idx + 1) })),
     footer: foot,
   }));
 }
@@ -632,14 +671,20 @@ function renderExam() {
     } });
     area.replaceChildren(h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'Mock exam' }),
-      h('p', { style: 'margin:0 0 12px', text: 'The real paper is 60 questions in 100 minutes with a 70% pass mark. Answers are hidden until you finish.' }),
+      h('p', { style: 'margin:0 0 12px', text: 'The real paper is 60 questions in 100 minutes with a 70% pass mark: 20 Type 1 (true/false) followed by 40 Type 2 (key A–E). Mock exams keep that split. Answers are hidden until you finish.' }),
       h('p', { class: 'label', text: 'Region' }), regionsBox,
       h('p', { class: 'label', style: 'margin-top:12px', text: 'Difficulty' }), diffBox,
       h('div', { class: 'row', style: 'margin-top:14px' },
         h('label', { for: 'exam-n', text: 'Questions' }), nInput,
         h('span', { class: 'count', text: `Time allowed: ${Math.round(n * 100 / 60)} min · ${pool.length} available` })),
       h('div', { class: 'row', style: 'margin-top:14px' }, h('button', { class: 'btn primary', text: 'Start exam', disabled: pool.length < 5, onclick: () => {
-        exam.ids = shuffle(pool.map((q) => q.id)).slice(0, n);
+        // The real paper is 20 Type 1 then 40 Type 2; keep that one-third split, topping up from the other type if short.
+        const t1 = shuffle(pool.filter((q) => q.y === 1).map((q) => q.id));
+        const t2 = shuffle(pool.filter((q) => q.y === 2).map((q) => q.id));
+        let n1 = Math.min(t1.length, Math.round(n / 3));
+        const n2 = Math.min(t2.length, n - n1);
+        n1 = Math.min(t1.length, n - n2);
+        exam.ids = [...t1.slice(0, n1), ...t2.slice(0, n2)];
         exam.ans = exam.ids.map((id) => blankAnswer(QBYID[id]));
         exam.cur = 0; exam.duration = Math.round(n * 100 / 60) * 60000; exam.ends = Date.now() + exam.duration; exam.phase = 'run'; renderExam();
       } }))));
@@ -828,9 +873,9 @@ function dayReport(day) {
     for (const w of wrong) {
       text += `\n\n${REGION[w.q.r]}: ${w.q.s}`;
       for (const l of w.lines) {
-        if (w.q.y === 1) text += `\n ${l.label}. ${l.text} -> ${l.answer} (you: ${l.yours})`;
+        if (w.q.y === 1) text += `\n ${l.label}. ${l.text} -> ${l.answer} (you: ${l.yours})\n    Why: ${l.why}`;
         else if (l.label === 'Key') text += `\n ${l.text}`;
-        else text += `\n ${l.label}. ${l.text} -> ${l.answer}`;
+        else text += `\n ${l.label}. ${l.text} -> ${l.answer}\n    Why: ${l.why}`;
       }
     }
   }
@@ -974,7 +1019,7 @@ function renderProgress() {
     h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'Overall' }),
       h('div', { class: 'row' }, h('span', { class: 'big', text: attempted ? pct(totalScore / attempted) : '–' }),
-        h('span', { class: 'count', text: `average on your latest attempt at ${seen} of ${DATA.questions.length} questions · ${flagged} flagged` })),
+        h('span', { class: 'count', text: `average on your first attempt at ${seen} of ${DATA.questions.length} questions (repeats are not counted) · ${flagged} flagged` })),
       DATA.cards.length ? h('p', { class: 'count', style: 'margin:8px 0 0', text: `Flashcards: ${reviewed} of ${DATA.cards.length} studied, ${learned} well known (box 3 or higher)` }) : null),
     h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'By region' }),
@@ -997,9 +1042,105 @@ function renderFormat() {
     h('p', { text: `${DATA.questions.length} questions (${DATA.questions.length - t2} Type 1, ${t2} Type 2) across ${DATA.regions.length} regions${DATA.cards.length ? `, plus ${DATA.cards.length} flashcards from your Last's Anki deck` : ''}. Explanations quote Last's where its wording differs from other textbooks. Questions marked Harder go beyond the NSA level using ABNS primary-exam neuroanatomy (thalamic and basal ganglia circuits, gaze centres, brainstem syndromes); some of that detail is not in Last's. Built ${DATA.built}.` }));
 }
 
+/* ---------- home: the tree ---------- */
+// A fixed, seeded tree skeleton; how much of it shows depends on how many questions you have tried.
+const treeDepth = (g) => 1 + 7.5 * Math.sqrt(g);
+const TREE = (() => {
+  let seed = 20270219;
+  const rnd = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
+  const branches = [];
+  const grow = (x, y, ang, len, w, d) => {
+    const x2 = x + Math.cos(ang) * len, y2 = y + Math.sin(ang) * len;
+    branches.push({ x, y, x2, y2, w, d, ang });
+    if (d >= 8) return;
+    const kids = d >= 2 && d <= 5 && rnd() < 0.35 ? 3 : 2;
+    for (let k = 0; k < kids; k++) {
+      const spread = kids === 3 ? (k - 1) * 0.5 : (k ? 1 : -1) * (0.32 + rnd() * 0.22);
+      grow(x2, y2, ang + spread + (rnd() - 0.5) * 0.25, len * (0.72 + rnd() * 0.1), Math.max(0.8, w * 0.68), d + 1);
+    }
+  };
+  grow(200, 330, -Math.PI / 2, 68, 15, 0);
+  const n = DATA.questions.length;
+  const leaves = [];
+  for (let i = 0; i < n; i++) {
+    const top = Math.max(0, Math.floor(treeDepth((i + 1) / n)) - 1);
+    const pool = branches.filter((b) => b.d <= top && b.d >= top - 1);
+    const b = pool[Math.floor(rnd() * pool.length)] || branches[0];
+    const u = 0.45 + rnd() * 0.55, off = (rnd() - 0.5) * 14;
+    leaves.push({ x: b.x + (b.x2 - b.x) * u - Math.sin(b.ang) * off, y: b.y + (b.y2 - b.y) * u + Math.cos(b.ang) * off, rot: Math.round(rnd() * 180), s: 0.8 + rnd() * 0.5 });
+  }
+  return { branches, leaves };
+})();
+const STAGES = [[0, 'Seed'], [0.005, 'Sprout'], [0.05, 'Seedling'], [0.15, 'Sapling'], [0.3, 'Young tree'], [0.5, 'Growing tree'], [0.75, 'Mature tree'], [1, 'Ancient tree']];
+function treeSvg(tried) {
+  const n = DATA.questions.length, g = tried.length / n;
+  const L = treeDepth(g);
+  const parts = ['<ellipse cx="200" cy="334" rx="150" ry="14" fill="var(--true-bg)"/><path d="M60 334 Q200 318 340 334" fill="none" stroke="var(--true)" stroke-opacity=".35" stroke-width="2"/>'];
+  if (!tried.length) parts.push('<ellipse cx="200" cy="326" rx="7" ry="5" fill="#8a5a33"/>');
+  else {
+    for (const b of TREE.branches) {
+      if (b.d >= L) continue;
+      const f = Math.min(1, L - b.d);
+      parts.push(`<line x1="${b.x.toFixed(1)}" y1="${b.y.toFixed(1)}" x2="${(b.x + (b.x2 - b.x) * f).toFixed(1)}" y2="${(b.y + (b.y2 - b.y) * f).toFixed(1)}" stroke="#7a4f2c" stroke-width="${(b.w * (0.4 + 0.6 * Math.min(1, g * 2.5))).toFixed(1)}" stroke-linecap="round"/>`);
+    }
+    const colour = (s) => (s === 1 ? 'var(--true)' : s === 0 ? '#d9822b' : '#9bc23c');
+    tried.forEach((t, i) => {
+      const lf = TREE.leaves[i];
+      parts.push(`<ellipse cx="${lf.x.toFixed(1)}" cy="${lf.y.toFixed(1)}" rx="${(4.6 * lf.s).toFixed(1)}" ry="${(2.6 * lf.s).toFixed(1)}" transform="rotate(${lf.rot} ${lf.x.toFixed(1)} ${lf.y.toFixed(1)})" fill="${colour(t.s)}" fill-opacity=".9"/>`);
+    });
+    const fruit = Math.floor(tried.filter((t) => t.s === 1).length / 50);
+    for (let k = 0; k < fruit; k++) {
+      const lf = TREE.leaves[(k * 97 + 13) % Math.max(1, tried.length)];
+      parts.push(`<circle cx="${lf.x.toFixed(1)}" cy="${(lf.y + 4).toFixed(1)}" r="5" fill="#e0b324" stroke="#9a7410" stroke-width="1"/>`);
+    }
+  }
+  return `<svg viewBox="0 0 400 350" role="img" aria-label="Your tree: ${tried.length} leaves">${parts.join('')}</svg>`;
+}
+function studyStreak() {
+  const days = new Set(Object.keys(state.h || {}).filter((d) => Object.keys(state.h[d]).length));
+  let streak = 0;
+  const d = new Date();
+  if (!days.has(dayKey(d.getTime()))) d.setDate(d.getDate() - 1);
+  while (days.has(dayKey(d.getTime()))) { streak++; d.setDate(d.getDate() - 1); }
+  return streak;
+}
+function renderHome() {
+  const n = DATA.questions.length;
+  const tried = DATA.questions.filter((q) => state.q[q.id] && state.q[q.id].a).map((q) => ({ s: state.q[q.id].l, t: state.q[q.id].t || 0 }));
+  const g = tried.length / n;
+  let stage = STAGES[0], next = null;
+  for (let i = 0; i < STAGES.length; i++) if (g >= STAGES[i][0] && (i === 0 || tried.length)) { stage = STAGES[i]; next = STAGES[i + 1] || null; }
+  const toNext = next ? Math.ceil(next[0] * n) - tried.length : 0;
+  const full = tried.filter((t) => t.s === 1).length;
+  const today = Object.keys((state.h || {})[dayKey()] || {}).length;
+  const streak = studyStreak();
+  const stagePct = next ? (g - stage[0]) / (next[0] - stage[0]) : 1;
+  $('#home-area').replaceChildren(h('div', { class: 'panel' },
+    h('div', { class: 'tree-wrap' },
+      h('div', { html: treeSvg(tried) }),
+      h('div', {},
+        h('p', { class: 'label', text: 'Your tree' }),
+        h('p', { class: 'stage', text: stage[1] }),
+        h('p', { class: 'count', style: 'margin:4px 0 8px', text: next ? `${toNext} more new question${toNext === 1 ? '' : 's'} to reach ${next[1]}` : 'Every question in the bank tried. Well done.' }),
+        h('div', { class: 'bar' }, h('span', { style: `width:${Math.round(stagePct * 100)}%` })),
+        h('div', { class: 'stats-mini' },
+          h('div', {}, h('b', { text: `${tried.length}` }), h('span', { class: 'count', text: `of ${n} done` })),
+          h('div', {}, h('b', { text: String(today) }), h('span', { class: 'count', text: 'new today' })),
+          h('div', {}, h('b', { text: String(streak) }), h('span', { class: 'count', text: `day streak` }))),
+        h('div', { class: 'legend' },
+          h('span', {}, h('i', { style: 'background:var(--true)' }), 'fully correct'),
+          h('span', {}, h('i', { style: 'background:#9bc23c' }), 'partly correct'),
+          h('span', {}, h('i', { style: 'background:#d9822b' }), 'wrong'),
+          h('span', {}, h('i', { style: 'background:#e0b324' }), `fruit: every 50 fully correct (${Math.floor(full / 50)})`)),
+        h('p', { class: 'count', style: 'margin:8px 0 12px', text: 'Each new question you try adds a leaf, coloured by your first attempt. Repeats do not grow the tree.' }),
+        h('div', { class: 'row' },
+          h('button', { class: 'btn primary', text: 'Grow it: 20 new questions', onclick: () => { practice.status = 'unseen'; practice.size = '20'; show('practice'); startPractice(); } }),
+          h('button', { class: 'btn', text: 'Mock exam', onclick: () => show('exam') }))))));
+}
+
 /* ---------- tabs & boot ---------- */
-const VIEWS = { practice: renderPractice, exam: renderExam, cards: renderCards, today: renderToday, progress: renderProgress, format: renderFormat };
-let currentView = 'practice';
+const VIEWS = { home: renderHome, practice: renderPractice, exam: renderExam, cards: renderCards, today: renderToday, progress: renderProgress, format: renderFormat };
+let currentView = 'home';
 function show(view) {
   if (view === 'practice') { renderPracticeFilters(); }
   currentView = view;
@@ -1014,6 +1155,7 @@ listeners.add(() => {
   if (currentView === 'practice') { renderPracticeFilters(); renderPractice(); }
   if (currentView === 'progress') renderProgress();
   if (currentView === 'today') renderToday();
+  if (currentView === 'home') renderHome();
 });
 function renderMeta() {
   const days = Math.ceil((EXAM_DATE - Date.now()) / 86400000);
@@ -1023,5 +1165,6 @@ loadLocal();
 renderMeta();
 renderPracticeFilters();
 renderPractice();
+renderHome();
 startSync();
 </script>
