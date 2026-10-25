@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>NSA Anatomy Bank</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -162,6 +163,12 @@ li.bad { background: var(--false-bg); }
 
 .timer { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.1rem; }
 .timer.low { color: var(--false); }
+.trend { position: relative; margin-top: 8px; }
+.trend svg { width: 100%; height: auto; display: block; overflow: visible; }
+.trend .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; font-size: 0.82rem; box-shadow: 0 2px 8px rgba(0,0,0,.15); white-space: nowrap; transform: translate(-50%, -110%); }
+.trend .tip b { display: block; font-size: 0.95rem; }
+.trend-table { font-size: 0.85rem; margin-top: 8px; }
+.trend-table summary { cursor: pointer; color: var(--muted); }
 .bar { height: 6px; background: var(--sunk); border-radius: 3px; overflow: hidden; }
 .bar > span { display: block; height: 100%; background: var(--accent); }
 .grid-nav { display: grid; grid-template-columns: repeat(auto-fill, minmax(2.4rem, 1fr)); gap: 4px; }
@@ -994,6 +1001,64 @@ function ankiPanel(day) {
 }
 
 /* ---------- progress ---------- */
+/* Day-by-day % on first attempts, with the 70% pass line. */
+let trendRange = '30';
+function dailySeries() {
+  return Object.keys(state.h || {}).sort().map((day) => {
+    const recs = Object.entries(state.h[day]).filter(([id]) => QBYID[id]).map(([, r]) => r.s);
+    return recs.length ? { day, n: recs.length, avg: recs.reduce((a, b) => a + b, 0) / recs.length } : null;
+  }).filter(Boolean);
+}
+function trendPanel() {
+  const all = dailySeries();
+  const pts = trendRange === 'all' ? all : all.slice(-(+trendRange));
+  const chips = h('div', { class: 'chips' });
+  chipGroup(chips, [{ value: '14', label: '2 weeks' }, { value: '30', label: '30 days' }, { value: 'all', label: 'All' }], trendRange, {
+    multi: false, onChange: (v) => { trendRange = v; renderProgress(); },
+  });
+  const nice = (d, long) => new Date(`${d}T12:00:00`).toLocaleDateString(undefined, long ? { weekday: 'short', day: 'numeric', month: 'short' } : { day: 'numeric', month: 'short' });
+  const panel = h('div', { class: 'panel' }, h('div', { class: 'row' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Daily score (first attempts)' }), chips));
+  if (!pts.length) { panel.append(h('p', { class: 'count', style: 'margin:8px 0 0', text: 'Answer some questions and your daily % will appear here.' })); return panel; }
+  const narrow = (document.getElementById('progress-area').clientWidth || 600) < 500;
+  const W = narrow ? 340 : 600, H = narrow ? 210 : 220, L = 34, R = 12, T = 12, B = 28;
+  const x = (i) => (pts.length === 1 ? L + (W - L - R) / 2 : L + (i * (W - L - R)) / (pts.length - 1));
+  const y = (v) => T + (1 - v) * (H - T - B);
+  const parts = [];
+  for (const g of [0, 0.25, 0.5, 0.75, 1]) parts.push(`<line x1="${L}" x2="${W - R}" y1="${y(g)}" y2="${y(g)}" stroke="var(--line)" stroke-width="1"/><text x="${L - 6}" y="${y(g) + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${g * 100}%</text>`);
+  parts.push(`<line x1="${L}" x2="${W - R}" y1="${y(0.7)}" y2="${y(0.7)}" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="5 4"/><text x="${W - R}" y="${y(0.7) - 5}" text-anchor="end" font-size="11" fill="var(--muted)">pass 70%</text>`);
+  if (pts.length > 1) parts.push(`<polyline fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p.avg).toFixed(1)}`).join(' ')}"/>`);
+  pts.forEach((p, i) => parts.push(`<circle cx="${x(i).toFixed(1)}" cy="${y(p.avg).toFixed(1)}" r="4.5" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>`));
+  const step = Math.max(1, Math.ceil(pts.length / 6));
+  pts.forEach((p, i) => { if (i % step === 0 || i === pts.length - 1) parts.push(`<text x="${x(i).toFixed(1)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="var(--muted)">${nice(p.day)}</text>`); });
+  const wrap = h('div', { class: 'trend' });
+  wrap.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily first-attempt score, ${pts.length} days">${parts.join('')}</svg>`;
+  const tip = h('div', { class: 'tip', hidden: true });
+  wrap.append(tip);
+  const svg = wrap.firstChild;
+  const showAt = (clientX) => {
+    const r = svg.getBoundingClientRect();
+    const sx = ((clientX - r.left) / r.width) * W;
+    let best = 0;
+    pts.forEach((p, i) => { if (Math.abs(x(i) - sx) < Math.abs(x(best) - sx)) best = i; });
+    const p = pts[best];
+    tip.replaceChildren(h('b', { text: pct(p.avg) }), `${nice(p.day, true)} · ${p.n} question${p.n === 1 ? '' : 's'}`);
+    tip.style.left = `${(x(best) / W) * r.width}px`;
+    tip.style.top = `${(y(p.avg) / H) * r.height}px`;
+    tip.hidden = false;
+  };
+  svg.addEventListener('pointermove', (e) => showAt(e.clientX));
+  svg.addEventListener('pointerdown', (e) => showAt(e.clientX));
+  svg.addEventListener('pointerleave', () => { tip.hidden = true; });
+  const last7 = all.slice(-7);
+  const avg7 = last7.reduce((a, p) => a + p.avg * p.n, 0) / Math.max(1, last7.reduce((a, p) => a + p.n, 0));
+  panel.append(
+    h('p', { class: 'count', style: 'margin:6px 0 0', text: `Last 7 study days: ${pct(avg7)} on ${last7.reduce((a, p) => a + p.n, 0)} questions` }),
+    wrap,
+    h('details', { class: 'trend-table' }, h('summary', { text: 'Show as table' }),
+      h('div', { class: 'table-scroll' }, h('table', { class: 'stats' }, h('tr', {}, h('th', { text: 'Day' }), h('th', { text: 'Questions' }), h('th', { text: 'Score' })),
+        ...pts.slice().reverse().map((p) => h('tr', {}, h('td', { text: nice(p.day, true) }), h('td', { class: 'num', text: String(p.n) }), h('td', { class: 'num', text: pct(p.avg) })))))));
+  return panel;
+}
 let resetArmed = false;
 function renderProgress() {
   const area = $('#progress-area');
@@ -1027,6 +1092,7 @@ function renderProgress() {
       h('div', { class: 'row' }, h('span', { class: 'big', text: attempted ? pct(totalScore / attempted) : '–' }),
         h('span', { class: 'count', text: `average on your first attempt at ${seen} of ${DATA.questions.length} questions (repeats are not counted) · ${flagged} flagged` })),
       DATA.cards.length ? h('p', { class: 'count', style: 'margin:8px 0 0', text: `Flashcards: ${reviewed} of ${DATA.cards.length} studied, ${learned} well known (box 3 or higher)` }) : null),
+    trendPanel(),
     h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'By region' }),
       h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },
