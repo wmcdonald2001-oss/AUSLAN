@@ -23,6 +23,8 @@
   --fb-bg: #fcf3d4;
   --fb-ink: #3b3216;
   --part: #e8973a;
+  --series1: #1d5c9e;
+  --series2: #c2620a;
   --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
   --radius: 10px;
@@ -30,13 +32,13 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0e1318; --surface: #161d24; --sunk: #1d252e; --ink: #e5e9ed; --muted: #9ba6b2; --line: #2b3540;
-    --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c; --fb-bg: #3a3218; --fb-ink: #f1e7c4; --part: #e5a14c;
+    --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c; --fb-bg: #3a3218; --fb-ink: #f1e7c4; --part: #e5a14c; --series1: #4f8fdc; --series2: #c27a22;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e1318; --surface: #161d24; --sunk: #1d252e; --ink: #e5e9ed; --muted: #9ba6b2; --line: #2b3540;
-  --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c; --fb-bg: #3a3218; --fb-ink: #f1e7c4; --part: #e5a14c;
+  --accent: #6ea8f0; --accent-ink: #0b1622; --true: #5cc98d; --true-bg: #143223; --false: #ff8578; --false-bg: #3a1916; --flag: #e5ae4c; --fb-bg: #3a3218; --fb-ink: #f1e7c4; --part: #e5a14c; --series1: #4f8fdc; --series2: #c27a22;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -166,7 +168,8 @@ li.bad { background: var(--false-bg); }
 .trend { position: relative; margin-top: 8px; }
 .trend svg { width: 100%; height: auto; display: block; overflow: visible; }
 .trend .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; font-size: 0.82rem; box-shadow: 0 2px 8px rgba(0,0,0,.15); white-space: nowrap; transform: translate(-50%, -110%); }
-.trend .tip b { display: block; font-size: 0.95rem; }
+.trend .tip b { display: block; font-size: 0.9rem; }
+.trend .tip .sw { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; }
 .trend-table { font-size: 0.85rem; margin-top: 8px; }
 .trend-table summary { cursor: pointer; color: var(--muted); }
 .bar { height: 6px; background: var(--sunk); border-radius: 3px; overflow: hidden; }
@@ -366,6 +369,15 @@ function mergeStates(a, b) {
       }
     }
   }
+  out.x = {};
+  for (const src of [a, b]) {
+    for (const [day, entries] of Object.entries((src && src.x) || {})) {
+      for (const [key, rec] of Object.entries(entries)) {
+        if ((rec.t || 0) <= reset) continue;
+        out.x[day] = { ...(out.x[day] || {}), [key]: rec };
+      }
+    }
+  }
   return out;
 }
 const sync = { db: null, ref: null, pending: false, writing: false, lastRemote: '' };
@@ -435,11 +447,20 @@ function encodeAnswer(q, ans) {
   if (q.y === 2) return ans || '';
   return ans.map((v) => (v === null ? '?' : v ? 'T' : 'F')).join('');
 }
-function recordQuestion(id, score, ans) {
+function recordQuestion(id, score, ans, redo = false) {
   const now = Date.now();
   const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
   // Only the first attempt counts towards progress and the daily breakdown; later attempts are kept as reviews.
-  if (rec.a) { state.q[id] = { ...rec, rv: (rec.rv || 0) + 1, rl: score, t: now }; return; }
+  // Repeats count towards the all-attempts daily score, except immediate redos of a block's mistakes.
+  if (rec.a) {
+    state.q[id] = { ...rec, rv: (rec.rv || 0) + 1, rl: score, t: now };
+    if (!redo) {
+      const day = dayKey(now);
+      state.x = state.x || {};
+      state.x[day] = { ...(state.x[day] || {}), [`${id}@${now}`]: { s: score, t: now } };
+    }
+    return;
+  }
   state.q[id] = { ...rec, a: rec.a + 1, c: rec.c + (score === 1 ? 1 : 0), l: score, t: now };
   const day = dayKey(now);
   state.h = state.h || {};
@@ -596,6 +617,7 @@ function renderPracticeFilters() {
 function startPractice(ids) {
   const pool = Array.isArray(ids) ? shuffle(ids.slice()) : shuffle(practiceMatches().map((q) => q.id));
   practice.queue = Array.isArray(ids) || practice.size === 'all' ? pool : pool.slice(0, +practice.size);
+  practice.redo = Array.isArray(ids);
   practice.idx = 0; practice.max = 0; practice.reveal = false; practice.ans = null; practice.results = {}; practice.drafts = {};
   if (window.matchMedia('(max-width: 700px)').matches) $('#practice-filters').open = false;
   renderPractice();
@@ -644,7 +666,7 @@ function renderPractice() {
     foot.append(h('button', { class: 'btn primary', text: 'Check answer', disabled: !answered(q, ans), onclick: () => {
       const score = scoreAnswer(q, ans);
       practice.results[practice.idx] = { ans, score };
-      practice.reveal = true; recordQuestion(q.id, score, ans); changed();
+      practice.reveal = true; recordQuestion(q.id, score, ans, practice.redo); changed();
     } }));
   } else {
     foot.append(h('button', { class: 'btn primary', text: last ? 'Finish block' : 'Next question', onclick: next }));
@@ -1001,12 +1023,16 @@ function ankiPanel(day) {
 }
 
 /* ---------- progress ---------- */
-/* Day-by-day % on first attempts, with the 70% pass line. */
+/* Day-by-day %: first attempts, and all attempts except immediate redos of a block's mistakes. */
 let trendRange = '30';
 function dailySeries() {
-  return Object.keys(state.h || {}).sort().map((day) => {
-    const recs = Object.entries(state.h[day]).filter(([id]) => QBYID[id]).map(([, r]) => r.s);
-    return recs.length ? { day, n: recs.length, avg: recs.reduce((a, b) => a + b, 0) / recs.length } : null;
+  const days = new Set([...Object.keys(state.h || {}), ...Object.keys(state.x || {})]);
+  const mean = (arr) => (arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : null);
+  return [...days].sort().map((day) => {
+    const first = Object.entries((state.h || {})[day] || {}).filter(([id]) => QBYID[id]).map(([, r]) => r.s);
+    const repeats = Object.entries((state.x || {})[day] || {}).filter(([k]) => QBYID[k.split('@')[0]]).map(([, r]) => r.s);
+    const all = first.concat(repeats);
+    return all.length ? { day, n: first.length, avg: mean(first), nAll: all.length, avgAll: mean(all) } : null;
   }).filter(Boolean);
 }
 function trendPanel() {
@@ -1017,21 +1043,28 @@ function trendPanel() {
     multi: false, onChange: (v) => { trendRange = v; renderProgress(); },
   });
   const nice = (d, long) => new Date(`${d}T12:00:00`).toLocaleDateString(undefined, long ? { weekday: 'short', day: 'numeric', month: 'short' } : { day: 'numeric', month: 'short' });
-  const panel = h('div', { class: 'panel' }, h('div', { class: 'row' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Daily score (first attempts)' }), chips));
+  const panel = h('div', { class: 'panel' }, h('div', { class: 'row' }, h('span', { class: 'label grow', style: 'margin:0', text: 'Daily score' }), chips));
   if (!pts.length) { panel.append(h('p', { class: 'count', style: 'margin:8px 0 0', text: 'Answer some questions and your daily % will appear here.' })); return panel; }
   const narrow = (document.getElementById('progress-area').clientWidth || 600) < 500;
   const W = narrow ? 340 : 600, H = narrow ? 210 : 220, L = 34, R = 12, T = 12, B = 28;
   const x = (i) => (pts.length === 1 ? L + (W - L - R) / 2 : L + (i * (W - L - R)) / (pts.length - 1));
   const y = (v) => T + (1 - v) * (H - T - B);
+  const series = [
+    { key: 'avgAll', label: 'All attempts', color: 'var(--series2)' },
+    { key: 'avg', label: 'First attempts', color: 'var(--series1)' },
+  ];
   const parts = [];
   for (const g of [0, 0.25, 0.5, 0.75, 1]) parts.push(`<line x1="${L}" x2="${W - R}" y1="${y(g)}" y2="${y(g)}" stroke="var(--line)" stroke-width="1"/><text x="${L - 6}" y="${y(g) + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${g * 100}%</text>`);
   parts.push(`<line x1="${L}" x2="${W - R}" y1="${y(0.7)}" y2="${y(0.7)}" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="5 4"/><text x="${W - R}" y="${y(0.7) - 5}" text-anchor="end" font-size="11" fill="var(--muted)">pass 70%</text>`);
-  if (pts.length > 1) parts.push(`<polyline fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p.avg).toFixed(1)}`).join(' ')}"/>`);
-  pts.forEach((p, i) => parts.push(`<circle cx="${x(i).toFixed(1)}" cy="${y(p.avg).toFixed(1)}" r="4.5" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>`));
+  for (const sr of series) {
+    const sp = pts.map((p, i) => [i, p[sr.key]]).filter(([, v]) => v != null);
+    if (sp.length > 1) parts.push(`<polyline fill="none" stroke="${sr.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="${sp.map(([i, v]) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ')}"/>`);
+    for (const [i, v] of sp) parts.push(`<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="4.5" fill="${sr.color}" stroke="var(--surface)" stroke-width="2"/>`);
+  }
   const step = Math.max(1, Math.ceil(pts.length / 6));
   pts.forEach((p, i) => { if (i % step === 0 || i === pts.length - 1) parts.push(`<text x="${x(i).toFixed(1)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="var(--muted)">${nice(p.day)}</text>`); });
   const wrap = h('div', { class: 'trend' });
-  wrap.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily first-attempt score, ${pts.length} days">${parts.join('')}</svg>`;
+  wrap.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily score, first attempts and all attempts, ${pts.length} days">${parts.join('')}</svg>`;
   const tip = h('div', { class: 'tip', hidden: true });
   wrap.append(tip);
   const svg = wrap.firstChild;
@@ -1041,22 +1074,28 @@ function trendPanel() {
     let best = 0;
     pts.forEach((p, i) => { if (Math.abs(x(i) - sx) < Math.abs(x(best) - sx)) best = i; });
     const p = pts[best];
-    tip.replaceChildren(h('b', { text: pct(p.avg) }), `${nice(p.day, true)} · ${p.n} question${p.n === 1 ? '' : 's'}`);
+    const line = (sr, v, n) => h('div', {}, h('i', { class: 'sw', style: `background:${sr.color}` }), v == null ? `${sr.label}: none` : `${sr.label}: ${pct(v)} (${n})`);
+    tip.replaceChildren(h('b', { text: nice(p.day, true) }), line(series[1], p.avg, p.n), line(series[0], p.avgAll, p.nAll));
     tip.style.left = `${(x(best) / W) * r.width}px`;
-    tip.style.top = `${(y(p.avg) / H) * r.height}px`;
+    tip.style.top = `${(y(Math.max(p.avg ?? 0, p.avgAll)) / H) * r.height}px`;
     tip.hidden = false;
   };
   svg.addEventListener('pointermove', (e) => showAt(e.clientX));
   svg.addEventListener('pointerdown', (e) => showAt(e.clientX));
   svg.addEventListener('pointerleave', () => { tip.hidden = true; });
   const last7 = all.slice(-7);
-  const avg7 = last7.reduce((a, p) => a + p.avg * p.n, 0) / Math.max(1, last7.reduce((a, p) => a + p.n, 0));
+  const wavg = (k, nk) => { const n = last7.reduce((a, p) => a + (p[k] == null ? 0 : p[nk]), 0); return n ? pct(last7.reduce((a, p) => a + (p[k] == null ? 0 : p[k] * p[nk]), 0) / n) : '–'; };
   panel.append(
-    h('p', { class: 'count', style: 'margin:6px 0 0', text: `Last 7 study days: ${pct(avg7)} on ${last7.reduce((a, p) => a + p.n, 0)} questions` }),
+    h('div', { class: 'legend', style: 'margin-top:8px' },
+      h('span', {}, h('i', { style: 'background:var(--series1)' }), 'First attempts'),
+      h('span', {}, h('i', { style: 'background:var(--series2)' }), 'All attempts (excluding redos of mistakes)')),
+    h('p', { class: 'count', style: 'margin:6px 0 0', text: `Last 7 study days: first attempts ${wavg('avg', 'n')}, all attempts ${wavg('avgAll', 'nAll')}` }),
     wrap,
     h('details', { class: 'trend-table' }, h('summary', { text: 'Show as table' }),
-      h('div', { class: 'table-scroll' }, h('table', { class: 'stats' }, h('tr', {}, h('th', { text: 'Day' }), h('th', { text: 'Questions' }), h('th', { text: 'Score' })),
-        ...pts.slice().reverse().map((p) => h('tr', {}, h('td', { text: nice(p.day, true) }), h('td', { class: 'num', text: String(p.n) }), h('td', { class: 'num', text: pct(p.avg) })))))));
+      h('div', { class: 'table-scroll' }, h('table', { class: 'stats' }, h('tr', {}, h('th', { text: 'Day' }), h('th', { text: 'First' }), h('th', { text: 'All' })),
+        ...pts.slice().reverse().map((p) => h('tr', {}, h('td', { text: nice(p.day, true) }),
+          h('td', { class: 'num', text: p.avg == null ? '–' : `${pct(p.avg)} (${p.n})` }),
+          h('td', { class: 'num', text: `${pct(p.avgAll)} (${p.nAll})` })))))));
   return panel;
 }
 let resetArmed = false;
@@ -1084,7 +1123,7 @@ function renderProgress() {
   const resetBox = resetArmed
     ? h('div', { class: 'confirm' }, h('span', { class: 'grow', text: 'Erase all question and flashcard progress on every device?' }),
       h('button', { class: 'btn small', text: 'Cancel', onclick: () => { resetArmed = false; renderProgress(); } }),
-      h('button', { class: 'btn small primary', text: 'Erase', onclick: () => { resetArmed = false; state = { v: 1, r: Date.now(), q: {}, c: {}, h: {} }; changed(); } }))
+      h('button', { class: 'btn small primary', text: 'Erase', onclick: () => { resetArmed = false; state = { v: 1, r: Date.now(), q: {}, c: {}, h: {}, x: {} }; changed(); } }))
     : h('button', { class: 'btn small ghost', text: 'Reset progress', onclick: () => { resetArmed = true; renderProgress(); } });
   area.replaceChildren(
     h('div', { class: 'panel' },
