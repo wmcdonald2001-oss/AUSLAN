@@ -61,6 +61,8 @@ h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; mar
 .stage { font-size: 1.35rem; font-weight: 800; margin: 0; }
 .stats-mini { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 12px 0; }
 .stats-mini div { border: 1px solid var(--line); border-radius: 10px; padding: 8px; text-align: center; }
+.stats-mini.four { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 520px) { .stats-mini.four { grid-template-columns: repeat(2, 1fr); } }
 .stats-mini b { display: block; font-size: 1.25rem; }
 .legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.82rem; color: var(--muted); }
 .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
@@ -1196,6 +1198,22 @@ function examHistoryPanel() {
           h('td', { class: 'num', text: r.t2 == null ? '–' : pct(r.t2) }), h('td', { class: 'num', text: `${r.usedMin}m` })))))));
   return panel;
 }
+// Later tries at questions you got wrong (not fully correct) on your first attempt.
+// Uses later repeats only, not the immediate redo of a block's mistakes, same as the all-attempts score.
+function retryStats() {
+  const tl = {};
+  for (const recs of Object.values(state.h || {})) for (const [id, r] of Object.entries(recs || {})) if (QBYID[id]) (tl[id] = tl[id] || []).push({ s: r.s, t: r.t || 0 });
+  for (const recs of Object.values(state.x || {})) for (const [k, r] of Object.entries(recs || {})) { const id = k.split('@')[0]; if (QBYID[id]) (tl[id] = tl[id] || []).push({ s: r.s, t: r.t || +k.split('@')[1] || 0 }); }
+  let n = 0, sum = 0, full = 0, qs = 0, fixed = 0;
+  for (const list of Object.values(tl)) {
+    list.sort((a, b) => a.t - b.t);
+    if (list[0].s === 1) continue;
+    let last = null;
+    for (const a of list.slice(1)) { n++; sum += a.s; if (a.s === 1) full++; last = a.s; }
+    if (last != null) { qs++; if (last === 1) fixed++; }
+  }
+  return { n, avg: n ? sum / n : null, full, qs, fixed };
+}
 let resetArmed = false;
 function renderProgress() {
   const area = $('#progress-area');
@@ -1218,6 +1236,7 @@ function renderProgress() {
   const daily = dailySeries();
   const nAllTot = daily.reduce((a, p) => a + p.nAll, 0);
   const avgAllTot = nAllTot ? daily.reduce((a, p) => a + p.avgAll * p.nAll, 0) / nAllTot : null;
+  const rs = retryStats();
   const bankPct = DATA.questions.length ? seen / DATA.questions.length : 0;
   const learned = Object.values(state.c).filter((c) => c.b >= 3).length;
   const reviewed = Object.keys(state.c).length;
@@ -1230,13 +1249,14 @@ function renderProgress() {
   area.replaceChildren(
     h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'Overall' }),
-      h('div', { class: 'stats-mini' },
+      h('div', { class: 'stats-mini four' },
         h('div', {}, h('b', { text: attempted ? pct(totalScore / attempted) : '–' }), h('span', { class: 'count', text: 'first attempts' })),
         h('div', {}, h('b', { text: avgAllTot == null ? '–' : pct(avgAllTot) }), h('span', { class: 'count', text: `all attempts (${nAllTot})` })),
+        h('div', {}, h('b', { text: rs.avg == null ? '–' : pct(rs.avg) }), h('span', { class: 'count', text: `retries of first-time wrong (${rs.n})` })),
         h('div', {}, h('b', { text: `${(bankPct * 100).toFixed(bankPct > 0 && bankPct < 0.1 ? 1 : 0)}%` }), h('span', { class: 'count', text: 'of bank done' }))),
       h('div', { class: 'meterbar', style: 'margin-top:10px', role: 'img', 'aria-label': `${seen} of ${DATA.questions.length} questions tried` },
         h('span', { class: 'm-ok', style: `width:${bankPct * 100}%` })),
-      h('p', { class: 'count', style: 'margin:6px 0 0', text: `${seen} of ${DATA.questions.length} questions tried · ${flagged} flagged. First attempts counts only your first try at each question; all attempts also counts later repeats, but not the immediate redo of a block's mistakes.` }),
+      h('p', { class: 'count', style: 'margin:6px 0 0', text: `${seen} of ${DATA.questions.length} questions tried · ${flagged} flagged. First attempts counts only your first try at each question; all attempts also counts later repeats, but not the immediate redo of a block's mistakes. Retries of first-time wrong is your score on later tries at questions you got wrong the first time${rs.qs ? `: ${rs.fixed} of ${rs.qs} of those were fully right on your latest try` : ''}.` }),
       DATA.cards.length ? h('p', { class: 'count', style: 'margin:8px 0 0', text: `Flashcards: ${reviewed} of ${DATA.cards.length} studied, ${learned} well known (box 3 or higher)` }) : null),
     trendPanel(),
     h('div', { class: 'panel' },
