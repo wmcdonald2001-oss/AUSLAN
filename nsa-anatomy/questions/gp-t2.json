@@ -5,162 +5,168 @@
   {
    "t": "Pharyngeal arches",
    "y": 2,
+   "src": "Last's text",
    "s": "Derivatives of the first pharyngeal arch include:",
    "o": [
     [
      "Stapes",
      0,
-     "The stapes comes from the second arch.\nThe first arch gives the malleus and incus."
+     "The stapes comes from the second arch.\nThe first arch gives the malleus and incus. (Last's p. 529)"
     ],
     [
      "Stylohyoid ligament",
      0,
-     "The stylohyoid ligament comes from the second arch.\nSo do the styloid process and lesser horn of the hyoid."
+     "The stylohyoid ligament comes from the second arch.\nSo do the styloid process and lesser horn of the hyoid. (Last's p. 465)"
     ],
     [
      "Posterior belly of digastric",
      0,
-     "Posterior digastric is a second-arch muscle, supplied by VII.\nEach arch muscle keeps its arch nerve."
+     "Posterior digastric is a second-arch muscle, supplied by VII.\nEach arch muscle keeps its arch nerve. (Last's p. 634)"
     ],
     [
      "Anterior belly of digastric",
      1,
-     "Anterior digastric is a first-arch muscle, supplied by V3 (nerve to mylohyoid).\nSo the two bellies have different nerves."
+     "Anterior digastric is a first-arch muscle, supplied by V3 (nerve to mylohyoid).\nSo the two bellies have different nerves. (Last's p. 634)"
     ]
    ]
   },
   {
    "t": "Pharyngeal arches",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the third and fourth pharyngeal arches:",
    "o": [
     [
      "Stylopharyngeus is a third-arch muscle",
      1,
-     "It is the only muscle of the third arch.\nSo it is supplied by IX."
+     "It is the only muscle of the third arch.\nSo it is supplied by IX. (Last's p. 637)"
     ],
     [
      "The lesser horn of the hyoid comes from the third arch",
      0,
-     "The lesser horn comes from the second arch.\nThe third gives the greater horn and lower body."
+     "The lesser horn comes from the second arch.\nThe third gives the greater horn and lower body. (Last's p. 465)"
     ],
     [
      "The nerve of the third arch is the vagus",
      0,
-     "The nerve of the third arch is the glossopharyngeal.\nThe vagus serves the fourth and sixth arches."
+     "The nerve of the third arch is the glossopharyngeal.\nThe vagus serves the fourth and sixth arches. (Last's p. 627)"
     ],
     [
      "Cricothyroid is a third-arch muscle",
      0,
-     "Cricothyroid is a fourth-arch muscle, supplied by the superior (external) laryngeal nerve.\nOther laryngeal muscles are sixth arch."
+     "Cricothyroid is a fourth-arch muscle, supplied by the superior (external) laryngeal nerve.\nOther laryngeal muscles are sixth arch. (Last's p. 484)"
     ]
    ]
   },
   {
    "t": "Pharyngeal pouches",
    "y": 2,
+   "src": "Last's text",
    "s": "Derivatives of the pharyngeal pouches:",
    "o": [
     [
      "The palatine tonsil comes from the first pouch",
      0,
-     "The palatine tonsil comes from the second pouch.\nThe first pouch forms the middle ear."
+     "The palatine tonsil comes from the second pouch.\nThe first pouch forms the middle ear. (Last's)"
     ],
     [
      "The inferior parathyroid comes from the fourth pouch",
      0,
-     "The inferior parathyroid comes from the third pouch, with the thymus.\nIt migrates further down than the superior one."
+     "The inferior parathyroid comes from the third pouch, with the thymus.\nIt migrates further down than the superior one. (Last's)"
     ],
     [
      "The thymus comes from the second pouch",
      0,
-     "The thymus comes from the third pouch.\nIt descends into the superior mediastinum."
+     "The thymus comes from the third pouch.\nIt descends into the superior mediastinum. (Last's)"
     ],
     [
      "The first pouch forms the tympanic cavity and auditory tube",
      1,
-     "The first pouch forms the tubotympanic recess.\nThe first cleft forms the external acoustic meatus."
+     "The first pouch forms the tubotympanic recess.\nThe first cleft forms the external acoustic meatus. (Last's p. 526)"
     ]
    ]
   },
   {
    "t": "Neural crest",
    "y": 2,
+   "src": "Last's text",
    "s": "Derivatives of the neural crest include the:",
    "o": [
     [
      "Dorsal root ganglia",
      1,
-     "Sensory ganglion cells of spinal nerves come from neural crest.\nSo do those of cranial sensory ganglia, in part."
+     "Sensory ganglion cells of spinal nerves come from neural crest.\nSo do those of cranial sensory ganglia, in part. (Last's)"
     ],
     [
      "Sympathetic ganglia",
      1,
-     "Postganglionic autonomic neurons come from neural crest.\nThis includes enteric neurons."
+     "Postganglionic autonomic neurons come from neural crest.\nThis includes enteric neurons. (Last's)"
     ],
     [
      "Adrenal medulla",
      1,
-     "The medullary chromaffin cells come from neural crest.\nThey behave like postganglionic neurons."
+     "The medullary chromaffin cells come from neural crest.\nThey behave like postganglionic neurons. (Last's)"
     ],
     [
      "Schwann cells",
      1,
-     "Schwann cells come from neural crest.\nOligodendrocytes come from the neural tube."
+     "Schwann cells come from neural crest.\nOligodendrocytes come from the neural tube. (Last's)"
     ]
    ]
   },
   {
    "t": "Neural tube",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the developing neural tube:",
    "o": [
     [
-     "The anterior neuropore closes before the posterior neuropore",
+     "Autonomic cells lie nearest the sulcus limitans, somatic cells further away",
      1,
-     "The anterior neuropore closes about day 25, the posterior about day 27.\nFailure gives anencephaly or spina bifida."
+     "In both alar and basal laminae, visceral (autonomic) cells lie near the sulcus limitans.\nBody wall and limb (somatic) cells lie further away. (Last's p. 627)"
     ],
     [
      "The alar plate forms motor neurons",
      0,
-     "The alar plate is sensory; the basal plate is motor.\nThis is why sensory nuclei lie lateral in the brainstem."
+     "The alar plate is sensory; the basal plate is motor.\nThis is why sensory nuclei lie lateral in the brainstem. (Last's p. 627)"
     ],
     [
      "The sulcus limitans separates the roof plate from the floor plate",
      0,
-     "It separates the alar plate from the basal plate.\nIt is still visible in the floor of the fourth ventricle."
+     "It separates the alar plate from the basal plate.\nIt is still visible in the floor of the fourth ventricle. (Last's p. 627)"
     ],
     [
      "The anterior horn develops from the alar plate",
      0,
-     "The anterior (ventral) horn comes from the basal plate.\nThe posterior horn comes from the alar plate."
+     "The anterior (ventral) horn comes from the basal plate.\nThe posterior horn comes from the alar plate. (Last's p. 627)"
     ]
    ]
   },
   {
-   "t": "Lymphatic drainage",
+   "t": "Nerves",
    "y": 2,
-   "s": "Concerning lymphatic drainage:",
+   "src": "Last's text",
+   "s": "Concerning the structure and supply of peripheral nerves:",
    "o": [
     [
-     "The thoracic duct drains the right side of the head and neck",
-     0,
-     "The right lymphatic duct drains the right head and neck, right arm and right thorax.\nThe thoracic duct drains the rest."
-    ],
-    [
-     "Lymph from the testis drains to para-aortic nodes",
+     "Endoneurium surrounds each individual nerve fibre",
      1,
-     "It follows the testicular vessels back to their origin near L1/L2.\nThis matters in testicular tumours."
+     "Endoneurium wraps each fibre; perineurium groups fibres into fascicles.\nEpineurium binds the fascicles into one nerve. (Last's)"
     ],
     [
-     "Lymph from the scrotum drains to para-aortic nodes",
+     "Perineurium binds the fascicles into a single nerve",
      0,
-     "Scrotal skin drains to superficial inguinal nodes.\nSo the scrotum and testis drain differently."
+     "That is the epineurium.\nPerineurium surrounds each fascicle. (Last's)"
     ],
     [
-     "Superficial inguinal nodes drain the anal canal below the pectinate line",
-     1,
-     "The lower anal canal drains to superficial inguinal nodes.\nAbove the line, drainage follows the rectal vessels."
+     "Large nerves have no nerve supply of their own",
+     0,
+     "Large nerves have their own small nerves, the nervi nervorum, in their connective tissue.\nThese make nerve trunks sensitive to pressure. (Last's)"
+    ],
+    [
+     "The phrenic nerve is supplied by regional arteries along its course in the mediastinum",
+     0,
+     "It has no regional artery there, so it takes its own, the pericardiacophrenic artery.\nThe artery runs with it to the diaphragm. (Last's)"
     ]
    ]
   }

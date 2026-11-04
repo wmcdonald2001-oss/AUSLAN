@@ -5,17 +5,18 @@
   {
    "t": "Parotid gland",
    "y": 2,
+   "src": "Last's text",
    "s": "The parotid gland:",
    "o": [
     [
      "Has a duct that pierces masseter",
      0,
-     "The duct runs forward on the surface of masseter, then turns in to pierce buccinator.\nIt opens opposite the upper second molar."
+     "The duct runs forward on the surface of masseter, then turns in to pierce buccinator.\nIt opens opposite the upper second molar. (Last's p. 460-462)"
     ],
     [
      "Receives secretomotor fibres from the chorda tympani",
      0,
-     "Its secretomotor fibres come from IX via the lesser petrosal nerve, otic ganglion and auriculotemporal nerve.\nThe chorda tympani supplies the submandibular and sublingual glands."
+     "Its secretomotor fibres come from IX via the lesser petrosal nerve, otic ganglion and auriculotemporal nerve.\nThe chorda tympani supplies the submandibular and sublingual glands. (Last's p. 460-462)"
     ],
     [
      "Has a duct about 2 cm long",
@@ -25,19 +26,20 @@
     [
      "Has the facial nerve as its most superficial major structure",
      1,
-     "Superficial to deep: facial nerve, retromandibular vein, external carotid artery.\nParotid tumours can therefore cause facial palsy."
+     "Superficial to deep: facial nerve, retromandibular vein, external carotid artery.\nParotid tumours can therefore cause facial palsy. (Last's p. 465)"
     ]
    ]
   },
   {
    "t": "Submandibular gland",
    "y": 2,
+   "src": "Last's text",
    "s": "The submandibular gland:",
    "o": [
     [
      "Has a duct that passes below the lingual nerve",
      0,
-     "The lingual nerve loops under the duct, from lateral to medial.\nSo the duct lies above the nerve where they cross."
+     "The lingual nerve loops under the duct, from lateral to medial.\nSo the duct lies above the nerve where they cross. (Last's p. 634)"
     ],
     [
      "Has a duct about 5 cm long",
@@ -47,126 +49,131 @@
     [
      "Is supplied by secretomotor fibres from the otic ganglion",
      0,
-     "It is supplied through the submandibular ganglion, from VII via the chorda tympani.\nThe otic ganglion supplies the parotid."
+     "It is supplied through the submandibular ganglion, from VII via the chorda tympani.\nThe otic ganglion supplies the parotid. (Last's p. 634)"
     ],
     [
      "Has a deep part lying on hyoglossus",
      1,
-     "The gland wraps round the back edge of mylohyoid; its deep part lies on hyoglossus.\nThe duct runs forward from it."
+     "The gland wraps round the back edge of mylohyoid; its deep part lies on hyoglossus.\nThe duct runs forward from it. (Last's p. 436)"
     ]
    ]
   },
   {
    "t": "Carotid sheath",
    "y": 2,
+   "src": "Last's text",
    "s": "The carotid sheath contains the:",
    "o": [
     [
      "Vagus nerve",
      1,
-     "The vagus lies in the back of the sheath between artery and vein.\nIt runs the full length of the sheath."
+     "The vagus lies in the back of the sheath between artery and vein.\nIt runs the full length of the sheath. (Last's p. 462)"
     ],
     [
      "Sympathetic trunk",
      0,
-     "The sympathetic trunk lies behind the sheath, on the prevertebral fascia.\nIt is not inside it."
+     "The sympathetic trunk lies behind the sheath, on the prevertebral fascia.\nIt is not inside it. (Last's p. 462)"
     ],
     [
      "Phrenic nerve",
      0,
-     "The phrenic nerve lies on scalenus anterior, deep to the prevertebral fascia.\nIt is well behind the sheath."
+     "The phrenic nerve lies on scalenus anterior, deep to the prevertebral fascia.\nIt is well behind the sheath. (Last's p. 438, 442, 462)"
     ],
     [
      "Recurrent laryngeal nerve",
      0,
-     "The recurrent laryngeal runs up in the groove between trachea and oesophagus.\nThat is medial to the sheath."
+     "The recurrent laryngeal runs up in the groove between trachea and oesophagus.\nThat is medial to the sheath. (Last's p. 464)"
     ]
    ]
   },
   {
    "t": "External carotid artery",
    "y": 2,
+   "src": "Last's text",
    "s": "Branches of the external carotid artery include the:",
    "o": [
     [
      "Superior thyroid artery",
      1,
-     "It is the first anterior branch, near the bifurcation.\nIt supplies the upper pole of the thyroid and the larynx."
+     "It is the first anterior branch, near the bifurcation.\nIt supplies the upper pole of the thyroid and the larynx. (Last's)"
     ],
     [
      "Lingual artery",
      1,
-     "It loops up and passes deep to hyoglossus.\nThe hypoglossal nerve lies superficial to hyoglossus."
+     "It loops up and passes deep to hyoglossus.\nThe hypoglossal nerve lies superficial to hyoglossus. (Last's p. 437)"
     ],
     [
      "Facial artery",
      1,
-     "It grooves the submandibular gland and crosses the mandible at the front of masseter.\nIts tonsillar branch is the main supply to the tonsil."
+     "It grooves the submandibular gland and crosses the mandible at the front of masseter.\nIts tonsillar branch is the main supply to the tonsil. (Last's p. 460-462)"
     ],
     [
      "Ascending pharyngeal artery",
      1,
-     "It is the only medial branch, running up on the pharynx.\nIt also sends meningeal branches into the skull."
+     "It is the only medial branch, running up on the pharynx.\nIt also sends meningeal branches into the skull. (Last's)"
     ]
    ]
   },
   {
    "t": "Thyroid gland",
    "y": 2,
+   "src": "Last's text",
    "s": "The thyroid gland:",
    "o": [
     [
      "Has an isthmus over the fifth to seventh tracheal rings",
      0,
-     "The isthmus usually lies over the second to fourth rings.\nA tracheostomy may need it divided or pushed aside."
+     "The isthmus usually lies over the second to fourth rings.\nA tracheostomy may need it divided or pushed aside. (Last's)"
     ],
     [
      "Has an inferior thyroid artery from the external carotid",
      0,
-     "The inferior thyroid artery comes from the thyrocervical trunk of the subclavian.\nThe superior thyroid artery is from the external carotid."
+     "The inferior thyroid artery comes from the thyrocervical trunk of the subclavian.\nThe superior thyroid artery is from the external carotid. (Last's p. 444)"
     ],
     [
      "Lies outside the pretracheal fascia",
      0,
-     "The pretracheal fascia encloses the gland and fixes it to the larynx.\nSo the thyroid moves up on swallowing."
+     "The pretracheal fascia encloses the gland and fixes it to the larynx.\nSo the thyroid moves up on swallowing. (Last's)"
     ],
     [
      "Has a middle thyroid vein draining into the internal jugular vein",
      1,
-     "The short middle thyroid vein joins the internal jugular vein.\nIt must be tied early in thyroidectomy."
+     "The short middle thyroid vein joins the internal jugular vein.\nIt must be tied early in thyroidectomy. (Last's)"
     ]
    ]
   },
   {
    "t": "Subclavian artery",
    "y": 2,
+   "src": "Last's text",
    "s": "The subclavian artery:",
    "o": [
     [
      "Is divided into three parts by scalenus anterior",
      1,
-     "The first part is medial, the second behind, the third lateral to the muscle.\nThe third part lies in the posterior triangle."
+     "The first part is medial, the second behind, the third lateral to the muscle.\nThe third part lies in the posterior triangle. (Last's p. 444)"
     ],
     [
      "Gives the vertebral artery from its first part",
      1,
-     "The vertebral is the first branch, running up to C6.\nIt is the first branch on both sides."
+     "The vertebral is the first branch, running up to C6.\nIt is the first branch on both sides. (Last's)"
     ],
     [
      "Gives the thyrocervical trunk from its first part",
      1,
-     "The thyrocervical trunk arises at the medial edge of scalenus anterior.\nIt gives the inferior thyroid, suprascapular and transverse cervical arteries."
+     "The thyrocervical trunk arises at the medial edge of scalenus anterior.\nIt gives the inferior thyroid, suprascapular and transverse cervical arteries. (Last's p. 444)"
     ],
     [
      "Has the trunks of the brachial plexus in front of its third part",
      0,
-     "The trunks lie above and behind the third part.\nThe lower trunk lies behind the artery on the first rib."
+     "The trunks lie above and behind the third part.\nThe lower trunk lies behind the artery on the first rib. (Last's p. 444)"
     ]
    ]
   },
   {
    "t": "Vertebral artery",
    "y": 2,
+   "src": "Last's text",
    "s": "The vertebral artery:",
    "o": [
     [
@@ -177,88 +184,91 @@
     [
      "Enters the skull through the jugular foramen",
      0,
-     "It enters through the foramen magnum after piercing the posterior atlanto-occipital membrane.\nThen it runs up in front of the medulla."
+     "It enters through the foramen magnum after piercing the posterior atlanto-occipital membrane.\nThen it runs up in front of the medulla. (Last's p. 547)"
     ],
     [
      "Joins its fellow at the upper border of the pons",
      0,
-     "The two vertebrals join at the lower border of the pons to form the basilar artery.\nThe basilar divides at the upper border into the posterior cerebrals."
+     "The two vertebrals join at the lower border of the pons to form the basilar artery.\nThe basilar divides at the upper border into the posterior cerebrals. (Last's p. 599-600)"
     ],
     [
      "Lies in a groove on the posterior arch of the atlas",
      1,
-     "After the atlas foramen it curves back in the groove on the posterior arch.\nThere it lies in the suboccipital triangle."
+     "After the atlas foramen it curves back in the groove on the posterior arch.\nThere it lies in the suboccipital triangle. (Last's p. 547)"
     ]
    ]
   },
   {
    "t": "Larynx",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the larynx:",
    "o": [
     [
      "Posterior cricoarytenoid is the only abductor of the vocal folds",
      1,
-     "It rotates the arytenoids to open the rima glottidis.\nBilateral paralysis can block the airway."
+     "It rotates the arytenoids to open the rima glottidis.\nBilateral paralysis can block the airway. (Last's p. 496)"
     ],
     [
      "Cricothyroid is supplied by the recurrent laryngeal nerve",
      0,
-     "Cricothyroid is supplied by the external laryngeal nerve.\nIt is the only intrinsic muscle not supplied by the recurrent."
+     "Cricothyroid is supplied by the external laryngeal nerve.\nIt is the only intrinsic muscle not supplied by the recurrent. (Last's p. 638)"
     ],
     [
-     "The vocal folds are covered by ciliated columnar epithelium",
+     "The recurrent laryngeal nerve supplies the mucosa above the vocal folds",
      0,
-     "The vocal folds have stratified squamous epithelium.\nThis resists wear from vibration."
+     "The recurrent laryngeal supplies the laryngeal mucosa below the vocal folds.\nAbove the folds the internal laryngeal nerve takes over. (Last's p. 464)"
     ],
     [
-     "Thyroarytenoid tenses and lengthens the vocal folds",
+     "The recurrent laryngeal nerve enters the larynx over the upper border of the inferior constrictor",
      0,
-     "Thyroarytenoid shortens and relaxes the folds.\nCricothyroid tenses and lengthens them."
+     "It passes under the lower border of the inferior constrictor (cricopharyngeus), behind the cricothyroid joint.\nThere it may already have divided into two branches. (Last's p. 464)"
     ]
    ]
   },
   {
    "t": "Palatine tonsil",
    "y": 2,
+   "src": "Last's text",
    "s": "The palatine tonsil:",
    "o": [
     [
      "Lies in the piriform fossa",
      0,
-     "It lies in the tonsillar fossa between the palatoglossal and palatopharyngeal arches.\nThe piriform fossa is in the laryngopharynx."
+     "It lies in the tonsillar fossa between the palatoglossal and palatopharyngeal arches.\nThe piriform fossa is in the laryngopharynx. (Last's)"
     ],
     [
      "Has a bed formed by the superior constrictor",
      1,
-     "Superior constrictor forms the bed, with the glossopharyngeal nerve deep to it.\nDamage to IX causes earache after tonsillectomy."
+     "Superior constrictor forms the bed, with the glossopharyngeal nerve deep to it.\nDamage to IX causes earache after tonsillectomy. (Last's)"
     ],
     [
      "Is supplied mainly by the lingual artery",
      0,
-     "Its main supply is the tonsillar branch of the facial artery.\nIt pierces the superior constrictor."
+     "Its main supply is the tonsillar branch of the facial artery.\nIt pierces the superior constrictor. (Last's)"
     ],
     [
-     "Has a paratonsillar vein that is the main source of bleeding after tonsillectomy",
+     "Has the glossopharyngeal nerve crossing the lower part of its fossa",
      1,
-     "The paratonsillar (external palatine) vein runs down from the soft palate across the tonsil bed.\nBleeding after surgery is usually venous from here."
+     "IX crosses the lower part of the tonsillar fossa, then passes under the lower border of superior constrictor to the tongue.\nSo it can be damaged in tonsillectomy, causing earache. (Last's)"
     ]
    ]
   },
   {
    "t": "Soft palate",
    "y": 2,
+   "src": "Last's text",
    "s": "Muscles of the soft palate:",
    "o": [
     [
      "Levator palati is supplied by the mandibular nerve",
      0,
-     "Levator palati is supplied by the pharyngeal plexus.\nOnly tensor palati is supplied by V3."
+     "Levator palati is supplied by the pharyngeal plexus.\nOnly tensor palati is supplied by V3. (Last's p. 495)"
     ],
     [
      "Palatoglossus is supplied by the hypoglossal nerve",
      0,
-     "Palatoglossus is supplied by the pharyngeal plexus.\nIt is the one \"tongue\" muscle not supplied by XII."
+     "Palatoglossus is supplied by the pharyngeal plexus.\nIt is the one \"tongue\" muscle not supplied by XII. (Last's p. 480-483)"
     ],
     [
      "Tensor palati is supplied by the pharyngeal plexus",
@@ -268,7 +278,7 @@
     [
      "Musculus uvulae is supplied by the pharyngeal plexus",
      1,
-     "All palatal muscles except tensor palati are supplied by the pharyngeal plexus.\nThe motor fibres come from the vagus (cranial accessory)."
+     "All palatal muscles except tensor palati are supplied by the pharyngeal plexus.\nThe motor fibres come from the vagus (cranial accessory). (Last's p. 495)"
     ]
    ]
   },
@@ -283,181 +293,187 @@
      "They are covered by fibrocartilage.\nThe mandible and temporal bone ossify in membrane."
     ],
     [
-     "Has lateral pterygoid inserting only into the neck of the mandible",
+     "Receives no branch from the masseteric nerve",
      0,
-     "Lateral pterygoid inserts into the neck and also the disc and capsule.\nSo it pulls the disc forward on opening."
+     "The masseteric nerve gives a branch to the mandibular joint as it passes through the mandibular notch.\nThis is Hilton's law. (Last's)"
     ],
     [
      "Is supplied only by the facial nerve",
      0,
-     "It is supplied by the auriculotemporal and masseteric nerves (V3).\nHilton's law applies."
+     "It is supplied by the auriculotemporal and masseteric nerves (V3).\nHilton's law applies. (Last's p. 460-462)"
     ],
     [
-     "Has a disc dividing it into upper and lower compartments",
+     "Has its major sensory supply from the auriculotemporal nerve",
      1,
-     "Gliding occurs in the upper compartment, hinge movement in the lower.\nOpening the mouth wide needs both."
+     "The auriculotemporal nerve passes back deep to the neck of the mandible and gives the main sensory supply to the joint.\nIt also carries parotid secretomotor fibres. (Last's)"
     ]
    ]
   },
   {
    "t": "Muscles of mastication",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the muscles of mastication:",
    "o": [
     [
      "Masseter elevates the mandible",
      1,
-     "Masseter closes the jaw.\nIt is supplied by the masseteric nerve through the mandibular notch."
+     "Masseter closes the jaw.\nIt is supplied by the masseteric nerve through the mandibular notch. (Last's)"
     ],
     [
      "The posterior fibres of temporalis retract the mandible",
      1,
-     "The horizontal posterior fibres pull the mandible back.\nThe anterior fibres elevate."
+     "The horizontal posterior fibres pull the mandible back.\nThe anterior fibres elevate. (Last's p. 454-5)"
     ],
     [
      "Lateral pterygoid protrudes the mandible and opens the mouth",
      1,
-     "It pulls condyle and disc forward.\nIt is the only muscle of mastication that helps open the mouth."
+     "It pulls condyle and disc forward.\nIt is the only muscle of mastication that helps open the mouth. (Last's p. 458)"
     ],
     [
      "Medial pterygoid elevates the mandible",
      1,
-     "It runs parallel to masseter on the inside of the ramus.\nThe two together form a sling."
+     "It runs parallel to masseter on the inside of the ramus.\nThe two together form a sling. (Last's p. 456)"
     ]
    ]
   },
   {
    "t": "Extraocular muscles",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the extraocular muscles:",
    "o": [
     [
-     "Superior oblique is tested by asking the patient to look down and in",
+     "The nerve to medial rectus comes from the inferior division of the oculomotor nerve",
      1,
-     "In adduction superior oblique is the main depressor.\nSo a IV palsy gives difficulty going downstairs."
+     "The inferior division supplies medial rectus, inferior rectus and inferior oblique.\nThe superior division supplies superior rectus and levator palpebrae superioris. (Last's p. 509)"
     ],
     [
      "Lateral rectus is supplied by the trochlear nerve",
      0,
-     "Lateral rectus is supplied by VI (LR6 SO4).\nIV supplies only superior oblique."
+     "Lateral rectus is supplied by VI (LR6 SO4).\nIV supplies only superior oblique. (Last's)"
     ],
     [
      "Inferior oblique arises from the back of the orbit",
      0,
-     "It arises from the floor of the orbit near the front, just lateral to the nasolacrimal canal.\nIt is the only extraocular muscle not arising from the back."
+     "It arises from the floor of the orbit near the front, just lateral to the nasolacrimal canal.\nIt is the only extraocular muscle not arising from the back. (Last's p. 509)"
     ],
     [
      "Levator palpebrae superioris is supplied only by sympathetic fibres",
      0,
-     "The striated part is supplied by III; only its smooth part (superior tarsal) is sympathetic.\nSo III palsy gives complete ptosis, Horner's only partial."
+     "The striated part is supplied by III; only its smooth part (superior tarsal) is sympathetic.\nSo III palsy gives complete ptosis, Horner's only partial. (Last's p. 509)"
     ]
    ]
   },
   {
    "t": "Middle ear",
    "y": 2,
+   "src": "Last's text",
    "s": "The middle ear:",
    "o": [
     [
      "Has the promontory on its lateral wall",
      0,
-     "The promontory, made by the basal turn of the cochlea, is on the medial wall.\nThe tympanic membrane forms most of the lateral wall."
+     "The promontory, made by the basal turn of the cochlea, is on the medial wall.\nThe tympanic membrane forms most of the lateral wall. (Last's p. 531)"
     ],
     [
      "Has the tegmen tympani as its roof",
      1,
-     "The tegmen tympani separates it from the middle cranial fossa.\nInfection can spread up to the temporal lobe."
+     "The tegmen tympani separates it from the middle cranial fossa.\nInfection can spread up to the temporal lobe. (Last's p. 526-8)"
     ],
     [
      "Has the internal carotid artery related to its posterior wall",
      0,
-     "The internal carotid is related to the anterior wall.\nThe aditus to the antrum is on the posterior wall."
+     "The internal carotid is related to the anterior wall.\nThe aditus to the antrum is on the posterior wall. (Last's p. 526-8)"
     ],
     [
      "Has the aditus to the mastoid antrum on its posterior wall",
      1,
-     "The aditus opens from the epitympanic recess into the antrum.\nThe facial canal lies below it."
+     "The aditus opens from the epitympanic recess into the antrum.\nThe facial canal lies below it. (Last's p. 526-8)"
     ]
    ]
   },
   {
    "t": "Tympanic membrane",
    "y": 2,
+   "src": "Last's text",
    "s": "The tympanic membrane:",
    "o": [
     [
      "Has its outer surface supplied only by the vagus",
      0,
-     "The outer surface is supplied by the auriculotemporal nerve and the auricular branch of the vagus.\nThe inner surface is supplied by IX."
+     "The outer surface is supplied by the auriculotemporal nerve and the auricular branch of the vagus.\nThe inner surface is supplied by IX. (Last's p. 527)"
     ],
     [
      "Has its pars flaccida below the handle of the malleus",
      0,
-     "The pars flaccida lies above the lateral process of the malleus.\nThe chorda tympani crosses it."
+     "The pars flaccida lies above the lateral process of the malleus.\nThe chorda tympani crosses it. (Last's p. 527)"
     ],
     [
      "Faces directly laterally",
      0,
-     "It faces laterally, forwards and downwards.\nSo the meatus must be straightened to see it."
+     "It faces laterally, forwards and downwards.\nSo the meatus must be straightened to see it. (Last's p. 527)"
     ],
     [
      "Has the handle of the malleus attached to its inner surface",
      1,
-     "The handle is attached down to the umbo.\nThe light reflex runs anteroinferiorly from the umbo."
+     "The handle is attached down to the umbo.\nThe light reflex runs anteroinferiorly from the umbo. (Last's p. 527)"
     ]
    ]
   },
   {
    "t": "Scalp",
    "y": 2,
+   "src": "Last's text",
    "s": "The scalp:",
    "o": [
     [
      "Has loose areolar tissue as its \"dangerous\" layer",
      1,
-     "Blood and pus spread easily in this layer, and emissary veins cross it.\nIt allows the scalp to move over the pericranium."
+     "Blood and pus spread easily in this layer, and emissary veins cross it.\nIt allows the scalp to move over the pericranium. (Last's p. 453, 454)"
     ],
     [
      "Has its vessels in the dense subcutaneous connective tissue",
      1,
-     "Vessels in this layer are held open, so scalp wounds bleed freely.\nThis is why a scalp laceration bleeds so much."
+     "Vessels in this layer are held open, so scalp wounds bleed freely.\nThis is why a scalp laceration bleeds so much. (Last's p. 453, 454)"
     ],
     [
      "Has the galea aponeurotica joining frontalis and occipitalis",
      1,
-     "The aponeurosis is the tendon of occipitofrontalis.\nA wound through it gapes."
+     "The aponeurosis is the tendon of occipitofrontalis.\nA wound through it gapes. (Last's p. 453)"
     ],
     [
      "Has no sensory supply from cervical nerves",
      0,
-     "The back of the scalp is supplied by the greater occipital (C2) and lesser occipital (C2) nerves.\nThe front is supplied by the trigeminal nerve."
+     "The back of the scalp is supplied by the greater occipital (C2) and lesser occipital (C2) nerves.\nThe front is supplied by the trigeminal nerve. (Last's p. 427, 454)"
     ]
    ]
   },
   {
    "t": "Cervical sympathetic trunk",
    "y": 2,
+   "src": "Last's text",
    "s": "The cervical sympathetic trunk:",
    "o": [
     [
      "Has a superior cervical ganglion formed by fusion of the ganglia for C1–4",
      1,
-     "The superior cervical ganglion lies opposite C1 and C2.\nIt gives grey rami to C1–4."
+     "The superior cervical ganglion lies opposite C1 and C2.\nIt gives grey rami to C1–4. (Last's)"
     ],
     [
      "Lies within the carotid sheath",
      0,
-     "It lies behind the sheath on the prevertebral fascia.\nSo it is not inside the sheath."
+     "It lies behind the sheath on the prevertebral fascia.\nSo it is not inside the sheath. (Last's)"
     ],
     [
      "Has a middle cervical ganglion at the level of C3",
      0,
-     "The middle cervical ganglion lies at C6, near the inferior thyroid artery.\nIt is often small or absent."
+     "The middle cervical ganglion lies at C6, near the inferior thyroid artery.\nIt is often small or absent. (Last's p. 444)"
     ],
     [
      "Gives white rami to the cervical nerves",
      0,
-     "Cervical nerves receive only grey rami.\nWhite rami arise only from T1 to L2."
+     "Cervical nerves receive only grey rami.\nWhite rami arise only from T1 to L2. (Last's p. 621-622)"
     ]
    ]
   },
@@ -469,12 +485,12 @@
     [
      "A dilated pupil",
      0,
-     "The pupil is small (miosis), as dilator pupillae loses its supply.\nThe light reflex is preserved."
+     "The pupil is small (miosis), as dilator pupillae loses its supply.\nThe light reflex is preserved. (Last's p. 519)"
     ],
     [
      "Complete ptosis",
      0,
-     "Ptosis is partial, from paralysis of the superior tarsal muscle.\nComplete ptosis suggests III palsy."
+     "Ptosis is partial, from paralysis of the superior tarsal muscle.\nComplete ptosis suggests III palsy. (Last's p. 509)"
     ],
     [
      "Facial weakness on the same side",
@@ -484,61 +500,63 @@
     [
      "Loss of sweating on the same side of the face",
      1,
-     "Anhidrosis follows if the lesion is below the superior cervical ganglion.\nSweat glands get sympathetic fibres along the external carotid branches."
+     "Anhidrosis follows if the lesion is below the superior cervical ganglion.\nSweat glands get sympathetic fibres along the external carotid branches. (Last's p. 519)"
     ]
    ]
   },
   {
    "t": "Lacrimal apparatus",
    "y": 2,
+   "src": "Last's text",
    "s": "The lacrimal apparatus:",
    "o": [
     [
      "Has a nasolacrimal duct opening into the middle meatus",
      0,
-     "The duct opens into the inferior meatus.\nA valve-like fold guards its opening."
+     "The duct opens into the inferior meatus.\nA valve-like fold guards its opening. (Last's p. 470)"
     ],
     [
      "Has a lacrimal sac in a fossa formed by the lacrimal bone and frontal process of maxilla",
      1,
-     "The sac lies in this fossa behind the medial palpebral ligament.\nIt continues down as the nasolacrimal duct."
+     "The sac lies in this fossa behind the medial palpebral ligament.\nIt continues down as the nasolacrimal duct. (Last's p. 505 - 506)"
     ],
     [
      "Has a gland supplied by secretomotor fibres from the chorda tympani",
      0,
-     "Lacrimal secretomotor fibres come from VII through the greater petrosal and pterygopalatine ganglion.\nThe chorda tympani supplies the submandibular and sublingual glands."
+     "Lacrimal secretomotor fibres come from VII through the greater petrosal and pterygopalatine ganglion.\nThe chorda tympani supplies the submandibular and sublingual glands. (Last's p. 635-6)"
     ],
     [
-     "Has a palpebral part seen in the lateral upper conjunctival fornix",
+     "Has secretomotor fibres that relay in the pterygopalatine ganglion",
      1,
-     "The gland's palpebral part lies below levator's aponeurosis.\nIts ducts open into the upper lateral fornix."
+     "Lacrimal secretomotor fibres come from VII via the greater petrosal nerve and relay in the pterygopalatine ganglion.\nThey reach the gland through the zygomatic and lacrimal nerves. (Last's p. 635-6)"
     ]
    ]
   },
   {
    "t": "Tongue",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the tongue:",
    "o": [
     [
      "All intrinsic muscles are supplied by the hypoglossal nerve",
      1,
-     "XII supplies all intrinsic and most extrinsic muscles.\nA lesion makes the tongue deviate to the weak side on protrusion."
+     "XII supplies all intrinsic and most extrinsic muscles.\nA lesion makes the tongue deviate to the weak side on protrusion. (Last's p. 639-640)"
     ],
     [
      "Palatoglossus is supplied by the pharyngeal plexus",
      1,
-     "Palatoglossus is the exception among the tongue muscles.\nIt is really a palatal muscle."
+     "Palatoglossus is the exception among the tongue muscles.\nIt is really a palatal muscle. (Last's p. 480-483)"
     ],
     [
      "General sensation from the anterior two-thirds is carried by the lingual nerve",
      1,
-     "The lingual nerve (V3) carries general sensation.\nTaste from this part runs in the chorda tympani."
+     "The lingual nerve (V3) carries general sensation.\nTaste from this part runs in the chorda tympani. (Last's p. 462)"
     ],
     [
      "The posterior third is supplied by the glossopharyngeal nerve",
      1,
-     "IX carries both general sensation and taste from the posterior third.\nThe internal laryngeal supplies the area near the epiglottis."
+     "IX carries both general sensation and taste from the posterior third.\nThe internal laryngeal supplies the area near the epiglottis. (Last's p. 462)"
     ]
    ]
   }

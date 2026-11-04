@@ -5,66 +5,69 @@
   {
    "t": "Atlas",
    "y": 2,
+   "src": "Last's text",
    "s": "The atlas:",
    "o": [
     [
      "Has no body",
      1,
-     "Its body has been taken over by the axis as the dens.\nIt is a ring of anterior and posterior arches with lateral masses."
+     "Its body has been taken over by the axis as the dens.\nIt is a ring of anterior and posterior arches with lateral masses. (Last's)"
     ],
     [
      "Has its transverse ligament attached to the dens",
      0,
-     "The transverse ligament runs between the lateral masses, behind the dens.\nIt holds the dens against the anterior arch."
+     "The transverse ligament runs between the lateral masses, behind the dens.\nIt holds the dens against the anterior arch. (Last's p. 541 - 542, 556)"
     ],
     [
      "Has a posterior arch crossed above by the hypoglossal nerve",
      0,
-     "The vertebral artery and C1 nerve lie in the groove on the upper surface of the posterior arch.\nXII leaves the skull through the hypoglossal canal, well forward."
+     "The vertebral artery and C1 nerve lie in the groove on the upper surface of the posterior arch.\nXII leaves the skull through the hypoglossal canal, well forward. (Last's p. 541-2)"
     ],
     [
      "Has a spinous process",
      0,
-     "It has only a small posterior tubercle.\nThis lets the head extend freely."
+     "It has only a small posterior tubercle.\nThis lets the head extend freely. (Last's p. 541, 557)"
     ]
    ]
   },
   {
    "t": "Axis",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the axis and its ligaments:",
    "o": [
     [
      "The dens develops from the body of the axis",
      0,
-     "The dens is the centrum of the atlas, fused to the axis.\nFailure of fusion leaves an os odontoideum."
+     "The dens is the centrum of the atlas, fused to the axis.\nFailure of fusion leaves an os odontoideum. (Last's)"
     ],
     [
      "The alar ligaments attach the dens to the anterior arch of the atlas",
      0,
-     "The alar ligaments run from the dens to the sides of the foramen magnum (occipital condyles).\nThey limit rotation."
+     "The alar ligaments run from the dens to the sides of the foramen magnum (occipital condyles).\nThey limit rotation. (Last's p. 542)"
     ],
     [
      "The apical ligament runs to the posterior margin of the foramen magnum",
      0,
-     "The apical ligament runs from the tip of the dens to the anterior margin of the foramen magnum.\nIt is a notochordal remnant."
+     "The apical ligament runs from the tip of the dens to the anterior margin of the foramen magnum.\nIt is a notochordal remnant. (Last's p. 537)"
     ],
     [
      "The tectorial membrane continues the posterior longitudinal ligament upward",
      1,
-     "It runs from the back of the axis body to the clivus.\nIt covers the dens and its ligaments from behind."
+     "It runs from the back of the axis body to the clivus.\nIt covers the dens and its ligaments from behind. (Last's p. 541, 557)"
     ]
    ]
   },
   {
    "t": "Cervical vertebrae",
    "y": 2,
+   "src": "Last's text",
    "s": "Typical cervical vertebrae have:",
    "o": [
     [
      "Bifid spinous processes from C3 to C6",
      1,
-     "C3–6 spines are short and bifid.\nC7 has a long single spine."
+     "C3–6 spines are short and bifid.\nC7 has a long single spine. (Last's p. 557-558)"
     ],
     [
      "A foramen transversarium",
@@ -74,45 +77,47 @@
     [
      "A long spine at C7, the vertebra prominens",
      1,
-     "C7's spine is the first easily felt in the midline.\nThe ligamentum nuchae attaches to it."
+     "C7's spine is the first easily felt in the midline.\nThe ligamentum nuchae attaches to it. (Last's)"
     ],
     [
      "Uncovertebral joints at the sides of the bodies",
      1,
-     "The lips (uncinate processes) on the sides of the bodies form small joints of Luschka.\nOsteophytes here can narrow the intervertebral foramen."
+     "The lips (uncinate processes) on the sides of the bodies form small joints of Luschka.\nOsteophytes here can narrow the intervertebral foramen. (Last's p. 539)"
     ]
    ]
   },
   {
    "t": "Lumbar vertebrae",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the lumbar vertebrae:",
    "o": [
     [
      "They have no foramina transversaria or costal facets",
      1,
-     "These features distinguish cervical and thoracic vertebrae.\nLumbar vertebrae have large kidney-shaped bodies instead."
+     "These features distinguish cervical and thoracic vertebrae.\nLumbar vertebrae have large kidney-shaped bodies instead. (Last's p. 536)"
     ],
     [
-     "L5 has the smallest body",
+     "The iliolumbar ligament is attached to the transverse process of L1",
      0,
-     "L5 has the largest body, carrying the most weight.\nIts body is deeper in front, making the lumbosacral angle."
+     "The iliolumbar ligament is attached to the transverse process of L5.\nIts upper band passes to the iliac crest and gives partial origin to quadratus lumborum. (Last's p. 551-2)"
     ],
     [
-     "Each lumbar nerve leaves through the foramen above its own vertebra",
+     "The L5 transverse process joins the vertebra at the junction of pedicle and lamina",
      0,
-     "Below C7, each nerve leaves below the pedicle of its own vertebra.\nSo the L4 nerve leaves between L4 and L5."
+     "The L5 transverse process is short and massive, and its base joins the side of the body itself.\nL1–4 processes arise further back, from the pedicle. (Last's p. 550-1)"
     ],
     [
      "Their superior articular facets face laterally",
      0,
-     "Lumbar superior facets face medially (and back), gripping the inferior facets of the vertebra above.\nThis limits rotation."
+     "Lumbar superior facets face medially (and back), gripping the inferior facets of the vertebra above.\nThis limits rotation. (Last's p. 551-552)"
     ]
    ]
   },
   {
    "t": "Intervertebral disc",
    "y": 2,
+   "src": "Last's text",
    "s": "The intervertebral disc:",
    "o": [
     [
@@ -123,7 +128,7 @@
     [
      "Is present between the atlas and axis",
      0,
-     "There is no disc between atlas and axis, or between skull and atlas.\nThe first disc is between C2 and C3."
+     "There is no disc between atlas and axis, or between skull and atlas.\nThe first disc is between C2 and C3. (Last's p. 537)"
     ],
     [
      "Has a nucleus pulposus that is 90% water in old age",
@@ -133,94 +138,98 @@
     [
      "Prolapses most often posterolaterally",
      1,
-     "The posterior longitudinal ligament is narrow and weakest at the sides.\nA posterolateral prolapse presses on the nerve root."
+     "The posterior longitudinal ligament is narrow and weakest at the sides.\nA posterolateral prolapse presses on the nerve root. (Last's p. 539)"
     ]
    ]
   },
   {
    "t": "Vertebral ligaments",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the vertebral ligaments:",
    "o": [
     [
      "The ligamentum flavum is mainly collagen",
      0,
-     "The ligamentum flavum is mainly yellow elastic tissue.\nIt helps restore the upright posture after flexion."
+     "The ligamentum flavum is mainly yellow elastic tissue.\nIt helps restore the upright posture after flexion. (Last's p. 539)"
     ],
     [
      "The posterior longitudinal ligament is broader over the discs",
      1,
-     "It is narrow over the bodies and widens over the discs.\nIts lateral parts are still weak."
+     "It is narrow over the bodies and widens over the discs.\nIts lateral parts are still weak. (Last's p. 537)"
     ],
     [
      "The supraspinous ligament continues into the neck as the ligamentum flavum",
      0,
-     "It continues upward as the ligamentum nuchae.\nThe ligamenta flava join the laminae."
+     "It continues upward as the ligamentum nuchae.\nThe ligamenta flava join the laminae. (Last's p. 539)"
     ],
     [
      "The ligamentum nuchae gives attachment to trapezius",
      1,
-     "Trapezius, splenius and rhomboid minor arise from it.\nIt runs from C7 to the external occipital protuberance."
+     "Trapezius, splenius and rhomboid minor arise from it.\nIt runs from C7 to the external occipital protuberance. (Last's p. 544)"
     ]
    ]
   },
   {
-   "t": "Spinal nerves",
+   "t": "Nerve roots and foramina",
    "y": 2,
-   "s": "Concerning spinal nerves and their exits:",
+   "src": "Last's text",
+   "s": "Concerning the intervertebral foramina and nerve roots:",
    "o": [
     [
-     "The C8 nerve leaves above the C8 vertebra",
-     0,
-     "There is no C8 vertebra; C8 leaves between C7 and T1.\nBelow that, each nerve leaves below its own vertebra."
-    ],
-    [
-     "Cervical nerves C1–7 leave above their numbered vertebra",
+     "A posterolateral L4/5 disc prolapse usually irritates the L5 nerve root",
      1,
-     "C1 leaves above the atlas, C7 above C7.\nThis is why there are eight cervical nerves and seven vertebrae."
+     "A disc usually irritates the root one below it: L5 by the L4 disc, S1 by the L5 disc.\nThe root of the same number has already left, hugging the pedicle above. (Last's p. 539)"
     ],
     [
-     "An L4/5 posterolateral disc prolapse usually compresses the L4 root",
-     0,
-     "It usually compresses the L5 root, which crosses the disc to reach the foramen below.\nL4 has already left above the disc."
-    ],
-    [
-     "The spinal nerve proper is only 1–2 mm long",
+     "The vertebral canal becomes smaller from above downwards",
      1,
-     "The nerve divides almost at once into anterior and posterior rami.\nSo \"spinal nerve\" lesions are really root or ramus lesions."
+     "The canal narrows progressively down the column.\nIt is closed in front by bodies, discs and the PLL. (Last's p. 540)"
+    ],
+    [
+     "Each intervertebral foramen is bounded above and below by pedicles",
+     1,
+     "Pedicles form its upper and lower boundaries.\nThe foramen lodges the spinal nerve, dorsal root ganglion and spinal vessels. (Last's p. 540)"
+    ],
+    [
+     "The ligamenta flava close the vertebral canal anteriorly",
+     0,
+     "The ligamenta flava and laminae close the canal posteriorly.\nThe bodies, discs and posterior longitudinal ligament close it in front. (Last's p. 540)"
     ]
    ]
   },
   {
    "t": "Suboccipital region",
    "y": 2,
+   "src": "Last's text",
    "s": "The suboccipital triangle:",
    "o": [
     [
      "Is bounded by rectus capitis posterior minor and the two obliques",
      0,
-     "It is bounded by rectus capitis posterior major and the superior and inferior obliques.\nMinor lies medial to it."
+     "It is bounded by rectus capitis posterior major and the superior and inferior obliques.\nMinor lies medial to it. (Last's p. 546)"
     ],
     [
      "Has the greater occipital nerve in its floor",
      0,
-     "The suboccipital nerve (C1 posterior ramus) lies in the triangle.\nThe greater occipital nerve (C2) winds round inferior oblique."
+     "The suboccipital nerve (C1 posterior ramus) lies in the triangle.\nThe greater occipital nerve (C2) winds round inferior oblique. (Last's p. 546)"
     ],
     [
      "Has the anterior arch of the atlas in its floor",
      0,
-     "Its floor is the posterior arch of the atlas and posterior atlanto-occipital membrane.\nThe anterior arch lies in front."
+     "Its floor is the posterior arch of the atlas and posterior atlanto-occipital membrane.\nThe anterior arch lies in front. (Last's p. 546)"
     ],
     [
      "Contains the vertebral artery",
      1,
-     "The vertebral artery lies in the groove on the posterior arch, in the floor of the triangle.\nIt then pierces the posterior atlanto-occipital membrane."
+     "The vertebral artery lies in the groove on the posterior arch, in the floor of the triangle.\nIt then pierces the posterior atlanto-occipital membrane. (Last's p. 546)"
     ]
    ]
   },
   {
    "t": "Lumbar puncture",
    "y": 2,
+   "src": "Last's text",
    "s": "In lumbar puncture:",
    "o": [
     [
@@ -231,56 +240,58 @@
     [
      "Flexion of the spine opens the spaces between the laminae",
      1,
-     "Lying on the side with the back flexed separates the spines.\nThis makes the approach easier."
+     "Lying on the side with the back flexed separates the spines.\nThis makes the approach easier. (Last's p. 575)"
     ],
     [
      "The needle pierces the ligamentum flavum",
      1,
-     "Then it pierces dura and arachnoid to enter the subarachnoid space.\nA loss of resistance is felt at the ligament."
+     "Then it pierces dura and arachnoid to enter the subarachnoid space.\nA loss of resistance is felt at the ligament. (Last's p. 575)"
     ],
     [
-     "A line joining the iliac crests crosses about L4",
+     "The needle passes through the supraspinous and interspinous ligaments",
      1,
-     "The supracristal line marks the L4 spine or L4/5 space.\nIt is the usual landmark."
+     "It passes through the supraspinous and interspinous ligaments and the ligamentum flavum, then dura and arachnoid.\nA loss of resistance is felt as it enters the subarachnoid space. (Last's p. 575)"
     ]
    ]
   },
   {
    "t": "Back muscles",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the nerve supply of back muscles:",
    "o": [
     [
      "Erector spinae is supplied by posterior rami",
      1,
-     "The true (deep) back muscles are supplied segmentally by posterior rami.\nThey develop from epaxial muscle."
+     "The true (deep) back muscles are supplied segmentally by posterior rami.\nThey develop from epaxial muscle. (Last's)"
     ],
     [
      "Trapezius is supplied by posterior rami",
      0,
-     "Trapezius is supplied by the spinal accessory nerve, with C3 and C4.\nIt is a limb muscle that migrated onto the back."
+     "Trapezius is supplied by the spinal accessory nerve, with C3 and C4.\nIt is a limb muscle that migrated onto the back. (Last's p. 544)"
     ],
     [
      "Levator scapulae is supplied by posterior rami",
      0,
-     "Levator scapulae is supplied by C3, C4 anterior rami and the dorsal scapular nerve.\nIt is an upper limb muscle."
+     "Levator scapulae is supplied by C3, C4 anterior rami and the dorsal scapular nerve.\nIt is an upper limb muscle. (Last's p. 439)"
     ],
     [
      "Serratus posterior superior is supplied by posterior rami",
      0,
-     "It is supplied by intercostal nerves (anterior rami).\nIt is a respiratory muscle overlying the true back muscles."
+     "It is supplied by intercostal nerves (anterior rami).\nIt is a respiratory muscle overlying the true back muscles. (Last's)"
     ]
    ]
   },
   {
    "t": "Sacrum",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the sacrum:",
    "o": [
     [
      "The sacral hiatus is due to failure of fusion of the laminae of S1",
      0,
-     "The hiatus is due to missing laminae of S5 (and often S4).\nIts edges are the sacral cornua."
+     "The hiatus is due to missing laminae of S5 (and often S4).\nIts edges are the sacral cornua. (Last's p. 552 - 554)"
     ],
     [
      "The dural sac ends at S4",
@@ -290,39 +301,40 @@
     [
      "The sacral canal contains the spinal cord",
      0,
-     "The canal contains the cauda equina and filum, not the cord.\nThe cord ends at L1."
+     "The canal contains the cauda equina and filum, not the cord.\nThe cord ends at L1. (Last's p. 575)"
     ],
     [
      "The sacral hiatus is used for caudal epidural anaesthesia",
      1,
-     "Injection through the hiatus reaches the extradural space.\nIt blocks the sacral nerves."
+     "Injection through the hiatus reaches the extradural space.\nIt blocks the sacral nerves. (Last's p. 575)"
     ]
    ]
   },
   {
    "t": "Vertebral joints",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the joints of the vertebral column:",
    "o": [
     [
      "Zygapophyseal joints are synovial",
      1,
-     "Facet joints are plane synovial joints.\nTheir orientation sets the movement at each level."
+     "Facet joints are plane synovial joints.\nTheir orientation sets the movement at each level. (Last's p. 539)"
     ],
     [
      "Intervertebral discs form synovial joints",
      0,
-     "The joints between vertebral bodies are secondary cartilaginous joints (symphyses).\nThere is no joint cavity."
+     "The joints between vertebral bodies are secondary cartilaginous joints (symphyses).\nThere is no joint cavity. (Last's p. 537)"
     ],
     [
      "The atlanto-axial joints allow mainly flexion",
      0,
-     "They allow mainly rotation, about half of all neck rotation.\nThe dens is the pivot."
+     "They allow mainly rotation, about half of all neck rotation.\nThe dens is the pivot. (Last's p. 542)"
     ],
     [
      "The atlanto-occipital joints allow mainly rotation",
      0,
-     "They allow mainly flexion and extension (nodding).\nThere is very little rotation."
+     "They allow mainly flexion and extension (nodding).\nThere is very little rotation. (Last's p. 540 - 543)"
     ]
    ]
   }

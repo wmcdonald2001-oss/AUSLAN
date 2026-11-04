@@ -5,103 +5,107 @@
   {
    "t": "Femoral nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The femoral nerve:",
    "o": [
     [
      "Arises from the posterior divisions of L1–3",
      0,
-     "It arises from the posterior divisions of L2–4.\nThe obturator nerve takes the anterior divisions."
+     "It arises from the posterior divisions of L2–4.\nThe obturator nerve takes the anterior divisions. (Last's)"
     ],
     [
      "Lies inside the femoral sheath",
      0,
-     "It lies outside the sheath, lateral to it.\nThe sheath contains artery, vein and the femoral canal."
+     "It lies outside the sheath, lateral to it.\nThe sheath contains artery, vein and the femoral canal. (Last's)"
     ],
     [
      "Supplies adductor longus",
      0,
-     "Adductor longus is supplied by the obturator nerve.\nThe femoral supplies quadriceps, sartorius, pectineus and iliacus."
+     "Adductor longus is supplied by the obturator nerve.\nThe femoral supplies quadriceps, sartorius, pectineus and iliacus. (Last's p. 146, 160, 214, 397, 416)"
     ],
     [
      "Has the saphenous nerve as its longest branch",
      1,
-     "The saphenous nerve runs in the adductor canal and down to the medial foot.\nIt is purely sensory."
+     "The saphenous nerve runs in the adductor canal and down to the medial foot.\nIt is purely sensory. (Last's p. 156, 214, 363)"
     ]
    ]
   },
   {
    "t": "Obturator nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The obturator nerve:",
    "o": [
     [
      "Arises from the anterior divisions of L2–4",
      1,
-     "It forms within psoas and emerges at its medial border.\nIt runs on the side wall of the pelvis."
+     "It forms within psoas and emerges at its medial border.\nIt runs on the side wall of the pelvis. (Last's p. 146, 160, 214, 397, 416)"
     ],
     [
      "Always supplies pectineus",
      0,
-     "Pectineus is usually supplied by the femoral nerve.\nThe obturator (or accessory obturator) helps only sometimes."
+     "Pectineus is usually supplied by the femoral nerve.\nThe obturator (or accessory obturator) helps only sometimes. (Last's)"
     ],
     [
      "Leaves the pelvis through the greater sciatic foramen",
      0,
-     "It leaves through the obturator canal.\nThe sciatic nerve uses the greater sciatic foramen."
+     "It leaves through the obturator canal.\nThe sciatic nerve uses the greater sciatic foramen. (Last's)"
     ],
     [
      "Supplies the skin of the lateral thigh",
      0,
-     "It supplies skin on the medial thigh.\nThe lateral thigh is supplied by the lateral femoral cutaneous nerve."
+     "It supplies skin on the medial thigh.\nThe lateral thigh is supplied by the lateral femoral cutaneous nerve. (Last's)"
     ]
    ]
   },
   {
    "t": "Sciatic nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The sciatic nerve:",
    "o": [
     [
      "Leaves the pelvis above piriformis",
      0,
-     "It usually leaves below piriformis.\nThe superior gluteal nerve leaves above."
+     "It usually leaves below piriformis.\nThe superior gluteal nerve leaves above. (Last's)"
     ],
     [
      "Supplies the hamstrings through its tibial part",
      1,
-     "Semitendinosus, semimembranosus, long head of biceps and the hamstring part of adductor magnus.\nThese are all tibial-part muscles."
+     "Semitendinosus, semimembranosus, long head of biceps and the hamstring part of adductor magnus.\nThese are all tibial-part muscles. (Last's)"
     ],
     [
      "Supplies the short head of biceps through its tibial part",
      0,
-     "The short head is supplied by the common peroneal part.\nIt is the only thigh muscle with that supply."
+     "The short head is supplied by the common peroneal part.\nIt is the only thigh muscle with that supply. (Last's)"
     ],
     [
      "Usually divides at the apex of the popliteal fossa",
      1,
-     "It usually divides into tibial and common peroneal there.\nA high division in the pelvis is common."
+     "It usually divides into tibial and common peroneal there.\nA high division in the pelvis is common. (Last's)"
     ]
    ]
   },
   {
    "t": "Lateral femoral cutaneous nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The lateral femoral cutaneous nerve:",
    "o": [
     [
      "Comes from L2 and L3",
      1,
-     "It comes from the posterior divisions of L2 and L3.\nIt emerges at the lateral border of psoas."
+     "It comes from the posterior divisions of L2 and L3.\nIt emerges at the lateral border of psoas. (Last's p. 146, 214, 363)"
     ],
     [
      "Passes under or through the inguinal ligament near the ASIS",
      1,
-     "It enters the thigh close to the anterior superior iliac spine.\nIts course is variable."
+     "It enters the thigh close to the anterior superior iliac spine.\nIts course is variable. (Last's p. 146, 214, 363)"
     ],
     [
      "Causes meralgia paraesthetica when compressed",
      1,
-     "Compression gives numbness and burning over the lateral thigh.\nThere is no weakness, as it is purely sensory."
+     "Compression gives numbness and burning over the lateral thigh.\nThere is no weakness, as it is purely sensory. (Last's p. 146, 214, 363)"
     ],
     [
      "Can pass through a tunnel 1 cm medial to the ASIS",
@@ -118,12 +122,12 @@
     [
      "Leaves the pelvis below piriformis",
      0,
-     "It leaves above piriformis with the superior gluteal vessels.\nIt is the only nerve to do so."
+     "It leaves above piriformis with the superior gluteal vessels.\nIt is the only nerve to do so. (Last's)"
     ],
     [
      "Supplies gluteus maximus",
      0,
-     "Gluteus maximus is supplied by the inferior gluteal nerve.\nThe superior gluteal supplies medius, minimus and tensor fasciae latae."
+     "Gluteus maximus is supplied by the inferior gluteal nerve.\nThe superior gluteal supplies medius, minimus and tensor fasciae latae. (Last's)"
     ],
     [
      "When cut, makes the pelvis drop on the same side when standing on that leg",
@@ -133,142 +137,147 @@
     [
      "Supplies tensor fasciae latae",
      1,
-     "It ends in tensor fasciae latae.\nThis muscle also helps hold the pelvis level."
+     "It ends in tensor fasciae latae.\nThis muscle also helps hold the pelvis level. (Last's)"
     ]
    ]
   },
   {
    "t": "Tibial nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The tibial nerve:",
    "o": [
     [
      "Supplies all the muscles of the back of the leg",
      1,
-     "It supplies the superficial and deep calf muscles.\nThese are the plantarflexors and toe flexors."
+     "It supplies the superficial and deep calf muscles.\nThese are the plantarflexors and toe flexors. (Last's)"
     ],
     [
      "Runs with the anterior tibial artery",
      0,
-     "It runs with the posterior tibial artery.\nThe deep peroneal nerve runs with the anterior tibial."
+     "It runs with the posterior tibial artery.\nThe deep peroneal nerve runs with the anterior tibial. (Last's)"
     ],
     [
      "Ends by dividing into deep and superficial peroneal nerves",
      0,
-     "It ends as the medial and lateral plantar nerves.\nThe common peroneal divides into deep and superficial peroneal."
+     "It ends as the medial and lateral plantar nerves.\nThe common peroneal divides into deep and superficial peroneal. (Last's)"
     ],
     [
      "Passes in front of the medial malleolus",
      0,
-     "It passes behind the medial malleolus, under the flexor retinaculum.\nThis is the tarsal tunnel."
+     "It passes behind the medial malleolus, under the flexor retinaculum.\nThis is the tarsal tunnel. (Last's)"
     ]
    ]
   },
   {
    "t": "Deep peroneal nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The deep peroneal nerve:",
    "o": [
     [
      "Supplies peroneus longus",
      0,
-     "Peroneus longus and brevis are supplied by the superficial peroneal nerve.\nThe deep peroneal supplies the anterior compartment."
+     "Peroneus longus and brevis are supplied by the superficial peroneal nerve.\nThe deep peroneal supplies the anterior compartment. (Last's)"
     ],
     [
      "Supplies the skin of most of the dorsum of the foot",
      0,
-     "Most of the dorsum is supplied by the superficial peroneal nerve.\nThe deep peroneal supplies only the first web space."
+     "Most of the dorsum is supplied by the superficial peroneal nerve.\nThe deep peroneal supplies only the first web space. (Last's)"
     ],
     [
      "Lies superficial to the extensor retinaculum",
      0,
-     "It passes deep to the retinaculum with the anterior tibial artery.\nThe superficial peroneal lies superficial."
+     "It passes deep to the retinaculum with the anterior tibial artery.\nThe superficial peroneal lies superficial. (Last's)"
     ],
     [
      "Supplies the skin of the first web space",
      1,
-     "This small area is the test for a deep peroneal lesion.\nIt also supplies extensor digitorum brevis."
+     "This small area is the test for a deep peroneal lesion.\nIt also supplies extensor digitorum brevis. (Last's)"
     ]
    ]
   },
   {
    "t": "Femoral triangle",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the femoral triangle:",
    "o": [
     [
      "The femoral vein lies lateral to the artery",
      0,
-     "From lateral to medial: nerve, artery, vein, canal (NAVY).\nThe vein is medial."
+     "From lateral to medial: nerve, artery, vein, canal (NAVY).\nThe vein is medial. (Last's)"
     ],
     [
-     "The femoral canal contains a lymph node",
+     "It is bounded by the inguinal ligament, sartorius and adductor longus",
      1,
-     "The canal contains fat, lymphatics and a lymph node (of Cloquet).\nIt is the site of femoral hernia."
+     "The borders are the inguinal ligament above, the medial border of sartorius laterally and the medial border of adductor longus medially.\nIts floor is iliopsoas, pectineus and adductor longus. (Last's)"
     ],
     [
      "The femoral nerve lies within the femoral sheath",
      0,
-     "The nerve lies outside the sheath, lateral to it.\nThe sheath is a downward extension of abdominal fascia."
+     "The nerve lies outside the sheath, lateral to it.\nThe sheath is a downward extension of abdominal fascia. (Last's p. 146, 305, 363)"
     ],
     [
      "The femoral sheath is formed from transversalis and iliac fascia",
      1,
-     "The front is transversalis fascia, the back iliac fascia.\nIt encloses artery, vein and canal."
+     "The front is transversalis fascia, the back iliac fascia.\nIt encloses artery, vein and canal. (Last's p. 146, 305, 363)"
     ]
    ]
   },
   {
    "t": "Lumbar plexus",
    "y": 2,
+   "src": "Last's text",
    "s": "The lumbar plexus:",
    "o": [
     [
      "Is formed within psoas major",
      1,
-     "It forms within the substance of psoas.\nIts branches emerge from the lateral and medial borders and the front of the muscle."
+     "It forms within the substance of psoas.\nIts branches emerge from the lateral and medial borders and the front of the muscle. (Last's)"
     ],
     [
      "Gives the iliohypogastric nerve from L2",
      0,
-     "Iliohypogastric and ilioinguinal come from L1.\nGenitofemoral comes from L1 and L2."
+     "Iliohypogastric and ilioinguinal come from L1.\nGenitofemoral comes from L1 and L2. (Last's)"
     ],
     [
      "Gives the femoral nerve from its anterior divisions",
      0,
-     "The femoral comes from the posterior divisions of L2–4.\nThe obturator comes from the anterior divisions."
+     "The femoral comes from the posterior divisions of L2–4.\nThe obturator comes from the anterior divisions. (Last's)"
     ],
     [
      "Gives a genitofemoral nerve that emerges from the lateral border of psoas",
      0,
-     "Genitofemoral emerges on the front of psoas.\nIt is the only nerve to pierce the front of the muscle."
+     "Genitofemoral emerges on the front of psoas.\nIt is the only nerve to pierce the front of the muscle. (Last's p. 146, 305, 363)"
     ]
    ]
   },
   {
    "t": "Lower limb reflexes and myotomes",
    "y": 2,
-   "s": "Segmental supply in the lower limb:",
+   "src": "Last's text",
+   "s": "Segmental supply in the lower limb (Last's):",
    "o": [
     [
      "The ankle jerk is S1",
      1,
-     "The ankle jerk tests S1 (and S2).\nIt is lost with an S1 root lesion."
+     "Last's lists S1 for gastrocnemius and the ankle jerk.\nS2 is the small muscles of the foot. (Last's)"
     ],
     [
-     "The knee jerk is L3 and L4",
+     "The knee jerk is L3",
      1,
-     "The knee jerk tests L3 and L4 through the femoral nerve.\nIt is lost with an L4 root lesion."
+     "Last's gives L3 for quadriceps femoris and the knee jerk.\nOther texts give L3 and L4, but Last's says L3. (Last's)"
     ],
     [
-     "Hip flexion is L2 and L3",
+     "Inversion of the foot is L4",
      1,
-     "Hip flexion is mainly L2 and L3.\nHip extension is L4 and L5."
+     "Tibialis anterior and posterior, the invertors, are both L4.\nThis is why tibialis posterior is L4 despite being a plantarflexor. (Last's)"
     ],
     [
-     "Ankle dorsiflexion is L4 and L5",
+     "Extension of the great toe is L5",
      1,
-     "Dorsiflexion is L4 and L5; plantarflexion S1 and S2.\nSo an L5 lesion can give foot drop."
+     "L5 supplies extensor hallucis longus and the peroneal muscles.\nSo L5 gives great toe extension and eversion. (Last's)"
     ]
    ]
   }

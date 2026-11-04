@@ -5,54 +5,56 @@
   {
    "t": "Pudendal nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The pudendal nerve:",
    "o": [
     [
      "Comes from S2, S3 and S4",
      1,
-     "It is the main somatic nerve of the perineum.\nIt also supplies the external sphincters."
+     "It is the main somatic nerve of the perineum.\nIt also supplies the external sphincters. (Last's p. 398, 411, 417)"
     ],
     [
      "Leaves the pelvis above piriformis",
      0,
-     "It leaves below piriformis through the greater sciatic foramen.\nIt then hooks round the sacrospinous ligament."
+     "It leaves below piriformis through the greater sciatic foramen.\nIt then hooks round the sacrospinous ligament. (Last's p. 398, 411, 417)"
     ],
     [
      "Supplies the external anal sphincter through the pelvic splanchnic nerves",
      0,
-     "It supplies the sphincter through its inferior rectal branch.\nThe pelvic splanchnics are parasympathetic."
+     "It supplies the sphincter through its inferior rectal branch.\nThe pelvic splanchnics are parasympathetic. (Last's p. 398, 411, 417)"
     ],
     [
      "Enters the perineum through the obturator canal",
      0,
-     "It enters through the lesser sciatic foramen into the pudendal canal.\nThe canal lies on obturator internus fascia."
+     "It enters through the lesser sciatic foramen into the pudendal canal.\nThe canal lies on obturator internus fascia. (Last's p. 398, 411, 417)"
     ]
    ]
   },
   {
    "t": "Inguinal canal",
    "y": 2,
+   "src": "Last's text",
    "s": "The inguinal canal:",
    "o": [
     [
      "Has the deep ring medial to the inferior epigastric artery",
      0,
-     "The deep ring lies lateral to the inferior epigastric artery.\nDirect hernias come through medial to it."
+     "The deep ring lies lateral to the inferior epigastric artery.\nDirect hernias come through medial to it. (Last's)"
     ],
     [
      "Has the ilioinguinal nerve entering through the deep ring",
      0,
-     "The ilioinguinal enters by piercing internal oblique, not through the deep ring.\nIt then leaves through the superficial ring."
+     "The ilioinguinal enters by piercing internal oblique, not through the deep ring.\nIt then leaves through the superficial ring. (Last's)"
     ],
     [
      "Has the conjoint tendon as its anterior wall",
      0,
-     "The conjoint tendon reinforces the posterior wall medially.\nThe external oblique aponeurosis forms the anterior wall."
+     "The conjoint tendon reinforces the posterior wall medially.\nThe external oblique aponeurosis forms the anterior wall. (Last's)"
     ],
     [
      "Has the genital branch of the genitofemoral nerve entering through the deep ring",
      1,
-     "The genital branch enters at the deep ring and runs in the spermatic cord.\nIt supplies cremaster."
+     "The genital branch enters at the deep ring and runs in the spermatic cord.\nIt supplies cremaster. (Last's)"
     ]
    ]
   },
@@ -64,7 +66,7 @@
     [
      "Receives the greater splanchnic nerves",
      1,
-     "Greater splanchnics (T5–9) pierce the crura to reach the coeliac ganglia.\nTheir fibres relay there."
+     "Greater splanchnics (T5–9) pierce the crura to reach the coeliac ganglia.\nTheir fibres relay there. (Last's)"
     ],
     [
      "Receives vagal fibres",
@@ -86,6 +88,7 @@
   {
    "t": "Pelvic autonomics",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the pelvic autonomic nerves:",
    "o": [
     [
@@ -111,110 +114,114 @@
    ]
   },
   {
-   "t": "Kidney",
+   "t": "Innervation of the peritoneum",
    "y": 2,
-   "s": "The kidneys:",
+   "src": "Last's text",
+   "s": "Concerning the nerve supply of the peritoneum:",
    "o": [
     [
-     "Have the right kidney higher than the left",
-     0,
-     "The right kidney is usually lower, pushed down by the liver.\nThe left kidney is about 1 cm higher."
-    ],
-    [
-     "Have the renal vein behind the renal artery at the hilum",
-     0,
-     "From front to back: vein, artery, pelvis.\nThe vein is in front."
-    ],
-    [
-     "Refer pain to the T6–8 dermatomes",
-     0,
-     "Renal pain is referred to T10–L1, loin to groin.\nThese match the kidney's sympathetic supply."
-    ],
-    [
-     "Have a left renal vein crossing in front of the aorta below the SMA",
+     "The parietal peritoneum has a segmental supply from spinal nerves",
      1,
-     "It crosses in front of the aorta just below the superior mesenteric artery.\nIt can be squeezed there (nutcracker)."
+     "Parietal serosa develops from somatopleure and is supplied segmentally by spinal nerves.\nSo it is sensitive to pain and well localised. (Last's)"
+    ],
+    [
+     "The central diaphragmatic peritoneum is supplied by intercostal nerves",
+     0,
+     "The central part is supplied by the phrenic nerve.\nThe peripheral part is supplied by intercostal nerves. (Last's)"
+    ],
+    [
+     "In the pelvis the femoral nerve is the chief supply of the parietal peritoneum",
+     0,
+     "In the pelvis the obturator nerve is the chief supply.\nSo pelvic peritonitis can cause pain on the medial thigh. (Last's)"
+    ],
+    [
+     "The visceral peritoneum is supplied segmentally by spinal nerves",
+     0,
+     "The visceral layer develops from splanchnopleure and is supplied by autonomic nerves, if at all.\nIt has no somatic sensory supply. (Last's)"
     ]
    ]
   },
   {
    "t": "Nerves of the abdominal wall",
    "y": 2,
+   "src": "Last's text",
    "s": "Nerves of the abdominal wall:",
    "o": [
     [
      "The iliohypogastric nerve supplies the skin above the pubis",
      1,
-     "It supplies the suprapubic skin and part of the gluteal region.\nIt comes from L1."
+     "It supplies the suprapubic skin and part of the gluteal region.\nIt comes from L1. (Last's)"
     ],
     [
      "The subcostal nerve is T11",
      0,
-     "The subcostal nerve is T12.\nIt runs below the twelfth rib."
+     "The subcostal nerve is T12.\nIt runs below the twelfth rib. (Last's)"
     ],
     [
      "The ilioinguinal nerve enters the inguinal canal through the deep ring",
      0,
-     "It pierces internal oblique and enters the canal from the side.\nIt leaves through the superficial ring."
+     "It pierces internal oblique and enters the canal from the side.\nIt leaves through the superficial ring. (Last's)"
     ],
     [
      "The genitofemoral nerve pierces quadratus lumborum",
      0,
-     "It pierces the front of psoas.\nThe subcostal, iliohypogastric and ilioinguinal cross quadratus lumborum."
+     "It pierces the front of psoas.\nThe subcostal, iliohypogastric and ilioinguinal cross quadratus lumborum. (Last's)"
     ]
    ]
   },
   {
-   "t": "Abdominal aorta",
+   "t": "Psoas major",
    "y": 2,
-   "s": "The abdominal aorta:",
+   "src": "Last's text",
+   "s": "The psoas major:",
    "o": [
     [
-     "Enters the abdomen at T10",
+     "Inserts into the greater trochanter",
      0,
-     "It enters through the aortic opening at T12.\nThe oesophageal opening is at T10."
+     "It inserts into the lesser trochanter.\nIt passes down along the pelvic brim and under the inguinal ligament into the thigh. (Last's)"
     ],
     [
-     "Gives the superior mesenteric artery at L1",
+     "Contains the lumbar plexus within its substance",
      1,
-     "The SMA arises at L1, behind the neck of the pancreas.\nThe coeliac trunk arises at T12."
+     "The lumbar plexus forms within the muscle.\nIts branches emerge from the lateral and medial borders and the front. (Last's)"
     ],
     [
-     "Divides at L2",
+     "Has the obturator nerve emerging from its lateral border",
      0,
-     "It divides at L4, left of the midline.\nL4 is at the level of the iliac crests."
+     "The obturator nerve and lumbosacral trunk emerge from the medial border.\nIliohypogastric, ilioinguinal, lateral femoral cutaneous and femoral emerge laterally; genitofemoral anteriorly. (Last's)"
     ],
     [
-     "Gives the inferior mesenteric artery at L3",
+     "Has the lumbar arteries passing beneath its fibrous arches",
      1,
-     "The IMA arises at L3 behind the third part of the duodenum.\nIt supplies the hindgut."
+     "The four lumbar arteries and veins pass beneath the arches over the sides of the vertebral bodies.\nThey run laterally behind psoas with the sympathetic rami. (Last's)"
     ]
    ]
   },
   {
-   "t": "Referred visceral pain",
+   "t": "Lumbar fascia",
    "y": 2,
-   "s": "Concerning referred visceral pain:",
+   "src": "Last's text",
+   "s": "The lumbar fascia:",
    "o": [
     [
-     "Early appendicitis pain is felt around the umbilicus",
-     1,
-     "Midgut pain is referred to the T10 area round the umbilicus.\nIt moves to the right iliac fossa when parietal peritoneum is involved."
+     "Has quadratus lumborum in its posterior compartment",
+     0,
+     "Quadratus lumborum is in the anterior compartment; erector spinae is in the posterior.\nThree layers enclose the two compartments. (Last's)"
     ],
     [
-     "Diaphragmatic irritation can cause shoulder-tip pain",
-     1,
-     "The phrenic nerve (C3–5) shares segments with the shoulder skin (C4).\nBlood under the diaphragm causes this."
+     "Has three layers in the thoracic region",
+     0,
+     "In the thoracic region there is only the posterior layer.\nThe anterior and middle layers exist only in the lumbar region. (Last's)"
     ],
     [
-     "Testicular pain can be felt round the umbilicus",
-     1,
-     "The testis develops at T10 level and keeps its nerve supply.\nIts pain can be referred there."
+     "Has a middle layer attached to the bases of the lumbar transverse processes",
+     0,
+     "The middle layer attaches to the tips of the transverse processes.\nThe anterior layer attaches to their bases, with the psoas fascia. (Last's)"
     ],
     [
-     "Foregut pain is felt in the epigastrium",
+     "Has its anterior and middle layers blending at the lateral border of quadratus lumborum",
      1,
-     "Foregut pain is referred to the epigastrium, T5–T9.\nMidgut is umbilical and hindgut suprapubic."
+     "They blend there and give origin to transversus abdominis and internal oblique.\nThe posterior layer joins them at the lateral border of erector spinae. (Last's)"
     ]
    ]
   }

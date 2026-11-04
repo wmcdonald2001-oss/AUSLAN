@@ -5,60 +5,63 @@
   {
    "t": "Jugular foramen",
    "y": 2,
+   "src": "Last's text",
    "s": "The jugular foramen:",
    "o": [
     [
      "Transmits the glossopharyngeal nerve through its posterior part",
      0,
-     "IX passes through the anterior (medial) part, with the inferior petrosal sinus.\nX and XI pass through the middle part."
+     "IX passes through the anterior (medial) part, with the inferior petrosal sinus.\nX and XI pass through the middle part. (Last's)"
     ],
     [
      "Transmits the sigmoid sinus through its anterior part",
      0,
-     "The sigmoid sinus passes through the posterior (lateral) part, becoming the internal jugular vein.\nThis is the largest part of the foramen."
+     "The sigmoid sinus passes through the posterior (lateral) part, becoming the internal jugular vein.\nThis is the largest part of the foramen. (Last's)"
     ],
     [
      "Transmits the hypoglossal nerve",
      0,
-     "XII leaves through the hypoglossal canal, above the condyle.\nIt joins the vagus just outside the skull."
+     "XII leaves through the hypoglossal canal, above the condyle.\nIt joins the vagus just outside the skull. (Last's)"
     ],
     [
      "Transmits the inferior petrosal sinus through its anterior part",
      1,
-     "The inferior petrosal sinus passes through the anterior part to join the internal jugular vein.\nIX lies alongside it."
+     "The inferior petrosal sinus passes through the anterior part to join the internal jugular vein.\nIX lies alongside it. (Last's)"
     ]
    ]
   },
   {
    "t": "Internal acoustic meatus",
    "y": 2,
+   "src": "Last's text",
    "s": "The internal acoustic meatus:",
    "o": [
     [
      "Transmits the glossopharyngeal nerve",
      0,
-     "IX leaves through the jugular foramen.\nThe meatus transmits VII, nervus intermedius and VIII."
+     "IX leaves through the jugular foramen.\nThe meatus transmits VII, nervus intermedius and VIII. (Last's)"
     ],
     [
      "Transmits the labyrinthine artery",
      1,
-     "The labyrinthine artery, usually from AICA, enters the meatus to the inner ear.\nIt is an end artery."
+     "The labyrinthine artery, usually from AICA, enters the meatus to the inner ear.\nIt is an end artery. (Last's p. 572)"
     ],
     [
      "Has the facial nerve in the lower part of its fundus",
      0,
-     "The facial nerve lies in the upper anterior part of the fundus.\nThe cochlear nerve is below it, the vestibular nerves behind."
+     "The facial nerve lies in the upper anterior part of the fundus.\nThe cochlear nerve is below it, the vestibular nerves behind. (Last's p. 572)"
     ],
     [
      "Transmits the facial nerve, nervus intermedius and vestibulocochlear nerve",
      1,
-     "These pass from the cerebellopontine angle into the meatus together.\nAn acoustic neuroma here can compress VII as well as VIII."
+     "These pass from the cerebellopontine angle into the meatus together.\nAn acoustic neuroma here can compress VII as well as VIII. (Last's p. 636-637)"
     ]
    ]
   },
   {
    "t": "Foramen ovale",
    "y": 2,
+   "src": "Last's text",
    "s": "The foramen ovale:",
    "o": [
     [
@@ -69,56 +72,58 @@
     [
      "Transmits the middle meningeal artery",
      0,
-     "The middle meningeal artery enters through the foramen spinosum, just behind and lateral.\nThe accessory meningeal artery uses the foramen ovale."
+     "The middle meningeal artery enters through the foramen spinosum, just behind and lateral.\nThe accessory meningeal artery uses the foramen ovale. (Last's p. 654)"
     ],
     [
      "Lies in the petrous temporal bone",
      0,
-     "It lies in the greater wing of the sphenoid.\nThe foramen spinosum is also in the greater wing."
+     "It lies in the greater wing of the sphenoid.\nThe foramen spinosum is also in the greater wing. (Last's p. 648)"
     ],
     [
      "Transmits the greater petrosal nerve",
      0,
-     "The greater petrosal runs to the foramen lacerum.\nThe lesser petrosal often passes through the foramen ovale (or a small canal near it)."
+     "The greater petrosal runs to the foramen lacerum.\nThe lesser petrosal often passes through the foramen ovale (or a small canal near it). (Last's p. 654)"
     ]
    ]
   },
   {
    "t": "Foramen lacerum",
    "y": 2,
+   "src": "Last's text",
    "s": "The foramen lacerum:",
    "o": [
     [
      "Is traversed vertically from below by the internal carotid artery",
      0,
-     "The artery enters the cranium across the upper end of the foramen from the carotid canal.\nIt does not pass up through it from below."
+     "The artery enters the cranium across the upper end of the foramen from the carotid canal.\nIt does not pass up through it from below. (Last's p. 654)"
     ],
     [
      "Is open in life",
      0,
-     "It is closed below by fibrocartilage in life.\nOnly small structures pierce it."
+     "It is closed below by fibrocartilage in life.\nOnly small structures pierce it. (Last's p. 650)"
     ],
     [
      "Transmits the maxillary nerve",
      0,
-     "The maxillary nerve leaves through the foramen rotundum.\nThe foramen lacerum lies further back, at the petrous apex."
+     "The maxillary nerve leaves through the foramen rotundum.\nThe foramen lacerum lies further back, at the petrous apex. (Last's p. 654)"
     ],
     [
      "Is where the greater and deep petrosal nerves join",
      1,
-     "They join at the foramen lacerum to form the nerve of the pterygoid canal.\nThat nerve runs forward to the pterygopalatine ganglion."
+     "They join at the foramen lacerum to form the nerve of the pterygoid canal.\nThat nerve runs forward to the pterygopalatine ganglion. (Last's p. 635-6)"
     ]
    ]
   },
   {
    "t": "Pterion",
    "y": 2,
+   "src": "Last's text",
    "s": "The pterion:",
    "o": [
     [
      "Is where frontal, parietal, sphenoid and temporal bones meet",
      1,
-     "It is an H-shaped junction on the side of the skull.\nIt is the thinnest part of the vault."
+     "It is an H-shaped junction on the side of the skull.\nIt is the thinnest part of the vault. (Last's p. 644-45)"
     ],
     [
      "Lies about 3 cm above the midpoint of the zygomatic arch",
@@ -128,18 +133,19 @@
     [
      "Overlies the frontal branch of the middle meningeal artery",
      1,
-     "The frontal branch runs deep to the pterion, often in a bony canal.\nA blow here can tear it and cause an extradural haematoma."
+     "The frontal branch runs deep to the pterion, often in a bony canal.\nA blow here can tear it and cause an extradural haematoma. (Last's p. 562)"
     ],
     [
      "Overlies the transverse sinus",
      0,
-     "The transverse sinus lies at the back of the skull, along the attached margin of the tentorium.\nThe pterion overlies the stem of the lateral sulcus."
+     "The transverse sinus lies at the back of the skull, along the attached margin of the tentorium.\nThe pterion overlies the stem of the lateral sulcus. (Last's p. 655)"
     ]
    ]
   },
   {
    "t": "Middle meningeal artery",
    "y": 2,
+   "src": "Last's text",
    "s": "The middle meningeal artery:",
    "o": [
     [
@@ -150,142 +156,147 @@
     [
      "Enters the skull through the foramen spinosum",
      1,
-     "It enters through the foramen spinosum with the nervus spinosus.\nIt then grooves the squamous temporal bone."
+     "It enters through the foramen spinosum with the nervus spinosus.\nIt then grooves the squamous temporal bone. (Last's p. 654)"
     ],
     [
      "Supplies the cerebral cortex",
      0,
-     "It supplies the dura and the bone of the vault, not the brain.\nThe brain gets its blood from the internal carotid and vertebral systems."
+     "It supplies the dura and the bone of the vault, not the brain.\nThe brain gets its blood from the internal carotid and vertebral systems. (Last's p. 562)"
     ],
     [
      "Bleeds into the extradural space when torn",
      1,
-     "The artery lies between dura and bone, so tearing it strips the dura off.\nThis forms an extradural haematoma, classically after a pterion fracture."
+     "The artery lies between dura and bone, so tearing it strips the dura off.\nThis forms an extradural haematoma, classically after a pterion fracture. (Last's p. 560)"
     ]
    ]
   },
   {
    "t": "Dura mater",
    "y": 2,
+   "src": "Last's text",
    "s": "The falx cerebri:",
    "o": [
     [
      "Is attached anteriorly to the crista galli",
      1,
-     "The falx is attached in front to the crista galli.\nBehind, it fuses with the tentorium."
+     "The falx is attached in front to the crista galli.\nBehind, it fuses with the tentorium. (Last's p. 653)"
     ],
     [
      "Has the straight sinus in its lower free margin",
      0,
-     "The inferior sagittal sinus runs in the lower free margin.\nThe straight sinus lies along the junction of falx and tentorium."
+     "The inferior sagittal sinus runs in the lower free margin.\nThe straight sinus lies along the junction of falx and tentorium. (Last's p. 561)"
     ],
     [
      "Is attached anteriorly to the tentorium cerebelli",
      0,
-     "It joins the tentorium at the back, along the straight sinus.\nThe front end is free above the corpus callosum."
+     "It joins the tentorium at the back, along the straight sinus.\nThe front end is free above the corpus callosum. (Last's p. 655)"
     ],
     [
      "Separates the two cerebellar hemispheres",
      0,
-     "That is the falx cerebelli, a small fold below the tentorium.\nThe falx cerebri lies between the cerebral hemispheres."
+     "That is the falx cerebelli, a small fold below the tentorium.\nThe falx cerebri lies between the cerebral hemispheres. (Last's p. 560)"
     ]
    ]
   },
   {
    "t": "Dura mater",
    "y": 2,
+   "src": "Last's text",
    "s": "The tentorium cerebelli:",
    "o": [
     [
      "Has its free margin attached to the posterior clinoid processes",
      0,
-     "The free margin runs forward to the anterior clinoid processes.\nThe attached margin ends at the posterior clinoid processes."
+     "The free margin runs forward to the anterior clinoid processes.\nThe attached margin ends at the posterior clinoid processes. (Last's p. 560)"
     ],
     [
      "Has the transverse sinus in its free margin",
      0,
-     "The transverse sinus is in the attached margin, on the occipital bone.\nThe free margin bounds the tentorial notch."
+     "The transverse sinus is in the attached margin, on the occipital bone.\nThe free margin bounds the tentorial notch. (Last's p. 560)"
     ],
     [
      "Is supplied by upper cervical nerves",
      0,
-     "It is supplied by tentorial branches of the ophthalmic nerve.\nDura below it is supplied by upper cervical nerves and the vagus."
+     "It is supplied by tentorial branches of the ophthalmic nerve.\nDura below it is supplied by upper cervical nerves and the vagus. (Last's p. 562-563)"
     ],
     [
      "Bounds the tentorial notch through which the midbrain passes",
      1,
-     "The free margin forms the notch around the midbrain.\nHerniation of the uncus through the notch compresses III and the midbrain."
+     "The free margin forms the notch around the midbrain.\nHerniation of the uncus through the notch compresses III and the midbrain. (Last's p. 560)"
     ]
    ]
   },
   {
    "t": "Dural venous sinuses",
    "y": 2,
+   "src": "Last's text",
    "s": "The superior sagittal sinus:",
    "o": [
     [
      "Receives the superior cerebral veins",
      1,
-     "They open into it, often against the flow, after crossing the subdural space.\nTearing these bridging veins causes subdural haematoma."
+     "They open into it, often against the flow, after crossing the subdural space.\nTearing these bridging veins causes subdural haematoma. (Last's p. 602)"
     ],
     [
      "Has arachnoid granulations projecting into its lateral lacunae",
      1,
-     "CSF passes back into the blood through the granulations.\nThey indent the vault bone with age."
+     "CSF passes back into the blood through the granulations.\nThey indent the vault bone with age. (Last's)"
     ],
     [
      "Usually drains into the right transverse sinus",
      1,
-     "At the confluence it usually turns right, while the straight sinus turns left.\nSo the right sigmoid sinus and internal jugular are usually larger."
+     "At the confluence it usually turns right, while the straight sinus turns left.\nSo the right sigmoid sinus and internal jugular are usually larger. (Last's p. 655)"
     ],
     [
      "Communicates with scalp veins through emissary veins",
      1,
-     "The parietal emissary veins link it to scalp veins.\nScalp infection can spread inward this way."
+     "The parietal emissary veins link it to scalp veins.\nScalp infection can spread inward this way. (Last's p. 643-44)"
     ]
    ]
   },
   {
    "t": "Dural venous sinuses",
    "y": 2,
+   "src": "Last's text",
    "s": "The sigmoid sinus:",
    "o": [
     [
      "Grooves the occipital bone only",
      0,
-     "It grooves the mastoid part of the temporal bone, then the occipital bone.\nIt is close to the mastoid antrum."
+     "It grooves the mastoid part of the temporal bone, then the occipital bone.\nIt is close to the mastoid antrum. (Last's p. 655)"
     ],
     [
      "Drains into the inferior petrosal sinus",
      0,
-     "It continues through the jugular foramen as the internal jugular vein.\nThe inferior petrosal sinus joins the vein outside the skull."
+     "It continues through the jugular foramen as the internal jugular vein.\nThe inferior petrosal sinus joins the vein outside the skull. (Last's p. 564)"
     ],
     [
      "Is a continuation of the straight sinus",
      0,
-     "It continues from the transverse sinus.\nThe straight sinus drains into the confluence, usually turning left."
+     "It continues from the transverse sinus.\nThe straight sinus drains into the confluence, usually turning left. (Last's p. 619)"
     ],
     [
      "Becomes the internal jugular vein at the jugular foramen",
      1,
-     "It passes through the posterior part of the foramen.\nThe superior bulb of the vein lies just below."
+     "It passes through the posterior part of the foramen.\nThe superior bulb of the vein lies just below. (Last's)"
     ]
    ]
   },
   {
    "t": "Posterior cranial fossa",
    "y": 2,
+   "src": "Last's text",
    "s": "The posterior cranial fossa:",
    "o": [
     [
      "Has the hypoglossal canal above the jugular tubercle",
      0,
-     "The canal lies below the jugular tubercle, above the occipital condyle.\nThe tubercle lies between hypoglossal canal and jugular foramen."
+     "The canal lies below the jugular tubercle, above the occipital condyle.\nThe tubercle lies between hypoglossal canal and jugular foramen. (Last's p. 655)"
     ],
     [
      "Has the internal occipital crest for the falx cerebelli",
      1,
-     "The falx cerebelli is attached to the internal occipital crest.\nThe occipital sinus runs in its attached margin."
+     "The falx cerebelli is attached to the internal occipital crest.\nThe occipital sinus runs in its attached margin. (Last's p. 561)"
     ],
     [
      "Has a clivus formed by the occipital bone alone",
@@ -295,13 +306,14 @@
     [
      "Has the transverse sinus groove along the attached margin of the tentorium",
      1,
-     "The groove marks where the tentorium is attached to the occipital bone.\nIt continues as the sigmoid groove."
+     "The groove marks where the tentorium is attached to the occipital bone.\nIt continues as the sigmoid groove. (Last's p. 608)"
     ]
    ]
   },
   {
    "t": "Anterior cranial fossa",
    "y": 2,
+   "src": "Last's text",
    "s": "The anterior cranial fossa:",
    "o": [
     [
@@ -312,44 +324,45 @@
     [
      "Has a floor formed mainly by the frontal sinus",
      0,
-     "The floor is mainly the orbital plates of the frontal bone, with the cribriform plate in the middle.\nThe frontal sinus lies in front of it, at varying size."
+     "The floor is mainly the orbital plates of the frontal bone, with the cribriform plate in the middle.\nThe frontal sinus lies in front of it, at varying size. (Last's p. 568)"
     ],
     [
      "Has its posterior border formed by the lesser wings bearing the posterior clinoid processes",
      0,
-     "The lesser wings end medially as the anterior clinoid processes.\nThe posterior clinoid processes are on the dorsum sellae."
+     "The lesser wings end medially as the anterior clinoid processes.\nThe posterior clinoid processes are on the dorsum sellae. (Last's p. 564)"
     ],
     [
      "Lets the anterior ethmoidal nerve leave through the optic canal",
      0,
-     "The anterior ethmoidal nerve passes through its own foramen into the fossa and then into the nose.\nThe optic canal transmits the optic nerve and ophthalmic artery."
+     "The anterior ethmoidal nerve passes through its own foramen into the fossa and then into the nose.\nThe optic canal transmits the optic nerve and ophthalmic artery. (Last's p. 632)"
     ]
    ]
   },
   {
    "t": "Pituitary fossa",
    "y": 2,
+   "src": "Last's text",
    "s": "Relations of the pituitary fossa:",
    "o": [
     [
      "The sphenoidal sinus lies below",
      1,
-     "The sinus lies below and in front, allowing transsphenoidal surgery.\nIts size varies a lot."
+     "The sinus lies below and in front, allowing transsphenoidal surgery.\nIts size varies a lot. (Last's p. 476)"
     ],
     [
      "The cavernous sinuses lie on each side",
      1,
-     "Each cavernous sinus lies lateral, containing the internal carotid and VI.\nIII, IV, V1 and V2 lie in its lateral wall."
+     "Each cavernous sinus lies lateral, containing the internal carotid and VI.\nIII, IV, V1 and V2 lie in its lateral wall. (Last's p. 569)"
     ],
     [
      "The optic chiasma lies above",
      1,
-     "The chiasma lies above the diaphragma sellae, in front of the stalk.\nSo a tumour growing up compresses it, giving bitemporal hemianopia."
+     "The chiasma lies above the diaphragma sellae, in front of the stalk.\nSo a tumour growing up compresses it, giving bitemporal hemianopia. (Last's p. 569)"
     ],
     [
      "The basilar artery lies directly in front of it",
      0,
-     "The basilar artery lies behind the dorsum sellae, on the clivus.\nIn front is the tuberculum sellae."
+     "The basilar artery lies behind the dorsum sellae, on the clivus.\nIn front is the tuberculum sellae. (Last's p. 559)"
     ]
    ]
   },
@@ -361,17 +374,17 @@
     [
      "Transmits the ophthalmic vein",
      0,
-     "Ophthalmic veins go through the superior orbital fissure.\nThe optic canal transmits the optic nerve and ophthalmic artery."
+     "Ophthalmic veins go through the superior orbital fissure.\nThe optic canal transmits the optic nerve and ophthalmic artery. (Last's p. 511)"
     ],
     [
      "Lies between the greater and lesser wings of the sphenoid",
      0,
-     "It passes through the lesser wing and body.\nThe superior orbital fissure lies between greater and lesser wings."
+     "It passes through the lesser wing and body.\nThe superior orbital fissure lies between greater and lesser wings. (Last's p. 653)"
     ],
     [
      "Contains an optic nerve with no meningeal sheath",
      0,
-     "The nerve carries dura, arachnoid and pia through the canal.\nThe subarachnoid space extends to the back of the eye."
+     "The nerve carries dura, arachnoid and pia through the canal.\nThe subarachnoid space extends to the back of the eye. (Last's p. 587)"
     ],
     [
      "Transmits the ophthalmic artery below the optic nerve",
@@ -383,22 +396,23 @@
   {
    "t": "Inferior orbital fissure",
    "y": 2,
+   "src": "Last's text",
    "s": "The inferior orbital fissure:",
    "o": [
     [
      "Transmits the frontal nerve",
      0,
-     "The frontal nerve passes through the superior orbital fissure.\nIt runs forward on levator palpebrae."
+     "The frontal nerve passes through the superior orbital fissure.\nIt runs forward on levator palpebrae. (Last's p. 631)"
     ],
     [
      "Transmits the zygomatic nerve",
      1,
-     "The zygomatic nerve enters the orbit through it.\nIt carries the lacrimal secretomotor fibres."
+     "The zygomatic nerve enters the orbit through it.\nIt carries the lacrimal secretomotor fibres. (Last's p. 631-2)"
     ],
     [
      "Connects the orbit with the middle cranial fossa",
      0,
-     "It connects the orbit with the pterygopalatine and infratemporal fossae.\nThe superior orbital fissure connects with the middle cranial fossa."
+     "It connects the orbit with the pterygopalatine and infratemporal fossae.\nThe superior orbital fissure connects with the middle cranial fossa. (Last's p. 467-9)"
     ],
     [
      "Transmits the infraorbital nerve and vessels",
@@ -410,60 +424,63 @@
   {
    "t": "Pterygopalatine fossa",
    "y": 2,
+   "src": "Last's text",
    "s": "The pterygopalatine fossa communicates with the:",
    "o": [
     [
      "Middle cranial fossa through the foramen rotundum",
      1,
-     "The maxillary nerve enters through the foramen rotundum.\nIt is the main content of the fossa."
+     "The maxillary nerve enters through the foramen rotundum.\nIt is the main content of the fossa. (Last's p. 632)"
     ],
     [
      "Nasal cavity through the sphenopalatine foramen",
      1,
-     "Nasal nerves and the sphenopalatine artery pass through it.\nThis is the main artery of the nose."
+     "Nasal nerves and the sphenopalatine artery pass through it.\nThis is the main artery of the nose. (Last's p. 472-3)"
     ],
     [
      "Infratemporal fossa through the pterygomaxillary fissure",
      1,
-     "The maxillary artery enters through this fissure.\nIt is the third part of the artery."
+     "The maxillary artery enters through this fissure.\nIt is the third part of the artery. (Last's p. 459)"
     ],
     [
      "Palate through the greater palatine canal",
      1,
-     "Greater and lesser palatine nerves and vessels go down this canal.\nThey reach the hard and soft palate."
+     "Greater and lesser palatine nerves and vessels go down this canal.\nThey reach the hard and soft palate. (Last's p. 632-3)"
     ]
    ]
   },
   {
    "t": "Emissary veins",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning emissary and diploic veins:",
    "o": [
     [
      "The mastoid emissary vein joins the sigmoid sinus to the posterior auricular vein",
      1,
-     "It passes through the mastoid foramen.\nMastoid infection can spread along it to the sinus."
+     "It passes through the mastoid foramen.\nMastoid infection can spread along it to the sinus. (Last's p. 452)"
     ],
     [
      "Diploic veins have valves",
      0,
-     "Diploic veins, like all cranial veins, have no valves.\nThey lie in channels in the diploe."
+     "Diploic veins, like all cranial veins, have no valves.\nThey lie in channels in the diploe. (Last's)"
     ],
     [
      "Emissary veins carry blood only out of the skull",
      0,
-     "Being valveless, they can carry blood either way.\nSo infection can spread from the scalp into the sinuses."
+     "Being valveless, they can carry blood either way.\nSo infection can spread from the scalp into the sinuses. (Last's)"
     ],
     [
      "The parietal emissary vein passes through the foramen magnum",
      0,
-     "It passes through the parietal foramen, near the sagittal suture.\nIt joins the superior sagittal sinus to scalp veins."
+     "It passes through the parietal foramen, near the sagittal suture.\nIt joins the superior sagittal sinus to scalp veins. (Last's p. 643-44)"
     ]
    ]
   },
   {
    "t": "Temporal bone",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the temporal bone:",
    "o": [
     [
@@ -474,17 +491,17 @@
     [
      "The mastoid process is present at birth",
      0,
-     "The mastoid process develops after birth, in the second year, as the sternocleidomastoid pulls.\nSo the facial nerve is very superficial in the newborn."
+     "The mastoid process develops after birth, in the second year, as the sternocleidomastoid pulls.\nSo the facial nerve is very superficial in the newborn. (Last's)"
     ],
     [
      "The tegmen tympani separates the middle ear from the posterior cranial fossa",
      0,
-     "The tegmen tympani separates the middle ear from the middle cranial fossa.\nMiddle-ear infection can spread up through it to the temporal lobe."
+     "The tegmen tympani separates the middle ear from the middle cranial fossa.\nMiddle-ear infection can spread up through it to the temporal lobe. (Last's p. 526-8)"
     ],
     [
      "The suprameatal triangle is the surface marking of the mastoid antrum",
      1,
-     "The triangle lies behind and above the external acoustic meatus.\nIt is the surgical approach to the antrum."
+     "The triangle lies behind and above the external acoustic meatus.\nIt is the surgical approach to the antrum. (Last's p. 650)"
     ]
    ]
   }

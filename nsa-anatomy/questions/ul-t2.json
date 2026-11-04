@@ -5,76 +5,79 @@
   {
    "t": "Musculocutaneous nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The musculocutaneous nerve:",
    "o": [
     [
      "Supplies brachioradialis",
      0,
-     "Brachioradialis is supplied by the radial nerve.\nThe musculocutaneous supplies coracobrachialis, biceps and brachialis."
+     "Brachioradialis is supplied by the radial nerve.\nThe musculocutaneous supplies coracobrachialis, biceps and brachialis. (Last's)"
     ],
     [
      "Arises from the medial cord",
      0,
-     "It arises from the lateral cord (C5–7).\nThe medial cord gives the ulnar nerve."
+     "It arises from the lateral cord (C5–7).\nThe medial cord gives the ulnar nerve. (Last's)"
     ],
     [
      "Supplies the skin of the medial forearm",
      0,
-     "It ends as the lateral cutaneous nerve of the forearm.\nThe medial forearm is supplied by the medial cutaneous nerve of forearm."
+     "It ends as the lateral cutaneous nerve of the forearm.\nThe medial forearm is supplied by the medial cutaneous nerve of forearm. (Last's)"
     ],
     [
      "Pierces coracobrachialis",
      1,
-     "It pierces coracobrachialis, then runs between biceps and brachialis.\nIts entry into the muscle is a few cm below the coracoid."
+     "It pierces coracobrachialis, then runs between biceps and brachialis.\nIts entry into the muscle is a few cm below the coracoid. (Last's)"
     ]
    ]
   },
   {
    "t": "Radial nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The radial nerve:",
    "o": [
     [
      "Runs in the spiral groove with the profunda brachii artery",
      1,
-     "It winds round the back of the humerus with the profunda vessels.\nA midshaft fracture can damage it here."
+     "It winds round the back of the humerus with the profunda vessels.\nA midshaft fracture can damage it here. (Last's)"
     ],
     [
      "Arises from the lateral cord",
      0,
-     "It is the larger terminal branch of the posterior cord.\nThe axillary nerve is the other."
+     "It is the larger terminal branch of the posterior cord.\nThe axillary nerve is the other. (Last's)"
     ],
     [
      "Usually leaves triceps paralysed after a fracture at the spiral groove",
      0,
-     "Branches to triceps (long and medial heads) arise before the groove, in the axilla and arm.\nSo elbow extension is usually kept; wrist drop is the sign."
+     "Branches to triceps (long and medial heads) arise before the groove, in the axilla and arm.\nSo elbow extension is usually kept; wrist drop is the sign. (Last's)"
     ],
     [
      "Supplies brachioradialis through the posterior interosseous nerve",
      0,
-     "Brachioradialis and extensor carpi radialis longus are supplied by the radial nerve before it divides.\nThe posterior interosseous supplies most of the other extensors."
+     "Brachioradialis and extensor carpi radialis longus are supplied by the radial nerve before it divides.\nThe posterior interosseous supplies most of the other extensors. (Last's)"
     ]
    ]
   },
   {
    "t": "Ulnar nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "The ulnar nerve:",
    "o": [
     [
      "Gives branches in the arm",
      0,
-     "The ulnar nerve gives no branches in the arm.\nIts first branches go to FCU and FDP near the elbow."
+     "The ulnar nerve gives no branches in the arm.\nIts first branches go to FCU and FDP near the elbow. (Last's)"
     ],
     [
      "Supplies the medial half of flexor digitorum profundus",
      1,
-     "It supplies the parts to the ring and little fingers.\nThe median (anterior interosseous) supplies the lateral half."
+     "It supplies the parts to the ring and little fingers.\nThe median (anterior interosseous) supplies the lateral half. (Last's)"
     ],
     [
      "Passes through the carpal tunnel",
      0,
-     "It passes superficial to the flexor retinaculum, in Guyon's canal beside the pisiform.\nSo carpal tunnel syndrome spares it."
+     "It passes superficial to the flexor retinaculum, in Guyon's canal beside the pisiform.\nSo carpal tunnel syndrome spares it. (Last's)"
     ],
     [
      "Gets C7 fibres from the lateral cord in most people",
@@ -86,162 +89,168 @@
   {
    "t": "Median nerve",
    "y": 2,
+   "src": "Last's text",
    "s": "In the forearm, the median nerve:",
    "o": [
     [
      "Supplies pronator teres",
      1,
-     "Pronator teres is the first muscle it supplies.\nA lesion above the elbow loses pronation."
+     "Pronator teres is the first muscle it supplies.\nA lesion above the elbow loses pronation. (Last's)"
     ],
     [
      "Supplies flexor digitorum superficialis",
      1,
-     "It supplies all of FDS.\nFDS is one muscle with a single nerve supply."
+     "It supplies all of FDS.\nFDS is one muscle with a single nerve supply. (Last's)"
     ],
     [
      "Passes between the two heads of pronator teres",
      1,
-     "It enters the forearm between the humeral and ulnar heads.\nIt can be compressed there."
+     "It enters the forearm between the humeral and ulnar heads.\nIt can be compressed there. (Last's)"
     ],
     [
      "Gives a palmar cutaneous branch above the wrist",
      1,
-     "The palmar branch passes superficial to the flexor retinaculum.\nSo the skin of the palm is spared in carpal tunnel syndrome."
+     "The palmar branch passes superficial to the flexor retinaculum.\nSo the skin of the palm is spared in carpal tunnel syndrome. (Last's)"
     ]
    ]
   },
   {
    "t": "Carpal tunnel",
    "y": 2,
+   "src": "Last's text",
    "s": "The carpal tunnel contains the:",
    "o": [
     [
      "Tendon of flexor carpi ulnaris",
      0,
-     "FCU inserts into the pisiform, outside the tunnel.\nSo does palmaris longus, superficial to the retinaculum."
+     "FCU inserts into the pisiform, outside the tunnel.\nSo does palmaris longus, superficial to the retinaculum. (Last's)"
     ],
     [
      "Ulnar nerve",
      0,
-     "The ulnar nerve and artery pass superficial to the retinaculum.\nThey run in Guyon's canal."
+     "The ulnar nerve and artery pass superficial to the retinaculum.\nThey run in Guyon's canal. (Last's)"
     ],
     [
      "Palmar cutaneous branch of the median nerve",
      0,
-     "It passes superficial to the retinaculum.\nThat is why palm sensation is kept in carpal tunnel syndrome."
+     "It passes superficial to the retinaculum.\nThat is why palm sensation is kept in carpal tunnel syndrome. (Last's)"
     ],
     [
      "Tendon of flexor pollicis longus",
      1,
-     "FPL runs through the tunnel in its own synovial sheath.\nIt is the most lateral tendon in the tunnel."
+     "FPL runs through the tunnel in its own synovial sheath.\nIt is the most lateral tendon in the tunnel. (Last's)"
     ]
    ]
   },
   {
    "t": "Cubital fossa",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the cubital fossa:",
    "o": [
     [
      "The brachial artery lies medial to the biceps tendon",
      1,
-     "The brachial artery lies just medial to the tendon.\nIt divides at the neck of the radius."
+     "The brachial artery lies just medial to the tendon.\nIt divides at the neck of the radius. (Last's)"
     ],
     [
      "The median nerve lies lateral to the biceps tendon",
      0,
-     "The median nerve lies medial to the brachial artery.\nOrder from lateral to medial: tendon, artery, nerve."
+     "The median nerve lies medial to the brachial artery.\nOrder from lateral to medial: tendon, artery, nerve. (Last's)"
     ],
     [
      "The radial nerve lies medially in the floor",
      0,
-     "The radial nerve lies laterally, under cover of brachioradialis.\nIt divides there into its superficial and deep branches."
+     "The radial nerve lies laterally, under cover of brachioradialis.\nIt divides there into its superficial and deep branches. (Last's)"
     ],
     [
      "The ulnar nerve passes through the fossa",
      0,
-     "The ulnar nerve passes behind the medial epicondyle.\nIt is outside the fossa."
+     "The ulnar nerve passes behind the medial epicondyle.\nIt is outside the fossa. (Last's)"
     ]
    ]
   },
   {
    "t": "Shoulder joint",
    "y": 2,
+   "src": "Last's text",
    "s": "The shoulder joint:",
    "o": [
     [
-     "Usually dislocates posteriorly",
+     "Is supplied only by the axillary nerve",
      0,
-     "Most dislocations are anterior (subcoracoid), the head going down and forward.\nThe inferior capsule is the weakest part."
+     "The musculocutaneous nerve also supplies the shoulder joint, as does the axillary nerve.\nThis fits Hilton's law: nerves to muscles acting on the joint supply it. (Last's)"
     ],
     [
      "Has the axillary nerve at risk in dislocation",
      1,
-     "The axillary nerve winds round the surgical neck just below the capsule.\nCheck deltoid and regimental badge skin."
+     "The axillary nerve winds round the surgical neck just below the capsule.\nCheck deltoid and regimental badge skin. (Last's)"
     ],
     [
-     "Has the long head of biceps outside the capsule",
+     "Has the axillary nerve lying above the capsule",
      0,
-     "The tendon is inside the capsule, though outside the synovial membrane.\nIt arches over the head of the humerus."
+     "The axillary nerve lies in contact with the neck of the humerus just below the capsule.\nThat is why it is stretched in an inferior (subcoracoid) dislocation. (Last's)"
     ],
     [
      "Has a glenoid labrum that deepens the socket",
      1,
-     "The fibrocartilage labrum deepens the shallow glenoid.\nThe joint still relies mainly on the rotator cuff."
+     "The fibrocartilage labrum deepens the shallow glenoid.\nThe joint still relies mainly on the rotator cuff. (Last's)"
     ]
    ]
   },
   {
-   "t": "Scapular anastomosis",
+   "t": "Axillary artery",
    "y": 2,
-   "s": "The anastomosis around the scapula involves the:",
+   "src": "Last's text",
+   "s": "Branches of the axillary artery:",
    "o": [
     [
-     "Suprascapular artery",
-     1,
-     "It reaches the supraspinous and infraspinous fossae.\nIt is a branch of the thyrocervical trunk."
+     "The first part has three branches",
+     0,
+     "The first part has one branch, the second two and the third three.\nThe first part's branch is the superior thoracic artery. (Last's)"
     ],
     [
-     "Dorsal scapular artery",
-     1,
-     "It runs down the medial border of the scapula.\nIt may arise from the transverse cervical or the subclavian."
+     "The lateral thoracic artery arises from the first part",
+     0,
+     "It arises from the second part and follows the lower border of pectoralis minor.\nIt supplies the pectoral muscles and, in women, the breast. (Last's)"
     ],
     [
-     "Circumflex scapular artery",
-     1,
-     "It is a branch of the subscapular artery from the third part of the axillary.\nIt passes through the triangular space."
+     "The subscapular artery continues as the circumflex scapular artery",
+     0,
+     "After giving the circumflex scapular artery the subscapular continues as the thoracodorsal artery.\nThe circumflex scapular passes back between subscapularis and teres major. (Last's)"
     ],
     [
-     "Posterior intercostal arteries",
+     "The thoracoacromial artery pierces the clavipectoral fascia",
      1,
-     "They join the anastomosis along the medial border.\nThis collateral route helps when the subclavian or axillary is blocked."
+     "It skirts the upper border of pectoralis minor and pierces the clavipectoral fascia.\nIt ends in clavicular, deltoid, acromial and pectoral branches. (Last's)"
     ]
    ]
   },
   {
    "t": "Brachial plexus",
    "y": 2,
+   "src": "Last's text",
    "s": "Concerning the brachial plexus:",
    "o": [
     [
      "The cords are named by their relation to the first part of the axillary artery",
      0,
-     "They are named by their relation to the second part, behind pectoralis minor.\nThere they lie lateral, medial and posterior."
+     "They are named by their relation to the second part, behind pectoralis minor.\nThere they lie lateral, medial and posterior. (Last's)"
     ],
     [
      "The medial cord gives the musculocutaneous nerve",
      0,
-     "The musculocutaneous comes from the lateral cord.\nThe medial cord gives the ulnar nerve."
+     "The musculocutaneous comes from the lateral cord.\nThe medial cord gives the ulnar nerve. (Last's)"
     ],
     [
      "The posterior cord gives the long thoracic nerve",
      0,
-     "The long thoracic arises from the roots (C5–7).\nThe posterior cord gives the subscapular, thoracodorsal, axillary and radial nerves."
+     "The long thoracic arises from the roots (C5–7).\nThe posterior cord gives the subscapular, thoracodorsal, axillary and radial nerves. (Last's)"
     ],
     [
      "Both the lateral and medial cords contribute to the median nerve",
      1,
-     "Lateral and medial roots join in front of the axillary artery.\nIts fibres are C(5)6–T1."
+     "Lateral and medial roots join in front of the axillary artery.\nIts fibres are C(5)6–T1. (Last's)"
     ]
    ]
   },
@@ -258,17 +267,17 @@
     [
      "All the lumbricals are supplied by the median nerve",
      0,
-     "The median supplies the lateral two; the ulnar supplies the medial two.\nThe pattern follows FDP."
+     "The median supplies the lateral two; the ulnar supplies the medial two.\nThe pattern follows FDP. (Last's)"
     ],
     [
      "The dorsal interossei are supplied by the median nerve",
      0,
-     "They are supplied by the deep branch of the ulnar nerve.\nLoss causes guttering between the metacarpals."
+     "They are supplied by the deep branch of the ulnar nerve.\nLoss causes guttering between the metacarpals. (Last's)"
     ],
     [
      "Adductor pollicis is supplied by the median nerve",
      0,
-     "Adductor pollicis is supplied by the ulnar nerve.\nIts loss gives Froment's sign."
+     "Adductor pollicis is supplied by the ulnar nerve.\nIts loss gives Froment's sign. (Last's)"
     ]
    ]
   }
