@@ -1,0 +1,168 @@
+{
+ "code": "gp",
+ "region": "General principles & embryology",
+ "questions": [
+  {
+   "t": "Pharyngeal arches",
+   "y": 2,
+   "s": "Derivatives of the first pharyngeal arch include:",
+   "o": [
+    [
+     "Stapes",
+     0,
+     "The stapes comes from the second arch.\nThe first arch gives the malleus and incus."
+    ],
+    [
+     "Stylohyoid ligament",
+     0,
+     "The stylohyoid ligament comes from the second arch.\nSo do the styloid process and lesser horn of the hyoid."
+    ],
+    [
+     "Posterior belly of digastric",
+     0,
+     "Posterior digastric is a second-arch muscle, supplied by VII.\nEach arch muscle keeps its arch nerve."
+    ],
+    [
+     "Anterior belly of digastric",
+     1,
+     "Anterior digastric is a first-arch muscle, supplied by V3 (nerve to mylohyoid).\nSo the two bellies have different nerves."
+    ]
+   ]
+  },
+  {
+   "t": "Pharyngeal arches",
+   "y": 2,
+   "s": "Concerning the third and fourth pharyngeal arches:",
+   "o": [
+    [
+     "Stylopharyngeus is a third-arch muscle",
+     1,
+     "It is the only muscle of the third arch.\nSo it is supplied by IX."
+    ],
+    [
+     "The lesser horn of the hyoid comes from the third arch",
+     0,
+     "The lesser horn comes from the second arch.\nThe third gives the greater horn and lower body."
+    ],
+    [
+     "The nerve of the third arch is the vagus",
+     0,
+     "The nerve of the third arch is the glossopharyngeal.\nThe vagus serves the fourth and sixth arches."
+    ],
+    [
+     "Cricothyroid is a third-arch muscle",
+     0,
+     "Cricothyroid is a fourth-arch muscle, supplied by the superior (external) laryngeal nerve.\nOther laryngeal muscles are sixth arch."
+    ]
+   ]
+  },
+  {
+   "t": "Pharyngeal pouches",
+   "y": 2,
+   "s": "Derivatives of the pharyngeal pouches:",
+   "o": [
+    [
+     "The palatine tonsil comes from the first pouch",
+     0,
+     "The palatine tonsil comes from the second pouch.\nThe first pouch forms the middle ear."
+    ],
+    [
+     "The inferior parathyroid comes from the fourth pouch",
+     0,
+     "The inferior parathyroid comes from the third pouch, with the thymus.\nIt migrates further down than the superior one."
+    ],
+    [
+     "The thymus comes from the second pouch",
+     0,
+     "The thymus comes from the third pouch.\nIt descends into the superior mediastinum."
+    ],
+    [
+     "The first pouch forms the tympanic cavity and auditory tube",
+     1,
+     "The first pouch forms the tubotympanic recess.\nThe first cleft forms the external acoustic meatus."
+    ]
+   ]
+  },
+  {
+   "t": "Neural crest",
+   "y": 2,
+   "s": "Derivatives of the neural crest include the:",
+   "o": [
+    [
+     "Dorsal root ganglia",
+     1,
+     "Sensory ganglion cells of spinal nerves come from neural crest.\nSo do those of cranial sensory ganglia, in part."
+    ],
+    [
+     "Sympathetic ganglia",
+     1,
+     "Postganglionic autonomic neurons come from neural crest.\nThis includes enteric neurons."
+    ],
+    [
+     "Adrenal medulla",
+     1,
+     "The medullary chromaffin cells come from neural crest.\nThey behave like postganglionic neurons."
+    ],
+    [
+     "Schwann cells",
+     1,
+     "Schwann cells come from neural crest.\nOligodendrocytes come from the neural tube."
+    ]
+   ]
+  },
+  {
+   "t": "Neural tube",
+   "y": 2,
+   "s": "Concerning the developing neural tube:",
+   "o": [
+    [
+     "The anterior neuropore closes before the posterior neuropore",
+     1,
+     "The anterior neuropore closes about day 25, the posterior about day 27.\nFailure gives anencephaly or spina bifida."
+    ],
+    [
+     "The alar plate forms motor neurons",
+     0,
+     "The alar plate is sensory; the basal plate is motor.\nThis is why sensory nuclei lie lateral in the brainstem."
+    ],
+    [
+     "The sulcus limitans separates the roof plate from the floor plate",
+     0,
+     "It separates the alar plate from the basal plate.\nIt is still visible in the floor of the fourth ventricle."
+    ],
+    [
+     "The anterior horn develops from the alar plate",
+     0,
+     "The anterior (ventral) horn comes from the basal plate.\nThe posterior horn comes from the alar plate."
+    ]
+   ]
+  },
+  {
+   "t": "Lymphatic drainage",
+   "y": 2,
+   "s": "Concerning lymphatic drainage:",
+   "o": [
+    [
+     "The thoracic duct drains the right side of the head and neck",
+     0,
+     "The right lymphatic duct drains the right head and neck, right arm and right thorax.\nThe thoracic duct drains the rest."
+    ],
+    [
+     "Lymph from the testis drains to para-aortic nodes",
+     1,
+     "It follows the testicular vessels back to their origin near L1/L2.\nThis matters in testicular tumours."
+    ],
+    [
+     "Lymph from the scrotum drains to para-aortic nodes",
+     0,
+     "Scrotal skin drains to superficial inguinal nodes.\nSo the scrotum and testis drain differently."
+    ],
+    [
+     "Superficial inguinal nodes drain the anal canal below the pectinate line",
+     1,
+     "The lower anal canal drains to superficial inguinal nodes.\nAbove the line, drainage follows the rectal vessels."
+    ]
+   ]
+  }
+ ]
+}

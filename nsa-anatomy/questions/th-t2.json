@@ -1,0 +1,222 @@
+{
+ "code": "th",
+ "region": "Thorax",
+ "questions": [
+  {
+   "t": "Diaphragm",
+   "y": 2,
+   "s": "The openings of the diaphragm:",
+   "o": [
+    [
+     "The caval opening is at T10",
+     0,
+     "The caval opening is at T8, in the central tendon.\nThe oesophageal opening is at T10, the aortic at T12."
+    ],
+    [
+     "The oesophageal opening transmits the phrenic nerves",
+     0,
+     "It transmits the vagal trunks and oesophageal branches of the left gastric vessels.\nThe phrenic nerves do not pass through it."
+    ],
+    [
+     "The aortic opening lies in the central tendon",
+     0,
+     "The aortic opening lies behind the median arcuate ligament at T12.\nIt is outside the muscle, so breathing does not squeeze the aorta."
+    ],
+    [
+     "The caval opening transmits the right phrenic nerve",
+     1,
+     "Branches of the right phrenic pass through the caval opening with the IVC.\nThe left phrenic pierces the muscle on its own."
+    ]
+   ]
+  },
+  {
+   "t": "Thoracic duct",
+   "y": 2,
+   "s": "The thoracic duct:",
+   "o": [
+    [
+     "Begins at the cisterna chyli",
+     1,
+     "It starts at the cisterna chyli near L1/L2.\nIt drains everything below the diaphragm."
+    ],
+    [
+     "Enters the thorax through the oesophageal opening",
+     0,
+     "It enters through the aortic opening, with the aorta and azygos vein.\nIt lies between them."
+    ],
+    [
+     "Ends at the right venous angle",
+     0,
+     "It ends at the left venous angle (left subclavian and internal jugular).\nThe right lymphatic duct drains the right side of head, neck, chest and arm."
+    ],
+    [
+     "Crosses behind the left internal jugular vein at T4",
+     0,
+     "It arches behind the carotid sheath at C7 to reach the left internal jugular.\nIt crosses from right to left at T5. (Last's p. 438)"
+    ]
+   ]
+  },
+  {
+   "t": "Azygos vein",
+   "y": 2,
+   "s": "The azygos vein:",
+   "o": [
+    [
+     "Drains into the left brachiocephalic vein",
+     0,
+     "It drains into the superior vena cava.\nThe left superior intercostal vein drains into the left brachiocephalic."
+    ],
+    [
+     "Arches over the root of the right lung",
+     1,
+     "It arches forward over the right lung root at T4.\nIt then joins the SVC."
+    ],
+    [
+     "Receives the left superior intercostal vein",
+     0,
+     "The left superior intercostal drains into the left brachiocephalic vein.\nThe azygos receives the right superior intercostal vein."
+    ],
+    [
+     "Enters the thorax through the aortic opening",
+     1,
+     "It usually enters through the aortic opening, on the right of the thoracic duct.\nIt may pierce the right crus instead."
+    ]
+   ]
+  },
+  {
+   "t": "Intercostal nerves",
+   "y": 2,
+   "s": "Concerning the intercostal nerves:",
+   "o": [
+    [
+     "T1 gives a large branch to the brachial plexus",
+     1,
+     "Most of T1 joins the brachial plexus.\nIts intercostal branch is small."
+    ],
+    [
+     "The lower intercostal nerves supply the anterior abdominal wall",
+     1,
+     "T7–T11 continue into the abdominal wall.\nSo chest disease can mimic abdominal pain."
+    ],
+    [
+     "Each nerve lies lowest in the neurovascular bundle",
+     1,
+     "From above down: vein, artery, nerve.\nSo needles go just above a rib."
+    ],
+    [
+     "They run between the internal and innermost intercostal muscles",
+     1,
+     "The neurovascular plane is between internal and innermost intercostals.\nThis matches the plane in the abdominal wall."
+    ]
+   ]
+  },
+  {
+   "t": "Vagus in thorax",
+   "y": 2,
+   "s": "In the thorax, the vagus:",
+   "o": [
+    [
+     "Has a left recurrent laryngeal branch hooking round the subclavian artery",
+     0,
+     "The left recurrent hooks round the arch of the aorta, behind the ligamentum arteriosum.\nThe right hooks round the subclavian."
+    ],
+    [
+     "Passes in front of the lung roots",
+     0,
+     "The vagi pass behind the lung roots.\nThe phrenic nerves pass in front."
+    ],
+    [
+     "Forms the anterior vagal trunk from the right vagus",
+     0,
+     "The right vagus mainly forms the posterior trunk, the left the anterior.\nThis follows the rotation of the stomach."
+    ],
+    [
+     "On the left, crosses the arch of the aorta",
+     1,
+     "The left vagus crosses the left side of the aortic arch.\nIt lies behind the left phrenic nerve here."
+    ]
+   ]
+  },
+  {
+   "t": "Phrenic nerve",
+   "y": 2,
+   "s": "The phrenic nerve:",
+   "o": [
+    [
+     "Comes from C3, C4 and C5",
+     1,
+     "Mainly C4.\nSo high cord lesions can paralyse the diaphragm."
+    ],
+    [
+     "Passes behind the lung root",
+     0,
+     "It passes in front of the lung root.\nThe vagus passes behind."
+    ],
+    [
+     "On the left, passes through the caval opening",
+     0,
+     "The left phrenic pierces the muscle of the left dome on its own.\nBranches of the right phrenic pass through the caval opening."
+    ],
+    [
+     "Supplies the intercostal muscles",
+     0,
+     "It is the only motor nerve to the diaphragm.\nThe intercostal muscles are supplied by intercostal nerves."
+    ]
+   ]
+  },
+  {
+   "t": "Sternal angle",
+   "y": 2,
+   "s": "At the level of the sternal angle:",
+   "o": [
+    [
+     "The plane passes above the arch of the aorta",
+     0,
+     "The arch begins and ends at this plane and lies wholly above it, in the superior mediastinum.\nSo the plane runs below the arch, not above it."
+    ],
+    [
+     "The trachea bifurcates",
+     1,
+     "The bifurcation is at about T4/5 in the cadaver.\nIt moves lower in deep inspiration."
+    ],
+    [
+     "The plane passes through T7",
+     0,
+     "The plane passes through the T4/5 disc.\nIt divides superior from inferior mediastinum."
+    ],
+    [
+     "The second costal cartilage joins the sternum",
+     1,
+     "The second costal cartilage is the landmark for counting ribs.\nCount down from it."
+    ]
+   ]
+  },
+  {
+   "t": "Pleura",
+   "y": 2,
+   "s": "Concerning the pleura:",
+   "o": [
+    [
+     "The parietal pleura is supplied by the vagus",
+     0,
+     "Costal pleura is supplied by intercostal nerves; mediastinal and central diaphragmatic pleura by the phrenic.\nThat is why pleurisy can cause shoulder-tip pain."
+    ],
+    [
+     "The visceral pleura is sensitive to pain",
+     0,
+     "Visceral pleura has only autonomic supply and is insensitive to pain.\nPain means the parietal pleura is involved."
+    ],
+    [
+     "The lung extends lower than the pleura",
+     0,
+     "The pleura reaches about two ribs below the lung in quiet breathing.\nThis is the costodiaphragmatic recess."
+    ],
+    [
+     "The suprapleural membrane is attached to the transverse process of C7",
+     1,
+     "It covers the cervical pleura from the C7 transverse process to the inner first rib.\nIt protects the pleura at the root of the neck."
+    ]
+   ]
+  }
+ ]
+}

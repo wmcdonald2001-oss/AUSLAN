@@ -1,0 +1,168 @@
+{
+ "code": "au",
+ "region": "Autonomic nervous system",
+ "questions": [
+  {
+   "t": "Sympathetic supply to the head",
+   "y": 2,
+   "s": "Sympathetic fibres to the head:",
+   "o": [
+    [
+     "Have preganglionic cell bodies at T5–T8",
+     0,
+     "Their preganglionic cells are at T1 (and T2).\nThey ascend in the sympathetic trunk."
+    ],
+    [
+     "Relay in the ciliary ganglion",
+     0,
+     "They relay in the superior cervical ganglion.\nThey pass through the ciliary ganglion without synapsing."
+    ],
+    [
+     "Reach the eye in the oculomotor nerve",
+     0,
+     "They reach the eye mainly through the nasociliary and long ciliary nerves.\nThey travel up on the internal carotid artery first."
+    ],
+    [
+     "Follow the internal carotid artery as postganglionic fibres",
+     1,
+     "Postganglionic fibres form the internal carotid plexus.\nFrom it they spread to the branches of the artery and nearby nerves."
+    ]
+   ]
+  },
+  {
+   "t": "Adrenal medulla",
+   "y": 2,
+   "s": "The adrenal medulla:",
+   "o": [
+    [
+     "Receives preganglionic sympathetic fibres directly",
+     1,
+     "Its cells are like postganglionic neurons, so fibres reach it without a relay.\nThey come in the splanchnic nerves."
+    ],
+    [
+     "Receives postganglionic sympathetic fibres",
+     0,
+     "Fibres reaching it are preganglionic.\nThe medullary cells take the place of the postganglionic neuron."
+    ],
+    [
+     "Is controlled mainly by parasympathetic fibres",
+     0,
+     "Its secretion is controlled by sympathetic fibres.\nThere is no significant parasympathetic control."
+    ],
+    [
+     "Develops from mesoderm",
+     0,
+     "It develops from neural crest.\nThe cortex develops from mesoderm."
+    ]
+   ]
+  },
+  {
+   "t": "Parasympathetic system",
+   "y": 2,
+   "s": "The parasympathetic system:",
+   "o": [
+    [
+     "Has its sacral outflow from S1–3",
+     0,
+     "The sacral outflow is from S2–4, in the pelvic splanchnic nerves.\nThey supply the hindgut and pelvic viscera."
+    ],
+    [
+     "Supplies the hindgut through the vagus",
+     0,
+     "The vagus supplies the gut as far as about two-thirds of the transverse colon.\nThe pelvic splanchnic nerves supply the hindgut."
+    ],
+    [
+     "Has a cranial outflow in the trigeminal nerve",
+     0,
+     "The cranial outflow is in III, VII, IX and X.\nPostganglionic fibres may travel with branches of V."
+    ],
+    [
+     "Has ganglia near or in the organs supplied",
+     1,
+     "Parasympathetic ganglia lie close to or within the target organ.\nSo preganglionic fibres are long, postganglionic short."
+    ]
+   ]
+  },
+  {
+   "t": "Splanchnic nerves",
+   "y": 2,
+   "s": "Concerning the thoracic splanchnic nerves:",
+   "o": [
+    [
+     "The greater splanchnic nerve comes from T5–9",
+     1,
+     "It arises from the thoracic ganglia of T5–9.\nIt ends in the coeliac ganglia."
+    ],
+    [
+     "Their fibres relay in the sympathetic trunk ganglia",
+     0,
+     "Splanchnic fibres pass through the trunk ganglia without relaying.\nThey relay in the coeliac and other prevertebral ganglia."
+    ],
+    [
+     "They pierce the central tendon of the diaphragm",
+     0,
+     "They pierce the crura.\nThe vena cava goes through the central tendon."
+    ],
+    [
+     "The least splanchnic nerve comes from T10–11",
+     0,
+     "The least splanchnic comes from T12; the lesser from T10–11.\nThe least ends in the renal plexus."
+    ]
+   ]
+  },
+  {
+   "t": "Sweating",
+   "y": 2,
+   "s": "Concerning sweating:",
+   "o": [
+    [
+     "Sweat glands are supplied by parasympathetic fibres",
+     0,
+     "Sweat glands receive only sympathetic fibres.\nThere is no parasympathetic supply to the skin."
+    ],
+    [
+     "Sweat glands have sympathetic cholinergic postganglionic fibres",
+     1,
+     "Most sympathetic postganglionic fibres release noradrenaline, but those to sweat glands release acetylcholine.\nThis is a classic exception."
+    ],
+    [
+     "Sympathetic fibres reach the skin through white rami at every level",
+     0,
+     "White rami exist only at T1–L2.\nFibres reach other levels by travelling in the trunk."
+    ],
+    [
+     "Every spinal nerve receives a grey ramus",
+     1,
+     "Grey rami carry postganglionic fibres to all spinal nerves.\nSo every dermatome gets a sympathetic supply."
+    ]
+   ]
+  },
+  {
+   "t": "Visceral afferents",
+   "y": 2,
+   "s": "Visceral afferent fibres:",
+   "o": [
+    [
+     "Travel with sympathetic nerves",
+     1,
+     "Pain afferents mostly travel with sympathetic fibres.\nThey enter the cord through the white rami."
+    ],
+    [
+     "Travel with parasympathetic nerves",
+     1,
+     "Many reflex afferents travel in the vagus and pelvic splanchnic nerves.\nMost are not consciously perceived."
+    ],
+    [
+     "Have their cell bodies in the dorsal root ganglia or cranial sensory ganglia",
+     1,
+     "Like somatic afferents, their cell bodies lie in sensory ganglia.\nThere is no relay in autonomic ganglia."
+    ],
+    [
+     "Explain referred pain by converging on the same cord segment as somatic fibres",
+     1,
+     "Visceral and somatic fibres converge on the same dorsal horn neurons.\nThe brain wrongly locates the pain in the skin."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "code": "ab",
+ "region": "Abdomen & pelvis",
+ "questions": [
+  {
+   "t": "Pudendal nerve",
+   "y": 2,
+   "s": "The pudendal nerve:",
+   "o": [
+    [
+     "Comes from S2, S3 and S4",
+     1,
+     "It is the main somatic nerve of the perineum.\nIt also supplies the external sphincters."
+    ],
+    [
+     "Leaves the pelvis above piriformis",
+     0,
+     "It leaves below piriformis through the greater sciatic foramen.\nIt then hooks round the sacrospinous ligament."
+    ],
+    [
+     "Supplies the external anal sphincter through the pelvic splanchnic nerves",
+     0,
+     "It supplies the sphincter through its inferior rectal branch.\nThe pelvic splanchnics are parasympathetic."
+    ],
+    [
+     "Enters the perineum through the obturator canal",
+     0,
+     "It enters through the lesser sciatic foramen into the pudendal canal.\nThe canal lies on obturator internus fascia."
+    ]
+   ]
+  },
+  {
+   "t": "Inguinal canal",
+   "y": 2,
+   "s": "The inguinal canal:",
+   "o": [
+    [
+     "Has the deep ring medial to the inferior epigastric artery",
+     0,
+     "The deep ring lies lateral to the inferior epigastric artery.\nDirect hernias come through medial to it."
+    ],
+    [
+     "Has the ilioinguinal nerve entering through the deep ring",
+     0,
+     "The ilioinguinal enters by piercing internal oblique, not through the deep ring.\nIt then leaves through the superficial ring."
+    ],
+    [
+     "Has the conjoint tendon as its anterior wall",
+     0,
+     "The conjoint tendon reinforces the posterior wall medially.\nThe external oblique aponeurosis forms the anterior wall."
+    ],
+    [
+     "Has the genital branch of the genitofemoral nerve entering through the deep ring",
+     1,
+     "The genital branch enters at the deep ring and runs in the spermatic cord.\nIt supplies cremaster."
+    ]
+   ]
+  },
+  {
+   "t": "Coeliac plexus",
+   "y": 2,
+   "s": "The coeliac plexus:",
+   "o": [
+    [
+     "Receives the greater splanchnic nerves",
+     1,
+     "Greater splanchnics (T5–9) pierce the crura to reach the coeliac ganglia.\nTheir fibres relay there."
+    ],
+    [
+     "Receives vagal fibres",
+     1,
+     "Vagal fibres pass through without relaying.\nThey relay in the walls of the organs."
+    ],
+    [
+     "Contains ganglia where sympathetic fibres relay",
+     1,
+     "The coeliac ganglia are where preganglionic sympathetic fibres synapse.\nPostganglionic fibres follow the arteries."
+    ],
+    [
+     "Carries pain from the foregut, referred to the epigastrium",
+     1,
+     "Visceral afferents travel with the sympathetic fibres.\nForegut pain is felt in the epigastrium."
+    ]
+   ]
+  },
+  {
+   "t": "Pelvic autonomics",
+   "y": 2,
+   "s": "Concerning the pelvic autonomic nerves:",
+   "o": [
+    [
+     "The superior hypogastric plexus lies in front of S3",
+     0,
+     "It lies in front of L5 and the sacral promontory.\nSo \"presacral nerve\" is a misnomer: it is prelumbar. (Last's p. 365)"
+    ],
+    [
+     "The inferior hypogastric plexus lies lateral to the rectum",
+     1,
+     "It lies on the side wall of the pelvis lateral to the rectum.\nIt measures about 5 cm by 2 cm (Last's p. 399)."
+    ],
+    [
+     "Parasympathetic fibres relay in the inferior hypogastric plexus",
+     0,
+     "None of the parasympathetic fibres synapse in it.\nThey relay in ganglia in the organ walls (Last's p. 399)."
+    ],
+    [
+     "Only about half of the sympathetic fibres synapse in the pelvic plexus",
+     1,
+     "About half relay in the plexus; the rest have already relayed.\nThey relay in the lumbar or sacral sympathetic ganglia first (Last's p. 399)."
+    ]
+   ]
+  },
+  {
+   "t": "Kidney",
+   "y": 2,
+   "s": "The kidneys:",
+   "o": [
+    [
+     "Have the right kidney higher than the left",
+     0,
+     "The right kidney is usually lower, pushed down by the liver.\nThe left kidney is about 1 cm higher."
+    ],
+    [
+     "Have the renal vein behind the renal artery at the hilum",
+     0,
+     "From front to back: vein, artery, pelvis.\nThe vein is in front."
+    ],
+    [
+     "Refer pain to the T6–8 dermatomes",
+     0,
+     "Renal pain is referred to T10–L1, loin to groin.\nThese match the kidney's sympathetic supply."
+    ],
+    [
+     "Have a left renal vein crossing in front of the aorta below the SMA",
+     1,
+     "It crosses in front of the aorta just below the superior mesenteric artery.\nIt can be squeezed there (nutcracker)."
+    ]
+   ]
+  },
+  {
+   "t": "Nerves of the abdominal wall",
+   "y": 2,
+   "s": "Nerves of the abdominal wall:",
+   "o": [
+    [
+     "The iliohypogastric nerve supplies the skin above the pubis",
+     1,
+     "It supplies the suprapubic skin and part of the gluteal region.\nIt comes from L1."
+    ],
+    [
+     "The subcostal nerve is T11",
+     0,
+     "The subcostal nerve is T12.\nIt runs below the twelfth rib."
+    ],
+    [
+     "The ilioinguinal nerve enters the inguinal canal through the deep ring",
+     0,
+     "It pierces internal oblique and enters the canal from the side.\nIt leaves through the superficial ring."
+    ],
+    [
+     "The genitofemoral nerve pierces quadratus lumborum",
+     0,
+     "It pierces the front of psoas.\nThe subcostal, iliohypogastric and ilioinguinal cross quadratus lumborum."
+    ]
+   ]
+  },
+  {
+   "t": "Abdominal aorta",
+   "y": 2,
+   "s": "The abdominal aorta:",
+   "o": [
+    [
+     "Enters the abdomen at T10",
+     0,
+     "It enters through the aortic opening at T12.\nThe oesophageal opening is at T10."
+    ],
+    [
+     "Gives the superior mesenteric artery at L1",
+     1,
+     "The SMA arises at L1, behind the neck of the pancreas.\nThe coeliac trunk arises at T12."
+    ],
+    [
+     "Divides at L2",
+     0,
+     "It divides at L4, left of the midline.\nL4 is at the level of the iliac crests."
+    ],
+    [
+     "Gives the inferior mesenteric artery at L3",
+     1,
+     "The IMA arises at L3 behind the third part of the duodenum.\nIt supplies the hindgut."
+    ]
+   ]
+  },
+  {
+   "t": "Referred visceral pain",
+   "y": 2,
+   "s": "Concerning referred visceral pain:",
+   "o": [
+    [
+     "Early appendicitis pain is felt around the umbilicus",
+     1,
+     "Midgut pain is referred to the T10 area round the umbilicus.\nIt moves to the right iliac fossa when parietal peritoneum is involved."
+    ],
+    [
+     "Diaphragmatic irritation can cause shoulder-tip pain",
+     1,
+     "The phrenic nerve (C3–5) shares segments with the shoulder skin (C4).\nBlood under the diaphragm causes this."
+    ],
+    [
+     "Testicular pain can be felt round the umbilicus",
+     1,
+     "The testis develops at T10 level and keeps its nerve supply.\nIts pain can be referred there."
+    ],
+    [
+     "Foregut pain is felt in the epigastrium",
+     1,
+     "Foregut pain is referred to the epigastrium, T5–T9.\nMidgut is umbilical and hindgut suprapubic."
+    ]
+   ]
+  }
+ ]
+}

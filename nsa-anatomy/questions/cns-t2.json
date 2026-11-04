@@ -1,0 +1,816 @@
+{
+ "code": "cns",
+ "region": "Brain & spinal cord",
+ "questions": [
+  {
+   "t": "Corpus callosum",
+   "y": 2,
+   "s": "The corpus callosum:",
+   "o": [
+    [
+     "Its rostrum is continuous below with the lamina terminalis",
+     1,
+     "The thin rostrum curves down and back from the genu to join the lamina terminalis.\nSo the corpus callosum and lamina terminalis together close the front of the third ventricle region. (Last's p. 586)"
+    ],
+    [
+     "Fibres of the genu curve forward as the forceps minor",
+     1,
+     "Genu fibres sweep forward into the frontal lobes, forming the forceps minor.\nThey form the roof of the anterior horn as they pass. (Last's p. 586)"
+    ],
+    [
+     "Fibres of the splenium curve backward as the forceps major",
+     1,
+     "Splenium fibres curve back symmetrically to the occipital lobes as the forceps major.\nThe forceps major raises the bulb of the posterior horn. (Last's p. 586)"
+    ],
+    [
+     "Its fibres form the tapetum in the wall of the posterior and inferior horns",
+     1,
+     "As callosal fibres turn into the temporal and occipital lobes they form the tapetum.\nThe tapetum forms the roof and lateral wall of the posterior horn and the lateral wall of the inferior horn. (Last's p. 586)"
+    ]
+   ]
+  },
+  {
+   "t": "Anterior commissure",
+   "y": 2,
+   "s": "The anterior commissure:",
+   "o": [
+    [
+     "Lies in the posterior wall of the third ventricle",
+     0,
+     "It lies in the anterior wall, embedded in the upper part of the lamina terminalis.\nThe posterior commissure is the one in the posterior wall, below the pineal."
+    ],
+    [
+     "Connects olfactory regions and the anterior parts of the temporal lobes",
+     1,
+     "It links the olfactory areas and the anterior (middle and inferior) temporal gyri of the two sides.\nIt is a commissure of the old and the newer cortex."
+    ],
+    [
+     "Is the main commissure joining the two hippocampi",
+     0,
+     "The hippocampi are joined by the hippocampal commissure between the crura of the fornix.\nThat lies under the splenium, well behind the anterior commissure."
+    ],
+    [
+     "Has the columns of the fornix passing down just behind it",
+     1,
+     "The columns of the fornix curve down behind the anterior commissure, in front of the interventricular foramina.\nThey then pass through the hypothalamus to the mamillary bodies."
+    ]
+   ]
+  },
+  {
+   "t": "Fornix",
+   "y": 2,
+   "s": "The fornix:",
+   "o": [
+    [
+     "Begins as the fimbria of the hippocampus",
+     1,
+     "Hippocampal efferent axons gather as the alveus, then the fimbria, which becomes the crus of the fornix.\nThe crus arches up behind the thalamus under the splenium."
+    ],
+    [
+     "Has a body lying under the corpus callosum, attached to the septum pellucidum",
+     1,
+     "The two crura join under the corpus callosum to form the body.\nThe septum pellucidum stretches between the body of the fornix and the corpus callosum."
+    ],
+    [
+     "Ends mainly in the mamillary bodies",
+     1,
+     "Most fibres of the columns end in the mamillary body, a key link in the Papez circuit.\nFrom there the mamillothalamic tract runs to the anterior thalamic nucleus."
+    ],
+    [
+     "Consists of commissural rather than association fibres",
+     0,
+     "Last's stresses the opposite: the fornix is an association tract rather than a true commissure.\nOnly the small hippocampal commissure crosses between the crura."
+    ]
+   ]
+  },
+  {
+   "t": "Hippocampus",
+   "y": 2,
+   "s": "Concerning the hippocampus and inferior horn:",
+   "o": [
+    [
+     "The hippocampus forms the floor of the inferior horn of the lateral ventricle",
+     1,
+     "The hippocampus bulges into the floor (and medial wall) of the inferior horn.\nIt is a rolled-in part of the parahippocampal gyrus."
+    ],
+    [
+     "The pes hippocampi lies at the posterior end of the inferior horn",
+     0,
+     "The expanded, ridged pes hippocampi is at the anterior end of the hippocampus, near the tip of the horn.\nPosteriorly the hippocampus narrows into the fimbria and crus of the fornix."
+    ],
+    [
+     "The amygdaloid body lies in the floor of the inferior horn behind the hippocampus",
+     0,
+     "The amygdaloid body lies in the roof at the tip of the inferior horn, just above the pes hippocampi.\nIt sits at the end of the tail of the caudate nucleus. (Last's p. 591-2)"
+    ],
+    [
+     "The hippocampus is supplied mainly by the anterior cerebral artery",
+     0,
+     "It is supplied by the posterior cerebral artery, with help from the anterior choroidal artery.\nThe anterior cerebral supplies the medial surface above the corpus callosum."
+    ]
+   ]
+  },
+  {
+   "t": "Caudate nucleus",
+   "y": 2,
+   "s": "The caudate nucleus:",
+   "o": [
+    [
+     "Is separated from the lentiform nucleus by the external capsule",
+     0,
+     "The internal capsule separates caudate and thalamus from the lentiform nucleus.\nThe external capsule lies between the putamen and the claustrum."
+    ],
+    [
+     "Has a tail that lies in the floor of the inferior horn",
+     0,
+     "The tail runs in the roof of the inferior horn, getting thinner as it goes forward.\nThe floor of the inferior horn is the hippocampus. (Last's p. 591-2)"
+    ],
+    [
+     "Forms the corpus striatum together with the globus pallidus alone",
+     0,
+     "Caudate and putamen together form the (neo)striatum; the globus pallidus is the pallidum.\nThe corpus striatum as a whole is caudate plus lentiform nucleus."
+    ],
+    [
+     "Has the amygdaloid body at the extremity of its tail",
+     1,
+     "At the end of the tail, in the roof of the inferior horn, is the amygdaloid body.\nIt makes a slight bulge just above the pes hippocampi. (Last's p. 591-2)"
+    ]
+   ]
+  },
+  {
+   "t": "Lentiform nucleus",
+   "y": 2,
+   "s": "The lentiform nucleus:",
+   "o": [
+    [
+     "Has its globus pallidus lateral to the putamen",
+     0,
+     "The globus pallidus is the medial, paler part; the putamen is lateral.\nThe putamen is continuous with the head of the caudate below the anterior limb of the internal capsule."
+    ],
+    [
+     "Is supplied largely by lenticulostriate branches of the middle cerebral artery",
+     1,
+     "The lateral striate (lenticulostriate) arteries pass up through the anterior perforated substance.\nThey are the arteries of cerebral haemorrhage, and also supply the internal capsule."
+    ],
+    [
+     "Lies medial to the internal capsule",
+     0,
+     "It lies lateral to the internal capsule.\nThe caudate and thalamus lie medial to the capsule."
+    ],
+    [
+     "Is related laterally to the external capsule and claustrum",
+     1,
+     "Lateral to the putamen are the external capsule, the claustrum, the extreme capsule and the insula.\nThe insula lies deepest in the lateral sulcus."
+    ]
+   ]
+  },
+  {
+   "t": "Internal capsule",
+   "y": 2,
+   "s": "The internal capsule:",
+   "o": [
+    [
+     "Has its anterior limb between the head of caudate and the lentiform nucleus",
+     1,
+     "The anterior limb separates the caudate head from the lentiform nucleus.\nIt carries frontopontine fibres and thalamic fibres to and from the frontal lobe."
+    ],
+    [
+     "Has its posterior limb between the thalamus and the lentiform nucleus",
+     1,
+     "The posterior limb separates thalamus (medially) from lentiform nucleus (laterally).\nIt carries corticospinal and thalamocortical sensory fibres."
+    ],
+    [
+     "Carries corticonuclear fibres through the genu",
+     1,
+     "Corticonuclear fibres to the motor cranial nerve nuclei run in the genu.\nCorticospinal fibres for arm, hand, trunk and leg follow behind in the posterior limb. (Last's p. 585)"
+    ],
+    [
+     "Has corticopontine fibres as its smallest fibre group",
+     0,
+     "Corticopontine fibres, about 20 million, are the largest group in the internal capsule.\nClinically, the corticospinal and sensory fibres matter more. (Last's p. 585)"
+    ]
+   ]
+  },
+  {
+   "t": "Internal capsule",
+   "y": 2,
+   "s": "Concerning the internal capsule:",
+   "o": [
+    [
+     "The optic radiation passes through the anterior limb",
+     0,
+     "The optic radiation passes through the retrolentiform part, behind the lentiform nucleus.\nIt then sweeps back in the lateral wall of the posterior horn."
+    ],
+    [
+     "The auditory radiation passes through the retrolentiform part",
+     0,
+     "The auditory radiation runs in the sublentiform part, below the lentiform nucleus.\nIt goes from the medial geniculate body to the transverse temporal gyri."
+    ],
+    [
+     "In the posterior limb, fibres for the leg lie in front of those for the arm",
+     0,
+     "The order from front to back is arm, hand, trunk, leg, then perineum.\nThe head fibres are further forward, in the genu. (Last's p. 585)"
+    ],
+    [
+     "Thalamocortical fibres to the postcentral gyrus pass in the posterior limb",
+     1,
+     "Sensory radiations from the ventral posterior thalamus run in the posterior limb behind the motor fibres.\nSo a capsular lesion often gives hemianaesthesia as well as hemiplegia."
+    ]
+   ]
+  },
+  {
+   "t": "Visual pathway",
+   "y": 2,
+   "s": "The optic radiation:",
+   "o": [
+    [
+     "Arises from the lateral geniculate body",
+     1,
+     "Fibres of the optic tract synapse in the lateral geniculate body, which gives rise to the optic radiation.\nThe radiation is also called the geniculocalcarine tract."
+    ],
+    [
+     "Carries fibres for the lower visual field in its loop into the temporal lobe",
+     0,
+     "The temporal (Meyer's) loop carries fibres from the lower retina, which see the upper field.\nA temporal lobe lesion therefore gives an upper quadrantanopia."
+    ],
+    [
+     "Lies in the medial wall of the posterior horn",
+     0,
+     "It lies in the lateral wall of the posterior horn, against the tapetum.\nThe calcar avis is in the medial wall."
+    ],
+    [
+     "Ends in the superior temporal gyrus",
+     0,
+     "It ends in the visual cortex (area 17) around the calcarine sulcus.\nThe superior temporal gyrus receives the auditory radiation."
+    ]
+   ]
+  },
+  {
+   "t": "Visual pathway",
+   "y": 2,
+   "s": "Concerning lesions of the visual pathway:",
+   "o": [
+    [
+     "A lesion of the optic chiasma typically causes a homonymous hemianopia",
+     0,
+     "A central chiasmal lesion cuts the crossing nasal fibres, giving a bitemporal hemianopia.\nA pituitary tumour is the classic cause."
+    ],
+    [
+     "A lesion of the right optic tract causes a left homonymous hemianopia",
+     1,
+     "The right tract carries fibres from the right half of each retina, which see the left field.\nSo the left half of both visual fields is lost."
+    ],
+    [
+     "The macula is represented at the anterior end of the visual cortex",
+     0,
+     "The macula registers at the posterior end of the visual area, near the occipital pole.\nPeripheral retina is represented progressively further forward. (Last's p. 587)"
+    ],
+    [
+     "Each visual cortex registers the opposite field of vision",
+     1,
+     "Each visual area receives from its own half of each retina, so it registers the opposite field.\nUpper and lower fields are also crossed. (Last's p. 587)"
+    ]
+   ]
+  },
+  {
+   "t": "Thalamus",
+   "y": 2,
+   "s": "The thalamus:",
+   "o": [
+    [
+     "Has its anterior pole at the interventricular foramen",
+     1,
+     "All four surfaces converge to the small blunt anterior pole at the interventricular foramen.\nThe pole is covered in ependyma."
+    ],
+    [
+     "Has its lateral surface related to the internal capsule",
+     1,
+     "The lateral surface is bevelled by the internal capsule.\nThalamocortical fibres stream out from it into the capsule."
+    ],
+    [
+     "Has part of its superior surface in the floor of the lateral ventricle",
+     1,
+     "An oblique strip along the lateral margin of the superior surface lies in the lateral ventricle.\nThis strip, covered in ependyma, belongs rather to the hemisphere."
+    ],
+    [
+     "Is always joined to its fellow by an interthalamic adhesion",
+     0,
+     "The interthalamic adhesion is present in only about 60% of brains.\nWhen present it crosses the third ventricle and is not a true commissure. (Last's p. 593)"
+    ]
+   ]
+  },
+  {
+   "t": "Thalamus",
+   "y": 2,
+   "s": "Thalamic connections:",
+   "o": [
+    [
+     "The anterior nucleus receives the mamillothalamic tract and projects to the cingulate gyrus",
+     1,
+     "Mamillary body to anterior thalamic nucleus to cingulate gyrus is part of the limbic (Papez) circuit.\nThe cingulate gyrus is part of the limbic lobe."
+    ],
+    [
+     "The medial geniculate body is concerned with hearing",
+     1,
+     "It relays auditory fibres from the inferior colliculus to the auditory cortex.\nThe auditory radiation runs in the sublentiform internal capsule."
+    ],
+    [
+     "The ventral posterior nucleus receives the medial and spinal lemnisci",
+     1,
+     "Ascending sensory lemnisci end in the ventral posterior nuclei.\nThese relay to SmI in the postcentral gyrus."
+    ],
+    [
+     "The lateral geniculate body relays visual fibres",
+     1,
+     "Most optic tract fibres synapse in the lateral geniculate body.\nSome fibres bypass it to the pretectal area and superior colliculus for reflexes."
+    ]
+   ]
+  },
+  {
+   "t": "Hypothalamus",
+   "y": 2,
+   "s": "Concerning the hypothalamus and posterior pituitary:",
+   "o": [
+    [
+     "The supraoptic nucleus mainly produces oxytocin",
+     0,
+     "The supraoptic nucleus mainly produces vasopressin (antidiuretic hormone).\nOxytocin comes mainly from the paraventricular nucleus. (Last's p. 569)"
+    ],
+    [
+     "Neurosecretory material travels along the axons at about 3 cm a day",
+     0,
+     "It travels at about 3 mm a day to the pars nervosa.\nThere it is stored and released into capillaries. (Last's p. 569)"
+    ],
+    [
+     "The pars distalis receives its releasing factors along nerve fibres",
+     0,
+     "Releasing factors reach the pars distalis through the hypophyseal portal vessels.\nOnly the posterior lobe gets hypothalamic nerve fibres."
+    ],
+    [
+     "The mamillary bodies receive the columns of the fornix",
+     1,
+     "The columns of the fornix end mainly in the mamillary bodies.\nThe mamillary bodies lie in the floor of the third ventricle, in the interpeduncular fossa."
+    ]
+   ]
+  },
+  {
+   "t": "Pituitary",
+   "y": 2,
+   "s": "The pituitary gland:",
+   "o": [
+    [
+     "Has a pars distalis making up about a quarter of the gland",
+     0,
+     "The pars distalis is about 75% of the gland.\nThe pars nervosa forms most of the rest. (Last's p. 569)"
+    ],
+    [
+     "Has a pars nervosa containing about 100 000 unmyelinated fibres",
+     1,
+     "These fibres come from the supraoptic and paraventricular nuclei.\nThey form the hypothalamo-hypophyseal tract down the infundibulum. (Last's p. 569)"
+    ],
+    [
+     "Has an anterior lobe developing from the floor of the diencephalon",
+     0,
+     "The anterior lobe develops from Rathke's pouch, an upgrowth from the roof of the stomodeum.\nThe posterior lobe is the downgrowth from the diencephalon."
+    ],
+    [
+     "Has its stalk passing through the diaphragma sellae",
+     1,
+     "The infundibulum pierces the diaphragma sellae, the dural roof of the pituitary fossa.\nA pituitary tumour bulging up through it may press on the optic chiasma."
+    ]
+   ]
+  },
+  {
+   "t": "Third ventricle",
+   "y": 2,
+   "s": "The third ventricle:",
+   "o": [
+    [
+     "Has the lamina terminalis as its anterior wall",
+     1,
+     "The lamina terminalis runs from the optic chiasma up to the rostrum of the corpus callosum.\nThe anterior commissure is embedded in it."
+    ],
+    [
+     "Has a roof formed by the fornix alone",
+     0,
+     "The roof is ependyma, with the tela choroidea and choroid plexuses above.\nThe fornix lies above the tela choroidea, not in the ventricle wall."
+    ],
+    [
+     "Communicates with the fourth ventricle through the interventricular foramen",
+     0,
+     "It joins the fourth ventricle through the cerebral aqueduct.\nThe interventricular foramina join it to the lateral ventricles."
+    ],
+    [
+     "Has the pineal recess in its anterior wall",
+     0,
+     "The pineal and suprapineal recesses are in the posterior wall.\nThe optic and infundibular recesses are in front and below."
+    ]
+   ]
+  },
+  {
+   "t": "Lateral ventricle",
+   "y": 2,
+   "s": "The lateral ventricle:",
+   "o": [
+    [
+     "Has the corpus callosum forming the roof of its anterior horn and body",
+     1,
+     "Callosal fibres pass across the anterior horn and body, forming their roof.\nIn the posterior and inferior horns the tapetum takes over. (Last's p. 586)"
+    ],
+    [
+     "Has the septum pellucidum forming the medial wall of its anterior horn",
+     1,
+     "The septum pellucidum separates the two anterior horns.\nIt stretches from the corpus callosum to the fornix."
+    ],
+    [
+     "Has the calcar avis in the medial wall of its posterior horn",
+     1,
+     "The calcar avis is a ridge produced by the calcarine sulcus.\nIf well developed it can obliterate the posterior horn."
+    ],
+    [
+     "Has choroid plexus in its anterior and posterior horns",
+     0,
+     "There is no choroid plexus in the anterior or posterior horns.\nThe plexus runs along the choroid fissure in the body and inferior horn only."
+    ]
+   ]
+  },
+  {
+   "t": "Cerebrospinal fluid",
+   "y": 2,
+   "s": "Cerebrospinal fluid:",
+   "o": [
+    [
+     "Has a total volume of about 500 ml",
+     0,
+     "The total volume is about 130 ml.\nMore than 500 ml is produced each day, so it turns over several times. (Last's p. 614)"
+    ],
+    [
+     "Is produced entirely by the choroid plexuses",
+     0,
+     "About 30% comes from brain capillaries, seeping in via the extracellular fluid.\nThe choroid plexuses produce the rest. (Last's p. 614)"
+    ],
+    [
+     "Has about 100 ml in the ventricles",
+     0,
+     "The ventricles hold about 30 ml; the subarachnoid space holds about 100 ml.\nOf the subarachnoid CSF, about 75 ml is spinal and 25 ml cranial. (Last's p. 614)"
+    ],
+    [
+     "Has a normal pressure of about 130 mm of water",
+     1,
+     "Pressure is about 130 mm of water lying on the side.\nThe 1500 g brain weighs only about 50 g floating in it. (Last's p. 614)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellar peduncles",
+   "y": 2,
+   "s": "Concerning the cerebellar peduncles:",
+   "o": [
+    [
+     "The superior peduncle carries most efferent fibres from the dentate nucleus",
+     1,
+     "Dentatorubral and dentatothalamic fibres leave through the superior peduncle.\nThey cross in the midbrain to the opposite red nucleus and thalamus."
+    ],
+    [
+     "The middle peduncle consists of pontocerebellar fibres",
+     1,
+     "Pontine nuclei send fibres across the midline into the opposite middle peduncle.\nIt completes the corticopontocerebellar pathway."
+    ],
+    [
+     "The anterior spinocerebellar tract enters through the superior peduncle",
+     1,
+     "The anterior spinocerebellar tract climbs to the upper pons and turns back in the superior peduncle.\nThe posterior tract enters through the inferior peduncle."
+    ],
+    [
+     "The superior peduncles decussate in the pons",
+     0,
+     "They decussate in the midbrain, at the level of the inferior colliculus.\nThe decussation is seen centrally in sections at that level."
+    ]
+   ]
+  },
+  {
+   "t": "Cerebellum",
+   "y": 2,
+   "s": "Concerning the cerebellum:",
+   "o": [
+    [
+     "The flocculonodular lobe is the neocerebellum",
+     0,
+     "It is the archicerebellum, mainly vestibular in its connections.\nThe neocerebellum is the large lateral part of the hemispheres."
+    ],
+    [
+     "Lesions cause ataxia and intention tremor but not paralysis",
+     1,
+     "Cerebellar lesions disturb movement and balance: ataxia, intention tremor, nystagmus, dysarthria.\nThere is no paralysis. (Last's p. 617-18)"
+    ],
+    [
+     "A unilateral lesion causes signs on the opposite side of the body",
+     0,
+     "A cerebellar hemisphere affects the same side of the body.\nIts pathways cross twice, so signs are ipsilateral."
+    ],
+    [
+     "The neocerebellum evolved with the cerebral hemispheres",
+     1,
+     "The neocerebellum developed with the growing complexity of the hemispheres (cerebral mechanisms).\nThe palaeocerebellum serves spinal mechanisms."
+    ]
+   ]
+  },
+  {
+   "t": "Midbrain",
+   "y": 2,
+   "s": "At the level of the superior colliculus the midbrain shows:",
+   "o": [
+    [
+     "The red nucleus in the tegmentum",
+     1,
+     "The red nucleus is the naked-eye feature of the tegmentum at superior colliculus level.\nFibres of the oculomotor nerve sweep through it."
+    ],
+    [
+     "The trochlear nucleus",
+     0,
+     "The trochlear nucleus lies at inferior colliculus level.\nThe oculomotor nucleus is at superior colliculus level."
+    ],
+    [
+     "The decussation of the superior cerebellar peduncles",
+     0,
+     "This decussation is seen at inferior colliculus level.\nIt lies centrally in the tegmentum."
+    ],
+    [
+     "The substantia nigra dorsal to the aqueduct",
+     0,
+     "The substantia nigra lies ventrally, between tegmentum and crus.\nThe tectum is the only part dorsal to the aqueduct."
+    ]
+   ]
+  },
+  {
+   "t": "Pons",
+   "y": 2,
+   "s": "Concerning the pons:",
+   "o": [
+    [
+     "The abducent nucleus lies in the upper pons",
+     0,
+     "It lies in the lower pons, under the facial colliculus.\nThe trigeminal motor nucleus is in the mid pons."
+    ],
+    [
+     "Pontine nuclei send fibres into the middle peduncle of the same side",
+     0,
+     "Pontocerebellar fibres cross the midline before entering the opposite middle peduncle.\nThis gives the transverse fibres of the basilar pons."
+    ],
+    [
+     "The motor nucleus of the trigeminal nerve lies in the medulla",
+     0,
+     "The trigeminal motor nucleus is in the mid pons.\nThe spinal trigeminal nucleus extends down into the medulla and upper cord."
+    ],
+    [
+     "The facial colliculus overlies the abducent nucleus",
+     1,
+     "Facial nerve fibres loop over the abducent nucleus, raising the facial colliculus.\nSo a lesion here can give both VI and VII palsy."
+    ]
+   ]
+  },
+  {
+   "t": "Medulla",
+   "y": 2,
+   "s": "Concerning the medulla:",
+   "o": [
+    [
+     "Each pyramid contains about a million fibres",
+     1,
+     "Each pyramid holds about a million fibres, of which about 700 000 are small myelinated fibres.\nThese are corticospinal fibres. (Last's p. 612)"
+    ],
+    [
+     "About 85% of pyramidal fibres cross in the motor decussation",
+     1,
+     "They form the lateral corticospinal tract.\nThe uncrossed rest descend mainly as the anterior corticospinal tract. (Last's p. 612)"
+    ],
+    [
+     "The inferior olivary nucleus projects to the opposite cerebellum",
+     1,
+     "Olivocerebellar fibres cross and enter the opposite inferior cerebellar peduncle.\nThe olive is the bulge lateral to the pyramid."
+    ],
+    [
+     "The hypoglossal nerve emerges between the olive and the inferior cerebellar peduncle",
+     0,
+     "XII emerges between the pyramid and the olive.\nIX, X and XI emerge behind the olive."
+    ]
+   ]
+  },
+  {
+   "t": "Ascending tracts",
+   "y": 2,
+   "s": "Concerning ascending spinal tracts:",
+   "o": [
+    [
+     "Posterior column fibres cross in the spinal cord",
+     0,
+     "They ascend on the same side and synapse in the gracile and cuneate nuclei.\nThe internal arcuate fibres cross in the medulla to form the medial lemniscus."
+    ],
+    [
+     "Most anterolateral tract fibres synapse in the reticular formation",
+     1,
+     "Only about 10% go directly to the thalamus; 90% synapse in the reticular formation.\nThis is the spinoreticulothalamic pathway. (Last's p. 624)"
+    ],
+    [
+     "The fasciculus gracilis carries fibres from the upper limb",
+     0,
+     "Gracilis carries the lower limb and lower trunk; cuneatus carries the upper limb.\nCuneatus is present only above about T6."
+    ],
+    [
+     "Vibration sense travels in the posterior columns",
+     1,
+     "Vibration is tested with a 128 Hz tuning fork and travels with position sense.\nSo it is lost with posterior column disease. (Last's p. 623)"
+    ]
+   ]
+  },
+  {
+   "t": "Corticospinal tract",
+   "y": 2,
+   "s": "The corticospinal tract:",
+   "o": [
+    [
+     "Has about 40% of its fibres from the motor area",
+     1,
+     "About 40% come from MsI; the rest from widespread cortex, including sensory areas.\nSo it is not purely a motor area output. (Last's p. 612)"
+    ],
+    [
+     "Has no more than 2% of its fibres from Betz cells",
+     1,
+     "The giant pyramidal cells of layer V give no more than 2%.\nThese few are the fibres that synapse directly on motor neurons. (Last's p. 603)"
+    ],
+    [
+     "Ends mostly on interneurons rather than directly on motor neurons",
+     1,
+     "About 98% synapse on interneurons in laminae VII and VIII.\nThese then project to lamina IX motor neurons. (Last's p. 625)"
+    ],
+    [
+     "Has over half its fibres ending in the cervical cord",
+     1,
+     "About 55% end at cervical and T1 levels for the upper limb.\n20% go to the trunk and 25% to the lower limb. (Last's p. 625)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal grey matter",
+   "y": 2,
+   "s": "Concerning the spinal cord:",
+   "o": [
+    [
+     "Preganglionic sympathetic cells lie in the lateral horn from T1 to L2",
+     1,
+     "The lateral horn holds sympathetic cells from T1 to L2.\nParasympathetic cells sit at S2–4. (Last's p. 621-2)"
+    ],
+    [
+     "The substantia gelatinosa is lamina IX",
+     0,
+     "The substantia gelatinosa is lamina II.\nLamina IX contains the motor neurons."
+    ],
+    [
+     "White rami communicantes arise from every spinal nerve",
+     0,
+     "White rami come only from T1 to L2, where there are lateral horn cells.\nEvery spinal nerve gets a grey ramus."
+    ],
+    [
+     "The adult cord ends at L3",
+     0,
+     "The adult cord ends at about L1 (L1/2).\nIt ends at L3 at birth and reaches the adult level by about 20 years. (Last's p. 575)"
+    ]
+   ]
+  },
+  {
+   "t": "Spinal cord blood supply",
+   "y": 2,
+   "s": "Blood supply of the spinal cord:",
+   "o": [
+    [
+     "The anterior spinal artery arises from the basilar artery",
+     0,
+     "It forms from a branch of each vertebral artery.\nThe two branches unite in front of the medulla."
+    ],
+    [
+     "The arteria radicularis magna arises most often at T10 or T11 on the left",
+     1,
+     "It can arise anywhere from T7 to L4, but slightly more often at T10/11 and on the left.\nIt is the main supply to the lower anterior cord. (Last's p. 626)"
+    ],
+    [
+     "The posterior spinal arteries supply the anterior two-thirds of the cord",
+     0,
+     "The anterior spinal artery supplies the anterior two-thirds.\nThe posterior spinal arteries supply the posterior columns and horns."
+    ],
+    [
+     "Radicular arteries reinforce the spinal arteries along the cord",
+     1,
+     "Without radicular feeders the longitudinal arteries could not supply the whole cord.\nTheir number varies, which makes some segments watershed zones."
+    ]
+   ]
+  },
+  {
+   "t": "Spinal cord levels",
+   "y": 2,
+   "s": "Concerning spinal cord and meningeal levels:",
+   "o": [
+    [
+     "At birth the cord ends at about L3",
+     1,
+     "At birth it ends at L3 and reaches the adult L1 level by about 20 years.\nIn the fetus it reaches S2. (Last's p. 575)"
+    ],
+    [
+     "The dural sac ends at S2",
+     1,
+     "Dura, arachnoid and subarachnoid space all end at S2.\nThe filum terminale pierces the sac there. (Last's p. 574-5)"
+    ],
+    [
+     "The cervical enlargement corresponds to segments C5–T1",
+     1,
+     "These segments lie opposite vertebrae C3–T1.\nThey supply the upper limb plexus. (Last's p. 619-20)"
+    ],
+    [
+     "The lumbosacral enlargement lies opposite vertebrae L2–S3",
+     0,
+     "Segments L2–S3 lie opposite vertebrae T9–L1.\nSegments are higher than their vertebrae because the cord is shorter than the column. (Last's p. 619-20)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebral arteries",
+   "y": 2,
+   "s": "Concerning the cerebral arteries:",
+   "o": [
+    [
+     "The recurrent artery of Heubner is a branch of the middle cerebral artery",
+     0,
+     "It comes from the anterior cerebral artery near the anterior communicating artery.\nIt is absent in about 3%. (Last's p. 601)"
+    ],
+    [
+     "The anterior choroidal artery is a branch of the posterior cerebral artery",
+     0,
+     "It is a branch of the internal carotid artery.\nThe posterior choroidal arteries come from the posterior cerebral."
+    ],
+    [
+     "The visual cortex is supplied wholly by the middle cerebral artery",
+     0,
+     "The visual area lies within the posterior cerebral territory.\nMiddle cerebral branches may reach far enough back to supply the macular area. (Last's p. 600)"
+    ],
+    [
+     "Most subarachnoid haemorrhages come from circle of Willis aneurysms",
+     1,
+     "About 90% of subarachnoid haemorrhages are due to such aneurysms.\nCommon sites are the anterior communicating and posterior communicating junctions. (Last's p. 599-600)"
+    ]
+   ]
+  },
+  {
+   "t": "Cerebral veins",
+   "y": 2,
+   "s": "Concerning the cerebral veins:",
+   "o": [
+    [
+     "The great cerebral vein drains into the straight sinus",
+     1,
+     "The great cerebral vein (of Galen) joins the inferior sagittal sinus to form the straight sinus.\nIt is formed by the two internal cerebral veins."
+    ],
+    [
+     "The superficial middle cerebral vein drains into the superior sagittal sinus",
+     0,
+     "It runs along the lateral sulcus and drains into the cavernous sinus.\nAnastomotic veins link it to the superior sagittal and transverse sinuses."
+    ],
+    [
+     "The basal vein begins on the convexity of the hemisphere",
+     0,
+     "The basal vein begins at the anterior perforated substance.\nIt winds round the cerebral peduncle to join the great cerebral vein."
+    ],
+    [
+     "Cerebral veins have valves",
+     0,
+     "Cerebral veins and dural sinuses are valveless.\nSo infection can spread along them in either direction."
+    ]
+   ]
+  },
+  {
+   "t": "Cerebral arteries",
+   "y": 2,
+   "s": "Arterial supply of cortical areas:",
+   "o": [
+    [
+     "The leg area of the motor cortex is supplied by the anterior cerebral artery",
+     1,
+     "The paracentral lobule, with leg and perineum areas, lies in anterior cerebral territory.\nSo ACA occlusion gives a contralateral leg weakness. (Last's p. 600)"
+    ],
+    [
+     "Broca's area is supplied by the middle cerebral artery",
+     1,
+     "The speech areas lie in middle cerebral territory on the lateral surface.\nLeft MCA occlusion often causes aphasia."
+    ],
+    [
+     "The visual area is supplied by the posterior cerebral artery",
+     1,
+     "Area 17 lies within the posterior cerebral territory.\nPCA occlusion gives a contralateral homonymous hemianopia, often with macular sparing."
+    ],
+    [
+     "The auditory area is supplied by the middle cerebral artery",
+     1,
+     "The transverse temporal gyri lie within the lateral sulcus, in MCA territory.\nThe cochleae are bilaterally represented, so one lesion does not cause deafness."
+    ]
+   ]
+  }
+ ]
+}
