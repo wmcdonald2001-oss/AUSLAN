@@ -456,6 +456,10 @@ function encodeAnswer(q, ans) {
   if (q.y === 2) return ans || '';
   return ans.map((v) => (v === null ? '?' : v ? 'T' : 'F')).join('');
 }
+function decodeAnswer(q, code) {
+  if (q.y === 2) return code || null;
+  return [0, 1, 2, 3].map((i) => { const c = (code || '')[i]; return c === 'T' ? true : c === 'F' ? false : null; });
+}
 function recordQuestion(id, score, ans, redo = false) {
   const now = Date.now();
   const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
@@ -797,22 +801,24 @@ function renderExam() {
       return h('tr', {}, h('td', { text: REGION[code] }), h('td', { class: 'num', text: String(arr.length) }), h('td', { class: 'num', text: pct(avg) }));
     });
     const reviewGrid = h('div', { class: 'grid-nav solid' }, ...exam.ids.map((id, i) => h('button', {
-      class: `${resultClass({ score: r.scores[i] })} ${i === exam.cur ? 'cur' : ''} ${exam.marked && exam.marked.has(i) ? 'mk' : ''}`, text: String(i + 1), onclick: () => { exam.cur = i; renderExam(); },
+      class: `${r.scores[i] == null ? 'todo' : resultClass({ score: r.scores[i] })} ${i === exam.cur ? 'cur' : ''} ${exam.marked && exam.marked.has(i) ? 'mk' : ''}`, text: String(i + 1), onclick: () => { exam.cur = i; renderExam(); },
     })));
     const q = QBYID[exam.ids[exam.cur]];
-    const foot = h('div', { class: 'q-foot' }, scoreLabel(q, r.scores[exam.cur]), h('span', { class: 'grow' }),
+    const foot = h('div', { class: 'q-foot' }, r.scores[exam.cur] == null ? h('span', { class: 'count', text: `Answer ${q.y === 2 ? q.k : 'shown below'}` }) : scoreLabel(q, r.scores[exam.cur]), h('span', { class: 'grow' }),
       h('button', { class: 'btn ghost', text: 'Previous', disabled: exam.cur === 0, onclick: () => { exam.cur--; renderExam(); } }),
       h('button', { class: 'btn ghost', text: 'Next', disabled: exam.cur === exam.ids.length - 1, onclick: () => { exam.cur++; renderExam(); } }));
     area.replaceChildren(
       h('div', { class: 'panel' },
-        h('p', { class: 'label', text: 'Result' }),
+        h('p', { class: 'label', text: r.past ? `Past exam · ${niceDay(dayKey(r.past.t), true)}` : 'Result' }),
+        r.past && !r.past.saved ? h('p', { class: 'count', style: 'margin:0 0 8px', text: 'Your answers were not saved for this exam (it was taken before answer saving was added), so the questions are shown with the correct answers only.' }) : null,
+        r.past && r.past.missing ? h('p', { class: 'count', style: 'margin:0 0 8px', text: `${r.past.missing} question${r.past.missing === 1 ? ' has' : 's have'} since been rewritten and can't be shown.` }) : null,
         h('div', { class: 'row' }, h('span', { class: 'big', text: pct(r.total) }),
           h('span', { class: r.total >= 0.7 ? 'pass' : 'fail', text: r.total >= 0.7 ? 'At or above the 70% pass mark' : 'Below the 70% pass mark' }),
           r.prev != null ? h('span', { class: 'count', text: `${r.total >= r.prev ? '▲' : '▼'} ${Math.abs(Math.round((r.total - r.prev) * 100))} points vs your last exam` }) : null),
         h('p', { class: 'count', style: 'margin:8px 0 12px', text: `${exam.ids.length} questions · ${r.full} fully correct · time used ${r.used}` }),
         r.ch ? changeLine(r.ch) : null,
         h('div', { class: 'table-scroll' }, h('table', { class: 'stats' }, h('tr', {}, h('th', { text: 'Region' }), h('th', { text: 'Qs' }), h('th', { text: 'Score' })), ...rows)),
-        h('div', { class: 'row', style: 'margin-top:14px' }, h('button', { class: 'btn primary', text: 'New exam', onclick: () => { exam.phase = 'setup'; renderExam(); } }))),
+        h('div', { class: 'row', style: 'margin-top:14px' }, h('button', { class: 'btn primary', text: r.past ? '‹ Back to mock exams' : 'New exam', onclick: () => { exam.phase = 'setup'; renderExam(); } }))),
       h('div', { class: 'panel' }, h('p', { class: 'label', text: 'Review each question' }), reviewGrid),
       renderQuestion(q, { ans: exam.ans[exam.cur], reveal: true, onAnswer: null, footer: foot }));
   }
@@ -835,6 +841,26 @@ function examChanges() {
     else if (a && a !== o) { out.c2[0]++; if (a === q.k) out.c2[1]++; if (o === q.k) out.c2[2]++; }
   });
   return out;
+}
+// Re-open a finished exam from history in the review screen.
+function reviewPastExam(r) {
+  const keep = (r.ids || []).map((id, i) => [id, i]).filter(([id]) => QBYID[id]);
+  if (!keep.length) return;
+  clearInterval(exam.timer);
+  exam.ids = keep.map(([id]) => id);
+  const saved = Array.isArray(r.a);
+  exam.ans = keep.map(([id, i]) => (saved ? decodeAnswer(QBYID[id], r.a[i]) : blankAnswer(QBYID[id])));
+  const mk = new Set(r.mk || []);
+  exam.marked = new Set(keep.map(([, i], j) => (mk.has(i) ? j : -1)).filter((j) => j >= 0));
+  exam.orig = [];
+  exam.results = {
+    scores: saved ? exam.ids.map((id, j) => scoreAnswer(QBYID[id], exam.ans[j])) : exam.ids.map(() => null),
+    total: r.total, full: r.full, used: `${r.usedMin} min`, prev: null, ch: r.ch || null,
+    past: { t: r.t, saved, missing: (r.ids || []).length - keep.length },
+  };
+  exam.phase = 'done'; exam.cur = 0;
+  renderExam();
+  window.scrollTo(0, 0);
 }
 function examSeenCounts() {
   const c = {};
@@ -872,7 +898,8 @@ function finishExam() {
   state.e = state.e || {};
   const ch = examChanges();
   exam.results.ch = ch;
-  state.e[now] = { t: now, n: exam.ids.length, total: exam.results.total, full: exam.results.full, usedMin: Math.floor(usedMs / 60000), t1: typeAvg(1), t2: typeAvg(2), regions, ids: exam.ids.slice(), ch };
+  state.e[now] = { t: now, n: exam.ids.length, total: exam.results.total, full: exam.results.full, usedMin: Math.floor(usedMs / 60000), t1: typeAvg(1), t2: typeAvg(2), regions, ids: exam.ids.slice(), ch,
+    a: exam.ids.map((id, i) => encodeAnswer(QBYID[id], exam.ans[i])), mk: [...(exam.marked || [])] };
   exam.phase = 'done'; exam.cur = 0;
   changed();
   renderExam();
@@ -1246,12 +1273,15 @@ function examHistoryPanel() {
     changePanel(hist),
     h('p', { class: 'label', style: 'margin-top:12px', text: 'By region across all exams (weakest first)' }),
     h('div', { class: 'table-scroll' }, h('table', { class: 'stats' }, h('tr', {}, h('th', { text: 'Region' }), h('th', { text: 'Qs' }), h('th', { text: 'Score' })), ...regionRows)),
-    h('details', { class: 'trend-table' }, h('summary', { text: 'All exams' }),
-      h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },
-        h('tr', {}, h('th', { text: 'Date' }), h('th', { text: 'Qs' }), h('th', { text: 'Score' }), h('th', { text: 'T1' }), h('th', { text: 'T2' }), h('th', { text: 'Time' })),
-        ...hist.slice().reverse().map((r) => h('tr', {}, h('td', { text: niceDay(dayOf(r), true) }), h('td', { class: 'num', text: String(r.n) }),
-          h('td', { class: 'num', text: pct(r.total) }), h('td', { class: 'num', text: r.t1 == null ? '–' : pct(r.t1) }),
-          h('td', { class: 'num', text: r.t2 == null ? '–' : pct(r.t2) }), h('td', { class: 'num', text: `${r.usedMin}m` })))))));
+    h('p', { class: 'label', style: 'margin-top:12px', text: 'All exams' }),
+    h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },
+      h('tr', {}, h('th', { text: 'Date' }), h('th', { text: 'Score' }), h('th', { text: 'T1' }), h('th', { text: 'T2' }), h('th', { text: 'Time' }), h('th', { text: '' })),
+      ...hist.slice().reverse().map((r) => h('tr', {}, h('td', { text: niceDay(dayOf(r), true) }),
+        h('td', { class: 'num', text: `${pct(r.total)} (${r.n})` }), h('td', { class: 'num', text: r.t1 == null ? '–' : pct(r.t1) }),
+        h('td', { class: 'num', text: r.t2 == null ? '–' : pct(r.t2) }), h('td', { class: 'num', text: `${r.usedMin}m` }),
+        h('td', {}, r.ids && r.ids.some((id) => QBYID[id])
+          ? h('button', { class: 'btn small', text: 'Review', onclick: () => reviewPastExam(r) })
+          : h('span', { class: 'count', text: 'not saved', title: 'Exams taken before 4 Nov did not save their questions.' })))))));
   return panel;
 }
 // Later tries at questions you got wrong (not fully correct) on your first attempt.
