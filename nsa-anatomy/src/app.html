@@ -1090,8 +1090,11 @@ function ankiFile(mistakes) {
   const head = ['#separator:tab', '#html:true', '#notetype:Basic', '#deck:NSA anatomy mistakes', '#tags column:3', '#guid column:4'];
   return { text: head.concat(rows.map((r) => r.join('\t'))).join('\n') + '\n', count: rows.length };
 }
-async function downloadAnki(days, label, statusEl) {
-  const { text, count } = ankiFile(mistakesFor(days));
+// unfixed: leave out questions whose most recent retry was fully correct.
+async function downloadAnki(days, label, statusEl, unfixed = false) {
+  let ms = mistakesFor(days);
+  if (unfixed) ms = ms.filter((m) => { const r = state.q[m.q.id]; return !(r && r.rv && r.rl === 1); });
+  const { text, count } = ankiFile(ms);
   if (!count) { statusEl.textContent = 'No mistakes to export yet.'; return; }
   const filename = `nsa-anki-${label}.txt`;
   const dl = window.claude && typeof window.claude.use === 'function' ? await window.claude.use('downloads').catch(() => null) : null;
@@ -1109,6 +1112,15 @@ async function downloadAnki(days, label, statusEl) {
 function ankiPanel(day) {
   const status = h('p', { class: 'count', style: 'margin:8px 0 0', 'aria-live': 'polite' });
   const allDays = Object.keys(state.h || {});
+  if (!day) {
+    return h('div', { class: 'panel' },
+      h('p', { class: 'label', text: 'Export mistakes to Anki' }),
+      h('p', { style: 'margin:0 0 10px', text: 'Every question you got wrong (practice and mock exams), as cards for the deck "NSA anatomy mistakes". Each wrong Type 1 statement is its own card. "Not yet fixed" leaves out questions you have since got fully right on a retry. Import with File → Import; re-importing updates cards instead of duplicating them.' }),
+      h('div', { class: 'row' },
+        h('button', { class: 'btn small primary', text: 'All mistakes', onclick: () => downloadAnki(allDays, 'all-mistakes', status) }),
+        h('button', { class: 'btn small', text: 'Not yet fixed', onclick: () => downloadAnki(allDays, 'not-yet-fixed', status, true) })),
+      status);
+  }
   return h('div', { class: 'panel' },
     h('p', { class: 'label', text: 'Anki cards from your mistakes' }),
     h('p', { style: 'margin:0 0 10px', text: 'Each statement you got wrong becomes a card (Type 2 questions become one card with the key). Import the file in Anki with File → Import. Cards keep the same ID, so importing again updates them instead of making duplicates.' }),
@@ -1345,6 +1357,7 @@ function renderProgress() {
       h('p', { class: 'count', style: 'margin:6px 0 0', text: `${seen} of ${DATA.questions.length} questions tried · ${flagged} flagged. First attempts counts only your first try at each question; all attempts also counts later repeats, but not the immediate redo of a block's mistakes. Retries of first-time wrong is your score on later tries at questions you got wrong the first time${rs.qs ? `: ${rs.fixed} of ${rs.qs} of those were fully right on your latest try` : ''}.` }),
       DATA.cards.length ? h('p', { class: 'count', style: 'margin:8px 0 0', text: `Flashcards: ${reviewed} of ${DATA.cards.length} studied, ${learned} well known (box 3 or higher)` }) : null),
     trendPanel(),
+    ankiPanel(null),
     h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'By region' }),
       h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },
