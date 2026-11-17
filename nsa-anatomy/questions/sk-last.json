@@ -1,0 +1,1166 @@
+{
+ "code": "sk",
+ "region": "Skull & cranial cavity",
+ "questions": [
+  {
+   "t": "Skull vault",
+   "y": 1,
+   "s": "Concerning the skull vault (Last's):",
+   "o": [
+    [
+     "Cranium strictly means the skull without the mandible",
+     1,
+     "Strictly the skull includes the mandible.\nCranium is often used for the brain-containing part. (Last's p. 643)"
+    ],
+    [
+     "The most striking feature of the upper surface is its symmetry",
+     0,
+     "Last's: its asymmetry; one side is set in front of the other.\nThis is reflected in the hemispheres and lateral ventricles. (Last's p. 643-4)"
+    ],
+    [
+     "The parietal foramen transmits an emissary vein from the superior sagittal sinus",
+     1,
+     "It lies alongside the tortuous part of the sagittal suture. (Last's p. 644)"
+    ],
+    [
+     "The lambda lies at the posterior pole of the skull",
+     0,
+     "It lies above the posterior pole.\nIt is where the sagittal and lambdoid sutures meet. (Last's p. 644)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Skull vault",
+   "y": 1,
+   "s": "Concerning the occipital region (Last's):",
+   "o": [
+    [
+     "An interparietal bone is not an accessory bone",
+     1,
+     "It is a separate entity when the cartilaginous and membranous occipital parts fail to fuse.\nSutural (Wormian) bones are accessory. (Last's p. 644)"
+    ],
+    [
+     "The external occipital protuberance lies about 6 cm above the lambda",
+     0,
+     "It lies about 6 cm (2.5 inches) below the lambda. (Last's p. 644)"
+    ],
+    [
+     "The superior nuchal line marks the internal attachment of the tentorium",
+     1,
+     "It lies at the junction of neck and scalp. (Last's p. 644)"
+    ],
+    [
+     "Sternocleidomastoid is attached to the medial third of the superior nuchal line",
+     0,
+     "Trapezius takes the medial third; sternocleidomastoid the lateral two-thirds.\nSplenius capitis inserts into the lateral third deep to it. (Last's p. 644)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Skull vault",
+   "y": 1,
+   "s": "Concerning the lateral skull (Last's):",
+   "o": [
+    [
+     "The highest nuchal line gives origin to occipitalis and the galea",
+     1,
+     "Beneath it bare bone covers the occipital pole. (Last's p. 644)"
+    ],
+    [
+     "The coronal suture is straight above and tortuous below the inferior temporal line",
+     0,
+     "It is tortuous above and straight below the inferior temporal line. (Last's p. 644)"
+    ],
+    [
+     "The asterion is where the parietomastoid, occipitomastoid and lambdoid sutures meet",
+     1,
+     "It is the meeting place of the temporal, parietal and occipital sutures. (Last's p. 645)"
+    ],
+    [
+     "The pterion is a single point where four bones meet",
+     0,
+     "Last's: it is not a single point but an area with an H-shaped pattern of sutures. (Last's p. 644-5)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporal fossa",
+   "y": 1,
+   "s": "Concerning the temporal fossa and mastoid (Last's):",
+   "o": [
+    [
+     "The lateral mastoid surface is built from a downgrowth of the squamous part",
+     1,
+     "Incomplete fusion leaves the squamomastoid suture. (Last's p. 645)"
+    ],
+    [
+     "The temporalis fascia is attached only to the inferior temporal line",
+     0,
+     "It is attached to the superior line and the polished strip between the lines. (Last's p. 645)"
+    ],
+    [
+     "The infratemporal crest is level with the upper border of the zygomatic arch",
+     1,
+     "It marks the lower limit of the temporal surface of the greater wing. (Last's p. 646)"
+    ],
+    [
+     "The coronoid process lies under cover of the frontozygomatic suture",
+     0,
+     "It lies under cover of the temporozygomatic suture. (Last's p. 646)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Zygomatic arch",
+   "y": 1,
+   "s": "Concerning the zygomatic arch (Last's):",
+   "o": [
+    [
+     "Last's says the term \"zygoma\" should not be used",
+     1,
+     "It can mean either the arch or the zygomatic bone. (Last's p. 646)"
+    ],
+    [
+     "The posterior pillar of the arch is grooved by the anterior fibres of temporalis",
+     0,
+     "It is grooved by the posterior fibres, which glide across it. (Last's p. 646)"
+    ],
+    [
+     "A vertical groove above the external meatus lodges deep superficial temporal vessels",
+     1,
+     "It lies on the squamous bone. (Last's p. 646)"
+    ],
+    [
+     "The zygomatic bone in the temporal fossa is perforated by the zygomaticofacial nerve",
+     0,
+     "It is perforated by the zygomaticotemporal nerve. (Last's p. 646)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Facial skeleton",
+   "y": 1,
+   "s": "Concerning the face and maxilla (Last's):",
+   "o": [
+    [
+     "Zygomaticus minor arises from the zygomaticomaxillary suture",
+     1,
+     "Zygomaticus major arises from the surface of the zygomatic bone. (Last's p. 647)"
+    ],
+    [
+     "Levator anguli oris arises from the incisive fossa",
+     0,
+     "It arises from the canine fossa, lateral to the canine ridge.\nThe incisive slips of orbicularis oris arise near the midline. (Last's p. 647)"
+    ],
+    [
+     "The supraorbital notch, infraorbital foramen and mental foramen lie in a vertical line",
+     1,
+     "Last's notes this while the mandible is in position. (Last's p. 648)"
+    ],
+    [
+     "The buccinator line on the maxilla runs close to the alveolar bone",
+     0,
+     "It keeps well above the alveolar bone, from the first molar back to the tuberosity. (Last's p. 647)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Facial skeleton",
+   "y": 1,
+   "s": "Concerning the maxilla (Last's):",
+   "o": [
+    [
+     "The small inferior head of medial pterygoid arises from the maxillary tuberosity",
+     1,
+     "It arises from the tuberosity and the pyramidal process of the palatine bone.\nIt overlaps the lower head of lateral pterygoid. (Last's p. 647)"
+    ],
+    [
+     "The pterygomaxillary ligament runs from the tuberosity to the lateral pterygoid plate",
+     0,
+     "It runs from the tuberosity to the tip of the hamulus, for buccinator. (Last's p. 647)"
+    ],
+    [
+     "Buccinator and levator anguli oris attachments bisect the maxillary sinus",
+     1,
+     "Its lower half lies deep to the vestibule, its upper half deep to the face. (Last's p. 648)"
+    ],
+    [
+     "The frontal bone occupies the upper half of the anterior view of the skull",
+     0,
+     "It occupies the upper third; maxillae and mandible the other two-thirds. (Last's p. 647)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Base of skull",
+   "y": 1,
+   "s": "Concerning the occipital squama (Last's):",
+   "o": [
+    [
+     "Rectus capitis posterior minor attaches medial to rectus capitis posterior major",
+     1,
+     "Both lie alongside the foramen magnum below the inferior nuchal line. (Last's p. 648)"
+    ],
+    [
+     "The superior oblique attaches medially between the nuchal lines",
+     0,
+     "Semispinalis capitis attaches medially, superior oblique laterally. (Last's p. 648)"
+    ],
+    [
+     "The inferior nuchal line lies halfway between the superior nuchal line and foramen magnum",
+     1,
+     "It is concentric with both. (Last's p. 648)"
+    ],
+    [
+     "The external occipital crest runs from the protuberance to the mastoid process",
+     0,
+     "It runs in the midline from the protuberance to the foramen magnum.\nThe superior nuchal line runs to the mastoid. (Last's p. 648)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Base of skull",
+   "y": 1,
+   "s": "Last's survey of the skull base:",
+   "o": [
+    [
+     "One-third of the foramen magnum lies in front of the line joining the mastoid tips",
+     1,
+     "Two-thirds of each condyle lies in front of the line. (Last's p. 648)"
+    ],
+    [
+     "The back of the nose is twice the width of the foramen magnum",
+     0,
+     "It is the same width as the diameter of the foramen magnum. (Last's p. 648)"
+    ],
+    [
+     "The mastoid–pterygoid line is divided into thirds by the styloid process and spine of the sphenoid",
+     1,
+     "This locates the stylomastoid foramen and foramen spinosum. (Last's p. 648)"
+    ],
+    [
+     "The pharyngeal tubercle lies two-thirds of the way from foramen magnum to vomer",
+     0,
+     "It lies one-third of the way. (Last's p. 648)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Base of skull",
+   "y": 1,
+   "s": "Concerning the foramen magnum (Last's):",
+   "o": [
+    [
+     "Its transverse diameter is rather less than one-third of the intermastoid distance",
+     1,
+     "It is oval with the long diameter anteroposterior. (Last's p. 648)"
+    ],
+    [
+     "The meningeal branches of the vertebral artery lie inside the fibrous dura",
+     0,
+     "They lie outside the dura, between it and the periosteum.\nSo do veins from the occipital sinuses. (Last's p. 649)"
+    ],
+    [
+     "The alar ligaments attach medial to the anterior pole of each condyle",
+     1,
+     "Each attaches to a triangular area limited in front by a ridge joining the condylar anterior poles. (Last's p. 649)"
+    ],
+    [
+     "The posterior atlanto-occipital membrane attaches to less than half the foramen margin",
+     0,
+     "It attaches to a curve of more than half the foramen. (Last's p. 649)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Base of skull",
+   "y": 1,
+   "s": "Concerning the occipital condyles (Last's):",
+   "o": [
+    [
+     "The atlanto-occipital joint permits some abduction but no rotation",
+     1,
+     "The egg-shaped convexity allows nodding and some abduction. (Last's p. 649)"
+    ],
+    [
+     "The condylar canal carries a vein from the transverse sinus",
+     0,
+     "It carries a vein from the bottom of the sigmoid sinus to the suboccipital plexus. (Last's p. 649)"
+    ],
+    [
+     "The hypoglossal canal lies deep to the summit of the condyle",
+     1,
+     "It is at the site of the original epiphysis.\nXII emerges medial to the jugular foramen. (Last's p. 649)"
+    ],
+    [
+     "The occipital artery grooves the suture between jugular process and petrous bone",
+     0,
+     "It grooves the suture between the jugular process and the mastoid. (Last's p. 649)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Base of skull",
+   "y": 1,
+   "s": "Concerning the basiocciput (Last's):",
+   "o": [
+    [
+     "Rectus capitis anterior lies behind longus capitis on the basiocciput",
+     1,
+     "It lies immediately in front of the occipital condyle and medial to the hypoglossal canal. (Last's p. 649)"
+    ],
+    [
+     "The jugular process gives attachment to rectus capitis anterior",
+     0,
+     "It gives attachment to rectus capitis lateralis.\nThe prevertebral fascia attaches behind the IJV. (Last's p. 649)"
+    ],
+    [
+     "The mucous membrane of the nasopharynx is attached to the periosteum of the basiocciput",
+     1,
+     "In front of the pharyngeal tubercle the bone roofs the nasopharynx. (Last's p. 649)"
+    ],
+    [
+     "The basiocciput fuses with the basisphenoid at 15 years",
+     0,
+     "It fuses at 25 years. (Last's p. 649)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporal bone",
+   "y": 1,
+   "s": "Concerning the styloid region (Last's):",
+   "o": [
+    [
+     "Styloglossus arises low down on the front of the styloid process",
+     1,
+     "Stylopharyngeus arises high medially, stylohyoid high posteriorly. (Last's p. 649-50)"
+    ],
+    [
+     "The stylomastoid foramen lies in front of the styloid base",
+     0,
+     "It lies behind the base of the styloid process. (Last's p. 650)"
+    ],
+    [
+     "The stylomastoid foramen transmits a branch of the posterior auricular artery",
+     1,
+     "It transmits the facial nerve and the stylomastoid branch. (Last's p. 650)"
+    ],
+    [
+     "Last's says the stylomandibular ligament runs from the styloid tip",
+     0,
+     "It is a thickening of parotid fascia from the vaginal process; Last's suggests \"vaginomandibular\" would be clearer. (Last's p. 650)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporal bone",
+   "y": 1,
+   "s": "Concerning the petrous base (Last's):",
+   "o": [
+    [
+     "The cochlear canaliculus opens in the floor of the glossopharyngeal notch",
+     1,
+     "IX's ganglia lie in the notch. (Last's p. 650)"
+    ],
+    [
+     "The tympanic branch of IX passes through the carotid canal",
+     0,
+     "It passes through a foramen in the centre of the ridge between jugular notch and carotid canal. (Last's p. 650)"
+    ],
+    [
+     "Levator palati arises from the apex of the petrous bone and the cartilaginous tube",
+     1,
+     "The pharyngobasilar fascia is attached behind it. (Last's p. 650)"
+    ],
+    [
+     "The internal carotid artery passes through the foramen lacerum",
+     0,
+     "Apart from minute emissary veins no major structure passes through it.\nIt is closed by dense fibrous tissue. (Last's p. 650)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporal bone",
+   "y": 1,
+   "s": "Concerning the tympanic part (Last's):",
+   "o": [
+    [
+     "The auricular branch of the vagus emerges between the tympanic part and mastoid",
+     1,
+     "Last's calls it trespassing, emerging from imprisonment between the bones. (Last's p. 650)"
+    ],
+    [
+     "The suprameatal spine belongs to the tympanic part",
+     0,
+     "It is on the squamous bone, completing the bony ring of the meatus. (Last's p. 650)"
+    ],
+    [
+     "The mastoid antrum lies 15 mm deep to the suprameatal triangle",
+     1,
+     "The triangle is enclosed by tangents to the meatus and the suprameatal spine. (Last's p. 650)"
+    ],
+    [
+     "The cartilaginous auditory tube runs parallel with the skull base",
+     0,
+     "It passes down to the nasopharynx at about 20°. (Last's p. 650)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporal bone",
+   "y": 1,
+   "s": "Concerning the squamotympanic region (Last's):",
+   "o": [
+    [
+     "The tegmen tympani flange divides the squamotympanic fissure medially",
+     1,
+     "It splits it into the petrosquamous fissure in front and the petrotympanic fissure behind. (Last's p. 651)"
+    ],
+    [
+     "The jaw capsule attaches to the petrotympanic fissure",
+     0,
+     "The capsule attaches to the petrosquamous fissure in front.\nThe chorda tympani emerges from the petrotympanic fissure. (Last's p. 651)"
+    ],
+    [
+     "The tegmen flange forms the lateral boundary of the bony auditory tube",
+     1,
+     "It encloses the canal for tensor tympani. (Last's p. 651)"
+    ],
+    [
+     "The mandibular fossa lies exactly transversely",
+     0,
+     "Its lateral end lies a little farther forward than its medial end, matching the condyle. (Last's p. 651)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sphenoid bone",
+   "y": 1,
+   "s": "Concerning the infratemporal greater wing (Last's):",
+   "o": [
+    [
+     "The sphenomandibular ligament attaches to the tip of the spine of the sphenoid",
+     1,
+     "The base of the spine is perforated by the foramen spinosum. (Last's p. 651)"
+    ],
+    [
+     "The foramen of Vesalius lies lateral to the foramen ovale",
+     0,
+     "It lies medial to it, for a vein from cavernous sinus to pterygoid plexus. (Last's p. 651)"
+    ],
+    [
+     "A petrosal foramen, when present, lies behind the foramen ovale",
+     1,
+     "It transmits the lesser petrosal nerve.\nWithout it the nerve uses the foramen ovale. (Last's p. 651)"
+    ],
+    [
+     "The lower head of lateral pterygoid arises from the infratemporal surface of the greater wing",
+     0,
+     "The upper head arises there; the lower head arises from the lateral surface of the lateral plate. (Last's p. 651-2)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pterygoid plates",
+   "y": 1,
+   "s": "Concerning the pterygoid plates (Last's):",
+   "o": [
+    [
+     "The pterygomandibular raphe is attached to the tip of the hamulus",
+     1,
+     "So is the pterygomaxillary ligament, which converts the hamulus into a canal for tensor palati. (Last's p. 652)"
+    ],
+    [
+     "The upper head of medial pterygoid arises from the lateral surface of the lateral plate",
+     0,
+     "It arises from the medial surface of the lateral plate. (Last's p. 652)"
+    ],
+    [
+     "The lateral pterygoid plate is attached to the skull at the anterior pole of the foramen ovale",
+     1,
+     "It springs from a common stem with the medial plate. (Last's p. 652)"
+    ],
+    [
+     "The pterygoid notch is filled by the maxillary tuberosity",
+     0,
+     "It is filled by the pyramidal process of the palatine bone. (Last's p. 652)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pterygoid canals",
+   "y": 1,
+   "s": "Concerning canals in the roof of the nose (Last's):",
+   "o": [
+    [
+     "The vomerovaginal canal carries the pharyngeal branch of the sphenopalatine artery",
+     1,
+     "It lies between the vaginal process and the vomer. (Last's p. 652)"
+    ],
+    [
+     "The palatovaginal canal opens in the nasal vault 2 cm in front of its posterior limit",
+     0,
+     "It opens half a centimetre in front.\nIt carries the pharyngeal nerve and pharyngeal branch of the maxillary artery. (Last's p. 652)"
+    ],
+    [
+     "The posterior opening of the pterygoid canal is in line with the medial pterygoid plate",
+     1,
+     "Last's notes this on the disarticulated sphenoid. (Last's p. 652)"
+    ],
+    [
+     "The hard palate is arched mainly by upward concavity of the palatal processes",
+     0,
+     "It is arched more by the downward projecting alveolar processes. (Last's p. 652)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial fossae",
+   "y": 1,
+   "s": "Concerning the cranial fossae (Last's):",
+   "o": [
+    [
+     "The floor of the middle fossa is level with the upper border of the zygomatic arch",
+     1,
+     "The anterior fossa floor is level with the upper orbital margin. (Last's p. 653)"
+    ],
+    [
+     "Internal skull sutures are more tortuous than external ones",
+     0,
+     "They are much less tortuous and ossify sooner. (Last's p. 653)"
+    ],
+    [
+     "The optic canal lies in the middle cranial fossa",
+     1,
+     "So does the prechiasmatic groove; its anterior margin divides anterior and middle fossae centrally. (Last's p. 653)"
+    ],
+    [
+     "The jugum of the sphenoid is part of the lesser wing",
+     0,
+     "It is part of the body, joining the lesser wings.\nIt articulates with the cribriform plate. (Last's p. 653)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Anterior cranial fossa",
+   "y": 1,
+   "s": "Concerning the anterior cranial fossa (Last's):",
+   "o": [
+    [
+     "The anterior branch of the middle meningeal artery is often tunnelled at the pterion",
+     1,
+     "It runs up and back through bone for a short distance. (Last's p. 653)"
+    ],
+    [
+     "The foramen caecum transmits a constant vein in adults",
+     0,
+     "It is plugged by falx fibrous tissue, making a huge Sharpey's fibre. (Last's p. 653)"
+    ],
+    [
+     "Last's calls the slit beside the crista galli the \"nasal slit\"",
+     1,
+     "It transmits the anterior ethmoidal nerve and vessels into the roof of the nose.\nIt has no official name. (Last's p. 653)"
+    ],
+    [
+     "The orbital part of the frontal bone is concave over the orbit",
+     0,
+     "It is convex and ridged in roughly H-shape. (Last's p. 653)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle cranial fossa",
+   "y": 1,
+   "s": "Concerning the sella region (Last's):",
+   "o": [
+    [
+     "The middle clinoid process lies at the lateral end of the tuberculum sellae",
+     1,
+     "It is medial to the carotid groove. (Last's p. 653)"
+    ],
+    [
+     "The diaphragma sellae extends only to the anterior clinoid processes",
+     0,
+     "It sweeps from the tuberculum sellae to the anterior and posterior clinoid processes.\nIt roofs the fossa and cavernous sinuses. (Last's p. 653)"
+    ],
+    [
+     "The optic chiasma lies at a higher level well behind the prechiasmatic groove",
+     1,
+     "Above the groove lie the anterior communicating artery and the rostrum. (Last's p. 654)"
+    ],
+    [
+     "The posterior clinoid processes belong to the lesser wing",
+     0,
+     "They are on the dorsum sellae; the anterior clinoids belong to the lesser wing. (Last's p. 653)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle cranial fossa",
+   "y": 1,
+   "s": "Concerning the petrous apex and floor (Last's):",
+   "o": [
+    [
+     "The petroclinoid ligament runs from the apical spike halfway up the dorsum sellae",
+     1,
+     "Medial to the spike is a groove for the inferior petrosal sinus and VI. (Last's p. 654)"
+    ],
+    [
+     "The arcuate eminence is made by the lateral semicircular canal",
+     0,
+     "It is made by the anterior semicircular canal. (Last's p. 654)"
+    ],
+    [
+     "The lesser petrosal groove runs towards the foramen ovale",
+     1,
+     "It is parallel and anterolateral to the greater petrosal groove. (Last's p. 654)"
+    ],
+    [
+     "The grooves on the vault are made by the middle meningeal arteries",
+     0,
+     "Last's says they are made by the middle meningeal veins (actually dural sinuses). (Last's p. 654)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle cranial fossa",
+   "y": 1,
+   "s": "Concerning foramina of the middle fossa (Last's):",
+   "o": [
+    [
+     "The nervus spinosus commonly runs with the accessory meningeal artery",
+     1,
+     "It commonly passes through the foramen ovale rather than the foramen spinosum. (Last's p. 654)"
+    ],
+    [
+     "The lateral wall of the cavernous sinus blends with periosteum at the medial margin of foramen rotundum",
+     0,
+     "It blends at the lateral margin. (Last's p. 654)"
+    ],
+    [
+     "The superior orbital fissure is closed by dura lateral to the line of the foramen rotundum",
+     1,
+     "Medially it is open for the cavernous sinus and its nerves. (Last's p. 654)"
+    ],
+    [
+     "The lingula of the sphenoid lies medial to the carotid groove",
+     0,
+     "It is the prominent lateral ridge of the groove; the pterygoid canal opens beneath it. (Last's p. 654)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle cranial fossa",
+   "y": 1,
+   "s": "Concerning the middle and posterior fossae (Last's):",
+   "o": [
+    [
+     "The sphenoparietal sinus enters the roof of the cavernous sinus at the anterior clinoid",
+     1,
+     "It runs below the margin of the lesser wing from the pterion. (Last's p. 655)"
+    ],
+    [
+     "The narrower transverse groove usually receives the superior sagittal sinus",
+     0,
+     "The sagittal groove usually turns right into the wider groove; the narrower (usually left) begins with the straight sinus. (Last's p. 655)"
+    ],
+    [
+     "The larger jugular foramen is almost always on the side receiving the superior sagittal sinus",
+     1,
+     "This is more commonly the right. (Last's p. 655)"
+    ],
+    [
+     "The internal occipital protuberance lies above the external one",
+     0,
+     "It lies opposite the external occipital protuberance. (Last's p. 655)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Posterior cranial fossa",
+   "y": 1,
+   "s": "Concerning the clivus and jugular tubercle (Last's):",
+   "o": [
+    [
+     "The jugular tubercle is the line of fusion of basiocciput and lateral occipital part",
+     1,
+     "It lies above the occipital condyle, with the hypoglossal canal between. (Last's p. 655)"
+    ],
+    [
+     "The medulla lies above the jugular tubercles on the clivus",
+     0,
+     "The medulla lies between the tubercles; above them the clivus broadens to lodge the pons. (Last's p. 655)"
+    ],
+    [
+     "The groove behind the jugular tubercle lodges IX, X and XI",
+     1,
+     "They run in it to the jugular foramen. (Last's p. 655)"
+    ],
+    [
+     "The hypoglossal canal runs vertically through the bone",
+     0,
+     "It perforates the bone obliquely, almost transversely. (Last's p. 655)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Skull ossification",
+   "y": 1,
+   "s": "Concerning skull ossification (Last's):",
+   "o": [
+    [
+     "In the anterior fossa only the ethmoid ossifies in cartilage",
+     1,
+     "The floors of the middle and posterior fossae ossify in cartilage. (Last's p. 655)"
+    ],
+    [
+     "The sphenoid pterygoid plates ossify in cartilage",
+     0,
+     "They ossify in membrane, with the rest of the greater wing.\nThe body, lesser wing and base of the greater wing are cartilage. (Last's p. 657)"
+    ],
+    [
+     "Fusion of jugular parts with the basiocciput coincides with eruption of the permanent dentition",
+     1,
+     "At 6 years; squamous–jugular fusion (2 years) coincides with completion of milk teeth. (Last's p. 658)"
+    ],
+    [
+     "The squamous–jugular occipital junction forms an anterior tangent to the foramen magnum",
+     0,
+     "It forms a posterior tangent to the foramen magnum. (Last's p. 658)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Frontal and sphenoid bones",
+   "y": 1,
+   "s": "Concerning the disarticulated frontal and sphenoid (Last's):",
+   "o": [
+    [
+     "The trochlear mark lies below the floor of the frontal sinus",
+     1,
+     "Last's notes this on the frontal bone seen from below. (Last's p. 656)"
+    ],
+    [
+     "The foramen caecum perforates the bone in most skulls",
+     0,
+     "It is a blind pit; only in 1% does it perforate. (Last's p. 656)"
+    ],
+    [
+     "The septum between the sphenoidal sinuses is always deviated",
+     1,
+     "It is a backward projection of the rostrum. (Last's p. 657)"
+    ],
+    [
+     "In the temporal fossa the greater wing overlaps the squamous temporal",
+     0,
+     "In the temporal fossa the squamous overlaps the greater wing; in the infratemporal fossa the greater wing overlies the squamous. (Last's p. 657)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporal bone",
+   "y": 1,
+   "s": "Concerning the disarticulated temporal and occipital bones (Last's):",
+   "o": [
+    [
+     "The carotid canal opens well to the lateral side of the petrous apex",
+     1,
+     "Its exit is in the foramen lacerum after a right-angle bend. (Last's p. 657)"
+    ],
+    [
+     "The aqueduct of the vestibule opens in front of the internal acoustic meatus",
+     0,
+     "It opens behind the meatus, under a curtain-like flange of bone. (Last's p. 658)"
+    ],
+    [
+     "The condylar canal passes back above the occipital condyle",
+     1,
+     "It leaves the sigmoid groove on the jugular process. (Last's p. 658)"
+    ],
+    [
+     "The frontal articulation with the greater wing stops short of the superior orbital fissure",
+     0,
+     "It extends medially to bridge the fissure between greater and lesser wings. (Last's p. 657)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Parietal and ethmoid bones",
+   "y": 1,
+   "s": "Concerning the parietal and ethmoid bones (Last's):",
+   "o": [
+    [
+     "The anterior middle meningeal groove runs just behind the anterior border of the parietal bone",
+     1,
+     "Posterior division grooves run up and back.\nThis helps tell right from left. (Last's p. 659)"
+    ],
+    [
+     "The ethmoid labyrinth has its own bony roof",
+     0,
+     "It has no roof; it is overlapped by the orbital part of the frontal bone. (Last's p. 659)"
+    ],
+    [
+     "Last's regards the infundibulum as a specialised anterior ethmoidal air cell",
+     1,
+     "Its mucosa forms the frontonasal duct to the middle meatus. (Last's p. 659)"
+    ],
+    [
+     "The posterior ethmoidal cells open on the bulla",
+     0,
+     "Middle cells open on the bulla; posterior cells open below the superior concha. (Last's p. 659)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ethmoid bone",
+   "y": 1,
+   "s": "Concerning the ethmoid labyrinth (Last's):",
+   "o": [
+    [
+     "The anterior deficiency of the labyrinth is completed by the lacrimal bone",
+     1,
+     "The posterior deficiency is completed by the sphenoidal concha and orbital process of the palatine. (Last's p. 659)"
+    ],
+    [
+     "The superior concha is larger than the middle concha",
+     0,
+     "The middle concha is the larger of the two.\nThey spring from a common stem. (Last's p. 659)"
+    ],
+    [
+     "The uncinate process articulates with the inferior concha",
+     1,
+     "It curves down in front of the bulla across the maxillary hiatus. (Last's p. 659)"
+    ],
+    [
+     "The perpendicular plate articulates inferiorly with the vomer",
+     0,
+     "Inferiorly it meets the septal cartilage; posteriorly the vomer and sphenoidal rostrum. (Last's p. 659)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Maxilla",
+   "y": 1,
+   "s": "Concerning the disarticulated maxilla (Last's):",
+   "o": [
+    [
+     "The floor of a large maxillary sinus lies lower than the palatine process",
+     1,
+     "It dips into the alveolar process. (Last's p. 660)"
+    ],
+    [
+     "The lacrimal groove is directed down and somewhat forwards",
+     0,
+     "It is directed down and somewhat back.\nIt makes a convexity on the medial sinus wall in front of the hiatus. (Last's p. 660)"
+    ],
+    [
+     "Last's says greater palatine arteries run up through the incisive canal to the septum",
+     1,
+     "The canal also transmits the nasopalatine nerves. (Last's p. 660)"
+    ],
+    [
+     "The maxillary primary centre appears below the canine fossa at the eighth week",
+     0,
+     "It appears above the canine fossa at the sixth week; the premaxilla a week later. (Last's p. 660)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Palatine bone",
+   "y": 1,
+   "s": "Concerning the palatine bone (Last's):",
+   "o": [
+    [
+     "The pyramidal process prevents the pterygoid plates from articulating with the maxilla",
+     1,
+     "An uncritical glance might suggest they articulate, but the process intervenes. (Last's p. 661)"
+    ],
+    [
+     "The upper head of palatopharyngeus arises in front of the palatine crest",
+     0,
+     "It arises from the smooth area between the crest and the posterior border.\nIt contributes to Passavant's ridge. (Last's p. 661)"
+    ],
+    [
+     "The palatine bone ossifies from a centre in the pyramidal process",
+     1,
+     "It appears at the seventh week and spreads over the nasal capsule. (Last's p. 662)"
+    ],
+    [
+     "The orbital process of the palatine bone forms the apex of the medial orbital wall",
+     0,
+     "It forms a triangular apex to the floor of the orbit.\nIt is often excavated by a posterior ethmoidal cell. (Last's p. 662)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pterygopalatine fossa",
+   "y": 1,
+   "s": "Concerning the pterygopalatine fossa (Last's):",
+   "o": [
+    [
+     "Its roof is the body of the sphenoid",
+     1,
+     "Medial wall: perpendicular plate of palatine; anterior: maxilla; posterior: pterygoid root and greater wing. (Last's p. 662)"
+    ],
+    [
+     "The sphenopalatine foramen lies in front of the anterior end of the middle concha",
+     0,
+     "It lies immediately behind the posterior end of the middle concha. (Last's p. 662)"
+    ],
+    [
+     "The sphenopalatine foramen is closed in life by nasal mucous membrane",
+     1,
+     "It transmits the posterior superior nasal and nasopalatine nerves and the sphenopalatine artery. (Last's p. 662)"
+    ],
+    [
+     "The ethmoidal crest of the palatine bone articulates with the inferior concha",
+     0,
+     "The conchal crest (halfway up) is for the inferior concha; the ethmoidal crest is for the middle concha. (Last's p. 662)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Zygomatic and nasal bones",
+   "y": 1,
+   "s": "Concerning small facial bones (Last's):",
+   "o": [
+    [
+     "The zygomatic bone ossifies from three centres that fuse at midterm",
+     1,
+     "Failure gives two or three parts, very often two in the Japanese. (Last's p. 662)"
+    ],
+    [
+     "The inferior border of the nasal bone articulates with the alar cartilage",
+     0,
+     "In life it articulates with the lateral nasal cartilage.\nIt is notched by the external nasal nerve. (Last's p. 662)"
+    ],
+    [
+     "The nasal bones articulate with the perpendicular plate of the ethmoid",
+     1,
+     "They meet each other in the midline and the perpendicular plate. (Last's p. 662)"
+    ],
+    [
+     "The lacrimal bone overlaps the posterior ethmoidal air cells",
+     0,
+     "It overlaps the anterior ethmoidal air cells. (Last's p. 662)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Small facial bones",
+   "y": 1,
+   "s": "Concerning the lacrimal bone, inferior concha and vomer (Last's):",
+   "o": [
+    [
+     "The inferior concha ossifies in the cartilage of the nasal capsule",
+     1,
+     "Its centre appears at about mid-term.\nMost facial bones ossify in membrane. (Last's p. 663)"
+    ],
+    [
+     "The hamulus of the lacrimal bone projects from the upper end of the posterior lacrimal crest",
+     0,
+     "It projects forwards from the lower end, articulating with the maxilla at the top of the nasolacrimal canal. (Last's p. 663)"
+    ],
+    [
+     "The maxillary process of the inferior concha overlaps the lower part of the maxillary hiatus",
+     1,
+     "It projects down from the middle of the upper border. (Last's p. 663)"
+    ],
+    [
+     "The vomer ossifies from a single midline centre",
+     0,
+     "A centre appears on either side of the cartilaginous septum at the eighth week, forming two plates. (Last's p. 663)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandible",
+   "y": 1,
+   "s": "Concerning the outer surface of the mandible (Last's):",
+   "o": [
+    [
+     "Depressor anguli oris arises just below the mental foramen",
+     1,
+     "Depressor labii inferioris arises in front of it. (Last's p. 663)"
+    ],
+    [
+     "The mental foramen faces forwards and slightly downwards",
+     0,
+     "It faces backwards and slightly upwards.\nIt usually lies between the two premolars. (Last's p. 663)"
+    ],
+    [
+     "Masseter inserts on the body as far forward as the second molar",
+     1,
+     "It inserts behind the external oblique ridge. (Last's p. 663)"
+    ],
+    [
+     "Buccinator is attached along the external oblique ridge as far as the canine",
+     0,
+     "It is attached as far as the anterior border of the first molar. (Last's p. 663)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandible",
+   "y": 1,
+   "s": "Concerning the inner surface of the mandible (Last's):",
+   "o": [
+    [
+     "Mylohyoid extends from level with the posterior border of the last molar to the midline",
+     1,
+     "It may leave no mark near the midline.\nIts line divides mouth from neck. (Last's p. 664)"
+    ],
+    [
+     "Geniohyoid arises from the upper mental spines",
+     0,
+     "Genioglossus arises from the upper and geniohyoid from the lower spines. (Last's p. 664)"
+    ],
+    [
+     "The lingula lies level with the occlusal surfaces of the teeth",
+     1,
+     "It lies in front of the mandibular foramen, halfway between the borders of the ramus. (Last's p. 664)"
+    ],
+    [
+     "The mylohyoid groove ends at the anterior end of the submandibular fossa",
+     0,
+     "It dies out at the posterior end of the submandibular fossa. (Last's p. 664)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandible",
+   "y": 1,
+   "s": "Concerning the ramus and condyle (Last's):",
+   "o": [
+    [
+     "The suprameatal fibres of temporalis are the only retractors of the head of the mandible",
+     1,
+     "They insert along the posterior border of the coronoid process. (Last's p. 665)"
+    ],
+    [
+     "The internal oblique ridge is sharper than the external oblique ridge",
+     0,
+     "The external is sharp; the internal is usually more rounded.\nThe internal is the landmark for inferior alveolar block. (Last's p. 665)"
+    ],
+    [
+     "The two condyles lie on the arc of a circle crossing the front of the foramen magnum",
+     1,
+     "The transverse crest of each is directed medially and slightly backwards. (Last's p. 665)"
+    ],
+    [
+     "The articular surface of the condyle is covered by hyaline cartilage",
+     0,
+     "It is covered by fibrocartilage identical with the disc. (Last's p. 665)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hyoid bone",
+   "y": 1,
+   "s": "Concerning the hyoid bone (Last's):",
+   "o": [
+    [
+     "It lies at the level of C3",
+     1,
+     "Its greater horn projects back as far as the angle of the mandible. (Last's p. 665)"
+    ],
+    [
+     "The lesser horn always fuses with the body",
+     0,
+     "It may remain permanently connected by fibrous tissue. (Last's p. 665)"
+    ],
+    [
+     "The hyoid marks the junction of oropharynx and laryngopharynx",
+     1,
+     "It is level with the lateral glossoepiglottic folds, bisecting the epiglottis. (Last's p. 665)"
+    ],
+    [
+     "The thyrohyoid membrane attaches to the lower border of the hyoid body",
+     0,
+     "It attaches to the sharp upper border and hangs down inside the curve.\nA bursa lies behind the body. (Last's p. 665)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}

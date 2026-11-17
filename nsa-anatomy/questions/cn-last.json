@@ -1,0 +1,963 @@
+{
+ "code": "cn",
+ "region": "Cranial nerves",
+ "questions": [
+  {
+   "t": "Trigeminal nuclei",
+   "y": 1,
+   "s": "Concerning the trigeminal nuclei (Last's):",
+   "o": [
+    [
+     "The main sensory nucleus lies ventral to the superior cerebellar peduncle",
+     1,
+     "It lies in the upper pons, lateral to the motor nucleus and ventral to the superior cerebellar peduncle.\nIt mediates touch. (Last's p. 631)"
+    ],
+    [
+     "The trigeminal motor nucleus lies in the midline beneath the floor of the fourth ventricle",
+     0,
+     "It is branchial, so it lies off centre, deep beneath the floor.\nSomatic motor nuclei are the ones near the midline. (Last's p. 631)"
+    ],
+    [
+     "The spinal nucleus is continuous with the gelatinous substance as far as C3",
+     1,
+     "Last's: continuous at its lower end with the gelatinous substance \"as far as the third cervical segment\".\nIt mediates pain and temperature. (Last's p. 631)"
+    ],
+    [
+     "Last's accepts the \"upside-down\" ophthalmic-lowest arrangement in the spinal nucleus",
+     0,
+     "Last's says clinical observations indicate an \"onion-skin\" pattern working backwards from the mouth.\nThe upside-down scheme is \"usually stated\". (Last's p. 631)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Trigeminal root and cave",
+   "y": 1,
+   "s": "Concerning the trigeminal roots and cave (Last's):",
+   "o": [
+    [
+     "The motor root emerges slightly cranial and medial to the sensory root",
+     1,
+     "The large sensory root attaches well lateral and just above centre; the motor root emerges separately, cranial and medial. (Last's p. 631)"
+    ],
+    [
+     "The dural sheath fuses with the pia at the anterior border of the ganglion",
+     0,
+     "It fuses with the pia halfway along the ganglion, the anterior extremity of the cave.\nSo the posterior half of the ganglion and both roots are bathed in CSF. (Last's p. 631)"
+    ],
+    [
+     "The motor root passes beneath the ganglion to join V3 at the foramen ovale",
+     1,
+     "The motor root remains separate from the ganglion and joins the mandibular division at the foramen ovale. (Last's p. 631, 633)"
+    ],
+    [
+     "The trigeminal cave lies medial to the dural split that encloses the cavernous sinus",
+     0,
+     "The sheath peels apart the floor dura just lateral to where the same layers enclose the cavernous sinus. (Last's p. 631)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ophthalmic nerve",
+   "y": 1,
+   "s": "Concerning the ophthalmic nerve (Last's):",
+   "o": [
+    [
+     "It is the nerve of the frontonasal process",
+     1,
+     "Last's: V1 is the nerve of the frontonasal process.\nV2 is the nerve of the maxillary process. (Last's p. 631-2)"
+    ],
+    [
+     "It runs in the lateral wall of the cavernous sinus above the trochlear nerve",
+     0,
+     "It runs below the trochlear nerve.\nIt picks up sympathetic fibres for dilator pupillae there. (Last's p. 631)"
+    ],
+    [
+     "Its tentorial nerves supply all supratentorial dura except that in the bony floor of the middle fossa",
+     1,
+     "They arise at the anterior end of the cavernous sinus.\nThe middle fossa floor is supplied by meningeal branches of V2 and V3. (Last's p. 631)"
+    ],
+    [
+     "The frontal nerve passes through the superior orbital fissure within the tendinous ring",
+     0,
+     "It traverses the fissure just lateral to the ring, between lacrimal and trochlear nerves.\nNasociliary enters the ring between the divisions of III. (Last's p. 631-2)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ophthalmic nerve",
+   "y": 1,
+   "s": "Branches of the ophthalmic nerve (Last's):",
+   "o": [
+    [
+     "The supratrochlear nerve scarcely extends beyond the hairline",
+     1,
+     "It supplies a narrow strip of forehead beside the midline.\nThe supraorbital supplies the frontal scalp to the vertex. (Last's p. 632)"
+    ],
+    [
+     "The supraorbital nerve supplies the whole forehead including the central strip",
+     0,
+     "It supplies all the forehead except a central strip.\nIt also supplies the frontal sinus. (Last's p. 632)"
+    ],
+    [
+     "The lacrimal nerve supplies both surfaces of the lateral upper conjunctiva",
+     1,
+     "It supplies a fingertip area of skin at the lateral end of the upper lid and both conjunctival surfaces. (Last's p. 631)"
+    ],
+    [
+     "The nasociliary nerve runs below the medial rectus on the medial orbital wall",
+     0,
+     "It runs below the superior oblique and above the medial rectus.\nIt then enters the anterior ethmoidal foramen. (Last's p. 632)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Nasociliary nerve",
+   "y": 1,
+   "s": "Concerning the nasociliary nerve (Last's):",
+   "o": [
+    [
+     "It changes its name twice",
+     1,
+     "It becomes the anterior ethmoidal and then the external nasal nerve.\nIt makes a brief appearance in the anterior cranial fossa. (Last's p. 632)"
+    ],
+    [
+     "The posterior ethmoidal nerve supplies the posterior nasal cavity",
+     0,
+     "It supplies the posterior ethmoidal cells and sphenoidal sinus but does not reach the nasal cavity.\nIt is often very small or absent. (Last's p. 632)"
+    ],
+    [
+     "The infratrochlear nerve arises just before the nasociliary enters the anterior ethmoidal foramen",
+     1,
+     "The posterior ethmoidal arises proximal to it.\nThe infratrochlear ends on the bridge of the nose. (Last's p. 632)"
+    ],
+    [
+     "The short ciliary nerves supply the conjunctiva",
+     0,
+     "Both long and short ciliary nerves are sensory to the eye including the cornea, but not the conjunctiva.\nThere are 8–10 short ciliary nerves. (Last's p. 632)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Maxillary nerve",
+   "y": 1,
+   "s": "Concerning the maxillary nerve (Last's):",
+   "o": [
+    [
+     "Its lateral cavernous wall fuses with outer dura at the margin of foramen rotundum",
+     1,
+     "This directs V2 through the foramen into the upper pterygopalatine fossa. (Last's p. 632)"
+    ],
+    [
+     "It turns medially for about a centimetre in the inferior orbital fissure",
+     0,
+     "It turns laterally for a centimetre or so, becoming the infraorbital nerve. (Last's p. 632)"
+    ],
+    [
+     "Its middle meningeal nerve supplies the dura of the anterior half of the middle fossa",
+     1,
+     "V3's nervus spinosus supplies the posterior half. (Last's p. 632-3)"
+    ],
+    [
+     "The nasopalatine nerve supplies the posterosuperior quadrant of the septum",
+     0,
+     "It supplies the posteroinferior half of the septum.\nThe posterior superior medial nasal nerve supplies the posterosuperior part. (Last's p. 632-3)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pterygopalatine ganglion",
+   "y": 1,
+   "s": "Branches through the pterygopalatine ganglion (Last's):",
+   "o": [
+    [
+     "The greater palatine nerve runs between the palatine perpendicular plate and the maxilla",
+     1,
+     "It supplies the posteroinferior lateral nasal wall, nasal floor and maxillary sinus.\nIt supplies all the hard palate except behind the incisors. (Last's p. 633)"
+    ],
+    [
+     "The lesser palatine nerves supply only the oral surface of the soft palate",
+     0,
+     "They supply both surfaces of the soft palate and the tonsil. (Last's p. 633)"
+    ],
+    [
+     "The pharyngeal branch supplies the nasopharynx down to the auditory tube opening",
+     1,
+     "It passes back through the palatovaginal canal.\nIt may supply part of the tubal mucosa. (Last's p. 633)"
+    ],
+    [
+     "The zygomaticofacial nerve supplies the hairless skin of the temple",
+     0,
+     "The zygomaticotemporal nerve supplies the hairless temple skin.\nThe zygomaticofacial supplies the skin over the zygomatic bone. (Last's p. 633)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Superior alveolar nerves",
+   "y": 1,
+   "s": "Concerning the superior alveolar nerves (Last's):",
+   "o": [
+    [
+     "One branch of the posterior superior alveolar nerve stays outside the maxilla",
+     1,
+     "The third branch pierces buccinator and supplies the vestibular gum of the molars.\nThe other two enter the maxilla above the tuberosity. (Last's p. 633)"
+    ],
+    [
+     "The posterior superior alveolar nerve supplies all roots of the first molar",
+     0,
+     "It spares the anterior buccal root of the first molar, which the middle superior alveolar supplies. (Last's p. 633)"
+    ],
+    [
+     "The anterior superior alveolar nerve supplies the nasolacrimal duct region",
+     1,
+     "It reaches the anterior inferior quadrant of the lateral nasal wall including the nasolacrimal duct, and ends on the septum.\nIt supplies the canine and incisors. (Last's p. 633)"
+    ],
+    [
+     "The middle superior alveolar nerve arises in the infraorbital canal",
+     0,
+     "It arises in the infraorbital groove; the anterior superior alveolar arises in the canal. (Last's p. 633)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Infraorbital nerve",
+   "y": 1,
+   "s": "Concerning the infraorbital nerve on the face (Last's):",
+   "o": [
+    [
+     "It emerges between levator labii superioris and levator anguli oris",
+     1,
+     "Last's places it between these two muscles.\nIt communicates with facial nerve branches for proprioception. (Last's p. 633)"
+    ],
+    [
+     "Its labial branches supply the gum only as far as the canine",
+     0,
+     "They supply the gum from the midline to include the second premolar.\nThey supply the whole upper lip. (Last's p. 633)"
+    ],
+    [
+     "Its palpebral branches supply both surfaces of the lower lid conjunctiva",
+     1,
+     "They supply the skin of the lower lid and both conjunctival surfaces. (Last's p. 633)"
+    ],
+    [
+     "Its communications with the facial nerve carry motor fibres to the facial muscles",
+     0,
+     "They are for the proprioceptive supply of nearby facial muscles. (Last's p. 633)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandibular nerve",
+   "y": 1,
+   "s": "Concerning the mandibular nerve (Last's):",
+   "o": [
+    [
+     "It enters the infratemporal fossa between the upper head of lateral pterygoid and tensor palati",
+     1,
+     "Tensor palati lies on the side wall of the nasopharynx.\nIt divides after 4 or 5 mm. (Last's p. 633)"
+    ],
+    [
+     "The nervus spinosus always passes through the foramen spinosum",
+     0,
+     "It passes up through the foramen ovale, sometimes through the foramen spinosum. (Last's p. 633)"
+    ],
+    [
+     "The nervus spinosus supplies the mastoid air cells",
+     1,
+     "It passes between squamous and petrous temporal bone to the mastoid antrum and air cells.\nIt is the nerve of the first pharyngeal pouch. (Last's p. 633)"
+    ],
+    [
+     "The nervus spinosus supplies the dura of the anterior half of the middle fossa",
+     0,
+     "It supplies the posterior half.\nThe middle meningeal branch of V2 supplies the anterior half. (Last's p. 632-3)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandibular nerve",
+   "y": 1,
+   "s": "Anterior branches of the mandibular nerve (Last's):",
+   "o": [
+    [
+     "The deep temporal nerves pass above the upper head of lateral pterygoid",
+     1,
+     "They turn above the infratemporal crest to sink into temporalis.\nSo does the nerve to masseter. (Last's p. 634)"
+    ],
+    [
+     "There are two nerves to the medial pterygoid in the anterior group",
+     0,
+     "The anterior group has two nerves to the lateral pterygoid; the nerve to medial pterygoid arises from the trunk. (Last's p. 634)"
+    ],
+    [
+     "The buccal nerve may carry a middle temporal nerve",
+     1,
+     "It sometimes carries a middle temporal nerve to the deep surface of temporalis.\nIt passes between the two heads of lateral pterygoid. (Last's p. 634)"
+    ],
+    [
+     "The buccal nerve carries secretomotor fibres from the submandibular ganglion",
+     0,
+     "It carries otic ganglion fibres for the molar and buccal glands. (Last's p. 634)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandibular nerve",
+   "y": 1,
+   "s": "Posterior branches of the mandibular nerve (Last's):",
+   "o": [
+    [
+     "The auriculotemporal nerve's two roots encircle the middle meningeal artery",
+     1,
+     "They pass back around the artery.\nIt then passes deep to the neck of the mandible. (Last's p. 634)"
+    ],
+    [
+     "The auricular branch of the auriculotemporal nerve supplies the auricle below the meatus",
+     0,
+     "It supplies the meatus and the external auricle above it. (Last's p. 634)"
+    ],
+    [
+     "The incisive branch overlaps to the opposite central incisor",
+     1,
+     "It supplies the canine and both incisors and overlaps to the opposite central incisor. (Last's p. 634)"
+    ],
+    [
+     "The nerve to mylohyoid lies between mylohyoid and the posterior belly of digastric",
+     0,
+     "It runs between mylohyoid and the anterior belly, supplying both. (Last's p. 634)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lingual nerve",
+   "y": 1,
+   "s": "Concerning the lingual nerve (Last's):",
+   "o": [
+    [
+     "It is joined by the chorda tympani deep to the lower border of lateral pterygoid",
+     1,
+     "About 2 cm below the base of the skull.\nIt then curves down on medial pterygoid. (Last's p. 634)"
+    ],
+    [
+     "It passes over the upper border of the superior constrictor",
+     0,
+     "It passes under the free lower border of the superior constrictor.\nIt then runs above mylohyoid in the mouth. (Last's p. 634)"
+    ],
+    [
+     "It grooves the lingual plate just below the last molar",
+     1,
+     "It gives a gingival branch to the lingual gum here. (Last's p. 634)"
+    ],
+    [
+     "It alone supplies all the mucous membrane of the floor of the mouth",
+     1,
+     "Last's: \"The lingual nerve and no other supplies all the mucous membrane of the floor of the mouth.\" (Last's p. 634)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Abducent nerve",
+   "y": 1,
+   "s": "Concerning the abducent nerve (Last's):",
+   "o": [
+    [
+     "It turns upwards between the anterior inferior cerebellar artery and the pons",
+     1,
+     "It enters the pontine cistern and runs up between AICA and the pons.\nIt pierces arachnoid and dura on the clivus. (Last's p. 635)"
+    ],
+    [
+     "It pierces the dura on the clivus below the level of the jugular tubercle",
+     0,
+     "It pierces the dura above the level of the jugular tubercle. (Last's p. 635)"
+    ],
+    [
+     "It enters the inferior petrosal sinus at the apex of the petrous bone",
+     1,
+     "It then bends forwards under the petroclinoid ligament into the cavernous sinus. (Last's p. 635)"
+    ],
+    [
+     "It enters the tendinous ring above the superior division of the oculomotor nerve",
+     0,
+     "It enters the ring below the inferior division of III.\nIt enters the ocular surface of lateral rectus a third of the way along. (Last's p. 635)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Facial nerve",
+   "y": 1,
+   "s": "Concerning the facial nerve (Last's):",
+   "o": [
+    [
+     "Last's suggests it should perhaps be called the intermediofacial nerve",
+     1,
+     "To emphasise that the nervus intermedius is part of it.\n\"Sensory root\" is not appropriate, as it also has visceral efferents. (Last's p. 635)"
+    ],
+    [
+     "Its sensory fibres from the external ear end in the nucleus of the tractus solitarius",
+     0,
+     "Those few skin fibres, with cell bodies in the geniculate ganglion, pass to trigeminal nuclei.\nTaste fibres go to the tractus solitarius. (Last's p. 635)"
+    ],
+    [
+     "In the internal acoustic meatus the nervus intermedius lies between the facial and vestibulocochlear nerves",
+     1,
+     "The main facial nerve lies on the upper surface of VIII with the intermedius between.\nThe facial nerve enters the anterosuperior quadrant. (Last's p. 635)"
+    ],
+    [
+     "The facial muscles receive proprioception through the facial nerve",
+     0,
+     "Their proprioceptive supply comes from cutaneous trigeminal branches in the overlying skin.\nThe nerve leaves the stylomastoid foramen purely branchial motor. (Last's p. 635)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Facial nerve",
+   "y": 1,
+   "s": "The facial nerve in the temporal bone (Last's):",
+   "o": [
+    [
+     "It runs laterally above the vestibule of the internal ear",
+     1,
+     "The two parts share a common tube of arachnoid and dura, then fuse into one trunk. (Last's p. 635)"
+    ],
+    [
+     "In the medial wall of the middle ear it runs below the promontory",
+     0,
+     "It runs above the promontory, just below the bulge of the lateral semicircular canal. (Last's p. 635)"
+    ],
+    [
+     "It curves down behind the middle ear deep to the aditus",
+     1,
+     "It then passes vertically down the facial canal. (Last's p. 635)"
+    ],
+    [
+     "At the geniculum it makes a sharp anterior bend",
+     0,
+     "The geniculum is a sharp posterior bend near the middle ear.\nIt is distended by the geniculate ganglion. (Last's p. 635)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Facial nerve",
+   "y": 1,
+   "s": "Branches of the facial nerve (Last's):",
+   "o": [
+    [
+     "The greater petrosal nerve passes beneath the trigeminal ganglion in Meckel's cave",
+     1,
+     "It slants forward between the dural layers to the foramen lacerum. (Last's p. 636)"
+    ],
+    [
+     "The deep petrosal nerve's cell bodies are in the inferior cervical ganglion",
+     0,
+     "They are in the superior cervical ganglion.\nIt peels off the internal carotid plexus. (Last's p. 636)"
+    ],
+    [
+     "Taste fibres pass through the pterygopalatine ganglion without relaying",
+     1,
+     "So do the sympathetic and maxillary sensory fibres; only secretomotor fibres relay. (Last's p. 636)"
+    ],
+    [
+     "Last's lists four territories of the pterygopalatine ganglion",
+     0,
+     "Last's lists five: nasal septum, lateral nasal wall, paranasal sinuses, hard and soft palates, and nasopharynx. (Last's p. 636)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Facial nerve",
+   "y": 1,
+   "s": "Concerning facial nerve branches (Last's):",
+   "o": [
+    [
+     "Tympanic branches of VII can reach the skin of the external meatus and pinna",
+     1,
+     "They trespass into auriculotemporal territory, so geniculate herpes produces vesicles there.\nTheir cell bodies are in the geniculate ganglion. (Last's p. 636)"
+    ],
+    [
+     "The nerve to stapedius reaches the muscle through the pyramid's opening without a canal",
+     0,
+     "It is given off in the facial canal and reaches the muscle by a minute canaliculus. (Last's p. 636)"
+    ],
+    [
+     "The chorda tympani crosses the pars flaccida and the neck of the malleus",
+     1,
+     "It is draped over by mucous membrane.\nIt leaves through the anterior wall of the middle ear. (Last's p. 636)"
+    ],
+    [
+     "The posterior auricular nerve supplies the frontal belly of occipitofrontalis",
+     0,
+     "It supplies the occipital belly. (Last's p. 636)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vestibulocochlear nerve",
+   "y": 1,
+   "s": "Concerning the cochlear nerve (Last's):",
+   "o": [
+    [
+     "It pierces dura and arachnoid at the anteroinferior quadrant of the internal meatus",
+     1,
+     "Its fibres join in a spiral pattern at the base of the modiolus. (Last's p. 636)"
+    ],
+    [
+     "The spiral ganglion lies in the modiolus",
+     0,
+     "Its cell bodies lie in the base of the bony spiral lamina.\nCentral processes run along the modiolus. (Last's p. 636)"
+    ],
+    [
+     "Some cochlear fibres ascend in the lateral lemniscus of their own side",
+     1,
+     "Not all cross, so representation is largely bilateral. (Last's p. 637)"
+    ],
+    [
+     "The VIII nerve enters the middle cerebellar peduncle",
+     0,
+     "It enters the inferior cerebellar peduncle at the lower border of the pons. (Last's p. 637)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vestibulocochlear nerve",
+   "y": 1,
+   "s": "Concerning the vestibular nerve (Last's):",
+   "o": [
+    [
+     "The posterior semicircular duct's nerve emerges through the foramen singulare",
+     1,
+     "It lies alongside the lower division from the saccule. (Last's p. 637)"
+    ],
+    [
+     "The utricular nerve emerges through the posteroinferior quadrant of the fundus",
+     0,
+     "The utricle with the anterior and lateral ducts uses the posterosuperior quadrant.\nThe saccule uses the posteroinferior quadrant. (Last's p. 637)"
+    ],
+    [
+     "Vestibular ganglia lie within the internal acoustic meatus",
+     1,
+     "The upper and lower divisions are distended there by the first-order cell bodies. (Last's p. 637)"
+    ],
+    [
+     "Last's describes vestibular cortical connexions via the lateral geniculate body",
+     0,
+     "Last's says cortical connexions appear to run by bilateral thalamic relay via the medial geniculate body. (Last's p. 637)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Glossopharyngeal nerve",
+   "y": 1,
+   "s": "Concerning the glossopharyngeal nerve (Last's):",
+   "o": [
+    [
+     "The inferior salivary nucleus lies in the lowest pons rostral to the dorsal vagal nucleus",
+     1,
+     "It supplies the parotid via the lesser petrosal nerve and otic ganglion. (Last's p. 637)"
+    ],
+    [
+     "Its taste fibres end in the nucleus of the tractus solitarius in the upper medulla",
+     0,
+     "Last's here says the lower medulla for IX's taste and carotid afferents.\nGeneral sensation goes to the trigeminal nuclei. (Last's p. 637)"
+    ],
+    [
+     "In the jugular foramen it lies lateral to the inferior petrosal sinus",
+     1,
+     "Both are separated from X and XI by a septum of fibrous dura.\nIt enters the anterior compartment. (Last's p. 637)"
+    ],
+    [
+     "Its superior ganglion is larger than the inferior",
+     0,
+     "The superior ganglion is a small detached part of the elongated inferior ganglion. (Last's p. 637)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Glossopharyngeal nerve",
+   "y": 1,
+   "s": "Branches of the glossopharyngeal nerve (Last's):",
+   "o": [
+    [
+     "The lesser petrosal nerve may pass through a petrosal foramen instead of the foramen ovale",
+     1,
+     "It runs through the foramen ovale (or petrosal foramen) to the otic ganglion.\nIt arises from the tympanic plexus. (Last's p. 638)"
+    ],
+    [
+     "The tonsillar branch is motor to palatoglossus",
+     0,
+     "It provides afferent fibres for the tonsillar mucosa.\nThe only muscular branch is to stylopharyngeus. (Last's p. 638)"
+    ],
+    [
+     "The lingual branch carries a few secretomotor fibres for lingual glands",
+     1,
+     "It is mainly sensory to the posterior tongue. (Last's p. 638)"
+    ],
+    [
+     "The carotid sinus nerve connects mainly with the cerebellum",
+     0,
+     "It provides vital connexions with autonomic cell groups in the reticular formation. (Last's p. 638)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vagus nerve",
+   "y": 1,
+   "s": "Concerning the vagus nerve (Last's):",
+   "o": [
+    [
+     "Its rootlets leave below those of IX between olive and inferior cerebellar peduncle",
+     1,
+     "The nerve crosses the basiocciput behind the jugular tubercle, below IX and above XI. (Last's p. 638)"
+    ],
+    [
+     "In the jugular foramen it lies lateral to the accessory nerve",
+     0,
+     "It lies medial to the accessory, just in front of the jugular bulb.\nBoth use the middle compartment. (Last's p. 638)"
+    ],
+    [
+     "Its superior ganglion has cell bodies only for meningeal and auricular branches",
+     1,
+     "The inferior ganglion lodges all its other sensory cell bodies. (Last's p. 638)"
+    ],
+    [
+     "The accessory nerve joins the vagus at the superior vagal ganglion",
+     0,
+     "It gives all its nucleus ambiguus fibres to the vagus at the inferior ganglion.\nLast's likens this to a spinal motor root joining distal to the ganglion. (Last's p. 638)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vagus nerve",
+   "y": 1,
+   "s": "Concerning vagal branches (Last's):",
+   "o": [
+    [
+     "The pharyngeal branch passes between the internal and external carotid arteries",
+     1,
+     "It carries motor and sensory fibres to the pharyngeal plexus. (Last's p. 638)"
+    ],
+    [
+     "The superior laryngeal branch runs superficial to the carotid arteries",
+     0,
+     "It runs deep to the carotids before dividing. (Last's p. 638)"
+    ],
+    [
+     "The vagus is sensory to the oesophagus, trachea and lungs",
+     1,
+     "From abdominal viscera, pain runs with sympathetic fibres.\nVagal gut branches do not carry pain. (Last's p. 638)"
+    ],
+    [
+     "The vagal trunks supply the stomach by branches arising in the greater omentum",
+     0,
+     "Their branches arise in the lesser omentum. (Last's p. 638)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Accessory nerve",
+   "y": 1,
+   "s": "Concerning the accessory nerve (Last's):",
+   "o": [
+    [
+     "Its spinal nucleus lies mainly in C2, C3 and C4",
+     1,
+     "It spans the upper five or six cervical segments, mainly 2, 3 and 4. (Last's p. 638)"
+    ],
+    [
+     "Its spinal roots emerge in front of the denticulate ligament",
+     0,
+     "They emerge from the lateral cord behind the denticulate ligament.\nThe trunk passes over the upper tooth of the ligament. (Last's p. 638)"
+    ],
+    [
+     "It passes through the lateral part of the middle compartment of the jugular foramen",
+     1,
+     "The vagus lies medial to it. (Last's p. 638)"
+    ],
+    [
+     "In the neck it lies on the internal carotid artery over the atlas",
+     0,
+     "It lies on the internal jugular vein over the lateral mass of the atlas. (Last's p. 638)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hypoglossal nerve",
+   "y": 1,
+   "s": "Concerning the hypoglossal nerve (Last's):",
+   "o": [
+    [
+     "Its exit from the skull is medial and posterior to the jugular foramen",
+     1,
+     "So it spirals down and forward with a lateral convexity, becoming more superficial. (Last's p. 639)"
+    ],
+    [
+     "Below the posterior belly of digastric it lies on the internal carotid, external carotid and lingual arteries",
+     0,
+     "It lies on the occipital, external carotid and lingual arteries.\nIt is covered only by the facial vein beneath the investing fascia. (Last's p. 639)"
+    ],
+    [
+     "Its spiral course is the migration path of the suboccipital myotomes",
+     1,
+     "These form the tongue muscles.\nIt curves outside the arteries but deep to the veins. (Last's p. 639)"
+    ],
+    [
+     "It runs below the greater horn of the hyoid as it splits into its branches",
+     0,
+     "It runs above the greater horn.\nIt supplies all tongue muscles except palatoglossus. (Last's p. 639)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hypoglossal nerve",
+   "y": 1,
+   "s": "Branches carried by the hypoglossal nerve (Last's):",
+   "o": [
+    [
+     "Its meningeal branch supplies a ring of dura beyond the margin of the foramen magnum",
+     1,
+     "It is very small. (Last's p. 639)"
+    ],
+    [
+     "Sternothyroid is supplied by C1, C2 and C3",
+     0,
+     "Sternothyroid is C2 and C3; sternohyoid and omohyoid are C1, 2, 3. (Last's p. 640)"
+    ],
+    [
+     "The nerve to geniohyoid carries the last of the C1 fibres",
+     1,
+     "It is given off in the mouth, above mylohyoid.\nThe nerve to thyrohyoid (C1) arises as XII lies on the lingual artery. (Last's p. 640)"
+    ],
+    [
+     "The ansa cervicalis lies embedded in the posterior wall of the carotid sheath",
+     0,
+     "It lies on the IJV under sternocleidomastoid, embedded in the anterior wall of the sheath. (Last's p. 639)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial nerve lesions",
+   "y": 1,
+   "s": "Concerning cranial nerve lesions (Last's):",
+   "o": [
+    [
+     "The cranial nerves most often affected by trauma include the sixth",
+     1,
+     "Last's lists I, II, III, VI and VII.\nTumours, ischaemia and aneurysms are other usual causes. (Last's p. 640)"
+    ],
+    [
+     "Olfactory hallucinations arise from the anterior perforated substance",
+     0,
+     "They arise from the uncus, the cortical centre for smell. (Last's p. 640)"
+    ],
+    [
+     "The upper visual field is represented below the calcarine sulcus",
+     1,
+     "It is also represented in the lateral part of the lateral geniculate body. (Last's p. 640)"
+    ],
+    [
+     "Macular sparing occurs because the occipital tip is supplied by the anterior choroidal artery",
+     0,
+     "Last's says the tip is supplied by the middle cerebral artery.\nSo PCA occlusion spares macular vision. (Last's p. 640)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Visual field defects",
+   "y": 1,
+   "s": "Visual field defects (Last's):",
+   "o": [
+    [
+     "Clinically the commonest lesions are at the chiasma and in the optic radiation",
+     1,
+     "Last's names sites 2 and 4 as commonest. (Last's p. 640)"
+    ],
+    [
+     "A left temporal lobe abscess gives a right lower quadrantic defect",
+     0,
+     "It damages the lower fibres of the left radiation, giving a right upper quadrantanopia. (Last's p. 640)"
+    ],
+    [
+     "Lesions of the upper fibres of the optic radiation are in practice very rare",
+     1,
+     "They come from parietal lesions and give a lower quadrantanopia. (Last's p. 640)"
+    ],
+    [
+     "Traumatic damage to the left occipital tip gives a left macular defect",
+     0,
+     "It gives a right homonymous (macular) defect. (Last's p. 640)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial nerve lesions",
+   "y": 1,
+   "s": "Ocular and trigeminal lesions (Last's):",
+   "o": [
+    [
+     "In trochlear palsy the head is tilted towards the opposite shoulder",
+     1,
+     "This compensates for extorsion.\nThe eye cannot look down fully when turned in. (Last's p. 641)"
+    ],
+    [
+     "Ptosis with a small pupil suggests an oculomotor lesion",
+     0,
+     "Ptosis with a large pupil suggests III; with a small pupil, Horner's syndrome. (Last's p. 641)"
+    ],
+    [
+     "Trigeminal neuralgia rarely involves the ophthalmic division",
+     1,
+     "It usually affects maxillary and/or mandibular territory, and rarely the whole of a division. (Last's p. 641)"
+    ],
+    [
+     "In mandibular trigeminal neuralgia pain spreads along the angle of the mandible",
+     0,
+     "The angle is supplied by the great auricular nerve, so pain is not felt there.\nIt runs from the mouth to the ear and temple. (Last's p. 641)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial nerve lesions",
+   "y": 1,
+   "s": "Ophthalmic and facial lesions (Last's):",
+   "o": [
+    [
+     "The ophthalmic territory reaches back to a line drawn upwards from the ears",
+     1,
+     "It stretches from the tip of the nose to the vertex.\nNose-tip vesicles warn of corneal involvement. (Last's p. 641)"
+    ],
+    [
+     "The afferent limb of the corneal reflex runs in the lacrimal nerve",
+     0,
+     "It depends on ciliary branches of the nasociliary nerve.\nIts loss is often the first sign of a V1 lesion. (Last's p. 641)"
+    ],
+    [
+     "Bell's palsy is thought to involve swelling just before the stylomastoid foramen",
+     1,
+     "It is probably a viral infection in the facial canal. (Last's p. 641)"
+    ],
+    [
+     "Emotional facial movements are lost in supranuclear facial lesions",
+     0,
+     "Emotional movements such as smiling are still possible.\nVoluntary lower face movement is lost. (Last's p. 641)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial nerve lesions",
+   "y": 1,
+   "s": "Vestibulocochlear testing (Last's):",
+   "o": [
+    [
+     "In Weber's test with conduction deafness the sound is louder in the deaf ear",
+     1,
+     "With nerve deafness it is louder in the good ear. (Last's p. 641-2)"
+    ],
+    [
+     "In Rinne's test with conduction deafness the sound is heard again at the meatus",
+     0,
+     "It is not heard again; it is with a normal ear or nerve deafness. (Last's p. 642)"
+    ],
+    [
+     "Cool water irrigation causes nystagmus to the opposite side",
+     1,
+     "Warm water causes nystagmus to the same side.\nThe slow phase follows the endolymph. (Last's p. 642)"
+    ],
+    [
+     "Vestibular nerve damage gives an exaggerated response only in one head position",
+     0,
+     "Inner ear disease gives the position-specific response; nerve damage gives it in any position. (Last's p. 642)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial nerve lesions",
+   "y": 1,
+   "s": "Lower cranial nerve lesions (Last's):",
+   "o": [
+    [
+     "Malignant disease is the commonest cause of recurrent laryngeal palsy",
+     1,
+     "About 25% malignant and 20% surgical.\nLeft palsies are much commoner. (Last's p. 642)"
+    ],
+    [
+     "In an incomplete recurrent laryngeal lesion the cord lies abducted",
+     0,
+     "It lies adducted; abduction seems lost first.\nComplete paralysis gives an intermediate position. (Last's p. 642)"
+    ],
+    [
+     "With a unilateral palatal paralysis the uvula is pulled towards the normal side",
+     1,
+     "The unaffected side rises further. (Last's p. 642)"
+    ],
+    [
+     "A posterior triangle accessory lesion always paralyses the whole trapezius",
+     0,
+     "It paralyses the upper part, but not always the lower part.\nA higher lesion also paralyses sternocleidomastoid. (Last's p. 642)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
