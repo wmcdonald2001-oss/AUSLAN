@@ -1,0 +1,818 @@
+{
+ "code": "ul",
+ "region": "Upper limb",
+ "questions": [
+  {
+   "t": "Axillary artery",
+   "y": 1,
+   "s": "Concerning the axillary artery and vein (Last's):",
+   "o": [
+    [
+     "With the arm at the side the third part of the axillary artery is clasped by the two roots of the median nerve",
+     1,
+     "In abduction and lateral rotation the artery straightens. (Last's p. 66)"
+    ],
+    [
+     "The posterior circumflex humeral artery passes through the triangular space",
+     0,
+     "It passes through the quadrangular space with the axillary nerve. (Last's p. 66)"
+    ],
+    [
+     "The posterior circumflex humeral is much larger than the anterior",
+     1,
+     "It anastomoses with the profunda brachii. (Last's p. 66)"
+    ],
+    [
+     "The axillary vein has a sheath like the artery",
+     0,
+     "There is no axillary sheath around the vein. (Last's p. 66)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brachial plexus",
+   "y": 1,
+   "s": "Concerning the brachial plexus (Last's):",
+   "o": [
+    [
+     "No branches arise from the divisions of the brachial plexus",
+     1,
+     "Branches come from roots, trunks and cords. (Last's p. 67)"
+    ],
+    [
+     "The lateral, medial and posterior cords give 5, 5 and 3 branches",
+     0,
+     "They give 3, 5 and 5. (Last's p. 67)"
+    ],
+    [
+     "The cords embrace the second part of the axillary artery",
+     1,
+     "They enter above its first part and branch around its third. (Last's p. 66)"
+    ],
+    [
+     "The divisions of the plexus lie in the posterior triangle",
+     0,
+     "Roots between scalenes, trunks in the triangle, divisions behind the clavicle, cords in the axilla. (Last's p. 67)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brachial plexus",
+   "y": 1,
+   "s": "Concerning root branches (Last's):",
+   "o": [
+    [
+     "The dorsal scapular nerve arises from C5 and pierces scalenus medius",
+     1,
+     "It usually supplies levator scapulae too. (Last's p. 67)"
+    ],
+    [
+     "The nerve to subclavius passes behind the subclavian vessels",
+     0,
+     "It passes in front of the trunks and vessels. (Last's p. 67)"
+    ],
+    [
+     "The C7 root of the long thoracic nerve descends in front of scalenus medius",
+     1,
+     "C5 and C6 pierce the muscle. (Last's p. 68)"
+    ],
+    [
+     "The long thoracic nerve runs in front of the midaxillary line",
+     0,
+     "It runs posterior to the midaxillary line. (Last's p. 68)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brachial plexus",
+   "y": 1,
+   "s": "Concerning cord branches (Last's):",
+   "o": [
+    [
+     "The lateral pectoral nerve supplies pectoralis minor via its communication with the medial pectoral",
+     1,
+     "It has no cutaneous branch. (Last's p. 68)"
+    ],
+    [
+     "The medial cutaneous nerve of the forearm is the smallest branch of the plexus",
+     0,
+     "The medial cutaneous nerve of the arm is the smallest. (Last's p. 68)"
+    ],
+    [
+     "The ulnar nerve receives C7 fibres from the lateral cord in over 95%",
+     1,
+     "These supply flexor carpi ulnaris. (Last's p. 68)"
+    ],
+    [
+     "The medial pectoral nerve arises in front of the axillary artery",
+     0,
+     "It arises behind it. (Last's p. 68)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brachial plexus",
+   "y": 1,
+   "s": "Concerning posterior cord branches (Last's):",
+   "o": [
+    [
+     "The lower subscapular nerve is larger than the upper",
+     1,
+     "It gives a twig to teres major. (Last's p. 69)"
+    ],
+    [
+     "The thoracodorsal nerve is C5, 6",
+     0,
+     "It is C6, 7, 8. (Last's p. 68)"
+    ],
+    [
+     "The axillary nerve supplies nothing in the axilla",
+     1,
+     "Its origin is higher than usually imagined. (Last's p. 69)"
+    ],
+    [
+     "The posterior circumflex humeral vessels lie above the axillary nerve in the quadrangular space",
+     0,
+     "They lie below it. (Last's p. 69)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brachial plexus",
+   "y": 1,
+   "s": "Concerning the axillary and radial nerves (Last's):",
+   "o": [
+    [
+     "The posterior branch of the axillary nerve supplies teres minor",
+     1,
+     "Then becomes the upper lateral cutaneous nerve of the arm. (Last's p. 69)"
+    ],
+    [
+     "The radial nerve is C5–8 only",
+     0,
+     "Last's gives it as C5, 6, 7, 8, T1. (Last's p. 69)"
+    ],
+    [
+     "The nerve to the medial head of triceps accompanies the ulnar nerve",
+     1,
+     "It arises before the radial nerve leaves the axilla. (Last's p. 69)"
+    ],
+    [
+     "The radial nerve leaves the axilla through the quadrangular space",
+     0,
+     "Through the triangular space below teres major. (Last's p. 69)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Arm",
+   "y": 1,
+   "s": "Concerning the arm (Last's):",
+   "o": [
+    [
+     "Part of brachialis is supplied by the radial nerve",
+     1,
+     "Evidence it developed partly in the extensor compartment. (Last's p. 80)"
+    ],
+    [
+     "The lateral intermuscular septum is pierced by the ulnar nerve",
+     0,
+     "The radial nerve and anterior descending profunda branch pierce it; the ulnar pierces the medial septum. (Last's p. 80)"
+    ],
+    [
+     "The basilic vein pierces the deep fascia opposite the deltoid insertion",
+     1,
+     "About mid-arm. (Last's p. 80-81)"
+    ],
+    [
+     "The median nerve crosses behind the brachial artery",
+     0,
+     "It crosses obliquely in front, from lateral to medial. (Last's p. 81)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Arm",
+   "y": 1,
+   "s": "Concerning nerves of the arm (Last's):",
+   "o": [
+    [
+     "The median nerve has no muscular branches in the arm",
+     1,
+     "Unless the nerve to pronator teres arises high. (Last's p. 81)"
+    ],
+    [
+     "The ulnar nerve supplies the elbow joint from the arm",
+     0,
+     "Its articular twig arises in the groove behind the medial epicondyle; it gives no branch in the arm. (Last's p. 82)"
+    ],
+    [
+     "The ulnar nerve pierces the medial septum with the superior ulnar collateral artery",
+     1,
+     "And the radial branch to the medial head of triceps. (Last's p. 82)"
+    ],
+    [
+     "The supratrochlear nodes drain to the apical axillary nodes",
+     0,
+     "They drain to the lateral axillary group. (Last's p. 82)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Radial nerve",
+   "y": 1,
+   "s": "Concerning triceps and the radial nerve (Last's):",
+   "o": [
+    [
+     "Triceps receives four radial branches, two to the medial head",
+     1,
+     "In order: long, medial, lateral, medial. (Last's p. 83)"
+    ],
+    [
+     "The radial nerve lies on bone along the whole radial groove",
+     0,
+     "It touches periosteum only at the lateral edge, at the lower end. (Last's p. 83)"
+    ],
+    [
+     "The branch to anconeus runs through the medial head of triceps",
+     1,
+     "(Last's p. 83)"
+    ],
+    [
+     "Last's says the medial head of triceps is aptly named",
+     0,
+     "It would be better called the deep head; the long head is actually medial. (Last's p. 82)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Radial nerve",
+   "y": 1,
+   "s": "Concerning the radial nerve (Last's):",
+   "o": [
+    [
+     "The radial nerve can be rolled on the humerus a third of the way from deltoid tuberosity to lateral epicondyle",
+     1,
+     "(Last's p. 83)"
+    ],
+    [
+     "Only the posterior branch of the profunda brachii pierces the lateral septum",
+     0,
+     "Only the anterior branch does. (Last's p. 83)"
+    ],
+    [
+     "Mid-shaft humeral fractures seldom paralyse triceps",
+     1,
+     "Its branches arise high. (Last's p. 83)"
+    ],
+    [
+     "The superficial radial nerve lies on the ulnar side of the radial artery",
+     0,
+     "It lies on the radial side under brachioradialis. (Last's p. 94)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Elbow",
+   "y": 1,
+   "s": "Concerning the elbow (Last's):",
+   "o": [
+    [
+     "The elbow capsule is not attached to the radius",
+     1,
+     "It attaches to the annular ligament. (Last's p. 84)"
+    ],
+    [
+     "The posterior band of the ulnar collateral ligament is the strongest",
+     0,
+     "The anterior band is the strongest. (Last's p. 84)"
+    ],
+    [
+     "The ulnar nerve lies on the middle (oblique) band of the ulnar collateral ligament",
+     1,
+     "(Last's p. 84)"
+    ],
+    [
+     "The ulnar nerve is more easily compressed against the humerus than the coronoid",
+     0,
+     "Last's says it is more easily compressed against the coronoid. (Last's p. 94)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Forearm nerves",
+   "y": 1,
+   "s": "Concerning the median nerve in the forearm (Last's):",
+   "o": [
+    [
+     "The median artery arises from the anterior interosseous",
+     1,
+     "It was the original axial artery. (Last's p. 94)"
+    ],
+    [
+     "The anterior interosseous nerve has a small cutaneous branch",
+     0,
+     "It has none. (Last's p. 94)"
+    ],
+    [
+     "The median nerve is overlapped at the wrist by palmaris longus from the ulnar side",
+     1,
+     "It is flattened there. (Last's p. 94)"
+    ],
+    [
+     "The palmar branch of the median arises in the carpal tunnel",
+     0,
+     "It arises just above the flexor retinaculum. (Last's p. 94)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Forearm nerves",
+   "y": 1,
+   "s": "Concerning the ulnar nerve and radioulnar joints (Last's):",
+   "o": [
+    [
+     "The branch to flexor carpi ulnaris carries C7 fibres",
+     1,
+     "The branch to FDP carries C8 and T1. (Last's p. 94)"
+    ],
+    [
+     "The dorsal ulnar nerve supplies the nail beds of the ulnar one and a half fingers",
+     0,
+     "It supplies proximal to the nail beds. (Last's p. 94)"
+    ],
+    [
+     "The quadrate ligament has constant overall tension in all positions",
+     1,
+     "Its fibres criss-cross. (Last's p. 95)"
+    ],
+    [
+     "The interosseous membrane is taut in supination",
+     0,
+     "It is taut in pronation, lax in supination. (Last's p. 95)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Posterior interosseous nerve",
+   "y": 1,
+   "s": "Concerning the posterior interosseous nerve (Last's):",
+   "o": [
+    [
+     "Extensor carpi radialis brevis is supplied by the posterior interosseous nerve before it pierces supinator",
+     1,
+     "Sometimes by the superficial radial. (Last's p. 100)"
+    ],
+    [
+     "Anconeus is supplied by the posterior interosseous nerve",
+     0,
+     "By a radial branch from the radial groove, through triceps. (Last's p. 100)"
+    ],
+    [
+     "The branch to supinator leaves the posterior interosseous nerve in the cubital fossa",
+     1,
+     "Supinator is C5, 6. (Last's p. 101)"
+    ],
+    [
+     "The posterior interosseous nerve has a cutaneous branch on the dorsum of the wrist",
+     0,
+     "It has no cutaneous branch; it ends in a nodule supplying the wrist. (Last's p. 103)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Forearm extensors",
+   "y": 1,
+   "s": "Concerning the deep extensors (Last's):",
+   "o": [
+    [
+     "Supinator is the prime mover of supination only with the elbow fully extended",
+     1,
+     "Biceps is the powerful supinator. (Last's p. 101)"
+    ],
+    [
+     "Hammer thumb after Colles' fracture is due to the tendon wearing on fragments",
+     0,
+     "It is due to occlusion of anterior interosseous branches supplying the EPL tendon. (Last's p. 102-3)"
+    ],
+    [
+     "The extensor indicis tendon lies on the ulnar side of the extensor digitorum tendon",
+     1,
+     "(Last's p. 103)"
+    ],
+    [
+     "The extensor retinaculum is attached to the ulna",
+     0,
+     "It is attached to the radius and to the pisiform and triquetral, not the ulna. (Last's p. 103)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Forearm",
+   "y": 1,
+   "s": "Concerning the forearm arteries (Last's):",
+   "o": [
+    [
+     "The posterior interosseous artery passes above the interosseous membrane and below the oblique cord",
+     1,
+     "(Last's p. 103)"
+    ],
+    [
+     "The posterior interosseous artery supplies the whole extensor compartment to the wrist",
+     0,
+     "It is exhausted at the lower border of extensor indicis; the anterior interosseous supplies below. (Last's p. 103)"
+    ],
+    [
+     "The cephalic vein begins in the snuffbox",
+     1,
+     "From the radial side of the dorsal venous network. (Last's p. 103)"
+    ],
+    [
+     "Abductor pollicis longus has a radial origin proximal to its ulnar origin",
+     0,
+     "The ulnar origin is more proximal. (Last's p. 102)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Carpal tunnel",
+   "y": 1,
+   "s": "Concerning the carpal tunnel (Last's):",
+   "o": [
+    [
+     "In the carpal tunnel the middle and ring superficialis tendons lie in front of index and little",
+     1,
+     "(Last's p. 108)"
+    ],
+    [
+     "In the carpal tunnel all four profundus tendons are separate",
+     0,
+     "Only the index tendon is separate. (Last's p. 108)"
+    ],
+    [
+     "The common flexor sheath is reflected from the radial side of the tendons",
+     1,
+     "For arterial access. (Last's p. 108)"
+    ],
+    [
+     "The median nerve lies medial to the superficialis tendon to the middle finger",
+     0,
+     "It lies lateral to it, between it and flexor carpi radialis. (Last's p. 109)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thenar muscles",
+   "y": 1,
+   "s": "Concerning the thenar muscles (Last's):",
+   "o": [
+    [
+     "Flexor pollicis brevis has the most variable nerve supply of any muscle",
+     1,
+     "Median, ulnar, or both. (Last's p. 109-110)"
+    ],
+    [
+     "Last's names fibres inserted into the ulnar sesamoid flexor pollicis brevis",
+     0,
+     "Those belong to adductor pollicis or the first palmar interosseous. (Last's p. 109)"
+    ],
+    [
+     "The recurrent branch passes superficial to flexor pollicis longus",
+     1,
+     "(Last's p. 111)"
+    ],
+    [
+     "The thenar muscles are supplied mainly by C8",
+     0,
+     "Mainly T1 with some C8. (Last's p. 109)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hand",
+   "y": 1,
+   "s": "Concerning the palm (Last's):",
+   "o": [
+    [
+     "In two-thirds of hands the superficial palmar arch is incomplete",
+     1,
+     "(Last's p. 110)"
+    ],
+    [
+     "In the fingers the digital arteries are anterior to the nerves",
+     0,
+     "Nerves are anterior in the fingers; in the palm arteries are superficial. (Last's p. 111)"
+    ],
+    [
+     "Common palmar digital nerves divide proximal to the arterial divisions",
+     1,
+     "(Last's p. 110)"
+    ],
+    [
+     "Carpal tunnel syndrome causes anaesthesia over the thenar eminence",
+     0,
+     "The palmar branch passes superficial to the retinaculum. (Last's p. 111)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hand",
+   "y": 1,
+   "s": "Concerning the lumbricals and interossei (Last's):",
+   "o": [
+    [
+     "Ulnar-supplied lumbricals are bicipital",
+     1,
+     "Median-supplied lumbricals are unicipital. (Last's p. 112)"
+    ],
+    [
+     "Lumbrical tendons pass dorsal to the deep transverse metacarpal ligament",
+     0,
+     "They pass on its palmar surface; interossei pass dorsal. (Last's p. 112, 114)"
+    ],
+    [
+     "The deep ulnar branch indents the distal border of the hook of hamate",
+     1,
+     "(Last's p. 114)"
+    ],
+    [
+     "The middle finger has a palmar interosseous",
+     0,
+     "It has none; it has two dorsal interossei. (Last's p. 114)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hand",
+   "y": 1,
+   "s": "Concerning the ulnar nerve in the hand (Last's):",
+   "o": [
+    [
+     "The superficial ulnar branch supplies palmaris brevis",
+     1,
+     "(Last's p. 114)"
+    ],
+    [
+     "The deep palmar arch lies about 1 cm distal to the superficial arch",
+     0,
+     "It lies about 1 cm proximal. (Last's p. 114)"
+    ],
+    [
+     "The first dorsal interosseous may occasionally be supplied by the median",
+     1,
+     "(Last's p. 114)"
+    ],
+    [
+     "The deep ulnar branch supplies three lumbricals",
+     0,
+     "Two; the lateral plantar deep branch supplies three. (Last's p. 114)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Upper limb sympathetics",
+   "y": 1,
+   "s": "Concerning the sympathetic supply of the upper limb (Last's):",
+   "o": [
+    [
+     "Sympathetic fibres to a fingertip arteriole run in the digital nerves",
+     1,
+     "Not along the digital arteries. (Last's p. 122)"
+    ],
+    [
+     "Dermatomes C5 and C6 receive grey fibres from the inferior cervical ganglion",
+     0,
+     "From the middle cervical ganglion; C7, 8 from the inferior; T1 from the stellate. (Last's p. 122)"
+    ],
+    [
+     "Periarterial sympathectomy denervates only local branches",
+     1,
+     "So it was abandoned. (Last's p. 122)"
+    ],
+    [
+     "Upper limb preganglionic fibres come mostly from T1–2 only",
+     0,
+     "Mostly from the upper six thoracic segments. (Last's p. 122)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brachial plexus",
+   "y": 1,
+   "s": "Concerning the brachial plexus summary (Last's):",
+   "o": [
+    [
+     "About 10% of brachial plexuses are prefixed and 10% postfixed",
+     1,
+     "C4–C8 and C6–T2. (Last's p. 122)"
+    ],
+    [
+     "C5 fibres of the long thoracic nerve supply the lowest four digitations",
+     0,
+     "C5 upper two, C6 next two, C7 the lowest four. (Last's p. 123)"
+    ],
+    [
+     "The suprascapular vessels pass above the transverse scapular ligament",
+     1,
+     "The nerve passes beneath it. (Last's p. 123)"
+    ],
+    [
+     "The medial roots of the median nerve join on the medial side of the axillary artery",
+     0,
+     "They join on its lateral side. (Last's p. 123)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Median nerve",
+   "y": 1,
+   "s": "Concerning the median nerve (Last's):",
+   "o": [
+    [
+     "The palmar digital branch to the thumb is C6",
+     1,
+     "The recurrent branch is T1. (Last's p. 123)"
+    ],
+    [
+     "The median nerve divides into branches distal to the carpal tunnel",
+     0,
+     "Last's says it divides in the carpal tunnel. (Last's p. 123)"
+    ],
+    [
+     "The only autonomous median sensory areas are the pulps of index and middle fingers",
+     1,
+     "(Last's p. 127)"
+    ],
+    [
+     "In carpal tunnel decompression the retinaculum is cut on the radial side of the nerve",
+     0,
+     "It is cut on the ulnar side to protect the recurrent branch. (Last's p. 127)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cutaneous nerves",
+   "y": 1,
+   "s": "Concerning upper limb cutaneous nerves (Last's):",
+   "o": [
+    [
+     "The medial cutaneous nerve of the arm is sometimes replaced entirely by the intercostobrachial",
+     1,
+     "Last's calls it \"rather a failure\". (Last's p. 124)"
+    ],
+    [
+     "The lateral and medial cutaneous nerves of the forearm overlap widely at the anterior axial line",
+     0,
+     "They meet without overlap. (Last's p. 124)"
+    ],
+    [
+     "The upper-arm part of the medial cutaneous nerve of the forearm can be used as a graft",
+     1,
+     "A long length without branches. (Last's p. 124)"
+    ],
+    [
+     "The dorsal branch of the ulnar nerve supplies the nail beds",
+     0,
+     "It falls short of the nail beds; the superficial branch supplies them. (Last's p. 124)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Radial nerve",
+   "y": 1,
+   "s": "Concerning the radial nerve summary (Last's):",
+   "o": [
+    [
+     "The posterior cutaneous nerve of the arm carries all the T1 of the radial nerve",
+     1,
+     "With C8. (Last's p. 125)"
+    ],
+    [
+     "The lower lateral cutaneous nerve of the arm is C7",
+     0,
+     "It is C5; the posterior cutaneous nerve of the forearm is C6, 7. (Last's p. 125)"
+    ],
+    [
+     "Last's says radial and dorsal ulnar nerves commonly share the dorsum 2½ : 2½ digits",
+     1,
+     "Rather than the 3½ : 1½ usually quoted. (Last's p. 125)"
+    ],
+    [
+     "The posterior interosseous nerve supplies five muscles after leaving supinator",
+     0,
+     "It supplies seven more muscles. (Last's p. 125)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Nerve injuries",
+   "y": 1,
+   "s": "Concerning upper limb nerve injuries (Last's):",
+   "o": [
+    [
+     "Pectoralis major is the only muscle supplied by all five plexus segments",
+     1,
+     "A guide to the extent of injury. (Last's p. 126)"
+    ],
+    [
+     "In Erb's palsy the arm is laterally rotated",
+     0,
+     "It hangs medially rotated, extended at the elbow and pronated. (Last's p. 126)"
+    ],
+    [
+     "Radial nerve sensory loss is usually a coin-shaped area over the first dorsal interosseous",
+     1,
+     "(Last's p. 126)"
+    ],
+    [
+     "The axillary nerve is damaged in about 25% of shoulder dislocations",
+     0,
+     "About 5%. (Last's p. 126)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Nerve injuries",
+   "y": 1,
+   "s": "Concerning ulnar and median lesions (Last's):",
+   "o": [
+    [
+     "A high ulnar lesion gives a less clawed hand than a low one",
+     1,
+     "Ulnar FDP is paralysed. (Last's p. 127)"
+    ],
+    [
+     "In median injury the middle finger always stays extended with the index",
+     0,
+     "The middle finger often flexes through FDP connexions or ulnar supply. (Last's p. 127)"
+    ],
+    [
+     "Last's advises testing abductor pollicis brevis for low median lesions",
+     1,
+     "Not flexor pollicis brevis. (Last's p. 127)"
+    ],
+    [
+     "To display the median nerve in the forearm the ulnar head of FDS is detached",
+     0,
+     "The radial head is detached and the muscle turned medially. (Last's p. 127)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
