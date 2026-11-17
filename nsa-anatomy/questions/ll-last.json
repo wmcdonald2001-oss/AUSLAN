@@ -1,0 +1,238 @@
+{
+ "code": "ll",
+ "region": "Lower limb",
+ "questions": [
+  {
+   "t": "Lower limb nerves",
+   "y": 1,
+   "s": "Concerning lower limb nerve supply and injury (Last's):",
+   "o": [
+    [
+     "The medial plantar nerve usually supplies three and a half digits",
+     1,
+     "Like the median in the hand. (Last's p. 212)"
+    ],
+    [
+     "Lower limb sympathetic preganglionics arise from T1–T6",
+     0,
+     "From T11–L2. (Last's p. 213)"
+    ],
+    [
+     "Femoral nerve injury is more likely from lower abdominal than limb wounds",
+     1,
+     "It breaks into branches as soon as it enters the thigh. (Last's p. 213)"
+    ],
+    [
+     "In obturator palsy loss of adduction is obvious during walking",
+     0,
+     "It is unnoticed in walking; the leg cannot be crossed when sitting. (Last's p. 213)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lower limb nerves",
+   "y": 1,
+   "s": "Concerning sciatic and peroneal injury (Last's):",
+   "o": [
+    [
+     "Sciatic injury occurs in about 7% of hip dislocations",
+     1,
+     "And 16% of fracture-dislocations. (Last's p. 213)"
+    ],
+    [
+     "Sciatic nerve injury alone causes anaesthesia on the back of the thigh",
+     0,
+     "Only if the posterior femoral cutaneous nerve is also damaged. (Last's p. 213)"
+    ],
+    [
+     "The saphenous nerve may be ligated in varicose vein surgery in front of the medial malleolus",
+     1,
+     "(Last's p. 214)"
+    ],
+    [
+     "Common peroneal lesions always cause marked sensory loss",
+     0,
+     "Like radial lesions, there may be little or none. (Last's p. 214)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lumbar plexus",
+   "y": 1,
+   "s": "Concerning the lumbar plexus (Last's):",
+   "o": [
+    [
+     "Last's calls the sacral plexus the true plexus of the lower limb",
+     1,
+     "The lumbar plexus supplies parts \"borrowed from the trunk\". (Last's p. 414)"
+    ],
+    [
+     "The genital branch of the genitofemoral nerve supplies the testis",
+     0,
+     "It does not, and is unlikely to supply scrotal skin. (Last's p. 415)"
+    ],
+    [
+     "The lateral femoral cutaneous nerve supplies the peritoneum of the iliac fossa",
+     1,
+     "It is mostly L2. (Last's p. 415)"
+    ],
+    [
+     "The femoral part of the genitofemoral is L2",
+     0,
+     "The femoral part is L1, genital L2. (Last's p. 415)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Femoral nerve",
+   "y": 1,
+   "s": "Concerning the femoral nerve (Last's):",
+   "o": [
+    [
+     "The lateral femoral circumflex artery divides femoral branches into superficial and deep",
+     1,
+     "(Last's p. 415)"
+    ],
+    [
+     "The nerve to pectineus passes in front of the femoral sheath",
+     0,
+     "It runs behind the sheath. (Last's p. 415)"
+    ],
+    [
+     "The nerve to vastus medialis carries most femoral fibres to the knee",
+     1,
+     "(Last's p. 415)"
+    ],
+    [
+     "The nerve to rectus femoris is usually single",
+     0,
+     "It is usually double; the upper branch supplies the hip. (Last's p. 415)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Obturator nerve",
+   "y": 1,
+   "s": "Concerning the obturator nerve (Last's):",
+   "o": [
+    [
+     "The obturator nerve lies on the sacral ala lateral to the lumbosacral trunk",
+     1,
+     "(Last's p. 416)"
+    ],
+    [
+     "The anterior division of the obturator pierces obturator externus",
+     0,
+     "The posterior division does. (Last's p. 416)"
+    ],
+    [
+     "A branch of the posterior division accompanies the femoral artery to the knee",
+     1,
+     "(Last's p. 416)"
+    ],
+    [
+     "The posterior division supplies gracilis",
+     0,
+     "The anterior division supplies gracilis. (Last's p. 416)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacral plexus",
+   "y": 1,
+   "s": "Concerning branches of the sacral plexus (Last's):",
+   "o": [
+    [
+     "The posterior femoral cutaneous nerve stays beneath the deep fascia",
+     1,
+     "Unique; it reaches mid-calf. (Last's p. 416)"
+    ],
+    [
+     "The perforating cutaneous nerve passes through the greater sciatic foramen with the sciatic",
+     0,
+     "It pierces the sacrotuberous ligament. (Last's p. 416)"
+    ],
+    [
+     "The inferior rectal nerve does not supply levator ani",
+     1,
+     "It supplies the external anal sphincter. (Last's p. 417)"
+    ],
+    [
+     "Levator ani is supplied mainly by the pudendal nerve",
+     0,
+     "By the perineal branch of S4 on its upper surface. (Last's p. 417)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacral plexus",
+   "y": 1,
+   "s": "Concerning sacral plexus root values (Last's):",
+   "o": [
+    [
+     "The nerve to quadratus femoris has the same roots as the superior gluteal",
+     1,
+     "L4, 5, S1. (Last's p. 417)"
+    ],
+    [
+     "The common peroneal part of the sciatic is formed from all five posterior divisions",
+     0,
+     "From four (L4–S2); the tibial from all five (L4–S3). (Last's p. 417)"
+    ],
+    [
+     "If fusion fails the common peroneal pierces piriformis",
+     1,
+     "(Last's p. 417)"
+    ],
+    [
+     "The nerve to obturator internus supplies the inferior gemellus",
+     0,
+     "It supplies the superior; quadratus femoris nerve supplies the inferior. (Last's p. 417)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Common peroneal nerve",
+   "y": 1,
+   "s": "Concerning the peroneal nerves (Last's):",
+   "o": [
+    [
+     "The common peroneal nerve itself supplies no muscles",
+     1,
+     "(Last's p. 418)"
+    ],
+    [
+     "The superficial peroneal pierces the deep fascia about a third of the way down the leg",
+     0,
+     "It emerges from peroneus longus a third down but pierces the fascia about halfway. (Last's p. 418)"
+    ],
+    [
+     "The deep peroneal nerve runs lateral to the anterior tibial vessels",
+     1,
+     "(Last's p. 418)"
+    ],
+    [
+     "The sural nerve pierces the deep fascia in the popliteal fossa",
+     0,
+     "It pierces it halfway down the leg. (Last's p. 418)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}

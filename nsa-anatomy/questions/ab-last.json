@@ -1,0 +1,151 @@
+{
+ "code": "ab",
+ "region": "Abdomen & pelvis",
+ "questions": [
+  {
+   "t": "Lumbar plexus",
+   "y": 1,
+   "s": "Concerning the lumbar plexus in the abdomen (Last's):",
+   "o": [
+    [
+     "Only T12 and L1 supply the anterior abdominal wall",
+     1,
+     "L2–4 form the lumbar plexus for the thigh. (Last's p. 360)"
+    ],
+    [
+     "The ilioinguinal nerve has a lateral cutaneous branch",
+     0,
+     "As the collateral branch of the iliohypogastric it has none. (Last's p. 360)"
+    ],
+    [
+     "The subcostal nerve lies below the vein and artery behind the lateral arcuate ligament",
+     1,
+     "(Last's p. 360)"
+    ],
+    [
+     "The cisterna chyli lies under the left crus",
+     0,
+     "It lies under the right crus, in front of L1–2, between aorta and azygos. (Last's p. 360)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lumbar plexus",
+   "y": 1,
+   "s": "Concerning the lumbar plexus (Last's):",
+   "o": [
+    [
+     "The iliohypogastric nerve pierces external oblique about 2.5 cm above the superficial ring",
+     1,
+     "(Last's p. 361)"
+    ],
+    [
+     "The ilioinguinal nerve enters the inguinal canal through the deep ring",
+     0,
+     "It enters from the side after piercing internal oblique. (Last's p. 361)"
+    ],
+    [
+     "The lateral femoral cutaneous nerve may arise from the femoral nerve",
+     1,
+     "Both come from posterior divisions. (Last's p. 361)"
+    ],
+    [
+     "The lateral femoral cutaneous nerve passes the inguinal ligament 3 cm from the ASIS",
+     0,
+     "About 1 cm from it. (Last's p. 361)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lumbar plexus",
+   "y": 1,
+   "s": "Concerning the genitofemoral and obturator nerves (Last's):",
+   "o": [
+    [
+     "The genitofemoral nerve emerges from the anterior surface of psoas",
+     1,
+     "(Last's p. 361)"
+    ],
+    [
+     "The obturator nerve emerges from the lateral border of psoas",
+     0,
+     "It emerges medially with the lumbosacral trunk. (Last's p. 361)"
+    ],
+    [
+     "The femoral branch of the genitofemoral pierces the femoral sheath",
+     1,
+     "It runs in front of the femoral artery. (Last's p. 361)"
+    ],
+    [
+     "The femoral nerve passes beneath the inguinal ligament within the femoral sheath",
+     0,
+     "It passes lateral to the sheath. (Last's p. 361)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lumbar sympathetic",
+   "y": 1,
+   "s": "Concerning the lumbar sympathetic trunk (Last's):",
+   "o": [
+    [
+     "Accessory ganglia in psoas relay directly back to L1 and L2",
+     1,
+     "So grey rami to L1–2 from the trunk are sparse. (Last's p. 362-3)"
+    ],
+    [
+     "The right lumbar sympathetic trunk lies along the right margin of the aorta",
+     0,
+     "It lies behind the IVC; the left lies along the aorta. (Last's p. 362)"
+    ],
+    [
+     "Some lumbar veins may pass in front of the sympathetic trunk",
+     1,
+     "A point in lumbar sympathectomy. (Last's p. 362)"
+    ],
+    [
+     "The common iliac vessels lie behind the sympathetic trunks",
+     0,
+     "They lie in front at the pelvic brim. (Last's p. 362)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Autonomic plexuses",
+   "y": 1,
+   "s": "Concerning the abdominal autonomic plexuses (Last's):",
+   "o": [
+    [
+     "Last's says \"presacral nerve\" is a misnomer",
+     1,
+     "The superior hypogastric plexus is prelumbar and a plexus. (Last's p. 363)"
+    ],
+    [
+     "Hypogastric nerve fibres supply abdominal viscera",
+     0,
+     "They give no abdominal branches; they relay in the inferior hypogastric plexus. (Last's p. 363)"
+    ],
+    [
+     "The least splanchnic nerve relays in a renal ganglion behind the renal artery",
+     1,
+     "(Last's p. 363)"
+    ],
+    [
+     "The suprarenal medulla receives postganglionic fibres from the coeliac ganglion for secretion",
+     0,
+     "Preganglionic fibres reach it without relay; coeliac postganglionics are vasomotor. (Last's p. 363)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
