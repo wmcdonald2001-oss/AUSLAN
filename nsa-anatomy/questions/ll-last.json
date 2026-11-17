@@ -3,6 +3,238 @@
  "region": "Lower limb",
  "questions": [
   {
+   "t": "Thigh",
+   "y": 1,
+   "s": "Concerning the front of the thigh (Last's):",
+   "o": [
+    [
+     "The saphenous opening lies 3.5 cm below and lateral to the pubic tubercle",
+     1,
+     "(Last's p. 146-7)"
+    ],
+    [
+     "The great saphenous vein has more valves above the knee than below",
+     0,
+     "More lie below the knee; up to 20 in all. (Last's p. 146)"
+    ],
+    [
+     "A femoral hernia cannot lie beneath Scarpa's fascia",
+     1,
+     "Scarpa's fascia attaches above the saphenous opening. (Last's p. 148)"
+    ],
+    [
+     "The vertical group of superficial inguinal nodes drains the perineum",
+     0,
+     "The medial group drains the perineum; the vertical group the limb. (Last's p. 147)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Femoral nerve",
+   "y": 1,
+   "s": "Concerning the femoral nerve in the thigh (Last's):",
+   "o": [
+    [
+     "The nerve to vastus medialis is as large as the saphenous nerve",
+     1,
+     "It carries most knee proprioceptive fibres. (Last's p. 155)"
+    ],
+    [
+     "The nerve to pectineus passes in front of the femoral sheath",
+     0,
+     "It passes behind it. (Last's p. 155)"
+    ],
+    [
+     "The reflected head of rectus femoris is the primary head",
+     1,
+     "The straight head relates to erect posture. (Last's p. 155)"
+    ],
+    [
+     "The saphenous nerve crosses behind the femoral artery in the adductor canal",
+     0,
+     "It crosses in front, lateral to medial. (Last's p. 155)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thigh",
+   "y": 1,
+   "s": "Concerning the quadriceps and adductor canal (Last's):",
+   "o": [
+    [
+     "The lowest vastus medialis fibres are vital for the last 20° of knee extension",
+     1,
+     "And for patellar stability. (Last's p. 156)"
+    ],
+    [
+     "The medial surface of the femoral shaft gives origin to vastus intermedius",
+     0,
+     "It is bare bone. (Last's p. 156)"
+    ],
+    [
+     "The subsartorial plexus receives a branch from the anterior division of the obturator",
+     1,
+     "With intermediate femoral cutaneous and saphenous. (Last's p. 156)"
+    ],
+    [
+     "The quadriceps is supplied by L4, 5",
+     0,
+     "By L3, 4. (Last's p. 156)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Buttock",
+   "y": 1,
+   "s": "Concerning gluteus maximus (Last's):",
+   "o": [
+    [
+     "The lower border of gluteus maximus takes no part in the gluteal fold",
+     1,
+     "(Last's p. 161)"
+    ],
+    [
+     "Most of gluteus maximus inserts into the gluteal tuberosity",
+     0,
+     "Three-quarters insert into the iliotibial tract. (Last's p. 161)"
+    ],
+    [
+     "Gluteus maximus is little used in quiet walking",
+     1,
+     "The hamstrings are the main hip extensors then. (Last's p. 162)"
+    ],
+    [
+     "Gluteus maximus is one of several muscles supplied by the inferior gluteal nerve",
+     0,
+     "It is the only one. (Last's p. 161)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Leg",
+   "y": 1,
+   "s": "Concerning the extensor compartment of the leg (Last's):",
+   "o": [
+    [
+     "The deep peroneal nerve lies in front of the anterior tibial artery in mid-leg",
+     1,
+     "It is lateral above and below. (Last's p. 188)"
+    ],
+    [
+     "Extensor hallucis longus crosses the anterior tibial artery from tibial to fibular side",
+     0,
+     "From fibular to tibial. (Last's p. 188)"
+    ],
+    [
+     "Biceps femoris is the only muscle pulling the fibula upwards",
+     1,
+     "(Last's p. 188)"
+    ],
+    [
+     "The inferior tibiofibular joint is synovial",
+     0,
+     "It is fibrous; the superior is synovial. (Last's p. 188)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Foot",
+   "y": 1,
+   "s": "Concerning the dorsum of the foot (Last's):",
+   "o": [
+    [
+     "Extensor digitorum brevis is supplied by the deep peroneal nerve, S1, 2",
+     1,
+     "(Last's p. 189)"
+    ],
+    [
+     "The toenails are supplied by the superficial peroneal nerve",
+     0,
+     "By the medial and lateral plantar nerves. (Last's p. 189)"
+    ],
+    [
+     "The dorsalis pedis artery is crossed by extensor hallucis brevis",
+     1,
+     "(Last's p. 189)"
+    ],
+    [
+     "The deep peroneal nerve lies medial to dorsalis pedis",
+     0,
+     "It lies lateral. (Last's p. 190)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Leg",
+   "y": 1,
+   "s": "Concerning the lateral compartment and calf (Last's):",
+   "o": [
+    [
+     "The peroneus longus tendon does not touch the lateral malleolus",
+     1,
+     "Brevis grooves the malleolus. (Last's p. 190)"
+    ],
+    [
+     "Peroneus brevis passes below the peroneal trochlea",
+     0,
+     "It passes above; longus below. (Last's p. 190)"
+    ],
+    [
+     "Flexor hallucis longus is the most important single factor maintaining the medial arch",
+     1,
+     "(Last's p. 194)"
+    ],
+    [
+     "Tibialis posterior inserts into every tarsal bone except the talus",
+     0,
+     "Last's calls this misleading; it inserts into the navicular tuberosity. (Last's p. 194)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sole",
+   "y": 1,
+   "s": "Concerning the sole (Last's):",
+   "o": [
+    [
+     "The segmental supply of all sole muscles is essentially S2",
+     1,
+     "Like T1 for the hand. (Last's p. 196)"
+    ],
+    [
+     "Abductor digiti minimi is supplied by the medial plantar nerve",
+     0,
+     "By the main trunk of the lateral plantar. (Last's p. 197)"
+    ],
+    [
+     "Only the first lumbrical of the foot is supplied by the medial plantar nerve",
+     1,
+     "The lateral three by the deep lateral plantar. (Last's p. 199)"
+    ],
+    [
+     "Flexor hallucis longus gives slips to the tendons for the fourth and fifth toes",
+     0,
+     "To those for the second and third. (Last's p. 197)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
    "t": "Gluteal region",
    "y": 1,
    "s": "Concerning the gluteal nerves and vessels (Last's):",
