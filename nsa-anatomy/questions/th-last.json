@@ -1,0 +1,354 @@
+{
+ "code": "th",
+ "region": "Thorax",
+ "questions": [
+  {
+   "t": "Intercostal spaces",
+   "y": 1,
+   "s": "Concerning the intercostal spaces (Last's):",
+   "o": [
+    [
+     "Intercostal collateral branches have no cutaneous branch",
+     1,
+     "They supply muscle, parietal pleura and periosteum. (Last's p. 244)"
+    ],
+    [
+     "The first intercostal nerve has a lateral cutaneous branch",
+     0,
+     "It supplies no skin at all. (Last's p. 245)"
+    ],
+    [
+     "At the front of the space the intercostal nerve crosses in front of the internal thoracic artery",
+     1,
+     "At the back it crosses behind the posterior intercostal artery. (Last's p. 245)"
+    ],
+    [
+     "In thoracotomy the periosteum is stripped from the lower half of the rib",
+     0,
+     "From the upper half, away from the bundle. (Last's p. 244)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Intercostal vessels",
+   "y": 1,
+   "s": "Concerning intercostal vessels (Last's):",
+   "o": [
+    [
+     "There are no anterior intercostal arteries in the last two spaces",
+     1,
+     "(Last's p. 246)"
+    ],
+    [
+     "The anterior intercostal arteries are larger than the posterior",
+     0,
+     "The posterior are larger. (Last's p. 246)"
+    ],
+    [
+     "The left superior intercostal vein runs superficial to the vagus and deep to the phrenic",
+     1,
+     "Over the aortic arch. (Last's p. 246)"
+    ],
+    [
+     "The first intercostal space drains into the superior intercostal vein",
+     0,
+     "It drains via the supreme intercostal vein to vertebral or brachiocephalic. (Last's p. 246)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thoracic inlet",
+   "y": 1,
+   "s": "Concerning the suprapleural membrane (Last's):",
+   "o": [
+    [
+     "The suprapleural membrane is not attached to the neck of the first rib",
+     1,
+     "T1 crosses there. (Last's p. 246)"
+    ],
+    [
+     "The suprapleural membrane projects high into the root of the neck",
+     0,
+     "It is flat in the plane of the inlet. (Last's p. 246)"
+    ],
+    [
+     "The supreme intercostal vein lies between the superior intercostal artery and the sympathetic trunk",
+     1,
+     "On the neck of the first rib. (Last's p. 245-6)"
+    ],
+    [
+     "The superior intercostal artery supplies the upper three spaces",
+     0,
+     "It supplies the upper two. (Last's p. 245)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Diaphragm",
+   "y": 1,
+   "s": "Concerning the diaphragm (Last's):",
+   "o": [
+    [
+     "The right crus attaches to L1–3 and the left to L1–2",
+     1,
+     "(Last's p. 247)"
+    ],
+    [
+     "Muscle fibres arise from the median arcuate ligament",
+     0,
+     "They arise from the medial and lateral but not the median arcuate. (Last's p. 247)"
+    ],
+    [
+     "The longest diaphragmatic fibres arise from the ninth costal cartilage",
+     1,
+     "The shortest from the xiphisternum. (Last's p. 247)"
+    ],
+    [
+     "The aortic opening lies within the diaphragm",
+     0,
+     "It lies behind it, behind the median arcuate ligament. (Last's p. 248)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Diaphragm",
+   "y": 1,
+   "s": "Concerning diaphragm openings and supply (Last's):",
+   "o": [
+    [
+     "The oesophageal opening lies behind the seventh left costal cartilage",
+     1,
+     "At T10. (Last's p. 248)"
+    ],
+    [
+     "The left phrenic nerve passes through the caval foramen",
+     0,
+     "The right does; the left pierces the muscle of the left dome. (Last's p. 248)"
+    ],
+    [
+     "The part of the right crus left of the oesophagus is supplied by the left phrenic",
+     1,
+     "(Last's p. 248)"
+    ],
+    [
+     "The lower intercostal nerves give motor fibres to the peripheral diaphragm",
+     0,
+     "Only proprioceptive fibres; motor is solely phrenic. (Last's p. 248)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Diaphragm",
+   "y": 1,
+   "s": "Concerning diaphragm function and development (Last's):",
+   "o": [
+    [
+     "About 55% of diaphragm fibres are slow twitch",
+     1,
+     "65% of intercostal fibres. (Last's p. 248)"
+    ],
+    [
+     "Deep inspiration can depress the central tendon from T8 to T11",
+     0,
+     "Only to T9. (Last's p. 248)"
+    ],
+    [
+     "Bochdalek hernia is commoner on the left",
+     1,
+     "Liver pressure may close the right earlier. (Last's p. 249)"
+    ],
+    [
+     "The diaphragm is active in forced expiration",
+     0,
+     "It is wholly passive in expiration. (Last's p. 249)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Phrenic and vagus",
+   "y": 1,
+   "s": "Concerning the phrenic and vagus in the thorax (Last's):",
+   "o": [
+    [
+     "About two-thirds of phrenic fibres are motor",
+     1,
+     "(Last's p. 259)"
+    ],
+    [
+     "The phrenic nerve supplies the visceral pericardium",
+     0,
+     "It supplies fibrous and parietal serous pericardium, not viscera. (Last's p. 259)"
+    ],
+    [
+     "The right phrenic nerve is in contact with venous structures throughout",
+     1,
+     "(Last's p. 259)"
+    ],
+    [
+     "The left vagus crosses the aortic arch superficial to the left superior intercostal vein",
+     0,
+     "It crosses deep to it. (Last's p. 259)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Respiration",
+   "y": 1,
+   "s": "Concerning respiration (Last's):",
+   "o": [
+    [
+     "Last's says intercostals matter more for thoracic twisting than respiration",
+     1,
+     "(Last's p. 249)"
+    ],
+    [
+     "In quiet respiration expiration is mainly by the internal intercostals",
+     0,
+     "Expiration is largely passive. (Last's p. 249)"
+    ],
+    [
+     "During coughing the trachea narrows 10% at the instant the cords open",
+     1,
+     "After a 30% widening. (Last's p. 259)"
+    ],
+    [
+     "The tracheal bifurcation rises during swallowing",
+     0,
+     "It does not move; the trachea stretches. (Last's p. 259)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thoracic lymphatics",
+   "y": 1,
+   "s": "Concerning thoracic lymph drainage (Last's):",
+   "o": [
+    [
+     "The thoracic duct has no valves at its termination",
+     1,
+     "Blood may enter the terminal inch or two. (Last's p. 277)"
+    ],
+    [
+     "The thoracic duct begins at T10",
+     0,
+     "At T12, between aorta and azygos. (Last's p. 277)"
+    ],
+    [
+     "The thoracic duct crosses behind the oesophagus to its left side",
+     1,
+     "Reaching the left side in the superior mediastinum. (Last's p. 277)"
+    ],
+    [
+     "Mediastinal lymph trunks usually join the thoracic duct",
+     0,
+     "They usually open directly into the brachiocephalic veins. (Last's p. 277)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Azygos system",
+   "y": 1,
+   "s": "Concerning the azygos veins (Last's):",
+   "o": [
+    [
+     "The azygos arches over the right bronchus at T4",
+     1,
+     "(Last's p. 278)"
+    ],
+    [
+     "The hemiazygos veins join the azygos at T6 and T7",
+     0,
+     "At T8 and T9. (Last's p. 278)"
+    ],
+    [
+     "The accessory hemiazygos receives the left bronchial veins",
+     1,
+     "(Last's p. 278)"
+    ],
+    [
+     "The azygos begins as a functional channel from the IVC",
+     0,
+     "That part is usually a fibrous cord; it functionally begins at the ascending lumbar–subcostal union. (Last's p. 277)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thoracic sympathetic",
+   "y": 1,
+   "s": "Concerning the thoracic sympathetic trunk (Last's):",
+   "o": [
+    [
+     "The greater splanchnic nerve arises from ganglia 5 to 9",
+     1,
+     "Lesser 10–11, least 12. (Last's p. 278)"
+    ],
+    [
+     "The grey ramus usually lies lateral to the white ramus",
+     0,
+     "It usually lies medial. (Last's p. 278)"
+    ],
+    [
+     "The oesophageal plexuses are vagal",
+     1,
+     "Not sympathetic. (Last's p. 278)"
+    ],
+    [
+     "The stellate ganglion lies posterolateral to the vertebral artery",
+     0,
+     "The inferior cervical ganglion lies posteromedial to it. (Last's p. 278)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pleura",
+   "y": 1,
+   "s": "Concerning the pleura (Last's):",
+   "o": [
+    [
+     "The visceral pleura has only an autonomic supply",
+     1,
+     "It is insensitive to ordinary stimuli. (Last's p. 279)"
+    ],
+    [
+     "The pulmonary ligament supports the lung",
+     0,
+     "It is neither related to the lung nor a ligament; it is dead space for the inferior pulmonary vein. (Last's p. 279)"
+    ],
+    [
+     "The pleura crosses the twelfth rib at the lateral border of erector spinae",
+     1,
+     "Leaving a triangle behind the kidney's upper pole. (Last's p. 279)"
+    ],
+    [
+     "The pleura crosses the midaxillary line at the eighth rib",
+     0,
+     "At the tenth; the midclavicular line at the eighth. (Last's p. 279)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
