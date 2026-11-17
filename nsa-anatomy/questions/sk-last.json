@@ -3,6 +3,847 @@
  "region": "Skull & cranial cavity",
  "questions": [
   {
+   "t": "Meninges",
+   "y": 1,
+   "s": "Concerning the cranial meninges (Last's):",
+   "o": [
+    [
+     "CSF reduces the effective weight of the brain from 1500 g to 50 g",
+     1,
+     "The arachnoid is CSF-proof but needs dural support. (Last's p. 558)"
+    ],
+    [
+     "Dura and arachnoid are blended along the whole cranial base",
+     0,
+     "Last's: the only place they blend is the aqueduct of the cochlea. (Last's p. 559)"
+    ],
+    [
+     "Vessels and nerves pierce dura and arachnoid at the same place",
+     1,
+     "They never run between the two membranes. (Last's p. 559)"
+    ],
+    [
+     "The spinal arachnoid strands form a complete posterior median septum",
+     0,
+     "It is incomplete. (Last's p. 559)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Subarachnoid cisterns",
+   "y": 1,
+   "s": "Concerning the cisterns (Last's):",
+   "o": [
+    [
+     "The lateral part of the cisterna magna contains the vertebral artery and PICA",
+     1,
+     "It receives CSF from the foramen of Magendie. (Last's p. 559)"
+    ],
+    [
+     "The pontine cistern receives CSF from the foramen of Magendie",
+     0,
+     "It receives it from the lateral foramina of Luschka. (Last's p. 559)"
+    ],
+    [
+     "The interpeduncular cistern contains the third and fourth cranial nerves",
+     1,
+     "Also the basilar terminal branches and pituitary stalk. (Last's p. 560)"
+    ],
+    [
+     "The chiasmatic cistern lies below the optic chiasma",
+     0,
+     "It lies above the chiasma, beneath the rostrum, and contains the anterior communicating artery. (Last's p. 560)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dura mater",
+   "y": 1,
+   "s": "Concerning the dura mater (Last's):",
+   "o": [
+    [
+     "Last's says the outer dural layer is never invaginated by any cranial nerve",
+     1,
+     "It is ordinary periosteum and is not prolonged into the spinal dura. (Last's p. 560)"
+    ],
+    [
+     "The dural folds chiefly prevent forward–backward mass displacement of the brain",
+     0,
+     "They minimize rotary displacement; concussion results more readily from rotation. (Last's p. 560)"
+    ],
+    [
+     "The free margin of the tentorium lies at a higher level than its attached margin",
+     1,
+     "It contains no venous sinus. (Last's p. 560)"
+    ],
+    [
+     "The third and fourth nerves pierce the roof of the cavernous sinus lateral to the dural ridge",
+     0,
+     "They pierce the triangular roof medial to the ridge from the free tentorial margin. (Last's p. 560)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dural folds",
+   "y": 1,
+   "s": "Concerning the falx and diaphragma (Last's):",
+   "o": [
+    [
+     "The falx cerebri projects into the foramen caecum like a peg",
+     1,
+     "Last's calls it an enlarged Sharpey's fibre. (Last's p. 561)"
+    ],
+    [
+     "The falx cerebelli contains the inferior sagittal sinus",
+     0,
+     "It contains the small occipital sinus; the inferior sagittal is in the free border of the falx cerebri. (Last's p. 561)"
+    ],
+    [
+     "Dividing the falx at autopsy lets the tentorium fall",
+     1,
+     "The falx suspends the tentorium. (Last's p. 561)"
+    ],
+    [
+     "The superior sagittal sinus begins at the crista galli",
+     0,
+     "It begins a short distance above the foramen caecum. (Last's p. 561-2)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Meningeal vessels",
+   "y": 1,
+   "s": "Concerning the meningeal arteries (Last's):",
+   "o": [
+    [
+     "The accessory meningeal artery supplies dura over the cavernous sinus",
+     1,
+     "It enters through the foramen ovale. (Last's p. 562)"
+    ],
+    [
+     "The middle meningeal artery passes in front of the auriculotemporal nerve",
+     0,
+     "It passes between its two roots. (Last's p. 562)"
+    ],
+    [
+     "Near the pterion the middle meningeal artery often lies in a bony tunnel for a centimetre or more",
+     1,
+     "The frontal branch then lies over the precentral gyrus. (Last's p. 562)"
+    ],
+    [
+     "Haemorrhage from the posterior branch is said to cause contralateral motor weakness",
+     0,
+     "Last's says it may cause contralateral deafness (superior temporal gyrus). (Last's p. 562)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Meningeal vessels",
+   "y": 1,
+   "s": "Concerning the meningeal vessels and diploic veins (Last's):",
+   "o": [
+    [
+     "The middle meningeal veins, not the artery, groove the skull",
+     1,
+     "They lie between the artery and bone. (Last's p. 562)"
+    ],
+    [
+     "Most middle meningeal veins leave through the foramen spinosum",
+     0,
+     "Most join the sphenoparietal sinus; some leave via the foramina spinosum and ovale. (Last's p. 562)"
+    ],
+    [
+     "There are two parietal diploic veins on each side",
+     1,
+     "One frontal, two parietal and one occipital. (Last's p. 562)"
+    ],
+    [
+     "The pterion lies 3 cm above the midpoint of the zygomatic arch and in front of the frontozygomatic suture",
+     0,
+     "It lies behind and above the frontozygomatic suture. (Last's p. 562)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dural nerves",
+   "y": 1,
+   "s": "Concerning the nerve supply of the dura (Last's):",
+   "o": [
+    [
+     "Most of the supratentorial dura is supplied by the ophthalmic nerve",
+     1,
+     "Via the tentorial nerves. (Last's p. 562)"
+    ],
+    [
+     "The anterior part of the middle fossa is supplied by the mandibular nerve",
+     0,
+     "The anterior part is the maxillary (middle meningeal nerve); the posterior part the mandibular. (Last's p. 563)"
+    ],
+    [
+     "The under surface of the tentorium is supplied by IX and X",
+     1,
+     "The dura around the foramen magnum is C1–3. (Last's p. 563)"
+    ],
+    [
+     "The upper surface of the tentorium is supplied by the vagus",
+     0,
+     "It is supplied by the tentorial branches of the ophthalmic nerve. (Last's p. 562-3)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Venous sinuses",
+   "y": 1,
+   "s": "Concerning the dural venous sinuses (Last's):",
+   "o": [
+    [
+     "The inferior sagittal and straight sinuses receive no blood from bone",
+     1,
+     "They lie in the inner layer folds, not between the two layers. (Last's p. 563)"
+    ],
+    [
+     "The superior sagittal sinus drains the frontal pole",
+     0,
+     "It does not; superior cerebral veins enter it obliquely against the flow. (Last's p. 563)"
+    ],
+    [
+     "The straight sinus usually turns into the left transverse sinus",
+     1,
+     "The superior sagittal usually turns right. (Last's p. 563)"
+    ],
+    [
+     "The surface marking of the transverse sinus is higher than the superior nuchal line",
+     0,
+     "Last's says it is lower than commonly thought, along the superior nuchal line. (Last's p. 563)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Venous sinuses",
+   "y": 1,
+   "s": "Concerning the sinuses of the posterior fossa (Last's):",
+   "o": [
+    [
+     "The jugular bulb occupies the posterior and largest compartment of the jugular foramen",
+     1,
+     "(Last's p. 564)"
+    ],
+    [
+     "The superior petrosal sinus enters the sigmoid sinus at its lower end",
+     0,
+     "It enters at the upper end; the occipital sinus enters the lower end. (Last's p. 564)"
+    ],
+    [
+     "The occipital sinus drains the choroid plexus of the fourth ventricle",
+     1,
+     "It communicates with the internal vertebral plexus at the foramen magnum. (Last's p. 564)"
+    ],
+    [
+     "Veins accompany the vertebral arteries within the skull",
+     0,
+     "No veins accompany the vertebral or basilar arteries. (Last's p. 564)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cavernous sinus",
+   "y": 1,
+   "s": "Concerning the cavernous sinus (Last's):",
+   "o": [
+    [
+     "Each cavernous sinus holds about 1.5 ml",
+     1,
+     "It is spindle-shaped in lateral view. (Last's p. 566)"
+    ],
+    [
+     "The floor of the cavernous sinus is the body of the sphenoid",
+     0,
+     "The floor is a narrow strip of endosteum on the base of the greater wing; the medial wall is the body. (Last's p. 564)"
+    ],
+    [
+     "The anterior wall of the cavernous sinus plugs the medial end of the superior orbital fissure",
+     1,
+     "It is largely taken up by the ophthalmic veins. (Last's p. 565)"
+    ],
+    [
+     "The sphenoidal air sinus tends to shrink posteriorly with age",
+     0,
+     "It tends to increase posteriorly with advancing years. (Last's p. 566)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cavernous sinus",
+   "y": 1,
+   "s": "Concerning the cavernous sinus contents (Last's):",
+   "o": [
+    [
+     "The internal carotid artery pierces the roof just medial to the anterior clinoid process",
+     1,
+     "It enters the back of the sinus from the foramen lacerum. (Last's p. 566)"
+    ],
+    [
+     "Within the cavernous sinus VI lies medial to the internal carotid artery",
+     0,
+     "It lies lateral to the artery, then below it. (Last's p. 567)"
+    ],
+    [
+     "No nerve lies lateral to V or medial to VI in the cavernous sinus",
+     1,
+     "III slopes down crossing medial to IV and V. (Last's p. 567)"
+    ],
+    [
+     "The mandibular division lies in the lateral wall of the cavernous sinus",
+     0,
+     "Strictly it does not contact the lateral wall. (Last's p. 567)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cavernous sinus",
+   "y": 1,
+   "s": "Concerning cavernous sinus drainage (Last's):",
+   "o": [
+    [
+     "The inferior petrosal sinus drains most of the cavernous sinus blood",
+     1,
+     "It leaves beneath the petroclinoid ligament. (Last's p. 567)"
+    ],
+    [
+     "The inferior petrosal sinus enters the jugular foramen lateral to IX",
+     0,
+     "It enters the anterior compartment medial to IX. (Last's p. 567)"
+    ],
+    [
+     "The superior petrosal sinus receives veins from the internal ear",
+     1,
+     "Through separate foramina in the petrous bone. (Last's p. 567)"
+    ],
+    [
+     "The inferior ophthalmic vein drains entirely into the cavernous sinus",
+     0,
+     "Much of its blood drains through the inferior orbital fissure to the pterygoid plexus. (Last's p. 567)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cavernous sinus",
+   "y": 1,
+   "s": "Concerning cavernous sinus connections (Last's):",
+   "o": [
+    [
+     "The inferior petrosal sinus is the first (highest) tributary of the internal jugular vein",
+     1,
+     "It joins a short distance below the skull base. (Last's p. 568)"
+    ],
+    [
+     "The foramen of Vesalius lies lateral to the foramen ovale",
+     0,
+     "It lies medial to the foramen ovale. (Last's p. 568)"
+    ],
+    [
+     "The \"danger area\" of the face lies above the level of the deep facial vein",
+     1,
+     "Between the angular and deep facial routes to the sinus. (Last's p. 568)"
+    ],
+    [
+     "Last's says the ophthalmoplegia of cavernous sinus thrombosis is the usual cause of death",
+     0,
+     "Ophthalmoplegia is not dangerous; retrograde thrombosis of the inferior petrosal sinus and medullary veins is usually fatal. (Last's p. 568)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Intracranial haemorrhage",
+   "y": 1,
+   "s": "Concerning intracranial haemorrhage (Last's):",
+   "o": [
+    [
+     "Extradural haemorrhage most often arises from the frontal branch of the middle meningeal artery",
+     1,
+     "It may compress the motor area and cause contralateral hemiparesis. (Last's p. 568)"
+    ],
+    [
+     "Subdural haemorrhage contaminates the CSF",
+     0,
+     "Only subarachnoid haemorrhage does. (Last's p. 568)"
+    ],
+    [
+     "Last's says no intracranial haemorrhage ever separates the two dural layers",
+     1,
+     "Nor the pia from the brain. (Last's p. 568)"
+    ],
+    [
+     "Subdural haemorrhage usually comes from a ruptured middle meningeal vein",
+     0,
+     "It usually comes from a superior cerebral vein entering the superior sagittal sinus. (Last's p. 568)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Anterior cranial fossa",
+   "y": 1,
+   "s": "Concerning the anterior cranial fossa (Last's):",
+   "o": [
+    [
+     "Up to 20 olfactory filaments on each side pierce the dura over the cribriform plate",
+     1,
+     "They cross the subarachnoid space to the bulb. (Last's p. 568)"
+    ],
+    [
+     "A patent vein through the foramen caecum is present in most adults",
+     0,
+     "It is present in only 1%. (Last's p. 568)"
+    ],
+    [
+     "The anterior ethmoidal nerve leaves the fossa through a slit beside the front of the crista galli",
+     1,
+     "It enters near the back of the cribriform plate. (Last's p. 568)"
+    ],
+    [
+     "The anterior ethmoidal nerve has a long course in the anterior cranial fossa",
+     0,
+     "Its course there is very short. (Last's p. 568)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pituitary",
+   "y": 1,
+   "s": "Concerning the pituitary (Last's):",
+   "o": [
+    [
+     "Pars distalis cells are 50% chromophobes, 35% acidophils and 15% basophils",
+     1,
+     "The pars distalis is 75% of the gland. (Last's p. 569)"
+    ],
+    [
+     "Acidophils secrete ACTH",
+     0,
+     "Acidophils secrete GH and prolactin; basophils ACTH, TSH, FSH, LH. (Last's p. 569)"
+    ],
+    [
+     "Neurosecretory material travels down the pituitary stalk at about 3 mm/day",
+     1,
+     "Bound to neurophysin. (Last's p. 569)"
+    ],
+    [
+     "Vasopressin comes mainly from the paraventricular nucleus",
+     0,
+     "Mainly from the supraoptic; oxytocin mainly from the paraventricular. (Last's p. 569)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pituitary",
+   "y": 1,
+   "s": "Concerning the pituitary and its relations (Last's):",
+   "o": [
+    [
+     "The pars intermedia probably secretes MSH",
+     1,
+     "It consists of colloid-filled vesicles behind a cleft. (Last's p. 569)"
+    ],
+    [
+     "The function of the pars tuberalis cells is known to be gonadotrophin secretion",
+     0,
+     "Their function is not known. (Last's p. 569)"
+    ],
+    [
+     "There is no blood–brain barrier in the posterior pituitary or median eminence",
+     1,
+     "(Last's p. 570)"
+    ],
+    [
+     "In the transsphenoidal approach via the septum the nasal cavity is entered",
+     0,
+     "The nasal mucosa is elevated and the septum removed; the nasal cavity itself is not entered. (Last's p. 570)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle cranial fossa",
+   "y": 1,
+   "s": "Concerning the middle cranial fossa (Last's):",
+   "o": [
+    [
+     "A rising pituitary tumour presses on the lower anterior part of the chiasma",
+     1,
+     "Causing temporal field loss. (Last's p. 569)"
+    ],
+    [
+     "In the optic canal the ophthalmic artery lies above and medial to the optic nerve",
+     0,
+     "The artery comes from below and lateral; the nerve from above and medial. (Last's p. 570)"
+    ],
+    [
+     "The intracranial optic nerve is clad only in pia",
+     1,
+     "It gets its dura and arachnoid at the optic canal. (Last's p. 570)"
+    ],
+    [
+     "The intracranial optic nerve is supplied by the ophthalmic artery",
+     0,
+     "Branches of the anterior cerebral artery from the chiasma supply it. (Last's p. 570)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Oculomotor and trochlear",
+   "y": 1,
+   "s": "Concerning III and IV intracranially (Last's):",
+   "o": [
+    [
+     "III runs just below and parallel to the posterior communicating artery",
+     1,
+     "Pupillary fibres are on its outer part. (Last's p. 570)"
+    ],
+    [
+     "The pupillary fibres of III stay dorsal along the whole intracranial course",
+     0,
+     "They lie dorsal, then medial, then inferior as the nerve enters the sinus. (Last's p. 570)"
+    ],
+    [
+     "IV runs lateral to III in the interpeduncular cistern",
+     1,
+     "Just below the free tentorial margin. (Last's p. 570)"
+    ],
+    [
+     "IV curls around the peduncle above the posterior cerebral artery",
+     0,
+     "It curls below the posterior cerebral and above the superior cerebellar artery. (Last's p. 570)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Trigeminal ganglion",
+   "y": 1,
+   "s": "Concerning the trigeminal ganglion (Last's):",
+   "o": [
+    [
+     "The trigeminal nerve leaves a groove about 5 mm wide on the petrous border",
+     1,
+     "It passes beneath the superior petrosal sinus there. (Last's p. 570)"
+    ],
+    [
+     "The whole trigeminal ganglion lies within Meckel's cave",
+     0,
+     "Only the posterior half does; the anterior half lies in front of it. (Last's p. 570)"
+    ],
+    [
+     "The greater petrosal nerve lies beneath the trigeminal cave",
+     1,
+     "Between the two layers of dura. (Last's p. 570)"
+    ],
+    [
+     "The trigeminal cave opens forwards into the middle fossa",
+     0,
+     "It lies in the middle fossa but opens backwards into the posterior fossa. (Last's p. 571)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Trigeminal ganglion",
+   "y": 1,
+   "s": "Concerning the trigeminal ganglion (Last's):",
+   "o": [
+    [
+     "Much of the trigeminal ganglion blood supply comes via the accessory meningeal artery",
+     1,
+     "It runs up along the mandibular division. (Last's p. 571)"
+    ],
+    [
+     "The dura around the trigeminal ganglion is supplied by the ophthalmic nerve",
+     0,
+     "It is supplied by the nervus spinosus (mandibular). (Last's p. 571)"
+    ],
+    [
+     "Transient facial palsy after an extradural middle fossa approach is attributed to traction on the greater petrosal nerve",
+     1,
+     "Oedema at the geniculate ganglion. (Last's p. 571)"
+    ],
+    [
+     "The motor root joins the mandibular division before the foramen ovale",
+     0,
+     "They join in the foramen ovale. (Last's p. 571)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Posterior cranial fossa",
+   "y": 1,
+   "s": "Concerning nerves in the posterior fossa (Last's):",
+   "o": [
+    [
+     "The trigeminal motor root emerges above and medial to the sensory root",
+     1,
+     "It spirals to enter Meckel's cave below it. (Last's p. 571)"
+    ],
+    [
+     "In Meckel's cave the ophthalmic fibres lie most laterally",
+     0,
+     "The mandibular lie most laterally, ophthalmic most medially. (Last's p. 571)"
+    ],
+    [
+     "VI pierces the clival dura some distance above its brainstem origin",
+     1,
+     "Then runs up between the dural layers. (Last's p. 571)"
+    ],
+    [
+     "Last's says the lesser petrosal nerve always leaves through the foramen ovale",
+     0,
+     "It leaves through the foramen ovale or the petrosal foramen. (Last's p. 571)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Internal acoustic meatus",
+   "y": 1,
+   "s": "Concerning the internal acoustic meatus (Last's):",
+   "o": [
+    [
+     "The facial nerve pierces the front of the upper part of the fundus",
+     1,
+     "The cochlear nerve pierces the front of the lower part. (Last's p. 572)"
+    ],
+    [
+     "The labyrinthine artery usually arises from AICA",
+     0,
+     "It is usually a branch of the basilar, but often arises from AICA. (Last's p. 572)"
+    ],
+    [
+     "The foramen singulare transmits the nerve to the posterior semicircular duct",
+     1,
+     "It lies behind the vestibular area. (Last's p. 572)"
+    ],
+    [
+     "The vestibular nerve pierces the fundus anteriorly",
+     0,
+     "It pierces it posteriorly, by upper and lower divisions. (Last's p. 572)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Posterior fossa",
+   "y": 1,
+   "s": "Concerning the petrous bone in the posterior fossa (Last's):",
+   "o": [
+    [
+     "In the neonate the subarcuate fossa is as large as the internal acoustic meatus",
+     1,
+     "It lodges the flocculus. (Last's p. 572)"
+    ],
+    [
+     "The subarcuate fossa lies medial to the internal acoustic meatus",
+     0,
+     "It lies lateral, below the arcuate eminence. (Last's p. 572)"
+    ],
+    [
+     "The endolymphatic sac lies beneath the inner layer of dura",
+     1,
+     "It hangs from the aqueduct of the vestibule. (Last's p. 572)"
+    ],
+    [
+     "VI is resistant to raised intracranial pressure because of its short intracranial course",
+     0,
+     "Its long intracranial course makes it vulnerable; lateral rectus palsy is often early. (Last's p. 572)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Jugular foramen",
+   "y": 1,
+   "s": "Concerning the jugular foramen (Last's):",
+   "o": [
+    [
+     "The spinal accessory rootlets come from the upper five or six cervical segments",
+     1,
+     "They emerge behind the denticulate ligament. (Last's p. 572)"
+    ],
+    [
+     "The spinal root of XI ascends medial to the vertebral artery",
+     0,
+     "It passes over the denticulate ligament lateral to the artery. (Last's p. 572)"
+    ],
+    [
+     "IX and the inferior petrosal sinus share the anterior compartment",
+     1,
+     "X and XI lie in the middle compartment. (Last's p. 572)"
+    ],
+    [
+     "In the jugular foramen XI descends medial to the vagus",
+     0,
+     "It descends lateral to the vagus; IX and XI lie lateral to X. (Last's p. 572-3)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Posterior fossa",
+   "y": 1,
+   "s": "Concerning the posterior fossa (Last's):",
+   "o": [
+    [
+     "Perilymph drains to the subarachnoid space through the aqueduct of the cochlea",
+     1,
+     "It opens in the notch indented by IX. (Last's p. 572)"
+    ],
+    [
+     "The hypoglossal rootlets unite into a single root before entering the canal",
+     0,
+     "They form two roots separated by a dural septum that may ossify. (Last's p. 573)"
+    ],
+    [
+     "The hypoglossal canal lies in the junction of basiocciput and jugular process",
+     1,
+     "(Last's p. 573)"
+    ],
+    [
+     "The vertebral artery gives its meningeal branches after piercing the dura",
+     0,
+     "It gives them before piercing the spinal dura. (Last's p. 573)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Posterior fossa arteries",
+   "y": 1,
+   "s": "Concerning the posterior fossa arteries (Last's):",
+   "o": [
+    [
+     "Last's calls PICA perhaps the most tortuous artery in the body",
+     1,
+     "Its coils lie between the XII, XI and X rootlets. (Last's p. 573)"
+    ],
+    [
+     "The basilar artery produces the median groove of the pons",
+     0,
+     "It does not; it is usually curved to one side. (Last's p. 573)"
+    ],
+    [
+     "The vertebral artery runs between the lowest XII rootlets and the highest C1 rootlets",
+     1,
+     "In front of the denticulate ligament. (Last's p. 573)"
+    ],
+    [
+     "The vertebral arteries unite at the upper border of the pons",
+     0,
+     "They unite at the lower border; the basilar ends at the upper border. (Last's p. 573)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebral canal",
+   "y": 1,
+   "s": "Concerning the vertebral canal (Last's):",
+   "o": [
+    [
+     "The internal vertebral plexus acts as a bypass of the diaphragm",
+     1,
+     "During sudden rises in abdominal pressure. (Last's p. 574)"
+    ],
+    [
+     "The internal vertebral veins contain valves",
+     0,
+     "There are none, so cancer may spread from breast, prostate, thyroid and kidney. (Last's p. 574)"
+    ],
+    [
+     "The spinal dura is firmly attached to the posterior longitudinal ligament on the axis body",
+     1,
+     "Elsewhere it lies free. (Last's p. 574)"
+    ],
+    [
+     "Epidural and extradural spaces are different spaces",
+     0,
+     "The terms are synonymous. (Last's p. 574)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal meninges",
+   "y": 1,
+   "s": "Concerning the spinal meninges (Last's):",
+   "o": [
+    [
+     "The lowest denticulation of the denticulate ligament lies at the L1 root",
+     1,
+     "(Last's p. 575)"
+    ],
+    [
+     "The filum terminale is part of the cauda equina",
+     0,
+     "The cauda equina consists of nerve roots only. (Last's p. 575)"
+    ],
+    [
+     "The spinal subarachnoid space holds about 75 ml of CSF",
+     1,
+     "Half of the total 150 ml. (Last's p. 575)"
+    ],
+    [
+     "The denticulate teeth attach to the dura opposite the issuing nerve roots",
+     0,
+     "They attach between the issuing roots. (Last's p. 575)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
    "t": "Skull vault",
    "y": 1,
    "s": "Concerning the skull vault (Last's):",

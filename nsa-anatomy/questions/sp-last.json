@@ -3,6 +3,64 @@
  "region": "Vertebral column & back",
  "questions": [
   {
+   "t": "Vertebral development",
+   "y": 1,
+   "s": "Concerning ossification of the vertebrae (Last's):",
+   "o": [
+    [
+     "Cervical and lumbar costal elements have no separate bony centre",
+     1,
+     "They ossify by extension from the neural arch; an occasional centre at C7 or L1 gives a cervical or lumbar rib. (Last's p. 558)"
+    ],
+    [
+     "The sacral costal elements have no bony centres",
+     0,
+     "The weight-bearing sacral costal elements have centres, appearing at 6 months of fetal life. (Last's p. 558)"
+    ],
+    [
+     "The atlas ossifies from a centre in each lateral mass in the seventh week",
+     1,
+     "They unite posteriorly at 4 years; an anterior arch centre appears at 1 year. (Last's p. 558)"
+    ],
+    [
+     "The secondary centre for the tip of the dens fuses at about 3 years",
+     0,
+     "It appears at about 3 and fuses at 12; the dens joins the body at 3. (Last's p. 558)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebral development",
+   "y": 1,
+   "s": "Concerning vertebral development (Last's):",
+   "o": [
+    [
+     "The anterior arch–lateral mass junction may permanently divide the upper atlas facet",
+     1,
+     "It crosses the front of the upper articular surface and fuses at 7 years. (Last's p. 558)"
+    ],
+    [
+     "The epiphyseal ring for the lower axis body fuses in the early teens",
+     0,
+     "It appears at puberty and fuses at about 25. (Last's p. 558)"
+    ],
+    [
+     "Mamillary processes of T12 and the lumbar vertebrae have secondary centres",
+     1,
+     "They appear after puberty and fuse in the early twenties. (Last's p. 558)"
+    ],
+    [
+     "The sacral costal centres fuse with the neural arches at about 12 years",
+     0,
+     "They fuse with the arches at about 5 years and with the bodies in the early twenties. (Last's p. 558)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
    "t": "Vertebral column",
    "y": 1,
    "s": "Concerning the vertebral column (Last's):",
