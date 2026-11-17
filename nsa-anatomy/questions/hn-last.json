@@ -1,0 +1,1456 @@
+{
+ "code": "hn",
+ "region": "Head & neck",
+ "questions": [
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning movements of the larynx (Last's):",
+   "o": [
+    [
+     "The inferior constrictor is an elevator of the larynx",
+     1,
+     "Its uppermost fibres pass very high on the pharyngeal raphe.\nLast's calls this unexpected at first sight. (Last's p. 505)"
+    ],
+    [
+     "Stylopharyngeus inserts essentially into the pharyngeal wall",
+     0,
+     "Its essential insertion is into the larynx; Last's would rename it stylolaryngeus.\nSo too salpingo- and palatopharyngeus. (Last's p. 505)"
+    ],
+    [
+     "Sternothyroid acts directly to depress the larynx",
+     1,
+     "Sternohyoid and omohyoid act indirectly via the hyoid. (Last's p. 505)"
+    ],
+    [
+     "Last's prefers tracheotomy to laryngotomy in an emergency",
+     0,
+     "Emergency laryngotomy through the cricothyroid ligament is preferred.\nThere are no large midline vessels there. (Last's p. 504-5)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Orbit",
+   "y": 1,
+   "s": "Concerning the bony orbit (Last's):",
+   "o": [
+    [
+     "The medial wall is about 5 cm long",
+     1,
+     "It runs from the anterior lacrimal crest back to the body of the sphenoid and optic canal.\nThe lateral wall is also about 5 cm. (Last's p. 505-6)"
+    ],
+    [
+     "The lateral walls of the two orbits are parallel",
+     0,
+     "The medial walls are parallel; the lateral walls make a right angle with each other.\nProlonged back they would meet at the pituitary fossa. (Last's p. 506)"
+    ],
+    [
+     "The infraorbital margin is formed half and half by zygomatic bone and maxilla",
+     1,
+     "They meet at a suture.\nA suture leading to the infraorbital foramen closes in later life. (Last's p. 506)"
+    ],
+    [
+     "The orbital floor is completed behind by the orbital process of the zygomatic bone",
+     0,
+     "It is completed at the apex by the orbital process of the palatine bone.\nThe zygomatic completes it laterally in front. (Last's p. 506)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Orbit",
+   "y": 1,
+   "s": "Concerning the orbit (Last's):",
+   "o": [
+    [
+     "The orbital fascia is the periosteum of the orbit",
+     1,
+     "At the back it is continuous with the dura and the optic nerve sheath. (Last's p. 505)"
+    ],
+    [
+     "Orbital fat volume falls markedly with general weight loss",
+     0,
+     "It remains very constant in volume despite changes in general body fat and fluid.\nIt cushions the eye. (Last's p. 505)"
+    ],
+    [
+     "The marginal tubercle lies just inside the upper lateral orbital margin",
+     1,
+     "It is on the zygomatic bone (of Whitnall).\nThe lateral palpebral ligament attaches to it. (Last's p. 506-7)"
+    ],
+    [
+     "The inferior orbital fissure leads into the middle cranial fossa",
+     0,
+     "It leads into the pterygopalatine and infratemporal fossae.\nThe superior orbital fissure leads into the middle fossa. (Last's p. 506)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eyelids",
+   "y": 1,
+   "s": "Concerning the eyelids (Last's):",
+   "o": [
+    [
+     "The tarsal plates are dense fibrous tissue, not cartilage",
+     1,
+     "They are thickenings of the orbital septum. (Last's p. 506-7)"
+    ],
+    [
+     "The lateral palpebral ligament is stronger than the medial",
+     0,
+     "The lateral is much thinner, fusing with the lateral palpebral raphe.\nThe medial anchors the tarsal plates to the anterior lacrimal crest. (Last's p. 507)"
+    ],
+    [
+     "The angular vein lies superficial to orbicularis at the medial canthus",
+     1,
+     "So does the termination of the facial artery. (Last's p. 507)"
+    ],
+    [
+     "The lower lid is supplied by the infratrochlear nerve",
+     0,
+     "The lower lid is supplied by the infraorbital nerve.\nThe infratrochlear supplies the upper lid with lacrimal, supraorbital and supratrochlear. (Last's p. 507)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Conjunctiva",
+   "y": 1,
+   "s": "Concerning the conjunctiva (Last's):",
+   "o": [
+    [
+     "Its goblet cells lie in islands mainly in the upper fornix",
+     1,
+     "Elsewhere it has stratified squamous epithelium. (Last's p. 507)"
+    ],
+    [
+     "The plica semilunaris lies at the lateral canthus",
+     0,
+     "It lies near the medial canthus; its slack allows lateral deviation of the cornea.\nIt may be homologous with the third eyelid. (Last's p. 507)"
+    ],
+    [
+     "The lacus lacrimalis lies between the plica and caruncle",
+     1,
+     "Excess tears accumulate here before entering the canaliculi. (Last's p. 507)"
+    ],
+    [
+     "The cornea is supplied by the nerves of the overlying lid skin",
+     0,
+     "The cornea has a separate supply from long and short ciliary nerves.\nThe conjunctiva is supplied by the lid nerves. (Last's p. 507)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lacrimal apparatus",
+   "y": 1,
+   "s": "Concerning the lacrimal apparatus (Last's):",
+   "o": [
+    [
+     "Ducts of the orbital part pass through the palpebral part",
+     1,
+     "A dozen or more ducts open into the lateral superior fornix. (Last's p. 508)"
+    ],
+    [
+     "Lid closure begins at the medial side of the upper lid",
+     0,
+     "It begins laterally and moves medially, spreading tears. (Last's p. 508)"
+    ],
+    [
+     "The posterior layer of the tear film is mucus from conjunctival goblet cells",
+     1,
+     "The outer layer is oil; the middle aqueous. (Last's p. 508)"
+    ],
+    [
+     "Blinking is produced by the orbital fibres of orbicularis oculi",
+     0,
+     "It is produced by the palpebral fibres and does not diminish the conjunctival sac.\nOrbital fibres compress the sac. (Last's p. 508)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lacrimal apparatus",
+   "y": 1,
+   "s": "Concerning the lacrimal sac and duct (Last's):",
+   "o": [
+    [
+     "The lacrimal sac is really the blind upper end of the nasolacrimal duct",
+     1,
+     "Its wall has much elastic tissue. (Last's p. 508)"
+    ],
+    [
+     "The nasolacrimal duct slopes downwards and medially",
+     0,
+     "It slopes downwards and laterally, conforming with the nasal cavity. (Last's p. 508)"
+    ],
+    [
+     "The nasolacrimal duct opens rather more than 2 cm behind the nostril",
+     1,
+     "It opens in the inferior meatus; it is 2 cm long with a 3.5 mm lumen. (Last's p. 508)"
+    ],
+    [
+     "When orbicularis relaxes the sac is drawn open",
+     0,
+     "Contraction draws the sac open and sucks tears in; relaxation lets it recoil and pump them down. (Last's p. 508)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Extraocular muscles",
+   "y": 1,
+   "s": "Concerning the orbital muscles (Last's):",
+   "o": [
+    [
+     "Orbitalis lies on the orbital floor",
+     1,
+     "It is smooth muscle of little human interest. (Last's p. 508)"
+    ],
+    [
+     "The eyes lie symmetrically in the axis of the orbit",
+     0,
+     "They do not; the eyes face forward in parallel while the orbits diverge. (Last's p. 508)"
+    ],
+    [
+     "The optic nerve and ocular muscles arise at the back of the medial wall",
+     1,
+     "They pass laterally, not straight forwards, to the eye. (Last's p. 508)"
+    ],
+    [
+     "Levator palpebrae superioris is counted among the six extraocular muscles",
+     0,
+     "The six are four recti and two obliques; levator and orbitalis are extra. (Last's p. 508)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Orbit",
+   "y": 1,
+   "s": "The superior orbital fissure and tendinous ring (Last's):",
+   "o": [
+    [
+     "The superior orbital fissure is retort-shaped with the broad end medially",
+     1,
+     "The tendinous ring surrounds the bulb of the retort and the optic foramen. (Last's p. 509)"
+    ],
+    [
+     "Levator palpebrae superioris arises from the tendinous ring",
+     0,
+     "Levator and superior oblique arise from bone above the ring; the four recti from the ring. (Last's p. 509)"
+    ],
+    [
+     "The only nasociliary branches leaving the cone pass beneath superior oblique",
+     1,
+     "They are the posterior and anterior ethmoidal and infratrochlear nerves. (Last's p. 509)"
+    ],
+    [
+     "The trochlear nerve passes through the tendinous ring",
+     0,
+     "Lacrimal, frontal and trochlear pass outside the ring and stay outside the cone. (Last's p. 509)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Extraocular muscles",
+   "y": 1,
+   "s": "Concerning levator palpebrae superioris (Last's):",
+   "o": [
+    [
+     "Its nerve may pierce the superior rectus to reach it",
+     1,
+     "The superior division branch pierces superior rectus or passes on its medial side. (Last's p. 509)"
+    ],
+    [
+     "Its smooth muscle part's sympathetic cell bodies lie in the inferior cervical ganglion",
+     0,
+     "They lie in the superior cervical ganglion. (Last's p. 509)"
+    ],
+    [
+     "Facial nerve paralysis does not cause ptosis",
+     1,
+     "It prevents screwing up the lids.\nComplete III palsy gives complete ptosis. (Last's p. 509)"
+    ],
+    [
+     "Its weaker posterior tendon flange attaches to the skin of the upper lid",
+     0,
+     "The front flange reaches the skin; the weaker posterior flange attaches to the superior fornix. (Last's p. 509)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Extraocular muscles",
+   "y": 1,
+   "s": "Concerning the recti (Last's):",
+   "o": [
+    [
+     "The superior and medial recti also arise from the dural sheath of the optic nerve",
+     1,
+     "This is why retrobulbar neuritis can cause pain on eye movement. (Last's p. 509)"
+    ],
+    [
+     "The lateral rectus has the shortest origin of the recti",
+     0,
+     "Its origin is C-shaped and longer than the others, bridging the fissure. (Last's p. 509)"
+    ],
+    [
+     "The medial rectus passes below the superior oblique",
+     1,
+     "It runs along the medial wall to insert in front of the equator. (Last's p. 509)"
+    ],
+    [
+     "An expansion from the sheath of the inferior rectus passes below the inferior oblique",
+     0,
+     "It passes above the inferior oblique into the lower lid. (Last's p. 509)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Extraocular muscles",
+   "y": 1,
+   "s": "Concerning the oblique muscles (Last's):",
+   "o": [
+    [
+     "The trochlea lies a few millimetres behind the superomedial orbital margin",
+     1,
+     "It is attached beneath the frontal sinus. (Last's p. 510)"
+    ],
+    [
+     "The superior oblique tendon passes above the superior rectus to its insertion",
+     0,
+     "It passes under the superior rectus to the posterosuperior quadrant. (Last's p. 510)"
+    ],
+    [
+     "The inferior oblique usually leaves no mark on the bone",
+     1,
+     "Occasionally a pit is seen near the nasolacrimal canal. (Last's p. 510)"
+    ],
+    [
+     "The inferior oblique passes above the inferior rectus",
+     0,
+     "It passes below the inferior rectus, then between lateral rectus and sclera. (Last's p. 510)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Fascia bulbi",
+   "y": 1,
+   "s": "Concerning the fascial sheath of the eye (Last's):",
+   "o": [
+    [
+     "The medial check ligament attaches to the posterior lacrimal crest",
+     1,
+     "The lateral check ligament attaches to the marginal tubercle at the same level. (Last's p. 511)"
+    ],
+    [
+     "The eye rests on the floor of the orbit",
+     0,
+     "It is suspended by the suspensory ligament, nearer the superior margin. (Last's p. 511)"
+    ],
+    [
+     "The maxilla can be removed up to the marginal tubercle without the eye descending",
+     1,
+     "Above this the suspensory attachments are lost and diplopia results. (Last's p. 511)"
+    ],
+    [
+     "Contracting recti displace the eye backwards",
+     0,
+     "Neither resting nor contracting recti do; it rotates about a fixed centre. (Last's p. 511)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Orbital nerves",
+   "y": 1,
+   "s": "Concerning nerves entering the orbit (Last's):",
+   "o": [
+    [
+     "Seven nerves pass through the superior orbital fissure",
+     1,
+     "III (two divisions), IV, VI, and lacrimal, frontal and nasociliary. (Last's p. 511)"
+    ],
+    [
+     "The frontal nerve gives branches to the extraocular muscles",
+     0,
+     "Frontal and infraorbital nerves give only periosteal twigs; they use the orbit for transit. (Last's p. 511)"
+    ],
+    [
+     "The zygomatic nerve gives its lacrimal communication before entering its foramen",
+     1,
+     "It runs along the lower lateral wall to the zygomatico-orbital foramen. (Last's p. 512)"
+    ],
+    [
+     "The ophthalmic artery crosses the optic nerve from medial to lateral",
+     0,
+     "It crosses obliquely superficially from lateral to medial, with nasociliary and superior ophthalmic vein just behind. (Last's p. 512)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Orbital nerves",
+   "y": 1,
+   "s": "Nerves inside and outside the cone (Last's):",
+   "o": [
+    [
+     "The lacrimal nerve is the smallest of the three main V1 branches",
+     1,
+     "It runs along the upper border of lateral rectus. (Last's p. 512)"
+    ],
+    [
+     "The trochlear nerve lies lateral to the frontal nerve",
+     0,
+     "It lies medial to the frontal nerve, crossing the origin of levator. (Last's p. 512)"
+    ],
+    [
+     "The inferior division of III is the larger",
+     1,
+     "It gives nerves to inferior rectus, medial rectus and inferior oblique. (Last's p. 512)"
+    ],
+    [
+     "The nerve to medial rectus passes above the optic nerve",
+     0,
+     "It passes below the optic nerve. (Last's p. 512)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Orbital nerves",
+   "y": 1,
+   "s": "Concerning the nasociliary nerve in the orbit (Last's):",
+   "o": [
+    [
+     "It runs lateral to the ophthalmic artery after entering the ring",
+     1,
+     "It then crosses above the optic nerve, behind the artery, from lateral to medial. (Last's p. 513)"
+    ],
+    [
+     "It reaches the medial wall between the medial rectus and inferior rectus",
+     0,
+     "It approaches the medial wall between the superior oblique and superior rectus. (Last's p. 513)"
+    ],
+    [
+     "The infratrochlear nerve supplies the lacrimal sac",
+     1,
+     "It passes above the medial palpebral ligament to the upper lid and bridge of the nose. (Last's p. 513)"
+    ],
+    [
+     "The posterior ethmoidal nerve is the most proximal branch of the nasociliary in the cone",
+     0,
+     "It is the most distal of the branches within the cone. (Last's p. 513)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ciliary ganglion",
+   "y": 1,
+   "s": "Concerning the ciliary ganglion (Last's):",
+   "o": [
+    [
+     "It lies about 8 mm from the apex of the orbit",
+     1,
+     "That is a third of the way to the eye, lateral to the optic nerve, 2 mm across. (Last's p. 513)"
+    ],
+    [
+     "Dividing its sensory root abolishes the conjunctival reflex",
+     0,
+     "It abolishes the corneal reflex but not the conjunctival reflex. (Last's p. 513)"
+    ],
+    [
+     "Its sympathetic root passes through the ring just below the nasociliary nerve",
+     1,
+     "It carries vasoconstrictor fibres to the eye's vessels. (Last's p. 513)"
+    ],
+    [
+     "Most of its postganglionic fibres supply sphincter pupillae",
+     0,
+     "Only 3% supply the sphincter (about 50 motor units); the vast majority supply the ciliary muscle. (Last's p. 513)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ciliary nerves",
+   "y": 1,
+   "s": "Concerning the ciliary nerves (Last's):",
+   "o": [
+    [
+     "The long ciliary nerves pierce the sclera medial to the short ciliary nerves",
+     1,
+     "There are two of them. (Last's p. 513)"
+    ],
+    [
+     "The long ciliary nerves help alter the shape of the lens",
+     0,
+     "Only the short ciliary nerves constrict the pupil and alter the lens.\nBoth carry corneal sensation. (Last's p. 514)"
+    ],
+    [
+     "Last's orbit chapter says there are a dozen or more short ciliary nerves",
+     1,
+     "The cranial nerve chapter says 8–10.\nEach contains fibres from all three roots. (Last's p. 513, 632)"
+    ],
+    [
+     "The short ciliary nerves run in the subretinal space",
+     0,
+     "They run in the suprachoroidal space. (Last's p. 513)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ophthalmic artery",
+   "y": 1,
+   "s": "Concerning the ophthalmic artery (Last's):",
+   "o": [
+    [
+     "The optic nerve joins it from above in the optic canal",
+     1,
+     "Both lie in a tubular prolongation of dura. (Last's p. 514)"
+    ],
+    [
+     "The supraorbital artery is one of its terminal branches",
+     0,
+     "Its terminal branches are the supratrochlear and dorsal nasal; the supraorbital arises far back. (Last's p. 514)"
+    ],
+    [
+     "The central artery is its first and smallest branch",
+     1,
+     "It is also by far the most important; it is an end artery. (Last's p. 514)"
+    ],
+    [
+     "The central artery anastomoses freely with the posterior ciliary arteries",
+     0,
+     "There is no anastomosis between the two sets. (Last's p. 514)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Orbital veins",
+   "y": 1,
+   "s": "Concerning orbital veins and lymphatics (Last's):",
+   "o": [
+    [
+     "The superior ophthalmic vein communicates with the angular vein",
+     1,
+     "It drains directly into the cavernous sinus. (Last's p. 514)"
+    ],
+    [
+     "The inferior ophthalmic vein drains only into the cavernous sinus",
+     0,
+     "It drains through the inferior orbital fissure into the pterygoid plexus. (Last's p. 514)"
+    ],
+    [
+     "Orbital lymph drains to preauricular and parotid nodes",
+     1,
+     "Then to the upper deep cervical nodes. (Last's p. 514)"
+    ],
+    [
+     "The ocular muscles have unusually few muscle spindles",
+     0,
+     "They have an unusually high proportion of spindles and nerve fibres. (Last's p. 514)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eye movements",
+   "y": 1,
+   "s": "Concerning eye movements (Last's):",
+   "o": [
+    [
+     "Superior and inferior recti both turn the eye in",
+     1,
+     "Three recti (medial, superior, inferior) turn the eye in. (Last's p. 514)"
+    ],
+    [
+     "The obliques' vertical actions are greatest with the eye turned out",
+     0,
+     "They become effective when the eye is turned in.\nThe recti act best with the eye turned out. (Last's p. 515)"
+    ],
+    [
+     "The inferior oblique produces extorsion",
+     1,
+     "12 o'clock moves to 11 on the right cornea with inferior rectus and oblique. (Last's p. 515)"
+    ],
+    [
+     "The para-abducent nucleus projects to the opposite abducent nucleus",
+     0,
+     "It projects to the abducent nucleus of the same side and the opposite oculomotor nucleus via the MLF. (Last's p. 515)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eye movements",
+   "y": 1,
+   "s": "Nystagmus and nerve palsies (Last's):",
+   "o": [
+    [
+     "Nystagmus is named from the direction of the quick phase",
+     1,
+     "Usually the slow drift is away from, the quick jerk towards, gaze. (Last's p. 515)"
+    ],
+    [
+     "Iced water in an unconscious patient deviates the eyes away from the irrigated side",
+     0,
+     "It induces conjugate deviation to the same side. (Last's p. 515)"
+    ],
+    [
+     "In III palsy the consensual reflex in the opposite eye is preserved",
+     1,
+     "The affected pupil is dilated and unreactive. (Last's p. 516)"
+    ],
+    [
+     "In IV palsy the head tilts towards the affected side",
+     0,
+     "It tilts towards the opposite shoulder to counter extorsion. (Last's p. 516)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eye",
+   "y": 1,
+   "s": "Concerning the coats of the eye (Last's):",
+   "o": [
+    [
+     "The sclera can be regarded as an expansion of the dural sheath",
+     1,
+     "The choroid corresponds to arachnoid and pia; the retina to brain. (Last's p. 516)"
+    ],
+    [
+     "The sclera is thickest at the entrance of the optic nerve",
+     0,
+     "It is thinnest there, forming the sieve-like lamina cribrosa. (Last's p. 516)"
+    ],
+    [
+     "Chronic glaucoma causes the lamina cribrosa to bulge backwards",
+     1,
+     "This is cupping of the disc. (Last's p. 516)"
+    ],
+    [
+     "The sclera forms the posterior two-thirds of the eyeball",
+     0,
+     "It forms the posterior five-sixths. (Last's p. 516)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eye",
+   "y": 1,
+   "s": "Concerning the sclera and cornea (Last's):",
+   "o": [
+    [
+     "The venae vorticosae pierce the sclera just behind the coronal equator",
+     1,
+     "There are four or five of them, draining the choroid. (Last's p. 516-17)"
+    ],
+    [
+     "The episclera is avascular",
+     0,
+     "The sclera is almost avascular; the episclera is vascular and causes circumcorneal injection. (Last's p. 517)"
+    ],
+    [
+     "The radial ciliary muscle fibres attach to the scleral spur",
+     1,
+     "The spur bounds the canal of Schlemm. (Last's p. 517)"
+    ],
+    [
+     "The corneal epithelium is about twenty cell layers thick",
+     0,
+     "It is a very regular stratified squamous epithelium of about five layers.\nThe stroma has over 200 lamellae. (Last's p. 517)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eye",
+   "y": 1,
+   "s": "Concerning the cornea (Last's):",
+   "o": [
+    [
+     "Descemet's membrane is produced by the corneal endothelium",
+     1,
+     "It is the posterior limiting layer. (Last's p. 517)"
+    ],
+    [
+     "The cornea is supplied mainly by the long ciliary nerves",
+     0,
+     "Last's: mainly by the short ciliary nerves, with a few fibres in the long ciliaries. (Last's p. 517)"
+    ],
+    [
+     "Last's routes the corneal reflex through the main sensory nucleus of V",
+     1,
+     "Trigeminal ganglion (no synapse), main sensory nucleus, reticular neurons, both facial nuclei. (Last's p. 517)"
+    ],
+    [
+     "The cornea takes no oxygen directly from the air",
+     0,
+     "It takes oxygen directly from the air, plus diffusion from aqueous and limbal vessels. (Last's p. 517)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eye",
+   "y": 1,
+   "s": "Concerning the ciliary body and iris (Last's):",
+   "o": [
+    [
+     "There are about seventy ciliary processes",
+     1,
+     "They radiate about 2 mm from the anterior margin; the processes are white, the grooves black. (Last's p. 518)"
+    ],
+    [
+     "The ciliary muscle's opponent is the dilator pupillae",
+     0,
+     "It has no opponent; elastic recoil of the suprachoroid lamina re-tenses the ligament. (Last's p. 518)"
+    ],
+    [
+     "Sphincter and dilator pupillae are derived from neural ectoderm",
+     1,
+     "The ciliary muscle is mesodermal. (Last's p. 518)"
+    ],
+    [
+     "A blue iris contains abundant pigment cells",
+     0,
+     "Absent pigment cells give blue by light diffusion in front of the black posterior surface. (Last's p. 518)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pupil",
+   "y": 1,
+   "s": "Concerning pupillary control (Last's):",
+   "o": [
+    [
+     "Pupillary fibres lie on the dorsal surface of the oculomotor trunk",
+     1,
+     "They are supplied by sheath vessels, so spared in diabetic infarction but affected by aneurysm. (Last's p. 518-19)"
+    ],
+    [
+     "The accommodation pathway relays through the pretectal nucleus",
+     0,
+     "It reaches the Edinger–Westphal nucleus from the frontal eye field without the pretectal nucleus. (Last's p. 519)"
+    ],
+    [
+     "Last's expresses doubt about the pretectal explanation of the Argyll Robertson pupil",
+     1,
+     "It fails to explain why the pupil is small. (Last's p. 519)"
+    ],
+    [
+     "Horner's syndrome above the superior cervical ganglion abolishes facial sweating",
+     0,
+     "If the lesion is above the ganglion there is no loss of sweating. (Last's p. 519)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Retina",
+   "y": 1,
+   "s": "Concerning the retina (Last's):",
+   "o": [
+    [
+     "The macula lies about 3 mm lateral to the optic disc",
+     1,
+     "It is of comparable size to the disc and free of vessels. (Last's p. 520)"
+    ],
+    [
+     "In retinal detachment the pigment layer separates from the choroid",
+     0,
+     "The pigment cells stay attached; the rods, cones and inner layers detach. (Last's p. 520)"
+    ],
+    [
+     "Layer 8 contains the ganglion cell nuclei",
+     1,
+     "Layer 4 holds rod and cone nuclei; layer 6 bipolar nuclei. (Last's p. 520)"
+    ],
+    [
+     "The rods and cones are supplied by branches of the central artery",
+     0,
+     "They are supplied by diffusion from choroidal capillaries; the central artery supplies bipolar and ganglion cells. (Last's p. 521)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Retina",
+   "y": 1,
+   "s": "Concerning the retina and refraction (Last's):",
+   "o": [
+    [
+     "The central retinal vein joins the superior ophthalmic vein",
+     1,
+     "It leaves via the optic disc. (Last's p. 521)"
+    ],
+    [
+     "The ora serrata lies at the equator",
+     0,
+     "It lies halfway between the equator and the corneoscleral junction. (Last's p. 519)"
+    ],
+    [
+     "Most refraction occurs at the air–cornea junction",
+     1,
+     "Light then passes through aqueous, lens and vitreous. (Last's p. 521)"
+    ],
+    [
+     "The upper and lower temporal retinal arteries cross the macula",
+     0,
+     "They curve up and down to clear the macula. (Last's p. 521)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Eye",
+   "y": 1,
+   "s": "Concerning the chambers, lens and vitreous (Last's):",
+   "o": [
+    [
+     "The posterior surface of the lens is more convex than the anterior",
+     1,
+     "The lens is about 10 mm in diameter. (Last's p. 522)"
+    ],
+    [
+     "The lens capsule is thickest at the posterior pole",
+     0,
+     "It is thickest anteriorly near the circumference.\nThe capsular epithelium lies anteriorly. (Last's p. 522)"
+    ],
+    [
+     "The vitreous body occupies the posterior four-fifths of the eyeball",
+     1,
+     "It is attached to the optic disc and just in front of the ora serrata.\nThe hyaloid canal marks the embryonic hyaloid artery. (Last's p. 522)"
+    ],
+    [
+     "The anterior chamber is about 1 mm deep",
+     0,
+     "It is about 3 mm deep. (Last's p. 522)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lymph drainage",
+   "y": 1,
+   "s": "Lymph drainage of the head and neck (Last's):",
+   "o": [
+    [
+     "A single lingual node may lie on the outer surface of hyoglossus",
+     1,
+     "A single buccal node may lie on buccinator. (Last's p. 522)"
+    ],
+    [
+     "Upper deep cervical nodes drain the thyroid gland",
+     0,
+     "The lower group drains the face, anterior scalp, anterior tongue, lower pharynx, larynx, thyroid and mediastinum. (Last's p. 523)"
+    ],
+    [
+     "Upper deep cervical nodes drain the tonsil and the back of the tongue",
+     1,
+     "They also drain the ear, nose, sinuses and upper pharynx and larynx. (Last's p. 523)"
+    ],
+    [
+     "The right jugular trunk usually drains into the thoracic duct",
+     0,
+     "The left trunk usually joins the thoracic duct; the right reaches the right lymphatic duct or brachiocephalic vein. (Last's p. 523)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporomandibular joint",
+   "y": 1,
+   "s": "Concerning the temporomandibular joint (Last's):",
+   "o": [
+    [
+     "It contains no hyaline cartilage",
+     1,
+     "Both bones and the disc have the same fibrocartilage; it is atypical. (Last's p. 523)"
+    ],
+    [
+     "The disc is thickest at its centre",
+     0,
+     "It is thinnest at the centre and thickest around the edges. (Last's p. 523)"
+    ],
+    [
+     "The posterior part of the disc has crinkled fibres",
+     1,
+     "They elongate and recoil, as the posterior attachment is nearer the temporal bone. (Last's p. 523)"
+    ],
+    [
+     "The capsule is attached posteriorly to the articular tubercle",
+     0,
+     "It is attached anteriorly just in front of the articular tubercle, and posteriorly to the squamotympanic fissure. (Last's p. 523)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporomandibular joint",
+   "y": 1,
+   "s": "Concerning TMJ ligaments and stability (Last's):",
+   "o": [
+    [
+     "The sphenomandibular ligament stays constant in length in all jaw positions",
+     1,
+     "Its lower attachment is at the axis of rotation. (Last's p. 523)"
+    ],
+    [
+     "The lateral ligament is tightest in the rest position",
+     0,
+     "It is most relaxed at rest and tightened by movement away from rest. (Last's p. 523)"
+    ],
+    [
+     "Upward dislocation through the fossa roof is possible but very rare",
+     1,
+     "A blow on the drooping chin usually closes or opens the mouth further. (Last's p. 524)"
+    ],
+    [
+     "Forward TMJ dislocation is held by spasm of the anterior fibres of temporalis",
+     0,
+     "It is held by spasm of the posterior deep fibres of masseter. (Last's p. 524)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Temporomandibular joint",
+   "y": 1,
+   "s": "Concerning mandibular movements (Last's):",
+   "o": [
+    [
+     "At rest the teeth are separated by 3–4 mm",
+     1,
+     "This is the rest position. (Last's p. 524)"
+    ],
+    [
+     "Retraction is produced by the anterior fibres of temporalis",
+     0,
+     "It is produced by the lowest horizontal fibres that hook over the root of the zygomatic process. (Last's p. 524)"
+    ],
+    [
+     "The axis of jaw opening passes through the mandibular foramina",
+     1,
+     "The sphenomandibular ligaments act like the ropes of a swing. (Last's p. 524-5)"
+    ],
+    [
+     "In the unconscious patient the jaw drops by gliding in the upper compartment",
+     0,
+     "It drops by hinge movement only in the lower compartment, and the tongue swings back. (Last's p. 525)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Swallowing",
+   "y": 1,
+   "s": "Concerning the floor of the mouth and swallowing (Last's):",
+   "o": [
+    [
+     "Geniohyoid and stylohyoid set the anteroposterior position of the hyoid",
+     1,
+     "The mylohyoid raphe lengthens or shortens like a concertina. (Last's p. 525)"
+    ],
+    [
+     "The hyoid rises before the larynx in swallowing",
+     0,
+     "The larynx and pharynx first move up to the hyoid, then all rise together. (Last's p. 525)"
+    ],
+    [
+     "The epiglottis returns by its own elastic recoil",
+     1,
+     "Its framework is elastic cartilage. (Last's p. 525)"
+    ],
+    [
+     "A small liquid bolus passes in a single midline channel over the epiglottis",
+     0,
+     "It is split by the inverted epiglottis into two lateral food channels. (Last's p. 525)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "External ear",
+   "y": 1,
+   "s": "Concerning the external ear (Last's):",
+   "o": [
+    [
+     "The anteroinferior wall of the external meatus is the longest",
+     1,
+     "Because the membrane lies obliquely; the posterosuperior wall is shortest. (Last's p. 526)"
+    ],
+    [
+     "The outer two-thirds of the meatus is cartilaginous",
+     0,
+     "The outer third is cartilage, the inner two-thirds bone. (Last's p. 526)"
+    ],
+    [
+     "Ceruminous glands lie in the cartilaginous part of the meatus",
+     1,
+     "So do hairs and sebaceous glands. (Last's p. 526)"
+    ],
+    [
+     "The deep auricular artery enters the meatus through the petrotympanic fissure",
+     0,
+     "It enters through the squamotympanic fissure. (Last's p. 526)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "External ear",
+   "y": 1,
+   "s": "Nerve supply of the external ear (Last's):",
+   "o": [
+    [
+     "The great auricular nerve supplies the whole cranial surface of the auricle",
+     1,
+     "With a little overlap from the lesser occipital at the top, plus the lower lateral surface. (Last's p. 526)"
+    ],
+    [
+     "The auriculotemporal nerve supplies the lower part of the lateral surface of the auricle",
+     0,
+     "It supplies the upper lateral surface and most of the meatal skin. (Last's p. 526)"
+    ],
+    [
+     "Facial nerve twigs reach posterior meatal skin via the tympanic plexus",
+     1,
+     "Vagal twigs also spill over, extending onto the mastoid. (Last's p. 526)"
+    ],
+    [
+     "The auricular cartilage extends into the lobule",
+     0,
+     "It does not; the lobule is skin with fibrofatty tissue. (Last's p. 526)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle ear",
+   "y": 1,
+   "s": "Concerning the middle ear (Last's):",
+   "o": [
+    [
+     "It forms by interposition of part of the second pouch into the first",
+     1,
+     "Hence its mixed nerve supply. (Last's p. 526)"
+    ],
+    [
+     "The tympanic cavity is about 5 mm in diameter",
+     0,
+     "It is about 15 mm in diameter, shaped like a tilted biconcave lens. (Last's p. 526-7)"
+    ],
+    [
+     "The tympanic membrane lies at 55° to the external meatus",
+     1,
+     "It faces downwards and forwards as well as laterally. (Last's p. 527)"
+    ],
+    [
+     "The outer fibres of the drum are circumferential",
+     0,
+     "The superficial (lateral) fibres are radial; the deep (medial) circumferential. (Last's p. 527)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle ear",
+   "y": 1,
+   "s": "Concerning the walls of the middle ear (Last's):",
+   "o": [
+    [
+     "The trochleariform process lies just below the anterior end of the facial canal",
+     1,
+     "It is the posterior end of the tensor tympani canal. (Last's p. 528)"
+    ],
+    [
+     "The round window lies above and behind the promontory",
+     0,
+     "The oval window is above and behind; the round window below and behind. (Last's p. 528)"
+    ],
+    [
+     "The internal opening of the tympanic canaliculus is at the anterior end of the floor",
+     1,
+     "The tympanic branch of IX enters here. (Last's p. 528)"
+    ],
+    [
+     "The canal for tensor tympani lies below the bony auditory tube",
+     0,
+     "It is the upper, smaller canal; the tube is the lower, larger one. (Last's p. 528)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle ear",
+   "y": 1,
+   "s": "Concerning the ossicles (Last's):",
+   "o": [
+    [
+     "The ossicles begin to ossify in the twelfth week",
+     1,
+     "They are already almost adult size then. (Last's p. 528)"
+    ],
+    [
+     "The chorda tympani crosses lateral to the neck of the malleus",
+     0,
+     "It crosses medial to the neck.\nThe neck lies against the pars flaccida. (Last's p. 528)"
+    ],
+    [
+     "The anterior ligament of the malleus continues as the sphenomandibular ligament",
+     1,
+     "It passes through the squamotympanic fissure to the spine of the sphenoid. (Last's p. 529)"
+    ],
+    [
+     "The anterior limb of the stapes is longer and more curved than the posterior",
+     0,
+     "The anterior limb is shorter and less curved. (Last's p. 529)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle ear",
+   "y": 1,
+   "s": "Concerning the middle ear muscles (Last's):",
+   "o": [
+    [
+     "Tensor tympani's motor fibres pass near the otic ganglion without relay",
+     1,
+     "Their cell bodies are in the trigeminal motor nucleus. (Last's p. 529)"
+    ],
+    [
+     "Tensor tympani inserts into the lower end of the handle of the malleus",
+     0,
+     "It inserts into the upper end of the handle, after bending round the trochleariform process. (Last's p. 529)"
+    ],
+    [
+     "Stapedius inserts into the back of the neck of the stapes",
+     1,
+     "It tilts the footpiece so its anterior margin cants towards the tympanic cavity. (Last's p. 529)"
+    ],
+    [
+     "The middle ear muscles damp high-pitched sound",
+     0,
+     "Last's: they damp overvibration from low-pitched sound. (Last's p. 529)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle ear",
+   "y": 1,
+   "s": "Vessels and nerves of the middle ear (Last's):",
+   "o": [
+    [
+     "Middle ear veins drain to the superior petrosal sinus",
+     1,
+     "Others go through the squamotympanic fissure to the pterygoid plexus. (Last's p. 529)"
+    ],
+    [
+     "The largest middle ear arteries come from the internal carotid",
+     0,
+     "Most come from external carotid branches: anterior tympanic and stylomastoid. (Last's p. 529)"
+    ],
+    [
+     "Middle ear lymph drains to retropharyngeal nodes",
+     1,
+     "Also to parotid and upper deep cervical nodes. (Last's p. 529)"
+    ],
+    [
+     "Jacobson's nerve is a branch of the facial nerve",
+     0,
+     "It is the tympanic branch of IX. (Last's p. 529)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Middle ear",
+   "y": 1,
+   "s": "Concerning the tympanic plexus and facial nerve in the ear (Last's):",
+   "o": [
+    [
+     "The lesser petrosal nerve emerges from a hiatus lateral to the greater petrosal nerve",
+     1,
+     "It leaves the middle ear by a canaliculus in the anterior wall above the auditory tube. (Last's p. 530)"
+    ],
+    [
+     "The facial nerve runs within the middle ear cavity",
+     0,
+     "It is not in the cavity but runs through the petrous bone laterally, posteriorly then downwards. (Last's p. 530)"
+    ],
+    [
+     "In the internal meatus course the facial nerve lies above the vestibule",
+     1,
+     "With the cochlea in front and the semicircular canals behind. (Last's p. 530)"
+    ],
+    [
+     "The chorda tympani pierces the posterior wall medial to the pyramid",
+     0,
+     "It pierces the posterior wall lateral to the pyramid. (Last's p. 530)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Auditory tube",
+   "y": 1,
+   "s": "Concerning the auditory tube (Last's):",
+   "o": [
+    [
+     "It is over 3 cm long",
+     1,
+     "The bony part is over 1 cm, the cartilaginous over 2 cm; the reverse of the external meatus. (Last's p. 530)"
+    ],
+    [
+     "The isthmus lies at the pharyngeal end of the tube",
+     0,
+     "It is at the bony orifice, posteromedial to the spine of the sphenoid. (Last's p. 530)"
+    ],
+    [
+     "In section the cartilage resembles an inverted J with the long limb posterior",
+     1,
+     "The posterior flange forms the tubal elevation. (Last's p. 530-1)"
+    ],
+    [
+     "The bony part of the tube contains many mucous glands",
+     0,
+     "Like the other bony cavities it contains no glands; it is kept moist by evaporation. (Last's p. 530)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Auditory tube",
+   "y": 1,
+   "s": "Concerning the auditory tube (Last's):",
+   "o": [
+    [
+     "Last's gives its downward slope as 30° in the ear section",
+     1,
+     "In the skull section (p. 650) Last's gives about 20°.\nIt runs forward and medially at 45°. (Last's p. 530, 650)"
+    ],
+    [
+     "Its cilia beat towards the middle ear",
+     0,
+     "They beat towards the nasopharynx, protecting the middle ear. (Last's p. 531)"
+    ],
+    [
+     "The nervus spinosus supplies its cartilaginous part",
+     1,
+     "The pharyngeal branch of the pterygopalatine ganglion supplies the ostium; the tympanic plexus the bony part. (Last's p. 531)"
+    ],
+    [
+     "Its arterial supply is from the facial and lingual arteries",
+     0,
+     "It is supplied by the ascending pharyngeal and middle meningeal arteries. (Last's p. 531)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mastoid",
+   "y": 1,
+   "s": "Concerning the mastoid antrum and air cells (Last's):",
+   "o": [
+    [
+     "The antrum may be up to 1 cm in diameter",
+     1,
+     "When large it is covered by thin bone, when small by thick. (Last's p. 531)"
+    ],
+    [
+     "Mastoid air cells first appear after puberty",
+     0,
+     "They burrow out during the first year. (Last's p. 531)"
+    ],
+    [
+     "A \"false bottom\" may separate squamous and petrous air cells",
+     1,
+     "The squamous part overlies the petrous part. (Last's p. 531)"
+    ],
+    [
+     "The mastoid antrum is roofed by the floor of the posterior fossa",
+     0,
+     "It is roofed by the tegmen tympani. (Last's p. 531)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Inner ear",
+   "y": 1,
+   "s": "Concerning the cochlea (Last's):",
+   "o": [
+    [
+     "The apex of the modiolus points towards the canal for tensor tympani",
+     1,
+     "Its base lies at the fundus of the internal meatus. (Last's p. 532)"
+    ],
+    [
+     "The spiral lamina is widest in the apical turn",
+     0,
+     "It is widest in the basal turn and narrowest apically. (Last's p. 532)"
+    ],
+    [
+     "The scalae vestibuli and tympani communicate at the helicotrema",
+     1,
+     "This is at the cupola around the blind apex of the cochlear duct. (Last's p. 532)"
+    ],
+    [
+     "The aqueduct of the cochlea is closed in life",
+     0,
+     "It is patent; perilymph drains through it into the subarachnoid space. (Last's p. 532-3)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Inner ear",
+   "y": 1,
+   "s": "Concerning the vestibule (Last's):",
+   "o": [
+    [
+     "The saccule lies in the spherical recess",
+     1,
+     "It is the anteroinferior concavity; the utricle lies in the elliptical recess. (Last's p. 533)"
+    ],
+    [
+     "Perilymph escapes through the aqueduct of the vestibule",
+     0,
+     "No fluid passes; it is plugged by the endolymphatic duct and a vein.\nLast's calls it badly named. (Last's p. 534)"
+    ],
+    [
+     "The cochlear recess transmits nerves to the basal end of the cochlear duct",
+     1,
+     "It lies just behind the basal end of the spiral lamina. (Last's p. 534)"
+    ],
+    [
+     "The vestibule is about 10 mm long",
+     0,
+     "It is about 3 mm wide, 6 mm long and 5 mm high. (Last's p. 533)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Inner ear",
+   "y": 1,
+   "s": "Concerning the semicircular canals (Last's):",
+   "o": [
+    [
+     "The ampulla of the anterior canal lies laterally",
+     1,
+     "Its convexity forms the arcuate eminence; it lies highest. (Last's p. 534)"
+    ],
+    [
+     "The ampulla of the lateral canal lies posteriorly",
+     0,
+     "It lies anteriorly and bulges the medial wall of the aditus above the facial canal. (Last's p. 534)"
+    ],
+    [
+     "The posterior canal of one side is parallel with the anterior canal of the other",
+     1,
+     "Both lie at 45° to the sagittal plane. (Last's p. 534)"
+    ],
+    [
+     "The common crus is about 10 mm long",
+     0,
+     "It is about 4 mm long; there are five openings into the vestibule. (Last's p. 534)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Inner ear",
+   "y": 1,
+   "s": "Concerning the membranous labyrinth (Last's):",
+   "o": [
+    [
+     "The basilar membrane is widest at the apex",
+     1,
+     "0.4 mm at the apex, 0.2 mm at the base; over 3 cm long. (Last's p. 534)"
+    ],
+    [
+     "The vestibular membrane lies on the basal side of the basilar membrane",
+     0,
+     "Reissner's membrane lies on the apical side, making the duct triangular. (Last's p. 534)"
+    ],
+    [
+     "The inner ear is practically full adult size at birth",
+     1,
+     "It is buried in the petrous bone. (Last's p. 531)"
+    ],
+    [
+     "The stria vascularis is formed by the inner epithelial layer",
+     0,
+     "It is formed where the outer vascular fibrous layer adheres to the endosteum. (Last's p. 534)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
