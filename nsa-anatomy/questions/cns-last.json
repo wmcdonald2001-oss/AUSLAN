@@ -1,0 +1,1978 @@
+{
+ "code": "cns",
+ "region": "Brain & spinal cord",
+ "questions": [
+  {
+   "t": "Cerebral hemispheres",
+   "y": 1,
+   "s": "Concerning the cerebral hemispheres (Last's):",
+   "o": [
+    [
+     "The dominant hemisphere is usually the right in right-handed people",
+     0,
+     "Last's: one hemisphere, \"usually the left in right-handed people\", is slightly larger and is the dominant hemisphere. (Last's p. 577)"
+    ],
+    [
+     "The under surface of the hemisphere is more irregular than the medial surface",
+     1,
+     "Last's says the under surface is more irregular than the flat medial surface.\nThe orbital surface is slightly concave, the temporal pole boldly convex and the occipital under surface slopes with the tentorium. (Last's p. 577)"
+    ],
+    [
+     "The orbital surface of the frontal lobe is slightly convex",
+     0,
+     "Last's says it is slightly concave, from the impression of the anterior cranial fossa.\nIt is the temporal pole that is boldly convex. (Last's p. 577)"
+    ],
+    [
+     "The under surfaces of the two hemispheres are joined by the cerebral peduncles",
+     1,
+     "Last's: \"The under surfaces of the two hemispheres are joined by the cerebral peduncles of the midbrain\".\nThe medial surfaces are joined below the falx by the corpus callosum. (Last's p. 577)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebral hemispheres",
+   "y": 1,
+   "s": "Regarding the general plan of the CNS (Last's):",
+   "o": [
+    [
+     "The medulla becomes the spinal cord where the first cervical nerve roots emerge",
+     1,
+     "Last's: the medulla passes through the foramen magnum and changes its name to spinal cord where the first cervical nerve roots emerge.\nSo the junction is at the C1 rootlets, below the foramen magnum. (Last's p. 577)"
+    ],
+    [
+     "CSF leaves the ventricles through foramina in the roof of the third ventricle",
+     0,
+     "Its only exit is through foramina in the roof of the fourth ventricle, in the medulla.\nThe third ventricle roof is a closed tela choroidea. (Last's p. 577)"
+    ],
+    [
+     "The cerebellum is part of the brainstem",
+     0,
+     "Last's: the midbrain, pons and medulla collectively form the brainstem.\nThe cerebellum is part of the hindbrain but not the brainstem. (Last's p. 577)"
+    ],
+    [
+     "The diencephalon's main parts are the thalamus and hypothalamus",
+     1,
+     "Last's names the thalamus and hypothalamus as the main parts of the diencephalon, whose cavity is the third ventricle.\nEach half of the forebrain is commonly called simply the cerebral hemisphere. (Last's p. 577)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lateral sulcus and insula",
+   "y": 1,
+   "s": "Concerning the lateral sulcus and insula (Last's):",
+   "o": [
+    [
+     "The lateral sulcus begins on the under surface of the brain",
+     1,
+     "Last's: the deep fissure between frontal and temporal lobes on the under surface continues onto the lateral surface.\nThe part on the lateral surface is strictly the posterior ramus. (Last's p. 578)"
+    ],
+    [
+     "The anterior and ascending rami penetrate the middle frontal gyrus",
+     0,
+     "They penetrate the inferior frontal gyrus, dividing it into orbital, triangular and opercular parts.\nOn the left these form Broca's area. (Last's p. 578)"
+    ],
+    [
+     "The opercular part alone forms the opercula over the insula",
+     0,
+     "Last's says the triangular part, with adjacent parietal and temporal cortex, forms the opercula.\nThe opercula overlie the insula. (Last's p. 578)"
+    ],
+    [
+     "The insula is almost completely surrounded by the circular sulcus",
+     1,
+     "The insula has long and short gyri almost completely surrounded by the circular sulcus.\nIt is buried beneath the opercula. (Last's p. 578)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Central sulcus",
+   "y": 1,
+   "s": "The central sulcus (Last's):",
+   "o": [
+    [
+     "Is the only long sulcus to pass on to the medial surface",
+     1,
+     "Last's: \"It is the only long sulcus to pass over on to the medial surface of the hemisphere.\"\nOn the medial surface it is enclosed in the paracentral lobule. (Last's p. 578-9)"
+    ],
+    [
+     "Indents the superior border just in front of the midpoint",
+     0,
+     "It indents the superior border just behind the midpoint.\nIt passes up from just behind the opercula. (Last's p. 578)"
+    ],
+    [
+     "Usually runs directly into the lateral sulcus",
+     0,
+     "Last's: the central sulcus does not usually run directly into the lateral sulcus, a useful point when identifying it.\nIt is a useful identifying point. (Last's p. 578)"
+    ],
+    [
+     "Is enclosed on the medial surface by the paracentral lobule",
+     1,
+     "Just behind the midpoint of the superior border the central sulcus turns onto the medial surface, enclosed in the paracentral lobule.\nThe leg and perineum areas lie here. (Last's p. 579)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Parietal lobe",
+   "y": 1,
+   "s": "Concerning the parietal and occipital lobes (Last's):",
+   "o": [
+    [
+     "The posterior end of the lateral sulcus is closed by the supramarginal gyrus",
+     1,
+     "The lateral sulcus and superior temporal sulcus project into the inferior parietal lobule; their ends are capped by the supramarginal and angular gyri respectively.\nSo supramarginal caps the lateral sulcus, angular caps the superior temporal sulcus. (Last's p. 579)"
+    ],
+    [
+     "The angular gyrus caps the posterior end of the lateral sulcus",
+     0,
+     "The angular gyrus caps the superior temporal sulcus.\nThe supramarginal gyrus caps the lateral sulcus. (Last's p. 579)"
+    ],
+    [
+     "The occipital demarcation line slopes downwards at 45° to the preoccipital notch",
+     1,
+     "The line runs from the visible part of the parieto-occipital sulcus down at 45° to the inferior border.\nThe notch is made by a fold of dura over the transverse sinus. (Last's p. 579)"
+    ],
+    [
+     "The parietal lobe is divided into lobules by a vertical sulcus",
+     0,
+     "It is divided by a transverse sulcus into superior and inferior parietal lobules.\nThe inferior lobule receives the ends of the lateral and superior temporal sulci. (Last's p. 578)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Medial surface of hemisphere",
+   "y": 1,
+   "s": "Concerning the medial surface of the hemisphere (Last's):",
+   "o": [
+    [
+     "The cingulate sulcus lies below the cingulate gyrus",
+     0,
+     "The cingulate gyrus lies above the corpus callosum, with the cingulate sulcus above it.\nAbove the sulcus is the medial frontal gyrus. (Last's p. 579)"
+    ],
+    [
+     "The cuneus lies between the parieto-occipital and calcarine sulci",
+     1,
+     "The wedge-shaped medial occipital surface is the cuneus, limited below by the calcarine sulcus.\nIn front of it, between the parieto-occipital sulcus and paracentral lobule, is the precuneus. (Last's p. 579)"
+    ],
+    [
+     "The stem of the Y-shaped sulcal pattern is the anterior part of the calcarine sulcus",
+     1,
+     "The parieto-occipital and calcarine sulci form a Y on its side.\nIts limbs are the parieto-occipital sulcus and the posterior calcarine sulcus. (Last's p. 579)"
+    ],
+    [
+     "The precuneus lies between the cuneus and the calcarine sulcus",
+     0,
+     "The precuneus lies between the parieto-occipital sulcus and the paracentral lobule.\nThe lingual gyrus lies below the calcarine sulcus. (Last's p. 579)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Inferior surface of hemisphere",
+   "y": 1,
+   "s": "Concerning the inferior (tentorial) surface (Last's):",
+   "o": [
+    [
+     "The occipitotemporal sulcus lies lateral to the collateral sulcus",
+     1,
+     "Two long parallel sulci run anteroposteriorly: the occipitotemporal laterally and the collateral medially.\nMedial to the collateral sulcus is the parahippocampal gyrus. (Last's p. 581)"
+    ],
+    [
+     "The parahippocampal gyrus extends back into the occipital lobe",
+     0,
+     "Last's says the parahippocampal gyrus is confined to the temporal lobe, recurved in front as the uncus.\nAt the back it may appear continuous with the lingual gyrus. (Last's p. 581)"
+    ],
+    [
+     "The lingual gyrus is limited at the medial–inferior border by the collateral sulcus",
+     1,
+     "The lingual gyrus lies below the posterior calcarine sulcus.\nThe collateral sulcus limits it below. (Last's p. 579)"
+    ],
+    [
+     "The tentorial surface is really inferomedial",
+     1,
+     "Because the temporo-occipital surface slopes with the tentorium, much of the medial temporal surface is seen from below.\nLast's calls the tentorial surface \"really inferomedial\". (Last's p. 581)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Base of the brain",
+   "y": 1,
+   "s": "Midline structures on the base of the brain (Last's):",
+   "o": [
+    [
+     "The tuber cinereum lies in front of the optic chiasma",
+     0,
+     "The tuber cinereum lies behind the chiasma, with the pituitary stalk projecting from it.\nBehind it are the mamillary bodies, then the posterior perforated substance. (Last's p. 581)"
+    ],
+    [
+     "The anterior perforated substance lies immediately lateral to the chiasma",
+     1,
+     "On the frontal under surface, immediately lateral to the chiasma, is the anterior perforated substance.\nThe medial and lateral olfactory striae diverge around it. (Last's p. 581)"
+    ],
+    [
+     "The posterior perforated substance lies in front of the mamillary bodies",
+     0,
+     "It lies behind the mamillary bodies, deep in the angle between the cerebral peduncles.\nThe order from front to back is chiasma, tuber cinereum, mamillary bodies, posterior perforated substance. (Last's p. 581)"
+    ],
+    [
+     "The optic tracts diverge around the cerebral peduncles under cover of the temporal lobe",
+     1,
+     "From the chiasma the optic tracts pass back around the peduncles, high up under the temporal lobe.\nThey reach the lateral geniculate bodies. (Last's p. 581)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Basal nuclei",
+   "y": 1,
+   "s": "Concerning the basal nuclei (Last's):",
+   "o": [
+    [
+     "The corpus striatum is the caudate nucleus and the putamen",
+     1,
+     "Last's: \"the corpus striatum is the collective name for the caudate nucleus and the putamen part of the lentiform nucleus.\"\nMany interconnecting fibres give the striated appearance. (Last's p. 581-2)"
+    ],
+    [
+     "The globus pallidus provides the main efferent pathway of the corpus striatum",
+     1,
+     "Fibres from the globus pallidus form the main efferent pathway.\nThe striatum is the input side, the pallidum the output side. (Last's p. 581-2)"
+    ],
+    [
+     "The claustrum lies medial to the putamen",
+     0,
+     "The claustrum is a thin saucer-shaped lamina lateral to the putamen.\nLast's says its significance is unknown. (Last's p. 582)"
+    ],
+    [
+     "The amygdaloid body lies in the floor of the inferior horn",
+     0,
+     "It is connected with the tip of the tail of the caudate in the roof of the inferior horn.\nIt is functionally part of the limbic system. (Last's p. 582)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Basal nuclei",
+   "y": 1,
+   "s": "Connections of the basal nuclei (Last's):",
+   "o": [
+    [
+     "The ansa lenticularis passes dorsal to the subthalamic nucleus",
+     0,
+     "The ansa lenticularis passes ventral, and the ansa fascicularis dorsal, to the subthalamic nucleus.\nBoth carry pallidal fibres to the thalamus. (Last's p. 582)"
+    ],
+    [
+     "The ansa fascicularis passes through the internal capsule",
+     1,
+     "Last's: the ansa fascicularis passes through the fibres of the internal capsule.\nSo does the subthalamic fasciculus. (Last's p. 582)"
+    ],
+    [
+     "The striatum receives fibres mainly from the cortex, thalamus and substantia nigra",
+     1,
+     "The striatum is the input side, receiving mainly from the cerebral cortex, thalamus and substantia nigra.\nThe pallidum sends fibres to the thalamus, subthalamic nucleus, substantia nigra and reticular formation. (Last's p. 582)"
+    ],
+    [
+     "The subthalamic fasciculus links the putamen with the subthalamic nucleus",
+     0,
+     "It interconnects the globus pallidus and the subthalamic nucleus.\nIt also passes through the internal capsule. (Last's p. 582)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Caudate nucleus",
+   "y": 1,
+   "s": "The caudate and lentiform nuclei (Last's):",
+   "o": [
+    [
+     "The whole convexity of the caudate projects into the lateral ventricle",
+     1,
+     "Last's: \"The whole length of its convexity projects into the lateral ventricle.\"\nIt curls round the internal capsule like a hand holding flowers. (Last's p. 581)"
+    ],
+    [
+     "The caudate tail joins the amygdaloid body",
+     1,
+     "The body curves round the lateral thalamus and bends forward into the long thin tail joining the amygdaloid body.\nThe tail lies in the roof of the inferior horn. (Last's p. 581)"
+    ],
+    [
+     "The putamen is the small medial part of the lentiform nucleus",
+     0,
+     "The putamen is the large lateral part; the globus pallidus the small medial, bluntly conical part.\nThe lentiform nucleus is completely buried. (Last's p. 581)"
+    ],
+    [
+     "The putamen is joined to the caudate head by fibre bundles through the anterior internal capsule",
+     1,
+     "Myelinated and unmyelinated bundles cross the anterior internal capsule, giving it a striated look.\nHence \"corpus striatum\". (Last's p. 581-2)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "White matter",
+   "y": 1,
+   "s": "Concerning the white matter of the hemisphere (Last's):",
+   "o": [
+    [
+     "Most commissural fibres are in the corpus callosum",
+     1,
+     "Most commissural fibres gather in the corpus callosum; a few lie in the anterior, posterior and habenular commissures.\nAssociation (arcuate) fibres stay in their own hemisphere. (Last's p. 583)"
+    ],
+    [
+     "The habenular commissure contains association fibres",
+     0,
+     "It is listed with the anterior and posterior commissures as carrying commissural fibres.\nAssociation fibres are confined to one hemisphere. (Last's p. 583)"
+    ],
+    [
+     "The corona radiata is intersected by fibres of the corpus callosum",
+     1,
+     "Fibres fan up from the capsule as the corona radiata; \"Fibres of the corpus callosum intersect it.\"\nThe internal capsule lies lateral to the thalamus and caudate head. (Last's p. 583)"
+    ],
+    [
+     "The tail of the caudate curls round medial to the internal capsule",
+     0,
+     "The lentiform nucleus and the tail of the caudate both lie lateral to the capsule.\nThe capsule lies lateral to the thalamus and the caudate head. (Last's p. 583)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Internal capsule",
+   "y": 1,
+   "s": "Concerning the internal capsule (Last's):",
+   "o": [
+    [
+     "It is bent into a lateral concavity by the globus pallidus",
+     1,
+     "In horizontal section the convex medial border of the lentiform nucleus (the globus pallidus) bends it.\nHence anterior limb, genu and posterior limb. (Last's p. 583)"
+    ],
+    [
+     "The genu lies at the apex of the globus pallidus",
+     1,
+     "The genu is the bend, at the apex of the globus pallidus.\nIts principal constituents are corticonuclear fibres. (Last's p. 583)"
+    ],
+    [
+     "Frontopontine fibres occupy the lateral third of the base of the peduncle",
+     0,
+     "Frontopontine fibres from the anterior limb occupy the medial third.\nParieto-, occipito- and temporopontine fibres occupy the lateral third. (Last's p. 583-4)"
+    ],
+    [
+     "Corticospinal fibres occupy the posterior third of the posterior limb",
+     0,
+     "They occupy the anterior two-thirds, right behind the genu.\nThalamocortical fibres lie beside and behind them. (Last's p. 583)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Internal capsule",
+   "y": 1,
+   "s": "Concerning fibres in the internal capsule (Last's):",
+   "o": [
+    [
+     "The anterior limb probably carries fibres from the frontal eye field to the oculomotor nucleus",
+     1,
+     "Last's says the anterior limb \"also probably contains fibres running from the frontal eye field to the oculomotor nucleus\".\nThey serve the accommodation–convergence reflex. (Last's p. 583)"
+    ],
+    [
+     "In the cerebral peduncle, perineum fibres lie medially",
+     0,
+     "In the peduncle the head fibres lie medially and the perineum fibres laterally.\nIn the capsule the order front to back is head, arm, hand, trunk, leg, perineum. (Last's p. 584)"
+    ],
+    [
+     "Corticospinal fibres for the hand lie behind those for the arm",
+     1,
+     "The order behind the corticonuclear fibres is arm, hand, trunk, leg, perineum.\nSo hand lies between arm and trunk. (Last's p. 584)"
+    ],
+    [
+     "The sublentiform part contains the optic radiation",
+     0,
+     "The sublentiform part carries the auditory radiation from the medial geniculate body.\nThe optic radiation is in the retrolentiform part. (Last's p. 584-5)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Internal capsule",
+   "y": 1,
+   "s": "In the internal capsule (Last's):",
+   "o": [
+    [
+     "The retrolentiform part contains parieto-, occipito- and temporopontine fibres",
+     1,
+     "These corticopontine fibres pass through the retrolentiform part to the lateral third of the peduncle.\nIt also carries the optic radiation. (Last's p. 584)"
+    ],
+    [
+     "The auditory radiation ends in the transverse temporal gyrus without reaching the superior temporal gyrus",
+     0,
+     "Last's says the auditory radiation reaches the auditory area in the superior temporal gyrus.\nThe area extends from the anterior transverse temporal gyrus onto the superior temporal gyrus. (Last's p. 585-6)"
+    ],
+    [
+     "Corticopontine fibres number about 20 million",
+     1,
+     "They form the largest group in the capsule.\nCorticonuclear, corticospinal, thalamocortical and optic fibres matter more clinically. (Last's p. 585)"
+    ],
+    [
+     "Left capsular lesions can interrupt fibres from Broca's area",
+     1,
+     "Fibres from Broca's area are interrupted in lesions of the left internal capsule.\nSo loss of speech accompanies right hemiplegia. (Last's p. 584)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Corpus callosum",
+   "y": 1,
+   "s": "Concerning the corpus callosum (Last's):",
+   "o": [
+    [
+     "It begins at the anterior commissure",
+     1,
+     "It commences at the anterior commissure, at the upper end of the lamina terminalis.\nIt becomes increasingly thicker as it is traced back. (Last's p. 585)"
+    ],
+    [
+     "It becomes thinner from front to back",
+     0,
+     "Traced from the anterior commissure it becomes increasingly thicker.\nIt ends as the thick rounded splenium. (Last's p. 585)"
+    ],
+    [
+     "Its fibres form the roof of the body of the lateral ventricle",
+     1,
+     "They pass across the anterior horn and body, forming the roof of each.\nIn the temporal lobe they form the tapetum. (Last's p. 586)"
+    ],
+    [
+     "The tapetum forms the medial wall of the posterior horn",
+     0,
+     "The tapetum forms the lateral wall of the inferior and posterior horns.\nThe calcar avis is on the medial wall. (Last's p. 586)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cortical areas",
+   "y": 1,
+   "s": "Concerning the sensorimotor cortex (Last's):",
+   "o": [
+    [
+     "MsII lies on the lateral surface of the frontal lobe",
+     0,
+     "MsII (the supplementary motor area) is on part of the medial surface of the frontal lobe.\nIt is part of areas 6 and 8. (Last's p. 586)"
+    ],
+    [
+     "MsI receives its main inputs from the cerebellum and thalamus",
+     1,
+     "Last's: MsI is where movements are initiated, receiving main inputs from the cerebellum and thalamus.\nMsII receives many fibres from the basal nuclei. (Last's p. 586)"
+    ],
+    [
+     "In MsI the face is represented the right way up",
+     1,
+     "The body is represented upside down, but the face itself the right way up.\nFace lowest, then hand, arm, trunk and leg. (Last's p. 586)"
+    ],
+    [
+     "In MsI the arm lies below the hand",
+     0,
+     "From below up: face, hand (very large), arm, trunk, leg.\nSo the arm lies above the hand. (Last's p. 586)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cortical areas",
+   "y": 1,
+   "s": "Concerning cortical areas (Last's):",
+   "o": [
+    [
+     "Broca's area lies below and in front of the face area",
+     1,
+     "It is centred on the pars triangularis, below and in front of the face area.\nDamage causes motor aphasia, not laryngeal paralysis. (Last's p. 586)"
+    ],
+    [
+     "Wernicke's area is confined to the superior temporal gyrus",
+     0,
+     "It occupies the posterior parts of the superior and middle temporal gyri and extends into the lower parietal lobe.\nIt is needed to understand speech. (Last's p. 586)"
+    ],
+    [
+     "The frontal eye field lies in the posterior part of the middle frontal gyrus",
+     0,
+     "Last's places it in the centre of the middle frontal gyrus (parts of areas 6, 8 and 9).\nIt serves voluntary eye movements and accommodation. (Last's p. 586)"
+    ],
+    [
+     "Last's says the cortex is necessary for localising pain",
+     1,
+     "Conscious appreciation of pain may occur at thalamic level, but the cortex is needed to localise it.\nSmII appears associated with pain and temperature. (Last's p. 586)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cortical areas",
+   "y": 1,
+   "s": "Concerning special sensory cortical areas (Last's):",
+   "o": [
+    [
+     "The gustatory area lies in the upper part of the postcentral gyrus",
+     0,
+     "It lies in the inferior postcentral gyrus (frontoparietal operculum), near the tongue area of SmI.\nTaste is near the tongue representation. (Last's p. 586)"
+    ],
+    [
+     "The auditory association area is area 22",
+     1,
+     "The auditory area (41, 42) is surrounded on the superior temporal gyrus by area 22.\nBoth receive the auditory radiation. (Last's p. 586)"
+    ],
+    [
+     "The visual area lies along the upper lip only of the anterior calcarine sulcus",
+     0,
+     "It lies along the lower lip of the anterior part and both lips of the posterior part.\nIt extends about 1 cm onto the lateral surface to the lunate sulcus. (Last's p. 586-7)"
+    ],
+    [
+     "The visual association areas lack the stria of Gennari",
+     1,
+     "Areas 18 and 19 adjoin the striate cortex and do not have the stria.\nThe stria bisects the grey matter of area 17. (Last's p. 587)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Visual pathway",
+   "y": 1,
+   "s": "Concerning the visual pathway (Last's):",
+   "o": [
+    [
+     "The retinal bipolar cells correspond to posterior root ganglion cells",
+     1,
+     "Last's: the peripheral nerves of ordinary sensation are represented in the visual pathway by the bipolar cells.\nGanglion cells are homologous with second-order neurons. (Last's p. 587)"
+    ],
+    [
+     "There is one ganglion cell for every 8 rods",
+     0,
+     "There is one ganglion cell for each cone and one for 80 rods.\nGanglion cells lie in the inner retina next to the vitreous. (Last's p. 587)"
+    ],
+    [
+     "The optic nerve shows no effective regeneration when divided",
+     1,
+     "It is a tract of CNS white matter, so there is no effective regeneration.\nIt is enclosed in meninges as far as the sclera. (Last's p. 587)"
+    ],
+    [
+     "The optic nerve is sheathed in dura as far as the chiasma",
+     0,
+     "At the optic foramen the dura and arachnoid leave it; it passes on sheathed only in pia.\nThe chiasma is attached to the anterior floor of the third ventricle. (Last's p. 587)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Visual pathway",
+   "y": 1,
+   "s": "Concerning the optic tract and lateral geniculate body (Last's):",
+   "o": [
+    [
+     "The optic tract is supplied mainly by the anterior cerebral artery",
+     0,
+     "The optic tract is supplied chiefly by the anterior choroidal and posterior communicating arteries.\nThe chiasma and intracranial optic nerve are supplied by the anterior cerebral. (Last's p. 587)"
+    ],
+    [
+     "The lateral geniculate body lies below the pulvinar",
+     1,
+     "It is a small rounded elevation below the pulvinar on the posterior thalamus.\nIt is part of the thalamus. (Last's p. 587)"
+    ],
+    [
+     "Ipsilateral temporal fibres synapse in geniculate layers 1, 4 and 6",
+     0,
+     "Temporal (same-side) fibres synapse in layers 2, 3 and 5.\nNasal (opposite-side) fibres synapse in layers 1, 4 and 6. (Last's p. 587)"
+    ],
+    [
+     "The smaller branch of the optic tract passes between the two geniculate bodies",
+     1,
+     "The superior brachium passes down medially between the lateral and medial geniculate bodies.\nIt ends in the superior colliculus and pretectal nuclei. (Last's p. 587)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Light reflexes",
+   "y": 1,
+   "s": "Concerning the superior colliculus and pretectal nucleus (Last's):",
+   "o": [
+    [
+     "The superior colliculi are united by the posterior commissure",
+     1,
+     "They are joined at the entrance to the aqueduct, so general light reflexes are usually bilateral.\nTectobulbar and tectospinal tracts carry them. (Last's p. 588)"
+    ],
+    [
+     "Pupillary light reflex fibres synapse in the superior colliculus",
+     0,
+     "They do not synapse in the colliculus but pass bilaterally to each pretectal nucleus.\nThe pretectal nucleus projects to each Edinger–Westphal nucleus. (Last's p. 588)"
+    ],
+    [
+     "Hippocampal lesions spare memory for distant events",
+     1,
+     "Last's: hippocampal lesions cause loss of memory for recent events, while distant memory is retained.\nThe limbic system serves behaviour, mood and memory. (Last's p. 588)"
+    ],
+    [
+     "The pretectal nucleus lies under the lower and medial margin of the superior colliculus",
+     0,
+     "It lies in the tegmentum under the upper and lateral margin of the superior colliculus.\nA lesion here gives the Argyll Robertson pupil. (Last's p. 588)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Limbic system",
+   "y": 1,
+   "s": "Last's lists as components of the limbic system:",
+   "o": [
+    [
+     "The septal and piriform areas near the lamina terminalis",
+     1,
+     "These are item (1) in Last's list.\nSome also include the hypothalamus and anterior thalamus. (Last's p. 589)"
+    ],
+    [
+     "The insula",
+     1,
+     "Last's lists the uncus, insula, and cingulate and parahippocampal gyri together.\nThere is no universal agreement on the membership. (Last's p. 589)"
+    ],
+    [
+     "The claustrum",
+     0,
+     "The claustrum is not in Last's limbic list; its significance is unknown.\nThe amygdaloid body is listed. (Last's p. 582, 589)"
+    ],
+    [
+     "The mamillary body",
+     1,
+     "Last's lists the hippocampus, fimbria, fornix and mamillary body.\nTogether these form the Papez-type circuit. (Last's p. 589)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Olfactory pathway",
+   "y": 1,
+   "s": "Concerning the olfactory pathway (Last's):",
+   "o": [
+    [
+     "There are three groups of neurons from receptor to cortex",
+     0,
+     "Last's: there are two groups of neurons, and the second reaches the cortex without thalamic relay.\nLast's calls this unique. (Last's p. 589)"
+    ],
+    [
+     "Mitral cell axons pass through the anterior perforated substance",
+     1,
+     "The axons run back in the tract to the anterior perforated substance, through which some reach the uncus.\nOthers connect with the limbic system. (Last's p. 589)"
+    ],
+    [
+     "The olfactory tract is an extension of the white matter of the brain",
+     1,
+     "Last's compares it with the optic nerve.\nIt lies in the olfactory sulcus beside the gyrus rectus. (Last's p. 589)"
+    ],
+    [
+     "The olfactory bulb has no connexions with the hypothalamus",
+     0,
+     "Further synapses connect the bulb with the hypothalamus and brainstem for visceral and somatic effects.\nThis parallels other sensory pathways. (Last's p. 589)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hippocampus",
+   "y": 1,
+   "s": "Concerning the hippocampus (Last's):",
+   "o": [
+    [
+     "The anterior parahippocampal gyrus beneath it is the subiculum",
+     1,
+     "Just above the anterior parahippocampal gyrus (the subiculum) lies the hippocampal sulcus, projected into the inferior horn as the hippocampus.\nThe pes hippocampi looks like clenched knuckles. (Last's p. 588-9)"
+    ],
+    [
+     "The alveus is a film of grey matter on the ventricular surface",
+     0,
+     "The alveus is a thin film of white matter.\nIts fibres thicken medially into the fimbria. (Last's p. 589)"
+    ],
+    [
+     "The dentate gyrus lies between the fimbria and the parahippocampal gyrus",
+     1,
+     "Seen from the medial side, the dentate gyrus lies between them.\nIt is a small part of the hippocampus. (Last's p. 589)"
+    ],
+    [
+     "The fimbria continues as the anterior column of the fornix",
+     0,
+     "The fimbria breaks free as the crus (posterior pillar) of the fornix.\nThe crura join as the body; the anterior columns arch down in front. (Last's p. 589)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Fornix",
+   "y": 1,
+   "s": "Concerning the fornix (Last's):",
+   "o": [
+    [
+     "The commissure of the fornix is really a chiasma",
+     1,
+     "Last's: \"It is really a chiasma, and is an association tract rather than a true commissure.\"\nIt is a partial decussation. (Last's p. 589)"
+    ],
+    [
+     "Its columns pass only behind the anterior commissure",
+     0,
+     "The columns pass both in front of and behind the anterior commissure.\nAnterior fibres go to the septal nuclei; posterior fibres to the thalamus and mamillary body. (Last's p. 589)"
+    ],
+    [
+     "Its anterior fibres end in the septum pellucidum",
+     0,
+     "They pass mainly to the septal nuclei near the lamina terminalis, \"not in the septum pellucidum\". (Last's p. 589)"
+    ],
+    [
+     "Its anterior columns form the anterior margins of the interventricular foramina",
+     1,
+     "The conjoined columns arch down in front of the anterior poles of the thalami.\nThe foramen lies between column and thalamus. (Last's p. 589)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ventricles",
+   "y": 1,
+   "s": "Concerning the ventricles and choroid plexuses (Last's):",
+   "o": [
+    [
+     "The lateral ventricle plexuses secrete the bulk of the CSF",
+     1,
+     "Last's: this pair is large and highly vascular and secretes the bulk of the CSF.\nThe fourth ventricle plexus makes only a small contribution. (Last's p. 590)"
+    ],
+    [
+     "The fourth ventricle plexus is continuous with that of the third",
+     0,
+     "The fourth ventricle plexus is separate.\nLateral and third ventricle plexuses are continuous through the interventricular foramen. (Last's p. 590)"
+    ],
+    [
+     "The central canal extends into the upper end of the filum terminale",
+     1,
+     "Below the fourth ventricle the central canal runs through the cord into the upper filum.\nThe only apertures are in the fourth ventricle roof. (Last's p. 590)"
+    ],
+    [
+     "Asymmetry of the lateral ventricles is commonest anteriorly",
+     0,
+     "Asymmetry, especially posteriorly, is the rule.\nThe midline cavities are symmetrical. (Last's p. 590)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lateral ventricle",
+   "y": 1,
+   "s": "Concerning the lateral ventricle (Last's):",
+   "o": [
+    [
+     "The choroid fissure should be regarded as the medial wall of the body and inferior horn",
+     1,
+     "Last's says so explicitly.\nThe plexus is invaginated through it. (Last's p. 590)"
+    ],
+    [
+     "The parahippocampal sulcus shows as a convexity in the ventricle",
+     1,
+     "The parahippocampal, calcarine and collateral sulci all indent the cavity.\nElsewhere the walls are white matter. (Last's p. 590)"
+    ],
+    [
+     "The interventricular foramen lies in front of the anterior column of the fornix",
+     0,
+     "It lies behind the anterior column, between it and the anterior pole of the thalamus.\nIt leads into the third ventricle. (Last's p. 590)"
+    ],
+    [
+     "The choroid plexus of the body extends into the anterior horn",
+     0,
+     "It does not; it passes through the interventricular foramen into the third ventricle.\nThere is none in the anterior or posterior horns. (Last's p. 590)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lateral ventricle",
+   "y": 1,
+   "s": "The body and horns of the lateral ventricle (Last's):",
+   "o": [
+    [
+     "The thalamostriate vein lies in the groove between thalamus and caudate",
+     1,
+     "The floor of the body is thalamus and caudate body, with the thalamostriate groove between.\nThe vein is the more important content. (Last's p. 590)"
+    ],
+    [
+     "The fornix is a roof structure that appears to lie on the floor",
+     1,
+     "Last's: the fornix \"is actually a roof structure — a roof can collapse upon a floor\".\nThe plexus projects between fornix and thalamus. (Last's p. 590)"
+    ],
+    [
+     "The posterior horn is the most constant horn",
+     0,
+     "Last's: the posterior horn is the most variably developed and may be absent.\nA large calcar avis can obliterate it. (Last's p. 591)"
+    ],
+    [
+     "The bulb of the posterior horn is formed by the forceps major",
+     1,
+     "The upper medial convexity is the bulb (forceps major); the lower is the calcar avis.\nThe floor convexity is the collateral eminence. (Last's p. 591)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lateral ventricle",
+   "y": 1,
+   "s": "Concerning the inferior horn (Last's):",
+   "o": [
+    [
+     "It is the largest horn",
+     1,
+     "Last's: \"The inferior horn is the largest.\"\nIts floor is the hippocampus medially and collateral eminence laterally. (Last's p. 591)"
+    ],
+    [
+     "The fimbria forms the upper lip of the choroid fissure in the inferior horn",
+     0,
+     "The fimbria forms the lower lip; the fornix forms the upper lip in the body.\nThey are continuous around the convexity of the C. (Last's p. 591)"
+    ],
+    [
+     "The amygdaloid body lies medial to the anterior perforated substance",
+     0,
+     "It lies to the lateral side of the anterior perforated substance.\nIt makes a convexity in the roof at the tip of the horn. (Last's p. 591)"
+    ],
+    [
+     "The inferior horn is closed laterally by the tapetum",
+     1,
+     "Last's: \"The inferior horn is closed laterally by the white matter of the tapetum.\"\nThe collateral trigone is where posterior and inferior horns diverge. (Last's p. 592)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lateral ventricle",
+   "y": 1,
+   "s": "Because the lateral ventricle is C-shaped (Last's):",
+   "o": [
+    [
+     "Structures around the convexity lie in the roof of the body and the floor of the inferior horn",
+     1,
+     "Convexity structures (fornix–fimbria) are in the body roof and inferior horn floor.\nConcavity structures are in the body floor and inferior horn roof. (Last's p. 592)"
+    ],
+    [
+     "The caudate tail lies in the floor of the inferior horn",
+     0,
+     "The caudate lies in the concavity, so its tail is in the roof of the inferior horn.\nIts head and body are in the floor of the anterior horn and body. (Last's p. 591-2)"
+    ],
+    [
+     "Any section must cut C-shaped structures in two places",
+     1,
+     "Last's notes this implication for vertical or horizontal sections.\nThe internal capsule lies in the concavity of the caudate. (Last's p. 592)"
+    ],
+    [
+     "The internal capsule lies in the convexity of the caudate",
+     0,
+     "The internal capsule is contained within the concavity of the caudate nucleus.\nThe caudate lies within the concavity of the ventricle. (Last's p. 592)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Third ventricle",
+   "y": 1,
+   "s": "Concerning the third ventricle (Last's):",
+   "o": [
+    [
+     "The lamina terminalis extends from the rostrum to the top of the optic chiasma",
+     1,
+     "It runs between the hemispheres from the rostrum of the corpus callosum to the top of the chiasma.\nIt contains the anterior commissure above. (Last's p. 592)"
+    ],
+    [
+     "The anterior commissure joins the two piriform areas",
+     1,
+     "Last's: it \"joins the two piriform areas of the cortex\" and is a commissure of the archaeopallium.\nIt lies behind the upper end of the lamina terminalis. (Last's p. 593-4)"
+    ],
+    [
+     "The cavity of the septum pellucidum is lined with ependyma",
+     0,
+     "It is lined with pia mater, not ependyma, and has no connexion with the ventricles.\nSo \"fifth ventricle\" should be avoided. (Last's p. 593)"
+    ],
+    [
+     "The interthalamic adhesion carries fibres between the thalami",
+     0,
+     "Last's: it is not a commissure and there is no interchange of fibres.\nIt is present in 60% of brains. (Last's p. 593-4)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hypothalamus",
+   "y": 1,
+   "s": "Concerning the hypothalamus and subthalamus (Last's):",
+   "o": [
+    [
+     "The median eminence has no blood–brain barrier",
+     1,
+     "Last's calls the median eminence one of the few regions with no blood–brain barrier.\nIt lies at the base of the infundibulum. (Last's p. 594)"
+    ],
+    [
+     "The mamillary bodies mark the inside of the third ventricle",
+     0,
+     "Last's: the dependent mamillary bodies and posterior perforated substance make no mark inside the ventricle.\nThe chiasma does indent it. (Last's p. 594)"
+    ],
+    [
+     "The infundibulum is hollow and the pituitary stalk solid",
+     1,
+     "Behind the chiasma the hollow infundibulum projects down to become the solid stalk.\nThe infundibular recess is its hollow. (Last's p. 594)"
+    ],
+    [
+     "The subthalamic nucleus lies on the lateral side of the internal capsule",
+     0,
+     "It is a small lens-shaped body on the medial side of the capsule, beside the substantia nigra.\nIt belongs functionally to the basal nuclei. (Last's p. 594)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Third ventricle",
+   "y": 1,
+   "s": "The roof of the third ventricle (Last's):",
+   "o": [
+    [
+     "The interventricular foramen is roofed by bare pia mater",
+     1,
+     "Pia sweeps from the under surface of the fornix body to the anterior pole of the thalamus.\nThis is the anterior limit of the tela choroidea. (Last's p. 594)"
+    ],
+    [
+     "The medullary striae join posteriorly in the posterior commissure",
+     0,
+     "They join in a U-shaped loop, the habenular commissure.\nLast's says it is probably olfactory, like the anterior commissure. (Last's p. 594)"
+    ],
+    [
+     "The pial roof bulges back as the suprapineal recess",
+     1,
+     "The roof is variably slack posteriorly and bulges back as the suprapineal recess.\nIt is lined with ependyma. (Last's p. 594)"
+    ],
+    [
+     "The hypothalamic groove curves down above the thalamus",
+     0,
+     "It curves down from the interventricular foramen below the thalamus towards the aqueduct.\nBelow it is the hypothalamus. (Last's p. 594)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Midbrain",
+   "y": 1,
+   "s": "Concerning the midbrain (Last's):",
+   "o": [
+    [
+     "The pretectal nuclei lie just cranial to the superior colliculi",
+     1,
+     "They lie at the junction of midbrain and diencephalon, just cranial to the superior colliculi.\nThey serve the pupillary light reflex, not general light reflexes. (Last's p. 607)"
+    ],
+    [
+     "The Edinger–Westphal nucleus lies in the caudal part of the oculomotor nucleus",
+     0,
+     "It lies near the midline in the cranial part of the nucleus.\nIts fibres relay in the ciliary ganglion. (Last's p. 607)"
+    ],
+    [
+     "The oculomotor nerve emerges on the medial side of the base of the peduncle",
+     1,
+     "It passes ventrally through the red nucleus to emerge medially from the base of the peduncle.\nThe nucleus lies ventral to the aqueduct. (Last's p. 607)"
+    ],
+    [
+     "The trochlear nucleus lies dorsal to the aqueduct",
+     0,
+     "It lies ventral to the aqueduct at inferior colliculus level; only the nerves decussate dorsal to it.\nIt emerges through the superior medullary velum behind the inferior colliculus. (Last's p. 607)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Midbrain",
+   "y": 1,
+   "s": "Concerning the red nucleus (Last's):",
+   "o": [
+    [
+     "It lies just ventral to the oculomotor nucleus",
+     1,
+     "The red nucleus lies in the tegmentum just ventral to the third nerve nucleus, whose axons pass through it.\nIt is slightly larger than a full-sized pea. (Last's p. 607)"
+    ],
+    [
+     "Its efferent fibres decussate at the level of the superior colliculi",
+     0,
+     "Its efferents decussate at inferior colliculus level, in the ventral tegmental decussation.\nThey descend to the pontine nuclei and cord. (Last's p. 607, 612)"
+    ],
+    [
+     "Last's says it is not associated with any known disease",
+     1,
+     "Despite its size it seems of little functional significance in man.\nIt receives from the opposite dentate nucleus. (Last's p. 607)"
+    ],
+    [
+     "It receives fibres from the ipsilateral dentate nucleus",
+     0,
+     "It receives from the dentate nucleus of the opposite cerebellar hemisphere via the superior peduncle.\nIt also connects with cortex and globus pallidus. (Last's p. 607)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Midbrain",
+   "y": 1,
+   "s": "Concerning the midbrain (Last's):",
+   "o": [
+    [
+     "The mesencephalic nucleus lies medial to the aqueduct",
+     0,
+     "It lies in the central grey matter lateral to the aqueduct, throughout the length of the midbrain.\nIt is long and slender. (Last's p. 607)"
+    ],
+    [
+     "The mesencephalic nucleus receives proprioceptive fibres from the orbital and facial muscles",
+     1,
+     "It receives from the muscles of mastication, orbit and face, and perhaps the tongue.\nIt is unique as first-neuron cells inside the CNS. (Last's p. 607)"
+    ],
+    [
+     "The midbrain is supplied by the posterior cerebral and superior cerebellar arteries",
+     1,
+     "They supply it as they curl round the cerebral peduncle.\nCentral branches enter the crura to the substantia nigra and red nucleus. (Last's p. 607-8)"
+    ],
+    [
+     "Midbrain veins drain mainly into the great cerebral vein",
+     0,
+     "They drain mostly into the basal vein; some blood from the colliculi enters the great cerebral vein.\nThe basal vein passes round the peduncle. (Last's p. 608)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pons",
+   "y": 1,
+   "s": "Concerning the pons (Last's):",
+   "o": [
+    [
+     "The trigeminal is the only cranial nerve to emerge from the pons",
+     1,
+     "Its point of emergence marks the change of name from pons to middle cerebellar peduncle.\nIt has a large sensory and small motor root. (Last's p. 608)"
+    ],
+    [
+     "The basilar artery always lies in the midline groove of the pons",
+     0,
+     "It may or may not lie in the groove; usually it curves gently to one side.\nIt lies in the pontine cistern. (Last's p. 608)"
+    ],
+    [
+     "The lingula of the cerebellum lies on the superior medullary velum",
+     1,
+     "The pontine roof of the fourth ventricle is the superior medullary velum, with the lingula on it.\nIt is attached to the superior cerebellar peduncles. (Last's p. 608)"
+    ],
+    [
+     "The upper pons contains the widest part of the floor of the fourth ventricle",
+     0,
+     "The lower pons contains the widest part of the floor.\nUpper pons sections show a closed, almost rectangular ventricle. (Last's p. 608)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pons",
+   "y": 1,
+   "s": "Concerning the pontine nuclei of cranial nerves (Last's):",
+   "o": [
+    [
+     "The trigeminal motor nucleus lies in the lower pons",
+     0,
+     "It is in the upper pons below the lateral part of the floor of the fourth ventricle.\nIts fibres emerge at the junction of pons and middle cerebellar peduncle. (Last's p. 609)"
+    ],
+    [
+     "The main sensory nucleus of V lies lateral to the motor nucleus",
+     1,
+     "The main sensory nucleus lies lateral to the motor nucleus and receives touch fibres.\nPain and temperature go to the spinal nucleus. (Last's p. 609)"
+    ],
+    [
+     "The facial nucleus is not responsible for the facial colliculus",
+     1,
+     "The colliculus is the abducent nucleus plus overlying facial fibres.\nThe facial nucleus lies deeper and further from the midline. (Last's p. 609)"
+    ],
+    [
+     "The inferior salivary nucleus lies above the superior salivary nucleus",
+     0,
+     "The superior salivary nucleus lies alongside the facial nucleus; the inferior is lower, just above the pontomedullary junction.\nThe inferior sends fibres with IX to the otic ganglion. (Last's p. 609)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pons",
+   "y": 1,
+   "s": "Concerning the vestibulocochlear nuclei and pons (Last's):",
+   "o": [
+    [
+     "Vestibular fibres pass anterior to the inferior cerebellar peduncle",
+     1,
+     "They emerge from the internal acoustic meatus and pass anterior to the inferior peduncle to the vestibular nuclei.\nMany vestibular fibres then pass back into that peduncle. (Last's p. 609)"
+    ],
+    [
+     "The cochlear nuclei are mainly pontine",
+     0,
+     "The cochlear nuclei are mainly medullary but extend into the lower pons.\nVestibular and cochlear nuclei are separate. (Last's p. 609)"
+    ],
+    [
+     "Pontine veins drain into the inferior petrosal sinuses and basilar plexus",
+     1,
+     "Venous return from the pons is into the inferior petrosal sinuses and the basilar plexus.\nThe pons is supplied mainly by pontine branches of the basilar. (Last's p. 609)"
+    ],
+    [
+     "The pontine reticular formation lies ventral to the pontine nuclei",
+     0,
+     "It lies dorsal to the pontine nuclei and their intermingled fibres.\nIt continues down into the medulla and upper cord. (Last's p. 609)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "Concerning the surface of the medulla (Last's):",
+   "o": [
+    [
+     "It lies almost vertically from a line joining the jugular tubercles to the atlas",
+     1,
+     "Last's describes this course, passing through the foramen magnum.\nIt lies in the vallecula between the cerebellar hemispheres. (Last's p. 609)"
+    ],
+    [
+     "The sixth nerve emerges between the pons and the olive",
+     0,
+     "VI emerges between the pons and the pyramid.\nThe main part of VII emerges between the pons and the olive. (Last's p. 609)"
+    ],
+    [
+     "VIII emerges at the junction of the pons and the inferior cerebellar peduncle",
+     1,
+     "The nervus intermedius and VIII emerge at the junction of pons and inferior peduncle.\nIX, X and cranial XI emerge lateral to the olive. (Last's p. 609)"
+    ],
+    [
+     "XII emerges as a single bundle lateral to the olive",
+     0,
+     "XII emerges by two small groups of rootlets between the pyramid and olive.\nThe rootlets lateral to the olive are IX, X and XI. (Last's p. 609)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "Concerning the medulla (Last's):",
+   "o": [
+    [
+     "The inferior cerebellar peduncle enters the cerebellum medial to and below the flocculus",
+     1,
+     "Lateral to the olive the lateral surface is the inferior peduncle, entering the cerebellum medial to and below the flocculus. (Last's p. 609)"
+    ],
+    [
+     "The sensory decussation lies below the motor decussation",
+     0,
+     "Visible pyramidal decussation characterizes the lowest medulla; the lemniscal decussation is slightly higher.\nSo the sensory decussation lies above the motor. (Last's p. 610)"
+    ],
+    [
+     "The trigeminal tubercle is usually less well defined than the gracile and cuneate tubercles",
+     1,
+     "The closed medulla shows gracile and cuneate tubercles and the usually less well-defined trigeminal tubercle. (Last's p. 610)"
+    ],
+    [
+     "The vagal trigone lies medial to the hypoglossal trigone",
+     0,
+     "The hypoglossal trigone is adjacent to the midline with the vagal trigone lateral to it.\nHigher up laterally are the vestibular area and medullary striae. (Last's p. 610)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "The nucleus of the tractus solitarius (Last's):",
+   "o": [
+    [
+     "Its cells are the most tightly packed of any brainstem nucleus",
+     1,
+     "Last's says so.\nThe two nuclei meet in the lowest open medulla, forming a V. (Last's p. 610)"
+    ],
+    [
+     "Its lower part receives the taste fibres",
+     0,
+     "Its upper part receives taste fibres (chorda tympani, lingual branch of IX, internal laryngeal).\nThe rest receives visceral afferents of IX and X. (Last's p. 610)"
+    ],
+    [
+     "Some of its cells form the inspiratory centre",
+     1,
+     "Last's: \"Some of its cells form the inspiratory centre.\"\nIt serves cough, sneeze, gag and vomiting reflexes. (Last's p. 610)"
+    ],
+    [
+     "It receives taste fibres from the external laryngeal nerve",
+     0,
+     "The internal laryngeal branch carries the taste fibres (epiglottic region).\nThe external laryngeal is motor to cricothyroid. (Last's p. 610)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "Concerning nuclei of the medulla (Last's):",
+   "o": [
+    [
+     "The upper part of the nucleus ambiguus supplies the larynx",
+     0,
+     "The upper part supplies the palate, middle part pharynx and oesophagus, lowest part the larynx.\nStylopharyngeus is supplied via IX. (Last's p. 611)"
+    ],
+    [
+     "The inferior olivary nucleus opens towards the opposite inferior cerebellar peduncle",
+     1,
+     "It is a crenated C-shaped sac, open towards the opposite peduncle.\nOlivocerebellar fibres decussate to enter it. (Last's p. 611)"
+    ],
+    [
+     "The accessory cuneate nucleus carries upper limb proprioception to the cerebellum",
+     1,
+     "Its cuneocerebellar fibres pass via the inferior peduncle.\nThis replaces the spinocerebellar route for the upper limb. (Last's p. 611)"
+    ],
+    [
+     "The spinal nucleus of V lies medial to the nucleus of the tractus solitarius",
+     0,
+     "It lies lateral to the nucleus of the tractus solitarius.\nIt continues down from the pons. (Last's p. 611)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "Concerning the reticular formation and area postrema (Last's):",
+   "o": [
+    [
+     "The vital centres are not anatomically demonstrable as distinct nuclei",
+     1,
+     "Last's: they are not distinct nuclei, but disturbing this area results in death.\nLast's keeps the term \"vital centres\". (Last's p. 611)"
+    ],
+    [
+     "The area postrema lies lateral to each gracile nucleus",
+     0,
+     "It lies on the medial side of each gracile nucleus at the lower angle of the ventricle.\nIt is the vomiting centre and chemoreceptor trigger zone. (Last's p. 611)"
+    ],
+    [
+     "The reticular formation is responsible for the wakeful component of consciousness",
+     1,
+     "Last's credits it with the \"alert\" or \"wakeful\" component.\nIt also influences motor, sensory, autonomic and endocrine activity. (Last's p. 611)"
+    ],
+    [
+     "The reticular formation receives from the ipsilateral cerebellar hemisphere",
+     0,
+     "It receives from the opposite cerebellar hemisphere via the dentate nucleus.\nIt receives from the same-side cortex via striatum and pallidum. (Last's p. 611)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Medulla",
+   "y": 1,
+   "s": "In the lateral medullary syndrome (Last's):",
+   "o": [
+    [
+     "There is loss of pain and temperature on the same side of the face",
+     1,
+     "The uncrossed spinal tract of V is damaged.\nThe crossed spinal lemniscus gives opposite-side body loss. (Last's p. 612)"
+    ],
+    [
+     "There is hemiplegia on the opposite side",
+     0,
+     "Hemiplegia is a feature of the medial medullary syndrome (pyramid).\nThe lateral syndrome spares the pyramid. (Last's p. 612)"
+    ],
+    [
+     "Loss of nucleus ambiguus function gives dysphonia and dysphagia",
+     1,
+     "The vocal fold, palatal and pharyngeal muscles on that side are paralysed.\nVestibular involvement gives vertigo and nystagmus. (Last's p. 612)"
+    ],
+    [
+     "There is an ipsilateral Horner's syndrome",
+     1,
+     "The descending sympathetic pathway is interrupted.\nIt is the \"syndrome of the posterior inferior cerebellar artery\". (Last's p. 612)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "Concerning corticonuclear and corticospinal fibres (Last's):",
+   "o": [
+    [
+     "Corticonuclear fibres collect in the lateral part of the crus",
+     0,
+     "They collect in the most medial part of the central three-fifths of the crus.\nSome go straight to III and IV nuclei. (Last's p. 612)"
+    ],
+    [
+     "The lower part of the facial nucleus is supplied only by the opposite cortex",
+     1,
+     "Last's names it the most important exception to bilateral innervation.\nMost motor cranial nuclei are bilaterally innervated. (Last's p. 612)"
+    ],
+    [
+     "In the crus the leg fibres lie medial to the arm fibres",
+     0,
+     "Arm fibres lie medial to leg fibres in the central three-fifths of the crus.\nHead fibres are most medial. (Last's p. 612)"
+    ],
+    [
+     "Uncrossed anterior corticospinal fibres also eventually cross in the cord",
+     1,
+     "The few uncrossed fibres form the anterior corticospinal tract but also eventually cross.\nAll end in the anterior horn. (Last's p. 612)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "Concerning brainstem tracts (Last's):",
+   "o": [
+    [
+     "Frontopontine fibres occupy the medial one-fifth of the crus",
+     1,
+     "On p. 612 Last's gives the medial one-fifth (p. 583 says medial third).\nTemporo-, parieto- and occipitopontine fibres occupy the lateral one-fifth. (Last's p. 612)"
+    ],
+    [
+     "Corticopontine fibres arise only from the frontal lobe",
+     0,
+     "They arise from many areas of all four lobes and pass through all parts of the capsule.\nPontine axons then decussate into the middle peduncle. (Last's p. 612)"
+    ],
+    [
+     "The dorsal tegmental decussation is formed by the tectospinal tracts",
+     1,
+     "Just dorsal to the ventral (rubrospinal) decussation is the smaller dorsal tegmental decussation of the tectospinal tracts. (Last's p. 612)"
+    ],
+    [
+     "The rubrospinal tracts decussate after descending into the pons",
+     0,
+     "They decussate immediately, in the ventral tegmental decussation, before passing down. (Last's p. 612)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "Concerning brainstem tracts (Last's):",
+   "o": [
+    [
+     "The medial longitudinal bundle extends from the upper border of the midbrain to the upper cervical cord",
+     1,
+     "It lies just ventral to the periaqueductal grey and stays near the midline.\nIt links vestibular nuclei with III, IV and VI. (Last's p. 613)"
+    ],
+    [
+     "The tectospinal and rubrospinal tracts descend to the lumbar cord",
+     0,
+     "Last's: they descend no farther than the cervical region.\nThey assist head and neck movements. (Last's p. 613)"
+    ],
+    [
+     "The lateral reticulospinal tract arises from the medullary reticular formation",
+     1,
+     "Lateral from medullary, anterior from pontine reticular formation.\nThey mix with corticospinal fibres in the cord. (Last's p. 613)"
+    ],
+    [
+     "The descending sympathetic tract runs with the medial lemniscus",
+     0,
+     "Its fibres run in the region of the spinal lemniscus.\nThey end in the thoracolumbar lateral horn. (Last's p. 613)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brainstem tracts",
+   "y": 1,
+   "s": "Concerning the lemnisci (Last's):",
+   "o": [
+    [
+     "The medial lemniscus deviates laterally as it ascends through the pons and midbrain",
+     1,
+     "It starts near the midline, then deviates laterally before reaching the thalamus.\nIt is joined by the trigeminal lemniscus. (Last's p. 613)"
+    ],
+    [
+     "The spinal lemniscus enlarges as it ascends",
+     0,
+     "It quickly becomes much smaller, as most fibres end in the reticular formation.\nIt runs at the lateral then dorsal edge of the medial lemniscus. (Last's p. 613)"
+    ],
+    [
+     "The trapezoid body and lateral lemniscus contain cell stations",
+     1,
+     "They connect with the extraocular nuclei via the medial longitudinal bundle.\nThe lateral lemniscus ends in the inferior colliculus and medial geniculate body. (Last's p. 613)"
+    ],
+    [
+     "The anterior spinocerebellar tract enters the inferior cerebellar peduncle",
+     0,
+     "The posterior tract enters the inferior peduncle; the anterior continues up to the superior peduncle.\nBoth lie at the lateral margin of the lower medulla. (Last's p. 613)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Fourth ventricle",
+   "y": 1,
+   "s": "Concerning the roof of the fourth ventricle (Last's):",
+   "o": [
+    [
+     "The inferior medullary velum arises from the base of the flocculus",
+     1,
+     "The upper medullary roof is covered by the inferior medullary velum from the base of the flocculus.\nThe lowest part is ependyma and pia only. (Last's p. 613)"
+    ],
+    [
+     "The median aperture opens into the pontine cistern",
+     0,
+     "The median aperture opens into the cerebellomedullary cistern.\nThe lateral apertures open into the pontine cistern, just behind VIII. (Last's p. 613)"
+    ],
+    [
+     "The lower margin of the roof is attached to the gracile and cuneate tubercles",
+     1,
+     "It is perforated by the midline median aperture (of Magendie).\nCSF escapes into the cerebellomedullary cistern. (Last's p. 613)"
+    ],
+    [
+     "The lateral aperture opens posteriorly into the cerebellomedullary cistern",
+     0,
+     "It opens anteriorly, just behind VIII, into the pontine cistern.\nThe lateral recess runs round behind the inferior peduncle. (Last's p. 613)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Fourth ventricle",
+   "y": 1,
+   "s": "The choroid plexus of the fourth ventricle (Last's):",
+   "o": [
+    [
+     "Begins at the lateral aperture by a branch of PICA",
+     1,
+     "It commences at the lateral aperture, just below the flocculus.\nIt turns medially to meet its fellow. (Last's p. 614)"
+    ],
+    [
+     "Forms an H-shaped plexus",
+     0,
+     "The two L-shaped halves form a T-shaped plexus with a double central stem.\nIt indents the medullary part of the roof. (Last's p. 614)"
+    ],
+    [
+     "Drains into the straight sinus",
+     0,
+     "Its veins drain back into the occipital sinus. (Last's p. 614)"
+    ],
+    [
+     "Makes only a small contribution to the total CSF",
+     1,
+     "It is separate from the third and lateral ventricle plexuses.\nThe lateral plexuses secrete the bulk. (Last's p. 590, 614)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Fourth ventricle",
+   "y": 1,
+   "s": "The floor of the fourth ventricle (Last's):",
+   "o": [
+    [
+     "The medullary striae are aberrant fibres from the pontine nuclei",
+     1,
+     "They cross the widest part of the floor, destined for the cerebellum.\nThey lie between pontine and medullary parts. (Last's p. 614)"
+    ],
+    [
+     "The locus caeruleus lies in the inferior fovea",
+     0,
+     "It lies in the upper part of the superior fovea; its pigmented cells are noradrenergic.\nIt is part of the reticular formation. (Last's p. 614)"
+    ],
+    [
+     "The medullary part of the floor is smaller than the pontine part",
+     1,
+     "Last's says so.\nThe inferior fovea divides it into hypoglossal and vagal trigones. (Last's p. 614)"
+    ],
+    [
+     "The hypoglossal trigone has its apex pointing upwards",
+     0,
+     "The medial (hypoglossal) trigone has its apex down; the lateral (vagal) apex upwards. (Last's p. 614)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebrospinal fluid",
+   "y": 1,
+   "s": "Concerning CSF (Last's):",
+   "o": [
+    [
+     "Some CSF drains through the cribriform plate into nasal tissues",
+     1,
+     "There is some drainage through the cribriform plate into the nose and so to cervical lymphatics.\nMost resorption is through arachnoid granulations. (Last's p. 614)"
+    ],
+    [
+     "Changes in arterial pressure are quickly reflected in CSF pressure",
+     0,
+     "Arterial pressure changes have little effect; raised venous pressure is quickly reflected. (Last's p. 614)"
+    ],
+    [
+     "There is a brain/CSF barrier",
+     0,
+     "Last's: there is no brain/CSF barrier, but there is a blood/CSF barrier.\nIt is due to ependymal tight junctions over the choroid plexus. (Last's p. 614)"
+    ],
+    [
+     "The subarachnoid space holds about 75 ml in the spinal part",
+     1,
+     "Of 100 ml subarachnoid CSF, about 75 ml is spinal and 25 ml cranial.\nThe ventricles hold about 30 ml. (Last's p. 614)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial nerve nuclei",
+   "y": 1,
+   "s": "Summary of cranial nerve nuclei (Last's):",
+   "o": [
+    [
+     "The sensory nuclei of cranial nerves are second-neuron cell bodies",
+     1,
+     "First neurons lie in ganglia on the nerves.\nThe mesencephalic nucleus is the solitary exception. (Last's p. 615)"
+    ],
+    [
+     "The trigeminal motor nucleus supplies tensor tympani in Last's list",
+     0,
+     "Last's lists mastication muscles, mylohyoid and tensor palati. (Last's p. 615)"
+    ],
+    [
+     "Last's lists four vestibular and two cochlear nuclei",
+     1,
+     "Six special sensory nuclei: two cochlear in the inferior cerebellar peduncle, four vestibular. (Last's p. 615)"
+    ],
+    [
+     "The spinal accessory arises from the upper three cervical segments",
+     0,
+     "Last's: anterior horn cells of the upper five or six cervical segments. (Last's p. 616)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial nerve nuclei",
+   "y": 1,
+   "s": "Facial and glossopharyngeal nuclei (Last's):",
+   "o": [
+    [
+     "Facial taste fibres from the soft palate travel in the greater petrosal nerve",
+     1,
+     "The nucleus of the tractus solitarius receives chorda tympani taste from the tongue and greater petrosal taste from the soft palate. (Last's p. 615)"
+    ],
+    [
+     "Facial somatic fibres from the external meatus go to the nucleus of the tractus solitarius",
+     0,
+     "They go to the trigeminal sensory nuclei.\nSo do general sensory fibres of IX. (Last's p. 615)"
+    ],
+    [
+     "IX carries ordinary sensation from the tonsil to the trigeminal nuclei",
+     1,
+     "Somatic sensation from tongue, palate, pharynx and tonsil goes to the trigeminal sensory nuclei.\nTaste and baroreceptor fibres go to the tractus solitarius. (Last's p. 615)"
+    ],
+    [
+     "The vagus carries taste from the posterior third of the tongue",
+     0,
+     "The vagus carries taste only from the epiglottis.\nThe posterior third is IX. (Last's p. 615-16)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Brain death",
+   "y": 1,
+   "s": "Brainstem death tests (Last's):",
+   "o": [
+    [
+     "Absent corneal reflexes test pontine trigeminal–facial connexions",
+     1,
+     "Last's: corneal reflexes test pontine connexions between V and VII.\nPressure on the supraorbital margin tests the same. (Last's p. 616)"
+    ],
+    [
+     "The apnoea test requires PaCO2 above 30 mm Hg",
+     0,
+     "It requires PaCO2 above 50 mm Hg (6.7 kPa). (Last's p. 616)"
+    ],
+    [
+     "Absent response to a tracheal catheter tests vagal medullary connexions",
+     1,
+     "Gag and bronchial stimulation responses test vagal connexions. (Last's p. 616)"
+    ],
+    [
+     "Hypothermia excludes the diagnosis permanently",
+     0,
+     "Drugs, hypothermia and endocrine or metabolic disturbance must be excluded first, since they produce functional damage. (Last's p. 616)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "Concerning cerebellar anatomy (Last's):",
+   "o": [
+    [
+     "The horizontal fissure separates palaeocerebellum from neocerebellum",
+     0,
+     "The horizontal fissure is the deepest but of no functional significance.\nThe primary fissure separates palaeo- from neocerebellum. (Last's p. 617)"
+    ],
+    [
+     "The highest part of the cerebellum lies at the tentorial notch",
+     1,
+     "The superior surface slopes concavely up to the highest part at the notch. (Last's p. 616)"
+    ],
+    [
+     "The nodule lies highest of the three inferior vermian lobules",
+     1,
+     "The inferior vermis has pyramid, uvula and nodule; the nodule lies highest, on the fourth ventricle roof. (Last's p. 617)"
+    ],
+    [
+     "The paraflocculus is attached mainly to the uvula",
+     0,
+     "It is attached mainly to the pyramid and lies beneath the flocculus.\nIt is enormous in marine mammals. (Last's p. 617)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "Cerebellar lesions (Last's):",
+   "o": [
+    [
+     "Archaeocerebellar lesions cause trunk ataxia without nystagmus",
+     1,
+     "Last's: \"there is no nystagmus, no tremor and no alteration of muscle reflexes.\"\nFine movements are well performed. (Last's p. 618)"
+    ],
+    [
+     "Palaeocerebellar lesions reduce muscle reflexes",
+     0,
+     "They cause great disturbance of posture with increased reflexes. (Last's p. 618)"
+    ],
+    [
+     "Neocerebellar lesions cause pendular jerks and dysdiadochokinesia",
+     1,
+     "Hypotonia, diminished or pendulum jerks, intention tremor and dysdiadochokinesia. (Last's p. 618)"
+    ],
+    [
+     "Cerebellar intention tremor is worst at rest",
+     0,
+     "It is absent at rest and best seen towards the end of the finger–nose test. (Last's p. 618)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "Cerebellar nuclei and cortex (Last's):",
+   "o": [
+    [
+     "The dentate nucleus is open towards the superior peduncle",
+     1,
+     "It is a large crenated crescent like the inferior olive, open towards the superior peduncle.\nIts efferents go to the opposite red nucleus and thalamus. (Last's p. 618)"
+    ],
+    [
+     "The globose nucleus belongs to the archaeocerebellum",
+     0,
+     "The fastigial nucleus is archaeocerebellar; emboliform and globose are palaeocerebellar.\nEGF from lateral to medial. (Last's p. 618)"
+    ],
+    [
+     "Purkinje dendrites lie at right angles to the long axis of a folium",
+     1,
+     "All branches lie in one plane, like a tree on a wall.\nAdjacent dendrites line up like telegraph poles. (Last's p. 618)"
+    ],
+    [
+     "Mossy fibres activate Purkinje cells directly",
+     0,
+     "Climbing fibres do; mossy fibres act through granular and basket cells. (Last's p. 618)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebellum",
+   "y": 1,
+   "s": "Cerebellar circuitry (Last's):",
+   "o": [
+    [
+     "A climbing fibre directly activates one Purkinje cell",
+     1,
+     "A mossy fibre indirectly activates many hundred Purkinje cells.\nClimbing fibres weave around Purkinje dendrites in the molecular layer. (Last's p. 618-19)"
+    ],
+    [
+     "Most granule cell axons end on basket cells",
+     0,
+     "Some arborize around the few basket cells; the majority end directly on Purkinje dendrites.\nGranule axons bifurcate in a T. (Last's p. 619)"
+    ],
+    [
+     "Some vestibulocerebellar fibres enter the fastigial nucleus without reaching the cortex",
+     1,
+     "Last's lists this among clinically unimportant exceptions to the rule that afferents go to cortex.\nA few cerebellovestibular fibres leave directly from cortex. (Last's p. 619)"
+    ],
+    [
+     "Efferent cerebellar fibres arise mainly from the cortex",
+     0,
+     "As a general rule efferents arise from subcortical nuclei, not the cortex.\nAfferents pass directly to the cortex. (Last's p. 619)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebellar peduncles",
+   "y": 1,
+   "s": "Concerning the cerebellar peduncles (Last's):",
+   "o": [
+    [
+     "The superior peduncle carries tectocerebellar fibres",
+     1,
+     "It contains dentate efferents, the anterior spinocerebellar tract and tectocerebellar fibres. (Last's p. 619)"
+    ],
+    [
+     "The cerebellovestibular tract goes to the opposite vestibular nucleus",
+     0,
+     "It runs from the roof nuclei to the vestibular nucleus of the same side, in the inferior peduncle. (Last's p. 619)"
+    ],
+    [
+     "Cuneocerebellar fibres are posterior external arcuate fibres",
+     1,
+     "They arise from the accessory cuneate nucleus and enter the inferior peduncle for the anterior lobe. (Last's p. 619)"
+    ],
+    [
+     "Olivocerebellar fibres go mainly to the anterior lobe",
+     0,
+     "They go to the posterior lobe (neocerebellum) from the opposite olive. (Last's p. 619)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cerebellar arteries",
+   "y": 1,
+   "s": "Concerning the cerebellar arteries (Last's):",
+   "o": [
+    [
+     "PICA is the largest branch of the vertebral artery",
+     1,
+     "It is one of the most tortuous arteries in the body.\nIt arises near the lower end of the olive. (Last's p. 619)"
+    ],
+    [
+     "PICA passes above the hypoglossal rootlets",
+     0,
+     "It spirals round the medulla below the hypoglossal rootlets, then between IX and X rootlets. (Last's p. 619)"
+    ],
+    [
+     "AICA arises from the lower part of the basilar and supplies the flocculus",
+     1,
+     "It runs on the inferior surface and may give the labyrinthine artery. (Last's p. 619)"
+    ],
+    [
+     "The superior cerebellar artery winds round the peduncle above the fourth nerve",
+     0,
+     "It winds round the cerebral peduncle below IV.\nIt supplies the superior surface. (Last's p. 619)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal cord",
+   "y": 1,
+   "s": "Concerning the spinal cord (Last's):",
+   "o": [
+    [
+     "In the fetus the cord reaches S2",
+     1,
+     "It reaches the lower limit of the dura at S2 vertebra.\nAt birth the conus is at L3. (Last's p. 620)"
+    ],
+    [
+     "The conus reaches its permanent level by about 5 years",
+     0,
+     "It reaches L1 or L2 at about 20 years. (Last's p. 620)"
+    ],
+    [
+     "The posterior median septum of the cord attaches to an arachnoid septum",
+     1,
+     "It is attached to the incomplete posterior median septum of arachnoid. (Last's p. 619)"
+    ],
+    [
+     "The lumbosacral enlargement lies opposite vertebrae L2 to S3",
+     0,
+     "Segments L2–S3 lie opposite vertebrae T9–L1.\nThe cervical enlargement (C5–T1) lies opposite C3–T1. (Last's p. 620)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal roots",
+   "y": 1,
+   "s": "Concerning spinal roots (Last's):",
+   "o": [
+    [
+     "No spinal nerve lies strictly within the vertebral canal",
+     1,
+     "Roots unite in the intervertebral foramina, outside the theca. (Last's p. 620)"
+    ],
+    [
+     "The posterior root ganglia of cervical nerves lie within the foramina",
+     0,
+     "Cervical ganglia lie just lateral to the foramina, in contact with the vertebral artery. (Last's p. 620)"
+    ],
+    [
+     "From C1 to L1 anterior roots pass in front of the denticulate ligament",
+     1,
+     "Anterior roots pass in front, posterior roots behind.\nThey evaginate the dura between denticulations. (Last's p. 620)"
+    ],
+    [
+     "Each posterior root is formed by three or four rootlets",
+     0,
+     "Anterior roots have three or four; posterior roots have several, attached vertically. (Last's p. 620)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal cord",
+   "y": 1,
+   "s": "Internal structure of the spinal cord (Last's):",
+   "o": [
+    [
+     "The central canal extends into the upper few millimetres of the filum terminale",
+     1,
+     "It is lined by ependyma. (Last's p. 621)"
+    ],
+    [
+     "The anterior horn reaches the surface of the cord",
+     0,
+     "The posterior horn stretches to the surface; the anterior falls short. (Last's p. 621)"
+    ],
+    [
+     "Ventral cells of the lateral anterior horn supply proximal limb muscles",
+     1,
+     "Medial cells supply the trunk, lateral cells the limbs; ventral lateral cells proximal, dorsal lateral cells distal. (Last's p. 621)"
+    ],
+    [
+     "The posterior white columns are largest in the lumbar region",
+     0,
+     "They are largest in the cervical region.\nAnterior horns are largest in cervical and lumbar regions. (Last's p. 621)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal cord",
+   "y": 1,
+   "s": "Grey matter of the cord (Last's):",
+   "o": [
+    [
+     "Lamina V is a main source of anterolateral tract fibres",
+     1,
+     "Laminae III–VI form the nucleus proprius; lamina V is a main source of spinothalamic and spinoreticular fibres. (Last's p. 622)"
+    ],
+    [
+     "The thoracic nucleus lies in lamina IX",
+     0,
+     "It lies in the medial part of lamina VII.\nLamina IX holds alpha and gamma motor neurons. (Last's p. 622)"
+    ],
+    [
+     "Sacral parasympathetic cells lie in the same position as thoracic sympathetic cells",
+     1,
+     "Last's notes they are in exactly the same position in the cord.\nBoth form a small lateral horn. (Last's p. 622)"
+    ],
+    [
+     "Rexed's laminae were first defined in the human cord",
+     0,
+     "The original research was on the cat, confirmed for primates. (Last's p. 622)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal cord",
+   "y": 1,
+   "s": "Sensory pathways (Last's):",
+   "o": [
+    [
+     "First-neuron cell bodies always lie outside the CNS, except the trigeminal proprioceptive ones",
+     1,
+     "The mesencephalic nucleus is the one odd exception.\nSecond neurons are in cord or brainstem, third in thalamus. (Last's p. 622)"
+    ],
+    [
+     "The posterior white column contains descending as well as ascending fibres",
+     0,
+     "It is wholly occupied by ascending gracile and cuneate fibres. (Last's p. 622)"
+    ],
+    [
+     "Except in the posterior columns, cord tracts have no sharp boundaries",
+     1,
+     "There is much intermingling of fibres. (Last's p. 622)"
+    ],
+    [
+     "The anterolateral tract is confined to the lateral white column",
+     0,
+     "It extends into the anterior white column.\nIt carries pain and temperature. (Last's p. 622)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
