@@ -3,6 +3,151 @@
  "region": "Abdomen & pelvis",
  "questions": [
   {
+   "t": "Gut innervation",
+   "y": 1,
+   "s": "Concerning the enteric and abdominal autonomics (Last's):",
+   "o": [
+    [
+     "The enteric nervous system has 50–100 million neurons",
+     1,
+     "As many as the spinal cord. (Last's p. 327)"
+    ],
+    [
+     "In the submucous plexus the ganglion cells lie in small groups",
+     0,
+     "They are scattered singly; groups occur in the myenteric plexus. (Last's p. 327)"
+    ],
+    [
+     "Vagal fibres reach the gut only as far as the transverse colon",
+     1,
+     "(Last's p. 364)"
+    ],
+    [
+     "Vagal fibres supply the gonads and suprarenals",
+     0,
+     "As far as known, they do not; they do enter the kidney. (Last's p. 364)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Kidney",
+   "y": 1,
+   "s": "Concerning the kidney relations (Last's):",
+   "o": [
+    [
+     "The right renal hilum lies just below the transpyloric plane",
+     1,
+     "The left just above, 5 cm from the midline. (Last's p. 364)"
+    ],
+    [
+     "The lateral femoral cutaneous nerve is a normal posterior relation of the kidney",
+     0,
+     "It is normally too low. (Last's p. 364)"
+    ],
+    [
+     "The costodiaphragmatic recess is the most important posterior renal relation",
+     1,
+     "(Last's p. 364)"
+    ],
+    [
+     "The kidney moves about 5 cm with full respiration",
+     0,
+     "About 2 cm. (Last's p. 364)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pelvic nerves",
+   "y": 1,
+   "s": "Concerning the obturator and accessory obturator nerves (Last's):",
+   "o": [
+    [
+     "In the obturator foramen the nerve lies highest, above artery and vein",
+     1,
+     "(Last's p. 395)"
+    ],
+    [
+     "The accessory obturator passes under the pubic ramus with the obturator nerve",
+     0,
+     "It passes over it, like the femoral nerve. (Last's p. 395)"
+    ],
+    [
+     "Last's says the accessory obturator should be named the accessory femoral",
+     1,
+     "From posterior divisions of L3, 4. (Last's p. 395)"
+    ],
+    [
+     "The lumbosacral trunk is separated from the obturator nerve by the superior gluteal artery",
+     0,
+     "By the iliolumbar vessels. (Last's p. 395)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacral plexus",
+   "y": 1,
+   "s": "Concerning the sacral plexus in the pelvis (Last's):",
+   "o": [
+    [
+     "The lateral sacral vessels lie in front of the sacral nerves",
+     1,
+     "Anterior to the parietal fascia. (Last's p. 395)"
+    ],
+    [
+     "The pudendal nerve passes between piriformis and coccygeus lateral to the pudendal vessels",
+     0,
+     "It lies medial to them. (Last's p. 396)"
+    ],
+    [
+     "The perineal branch of S4 supplies puborectalis",
+     1,
+     "But not the external anal sphincter. (Last's p. 396)"
+    ],
+    [
+     "The posterior femoral cutaneous nerve leaves the pelvis in front of the sciatic",
+     0,
+     "It leaves behind it. (Last's p. 396)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pelvic autonomics",
+   "y": 1,
+   "s": "Concerning the pelvic plexuses (Last's):",
+   "o": [
+    [
+     "About half the hypogastric nerve fibres are preganglionic",
+     1,
+     "They relay in the inferior hypogastric plexus. (Last's p. 397)"
+    ],
+    [
+     "Uterine body pain travels with the pelvic splanchnic nerves",
+     0,
+     "With the hypogastric nerves to T10–L1; lower cervix pain with parasympathetics. (Last's p. 397)"
+    ],
+    [
+     "The internal sphincter of the bladder is supplied via the superior hypogastric plexus",
+     1,
+     "(Last's p. 397)"
+    ],
+    [
+     "Pelvic veins contain valves",
+     0,
+     "There are none. (Last's p. 395)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
    "t": "Lumbar plexus",
    "y": 1,
    "s": "Concerning the lumbar plexus in the abdomen (Last's):",
@@ -142,6 +287,122 @@
      "The suprarenal medulla receives postganglionic fibres from the coeliac ganglion for secretion",
      0,
      "Preganglionic fibres reach it without relay; coeliac postganglionics are vasomotor. (Last's p. 363)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Bladder",
+   "y": 1,
+   "s": "Concerning bladder innervation (Last's):",
+   "o": [
+    [
+     "Normal bladder distension sensation ascends in the gracile tract",
+     1,
+     "Bladder pain uses the lateral spinothalamic tract via both autonomic routes. (Last's p. 380)"
+    ],
+    [
+     "Sympathetic bladder fibres arise from T10–12",
+     0,
+     "From L1 and 2. (Last's p. 380)"
+    ],
+    [
+     "The detrusor motor centre lies in the medial pontine reticular formation",
+     1,
+     "Reticulospinal fibres descend with the lateral corticospinal tract. (Last's p. 381)"
+    ],
+    [
+     "Destruction of the sacral segments produces an automatic reflex bladder",
+     0,
+     "It paralyses the detrusor, with overflow incontinence; lesions above S2 give automatic emptying. (Last's p. 381)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Bladder",
+   "y": 1,
+   "s": "Concerning the bladder (Last's):",
+   "o": [
+    [
+     "The superficial trigonal muscle receives predominantly sympathetic fibres",
+     1,
+     "Unlike the detrusor. (Last's p. 381)"
+    ],
+    [
+     "The male internal urethral sphincter is essential for urinary continence",
+     0,
+     "Last's: it prevents seminal reflux and has nothing to do with continence. (Last's p. 381)"
+    ],
+    [
+     "In the empty bladder the three trigone orifices are 2.5 cm apart",
+     1,
+     "Up to 5 cm when distended. (Last's p. 380)"
+    ],
+    [
+     "The female bladder neck has a circular internal sphincter",
+     0,
+     "Female muscle there is longitudinal; there is no internal sphincter. (Last's p. 381)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Ureter",
+   "y": 1,
+   "s": "Concerning the pelvic ureter (Last's):",
+   "o": [
+    [
+     "On the left the ureter lies under the apex of the sigmoid mesocolon",
+     1,
+     "(Last's p. 381)"
+    ],
+    [
+     "The ureter crosses the obturator artery before the obturator nerve",
+     0,
+     "From above down it crosses obturator nerve, superior vesical artery, obturator artery, obturator vein. (Last's p. 381)"
+    ],
+    [
+     "Bladder veins do not follow the arteries",
+     1,
+     "They drain to the vesicoprostatic plexus. (Last's p. 380)"
+    ],
+    [
+     "The bladder mucosa contains glands",
+     0,
+     "It has none; mucus in urine is urethral. (Last's p. 381)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Anal canal",
+   "y": 1,
+   "s": "Concerning the anal canal (Last's):",
+   "o": [
+    [
+     "A pudendal block will not anaesthetize the whole vulva",
+     1,
+     "The front is L1, separated by the dermatome gap from S3. (Last's p. 410)"
+    ],
+    [
+     "The deep external sphincter has a bony attachment",
+     0,
+     "Only the middle (superficial) part attaches to coccyx and perineal body. (Last's p. 410)"
+    ],
+    [
+     "The lowest part of the external sphincter lies below the internal sphincter",
+     1,
+     "Forming the intersphincteric groove. (Last's p. 410-11)"
+    ],
+    [
+     "Anal glands are mucosal crypts like those of the colon",
+     0,
+     "They are submucosal and may penetrate the internal sphincter. (Last's p. 411)"
     ]
    ],
    "d": 3,
