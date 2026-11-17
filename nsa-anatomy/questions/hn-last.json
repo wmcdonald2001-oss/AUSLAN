@@ -1451,6 +1451,64 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Inner ear",
+   "y": 1,
+   "s": "Concerning the spiral organ and vestibular receptors (Last's):",
+   "o": [
+    [
+     "The hearing \"hairs\" are modified microvilli (stereocilia)",
+     1,
+     "They are overlaid by the tectorial membrane. (Last's p. 534)"
+    ],
+    [
+     "Last's describes about 15 000 outer and 3500 inner hair cells",
+     0,
+     "Last's gives a single outer row of about 3500 cells and inner three to five rows of up to 15 000. (Last's p. 534)"
+    ],
+    [
+     "The endolymphatic sac is the site of absorption of endolymph",
+     1,
+     "It projects beneath the dura of the posterior fossa. (Last's p. 534)"
+    ],
+    [
+     "The macula of the utricle lies on its medial wall",
+     0,
+     "The saccule's macula is on its medial wall; the utricle's on its floor. (Last's p. 534)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Inner ear",
+   "y": 1,
+   "s": "Concerning the semicircular ducts and labyrinthine vessels (Last's):",
+   "o": [
+    [
+     "The semicircular ducts are only a quarter the calibre of the bony canals",
+     1,
+     "Except at the ampullae, which they almost fill. (Last's p. 534)"
+    ],
+    [
+     "The labyrinthine vein drains into the superior petrosal sinus",
+     0,
+     "It leaves the internal meatus to join the inferior petrosal sinus. (Last's p. 535)"
+    ],
+    [
+     "The vein in the aqueduct of the vestibule joins the superior petrosal sinus",
+     1,
+     "The vein in the aqueduct of the cochlea joins the inferior petrosal sinus. (Last's p. 535)"
+    ],
+    [
+     "The upper vestibular division supplies the ampulla of the posterior duct",
+     0,
+     "The lower division supplies it through the foramen singulare. (Last's p. 535)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

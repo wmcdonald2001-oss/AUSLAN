@@ -1,0 +1,905 @@
+{
+ "code": "sp",
+ "region": "Vertebral column & back",
+ "questions": [
+  {
+   "t": "Vertebral column",
+   "y": 1,
+   "s": "Concerning the vertebral column (Last's):",
+   "o": [
+    [
+     "The primary curvature is retained in the thoracic, sacral and coccygeal regions",
+     1,
+     "Secondary lordoses develop in the cervical and lumbar regions after birth. (Last's p. 535-6)"
+    ],
+    [
+     "Last's says the curves are the main shock absorbers of the column",
+     0,
+     "The bends give resilience, but the shock-absorbing factors are the discs. (Last's p. 536)"
+    ],
+    [
+     "Thoracic costal facets on the body lie on the neural arch",
+     1,
+     "The neurocentral junction lies in front of them.\nSo the centrum is not the anatomical body. (Last's p. 536)"
+    ],
+    [
+     "The foramen transversarium is formed by the true transverse process",
+     0,
+     "It is produced by the costal element. (Last's p. 536)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebrae",
+   "y": 1,
+   "s": "Concerning costal elements (Last's):",
+   "o": [
+    [
+     "Last's says \"costotransverse bar\" is a wrong name for the costal lamella",
+     1,
+     "It is the intertubercular lamella between anterior and posterior tubercles. (Last's p. 536-7)"
+    ],
+    [
+     "A smooth bony cervical rib causes more symptoms than a fibrous band",
+     0,
+     "A thin fibrous band may be more irritating.\nSymptoms usually appear around puberty. (Last's p. 537)"
+    ],
+    [
+     "A well-developed cervical rib is associated with a prefixed brachial plexus",
+     1,
+     "That preserves the normal nerve-to-rib relationship. (Last's p. 537)"
+    ],
+    [
+     "The lumbar \"transverse processes\" are true transverse processes",
+     0,
+     "They are costal elements; the true process is reduced to the mamillary process and accessory tubercle. (Last's p. 537)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebrae",
+   "y": 1,
+   "s": "Concerning the sacrum and disc (Last's):",
+   "o": [
+    [
+     "The sacral auricular surface lies wholly on the lateral mass",
+     1,
+     "So morphologically the pelvis articulates with ribs. (Last's p. 537)"
+    ],
+    [
+     "Annulus fibres lie at 60–75° to the vertebral bodies",
+     0,
+     "They lie at 25–45°, with alternate layers at right angles. (Last's p. 537)"
+    ],
+    [
+     "In the adult the nucleus pulposus lies nearest the back of the disc",
+     1,
+     "Because growth occurs ventrally and laterally. (Last's p. 538)"
+    ],
+    [
+     "The notochord originally extended only to the foramen magnum",
+     0,
+     "It extended as far as the sella turcica. (Last's p. 537)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebral joints",
+   "y": 1,
+   "s": "Concerning the joints between vertebral bodies (Last's):",
+   "o": [
+    [
+     "Last's says the uncovertebral \"joints\" are not synovial",
+     1,
+     "Small cavities form there from degenerative changes in the disc.\nThey occur on C3–7 and T1. (Last's p. 539)"
+    ],
+    [
+     "The anterior longitudinal ligament narrows as it descends",
+     0,
+     "It broadens gradually downwards; the posterior ligament narrows downwards. (Last's p. 539)"
+    ],
+    [
+     "The posterior longitudinal ligament is loosely attached over the bodies to let basivertebral veins exit",
+     1,
+     "It is broadest and firmly attached over the discs. (Last's p. 539)"
+    ],
+    [
+     "The anterior longitudinal ligament begins at the body of the axis",
+     0,
+     "It begins at the anterior tubercle of the atlas; the posterior ligament begins at the back of the axis body. (Last's p. 539)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebral joints",
+   "y": 1,
+   "s": "Concerning the joints between neural arches (Last's):",
+   "o": [
+    [
+     "Each facet joint is supplied by the nerve of its own level and the one above",
+     1,
+     "So one nerve supplies two joints. (Last's p. 539)"
+    ],
+    [
+     "The ligamenta flava attach to the back of the upper lamina and front of the lower",
+     0,
+     "They attach to the front of the upper lamina and the back of the lower. (Last's p. 539)"
+    ],
+    [
+     "The erector spinae are electrically silent when the spine is fully flexed",
+     1,
+     "The taut supraspinous ligaments then support the spine. (Last's p. 539)"
+    ],
+    [
+     "The interspinous ligaments are best developed in the cervical region",
+     0,
+     "They are well developed only in the lumbar region. (Last's p. 539)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebral column",
+   "y": 1,
+   "s": "Concerning the vertebral column (Last's):",
+   "o": [
+    [
+     "The spinal curvatures are produced mostly by the wedge shape of the discs",
+     1,
+     "Partly by the wedge-shaped bodies. (Last's p. 540)"
+    ],
+    [
+     "In spondylolisthesis the lamina of L5 is deficient",
+     0,
+     "Last's: the pedicle of L5 is deficient, so bony locking at the facet joint fails. (Last's p. 540)"
+    ],
+    [
+     "In the cervical region part of the body below the disc bounds the intervertebral foramen",
+     1,
+     "The pedicle arises a little lower down the back of the body. (Last's p. 540)"
+    ],
+    [
+     "The vertebral canal enlarges from above downwards",
+     0,
+     "It becomes progressively smaller from above downwards. (Last's p. 540)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal movements",
+   "y": 1,
+   "s": "Concerning movements of the spine (Last's):",
+   "o": [
+    [
+     "Rotation occurs mainly in the thoracic region",
+     1,
+     "Last's calls this strange.\nLumbar rotation is almost absent. (Last's p. 540, 543)"
+    ],
+    [
+     "The T12/L1 facet joints are thoracic in type",
+     0,
+     "They are lumbar in type. (Last's p. 540)"
+    ],
+    [
+     "Below about T9 thoracic rotation becomes negligible",
+     1,
+     "Possibly because of the attachments of external oblique. (Last's p. 540)"
+    ],
+    [
+     "Thoracic extension crowds the ribs together",
+     0,
+     "Extension spreads the ribs (inspiratory); flexion crowds them (expiratory). (Last's p. 540)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Atlas and axis",
+   "y": 1,
+   "s": "Concerning the atlas and axis (Last's):",
+   "o": [
+    [
+     "The lower facet of the atlas lateral mass is round and flat",
+     1,
+     "The upper facet is kidney-shaped and concave. (Last's p. 541)"
+    ],
+    [
+     "Last's describes the dens as the centrum of the atlas",
+     0,
+     "Long believed to be so, it \"appears from comparative studies to be a development in its own right.\" (Last's p. 541)"
+    ],
+    [
+     "The dens bears no weight",
+     1,
+     "Skull weight passes through the atlas lateral masses to the superior articular processes of the axis. (Last's p. 541)"
+    ],
+    [
+     "The axis spine is large because of the attachment of semispinalis capitis",
+     0,
+     "It receives semispinalis cervicis below and the suboccipital muscles above. (Last's p. 541)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Craniovertebral joints",
+   "y": 1,
+   "s": "Concerning the atlanto-occipital joints (Last's):",
+   "o": [
+    [
+     "The lateral margin of the posterior atlanto-occipital membrane sometimes ossifies",
+     1,
+     "This converts the vertebral artery groove into a foramen. (Last's p. 542)"
+    ],
+    [
+     "The anterior atlanto-occipital membrane is deficient laterally for the vertebral artery",
+     0,
+     "The anterior membrane closes the space completely; the posterior one is deficient laterally. (Last's p. 542)"
+    ],
+    [
+     "The head weighs over 3 kg",
+     1,
+     "Its centre of gravity lies in front of the joint.\nSemispinalis capitis tone holds it. (Last's p. 542)"
+    ],
+    [
+     "Some rotation occurs at the atlanto-occipital joints",
+     0,
+     "No rotation is possible; the egg-shaped surfaces allow nodding and lateral flexion only. (Last's p. 542)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Craniovertebral ligaments",
+   "y": 1,
+   "s": "Concerning the craniovertebral ligaments (Last's):",
+   "o": [
+    [
+     "The tectorial membrane attaches to the anterior half of the foramen magnum",
+     1,
+     "The spinal dura is firmly attached to it. (Last's p. 542)"
+    ],
+    [
+     "The apical ligament is the strongest of the dens ligaments",
+     0,
+     "It is weak; the alar ligaments are very strong and limit rotation. (Last's p. 542)"
+    ],
+    [
+     "A synovial bursa separates the cruciform ligament from the dens",
+     1,
+     "It is surrounded by a loose fibrous capsule. (Last's p. 542)"
+    ],
+    [
+     "Rotation at the atlantoaxial joints is mainly by trapezius",
+     0,
+     "The chief rotators are sternocleidomastoid, splenius capitis and inferior oblique. (Last's p. 543)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vertebral column",
+   "y": 1,
+   "s": "Vessels of the vertebral column (Last's):",
+   "o": [
+    [
+     "The external vertebral plexus is absent over the fronts of the bodies",
+     1,
+     "It is intramuscular. (Last's p. 543)"
+    ],
+    [
+     "Basivertebral veins drain into the external plexus",
+     0,
+     "They drain into the internal vertebral plexus. (Last's p. 543)"
+    ],
+    [
+     "In the neck the vertebral plexuses communicate with the inferior thyroid veins",
+     1,
+     "Via the brachiocephalic veins; a route for thyroid metastasis. (Last's p. 543)"
+    ],
+    [
+     "The neck extensors are supplied mainly by the vertebral artery",
+     0,
+     "They are supplied by the occipital, deep cervical and transverse cervical arteries. (Last's p. 543)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Back muscles",
+   "y": 1,
+   "s": "Concerning the deep back muscles (Last's):",
+   "o": [
+    [
+     "The extensor mass is the only muscle in the body supplied by posterior rami",
+     1,
+     "It derives from the outer layer of the body wall. (Last's p. 544)"
+    ],
+    [
+     "The rotatores are best developed in the lumbar region",
+     0,
+     "They are confined to the thoracic spine, the only region of pure rotation. (Last's p. 544)"
+    ],
+    [
+     "Multifidus fibres reach spinous processes two or three vertebrae above",
+     1,
+     "It extends from the upper sacrum to the upper neck. (Last's p. 544)"
+    ],
+    [
+     "Semispinalis thoracis inserts two or three vertebrae higher",
+     0,
+     "Each part inserts six or more vertebrae higher. (Last's p. 544)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Back muscles",
+   "y": 1,
+   "s": "Concerning semispinalis capitis and erector spinae (Last's):",
+   "o": [
+    [
+     "Semispinalis capitis arises from the upper six thoracic and lower four cervical transverse processes",
+     1,
+     "It is the chief extensor of the head. (Last's p. 544)"
+    ],
+    [
+     "Semispinalis capitis lies superficial to splenius",
+     0,
+     "It lies beneath splenius and trapezius. (Last's p. 544-5)"
+    ],
+    [
+     "Like soleus, semispinalis capitis contains a large venous plexus",
+     1,
+     "The deep cervical artery passes in front of it. (Last's p. 545)"
+    ],
+    [
+     "Iliocostalis inserts into the tips of the lower six transverse processes",
+     0,
+     "It inserts by shining tendons into the angles of the lower six ribs. (Last's p. 545)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Back muscles",
+   "y": 1,
+   "s": "Concerning erector spinae and splenius (Last's):",
+   "o": [
+    [
+     "Longissimus capitis inserts into the mastoid process deep to splenius capitis",
+     1,
+     "It overlies the lateral border of semispinalis capitis. (Last's p. 545)"
+    ],
+    [
+     "Splenius cervicis inserts into the transverse processes of the lower cervical vertebrae",
+     0,
+     "It inserts into the upper three or four, deep to levator scapulae. (Last's p. 546)"
+    ],
+    [
+     "Spinalis is the most medial part of erector spinae",
+     1,
+     "It is small and blends with semispinalis. (Last's p. 546)"
+    ],
+    [
+     "Last's says the cervical part of iliocostalis reaches the upper cervical transverse processes",
+     0,
+     "It reaches the transverse processes of the lower four cervical vertebrae. (Last's p. 545)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Back of neck",
+   "y": 1,
+   "s": "Concerning the back of the neck (Last's):",
+   "o": [
+    [
+     "The ligamentum nuchae is attached to the investing layer of deep fascia",
+     1,
+     "Its three borders attach to the external occipital crest, the bifid spines and the investing fascia. (Last's p. 546)"
+    ],
+    [
+     "The greater occipital nerve emerges through the floor of the suboccipital triangle",
+     0,
+     "The suboccipital (C1) nerve emerges through the floor; the greater occipital crosses the roof. (Last's p. 546)"
+    ],
+    [
+     "Rectus capitis posterior major rotates the head towards its own side",
+     1,
+     "It also extends the head.\nLast's says it is badly named, being oblique. (Last's p. 546)"
+    ],
+    [
+     "The superior oblique arises from the spine of the axis",
+     0,
+     "It arises from the back of the lateral mass of the atlas.\nThe inferior oblique arises from the axis spine. (Last's p. 546)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Suboccipital region",
+   "y": 1,
+   "s": "Concerning the suboccipital muscles and vessels (Last's):",
+   "o": [
+    [
+     "Rectus capitis posterior minor is the only muscle attached to the posterior arch of the atlas",
+     1,
+     "It inserts into the medial area below the inferior nuchal line. (Last's p. 546)"
+    ],
+    [
+     "The suboccipital muscles have large motor units",
+     0,
+     "They have about five muscle fibres per motor unit and many spindles. (Last's p. 547)"
+    ],
+    [
+     "Between the axis and atlas the vertebral artery has a posterior convexity",
+     1,
+     "It takes up slack during rotation. (Last's p. 547)"
+    ],
+    [
+     "The vertebral veins accompany the vertebral arteries into the skull",
+     0,
+     "They exist only in the neck; one leaves with the artery from C6, one alone through C7. (Last's p. 547)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thoracic vertebrae",
+   "y": 1,
+   "s": "Concerning thoracic vertebrae (Last's):",
+   "o": [
+    [
+     "The spines of T5–8 lie opposite the rib tubercles two lower in the series",
+     1,
+     "The upper four and lower thoracic spines lie opposite ribs one lower. (Last's p. 548)"
+    ],
+    [
+     "The vertebra prominens is always C7",
+     0,
+     "It may be T1, so spines should be counted up from the L4–5 space. (Last's p. 548)"
+    ],
+    [
+     "The middle four thoracic bodies often show a left-sided aortic excavation",
+     1,
+     "From T4 down the bodies are heart-shaped. (Last's p. 548)"
+    ],
+    [
+     "The upper border of a thoracic pedicle lies below the upper surface of the body",
+     0,
+     "It is level with it, so the body takes no part in the foramen above. (Last's p. 549)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thoracic vertebrae",
+   "y": 1,
+   "s": "Concerning thoracic vertebrae (Last's):",
+   "o": [
+    [
+     "The upper six transverse costal facets are concave",
+     1,
+     "The lower ones are flat. (Last's p. 550)"
+    ],
+    [
+     "The lower border of a thoracic lamina is grooved on its posterior surface",
+     0,
+     "The upper border is grooved posteriorly, the lower border anteriorly, for the imbricated ligamenta flava. (Last's p. 549)"
+    ],
+    [
+     "The superior costotransverse ligament attaches to the lower margin of the transverse process",
+     1,
+     "It comes from the neck of the rib below.\nA levator costae arises there too. (Last's p. 550)"
+    ],
+    [
+     "The spinous processes are most steeply inclined at T12",
+     0,
+     "Inclination increases to T7, then levels out to almost horizontal at T12. (Last's p. 548)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Special thoracic vertebrae",
+   "y": 1,
+   "s": "Concerning T1, T11 and T12 (Last's):",
+   "o": [
+    [
+     "The T1 body helps form the intervertebral foramen above it",
+     1,
+     "Its pedicle is attached below the upper margin as in cervical vertebrae; this foramen transmits C8. (Last's p. 550)"
+    ],
+    [
+     "T12 carries its single costal facet near the upper margin of the pedicle",
+     0,
+     "T11's single facet is on the upper pedicle; T12's is near the lower margin. (Last's p. 550)"
+    ],
+    [
+     "The inferior articular facet of T12 is lumbar in type",
+     1,
+     "Its superior facet is typically thoracic. (Last's p. 550)"
+    ],
+    [
+     "Psoas minor arises below the attachment of psoas major",
+     0,
+     "Psoas major begins at the lower border of T12; psoas minor arises just above this. (Last's p. 550)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lumbar vertebrae",
+   "y": 1,
+   "s": "Concerning lumbar vertebrae (Last's):",
+   "o": [
+    [
+     "The normal lumbar lordosis is produced by the discs rather than the bodies",
+     1,
+     "Piled dry bodies often make a backward convexity. (Last's p. 550)"
+    ],
+    [
+     "In L5 the four articular processes form a vertical rectangle",
+     0,
+     "L1–2 form a vertical rectangle; L4 a square; L5 a horizontal rectangle. (Last's p. 550)"
+    ],
+    [
+     "The upper facets of L4 and L5 face posteriorly as well as medially",
+     1,
+     "The lumbar facets are sections of a vertical cylinder. (Last's p. 551)"
+    ],
+    [
+     "Psoas is attached to the concavity of the lumbar bodies",
+     0,
+     "It attaches to the upper and lower borders, spanning the concavity on a fibrous arch. (Last's p. 551)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lumbar vertebrae",
+   "y": 1,
+   "s": "Concerning lumbar vertebrae (Last's):",
+   "o": [
+    [
+     "The groove between mamillary process and accessory tubercle carries the medial branch of the posterior ramus",
+     1,
+     "They represent the true transverse process. (Last's p. 551)"
+    ],
+    [
+     "The lumbar vertebral canal is circular in section",
+     0,
+     "It is somewhat triangular; thoracic canals are almost circular. (Last's p. 551)"
+    ],
+    [
+     "The arcuate ligaments attach to the ridge on the L1 transverse process",
+     1,
+     "Psoas lies medial and quadratus lumborum lateral to the ridge. (Last's p. 551)"
+    ],
+    [
+     "Fusion of L5 with the sacrum is called lumbarization",
+     0,
+     "It is called sacralization. (Last's p. 552)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacrum",
+   "y": 1,
+   "s": "Concerning the sacrum (Last's):",
+   "o": [
+    [
+     "The upper surface of S1 slopes down at 30° or more",
+     1,
+     "The L5 facets on the sacrum lie as a vertical concave cylinder. (Last's p. 552)"
+    ],
+    [
+     "The medial three-quarters of each anterior sacral foramen is costal in origin",
+     0,
+     "Only the medial boundary is vertebral body; the other three-quarters is costal. (Last's p. 552)"
+    ],
+    [
+     "Piriformis arises from the three ridges between the anterior foramina",
+     1,
+     "And from the nearby lateral mass. (Last's p. 552)"
+    ],
+    [
+     "Peritoneum covers the front of the lower three sacral bodies",
+     0,
+     "It covers the upper two; the rectum lies against the lower three. (Last's p. 552)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacrum",
+   "y": 1,
+   "s": "Concerning the back of the sacrum (Last's):",
+   "o": [
+    [
+     "The sacral hiatus results from failure of fusion of the laminae of S5 and often S4",
+     1,
+     "It is closed by the superficial (dorsal) sacrococcygeal ligament. (Last's p. 553)"
+    ],
+    [
+     "The intermediate sacral crest represents the fused transverse processes",
+     0,
+     "It represents fused articular processes and ends below as the sacral cornu; the lateral crest is the fused transverse processes. (Last's p. 553)"
+    ],
+    [
+     "The posterior sacral foramina are enclosed wholly by the fused vertebrae",
+     1,
+     "The fused costal elements lie lateral to the lateral sacral crest. (Last's p. 553)"
+    ],
+    [
+     "The lateral sacral crest meets the lateral border of the sacrum at S2",
+     0,
+     "It meets it at S4, the apex of the small triangular area below the auricular surface. (Last's p. 553)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacrum",
+   "y": 1,
+   "s": "Concerning the sacrum (Last's):",
+   "o": [
+    [
+     "Part of the sacrotuberous ligament arises from the triangular area below the auricular surface",
+     1,
+     "With its attached gluteus maximus; the sacrospinous ligament and coccygeus attach below this. (Last's p. 554)"
+    ],
+    [
+     "On the ala the obturator nerve lies medial to the lumbosacral trunk",
+     0,
+     "The sympathetic trunk crosses the base of the ala; lateral to it lie the lumbosacral trunk medially, obturator nerve laterally, and the iliolumbar artery. (Last's p. 554)"
+    ],
+    [
+     "The sacral posterior root ganglia lie inside the intervertebral foramina between the sacral pedicles",
+     1,
+     "The dural root sheaths unite just distal to the ganglia. (Last's p. 554)"
+    ],
+    [
+     "In the male the ala is wider than the body of S1",
+     0,
+     "The body is wider than the ala in the male, narrower in the female. (Last's p. 554)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacrum and coccyx",
+   "y": 1,
+   "s": "Concerning the sacrum and coccyx (Last's):",
+   "o": [
+    [
+     "The auricular surface spans two and a half vertebrae in the male",
+     1,
+     "Only two in the female. (Last's p. 554)"
+    ],
+    [
+     "The S5 foramen is completed by the deep dorsal sacrococcygeal ligament",
+     0,
+     "It is completed by the lateral sacrococcygeal ligament, which may ossify and give five foramina. (Last's p. 554)"
+    ],
+    [
+     "The tip of the coccyx gives attachment to the intermediate part of the external anal sphincter",
+     1,
+     "And to the anococcygeal raphe. (Last's p. 554)"
+    ],
+    [
+     "The sacrococcygeal joint is always a synovial joint",
+     0,
+     "It is a small symphysis with a disc, occasionally synovial. (Last's p. 554)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cervical vertebrae",
+   "y": 1,
+   "s": "Concerning a typical cervical vertebra (Last's):",
+   "o": [
+    [
+     "The cervical vertebral body is the same size as, or smaller than, the vertebral foramen",
+     1,
+     "It is broad and kidney-shaped. (Last's p. 555)"
+    ],
+    [
+     "Cervical basivertebral foramina are closer together than thoracic ones",
+     0,
+     "They are wider apart than in thoracic and lumbar vertebrae. (Last's p. 555)"
+    ],
+    [
+     "The posterior tubercle of a cervical transverse process is part of the costal element",
+     1,
+     "Only the proximal part of the posterior bar is the true transverse element. (Last's p. 555)"
+    ],
+    [
+     "Last's endorses the term costotransverse bar for the plate joining the tubercles",
+     0,
+     "It is the intertubercular lamella, \"frequently but wrongly\" called the costotransverse bar. (Last's p. 555)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cervical vertebrae",
+   "y": 1,
+   "s": "Concerning cervical transverse processes (Last's):",
+   "o": [
+    [
+     "The anterior tubercles enlarge progressively from C3 to C6",
+     1,
+     "C6 is the carotid tubercle (of Chassaignac). (Last's p. 555)"
+    ],
+    [
+     "The posterior root ganglion lies in front of the vertebral artery",
+     0,
+     "It lies behind the artery on the intertubercular lamella. (Last's p. 555)"
+    ],
+    [
+     "Scalenus posterior arises from the posterior tubercles of C5 and C6",
+     1,
+     "And sometimes C7; levator scapulae from those down to C4. (Last's p. 555)"
+    ],
+    [
+     "Scalenus medius arises from the anterior tubercles",
+     0,
+     "It arises from the posterior tubercles; longus capitis, scalenus anterior and longus colli use the anterior tubercles. (Last's p. 555)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cervical vertebrae",
+   "y": 1,
+   "s": "Concerning C7 (Last's):",
+   "o": [
+    [
+     "The foramen transversarium of C7 contains the posterior vein when the vertebral vein is doubled",
+     1,
+     "It does not transmit the vertebral artery. (Last's p. 556)"
+    ],
+    [
+     "Last's accepts that the C7 foramen transmits the grey ramus to C7",
+     0,
+     "Last's says this is doubtful. (Last's p. 556)"
+    ],
+    [
+     "Scalenus pleuralis attaches to the small anterior tubercle of C7",
+     1,
+     "So does the suprapleural membrane. (Last's p. 556)"
+    ],
+    [
+     "The upper facets of a typical cervical vertebra face up and forward",
+     0,
+     "They face obliquely up and back; the lower ones face down and forward. (Last's p. 556)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Atlas",
+   "y": 1,
+   "s": "Concerning the atlas (Last's):",
+   "o": [
+    [
+     "A tubercle in the \"hilum\" of each upper facet attaches the transverse ligament",
+     1,
+     "The upper facets are kidney-shaped. (Last's p. 556)"
+    ],
+    [
+     "The groove for the vertebral artery reliably orients a loose atlas",
+     0,
+     "It is often shallow, and a similar groove for the C2 ganglion may lie below. (Last's p. 556)"
+    ],
+    [
+     "All the bone anterior and lateral to the atlas foramen transversarium is costal",
+     1,
+     "There are usually no distinct tubercles. (Last's p. 556)"
+    ],
+    [
+     "Rectus capitis posterior major arises from the posterior arch of the atlas",
+     0,
+     "Minor arises from dimples there; major arises from the axis spine. (Last's p. 556-7)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Atlas and axis",
+   "y": 1,
+   "s": "Concerning the atlas and axis (Last's):",
+   "o": [
+    [
+     "The internal jugular vein lies on the transverse process of the atlas",
+     1,
+     "It is crossed there by the accessory nerve. (Last's p. 556)"
+    ],
+    [
+     "A synovial joint lies between the back of the dens and the transverse ligament",
+     0,
+     "Only a bursa lies there. (Last's p. 557)"
+    ],
+    [
+     "The tectorial membrane attaches to the back of the axis body below the cruciform ligament",
+     1,
+     "It sweeps up from the posterior longitudinal ligament. (Last's p. 557)"
+    ],
+    [
+     "The foramen transversarium of the axis is vertical",
+     0,
+     "It is directed up and out, bending the vertebral artery laterally. (Last's p. 557)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Axis",
+   "y": 1,
+   "s": "Concerning the axis (Last's):",
+   "o": [
+    [
+     "The axis transverse process represents the posterior tubercle of a typical cervical vertebra",
+     1,
+     "Scalenus medius, splenius cervicis and levator scapulae attach to it. (Last's p. 557)"
+    ],
+    [
+     "The superior articular facets of the axis lie entirely on the body",
+     0,
+     "Each extends back onto the pedicle and out onto the lateral mass, overhanging the foramen transversarium. (Last's p. 557)"
+    ],
+    [
+     "The apical ligament is a remnant of the notochord",
+     1,
+     "The alar ligaments attach to the sloping borders of the dens. (Last's p. 557)"
+    ],
+    [
+     "Failure of one half of the double centrum centre causes spina bifida",
+     0,
+     "It causes hemivertebra. (Last's p. 557)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
