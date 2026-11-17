@@ -3,6 +3,209 @@
  "region": "Cranial nerves",
  "questions": [
   {
+   "t": "Mandibular nerve",
+   "y": 1,
+   "s": "Concerning the mandibular nerve branches (Last's):",
+   "o": [
+    [
+     "The nervus spinosus more usually re-enters the skull through the foramen ovale",
+     1,
+     "Rather than the foramen spinosum. (Last's p. 461)"
+    ],
+    [
+     "The motor root of the otic ganglion synapses in the ganglion",
+     0,
+     "It passes through without synapse to the two tensors. (Last's p. 461)"
+    ],
+    [
+     "The masseteric nerve gives an articular branch to the TMJ",
+     1,
+     "Hilton's law. (Last's p. 461)"
+    ],
+    [
+     "The buccal nerve supplies the lower gum opposite the incisors",
+     0,
+     "It supplies the gum opposite the molars and second premolar, up to the mental foramen. (Last's p. 461)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandibular nerve",
+   "y": 1,
+   "s": "Concerning the posterior division of V3 (Last's):",
+   "o": [
+    [
+     "The posterior division's motor fibres go only via the mylohyoid nerve",
+     1,
+     "(Last's p. 461)"
+    ],
+    [
+     "The auriculotemporal nerve supplies the parotid fascia",
+     0,
+     "The fascia is supplied by the great auricular. (Last's p. 462)"
+    ],
+    [
+     "The inferior alveolar nerve lies anterior to its vessels",
+     1,
+     "Between the sphenomandibular ligament and ramus. (Last's p. 462)"
+    ],
+    [
+     "The chorda tympani joins the lingual nerve at the base of the skull",
+     0,
+     "It joins about 2 cm below the base. (Last's p. 462)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Otic ganglion",
+   "y": 1,
+   "s": "Concerning the otic ganglion (Last's):",
+   "o": [
+    [
+     "The otic ganglion lies between tensor palati and the mandibular nerve",
+     1,
+     "Just below the foramen ovale. (Last's p. 462)"
+    ],
+    [
+     "The otic ganglion is a round pea-like body",
+     0,
+     "It is flat, 2–3 mm, closely applied to the nerve. (Last's p. 462)"
+    ],
+    [
+     "The incisive nerve supplies the canine and both incisors",
+     1,
+     "With some overlap to the opposite side. (Last's p. 462)"
+    ],
+    [
+     "The lingual nerve grooves the mandible above the third molar",
+     0,
+     "It grooves it below and medial to the third molar. (Last's p. 462)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Below the skull",
+   "y": 1,
+   "s": "Concerning the carotid fork (Last's):",
+   "o": [
+    [
+     "Stylopharyngeus passes between the internal and external carotids",
+     1,
+     "Pharyngeal structures pass through the fork. (Last's p. 462)"
+    ],
+    [
+     "The superior laryngeal nerve passes between the two carotids",
+     0,
+     "It passes deep to both. (Last's p. 462)"
+    ],
+    [
+     "Stylohyoid passes superficial to the external carotid",
+     1,
+     "So does XII at a lower level. (Last's p. 462)"
+    ],
+    [
+     "XII has veins deep and arteries superficial to it on its way to the tongue",
+     0,
+     "Arteries are deep, veins superficial. (Last's p. 462)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Glossopharyngeal nerve",
+   "y": 1,
+   "s": "Concerning IX (Last's):",
+   "o": [
+    [
+     "IX emerges lateral to the inferior petrosal sinus",
+     1,
+     "In the anterior jugular foramen compartment. (Last's p. 462)"
+    ],
+    [
+     "The superior IX ganglion contains most of its sensory cell bodies",
+     0,
+     "The inferior does; the superior is a detached upper part. (Last's p. 462)"
+    ],
+    [
+     "IX curves around the lateral side of stylopharyngeus",
+     1,
+     "It reaches the tongue behind hyoglossus. (Last's p. 462-3)"
+    ],
+    [
+     "The tympanic nerve leaves IX at the superior ganglion",
+     0,
+     "It leaves at the inferior ganglion. (Last's p. 463)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Vagus",
+   "y": 1,
+   "s": "Concerning the vagus in the neck (Last's):",
+   "o": [
+    [
+     "The superior vagal ganglion serves only the meningeal and auricular branches",
+     1,
+     "All important sensory fibres are in the inferior ganglion. (Last's p. 464)"
+    ],
+    [
+     "The vagal auricular branch supplies the anterosuperior quadrant of the drum",
+     0,
+     "It supplies the posteroinferior quadrant. (Last's p. 464)"
+    ],
+    [
+     "The left lower cervical cardiac vagal branch goes to the superficial cardiac plexus",
+     1,
+     "It and the left upper sympathetic branch are the only ones that do. (Last's p. 464)"
+    ],
+    [
+     "The pharyngeal branch of the vagus supplies tensor palati",
+     0,
+     "It supplies all palatal muscles except tensor palati. (Last's p. 464)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Accessory and hypoglossal",
+   "y": 1,
+   "s": "Concerning XI and XII below the skull (Last's):",
+   "o": [
+    [
+     "In the jugular foramen XI lies just lateral to the vagus",
+     1,
+     "All cranial root fibres join the vagus. (Last's p. 464)"
+    ],
+    [
+     "XII emerges between the internal carotid and internal jugular by passing in front of the inferior vagal ganglion",
+     0,
+     "It spirals behind the ganglion. (Last's p. 465)"
+    ],
+    [
+     "XII contains no sensory fibres",
+     1,
+     "Like III, IV, VI and XI. (Last's p. 465)"
+    ],
+    [
+     "The afferent supply of tongue spindles is established as the hypoglossal",
+     0,
+     "It remains uncertain. (Last's p. 465)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
    "t": "Trigeminal nuclei",
    "y": 1,
    "s": "Concerning the trigeminal nuclei (Last's):",
