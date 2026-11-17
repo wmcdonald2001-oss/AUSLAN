@@ -1,0 +1,644 @@
+{
+ "code": "gp",
+ "region": "General principles & embryology",
+ "questions": [
+  {
+   "t": "Spinal nerves",
+   "y": 1,
+   "s": "Concerning posterior rami (Last's):",
+   "o": [
+    [
+     "Both branches of every posterior ramus supply muscle",
+     1,
+     "But only one, medial or lateral, reaches skin. (Last's p. 19)"
+    ],
+    [
+     "The posterior rami of C7 and C8 reach the skin",
+     0,
+     "The lower two cervical and lower two lumbar posterior rami fail to reach the skin, as does C1. (Last's p. 19)"
+    ],
+    [
+     "Medial branches give the cutaneous supply in the upper half of the body",
+     1,
+     "Lateral branches in the lower half; the change is at about T6. (Last's p. 19-20)"
+    ],
+    [
+     "Posterior rami supply some limb muscles in man",
+     0,
+     "Last's: no posterior ramus ever supplies limb skin or muscle in any vertebrate. (Last's p. 19)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Spinal nerves",
+   "y": 1,
+   "s": "Concerning the body wall (Last's):",
+   "o": [
+    [
+     "Where nerve and segmental artery cross, the nerve lies nearer the skin",
+     1,
+     "So the nerve circle surrounds the arterial circle. (Last's p. 20)"
+    ],
+    [
+     "The collateral branches of intercostal nerves carry cutaneous fibres",
+     0,
+     "They contain motor fibres only. (Last's p. 20)"
+    ],
+    [
+     "The sympathetic trunk lies anterior to the segmental vessels from skull to coccyx",
+     1,
+     "Which lie anterior to the spinal nerves. (Last's p. 20)"
+    ],
+    [
+     "In the neurovascular plane the nerves lie above the arteries",
+     0,
+     "They lie below them. (Last's p. 20)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Limb plexuses",
+   "y": 1,
+   "s": "Concerning limb plexuses (Last's):",
+   "o": [
+    [
+     "Limb buds grow out from the strip supplied by lateral branches of anterior rami",
+     1,
+     "(Last's p. 21)"
+    ],
+    [
+     "The anterior divisions of limb plexuses supply the extensor compartments",
+     0,
+     "They supply flexors; posterior divisions supply extensors. (Last's p. 21)"
+    ],
+    [
+     "No S3 fibres enter the extensor compartment of the lower limb",
+     1,
+     "Like T1 in the upper limb, the lowest root goes entirely to flexors. (Last's p. 22)"
+    ],
+    [
+     "The short head of biceps femoris is supplied by the tibial part of the sciatic",
+     0,
+     "It is supplied by the peroneal part; it developed in the extensor compartment. (Last's p. 22)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dermatomes",
+   "y": 1,
+   "s": "Concerning dermatomes and axial lines (Last's):",
+   "o": [
+    [
+     "There is no dermatome overlap across axial lines",
+     1,
+     "So always test across axial lines. (Last's p. 23)"
+    ],
+    [
+     "The upper limb posterior axial line reaches the wrist",
+     0,
+     "It reaches only the deltoid insertion; the anterior line almost reaches the wrist. (Last's p. 23)"
+    ],
+    [
+     "The central root of the limb plexus clothes the peripheral extremity",
+     1,
+     "C7 in the upper limb. (Last's p. 23)"
+    ],
+    [
+     "Lower limb skin is borrowed symmetrically from cranial and caudal sides",
+     0,
+     "All four borrowed dermatomes (T12–L3) are cranial. (Last's p. 24)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dermatomes",
+   "y": 1,
+   "s": "Concerning lower limb dermatomes (Last's):",
+   "o": [
+    [
+     "Anaesthetizing the anterior third of the scrotum needs L1",
+     1,
+     "The posterior two-thirds is S3, seven segments lower. (Last's p. 24)"
+    ],
+    [
+     "Last's considers posterior axial lines well established",
+     0,
+     "Probably they do not exist; anterior axial line evidence is better. (Last's p. 24)"
+    ],
+    [
+     "S4 supplies the immediate perianal skin",
+     1,
+     "S3 is the sitting area. (Last's p. 24)"
+    ],
+    [
+     "The great toe is usually supplied by L4",
+     0,
+     "Usually by L5, though L4 may extend along its medial side. (Last's p. 25)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dermatomes",
+   "y": 1,
+   "s": "Concerning Last's dermatome guide (Last's):",
+   "o": [
+    [
+     "T1 supplies the medial elbow but not the axilla",
+     1,
+     "T2 supplies the axilla. (Last's p. 25)"
+    ],
+    [
+     "Last's places the nipple firmly at T5",
+     0,
+     "T4, or T5 according to some. (Last's p. 25)"
+    ],
+    [
+     "L3 supplies the anterior and medial knee",
+     1,
+     "(Last's p. 25)"
+    ],
+    [
+     "L4 supplies the lateral malleolus",
+     0,
+     "L4 is the medial malleolus; S1 the lateral. (Last's p. 25)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Myotomes",
+   "y": 1,
+   "s": "Concerning segmental innervation of movements (Last's):",
+   "o": [
+    [
+     "For each joint one segment more distal, the spinal centre lies one segment lower",
+     1,
+     "(Last's p. 25)"
+    ],
+    [
+     "Wrist flexion and extension are supplied by different segments",
+     0,
+     "Both are C6, 7; digit flexion and extension both C7, 8. (Last's p. 27)"
+    ],
+    [
+     "Tibialis posterior is supplied by L4 unlike neighbouring plantar flexors",
+     1,
+     "Matching its inverting partner tibialis anterior. (Last's p. 26)"
+    ],
+    [
+     "Gluteus maximus is L4, 5, S1",
+     0,
+     "Obturator internus and gluteus maximus are L5, S1, 2; other buttock muscles L4, 5, S1. (Last's p. 26-7)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Myotomes and reflexes",
+   "y": 1,
+   "s": "Concerning root levels and reflexes (Last's):",
+   "o": [
+    [
+     "Last's lists S2 for the small muscles of the foot",
+     1,
+     "(Last's p. 28)"
+    ],
+    [
+     "In nerve root lesions proper, sweating in the territory is reduced",
+     0,
+     "It is normal; grey rami join distal to the roots. (Last's p. 28)"
+    ],
+    [
+     "Tendon reflexes are the only monosynaptic reflex arcs",
+     1,
+     "(Last's p. 28)"
+    ],
+    [
+     "Last's gives the knee jerk as L4",
+     0,
+     "As L3. (Last's p. 28)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Reflexes",
+   "y": 1,
+   "s": "Concerning superficial reflexes (Last's):",
+   "o": [
+    [
+     "An extensor plantar response is normal under 1 year",
+     1,
+     "Until corticospinal myelination in the second year. (Last's p. 29)"
+    ],
+    [
+     "In Beevor's sign the umbilicus moves downwards",
+     0,
+     "It moves upwards from weakness below the umbilicus. (Last's p. 29)"
+    ],
+    [
+     "The anal and bulbocavernosus reflexes depend mainly on S3",
+     1,
+     "(Last's p. 29-30)"
+    ],
+    [
+     "Hyperreflexia in UMN lesions is driven through Ia afferents from cortex",
+     0,
+     "γ motor neurons are driven by reticulospinal and vestibulospinal fibres. (Last's p. 28)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sympathetic system",
+   "y": 1,
+   "s": "Concerning the sympathetic system (Last's):",
+   "o": [
+    [
+     "In only about 10% are T1 cells involved in upper limb sympathetic supply",
+     1,
+     "T1 mostly serves head and neck; the lowest level may be T10. (Last's p. 30)"
+    ],
+    [
+     "The white ramus is the more proximal of the two rami",
+     0,
+     "The white ramus is the more distal. (Last's p. 30)"
+    ],
+    [
+     "There are usually 11 thoracic, 4 lumbar and 4 sacral sympathetic ganglia",
+     1,
+     "One fewer than the nerves. (Last's p. 30)"
+    ],
+    [
+     "Grey rami contain afferent fibres",
+     0,
+     "Grey rami contain only postganglionic efferents; white rami carry preganglionic and afferent fibres. (Last's p. 32)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sympathetic system",
+   "y": 1,
+   "s": "Concerning sympathetic distribution (Last's):",
+   "o": [
+    [
+     "Sacral splanchnic nerves are sympathetic",
+     1,
+     "Pelvic splanchnic nerves are parasympathetic. (Last's p. 31)"
+    ],
+    [
+     "Visceral afferent cell bodies lie in the sympathetic ganglia",
+     0,
+     "They lie in posterior root ganglia. (Last's p. 32)"
+    ],
+    [
+     "Intraneural ganglia may explain anomalous sympathectomy results",
+     1,
+     "(Last's p. 32)"
+    ],
+    [
+     "Limb vessels receive sympathetic fibres that run long distances along the arteries",
+     0,
+     "Fibres run with peripheral nerves and leave near the target. (Last's p. 32)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sympathectomy",
+   "y": 1,
+   "s": "Concerning sympathectomy (Last's):",
+   "o": [
+    [
+     "Upper limb sympathectomy removes the second and third thoracic ganglia",
+     1,
+     "T1 is preserved to avoid Horner's. (Last's p. 32-3)"
+    ],
+    [
+     "Lumbar sympathectomy removes the first and second lumbar ganglia",
+     0,
+     "It removes L3 and L4; L1 is preserved for ejaculation. (Last's p. 33)"
+    ],
+    [
+     "Lumbar ganglia have no constant relation to the vertebrae",
+     1,
+     "(Last's p. 33)"
+    ],
+    [
+     "The gonads receive a parasympathetic supply",
+     0,
+     "Suprarenals and gonads appear to have only sympathetic supply. (Last's p. 33)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cranial parasympathetic",
+   "y": 1,
+   "s": "Concerning the parasympathetic ganglia (Last's):",
+   "o": [
+    [
+     "Only the parasympathetic root relays in a cranial parasympathetic ganglion",
+     1,
+     "(Last's p. 33)"
+    ],
+    [
+     "The ciliary ganglion parasympathetic root comes via the nerve to superior rectus",
+     0,
+     "It comes via the nerve to inferior oblique (inferior division). (Last's p. 33)"
+    ],
+    [
+     "The sympathetic root of the submandibular ganglion comes with the facial artery",
+     1,
+     "(Last's p. 34)"
+    ],
+    [
+     "The sensory root of the ciliary ganglion comes from the frontal nerve",
+     0,
+     "It comes from the nasociliary nerve. (Last's p. 34)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Parasympathetic",
+   "y": 1,
+   "s": "Concerning cranial parasympathetics and afferents (Last's):",
+   "o": [
+    [
+     "The otic ganglion has an additional somatic motor root",
+     1,
+     "From the nerve to medial pterygoid, to the two tensors. (Last's p. 35)"
+    ],
+    [
+     "The sympathetic root of the otic ganglion runs with the internal carotid",
+     0,
+     "It runs with the middle meningeal artery. (Last's p. 35)"
+    ],
+    [
+     "Pelvic splanchnic afferent cell bodies lie in S2–4 dorsal root ganglia",
+     1,
+     "(Last's p. 35)"
+    ],
+    [
+     "Vagal visceral afferent cell bodies lie in the superior vagal ganglion",
+     0,
+     "They lie in the inferior ganglia of IX and X. (Last's p. 35)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Embryology",
+   "y": 1,
+   "s": "Concerning early development (Last's):",
+   "o": [
+    [
+     "Implantation occurs about 6 days after fertilization",
+     1,
+     "(Last's p. 35)"
+    ],
+    [
+     "Sclerotomes give rise to the muscles of the body wall",
+     0,
+     "Sclerotomes give vertebrae and dura; myotomes give body wall muscle. (Last's p. 36)"
+    ],
+    [
+     "The suprarenal cortex arises from the intermediate cell mass",
+     1,
+     "Its medial side also gives the gonad. (Last's p. 36)"
+    ],
+    [
+     "Limb muscles develop from migrating paraxial myotomes",
+     0,
+     "They develop in situ from lateral plate mesoderm. (Last's p. 36)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Embryology",
+   "y": 1,
+   "s": "Concerning the embryo and pharynx (Last's):",
+   "o": [
+    [
+     "The diaphragm muscle comes mainly from the fourth cervical myotome",
+     1,
+     "(Last's p. 37)"
+    ],
+    [
+     "The buccopharyngeal membrane persists until the eighth week",
+     0,
+     "It disappears in the third week. (Last's p. 37)"
+    ],
+    [
+     "There are four pharyngeal pouches separating six arches",
+     1,
+     "The fourth and fifth open by a common groove. (Last's p. 37)"
+    ],
+    [
+     "Arch arteries are more constant during development than arch nerves",
+     0,
+     "Nerves remain constant; vascular patterns change. (Last's p. 37)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pharyngeal arches",
+   "y": 1,
+   "s": "Concerning the first arch (Last's):",
+   "o": [
+    [
+     "The lingula is a persistent part of Meckel's cartilage",
+     1,
+     "As are occasional ossa mentalia. (Last's p. 38)"
+    ],
+    [
+     "The maxillary process is derived from Meckel's cartilage",
+     0,
+     "It is not. (Last's p. 38)"
+    ],
+    [
+     "The mandible ossifies in membrane at the sixth week",
+     1,
+     "(Last's p. 38)"
+    ],
+    [
+     "The anterior ligament of the malleus is a second arch derivative",
+     0,
+     "It is first arch. (Last's p. 38)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pharyngeal arches",
+   "y": 1,
+   "s": "Concerning arches and pouches (Last's):",
+   "o": [
+    [
+     "Levator palati is a fourth/sixth arch derivative",
+     1,
+     "Supplied by vagal branches. (Last's p. 39)"
+    ],
+    [
+     "The first pouch has widely separated ectoderm and endoderm",
+     0,
+     "It is the only pouch where they stay closely apposed, at the drum. (Last's p. 39)"
+    ],
+    [
+     "Thymic cortical lymphocytes migrated from bone marrow",
+     1,
+     "The medulla and Hassall's corpuscles come from the thymic bud. (Last's p. 39)"
+    ],
+    [
+     "Thyroglossal cysts commonly lie in front of the hyoid body",
+     0,
+     "Commonly behind it, as the duct is kinked by the bone. (Last's p. 39)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Arch arteries",
+   "y": 1,
+   "s": "Concerning the aortic arch arteries (Last's):",
+   "o": [
+    [
+     "The third arch artery forms part of the internal carotid",
+     1,
+     "(Last's p. 40)"
+    ],
+    [
+     "The right fourth arch artery forms the brachiocephalic trunk",
+     0,
+     "It forms the right subclavian; the left fourth forms the aortic arch. (Last's p. 40)"
+    ],
+    [
+     "The fifth arch artery disappears entirely",
+     1,
+     "(Last's p. 40)"
+    ],
+    [
+     "The dorsal part of the right sixth arch artery persists",
+     0,
+     "It disappears on the right; on the left it is the ductus arteriosus. (Last's p. 40)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Arch arteries",
+   "y": 1,
+   "s": "Concerning great vessel anomalies (Last's):",
+   "o": [
+    [
+     "A retro-oesophageal right subclavian occurs when the right fourth arch disappears",
+     1,
+     "And the distal right dorsal aorta persists; the right recurrent nerve is then non-recurrent. (Last's p. 41)"
+    ],
+    [
+     "A right aortic arch occurs when the right fourth arch disappears",
+     0,
+     "It occurs when the left fourth arch and dorsal aorta disappear. (Last's p. 41)"
+    ],
+    [
+     "Sternocleidomastoid always lies behind a branchial fistula",
+     1,
+     "It migrates from a dorsal source. (Last's p. 41)"
+    ],
+    [
+     "A branchial fistula usually passes lateral to the external carotid",
+     0,
+     "It passes between the external and internal carotids. (Last's p. 41)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Face development",
+   "y": 1,
+   "s": "Concerning development of the face (Last's):",
+   "o": [
+    [
+     "In man the whole upper lip including the philtrum comes from the maxillary processes",
+     1,
+     "(Last's p. 42)"
+    ],
+    [
+     "The frontonasal process forms the philtrum",
+     0,
+     "It normally forms no part of the upper lip. (Last's p. 42)"
+    ],
+    [
+     "Harelip occurs in about 1 in 1000 births",
+     1,
+     "Cleft palate about 1 in 2500. (Last's p. 43)"
+    ],
+    [
+     "Complete cleft palate usually runs between canine and first premolar",
+     0,
+     "It usually runs between lateral incisor and canine. (Last's p. 43)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Face development",
+   "y": 1,
+   "s": "Concerning development (Last's):",
+   "o": [
+    [
+     "The palatal processes and septum unite from before backwards",
+     1,
+     "So a bifid uvula is the mildest defect. (Last's p. 43)"
+    ],
+    [
+     "A facial cleft along the nasolacrimal line results from failure of the median and lateral nasal processes",
+     0,
+     "It results from failure of the lateral nasal and maxillary processes. (Last's p. 43)"
+    ],
+    [
+     "The ureter opens into the urogenital sinus at a higher level than the mesonephric duct",
+     1,
+     "(Last's p. 43-4)"
+    ],
+    [
+     "The genital tubercle forms the labia minora",
+     0,
+     "It forms the clitoris; the urogenital folds form the labia minora. (Last's p. 44)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  }
+ ]
+}
