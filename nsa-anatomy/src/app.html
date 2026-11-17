@@ -501,7 +501,7 @@ function renderQuestion(q, opts) {
     h('span', { class: 'tag', text: REGION[q.r] }),
     h('span', { text: q.t }),
     h('span', { text: q.y === 1 ? 'Type 1 · true/false' : 'Type 2 · key A–E' }),
-    q.d === 2 ? h('span', { class: 'tag hard', text: 'Harder' }) : null,
+    q.d === 2 ? h('span', { class: 'tag hard', text: 'Harder' }) : q.d === 3 ? h('span', { class: 'tag hard', text: "Hardest · Last's text" }) : null,
     q.src ? h('span', { class: 'tag sample', text: q.src === 'NSA sample' ? 'Official NSA sample' : q.src }) : null,
     rec && rec.f ? h('span', { class: 'flagged', text: '⚑ Flagged' }) : null,
     opts.headExtra || null);
@@ -621,7 +621,7 @@ function renderPracticeFilters() {
   chipGroup($('#practice-types'), [{ value: 'all', label: 'Both' }, { value: '1', label: 'Type 1 (T/F)' }, { value: '2', label: 'Type 2 (A–E)' }], practice.type, {
     multi: false, onChange: (v) => { practice.type = v; renderPracticeFilters(); },
   });
-  chipGroup($('#practice-diff'), [{ value: 'all', label: 'All' }, { value: '1', label: 'Standard (NSA level)' }, { value: '2', label: 'Harder (ABNS level)' }], practice.diff, {
+  chipGroup($('#practice-diff'), [{ value: 'all', label: 'All' }, { value: '1', label: 'Standard (NSA level)' }, { value: '2', label: 'Harder (ABNS level)' }, { value: '3', label: "Hardest (from Last's text)" }], practice.diff, {
     multi: false, onChange: (v) => { practice.diff = v; renderPracticeFilters(); },
   });
   chipGroup($('#practice-source'), [{ value: 'all', label: 'All' }, { value: 'bank', label: 'Mixed-topic bank' }, { value: 'lasts', label: "Sentence by sentence from Last's" }], practice.source, {
@@ -714,7 +714,7 @@ function renderExam() {
   if (exam.phase === 'setup') {
     const pool = DATA.questions.filter((q) => (!exam.regions.size || exam.regions.has(q.r)) && (exam.diff === 'all' || String(q.d) === exam.diff));
     const diffBox = h('div', { class: 'chips' });
-    chipGroup(diffBox, [{ value: 'all', label: 'All' }, { value: '1', label: 'Standard (NSA level)' }, { value: '2', label: 'Harder (ABNS level)' }], exam.diff, { multi: false, onChange: (v) => { exam.diff = v; renderExam(); } });
+    chipGroup(diffBox, [{ value: 'all', label: 'All' }, { value: '1', label: 'Standard (NSA level)' }, { value: '2', label: 'Harder (ABNS level)' }, { value: '3', label: "Hardest (from Last's text)" }], exam.diff, { multi: false, onChange: (v) => { exam.diff = v; renderExam(); } });
     const regionsBox = h('div', { class: 'chips' });
     const counts = {};
     for (const q of DATA.questions) counts[q.r] = (counts[q.r] || 0) + 1;
@@ -1376,7 +1376,7 @@ function renderFormat() {
     h('div', { class: 'key', style: 'margin:0 0 10px' }, h('table', {}, ...Object.entries(KEY_TEXT).map(([k, v]) => h('tr', {}, h('td', { text: k }), h('td', { text: v }))))),
     h('p', { class: 'count', text: 'This is the key printed in the NSA examination information document. The four official sample questions are in the bank, marked "Official NSA sample".' }),
     h('p', { class: 'label', style: 'margin-top:14px', text: 'This bank' }),
-    h('p', { text: `${DATA.questions.length} questions (${DATA.questions.length - t2} Type 1, ${t2} Type 2) across ${DATA.regions.length} regions${DATA.cards.length ? `, plus ${DATA.cards.length} flashcards from your Last's Anki deck` : ''}. Explanations quote Last's where its wording differs from other textbooks. Questions marked Harder go beyond the NSA level using ABNS primary-exam neuroanatomy (thalamic and basal ganglia circuits, gaze centres, brainstem syndromes); some of that detail is not in Last's. Built ${DATA.built}.` }));
+    h('p', { text: `${DATA.questions.length} questions (${DATA.questions.length - t2} Type 1, ${t2} Type 2) across ${DATA.regions.length} regions${DATA.cards.length ? `, plus ${DATA.cards.length} flashcards from your Last's Anki deck` : ''}. Explanations quote Last's where its wording differs from other textbooks. Questions marked Harder go beyond the NSA level using ABNS primary-exam neuroanatomy (thalamic and basal ganglia circuits, gaze centres, brainstem syndromes); some of that detail is not in Last's. Questions marked Hardest are written directly from the text of Last's, testing fine detail with near-miss distractors. Built ${DATA.built}.` }));
 }
 
 /* ---------- home: the tree ---------- */
