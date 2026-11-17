@@ -2323,6 +2323,789 @@
    "src": "Last's text"
   },
   {
+   "t": "Tongue",
+   "y": 1,
+   "s": "Concerning the tongue surface (Last's):",
+   "o": [
+    [
+     "Filiform papillae carry no taste buds",
+     1,
+     "Fungiform papillae carry a few. (Last's p. 480)"
+    ],
+    [
+     "There are mucous glands on the dorsum of the anterior two-thirds",
+     0,
+     "There are none there; glands lie under the tip and sides. (Last's p. 481)"
+    ],
+    [
+     "Last's says the lateral glossoepiglottic fold is a misnomer",
+     1,
+     "It is not attached to the tongue; better called pharyngoepiglottic. (Last's p. 480)"
+    ],
+    [
+     "There are about 30 vallate papillae",
+     0,
+     "About a dozen, in a V pointing backwards. (Last's p. 480)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Tongue",
+   "y": 1,
+   "s": "Concerning tongue muscles (Last's):",
+   "o": [
+    [
+     "Genioglossus is the largest tongue muscle",
+     1,
+     "Last's suggests geniohyoglossus as a better name. (Last's p. 481)"
+    ],
+    [
+     "The lingual nerve passes deep to hyoglossus",
+     0,
+     "It lies superficial, with the submandibular duct and XII; IX, stylohyoid ligament and lingual artery pass deep. (Last's p. 482)"
+    ],
+    [
+     "Styloglossus retracts the tongue",
+     1,
+     "Lowest genioglossus fibres protrude it. (Last's p. 483)"
+    ],
+    [
+     "Palatoglossus is supplied by the hypoglossal nerve",
+     0,
+     "It is supplied by the pharyngeal plexus. (Last's p. 482)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Tongue",
+   "y": 1,
+   "s": "Concerning tongue vessels and lymph (Last's):",
+   "o": [
+    [
+     "The deep lingual and sublingual veins form the vena comitans of XII",
+     1,
+     "At the anterior border of hyoglossus. (Last's p. 482)"
+    ],
+    [
+     "Lingual arteries anastomose significantly across the midline",
+     0,
+     "The fibrous septum prevents significant anastomosis. (Last's p. 482)"
+    ],
+    [
+     "Contralateral tongue lymph drainage usually occurs only when ipsilateral channels are obstructed",
+     1,
+     "(Last's p. 482)"
+    ],
+    [
+     "The submental nodes are commonly involved in tongue-tip disease",
+     0,
+     "They are rarely affected. (Last's p. 482)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Tongue",
+   "y": 1,
+   "s": "Concerning tongue sensation (Last's):",
+   "o": [
+    [
+     "The mucosa of the vallate papillae is supplied by IX",
+     1,
+     "Though it lies in front of the sulcus. (Last's p. 483)"
+    ],
+    [
+     "The anterior wall of the vallecula is supplied by IX",
+     0,
+     "It is supplied by the internal laryngeal nerve. (Last's p. 483)"
+    ],
+    [
+     "Last's says the tongue mucosa has three sensory nerves, not two",
+     1,
+     "From three arches. (Last's p. 482)"
+    ],
+    [
+     "Second arch tissue forms part of the tongue mucosa",
+     0,
+     "Third arch tissue overgrows it. (Last's p. 484)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Tongue",
+   "y": 1,
+   "s": "Concerning the tongue (Last's):",
+   "o": [
+    [
+     "Taste buds are seldom seen histologically except in vallate papillae",
+     1,
+     "(Last's p. 483)"
+    ],
+    [
+     "Fungiform papillae are keratinized",
+     0,
+     "Their bulbous tip is not keratinized. (Last's p. 483)"
+    ],
+    [
+     "Tongue myotomes migrate medial to the internal jugular vein",
+     1,
+     "And around the carotids. (Last's p. 484)"
+    ],
+    [
+     "Lymphoid follicles are found in the anterior part of the tongue",
+     0,
+     "There are none there. (Last's p. 483)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Floor of mouth",
+   "y": 1,
+   "s": "Concerning the floor of the mouth (Last's):",
+   "o": [
+    [
+     "XII runs on the lower border of hyoglossus just above the greater horn",
+     1,
+     "Level with the lingual artery deep to the muscle. (Last's p. 484-5)"
+    ],
+    [
+     "The submandibular ganglion hangs above the submandibular duct",
+     0,
+     "It lies on hyoglossus below the duct. (Last's p. 485)"
+    ],
+    [
+     "The lingual nerve gingival branch supplies all the lingual gum to the midline",
+     1,
+     "(Last's p. 485)"
+    ],
+    [
+     "Middle constrictor fibres pass superficial to hyoglossus",
+     0,
+     "They emerge from beneath its posterior border. (Last's p. 485)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sublingual gland",
+   "y": 1,
+   "s": "Concerning the sublingual gland and pharynx (Last's):",
+   "o": [
+    [
+     "About half the sublingual ducts open into the submandibular duct",
+     1,
+     "Of about 15 ducts. (Last's p. 486)"
+    ],
+    [
+     "The sublingual gland is mainly serous",
+     0,
+     "It is mucus-secreting. (Last's p. 486)"
+    ],
+    [
+     "The pharynx is about 12 cm long",
+     1,
+     "From skull base to C6. (Last's p. 486)"
+    ],
+    [
+     "The buccopharyngeal fascia is the tough fascia holding the nasopharynx open",
+     0,
+     "That is the pharyngobasilar fascia; the buccopharyngeal is thin and unimportant. (Last's p. 486, 488)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pharynx",
+   "y": 1,
+   "s": "Concerning the pharyngobasilar fascia (Last's):",
+   "o": [
+    [
+     "The pharyngobasilar fascia is a thickening of the submucosa",
+     1,
+     "It fills the gap above the superior constrictor. (Last's p. 487)"
+    ],
+    [
+     "The pharyngobasilar fascia ends at the level of the vocal folds",
+     0,
+     "Its lower edge is at Passavant's ridge, level with the hard palate. (Last's p. 487)"
+    ],
+    [
+     "Levator palati is entirely intrapharyngeal",
+     1,
+     "Arising from the petrous apex in a lateral recess. (Last's p. 487)"
+    ],
+    [
+     "The cartilaginous auditory tube enters the pharynx below the pharyngobasilar fascia",
+     0,
+     "It enters above it. (Last's p. 487)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pharynx",
+   "y": 1,
+   "s": "Concerning the constrictors (Last's):",
+   "o": [
+    [
+     "The superior constrictor arises from the lower two-thirds of the posterior border of the medial pterygoid plate",
+     1,
+     "Below the spur, down to the hamulus. (Last's p. 487)"
+    ],
+    [
+     "The lowest superior constrictor fibres end at the level of the hyoid",
+     0,
+     "They reach the level of the vocal folds inside the middle constrictor. (Last's p. 487)"
+    ],
+    [
+     "The lingual nerve passes through the gap between superior and middle constrictors",
+     1,
+     "With stylopharyngeus and IX. (Last's p. 487)"
+    ],
+    [
+     "The middle constrictor arises from the lesser horn alone",
+     0,
+     "From the angle between the stylohyoid ligament and greater horn. (Last's p. 487)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pharynx",
+   "y": 1,
+   "s": "Concerning the inferior constrictor (Last's):",
+   "o": [
+    [
+     "Cricopharyngeus has no raphe",
+     1,
+     "It runs uninterruptedly around the pharynx. (Last's p. 488)"
+    ],
+    [
+     "Cricopharyngeus is mostly fast-twitch with many spindles",
+     0,
+     "It is largely slow-twitch without spindles. (Last's p. 488)"
+    ],
+    [
+     "Thyropharyngeus also arises from a fibrous arch over cricothyroid",
+     1,
+     "Below the oblique line. (Last's p. 488)"
+    ],
+    [
+     "A pharyngeal pouch arises below cricopharyngeus",
+     0,
+     "It arises above it, at Killian's dehiscence. (Last's p. 489)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pharynx",
+   "y": 1,
+   "s": "Concerning pharyngeal muscles and nerves (Last's):",
+   "o": [
+    [
+     "IX curls round stylopharyngeus from medial to lateral",
+     1,
+     "It is the only muscle IX supplies. (Last's p. 489)"
+    ],
+    [
+     "Stylopharyngeus passes outside the middle constrictor",
+     0,
+     "It passes inside it, behind palatopharyngeus. (Last's p. 489)"
+    ],
+    [
+     "The IX component of the pharyngeal plexus is purely afferent",
+     1,
+     "(Last's p. 489)"
+    ],
+    [
+     "Pharyngeal motor neurons lie in the lowest part of nucleus ambiguus",
+     0,
+     "In the middle part. (Last's p. 489)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Nasopharynx",
+   "y": 1,
+   "s": "Concerning the nasopharynx (Last's):",
+   "o": [
+    [
+     "The nasopharynx volume equals the terminal segments of the owner's thumb",
+     1,
+     "(Last's p. 490)"
+    ],
+    [
+     "The pharyngeal recess lies in front of the tubal opening",
+     0,
+     "It lies behind it. (Last's p. 490)"
+    ],
+    [
+     "A catheter in the pharyngeal recess may enter the internal carotid",
+     1,
+     "Which lies against the fascia there. (Last's p. 490)"
+    ],
+    [
+     "The salpingopharyngeal fold continues from the anterior limb of the torus",
+     0,
+     "It continues from the long posterior limb. (Last's p. 490)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Tonsil",
+   "y": 1,
+   "s": "Concerning the palatine tonsil (Last's):",
+   "o": [
+    [
+     "Last's says the \"supratonsillar\" cleft is within the tonsil",
+     1,
+     "It is the remains of the second pharyngeal cleft. (Last's p. 490)"
+    ],
+    [
+     "A peritonsillar abscess lies inside the tonsillar capsule",
+     0,
+     "It lies outside it. (Last's p. 490)"
+    ],
+    [
+     "The tonsillar artery arches over styloglossus",
+     1,
+     "Then pierces the superior constrictor. (Last's p. 490)"
+    ],
+    [
+     "The internal carotid lies about 1 cm from the tonsil",
+     0,
+     "About 2.5 cm posterolateral. (Last's p. 491)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Laryngopharynx",
+   "y": 1,
+   "s": "Concerning the laryngopharynx (Last's):",
+   "o": [
+    [
+     "Tonsillar lymph goes mostly to the jugulodigastric nodes",
+     1,
+     "(Last's p. 491)"
+    ],
+    [
+     "The vocal folds are a site of free laryngeal vascular anastomosis",
+     0,
+     "They are a complete watershed. (Last's p. 491)"
+    ],
+    [
+     "The posterior wall of the hypopharynx is Killian's dehiscence",
+     1,
+     "(Last's p. 491)"
+    ],
+    [
+     "The lateral wall of the piriform recess is the quadrangular membrane",
+     0,
+     "That is the medial wall; laterally are the thyrohyoid membrane and thyroid lamina. (Last's p. 491)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Soft palate",
+   "y": 1,
+   "s": "Concerning tensor and levator palati (Last's):",
+   "o": [
+    [
+     "Tensor palati arises from the scaphoid fossa, tubal cartilage and spine of the sphenoid",
+     1,
+     "Its origin is about 2 cm long. (Last's p. 492)"
+    ],
+    [
+     "The tensor tendon passes below the fibrous arch in buccinator's origin",
+     0,
+     "It passes above it, then bends around the hamulus. (Last's p. 492)"
+    ],
+    [
+     "Contracting tensor palati flattens and slightly depresses the aponeurosis",
+     1,
+     "It is concave towards the mouth at rest. (Last's p. 493)"
+    ],
+    [
+     "Levator palati arises from the lateral side of the auditory tube",
+     0,
+     "It arises from its medial side and the petrous apex; tensor from the lateral side. (Last's p. 492-3)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Soft palate",
+   "y": 1,
+   "s": "Concerning the soft palate muscles (Last's):",
+   "o": [
+    [
+     "Levator palati inserts between the two heads of palatopharyngeus",
+     1,
+     "On the nasal surface of the aponeurosis. (Last's p. 493)"
+    ],
+    [
+     "The soft palate contacts the posterior pharyngeal wall level with C2",
+     0,
+     "Level with the anterior arch of the atlas. (Last's p. 493-4)"
+    ],
+    [
+     "Palatopharyngeus is the most internal muscle of the pharyngeal wall",
+     1,
+     "Last's says it should be called palatolaryngeus. (Last's p. 494)"
+    ],
+    [
+     "The posterior head of palatopharyngeus arises from bone",
+     0,
+     "The anterior head is bony; the posterior is on the aponeurosis only. (Last's p. 494)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Soft palate",
+   "y": 1,
+   "s": "Concerning Passavant's ridge (Last's):",
+   "o": [
+    [
+     "Passavant's ridge exists only momentarily when the palate is raised",
+     1,
+     "It cannot be seen on dissection. (Last's p. 494)"
+    ],
+    [
+     "Pharyngeal wall movement mainly closes off the nasopharynx",
+     0,
+     "Palatal movement is mainly responsible. (Last's p. 494)"
+    ],
+    [
+     "Passavant's ridge fibres hypertrophy in cleft palate",
+     1,
+     "(Last's p. 494)"
+    ],
+    [
+     "In cleft palate the tensor inserts normally",
+     0,
+     "It inserts abnormally into the back of the hard palate. (Last's p. 492)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Soft palate",
+   "y": 1,
+   "s": "Concerning soft palate nerves (Last's):",
+   "o": [
+    [
+     "Tensor palati is supplied via the nerve to medial pterygoid",
+     1,
+     "All others by the pharyngeal plexus. (Last's p. 495)"
+    ],
+    [
+     "Palatal taste fibres reach the brain in the glossopharyngeal nerve",
+     0,
+     "They run in the greater petrosal nerve, cell bodies in the geniculate ganglion. (Last's p. 495)"
+    ],
+    [
+     "Some facial nerve common-sensation fibres reach the intratonsillar cleft",
+     1,
+     "Via the greater petrosal and lesser palatine nerves. (Last's p. 495)"
+    ],
+    [
+     "The afferent limb of the gag reflex is the vagus",
+     0,
+     "It is IX; the efferent is vagal. (Last's p. 496)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning laryngeal cartilages (Last's):",
+   "o": [
+    [
+     "The cricoid is the only complete cartilaginous ring in the airway",
+     1,
+     "(Last's p. 497)"
+    ],
+    [
+     "The epiglottic cartilage is hyaline",
+     0,
+     "It is elastic fibrocartilage, like the corniculate and cuneiform. (Last's p. 497)"
+    ],
+    [
+     "The oesophageal tendon attaches to the vertical ridge on the cricoid lamina",
+     1,
+     "(Last's p. 497)"
+    ],
+    [
+     "Last's says the essential function of the larynx is phonation",
+     0,
+     "It is a protective sphincter. (Last's p. 496)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning the larynx (Last's):",
+   "o": [
+    [
+     "The vocal folds are formed from the upper part of the cricothyroid ligament",
+     1,
+     "The cricovocal membrane. (Last's p. 496)"
+    ],
+    [
+     "The aryepiglottic fold attaches to the cuneiform cartilage",
+     0,
+     "It attaches to the corniculate; the cuneiform lies within the fold. (Last's p. 497)"
+    ],
+    [
+     "The epiglottic cartilage is attached below the thyroid notch",
+     1,
+     "By its stalk. (Last's p. 497)"
+    ],
+    [
+     "In birds phonation is from the larynx",
+     0,
+     "It is from the syrinx above the tracheal bifurcation. (Last's p. 496)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning laryngeal joints (Last's):",
+   "o": [
+    [
+     "The recurrent laryngeal nerve lies immediately behind the cricothyroid joint",
+     1,
+     "(Last's p. 498)"
+    ],
+    [
+     "In man arytenoid rotation exceeds gliding",
+     0,
+     "Gliding exceeds rotation, so the glottis opens as a V, not a diamond. (Last's p. 498)"
+    ],
+    [
+     "The thyrohyoid membrane attaches to the upper border of the hyoid",
+     1,
+     "Passing up behind the body, with a bursa between. (Last's p. 498)"
+    ],
+    [
+     "The triticeal cartilage lies in the median thyrohyoid ligament",
+     0,
+     "It lies in the lateral thyrohyoid ligament. (Last's p. 498)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning laryngeal membranes (Last's):",
+   "o": [
+    [
+     "The lower free border of the quadrangular membrane is the vestibular fold",
+     1,
+     "The upper border is the aryepiglottic fold. (Last's p. 498)"
+    ],
+    [
+     "The thyroepiglottic ligament is loose fibroelastic tissue",
+     0,
+     "The hyoepiglottic is loose; the thyroepiglottic is dense. (Last's p. 498)"
+    ],
+    [
+     "The cricovocal membrane attaches in front midway between the thyroid notch and lower border",
+     1,
+     "Behind to the vocal process. (Last's p. 498)"
+    ],
+    [
+     "The thyrohyoid membrane is part of the larynx",
+     0,
+     "Last's says it is not; it anchors the larynx to the hyoid. (Last's p. 498)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning the laryngeal cavity (Last's):",
+   "o": [
+    [
+     "The intermembranous part is the anterior 60% of the glottis",
+     1,
+     "The intercartilaginous part is 40%. (Last's p. 499)"
+    ],
+    [
+     "The glottis is about 17 mm long in the male",
+     0,
+     "About 23 mm in the male, 17 mm in the female. (Last's p. 500)"
+    ],
+    [
+     "The saccule opens from the anterior end of the ventricle",
+     1,
+     "It extends up between vestibular fold and thyroid lamina. (Last's p. 499)"
+    ],
+    [
+     "At rest in quiet respiration the glottis is about 3 mm wide at the back",
+     0,
+     "About 8 mm. (Last's p. 499)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning laryngeal mucosa (Last's):",
+   "o": [
+    [
+     "The vocal folds are whitish because their mucosa is firmly bound to the vocal ligament",
+     1,
+     "Vessels do not show through. (Last's p. 500)"
+    ],
+    [
+     "In glottic oedema swelling spreads freely below the vocal folds",
+     0,
+     "It accumulates above the rima, unable to cross the watershed. (Last's p. 500)"
+    ],
+    [
+     "The saccule concentrates mucous glands that lubricate the vocal folds",
+     1,
+     "(Last's p. 500)"
+    ],
+    [
+     "There is a constant line between squamous and ciliated epithelium in the vestibule",
+     0,
+     "There is none. (Last's p. 500)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning the inlet sphincter (Last's):",
+   "o": [
+    [
+     "The oblique arytenoids cross superficial to the transverse arytenoid",
+     1,
+     "(Last's p. 500)"
+    ],
+    [
+     "The thyroepiglottic fibres lie inside the quadrangular membrane",
+     0,
+     "They lie outside it. (Last's p. 500)"
+    ],
+    [
+     "The closed laryngeal inlet protects even without the epiglottis",
+     1,
+     "It opens readily to air pressure from below. (Last's p. 500)"
+    ],
+    [
+     "The vocal folds are the main protective sphincter in swallowing",
+     0,
+     "The aryepiglottic sphincter is; the glottis is rarely needed. (Last's p. 502)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning vocal fold muscles (Last's):",
+   "o": [
+    [
+     "Last's calls posterior cricoarytenoid perhaps the most important muscle in the body",
+     1,
+     "The only abductor. (Last's p. 501)"
+    ],
+    [
+     "Lateral cricoarytenoid arises from the cricoid lamina",
+     0,
+     "It arises from the upper border of the arch. (Last's p. 501)"
+    ],
+    [
+     "Cricothyroid lengthens and slightly adducts the folds",
+     1,
+     "Lengthening does not necessarily increase tension. (Last's p. 501)"
+    ],
+    [
+     "Thyroarytenoid relaxes the vocal folds",
+     0,
+     "It shortens them; tension depends on its tonic contraction. (Last's p. 502)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 1,
+   "s": "Concerning laryngeal function (Last's):",
+   "o": [
+    [
+     "Vocalis fibres attach to the cricovocal membrane short of the thyroid cartilage",
+     1,
+     "Increasing the vertical depth of contact. (Last's p. 502)"
+    ],
+    [
+     "In phonation the folds contact over about 10 mm vertically",
+     0,
+     "About 3 mm below their free edges. (Last's p. 502)"
+    ],
+    [
+     "In whispering the folds are separated",
+     1,
+     "It is wasteful of air. (Last's p. 503)"
+    ],
+    [
+     "The diaphragm is stronger than the anterior abdominal wall muscles",
+     0,
+     "It is weaker, hence glottic closure in straining. (Last's p. 503)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
    "t": "Larynx",
    "y": 1,
    "s": "Concerning movements of the larynx (Last's):",
