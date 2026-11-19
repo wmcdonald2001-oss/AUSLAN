@@ -639,6 +639,151 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Femoral region",
+   "y": 2,
+   "s": "Concerning the femoral region (Last's):",
+   "o": [
+    [
+     "At the saphenous opening the femoral vein has no tributary except the great saphenous",
+     1,
+     "(Last's p. 155)"
+    ],
+    [
+     "The superficial external pudendal artery usually lies in front of the great saphenous vein",
+     0,
+     "It is usually behind it. (Last's p. 147)"
+    ],
+    [
+     "There are about five superficial inguinal nodes",
+     0,
+     "Up to 20. (Last's p. 147)"
+    ],
+    [
+     "The deep inguinal nodes lie lateral to the femoral vein",
+     0,
+     "They lie medial to it. (Last's p. 147)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Gluteal region",
+   "y": 2,
+   "s": "Concerning the gluteal region (Last's):",
+   "o": [
+    [
+     "The inferior gluteal artery emerges above piriformis",
+     0,
+     "It emerges between piriformis and the superior gemellus. (Last's p. 163)"
+    ],
+    [
+     "The superficial branch of the superior gluteal artery supplies gluteus maximus",
+     1,
+     "And the overlying skin. (Last's p. 163)"
+    ],
+    [
+     "Quadratus femoris inserts into the trochanteric fossa",
+     0,
+     "Into the quadrate tubercle and a line below it. (Last's p. 165)"
+    ],
+    [
+     "Obturator internus grooves fibrocartilage over the lesser sciatic notch",
+     1,
+     "(Last's p. 164)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Leg",
+   "y": 2,
+   "s": "Concerning the leg (Last's):",
+   "o": [
+    [
+     "The fibular vena comitans of the anterior tibial artery may notch the fibula on radiographs",
+     1,
+     "(Last's p. 188)"
+    ],
+    [
+     "The deep peroneal nerve may give an extra supply to the first dorsal interosseous",
+     1,
+     "(Last's p. 190)"
+    ],
+    [
+     "Veins of the lateral compartment drain mostly into the small saphenous vein",
+     1,
+     "(Last's p. 190)"
+    ],
+    [
+     "The peroneal artery runs superficial to flexor hallucis longus",
+     0,
+     "It runs deep to it, under a fibrous roof. (Last's p. 194)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sole",
+   "y": 2,
+   "s": "Concerning the sole (Last's):",
+   "o": [
+    [
+     "Flexor digitorum brevis is the counterpart of flexor digitorum profundus",
+     0,
+     "It is the counterpart of superficialis. (Last's p. 197)"
+    ],
+    [
+     "Abductor digiti minimi of the foot arises only from the lateral calcaneal tubercle",
+     0,
+     "From both tubercles. (Last's p. 197)"
+    ],
+    [
+     "Flexor hallucis brevis is supplied by the lateral plantar nerve",
+     0,
+     "By the medial plantar. (Last's p. 199)"
+    ],
+    [
+     "The plantar arteries and nerves lie between the first and second layers",
+     1,
+     "(Last's p. 196)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Lumbosacral plexus",
+   "y": 2,
+   "s": "Concerning the lumbar and sacral plexuses (Last's):",
+   "o": [
+    [
+     "The obturator nerve supplies the parietal peritoneum of the pelvic side wall",
+     1,
+     "(Last's p. 416)"
+    ],
+    [
+     "The lumbosacral trunk is formed from part of L4 and all of L5",
+     1,
+     "(Last's p. 395)"
+    ],
+    [
+     "The coccygeal plexus supplies coccygeus and postanal skin",
+     1,
+     "(Last's p. 396)"
+    ],
+    [
+     "The inferior gluteal artery may pass between S2 and S3 instead of S1 and S2",
+     1,
+     "(Last's p. 395)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

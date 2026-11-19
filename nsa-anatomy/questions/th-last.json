@@ -349,6 +349,93 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Thoracic wall",
+   "y": 2,
+   "s": "Concerning the thoracic wall (Last's):",
+   "o": [
+    [
+     "The innermost intercostal fibres cross only one intercostal space",
+     0,
+     "They cross more than one. (Last's p. 244)"
+    ],
+    [
+     "The posterior intercostal membrane extends from the sternum to the costal angle",
+     0,
+     "It extends from the angle to the superior costotransverse ligament. (Last's p. 244)"
+    ],
+    [
+     "Transversus thoracis digitations reach costal cartilages 1 to 7",
+     0,
+     "Cartilages 2 to 6. (Last's p. 244)"
+    ],
+    [
+     "Between subcostals and innermost intercostals the intercostal nerves and vessels touch the pleura",
+     1,
+     "(Last's p. 244)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Diaphragm",
+   "y": 2,
+   "s": "Concerning the diaphragm (Last's):",
+   "o": [
+    [
+     "The oesophageal opening may lie in the midline, its developmental position",
+     1,
+     "It is usually an inch left of it. (Last's p. 248)"
+    ],
+    [
+     "The superior epigastric vessels pass between the xiphisternal and costal fibres",
+     1,
+     "(Last's p. 248)"
+    ],
+    [
+     "Connective tissue around the caval opening comes from the oesophageal mesentery",
+     1,
+     "(Last's p. 249)"
+    ],
+    [
+     "The hemiazygos vein passes through the left crus",
+     1,
+     "(Last's p. 248)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mediastinal nerves",
+   "y": 2,
+   "s": "Concerning nerves in the mediastinum (Last's):",
+   "o": [
+    [
+     "The right vagus lies on the trachea deep to the arch of the azygos",
+     1,
+     "(Last's p. 259)"
+    ],
+    [
+     "The left phrenic nerve crosses the aortic arch behind the vagus",
+     0,
+     "It crosses in front of the vagus. (Last's p. 259)"
+    ],
+    [
+     "The thymus lies behind the pericardium",
+     0,
+     "It lies in front of the pericardium and great vessels. (Last's p. 260)"
+    ],
+    [
+     "The recurrent laryngeal nerves supply only the larynx",
+     0,
+     "They also supply trachea and oesophagus. (Last's p. 259)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

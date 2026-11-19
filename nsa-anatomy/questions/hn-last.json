@@ -4612,6 +4612,238 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Deep cervical fascia",
+   "y": 2,
+   "s": "Concerning the fascia of the neck (Last's):",
+   "o": [
+    [
+     "The prevertebral fascia continues around the axillary vein as the axillary sheath",
+     0,
+     "The sheath surrounds the artery and plexus; the vein lies free. (Last's p. 423)"
+    ],
+    [
+     "The carotid sheath is thick over the internal jugular vein",
+     0,
+     "It is thin there so the vein can dilate. (Last's p. 423)"
+    ],
+    [
+     "Infection of the submandibular space produces quinsy",
+     0,
+     "It produces Ludwig's angina. (Last's p. 424)"
+    ],
+    [
+     "The pretracheal fascia passes behind the brachiocephalic veins to blend with the fibrous pericardium",
+     1,
+     "And the adventitia of the aortic arch. (Last's p. 423)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Thyroid",
+   "y": 2,
+   "s": "Concerning the thyroid gland (Last's):",
+   "o": [
+    [
+     "The superior thyroid artery pierces the pretracheal fascia as a single vessel",
+     1,
+     "(Last's p. 431)"
+    ],
+    [
+     "A minute artery on the recurrent laryngeal nerve helps to identify it",
+     1,
+     "(Last's p. 430)"
+    ],
+    [
+     "The pyramidal lobe is attached to the lower border of the hyoid by fibrous tissue",
+     1,
+     "(Last's p. 430)"
+    ],
+    [
+     "Accessory thyroid tissue may lie beneath sternocleidomastoid",
+     1,
+     "Also near the hyoid, in the tongue or mediastinum. (Last's p. 431)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Parotid",
+   "y": 2,
+   "s": "Concerning the parotid (Last's):",
+   "o": [
+    [
+     "The upper pole of the parotid adheres to the cartilage of the external acoustic meatus",
+     1,
+     "(Last's p. 456)"
+    ],
+    [
+     "The accessory parotid gland opens into the mouth by its own duct",
+     0,
+     "Several ducts open into the parotid duct. (Last's p. 456)"
+    ],
+    [
+     "In parotidectomy the parotid duct is divided at the posterior border of masseter",
+     0,
+     "At the anterior border. (Last's p. 457)"
+    ],
+    [
+     "The facial nerve branches enter the parotid between the mastoid process and the ramus",
+     0,
+     "They enter between the styloid and mastoid processes. (Last's p. 456)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Infratemporal fossa",
+   "y": 2,
+   "s": "Concerning the infratemporal fossa (Last's):",
+   "o": [
+    [
+     "The upper head of lateral pterygoid arises from the lateral pterygoid plate",
+     0,
+     "The lower head does; the upper arises from the infratemporal surface. (Last's p. 457-8)"
+    ],
+    [
+     "The inferior orbital fissure lies between the maxilla and the greater wing of the sphenoid",
+     1,
+     "At the top of the anterior wall. (Last's p. 457)"
+    ],
+    [
+     "The maxillary artery usually passes superficial to the lower head of lateral pterygoid",
+     0,
+     "It usually runs deep to the lower head, then between the heads. (Last's p. 459)"
+    ],
+    [
+     "Medial pterygoid inserts as far as the groove for the mylohyoid nerve and vessels",
+     1,
+     "(Last's p. 459)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pharynx",
+   "y": 2,
+   "s": "Concerning the pharyngeal wall (Last's):",
+   "o": [
+    [
+     "The cartilaginous auditory tube passes through the gap above the superior constrictor",
+     1,
+     "(Last's p. 487)"
+    ],
+    [
+     "The upper end of the pharyngeal raphe is attached to the pharyngeal tubercle",
+     1,
+     "(Last's p. 487)"
+    ],
+    [
+     "The pharyngeal venous plexus lies at the back of the middle constrictor",
+     1,
+     "With the nerve plexus. (Last's p. 489)"
+    ],
+    [
+     "Salpingopharyngeus arises from the bony part of the auditory tube",
+     0,
+     "It arises from the lower part of the tubal cartilage. (Last's p. 489)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Larynx",
+   "y": 2,
+   "s": "Concerning the laryngeal skeleton (Last's):",
+   "o": [
+    [
+     "The corniculate cartilage lies within the aryepiglottic fold in front of the cuneiform",
+     0,
+     "The cuneiform lies within the fold, a little anterior; the corniculate sits on the arytenoid. (Last's p. 497)"
+    ],
+    [
+     "The thyroid, cricoid and epiglottic cartilages are all hyaline",
+     0,
+     "The epiglottic is elastic fibrocartilage. (Last's p. 497)"
+    ],
+    [
+     "The cricothyroid joint is fibrous",
+     0,
+     "It is synovial. (Last's p. 498)"
+    ],
+    [
+     "The posterior border of the quadrangular membrane is much shorter than the anterior",
+     1,
+     "Like a mainsail. (Last's p. 498)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Tongue",
+   "y": 2,
+   "s": "Concerning the tongue (Last's):",
+   "o": [
+    [
+     "The anterior and posterior borders of hyoglossus are free",
+     1,
+     "(Last's p. 481)"
+    ],
+    [
+     "The lingual vein usually joins the internal jugular near the greater horn",
+     1,
+     "(Last's p. 482)"
+    ],
+    [
+     "The posterior part of the tongue drains directly to deep cervical nodes",
+     1,
+     "(Last's p. 482)"
+    ],
+    [
+     "The vallate papillae are not in contact with food being chewed",
+     1,
+     "Food juices and saliva reach them. (Last's p. 480)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Paranasal sinuses",
+   "y": 2,
+   "s": "Concerning the paranasal sinuses (Last's):",
+   "o": [
+    [
+     "The most posterior ethmoidal cell may lie against the optic nerve in its canal",
+     1,
+     "(Last's p. 475)"
+    ],
+    [
+     "The frontal sinus drains into the posterior end of the semilunar hiatus",
+     0,
+     "Into the front end; the maxillary opens near the posterior end. (Last's p. 476, 472)"
+    ],
+    [
+     "The anterior ethmoidal foramen lies 1 cm behind the posterior",
+     0,
+     "The posterior lies 1 cm behind the anterior. (Last's p. 475)"
+    ],
+    [
+     "The maxillary sinus is absent at birth",
+     0,
+     "It is a shallow slit; only the frontal is absent. (Last's p. 474)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

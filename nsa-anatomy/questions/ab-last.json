@@ -407,6 +407,64 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Pelvic autonomics",
+   "y": 2,
+   "s": "Concerning pelvic autonomic nerves (Last's):",
+   "o": [
+    [
+     "The pelvic splanchnic nerves are sympathetic",
+     0,
+     "They are the sacral parasympathetic outflow; sacral splanchnics are sympathetic. (Last's p. 396)"
+    ],
+    [
+     "Some pelvic splanchnic fibres run with the inferior mesenteric artery to the descending colon",
+     1,
+     "(Last's p. 397)"
+    ],
+    [
+     "The inferior hypogastric plexus lies medial to the rectum",
+     0,
+     "It lies lateral to it on the pelvic side wall. (Last's p. 397)"
+    ],
+    [
+     "Normal bladder distension sensation travels in the pelvic splanchnic nerves",
+     1,
+     "(Last's p. 397)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Abdominal wall nerves",
+   "y": 2,
+   "s": "Concerning nerves of the abdominal wall (Last's):",
+   "o": [
+    [
+     "The subcostal nerve supplies pyramidalis",
+     1,
+     "And the lower rectus. (Last's p. 360)"
+    ],
+    [
+     "The subcostal lateral cutaneous branch supplies skin between iliac crest and greater trochanter",
+     1,
+     "(Last's p. 360)"
+    ],
+    [
+     "The ilioinguinal nerve supplies the root of the penis",
+     1,
+     "(Last's p. 361)"
+    ],
+    [
+     "The iliohypogastric nerve pierces internal oblique below the anterior superior iliac spine",
+     0,
+     "It pierces it above the spine. (Last's p. 361)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

@@ -639,6 +639,93 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Development",
+   "y": 2,
+   "s": "Concerning pharyngeal development (Last's):",
+   "o": [
+    [
+     "The site of the buccopharyngeal membrane cannot be identified with certainty in the adult",
+     1,
+     "It breaks down in the third week. (Last's p. 37)"
+    ],
+    [
+     "Hassall's corpuscles come from bone-marrow-derived cells",
+     0,
+     "They come from the thymic bud; cortical lymphocytes come from marrow. (Last's p. 39)"
+    ],
+    [
+     "The dorsal diverticulum of the second pouch forms the inferior parathyroid",
+     0,
+     "It helps form the tympanic cavity; the third pouch gives the inferior parathyroid. (Last's p. 39)"
+    ],
+    [
+     "The left fourth arch artery forms the left subclavian",
+     0,
+     "It forms the arch of the aorta. (Last's p. 40)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Autonomic system",
+   "y": 2,
+   "s": "Concerning the autonomic system (Last's):",
+   "o": [
+    [
+     "Parasympathetic fibres supply the arrectores pilorum",
+     0,
+     "Parasympathetic supply is wholly visceral. (Last's p. 33)"
+    ],
+    [
+     "The superior cervical ganglion gives four grey rami",
+     1,
+     "The other cervical ganglia two each. (Last's p. 31)"
+    ],
+    [
+     "Sympathetic cardiac branches arise only from thoracic ganglia",
+     0,
+     "Cervical ganglia give cardiac branches too. (Last's p. 31)"
+    ],
+    [
+     "Visceral afferents reach the spinal nerve through the white ramus",
+     1,
+     "(Last's p. 32)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dermatomes",
+   "y": 2,
+   "s": "Concerning dermatomes (Last's):",
+   "o": [
+    [
+     "C4 skin over the deltoid is borrowed from the neck",
+     1,
+     "T2 is borrowed for the axilla. (Last's p. 24)"
+    ],
+    [
+     "The lower limb anterior axial line spirals to the back of the calf almost to the heel",
+     1,
+     "(Last's p. 24)"
+    ],
+    [
+     "L5 and S1 have been reported to reach buttock skin, though this is not usually expected",
+     1,
+     "(Last's p. 24)"
+    ],
+    [
+     "L4 lies over the fibula",
+     0,
+     "L4 is over the tibia; L5 over the fibula. (Last's p. 24)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

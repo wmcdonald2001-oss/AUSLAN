@@ -484,6 +484,23 @@ function toggleFlag(id) {
   state.q[id] = { ...rec, f: rec.f ? 0 : 1, t: Date.now() };
   changed();
 }
+// ak = picked for an Anki card; bad = reported as incorrect (bn = optional note).
+function setQField(id, patch) {
+  const rec = state.q[id] || { a: 0, c: 0, l: null, f: 0 };
+  state.q[id] = { ...rec, ...patch, t: Date.now() };
+  changed();
+}
+// Buttons shown under a revealed question (practice and exam review).
+function reviewTools(q, rerender) {
+  const rec = state.q[q.id] || {};
+  const anki = h('button', { class: `btn small ghost${rec.ak ? ' on' : ''}`, 'aria-pressed': String(!!rec.ak), text: rec.ak ? '✓ Anki card' : '+ Anki card',
+    title: 'Add this question to the "Picked for Anki" export on the Progress tab', onclick: () => { setQField(q.id, { ak: rec.ak ? 0 : 1 }); rerender(); } });
+  const bad = h('button', { class: `btn small ghost${rec.bad ? ' on' : ''}`, 'aria-pressed': String(!!rec.bad), text: rec.bad ? '⚠ Flagged incorrect' : 'Flag incorrect',
+    title: 'Report this question as wrong so it can be checked and fixed', onclick: () => { setQField(q.id, { bad: rec.bad ? 0 : 1 }); rerender(); } });
+  return { anki, bad, note: rec.bad ? h('div', { class: 'row', style: 'margin-top:8px;width:100%' },
+    h('input', { type: 'text', placeholder: 'What looks wrong? (optional)', value: rec.bn || '', style: 'flex:1;min-width:0', 'aria-label': 'Note on what is wrong',
+      onchange: (e) => setQField(q.id, { bn: e.target.value.slice(0, 500) }) })) : null };
+}
 
 /* ---------- scoring ---------- */
 function scoreAnswer(q, ans) {
@@ -681,7 +698,8 @@ function renderPractice() {
   const rec = state.q[q.id];
   const foot = h('div', { class: 'q-foot' });
   const next = () => { practice.idx++; practice.ans = null; practice.reveal = false; renderPractice(); window.scrollTo({ top: $('#practice-area').offsetTop - 60 }); };
-  if (practice.reveal) foot.append(scoreLabel(q, scoreAnswer(q, ans)));
+  let rtNote = null;
+  if (practice.reveal) { const rt = reviewTools(q, renderPractice); foot.append(scoreLabel(q, scoreAnswer(q, ans)), rt.anki, rt.bad); rtNote = rt.note; }
   foot.append(h('button', { class: 'btn small ghost', text: rec && rec.f ? 'Unflag' : 'Flag', onclick: () => toggleFlag(q.id) }));
   if (!practice.reveal) foot.append(h('button', { class: 'btn small ghost', text: 'Skip', onclick: next }));
   foot.append(h('span', { class: 'grow' }));
@@ -695,6 +713,7 @@ function renderPractice() {
   } else {
     foot.append(h('button', { class: 'btn primary', text: last ? 'Finish block' : 'Next question', onclick: next }));
   }
+  if (rtNote) foot.append(rtNote);
   area.replaceChildren(renderQuestion(q, {
     ans, reveal: practice.reveal,
     onAnswer: practice.reveal ? null : (nextAns) => { practice.ans = nextAns; practice.drafts[practice.idx] = nextAns; renderPractice(); },
@@ -730,7 +749,7 @@ function renderExam() {
     } });
     area.replaceChildren(h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'Mock exam' }),
-      h('p', { style: 'margin:0 0 12px', text: 'The real paper is 60 questions in 100 minutes with a 70% pass mark: 20 Type 1 (true/false) followed by 40 Type 2 (key A–E). Mock exams keep that split. Answers are hidden until you finish.' }),
+      h('p', { style: 'margin:0 0 12px', text: 'The real paper is 60 questions in 100 minutes with a 70% pass mark: 20 Type 1 (true/false) followed by 40 Type 2 (key A–E). Mock exams always keep that split: if the difficulty you pick is short of one type, it is topped up from the same regions at the next hardest level. Answers are hidden until you finish. Exams with fewer than 90% of questions answered are scored on the questions answered and left out of your trend.' }),
       h('p', { class: 'label', text: 'Region' }), regionsBox,
       h('p', { class: 'label', style: 'margin-top:12px', text: 'Difficulty' }), diffBox,
       h('div', { class: 'row', style: 'margin-top:14px' },
@@ -742,9 +761,22 @@ function renderExam() {
         const seen = examSeenCounts();
         const order = (ids) => shuffle(ids).map((id, k) => [id, seen[id] || 0, state.q[id] && state.q[id].a ? 1 : 0, k])
           .sort((a, b) => a[1] - b[1] || a[2] - b[2] || a[3] - b[3]).map((r) => r[0]);
-        const t1 = order(pool.filter((q) => q.y === 1).map((q) => q.id));
-        const t2 = order(pool.filter((q) => q.y === 2).map((q) => q.id));
-        let n1 = Math.min(t1.length, Math.round(n / 3));
+        // Always 1/3 Type 1, 2/3 Type 2. If the chosen difficulty is short of a type, top up from the same regions
+        // at other difficulties, hardest first.
+        const inRegion = (q) => !exam.regions.size || exam.regions.has(q.r);
+        const n1want = Math.round(n / 3), n2want = n - n1want;
+        const pick = (y, want) => {
+          let ids = order(pool.filter((q) => q.y === y).map((q) => q.id));
+          if (ids.length < want && exam.diff !== 'all') {
+            for (const d of [3, 2, 1].filter((d) => String(d) !== exam.diff)) {
+              if (ids.length >= want) break;
+              ids = ids.concat(order(DATA.questions.filter((q) => q.y === y && inRegion(q) && q.d === d).map((q) => q.id)));
+            }
+          }
+          return ids;
+        };
+        const t1 = pick(1, n1want), t2 = pick(2, n2want);
+        let n1 = Math.min(t1.length, n1want);
         const n2 = Math.min(t2.length, n - n1);
         n1 = Math.min(t1.length, n - n2);
         exam.ids = [...t1.slice(0, n1), ...t2.slice(0, n2)];
@@ -795,7 +827,7 @@ function renderExam() {
   if (exam.phase === 'done') {
     const r = exam.results;
     const byRegion = {};
-    exam.ids.forEach((id, i) => { const q = QBYID[id]; (byRegion[q.r] = byRegion[q.r] || []).push(r.scores[i]); });
+    exam.ids.forEach((id, i) => { const q = QBYID[id]; if (r.inc && !answered(q, exam.ans[i])) return; (byRegion[q.r] = byRegion[q.r] || []).push(r.scores[i]); });
     const rows = Object.entries(byRegion).map(([code, arr]) => {
       const avg = arr.reduce((a, b) => a + b, 0) / arr.length;
       return h('tr', {}, h('td', { text: REGION[code] }), h('td', { class: 'num', text: String(arr.length) }), h('td', { class: 'num', text: pct(avg) }));
@@ -804,15 +836,19 @@ function renderExam() {
       class: `${r.scores[i] == null ? 'todo' : resultClass({ score: r.scores[i] })} ${i === exam.cur ? 'cur' : ''} ${exam.marked && exam.marked.has(i) ? 'mk' : ''}`, text: String(i + 1), onclick: () => { exam.cur = i; renderExam(); },
     })));
     const q = QBYID[exam.ids[exam.cur]];
-    const foot = h('div', { class: 'q-foot' }, r.scores[exam.cur] == null ? h('span', { class: 'count', text: `Answer ${q.y === 2 ? q.k : 'shown below'}` }) : scoreLabel(q, r.scores[exam.cur]), h('span', { class: 'grow' }),
+    const rt = reviewTools(q, renderExam);
+    const foot = h('div', { class: 'q-foot' }, r.scores[exam.cur] == null ? h('span', { class: 'count', text: `Answer ${q.y === 2 ? q.k : 'shown below'}` }) : scoreLabel(q, r.scores[exam.cur]), rt.anki, rt.bad, h('span', { class: 'grow' }),
       h('button', { class: 'btn ghost', text: 'Previous', disabled: exam.cur === 0, onclick: () => { exam.cur--; renderExam(); } }),
-      h('button', { class: 'btn ghost', text: 'Next', disabled: exam.cur === exam.ids.length - 1, onclick: () => { exam.cur++; renderExam(); } }));
+      h('button', { class: 'btn ghost', text: 'Next', disabled: exam.cur === exam.ids.length - 1, onclick: () => { exam.cur++; renderExam(); } }), rt.note);
     area.replaceChildren(
       h('div', { class: 'panel' },
         h('p', { class: 'label', text: r.past ? `Past exam · ${niceDay(dayKey(r.past.t), true)}` : 'Result' }),
         r.past && !r.past.saved ? h('p', { class: 'count', style: 'margin:0 0 8px', text: 'Your answers were not saved for this exam (it was taken before answer saving was added), so the questions are shown with the correct answers only.' }) : null,
         r.past && r.past.missing ? h('p', { class: 'count', style: 'margin:0 0 8px', text: `${r.past.missing} question${r.past.missing === 1 ? ' has' : 's have'} since been rewritten and can't be shown.` }) : null,
-        h('div', { class: 'row' }, h('span', { class: 'big', text: pct(r.total) }),
+        r.inc
+          ? h('div', { class: 'row' }, h('span', { class: 'big', text: r.ap == null ? '–' : pct(r.ap) }),
+            h('span', { class: 'count', text: `on the ${r.done} of ${exam.ids.length} questions answered · incomplete, so it is left out of your trend and averages` }))
+          : h('div', { class: 'row' }, h('span', { class: 'big', text: pct(r.total) }),
           h('span', { class: r.total >= 0.7 ? 'pass' : 'fail', text: r.total >= 0.7 ? 'At or above the 70% pass mark' : 'Below the 70% pass mark' }),
           r.prev != null ? h('span', { class: 'count', text: `${r.total >= r.prev ? '▲' : '▼'} ${Math.abs(Math.round((r.total - r.prev) * 100))} points vs your last exam` }) : null),
         h('p', { class: 'count', style: 'margin:8px 0 12px', text: `${exam.ids.length} questions · ${r.full} fully correct · time used ${r.used}` }),
@@ -856,6 +892,7 @@ function reviewPastExam(r) {
   exam.results = {
     scores: saved ? exam.ids.map((id, j) => scoreAnswer(QBYID[id], exam.ans[j])) : exam.ids.map(() => null),
     total: r.total, full: r.full, used: `${r.usedMin} min`, prev: null, ch: r.ch || null,
+    inc: !examComplete(r), done: examAnswered(r), ap: examAnsweredScore(r),
     past: { t: r.t, saved, missing: (r.ids || []).length - keep.length },
   };
   exam.phase = 'done'; exam.cur = 0;
@@ -864,7 +901,10 @@ function reviewPastExam(r) {
 }
 function examSeenCounts() {
   const c = {};
-  for (const r of examHistory()) for (const id of r.ids || []) c[id] = (c[id] || 0) + 1;
+  for (const r of examHistory()) (r.ids || []).forEach((id, i) => {
+    if (!examComplete(r) && Array.isArray(r.a) && (!r.a[i] || String(r.a[i]).includes('?'))) return;
+    c[id] = (c[id] || 0) + 1;
+  });
   return c;
 }
 function confirmFinish(area) {
@@ -886,11 +926,15 @@ function finishExam() {
   const scores = exam.ids.map((id, i) => scoreAnswer(QBYID[id], exam.ans[i]));
   exam.ids.forEach((id, i) => { if (answered(QBYID[id], exam.ans[i])) recordQuestion(id, scores[i], exam.ans[i]); });
   const usedMs = exam.duration - Math.max(0, exam.ends - Date.now());
-  const prev = examHistory().slice(-1)[0];
+  const prev = completedExams().slice(-1)[0];
   exam.results = {
     scores, total: scores.reduce((a, b) => a + b, 0) / scores.length, full: scores.filter((s) => s === 1).length,
     used: `${Math.floor(usedMs / 60000)} min`, prev: prev ? prev.total : null,
   };
+  const doneIdx = exam.ids.map((id, i) => i).filter((i) => answered(QBYID[exam.ids[i]], exam.ans[i]));
+  const done = doneIdx.length;
+  const ap = done ? doneIdx.reduce((a, i) => a + scores[i], 0) / done : null;
+  exam.results.done = done; exam.results.ap = ap; exam.results.inc = done < 0.9 * exam.ids.length;
   const typeAvg = (y) => { const sc = scores.filter((_, i) => QBYID[exam.ids[i]].y === y); return sc.length ? sc.reduce((a, b) => a + b, 0) / sc.length : null; };
   const regions = {};
   exam.ids.forEach((id, i) => { const c = QBYID[id].r; regions[c] = regions[c] || [0, 0]; regions[c][0] += scores[i]; regions[c][1] += 1; });
@@ -898,7 +942,7 @@ function finishExam() {
   state.e = state.e || {};
   const ch = examChanges();
   exam.results.ch = ch;
-  state.e[now] = { t: now, n: exam.ids.length, total: exam.results.total, full: exam.results.full, usedMin: Math.floor(usedMs / 60000), t1: typeAvg(1), t2: typeAvg(2), regions, ids: exam.ids.slice(), ch,
+  state.e[now] = { t: now, n: exam.ids.length, total: exam.results.total, full: exam.results.full, usedMin: Math.floor(usedMs / 60000), t1: typeAvg(1), t2: typeAvg(2), regions, ids: exam.ids.slice(), ch, done, ap,
     a: exam.ids.map((id, i) => encodeAnswer(QBYID[id], exam.ans[i])), mk: [...(exam.marked || [])] };
   exam.phase = 'done'; exam.cur = 0;
   changed();
@@ -1070,7 +1114,7 @@ function mistakesFor(days) {
   }
   return [...byId.values()];
 }
-function ankiFile(mistakes) {
+function ankiFile(mistakes, deck = 'NSA anatomy mistakes') {
   const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/[\t\r\n]+/g, ' ');
   const tag = (t) => t.replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '');
   const rows = [];
@@ -1087,7 +1131,7 @@ function ankiFile(mistakes) {
       rows.push([front, back, tags, `nsa-${q.id}`]);
     }
   }
-  const head = ['#separator:tab', '#html:true', '#notetype:Basic', '#deck:NSA anatomy mistakes', '#tags column:3', '#guid column:4'];
+  const head = ['#separator:tab', '#html:true', '#notetype:Basic', `#deck:${deck}`, '#tags column:3', '#guid column:4'];
   return { text: head.concat(rows.map((r) => r.join('\t'))).join('\n') + '\n', count: rows.length };
 }
 // unfixed: leave out questions whose most recent retry was fully correct.
@@ -1109,6 +1153,33 @@ async function downloadAnki(days, label, statusEl, unfixed = false) {
     statusEl.textContent = e && e.code === 'declined' ? 'Download cancelled.' : 'Download is not available here. Use the copy box instead.';
   }
 }
+function pickedCards() {
+  return Object.entries(state.q || {}).filter(([id, r]) => r.ak && QBYID[id]).map(([id]) => ({ q: QBYID[id], idx: new Set([0, 1, 2, 3]) }));
+}
+async function saveText(filename, text, statusEl, okMsg) {
+  const dl = window.claude && typeof window.claude.use === 'function' ? await window.claude.use('downloads').catch(() => null) : null;
+  try {
+    if (dl) await dl.save({ filename, data: text });
+    else { const a = h('a', { href: URL.createObjectURL(new Blob([text], { type: 'text/plain' })), download: filename }); document.body.append(a); a.click(); a.remove(); }
+    statusEl.textContent = okMsg;
+  } catch (e) { statusEl.textContent = e && e.code === 'declined' ? 'Download cancelled.' : 'Download is not available here.'; }
+}
+function downloadPicked(statusEl) {
+  const picks = pickedCards();
+  if (!picks.length) { statusEl.textContent = 'No questions picked yet. Use "+ Anki card" when reviewing answers.'; return; }
+  const { text, count } = ankiFile(picks, 'NSA anatomy picked');
+  saveText('nsa-anki-picked.txt', text, statusEl, `${count} cards from ${picks.length} questions saved as nsa-anki-picked.txt.`);
+}
+function flaggedPanel() {
+  const bad = Object.entries(state.q || {}).filter(([id, r]) => r.bad && QBYID[id]);
+  if (!bad.length) return null;
+  return h('div', { class: 'panel' },
+    h('p', { class: 'label', text: `Flagged as incorrect (${bad.length})` }),
+    h('p', { class: 'count', style: 'margin:0 0 8px', text: 'These sync to your account. Ask Claude to check them and they will be fixed or explained.' }),
+    h('ul', { style: 'margin:0;padding-left:1.1rem' }, ...bad.map(([id, r]) => h('li', { style: 'margin:4px 0' },
+      h('span', { text: `${QBYID[id].s} (${QBYID[id].t})` }), r.bn ? h('span', { class: 'count', text: ` — "${r.bn}"` }) : null, ' ',
+      h('button', { class: 'btn small ghost', text: 'Unflag', onclick: () => setQField(id, { bad: 0 }) })))));
+}
 function ankiPanel(day) {
   const status = h('p', { class: 'count', style: 'margin:8px 0 0', 'aria-live': 'polite' });
   const allDays = Object.keys(state.h || {});
@@ -1118,7 +1189,9 @@ function ankiPanel(day) {
       h('p', { style: 'margin:0 0 10px', text: 'Every question you got wrong (practice and mock exams), as cards for the deck "NSA anatomy mistakes". Each wrong Type 1 statement is its own card. "Not yet fixed" leaves out questions you have since got fully right on a retry. Import with File → Import; re-importing updates cards instead of duplicating them.' }),
       h('div', { class: 'row' },
         h('button', { class: 'btn small primary', text: 'All mistakes', onclick: () => downloadAnki(allDays, 'all-mistakes', status) }),
-        h('button', { class: 'btn small', text: 'Not yet fixed', onclick: () => downloadAnki(allDays, 'not-yet-fixed', status, true) })),
+        h('button', { class: 'btn small', text: 'Not yet fixed', onclick: () => downloadAnki(allDays, 'not-yet-fixed', status, true) }),
+        h('button', { class: 'btn small', text: `Picked for Anki (${pickedCards().length})`, onclick: () => downloadPicked(status) })),
+      h('p', { class: 'count', style: 'margin:8px 0 0', text: '"Picked for Anki" is every question you marked with "+ Anki card" when reviewing, right or wrong, as the deck "NSA anatomy picked" (every statement of a Type 1 becomes a card).' }),
       status);
   }
   return h('div', { class: 'panel' },
@@ -1231,6 +1304,22 @@ function trendPanel() {
 function examHistory() {
   return Object.values(state.e || {}).filter((r) => r && r.t > (state.r || 0)).sort((a, b) => a.t - b.t);
 }
+// An exam counts only if at least 90% of its questions were answered (a Type 1 needs all four statements).
+function examAnswered(r) {
+  if (r.done != null) return r.done;
+  if (!Array.isArray(r.a)) return r.n;
+  return r.a.filter((c) => c && !String(c).includes('?')).length;
+}
+function examComplete(r) { return examAnswered(r) >= 0.9 * r.n; }
+// Score on the questions actually answered, for incomplete exams.
+function examAnsweredScore(r) {
+  if (r.ap != null) return r.ap;
+  if (!Array.isArray(r.a) || !r.ids) return null;
+  const sc = [];
+  r.ids.forEach((id, i) => { const q = QBYID[id]; const c = r.a[i]; if (q && c && !String(c).includes('?')) sc.push(scoreAnswer(q, decodeAnswer(q, c))); });
+  return sc.length ? sc.reduce((a, b) => a + b, 0) / sc.length : null;
+}
+function completedExams() { return examHistory().filter(examComplete); }
 function changeLine(ch) {
   const n = ch.c1[0] + ch.c2[0];
   if (!n) return h('p', { class: 'count', style: 'margin:-4px 0 12px', text: 'You did not change any answers after moving on.' });
@@ -1255,11 +1344,33 @@ function changePanel(hist) {
     h('p', { class: 'count', style: 'margin:6px 0 0', text: 'Only counts mock exams, and only answers you changed after moving on and coming back. Net marks = changes that went wrong→right minus right→wrong.' }));
   return box;
 }
-function examHistoryPanel() {
-  const hist = examHistory();
-  const panel = h('div', { class: 'panel' }, h('p', { class: 'label', text: 'Your mock exams' }));
-  if (!hist.length) { panel.append(h('p', { class: 'count', style: 'margin:0', text: 'Finish a mock exam and your scores will be tracked here.' })); return panel; }
+function examTable(all) {
   const dayOf = (r) => dayKey(r.t);
+  return h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },
+    h('tr', {}, h('th', { text: 'Date' }), h('th', { text: 'Score' }), h('th', { text: 'T1' }), h('th', { text: 'T2' }), h('th', { text: 'Time' }), h('th', { text: '' })),
+    ...all.slice().reverse().map((r) => {
+      const ok = examComplete(r);
+      const ap = ok ? null : examAnsweredScore(r);
+      return h('tr', {}, h('td', { text: niceDay(dayOf(r), true) }),
+        h('td', { class: 'num', text: ok ? `${pct(r.total)} (${r.n})` : `${ap == null ? '–' : pct(ap)} of ${examAnswered(r)}/${r.n} answered · incomplete` }),
+        h('td', { class: 'num', text: !ok || r.t1 == null ? '–' : pct(r.t1) }),
+        h('td', { class: 'num', text: !ok || r.t2 == null ? '–' : pct(r.t2) }), h('td', { class: 'num', text: `${r.usedMin}m` }),
+        h('td', {}, r.ids && r.ids.some((id) => QBYID[id])
+          ? h('button', { class: 'btn small', text: 'Review', onclick: () => reviewPastExam(r) })
+          : h('span', { class: 'count', text: 'not saved', title: 'Exams taken before 4 Nov did not save their questions.' })));
+    })));
+}
+function examHistoryPanel() {
+  const all = examHistory();
+  const hist = all.filter(examComplete);
+  const nInc = all.length - hist.length;
+  const panel = h('div', { class: 'panel' }, h('p', { class: 'label', text: 'Your mock exams' }));
+  if (!all.length) { panel.append(h('p', { class: 'count', style: 'margin:0', text: 'Finish a mock exam and your scores will be tracked here.' })); return panel; }
+  const dayOf = (r) => dayKey(r.t);
+  if (!hist.length) {
+    panel.append(h('p', { class: 'count', style: 'margin:0 0 8px', text: 'No completed exams yet. Exams with fewer than 90% of questions answered are listed below but left out of your trend.' }), examTable(all));
+    return panel;
+  }
   const passed = hist.filter((r) => r.total >= 0.7).length;
   const best = Math.max(...hist.map((r) => r.total));
   const last3 = hist.slice(-3);
@@ -1286,14 +1397,8 @@ function examHistoryPanel() {
     h('p', { class: 'label', style: 'margin-top:12px', text: 'By region across all exams (weakest first)' }),
     h('div', { class: 'table-scroll' }, h('table', { class: 'stats' }, h('tr', {}, h('th', { text: 'Region' }), h('th', { text: 'Qs' }), h('th', { text: 'Score' })), ...regionRows)),
     h('p', { class: 'label', style: 'margin-top:12px', text: 'All exams' }),
-    h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },
-      h('tr', {}, h('th', { text: 'Date' }), h('th', { text: 'Score' }), h('th', { text: 'T1' }), h('th', { text: 'T2' }), h('th', { text: 'Time' }), h('th', { text: '' })),
-      ...hist.slice().reverse().map((r) => h('tr', {}, h('td', { text: niceDay(dayOf(r), true) }),
-        h('td', { class: 'num', text: `${pct(r.total)} (${r.n})` }), h('td', { class: 'num', text: r.t1 == null ? '–' : pct(r.t1) }),
-        h('td', { class: 'num', text: r.t2 == null ? '–' : pct(r.t2) }), h('td', { class: 'num', text: `${r.usedMin}m` }),
-        h('td', {}, r.ids && r.ids.some((id) => QBYID[id])
-          ? h('button', { class: 'btn small', text: 'Review', onclick: () => reviewPastExam(r) })
-          : h('span', { class: 'count', text: 'not saved', title: 'Exams taken before 4 Nov did not save their questions.' })))))));
+    nInc ? h('p', { class: 'count', style: 'margin:0 0 6px', text: `${nInc} incomplete exam${nInc === 1 ? '' : 's'} (fewer than 90% answered) ${nInc === 1 ? 'is' : 'are'} left out of the trend and averages, and scored on the questions answered.` }) : null,
+    examTable(all));
   return panel;
 }
 // Later tries at questions you got wrong (not fully correct) on your first attempt.
@@ -1358,6 +1463,7 @@ function renderProgress() {
       DATA.cards.length ? h('p', { class: 'count', style: 'margin:8px 0 0', text: `Flashcards: ${reviewed} of ${DATA.cards.length} studied, ${learned} well known (box 3 or higher)` }) : null),
     trendPanel(),
     ankiPanel(null),
+    flaggedPanel(),
     h('div', { class: 'panel' },
       h('p', { class: 'label', text: 'By region' }),
       h('div', { class: 'table-scroll' }, h('table', { class: 'stats' },

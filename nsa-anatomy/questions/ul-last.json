@@ -813,6 +813,151 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Brachial plexus",
+   "y": 2,
+   "s": "Concerning the brachial plexus (Last's):",
+   "o": [
+    [
+     "The supraclavicular plexus is exposed in the angle between sternocleidomastoid and clavicle",
+     1,
+     "(Last's p. 126)"
+    ],
+    [
+     "The dorsal scapular nerve runs superficial to levator scapulae",
+     0,
+     "It runs deep to levator scapulae and the rhomboids. (Last's p. 122)"
+    ],
+    [
+     "The nerve to subclavius passes behind the subclavian vein",
+     0,
+     "It passes in front of it. (Last's p. 122)"
+    ],
+    [
+     "The suprascapular nerve passes above the transverse scapular ligament",
+     0,
+     "The vessels pass above; the nerve beneath. (Last's p. 123)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Radial nerve",
+   "y": 2,
+   "s": "Concerning the radial nerve (Last's):",
+   "o": [
+    [
+     "Radial palsy prevents straightening of the interphalangeal joints",
+     0,
+     "The interossei and lumbricals can still extend them. (Last's p. 126)"
+    ],
+    [
+     "Brachioradialis is supplied by the radial trunk, not the posterior interosseous",
+     1,
+     "(Last's p. 125)"
+    ],
+    [
+     "Extensor carpi radialis longus is supplied by the posterior interosseous nerve",
+     0,
+     "By the radial trunk; brevis by the posterior interosseous. (Last's p. 125)"
+    ],
+    [
+     "In pronation the skin of the posterior cutaneous nerve of the forearm faces forwards",
+     1,
+     "(Last's p. 125)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hand",
+   "y": 2,
+   "s": "Concerning nerves in the hand (Last's):",
+   "o": [
+    [
+     "The deep branch of the ulnar nerve passes through the origin of opponens digiti minimi",
+     1,
+     "(Last's p. 114)"
+    ],
+    [
+     "The dorsal branch of the ulnar nerve not uncommonly supplies two and a half fingers",
+     1,
+     "(Last's p. 124)"
+    ],
+    [
+     "The median branch to the second cleft also supplies the second lumbrical",
+     1,
+     "(Last's p. 111)"
+    ],
+    [
+     "Abductor digiti minimi is supplied by the superficial branch of the ulnar nerve",
+     0,
+     "By the deep branch. (Last's p. 110)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Forearm",
+   "y": 2,
+   "s": "Concerning the forearm (Last's):",
+   "o": [
+    [
+     "The oblique cord's fibres run in the same direction as the interosseous membrane",
+     0,
+     "They run in the opposite obliquity. (Last's p. 95)"
+    ],
+    [
+     "The distal radioulnar joint normally communicates with the wrist joint",
+     0,
+     "Only if the triangular fibrocartilage is incomplete, which is rare. (Last's p. 95)"
+    ],
+    [
+     "The axis of pronation–supination passes near the index finger",
+     0,
+     "It passes near the little finger. (Last's p. 95)"
+    ],
+    [
+     "Attached to both bones, the extensor retinaculum would be over 30% longer in pronation",
+     1,
+     "(Last's p. 103)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Arm and axilla",
+   "y": 2,
+   "s": "Concerning the arm and axilla (Last's):",
+   "o": [
+    [
+     "The brachial artery is palpated by pressing laterally, not backwards",
+     1,
+     "It lies medial to the humerus. (Last's p. 81)"
+    ],
+    [
+     "The nutrient artery of the humerus enters near the coracobrachialis attachment",
+     1,
+     "(Last's p. 81)"
+    ],
+    [
+     "The thoracodorsal nerve lies in front of the subscapular artery as it enters latissimus dorsi",
+     1,
+     "Having arisen behind it. (Last's p. 68-9)"
+    ],
+    [
+     "The lateral thoracic artery is an important supply to the female breast",
+     1,
+     "(Last's p. 66)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

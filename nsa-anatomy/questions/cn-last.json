@@ -1161,6 +1161,122 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Glossopharyngeal and vagus",
+   "y": 2,
+   "s": "Concerning IX and X in the neck (Last's):",
+   "o": [
+    [
+     "The carotid sinus nerve is a branch of the vagus",
+     0,
+     "It is from IX; the vagus adds a fine carotid body branch. (Last's p. 463-4)"
+    ],
+    [
+     "IX carries secretomotor fibres to glands of the posterior third of the tongue",
+     1,
+     "Relaying in small ganglia in the mucosa. (Last's p. 464)"
+    ],
+    [
+     "The pharyngeal branch of the vagus runs above IX across the internal carotid",
+     0,
+     "It runs parallel with and below IX. (Last's p. 464)"
+    ],
+    [
+     "The external laryngeal nerve may supply cricopharyngeus",
+     1,
+     "\"possibly\", per Last's. (Last's p. 464)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Mandibular nerve",
+   "y": 2,
+   "s": "Concerning branches of the mandibular nerve (Last's):",
+   "o": [
+    [
+     "The buccal nerve runs in a fascial tunnel on the deep surface of temporalis",
+     1,
+     "(Last's p. 461)"
+    ],
+    [
+     "A middle deep temporal nerve may emerge with the buccal nerve between the heads of lateral pterygoid",
+     1,
+     "(Last's p. 461)"
+    ],
+    [
+     "The nerve to lateral pterygoid runs with the buccal nerve",
+     1,
+     "(Last's p. 461)"
+    ],
+    [
+     "The auriculotemporal nerve passes lateral to the neck of the mandible",
+     0,
+     "It passes back between the neck and the sphenomandibular ligament. (Last's p. 462)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Facial nerve",
+   "y": 2,
+   "s": "Concerning the facial nerve on the face (Last's):",
+   "o": [
+    [
+     "The posterior auricular nerve supplies frontalis",
+     0,
+     "It supplies the occipital belly. (Last's p. 449)"
+    ],
+    [
+     "The facial nerve enters the parotid on its lateral surface",
+     0,
+     "It enters the posteromedial surface. (Last's p. 449)"
+    ],
+    [
+     "The cervical branch supplies the muscles of the lower lip",
+     0,
+     "The marginal mandibular does; Last's calls the cervical statement erroneous. (Last's p. 450)"
+    ],
+    [
+     "The buccal branches supply the lower fibres of the elevators of the upper lip",
+     1,
+     "And orbicularis oris of the upper lip. (Last's p. 450)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Hypoglossal nerve",
+   "y": 2,
+   "s": "Concerning the hypoglossal nerve (Last's):",
+   "o": [
+    [
+     "XII picks up a substantial branch from C1 below the skull",
+     1,
+     "(Last's p. 465)"
+    ],
+    [
+     "The meningeal branch of XII carries C1 fibres",
+     1,
+     "All its non-lingual branches do. (Last's p. 465)"
+    ],
+    [
+     "Tongue myotomes migrate between the carotid arteries and the internal jugular vein",
+     1,
+     "Dragging XII with them. (Last's p. 465)"
+    ],
+    [
+     "There is always a communication between the hypoglossal and lingual nerves",
+     1,
+     "(Last's p. 485)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

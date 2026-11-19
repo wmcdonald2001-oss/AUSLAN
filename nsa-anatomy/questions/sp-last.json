@@ -958,6 +958,122 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Vertebral canal",
+   "y": 2,
+   "s": "Concerning the vertebral canal (Last's):",
+   "o": [
+    [
+     "The spinal cord is narrower than the dura, and the dura narrower than the canal",
+     1,
+     "So each adapts to movement without strain. (Last's p. 574)"
+    ],
+    [
+     "Epidural fat extends into the intervertebral foramina around the root sleeves",
+     1,
+     "(Last's p. 574)"
+    ],
+    [
+     "The filum terminale pierces the theca at S2 and blends with periosteum on the back of the coccyx",
+     1,
+     "(Last's p. 575)"
+    ],
+    [
+     "The internal vertebral plexus is like a ladder whose rungs are the basivertebral veins",
+     1,
+     "(Last's p. 574)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Atlas and axis",
+   "y": 2,
+   "s": "Concerning the atlas and axis (Last's):",
+   "o": [
+    [
+     "The centre for the anterior arch of the atlas appears at about 1 year",
+     1,
+     "It fuses at 7. (Last's p. 558)"
+    ],
+    [
+     "The lower articular facets of the atlas are deeply concave",
+     0,
+     "They are circular and flat or very gently concave. (Last's p. 556)"
+    ],
+    [
+     "The atlas transverse process usually shows distinct anterior and posterior tubercles",
+     0,
+     "Usually there are none. (Last's p. 556)"
+    ],
+    [
+     "The inferior articular facet of the axis faces upwards and backwards",
+     0,
+     "It faces downwards and forwards. (Last's p. 557)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Cervical vertebrae",
+   "y": 2,
+   "s": "Concerning a typical cervical vertebra (Last's):",
+   "o": [
+    [
+     "The spinous process of a typical cervical vertebra is single and rounded",
+     0,
+     "It is usually bifid. (Last's p. 556)"
+    ],
+    [
+     "The anterior longitudinal ligament is firmly attached to the front of the cervical bodies",
+     1,
+     "Longus colli overlies it. (Last's p. 555)"
+    ],
+    [
+     "The anterior longitudinal ligament spans the cervical basivertebral foramina",
+     0,
+     "The posterior longitudinal ligament spans them. (Last's p. 555)"
+    ],
+    [
+     "The bifid spine is excavated inferiorly by a pair of concavities for semispinalis",
+     1,
+     "(Last's p. 556)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Sacrum",
+   "y": 2,
+   "s": "Concerning the sacrum (Last's):",
+   "o": [
+    [
+     "The sacral canal is triangular in cross-section",
+     1,
+     "(Last's p. 554)"
+    ],
+    [
+     "The meninges extend down to S2 within the sacral canal",
+     1,
+     "(Last's p. 554)"
+    ],
+    [
+     "The anterior surface of the male sacrum is gently and uniformly concave",
+     1,
+     "The female is flat above and turns forward below. (Last's p. 554)"
+    ],
+    [
+     "The fifth sacral foramen is bounded behind by the lateral sacral crest",
+     0,
+     "It is formed behind by the cornua of sacrum and coccyx. (Last's p. 554)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }

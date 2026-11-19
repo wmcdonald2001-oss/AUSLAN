@@ -2002,6 +2002,180 @@
    ],
    "d": 3,
    "src": "Last's text"
+  },
+  {
+   "t": "Cavernous sinus",
+   "y": 2,
+   "s": "Concerning the cavernous sinus and its tributaries (Last's):",
+   "o": [
+    [
+     "The superficial middle cerebral vein pierces the roof of the cavernous sinus near the emerging internal carotid",
+     1,
+     "It crosses the subarachnoid space to do so. (Last's p. 567)"
+    ],
+    [
+     "The sphenoparietal sinus runs above the edge of the lesser wing of the sphenoid",
+     0,
+     "It runs beneath the edge of the lesser wing, between the dural layers. (Last's p. 567)"
+    ],
+    [
+     "The superior petrosal sinus leaves the bottom of the posterior wall of the cavernous sinus",
+     0,
+     "It leaves the top; the inferior petrosal leaves beneath the petroclinoid ligament. (Last's p. 567)"
+    ],
+    [
+     "The abducent nerve lies above the petroclinoid ligament",
+     0,
+     "It lies beneath it, within or alongside the inferior petrosal sinus. (Last's p. 567)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Venous sinuses",
+   "y": 2,
+   "s": "Concerning the dural venous sinuses (Last's):",
+   "o": [
+    [
+     "The superior sagittal sinus usually turns to the left at the internal occipital protuberance",
+     0,
+     "It usually turns right; the straight sinus usually turns left. (Last's p. 563)"
+    ],
+    [
+     "The sigmoid sinus may connect with the suboccipital plexus through the posterior condylar foramen",
+     1,
+     "When the foramen is present. (Last's p. 564)"
+    ],
+    [
+     "The basilar sinuses connect the two superior petrosal sinuses",
+     0,
+     "They connect the two inferior petrosal sinuses, on the clivus. (Last's p. 564)"
+    ],
+    [
+     "Thrombophlebitis of mastoid veins draining to the sigmoid sinus may cause cerebellar abscess",
+     1,
+     "(Last's p. 564)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Meninges",
+   "y": 2,
+   "s": "Concerning the cranial meninges (Last's):",
+   "o": [
+    [
+     "Entering cerebral arteries lie loose in pial sheaths surrounded by a perivascular space containing CSF",
+     1,
+     "The pia is invaginated by them. (Last's p. 559)"
+    ],
+    [
+     "Arachnoid villi are most numerous in the superior sagittal sinus and its lateral blood lakes",
+     1,
+     "They aggregate into granulations with age. (Last's p. 559)"
+    ],
+    [
+     "The fused dural layers strip easily from the vault but only with difficulty from the base",
+     1,
+     "(Last's p. 560)"
+    ],
+    [
+     "The outer (endosteal) dural layer is prolonged down the vertebral canal",
+     0,
+     "Only the inner layer forms the spinal dura; the outer layer never leaves bone. (Last's p. 560)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Dura",
+   "y": 2,
+   "s": "Concerning the vessels and nerves of the dura (Last's):",
+   "o": [
+    [
+     "The middle meningeal artery supplies the cortex beneath it",
+     0,
+     "It supplies the bones of the vault, not the brain. (Last's p. 562)"
+    ],
+    [
+     "There are two frontal diploic veins on each side",
+     0,
+     "One frontal, two parietal and one occipital. (Last's p. 562)"
+    ],
+    [
+     "The middle meningeal artery enters the skull through the foramen ovale",
+     0,
+     "Through the foramen spinosum; the accessory meningeal uses the foramen ovale. (Last's p. 562)"
+    ],
+    [
+     "Cervical spondylosis may cause deep orbital pain referred from the upper cervical dural supply",
+     1,
+     "Last's suggests the cervical supply extends beyond the foramen magnum. (Last's p. 563)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Pituitary",
+   "y": 2,
+   "s": "Concerning the pituitary region (Last's):",
+   "o": [
+    [
+     "The pituitary stalk slopes downwards and backwards to the diaphragma",
+     0,
+     "It slopes downwards and forwards. (Last's p. 569)"
+    ],
+    [
+     "The optic chiasma lies in front of the diaphragma sellae",
+     0,
+     "It lies above and towards the back of the diaphragma. (Last's p. 569)"
+    ],
+    [
+     "The pars nervosa and pars intermedia are often called together the anterior lobe",
+     0,
+     "They are often termed the posterior lobe. (Last's p. 569)"
+    ],
+    [
+     "The upper part of the pituitary stalk is hollow, continuous with the third ventricle",
+     1,
+     "The infundibulum. (Last's p. 569)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
+  },
+  {
+   "t": "Posterior fossa",
+   "y": 2,
+   "s": "Concerning the posterior cranial fossa (Last's):",
+   "o": [
+    [
+     "The trochlear nerve enters the middle fossa just behind the oculomotor nerve",
+     1,
+     "It pierces the back of the cavernous sinus roof. (Last's p. 570)"
+    ],
+    [
+     "The labyrinthine artery divides in the internal acoustic meatus",
+     1,
+     "Its branches accompany the nerves through the bony plate. (Last's p. 572)"
+    ],
+    [
+     "IX, X and XI cross the occipital bone behind the jugular tubercle in that order",
+     1,
+     "(Last's p. 572)"
+    ],
+    [
+     "The vertebral artery gives two small posterior spinal arteries after piercing the dura",
+     1,
+     "(Last's p. 573)"
+    ]
+   ],
+   "d": 3,
+   "src": "Last's text"
   }
  ]
 }
